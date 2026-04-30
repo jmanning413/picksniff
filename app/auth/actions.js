@@ -81,15 +81,18 @@ export async function signUp(prevState, formData) {
       username: parsed.data.username,
     })
 
-    // Auto-enroll in newsletter and send welcome email
+    // Auto-enroll in newsletter — only send welcome email if not already subscribed
     const admin = getAdmin()
     if (admin) {
-      await admin.from('subscribers').insert({ email: parsed.data.email }).then(() => {})
-    }
-    const resend = getResend()
-    if (resend) {
-      const { subject, html } = welcomeEmail()
-      resend.emails.send({ from: FROM, to: parsed.data.email, subject, html }).catch(() => {})
+      const { error: subError } = await admin.from('subscribers').insert({ email: parsed.data.email })
+      const isNewSubscriber = !subError || subError.code !== '23505'
+      if (isNewSubscriber) {
+        const resend = getResend()
+        if (resend) {
+          const { subject, html } = welcomeEmail()
+          resend.emails.send({ from: FROM, to: parsed.data.email, subject, html }).catch(() => {})
+        }
+      }
     }
   }
 
