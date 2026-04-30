@@ -2,6 +2,14 @@ import { createServerClient } from '@supabase/ssr'
 import { NextResponse } from 'next/server'
 
 export async function middleware(request) {
+  // Skip if Supabase env vars not configured (e.g. during local dev without .env.local)
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+    if (request.nextUrl.pathname === '/profile') {
+      return NextResponse.redirect(new URL('/auth', request.url))
+    }
+    return NextResponse.next()
+  }
+
   let supabaseResponse = NextResponse.next({ request })
 
   const supabase = createServerClient(
@@ -23,13 +31,8 @@ export async function middleware(request) {
     },
   )
 
-  // Refresh the session — keeps the user logged in across tab refreshes.
-  // getUser() is the only safe way to get the user in middleware.
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  const { data: { user } } = await supabase.auth.getUser()
 
-  // Redirect unauthenticated users away from /profile (own profile).
   if (request.nextUrl.pathname === '/profile' && !user) {
     return NextResponse.redirect(new URL('/auth', request.url))
   }
