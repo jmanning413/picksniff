@@ -54,6 +54,12 @@ export default async function Header() {
           >
             Trending
           </Link>
+          <Link
+            href="/support"
+            className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:bg-zinc-50 hover:text-black"
+          >
+            Support
+          </Link>
         </nav>
 
         {/* Right — desktop */}

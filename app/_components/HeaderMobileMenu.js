@@ -43,6 +43,9 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
             <Link href="/trending" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
               Trending
             </Link>
+            <Link href="/support" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
+              Support
+            </Link>
             <div className="my-2 border-t border-zinc-100" />
             {isLoggedIn ? (
               <Link

@@ -2,12 +2,6 @@ import { getSiteUrl, getStripe } from '@/lib/stripe'
 
 export const runtime = 'nodejs'
 
-const TIP_AMOUNTS = {
-  '3': 300,
-  '5': 500,
-  '10': 1000,
-}
-
 export async function POST(request) {
   const stripe = getStripe()
   if (!stripe) {
@@ -17,8 +11,8 @@ export async function POST(request) {
   let amount = 500
   try {
     const body = await request.json()
-    const cents = TIP_AMOUNTS[String(body.amount)]
-    if (cents) amount = cents
+    const parsed = Math.round(parseFloat(body.amount) * 100)
+    if (parsed >= 100 && parsed <= 99900) amount = parsed
   } catch {
     // use default $5
   }
