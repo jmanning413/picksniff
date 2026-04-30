@@ -26,26 +26,25 @@ export async function POST(request) {
   }
 
   const { email } = result.data
-
   const supabase = getAdminClient()
-  if (!supabase) {
-    return Response.json({ error: 'Service unavailable.' }, { status: 503 })
-  }
+  if (!supabase) return Response.json({ error: 'Service unavailable.' }, { status: 503 })
 
-  const { error } = await supabase.from('subscribers').insert({ email })
+  const { data: row, error } = await supabase
+    .from('subscribers')
+    .insert({ email })
+    .select('token')
+    .single()
 
   if (error) {
-    if (error.code === '23505') {
-      return Response.json({ ok: true })
-    }
+    if (error.code === '23505') return Response.json({ ok: true })
     console.error('[subscribe]', error)
     return Response.json({ error: 'Something went wrong. Try again.' }, { status: 500 })
   }
 
-  // Send welcome email (non-blocking — don't fail the request if email fails)
   const resend = getResend()
-  if (resend) {
-    const { subject, html } = welcomeEmail()
+  if (resend && row?.token) {
+    const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://picksniff.com'
+    const { subject, html } = welcomeEmail(`${base}/unsubscribe?token=${row.token}`)
     resend.emails.send({ from: FROM, to: email, subject, html }).catch((err) => {
       console.error('[subscribe/welcome-email]', err)
     })

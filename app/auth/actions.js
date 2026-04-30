@@ -84,12 +84,17 @@ export async function signUp(prevState, formData) {
     // Auto-enroll in newsletter — only send welcome email if not already subscribed
     const admin = getAdmin()
     if (admin) {
-      const { error: subError } = await admin.from('subscribers').insert({ email: parsed.data.email })
-      const isNewSubscriber = !subError || subError.code !== '23505'
-      if (isNewSubscriber) {
+      const { data: subRow, error: subError } = await admin
+        .from('subscribers')
+        .insert({ email: parsed.data.email })
+        .select('token')
+        .single()
+      const isNewSubscriber = !subError
+      if (isNewSubscriber && subRow?.token) {
         const resend = getResend()
         if (resend) {
-          const { subject, html } = welcomeEmail()
+          const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://picksniff.com'
+          const { subject, html } = welcomeEmail(`${base}/unsubscribe?token=${subRow.token}`)
           resend.emails.send({ from: FROM, to: parsed.data.email, subject, html }).catch(() => {})
         }
       }

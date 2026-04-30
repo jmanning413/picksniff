@@ -28,6 +28,9 @@ export default function Footer() {
           </Link>
         </nav>
         <p className="text-xs text-zinc-400">© {new Date().getFullYear()} PickSniff. All rights reserved.</p>
+        <p className="text-xs text-zinc-300">
+          <Link href="/unsubscribe" className="hover:text-zinc-400 transition">Unsubscribe from emails</Link>
+        </p>
       </div>
     </footer>
   )
