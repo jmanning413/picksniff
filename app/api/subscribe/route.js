@@ -1,5 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
 import { z } from 'zod'
+import { getResend, FROM } from '@/lib/resend'
+import { welcomeEmail } from '@/lib/emails/welcome'
 
 const schema = z.object({
   email: z.string().email(),
@@ -23,22 +25,30 @@ export async function POST(request) {
     return Response.json({ error: 'Please enter a valid email address.' }, { status: 400 })
   }
 
+  const { email } = result.data
+
   const supabase = getAdminClient()
   if (!supabase) {
     return Response.json({ error: 'Service unavailable.' }, { status: 503 })
   }
 
-  const { error } = await supabase
-    .from('subscribers')
-    .insert({ email: result.data.email })
+  const { error } = await supabase.from('subscribers').insert({ email })
 
   if (error) {
     if (error.code === '23505') {
-      // already subscribed — treat as success so we don't leak info
       return Response.json({ ok: true })
     }
     console.error('[subscribe]', error)
     return Response.json({ error: 'Something went wrong. Try again.' }, { status: 500 })
+  }
+
+  // Send welcome email (non-blocking — don't fail the request if email fails)
+  const resend = getResend()
+  if (resend) {
+    const { subject, html } = welcomeEmail()
+    resend.emails.send({ from: FROM, to: email, subject, html }).catch((err) => {
+      console.error('[subscribe/welcome-email]', err)
+    })
   }
 
   return Response.json({ ok: true })
