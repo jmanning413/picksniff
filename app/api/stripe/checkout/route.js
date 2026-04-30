@@ -1,56 +1,47 @@
-import { createClient } from '@/lib/supabase/server'
 import { getSiteUrl, getStripe } from '@/lib/stripe'
 
 export const runtime = 'nodejs'
 
-export async function POST() {
+const TIP_AMOUNTS = {
+  '3': 300,
+  '5': 500,
+  '10': 1000,
+}
+
+export async function POST(request) {
   const stripe = getStripe()
-  if (!stripe || !process.env.STRIPE_PRICE_ID) {
+  if (!stripe) {
     return Response.json({ error: 'Stripe is not configured yet.' }, { status: 503 })
   }
 
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-
-  if (!user) {
-    return Response.json({ error: 'You must be signed in to upgrade.' }, { status: 401 })
+  let amount = 500
+  try {
+    const body = await request.json()
+    const cents = TIP_AMOUNTS[String(body.amount)]
+    if (cents) amount = cents
+  } catch {
+    // use default $5
   }
 
   try {
-    const { data: profile } = await supabase
-      .from('profiles')
-      .select('stripe_customer_id, username')
-      .eq('id', user.id)
-      .single()
-
-    let customerId = profile?.stripe_customer_id
-
-    if (!customerId) {
-      const customer = await stripe.customers.create({
-        email: user.email,
-        metadata: { supabase_user_id: user.id, username: profile?.username ?? '' },
-      })
-      customerId = customer.id
-      const { error: updateError } = await supabase
-        .from('profiles')
-        .update({ stripe_customer_id: customerId })
-        .eq('id', user.id)
-
-      if (updateError) throw updateError
-    }
-
     const siteUrl = getSiteUrl()
     const session = await stripe.checkout.sessions.create({
-      customer: customerId,
-      client_reference_id: user.id,
-      mode: 'subscription',
-      line_items: [{ price: process.env.STRIPE_PRICE_ID, quantity: 1 }],
-      success_url: `${siteUrl}/profile?upgraded=1`,
-      cancel_url: `${siteUrl}/premium`,
-      metadata: { supabase_user_id: user.id },
-      subscription_data: {
-        metadata: { supabase_user_id: user.id },
-      },
+      mode: 'payment',
+      line_items: [
+        {
+          price_data: {
+            currency: 'usd',
+            unit_amount: amount,
+            product_data: {
+              name: 'Support PickSniff',
+              description: 'A one-time tip to help keep PickSniff free.',
+            },
+          },
+          quantity: 1,
+        },
+      ],
+      success_url: `${siteUrl}/support?thanks=1`,
+      cancel_url: `${siteUrl}/support`,
     })
 
     return Response.json({ url: session.url })

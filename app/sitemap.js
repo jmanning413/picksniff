@@ -5,7 +5,7 @@ export default async function sitemap() {
 
   const staticRoutes = [
     '', '/quiz', '/quiz/personality', '/encyclopedia', '/accords', '/trending',
-    '/seasonal', '/notes', '/about', '/privacy', '/terms', '/contact',
+    '/seasonal', '/notes', '/about', '/privacy', '/terms', '/contact', '/support',
   ].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),

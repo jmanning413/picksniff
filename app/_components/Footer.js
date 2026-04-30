@@ -23,6 +23,9 @@ export default function Footer() {
           <Link href="/trending" className="text-sm text-zinc-400 transition hover:text-black">
             Trending
           </Link>
+          <Link href="/support" className="text-sm text-zinc-400 transition hover:text-black">
+            Support Us
+          </Link>
         </nav>
         <p className="text-xs text-zinc-400">© {new Date().getFullYear()} PickSniff. All rights reserved.</p>
       </div>
