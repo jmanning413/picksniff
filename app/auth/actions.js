@@ -4,6 +4,14 @@ import { revalidatePath } from 'next/cache'
 import { redirect } from 'next/navigation'
 import { z } from 'zod'
 import { createClient } from '@/lib/supabase/server'
+import { createClient as createAdminClient } from '@supabase/supabase-js'
+import { getResend, FROM } from '@/lib/resend'
+import { welcomeEmail } from '@/lib/emails/welcome'
+
+function getAdmin() {
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) return null
+  return createAdminClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY)
+}
 
 const signInSchema = z.object({
   email: z.string().email('Please enter a valid email'),
@@ -72,6 +80,17 @@ export async function signUp(prevState, formData) {
       id: data.user.id,
       username: parsed.data.username,
     })
+
+    // Auto-enroll in newsletter and send welcome email
+    const admin = getAdmin()
+    if (admin) {
+      await admin.from('subscribers').insert({ email: parsed.data.email }).then(() => {})
+    }
+    const resend = getResend()
+    if (resend) {
+      const { subject, html } = welcomeEmail()
+      resend.emails.send({ from: FROM, to: parsed.data.email, subject, html }).catch(() => {})
+    }
   }
 
   revalidatePath('/', 'layout')
