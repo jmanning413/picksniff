@@ -13,10 +13,18 @@ export default function HomepageClient() {
     if (!email || loading) return
     setLoading(true)
     try {
-      // Store email capture — integrate Resend/Mailchimp here when ready
-      await new Promise((r) => setTimeout(r, 400))
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        toast.error(data.error || 'Something went wrong. Try again.')
+        return
+      }
       setSubmitted(true)
-      toast.success('You\'re on the list!')
+      toast.success("You're on the list!")
     } catch {
       toast.error('Something went wrong. Try again.')
     } finally {
