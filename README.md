@@ -20,6 +20,48 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Stripe Setup
+
+PickSniff Premium uses Stripe Checkout for a recurring subscription and Stripe Customer Portal for subscription management.
+
+1. In Stripe Dashboard, create a product named `PickSniff Premium` with a recurring monthly price. Put that price ID in `.env.local` as `STRIPE_PRICE_ID=price_...`.
+2. Add your Stripe keys to `.env.local`:
+
+```bash
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_WEBHOOK_SECRET=whsec_...
+STRIPE_PRICE_ID=price_...
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
+
+The webhook also needs the Supabase variables from `.env.example`, especially `SUPABASE_SERVICE_ROLE_KEY`, so it can update premium status after Stripe events.
+
+3. Enable Customer Portal in Stripe Dashboard so `/api/stripe/portal` can open the self-service billing page.
+4. For local webhook testing, install and sign in to the Stripe CLI, then run:
+
+```bash
+stripe listen --forward-to localhost:3000/api/stripe/webhook
+```
+
+Copy the printed `whsec_...` value into `STRIPE_WEBHOOK_SECRET`.
+
+5. In production, add a webhook endpoint at:
+
+```txt
+https://your-domain.com/api/stripe/webhook
+```
+
+Subscribe it to these events:
+
+```txt
+checkout.session.completed
+customer.subscription.created
+customer.subscription.updated
+customer.subscription.deleted
+invoice.payment_succeeded
+invoice.payment_failed
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "female-sport-budget-clinique-happy",
+    "name": "Happy",
+    "brand": "Clinique",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-davidoff-cool-water-woman",
+    "name": "Cool Water Woman",
+    "brand": "Davidoff",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-lopez-glow-edt-jennifer",
+    "name": "Glow EDT Jennifer",
+    "brand": "Lopez",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-dkny-be-delicious",
+    "name": "Be Delicious",
+    "brand": "DKNY",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-nautica-nautica-voyage-pour-elle",
+    "name": "Nautica Voyage Pour Elle",
+    "brand": "Nautica",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-lacoste-lacoste-l-12-12-pour-elle-fra-356che",
+    "name": "Lacoste L.12.12 Pour Elle Fra\\356che",
+    "brand": "Lacoste",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-escada-escada-island-kiss",
+    "name": "Escada Island Kiss",
+    "brand": "Escada",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-victoria-s-secret-victoria-s-secret-bombshell-summer",
+    "name": "Victoria's Secret Bombshell Summer",
+    "brand": "Victoria's Secret",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-ariana-grande-ariana-grande-cloud",
+    "name": "Ariana Grande Cloud",
+    "brand": "Ariana Grande",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-lauder-pleasures-edt-estee",
+    "name": "Pleasures EDT Estée",
+    "brand": "Lauder",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-giorgio-armani-acqua-di-gioia",
+    "name": "Acqua di Gioia",
+    "brand": "Giorgio Armani",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Aquatic",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Aquatic",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-hugo-boss-hugo-woman",
+    "name": "Hugo Woman",
+    "brand": "Hugo Boss",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-versace-versace-versense",
+    "name": "Versace Versense",
+    "brand": "Versace",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-calvin-klein-ck-one",
+    "name": "CK One",
+    "brand": "Calvin Klein",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-escada-escada-sorbetto-rosso",
+    "name": "Escada Sorbetto Rosso",
+    "brand": "Escada",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Citrus",
+      "Fresh"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Citrus",
+      "Fresh"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-versace-versace-dylan-blue-pour-femme",
+    "name": "Versace Dylan Blue Pour Femme",
+    "brand": "Versace",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-budget-lacoste-lacoste-eau-de-lacoste-l-12-12-pour-elle-energetic",
+    "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Energetic",
+    "brand": "Lacoste",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-chanel-chance-eau-fra-356che",
+    "name": "Chance Eau Fra\\356che",
+    "brand": "Chanel",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-dior-miss-dior-blooming-bouquet",
+    "name": "Miss Dior Blooming Bouquet",
+    "brand": "Dior",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-gucci-bloom-acqua-di-fiori",
+    "name": "Bloom Acqua di Fiori",
+    "brand": "Gucci",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Aquatic",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Aquatic",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-dolce-gabbana-light-blue-eau-intense",
+    "name": "Light Blue Eau Intense",
+    "brand": "Dolce & Gabbana",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-yves-saint-laurent-libre",
+    "name": "Libre",
+    "brand": "Yves Saint Laurent",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-paco-rabanne-olympea",
+    "name": "Olympéa",
+    "brand": "Paco Rabanne",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Aquatic",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Aquatic",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-versace-versace-bright-crystal",
+    "name": "Versace Bright Crystal",
+    "brand": "Versace",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-burberry-burberry-her-london-dream",
+    "name": "Burberry Her London Dream",
+    "brand": "Burberry",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-prada-prada-infusion-d-iris",
+    "name": "Prada Infusion d'Iris",
+    "brand": "Prada",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-marc-jacobs-daisy-eau-so-fresh",
+    "name": "Daisy Eau So Fresh",
+    "brand": "Marc Jacobs",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-viktor-rolf-flowerbomb-dew",
+    "name": "Flowerbomb Dew",
+    "brand": "Viktor & Rolf",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-carolina-herrera-good-girl-legere",
+    "name": "Good Girl Légère",
+    "brand": "Carolina Herrera",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-lancome-idole",
+    "name": "Idôle",
+    "brand": "Lancôme",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-yves-saint-laurent-mon-paris",
+    "name": "Mon Paris",
+    "brand": "Yves Saint Laurent",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-giorgio-armani-si",
+    "name": "Si",
+    "brand": "Giorgio Armani",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-marc-jacobs-marc-jacobs-honey",
+    "name": "Marc Jacobs Honey",
+    "brand": "Marc Jacobs",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-quality-bvlgari-bvlgari-omnia-crystalline",
+    "name": "Bvlgari Omnia Crystalline",
+    "brand": "Bvlgari",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-jo-malone-jo-malone-lime-basil-mandarin",
+    "name": "Jo Malone Lime Basil & Mandarin",
+    "brand": "Jo Malone",
+    "concentration": "Cologne",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-maison-margiela-maison-margiela-replica-beach-walk",
+    "name": "Maison Margiela Replica Beach Walk",
+    "brand": "Maison Margiela",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-maison-margiela-maison-margiela-replica-sailing-day",
+    "name": "Maison Margiela Replica Sailing Day",
+    "brand": "Maison Margiela",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-le-labo-le-labo-bergamote-22",
+    "name": "Le Labo Bergamote 22",
+    "brand": "Le Labo",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-hermes-hermes-un-jardin-sur-le-nil",
+    "name": "Hermès Un Jardin Sur Le Nil",
+    "brand": "Hermès",
+    "concentration": "EDT",
+    "tier": "niche",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-hermes-hermes-un-jardin-sur-le-toit",
+    "name": "Hermès Un Jardin Sur Le Toit",
+    "brand": "Hermès",
+    "concentration": "EDT",
+    "tier": "niche",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-louis-vuitton-lv-spell-on-you",
+    "name": "LV Spell on You",
+    "brand": "Louis Vuitton",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Fruity",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-creed-creed-love-in-white",
+    "name": "Creed Love in White",
+    "brand": "Creed",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-jo-malone-jo-malone-wood-sage-sea-salt",
+    "name": "Jo Malone Wood Sage & Sea Salt",
+    "brand": "Jo Malone",
+    "concentration": "Cologne",
+    "tier": "niche",
+    "accords": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "top_notes": [
+      "Aquatic",
+      "Fresh",
+      "Citrus"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-le-labo-le-labo-citron-28",
+    "name": "Le Labo Citron 28",
+    "brand": "Le Labo",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-maison-margiela-maison-margiela-replica-under-the-lemon-trees",
+    "name": "Maison Margiela Replica Under the Lemon Trees",
+    "brand": "Maison Margiela",
+    "concentration": "EDT",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-hermes-hermes-eau-de-citron-noir",
+    "name": "Hermès Eau de Citron Noir",
+    "brand": "Hermès",
+    "concentration": "EDC",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Aquatic"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Aquatic"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-atelier-cologne-atelier-cologne-orange-sanguine",
+    "name": "Atelier Cologne Orange Sanguine",
+    "brand": "Atelier Cologne",
+    "concentration": "Cologne Absolue",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-parfums-de-marly-parfums-de-marly-meliora",
+    "name": "Parfums de Marly Meliora",
+    "brand": "Parfums de Marly",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-xerjoff-xerjoff-soprano",
+    "name": "Xerjoff Soprano",
+    "brand": "Xerjoff",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Citrus",
+      "Fresh",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-sport-niche-penhaligon-s-penhaligon-s-clandestine-clara",
+    "name": "Penhaligon's Clandestine Clara",
+    "brand": "Penhaligon's",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Fresh",
+      "Citrus",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  }
+]

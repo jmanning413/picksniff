@@ -1,0 +1,982 @@
+[
+  {
+    "id": "male-date-night-budget-joop-joop-homme",
+    "name": "Joop! Homme",
+    "brand": "Joop!",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Floral"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Floral"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-paco-rabanne-1-million",
+    "name": "1 Million",
+    "brand": "Paco Rabanne",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-azzaro-azzaro-wanted-by-night",
+    "name": "Azzaro Wanted by Night",
+    "brand": "Azzaro",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Spicy",
+      "Woody",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Woody",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-viktor-rolf-spicebomb",
+    "name": "Spicebomb",
+    "brand": "Viktor & Rolf",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Spicy",
+      "Woody",
+      "Amber"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Woody",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-carolina-herrera-bad-boy",
+    "name": "Bad Boy",
+    "brand": "Carolina Herrera",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-jean-paul-gaultier-le-male",
+    "name": "Le Male",
+    "brand": "Jean Paul Gaultier",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-dolce-gabbana-dolce-gabbana-pour-homme",
+    "name": "Dolce & Gabbana Pour Homme",
+    "brand": "Dolce & Gabbana",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-valentino-valentino-uomo",
+    "name": "Valentino Uomo",
+    "brand": "Valentino",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Woody",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-paco-rabanne-paco-rabanne-phantom",
+    "name": "Paco Rabanne Phantom",
+    "brand": "Paco Rabanne",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-paco-rabanne-1-million-royal",
+    "name": "1 Million Royal",
+    "brand": "Paco Rabanne",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-prada-prada-l-homme-intense",
+    "name": "Prada L'Homme Intense",
+    "brand": "Prada",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Amber",
+      "Woody",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Amber",
+      "Woody",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-guess-guess-seductive-noir",
+    "name": "Guess Seductive Noir",
+    "brand": "Guess",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Amber",
+      "Spicy",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Amber",
+      "Spicy",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-lacoste-lacoste-l-12-12-noir",
+    "name": "Lacoste L.12.12 Noir",
+    "brand": "Lacoste",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-giorgio-armani-armani-code",
+    "name": "Armani Code",
+    "brand": "Giorgio Armani",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-versace-eros-flame",
+    "name": "Eros Flame",
+    "brand": "Versace",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-paco-rabanne-1-million-prive",
+    "name": "1 Million Privé",
+    "brand": "Paco Rabanne",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-budget-calvin-klein-obsession-for-men",
+    "name": "Obsession for Men",
+    "brand": "Calvin Klein",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Amber",
+      "Spicy",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Amber",
+      "Spicy",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-viktor-rolf-spicebomb-extreme",
+    "name": "Spicebomb Extreme",
+    "brand": "Viktor & Rolf",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Spicy",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-yves-saint-laurent-la-nuit-de-l-homme",
+    "name": "La Nuit de L'Homme",
+    "brand": "Yves Saint Laurent",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Spicy",
+      "Woody",
+      "Amber"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Woody",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-dior-dior-homme-intense",
+    "name": "Dior Homme Intense",
+    "brand": "Dior",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Woody",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Woody",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-emporio-armani-stronger-with-you-intensely",
+    "name": "Stronger With You Intensely",
+    "brand": "Emporio Armani",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-dior-sauvage",
+    "name": "Sauvage",
+    "brand": "Dior",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Amber",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-chanel-allure-homme-sport",
+    "name": "Allure Homme Sport",
+    "brand": "Chanel",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-parfums-de-marly-layton",
+    "name": "Layton",
+    "brand": "Parfums de Marly",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Vanilla",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Vanilla",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-givenchy-gentleman-reserve-privee",
+    "name": "Gentleman Reserve Privée",
+    "brand": "Givenchy",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-montblanc-legend-night",
+    "name": "Legend Night",
+    "brand": "Montblanc",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-versace-eros-flame-edp-quality",
+    "name": "Eros Flame EDP Quality",
+    "brand": "Versace",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-chanel-bleu-de-chanel",
+    "name": "Bleu de Chanel",
+    "brand": "Chanel",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Woody",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-diesel-diesel-spirit-of-the-brave",
+    "name": "Diesel Spirit of the Brave",
+    "brand": "Diesel",
+    "concentration": "EDT",
+    "tier": "quality",
+    "accords": [
+      "Spicy",
+      "Woody",
+      "Amber"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Woody",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-jean-paul-gaultier-le-male-le",
+    "name": "Le Male Le",
+    "brand": "Jean Paul Gaultier",
+    "concentration": "Parfum",
+    "tier": "quality",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-yves-saint-laurent-y-le",
+    "name": "Y Le",
+    "brand": "Yves Saint Laurent",
+    "concentration": "Parfum",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-serge-lutens-chergui",
+    "name": "Chergui",
+    "brand": "Serge Lutens",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Amber",
+      "Vanilla",
+      "Woody"
+    ],
+    "top_notes": [
+      "Amber",
+      "Vanilla",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-hugo-boss-boss-bottled",
+    "name": "Boss Bottled",
+    "brand": "Hugo Boss",
+    "concentration": "Parfum",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-quality-dior-fahrenheit",
+    "name": "Fahrenheit",
+    "brand": "Dior",
+    "concentration": "Parfum",
+    "tier": "quality",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-tom-ford-tobacco-vanille",
+    "name": "Tobacco Vanille",
+    "brand": "Tom Ford",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-tom-ford-tuscan-leather",
+    "name": "Tuscan Leather",
+    "brand": "Tom Ford",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Amber",
+      "Woody",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Amber",
+      "Woody",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-tom-ford-oud-wood",
+    "name": "Oud Wood",
+    "brand": "Tom Ford",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-creed-creed-millesime-imperial",
+    "name": "Creed Millésime Impérial",
+    "brand": "Creed",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-by-kilian-angels-share",
+    "name": "Angels' Share",
+    "brand": "By Kilian",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-parfums-de-marly-herod",
+    "name": "Herod",
+    "brand": "Parfums de Marly",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Woody"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-xerjoff-naxos",
+    "name": "Naxos",
+    "brand": "Xerjoff",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-roja-parfums-elysium-pour-homme",
+    "name": "Elysium Pour Homme",
+    "brand": "Roja Parfums",
+    "concentration": "Parfum",
+    "tier": "niche",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-frederic-malle-musc-ravageur",
+    "name": "Musc Ravageur",
+    "brand": "Frederic Malle",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Amber",
+      "Vanilla",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Amber",
+      "Vanilla",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-histoires-de-parfums-duro-edp-nasomatto-edp-woody-267-amber-267-spicy-11-1899-hemingway",
+    "name": "Duro EDP Nasomatto EDP Woody \\267 Amber \\267 Spicy 11 1899 Hemingway",
+    "brand": "Histoires de Parfums",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-louis-vuitton-lv-ombre-nomade",
+    "name": "LV Ombre Nomade",
+    "brand": "Louis Vuitton",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Woody",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-amouage-amouage-interlude-53",
+    "name": "Amouage Interlude 53",
+    "brand": "Amouage",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Amber",
+      "Woody",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Amber",
+      "Woody",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-creed-viking-cologne",
+    "name": "Viking Cologne",
+    "brand": "Creed",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "top_notes": [
+      "Spicy",
+      "Amber",
+      "Woody"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-parfums-de-marly-pegasus",
+    "name": "Pegasus",
+    "brand": "Parfums de Marly",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Spicy"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Amber",
+      "Spicy"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "male-date-night-niche-tom-ford-noir-extreme",
+    "name": "Noir Extreme",
+    "brand": "Tom Ford",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Spicy",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "female-chill-budget-works-warm-vanilla-sugar-edt-bath-body",
+    "name": "Warm Vanilla Sugar EDT Bath & Body",
+    "brand": "Works",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Fruity",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Fruity",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-victoria-s-secret-love-spell",
+    "name": "Love Spell",
+    "brand": "Victoria's Secret",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-karan-cashmere-mist-edp-donna",
+    "name": "Cashmere Mist EDP Donna",
+    "brand": "Karan",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-ariana-grande-ari",
+    "name": "Ari",
+    "brand": "Ariana Grande",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-works-sweet-pea-edp-bath-body",
+    "name": "Sweet Pea EDP Bath & Body",
+    "brand": "Works",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-wang-princess-edp-vera",
+    "name": "Princess EDP Vera",
+    "brand": "Wang",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-lempicka-lolita-lempicka-edp-lolita",
+    "name": "Lolita Lempicka EDP Lolita",
+    "brand": "Lempicka",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Floral",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Floral",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-marc-jacobs-daisy-dream",
+    "name": "Daisy Dream",
+    "brand": "Marc Jacobs",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-moschino-moschino-toy-2",
+    "name": "Moschino Toy 2",
+    "brand": "Moschino",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-ricci-nina-edp-nina",
+    "name": "Nina EDP Nina",
+    "brand": "Ricci",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Floral",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-juicy-couture-viva-la-juicy-la-fleur",
+    "name": "Viva La Juicy La Fleur",
+    "brand": "Juicy Couture",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-diesel-diesel-loverdose",
+    "name": "Diesel Loverdose",
+    "brand": "Diesel",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Floral",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Floral",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-guess-guess-seductive",
+    "name": "Guess Seductive",
+    "brand": "Guess",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-lavigne-forbidden-rose-edp-avril",
+    "name": "Forbidden Rose EDP Avril",
+    "brand": "Lavigne",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-avon-incandessence",
+    "name": "Incandessence",
+    "brand": "Avon",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-dolce-gabbana-rose-the-one",
+    "name": "Rose The One",
+    "brand": "Dolce & Gabbana",
+    "concentration": "EDT",
+    "tier": "budget",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-budget-thierry-mugler-angel-muse",
+    "name": "Angel Muse",
+    "brand": "Thierry Mugler",
+    "concentration": "EDP",
+    "tier": "budget",
+    "accords": [
+      "Vanilla",
+      "Fruity",
+      "Amber"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Fruity",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-lancome-la-vie-est-belle-l-311clat",
+    "name": "La Vie Est Belle L'\\311clat",
+    "brand": "Lancôme",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-carolina-herrera-good-girl-supreme",
+    "name": "Good Girl Supreme",
+    "brand": "Carolina Herrera",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-giorgio-armani-si",
+    "name": "Si",
+    "brand": "Giorgio Armani",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-gucci-gucci-bloom",
+    "name": "Gucci Bloom",
+    "brand": "Gucci",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-lancome-la-vie-est-belle",
+    "name": "La Vie Est Belle",
+    "brand": "Lancôme",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-marc-jacobs-daisy",
+    "name": "Daisy",
+    "brand": "Marc Jacobs",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-guerlain-mon-guerlain",
+    "name": "Mon Guerlain",
+    "brand": "Guerlain",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-valentino-valentino-donna",
+    "name": "Valentino Donna",
+    "brand": "Valentino",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-giorgio-armani-si-passione",
+    "name": "Si Passione",
+    "brand": "Giorgio Armani",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-lancome-tresor",
+    "name": "Tresor",
+    "brand": "Lancôme",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-prada-prada-candy",
+    "name": "Prada Candy",
+    "brand": "Prada",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Floral"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Amber",
+      "Floral"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-dior-miss-dior",
+    "name": "Miss Dior",
+    "brand": "Dior",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-paco-rabanne-olympea",
+    "name": "Olympéa",
+    "brand": "Paco Rabanne",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-yves-saint-laurent-yves-saint-laurent-libre",
+    "name": "Yves Saint Laurent Libre",
+    "brand": "Yves Saint Laurent",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-viktor-rolf-flowerbomb",
+    "name": "Flowerbomb",
+    "brand": "Viktor & Rolf",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-burberry-burberry-her",
+    "name": "Burberry Her",
+    "brand": "Burberry",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Fruity",
+      "Floral",
+      "Amber"
+    ],
+    "top_notes": [
+      "Fruity",
+      "Floral",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-quality-chanel-coco-mademoiselle",
+    "name": "Coco Mademoiselle",
+    "brand": "Chanel",
+    "concentration": "EDP",
+    "tier": "quality",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-parfums-de-marly-parfums-de-marly-delina",
+    "name": "Parfums de Marly Delina",
+    "brand": "Parfums de Marly",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-parfums-de-marly-parfums-de-marly-cassili",
+    "name": "Parfums de Marly Cassili",
+    "brand": "Parfums de Marly",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-maison-margiela-maison-margiela-replica-lazy-sunday-morning",
+    "name": "Maison Margiela Replica Lazy Sunday Morning",
+    "brand": "Maison Margiela",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-maison-margiela-maison-margiela-replica-flower-market",
+    "name": "Maison Margiela Replica Flower Market",
+    "brand": "Maison Margiela",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-maison-margiela-maison-margiela-replica-on-a-date",
+    "name": "Maison Margiela Replica On A Date",
+    "brand": "Maison Margiela",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-tom-ford-tom-ford-black-orchid",
+    "name": "Tom Ford Black Orchid",
+    "brand": "Tom Ford",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-le-labo-le-labo-santal-33",
+    "name": "Le Labo Santal 33",
+    "brand": "Le Labo",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Floral"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Amber",
+      "Floral"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-le-labo-le-labo-another-13",
+    "name": "Le Labo Another 13",
+    "brand": "Le Labo",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-creed-creed-fleurissimo",
+    "name": "Creed Fleurissimo",
+    "brand": "Creed",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Fruity"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-frederic-malle-frederic-malle-portrait-of-a-lady",
+    "name": "Frederic Malle Portrait of a Lady",
+    "brand": "Frederic Malle",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Amber",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-amouage-amouage-blossom-love",
+    "name": "Amouage Blossom Love",
+    "brand": "Amouage",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "top_notes": [
+      "Floral",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-louis-vuitton-lv-attrape-reves",
+    "name": "LV Attrape-Rêves",
+    "brand": "Louis Vuitton",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-penhaligon-s-penhaligon-s-babylon",
+    "name": "Penhaligon's Babylon",
+    "brand": "Penhaligon's",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Amber",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-roja-parfums-roja-parfums-elysium-pour-femme",
+    "name": "Roja Parfums Elysium Pour Femme",
+    "brand": "Roja Parfums",
+    "concentration": "Parfum",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-xerjoff-xerjoff-casamorati-fiore-d-ulivo",
+    "name": "Xerjoff Casamorati Fiore d'Ulivo",
+    "brand": "Xerjoff",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "top_notes": [
+      "Floral",
+      "Fruity",
+      "Vanilla"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  },
+  {
+    "id": "female-chill-niche-initio-initio-side-effect",
+    "name": "Initio Side Effect",
+    "brand": "Initio",
+    "concentration": "EDP",
+    "tier": "niche",
+    "accords": [
+      "Vanilla",
+      "Amber",
+      "Floral"
+    ],
+    "top_notes": [
+      "Vanilla",
+      "Amber",
+      "Floral"
+    ],
+    "description": "",
+    "sephora_url": null,
+    "jomashop_url": null
+  }
+]
