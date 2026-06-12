@@ -227,7 +227,14 @@ function Row({ label, value, accent }) {
   )
 }
 
-export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vibe, accords, isLoggedIn, wishlistMap, ownedMap }) {
+const MODE_COPY = {
+  gift:     { eyebrow: 'Gift Results',   heading: 'Perfect Gifts For Them',    sub: 'Ranked by occasion, budget, and their likely preferences.' },
+  mood:     { eyebrow: 'Mood Results',   heading: 'Scents For Your Mood',      sub: 'Matched to how you\'re feeling right now.' },
+  seasonal: { eyebrow: 'Seasonal Picks', heading: 'Your Seasonal Matches',     sub: 'Tuned to the season and your preferences.' },
+  astrology:{ eyebrow: 'Star Scents',    heading: 'Your Zodiac Matches',       sub: 'Written in the stars, scored to your sign.' },
+}
+
+export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vibe, accords, isLoggedIn, wishlistMap, ownedMap, mode }) {
   const [blindPick, setBlindPick] = useState(null)
   const [compareList, setCompareList] = useState([])
   const [showCompare, setShowCompare] = useState(false)
@@ -263,10 +270,10 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
       <section className="mx-auto w-full max-w-6xl px-5 py-8 sm:px-8 sm:py-12">
         <div className="mb-8 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">PickSniff Results</p>
-            <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Your Matches</h1>
+            <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">{MODE_COPY[mode]?.eyebrow ?? 'PickSniff Results'}</p>
+            <h1 className="text-4xl font-black tracking-tight sm:text-5xl">{MODE_COPY[mode]?.heading ?? 'Your Matches'}</h1>
             <p className="mt-3 max-w-2xl text-base leading-7 text-zinc-500">
-              Ranked by your gender, tier, vibe, and accord picks.
+              {MODE_COPY[mode]?.sub ?? 'Ranked by your gender, tier, vibe, and accord picks.'}
             </p>
             <div className="mt-4 flex flex-wrap items-center gap-3">
               <button

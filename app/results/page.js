@@ -56,6 +56,7 @@ export default async function ResultsPage({ searchParams }) {
     ownedIds = new Set((owned ?? []).map((o) => o.fragrance_id))
   }
 
+  const mode = params.mode || null
   const limit = isLoggedIn ? 20 : 10
   const fragrances = await matchFragrances({ genders, tier, vibe, accords, concentrations, limit })
 
@@ -88,6 +89,7 @@ export default async function ResultsPage({ searchParams }) {
         wishlistMap={wishlistMap}
         ownedMap={ownedMap}
         username={null}
+        mode={mode}
       />
       <Footer />
     </div>
