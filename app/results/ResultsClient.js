@@ -133,11 +133,6 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
         </div>
       )}
 
-      {notes.length > 0 && (
-        <p className="mt-4 text-sm leading-6 text-zinc-600">
-          <span className="font-black text-black">Top notes: </span>{notes.join(', ')}
-        </p>
-      )}
 
       <p className="mt-3 text-sm leading-6 text-zinc-500">{description}</p>
 
