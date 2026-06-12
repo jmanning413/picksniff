@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useUser } from '@/lib/hooks/useUser'
 import AccountGate from '@/app/_components/AccountGate'
 
@@ -27,7 +27,7 @@ const VIBES = [
   { id: 'formal', label: 'Formal' },
 ]
 
-const ACCORDS = [
+const ACCORDS_FALLBACK = [
   'Citrus', 'Floral', 'Woody', 'Vanilla', 'Amber',
   'Spicy', 'Fresh', 'Aromatic', 'Fruity', 'Aquatic', 'Green',
 ]
@@ -74,6 +74,46 @@ export default function QuizPage() {
   const [notes, setNotes] = useState([])
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitError, setSubmitError] = useState('')
+  const [availableAccords, setAvailableAccords] = useState(null) // null = not yet fetched
+  const [accordsLoading, setAccordsLoading] = useState(false)
+  const fetchKeyRef = useRef(null)
+
+  // Fetch available accords when the user reaches Step 4 (index 3)
+  // Also prefetch as soon as Steps 1-3 are all complete
+  useEffect(() => {
+    if (genders.length === 0 || !tier || !vibe) return
+    // Don't re-fetch if we already have results for this exact combo
+    const key = `${genders.sort().join(',')}|${tier}|${vibe}`
+    if (fetchKeyRef.current === key) return
+    fetchKeyRef.current = key
+
+    setAccordsLoading(true)
+    // Call once per selected gender in parallel, then union results
+    Promise.all(
+      genders.map((g) =>
+        fetch(`/api/quiz/accords?gender=${g}&tier=${tier}&vibe=${vibe}`)
+          .then((r) => r.ok ? r.json() : { accords: [] })
+          .then((d) => d.accords || [])
+          .catch(() => [])
+      )
+    ).then((perGenderAccords) => {
+      // Count how many gender pools contain each accord (most universal first)
+      const counts = {}
+      for (const list of perGenderAccords) {
+        for (const a of list) {
+          counts[a] = (counts[a] || 0) + 1
+        }
+      }
+      const merged = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([accord]) => accord)
+      setAvailableAccords(merged.length > 0 ? merged : ACCORDS_FALLBACK)
+    }).catch(() => {
+      setAvailableAccords(ACCORDS_FALLBACK)
+    }).finally(() => {
+      setAccordsLoading(false)
+    })
+  }, [genders, tier, vibe])
 
   const progress = useMemo(() => ((step + 1) / STEPS.length) * 100, [step, STEPS.length])
   const currentStep = STEPS[step]
@@ -229,25 +269,36 @@ export default function QuizPage() {
 
           {step === 3 && (
             <div className="flex flex-wrap gap-2.5">
-              {ACCORDS.map((accord) => {
-                const selected = accords.includes(accord)
-                const disabled = accords.length >= 3 && !selected
-                return (
-                  <button
-                    key={accord}
-                    type="button"
-                    onClick={() => toggleAccord(accord)}
-                    disabled={disabled}
-                    aria-pressed={selected}
-                    className={[
-                      'min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
-                      selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-zinc-200 bg-white text-zinc-700 hover:border-green-accent',
-                    ].join(' ')}
-                  >
-                    {accord}
-                  </button>
-                )
-              })}
+              {accordsLoading || availableAccords === null ? (
+                // Skeleton pills while fetching
+                Array.from({ length: 7 }).map((_, i) => (
+                  <div
+                    key={i}
+                    className="h-11 rounded-full bg-zinc-100 animate-pulse"
+                    style={{ width: `${72 + (i % 3) * 20}px` }}
+                  />
+                ))
+              ) : (
+                availableAccords.map((accord) => {
+                  const selected = accords.includes(accord)
+                  const disabled = accords.length >= 3 && !selected
+                  return (
+                    <button
+                      key={accord}
+                      type="button"
+                      onClick={() => toggleAccord(accord)}
+                      disabled={disabled}
+                      aria-pressed={selected}
+                      className={[
+                        'min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
+                        selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-zinc-200 bg-white text-zinc-700 hover:border-green-accent',
+                      ].join(' ')}
+                    >
+                      {accord}
+                    </button>
+                  )
+                })
+              )}
             </div>
           )}
 
