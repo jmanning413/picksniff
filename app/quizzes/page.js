@@ -39,8 +39,12 @@ function IconMood() {
 function IconLeaf() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M16 4 C22 8 25 14 22 20 C19 24 17 26 16 27 C15 26 13 24 10 20 C7 14 10 8 16 4 Z" />
-      <line x1="16" y1="4" x2="16" y2="27" />
+      <path d="M16 3 C20 4 24 10 23 17 C22 22 19 27 16 29 C13 27 10 22 9 17 C8 10 12 4 16 3 Z" />
+      <line x1="16" y1="3" x2="16" y2="29" />
+      <line x1="16" y1="11" x2="10" y2="17" />
+      <line x1="16" y1="11" x2="22" y2="16" />
+      <line x1="16" y1="19" x2="11" y2="24" />
+      <line x1="16" y1="19" x2="21" y2="23" />
     </svg>
   )
 }
