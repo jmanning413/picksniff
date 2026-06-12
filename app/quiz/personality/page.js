@@ -143,7 +143,7 @@ export default function PersonalityQuizPage() {
             href="/quiz"
             className="mt-4 text-sm font-bold text-zinc-400 transition hover:text-black"
           >
-            Or take the full 4-step quiz →
+            Or take the Signature Scent Quiz →
           </Link>
         </div>
       </main>

@@ -4,7 +4,7 @@ import Footer from '@/app/_components/Footer'
 
 export const metadata = {
   title: 'Quizzes — PickSniff',
-  description: 'Find your perfect fragrance through one of our guided quizzes. Classic, personality, seasonal, astrology, and gift quizzes.',
+  description: 'Find your perfect fragrance through one of our guided quizzes. Signature scent, personality, seasonal, astrology, and gift quizzes.',
 }
 
 const QUIZZES = [
@@ -12,9 +12,9 @@ const QUIZZES = [
     href: '/quiz',
     icon: '👃',
     eyebrow: 'Most Popular',
-    title: 'Classic Fragrance Quiz',
-    description: 'Answer 4 questions — gender, budget, vibe, and accords — and get matched to your perfect scent from 750 fragrances.',
-    cta: 'Find My Scent',
+    title: 'Signature Scent Quiz',
+    description: 'Answer 4 questions — gender, budget, vibe, and accords — and get matched to your signature scent from 750 fragrances.',
+    cta: 'Find My Signature Scent',
     accent: true,
     steps: '4 steps · ~1 min',
   },

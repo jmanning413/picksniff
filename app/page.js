@@ -51,7 +51,7 @@ export default async function Home() {
             Pick<span className="text-green-accent">Sniff</span>
           </h1>
           <p className="mt-4 max-w-xl text-xl leading-8 text-zinc-500">
-            Find your perfect fragrance in 4 questions. No jargon. No overwhelm. Just your scent.
+            Find your signature scent in 4 questions. No jargon. No overwhelm. Just your scent.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <Link
