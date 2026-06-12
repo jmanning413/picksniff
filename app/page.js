@@ -61,10 +61,10 @@ export default async function Home() {
               Find My Scent
             </Link>
             <Link
-              href="/quiz/personality"
+              href="/quizzes"
               className="inline-flex min-h-14 items-center rounded-full border border-zinc-200 px-8 text-base font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
             >
-              Take the Personality Quiz →
+              Explore All Quizzes →
             </Link>
           </div>
         </section>

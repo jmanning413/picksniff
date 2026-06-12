@@ -31,8 +31,8 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
           onClick={() => setOpen(false)}
         >
           <nav className="flex flex-col gap-1">
-            <Link href="/quiz" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
-              Quiz
+            <Link href="/quizzes" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
+              Quizzes
             </Link>
             <Link href="/encyclopedia" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
               Encyclopedia
