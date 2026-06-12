@@ -11,62 +11,50 @@ const QUIZZES = [
   {
     href: '/quiz',
     icon: '👃',
-    eyebrow: 'Most Popular',
     title: 'Signature Scent Quiz',
     description: 'Answer 4 questions — gender, budget, vibe, and accords — and get matched to your signature scent from 750 fragrances.',
     cta: 'Find My Signature Scent',
     accent: true,
-    steps: '4 steps · ~1 min',
   },
   {
     href: '/quiz/personality',
     icon: '✨',
-    eyebrow: 'Personality',
     title: 'Personality Quiz',
     description: 'Pick a vibe, a place, a time of day. Discover your fragrance archetype — The Dark Romantic, The Fresh Minimalist, and more.',
     cta: 'Find My Archetype',
     accent: false,
-    steps: '4 steps · ~1 min',
   },
   {
     href: '/quiz/mood',
     icon: '🎭',
-    eyebrow: 'Mood',
     title: 'Mood Quiz',
     description: 'Three questions about your energy, headspace, and what you need today. Get a scent matched to this exact moment.',
     cta: 'Match My Mood',
     accent: false,
-    steps: '4 steps · ~1 min',
   },
   {
     href: '/quiz/seasonal',
     icon: '🌸',
-    eyebrow: 'Seasonal',
     title: 'Seasonal Quiz',
     description: 'Find fragrances tuned to the current season. Summer calls for aquatics and citrus. Winter wants amber and spice.',
     cta: 'Find a Seasonal Scent',
     accent: false,
-    steps: '3–4 steps · ~1 min',
   },
   {
     href: '/quiz/astrology',
     icon: '⭐',
-    eyebrow: 'Astrology',
     title: 'Astrology Quiz',
     description: 'Your zodiac sign reveals your fragrance soul. From Aries fire to Pisces dreams — find the scent written in your stars.',
     cta: 'Find My Star Scent',
     accent: false,
-    steps: '2 steps · 30 sec',
   },
   {
     href: '/quiz/gift',
     icon: '🎁',
-    eyebrow: 'Gift Finder',
     title: 'Gift Quiz',
     description: 'Shopping for someone else? Answer a few questions about them and we\'ll find a fragrance they\'ll actually love.',
     cta: 'Find a Gift',
     accent: false,
-    steps: '4–5 steps · ~1 min',
   },
 ]
 
@@ -100,7 +88,7 @@ export default function QuizzesPage() {
   )
 }
 
-function QuizCard({ href, icon, eyebrow, title, description, cta, accent, steps }) {
+function QuizCard({ href, icon, title, description, cta, accent }) {
   return (
     <Link
       href={href}
@@ -122,9 +110,6 @@ function QuizCard({ href, icon, eyebrow, title, description, cta, accent, steps 
         )}
       </div>
 
-      <p className="mb-1 text-xs font-black uppercase tracking-[0.16em] text-green-accent">
-        {eyebrow}
-      </p>
       <h2 className="text-xl font-black leading-tight text-black group-hover:text-green-accent transition">
         {title}
       </h2>
@@ -132,8 +117,7 @@ function QuizCard({ href, icon, eyebrow, title, description, cta, accent, steps 
         {description}
       </p>
 
-      <div className="mt-5 flex items-center justify-between">
-        <span className="text-xs font-bold text-zinc-400">{steps}</span>
+      <div className="mt-5 flex justify-end">
         <span className={[
           'rounded-full px-4 py-2 text-sm font-black transition',
           accent
