@@ -83,7 +83,7 @@ export default function QuizPage() {
   useEffect(() => {
     if (genders.length === 0 || !tier || !vibe) return
     // Don't re-fetch if we already have results for this exact combo
-    const key = `${genders.sort().join(',')}|${tier}|${vibe}`
+    const key = `${[...genders].sort().join(',')}|${tier}|${vibe}`
     if (fetchKeyRef.current === key) return
     fetchKeyRef.current = key
 
