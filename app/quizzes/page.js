@@ -17,10 +17,10 @@ function IconPerfume() {
   )
 }
 
-function IconSparkle() {
+function IconStar() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M16 3 C17.5 10 22 10.5 29 16 C22 21.5 17.5 22 16 29 C14.5 22 10 21.5 3 16 C10 10.5 14.5 10 16 3 Z" />
+      <path d="M16 4 L19 12 L28 12 L21 18 L24 27 L16 22 L8 27 L11 18 L4 12 L13 12 Z" />
     </svg>
   )
 }
@@ -39,16 +39,18 @@ function IconMood() {
 function IconLeaf() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M16 27 C8 21 6 12 10 7 C13 4 20 4 23 8 C27 13 25 22 16 27 Z" />
-      <line x1="16" y1="27" x2="16" y2="9" />
+      <path d="M16 4 C22 8 25 14 22 20 C19 24 17 26 16 27 C15 26 13 24 10 20 C7 14 10 8 16 4 Z" />
+      <line x1="16" y1="4" x2="16" y2="27" />
     </svg>
   )
 }
 
-function IconStar() {
+function IconZodiac() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M16 4 L19 12 L28 12 L21 18 L24 27 L16 22 L8 27 L11 18 L4 12 L13 12 Z" />
+      <circle cx="16" cy="16" r="12" />
+      <circle cx="16" cy="16" r="5" />
+      <path d="M16 4 L16 11 M22 5.6 L18.5 11.7 M26.4 10 L20.3 13.5 M28 16 L21 16 M26.4 22 L20.3 18.5 M22 26.4 L18.5 20.3 M16 28 L16 21 M9.6 26.4 L13.5 20.3 M5.6 22 L11.7 18.5 M4 16 L11 16 M5.6 10 L11.7 13.5 M9.6 5.6 L13.5 11.7" />
     </svg>
   )
 }
@@ -56,11 +58,11 @@ function IconStar() {
 function IconGift() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="6" y="16" width="20" height="12" rx="1.5" />
-      <rect x="5" y="11" width="22" height="5" rx="1.5" />
-      <line x1="16" y1="11" x2="16" y2="28" />
-      <path d="M16 11 C14 8 9 9 10.5 12" />
-      <path d="M16 11 C18 8 23 9 21.5 12" />
+      <rect x="6" y="17" width="20" height="11" rx="1.5" />
+      <rect x="5" y="12" width="22" height="5" rx="1.5" />
+      <line x1="16" y1="12" x2="16" y2="28" />
+      <path d="M16 12 C14 7 6 8 9 12 C11 14 15 13 16 12" />
+      <path d="M16 12 C18 7 26 8 23 12 C21 14 17 13 16 12" />
     </svg>
   )
 }
@@ -76,7 +78,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/personality',
-    icon: <IconSparkle />,
+    icon: <IconStar />,
     title: 'Personality Quiz',
     description: 'Pick a vibe, a place, a time of day. Discover your fragrance archetype — The Dark Romantic, The Fresh Minimalist, and more.',
     cta: 'Find My Archetype',
@@ -100,7 +102,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/astrology',
-    icon: <IconStar />,
+    icon: <IconZodiac />,
     title: 'Astrology Quiz',
     description: 'Your zodiac sign reveals your fragrance soul. From Aries fire to Pisces dreams — find the scent written in your stars.',
     cta: 'Find My Star Scent',
