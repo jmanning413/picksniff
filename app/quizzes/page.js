@@ -7,10 +7,68 @@ export const metadata = {
   description: 'Find your perfect fragrance through one of our guided quizzes. Signature scent, personality, seasonal, astrology, and gift quizzes.',
 }
 
+function IconPerfume() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="8" y="14" width="16" height="14" rx="3" />
+      <path d="M12 14V10H20V14" />
+      <rect x="13" y="6" width="6" height="4" rx="1.5" />
+    </svg>
+  )
+}
+
+function IconSparkle() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M16 3 C17.5 10 22 10.5 29 16 C22 21.5 17.5 22 16 29 C14.5 22 10 21.5 3 16 C10 10.5 14.5 10 16 3 Z" />
+    </svg>
+  )
+}
+
+function IconMood() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="16" cy="16" r="11" />
+      <circle cx="12" cy="14" r="1" fill="#1A1A1A" stroke="none" />
+      <circle cx="20" cy="14" r="1" fill="#1A1A1A" stroke="none" />
+      <path d="M11.5 19.5 Q16 24 20.5 19.5" />
+    </svg>
+  )
+}
+
+function IconLeaf() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M16 27 C8 21 6 12 10 7 C13 4 20 4 23 8 C27 13 25 22 16 27 Z" />
+      <line x1="16" y1="27" x2="16" y2="9" />
+    </svg>
+  )
+}
+
+function IconStar() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M16 4 L19 12 L28 12 L21 18 L24 27 L16 22 L8 27 L11 18 L4 12 L13 12 Z" />
+    </svg>
+  )
+}
+
+function IconGift() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1A1A1A" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="6" y="16" width="20" height="12" rx="1.5" />
+      <rect x="5" y="11" width="22" height="5" rx="1.5" />
+      <line x1="16" y1="11" x2="16" y2="28" />
+      <path d="M16 11 C14 8 9 9 10.5 12" />
+      <path d="M16 11 C18 8 23 9 21.5 12" />
+    </svg>
+  )
+}
+
 const QUIZZES = [
   {
     href: '/quiz',
-    icon: '👃',
+    icon: <IconPerfume />,
     title: 'Signature Scent Quiz',
     description: 'Answer 4 questions — gender, budget, vibe, and accords — and get matched to your signature scent from 750 fragrances.',
     cta: 'Find My Signature Scent',
@@ -18,7 +76,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/personality',
-    icon: '✨',
+    icon: <IconSparkle />,
     title: 'Personality Quiz',
     description: 'Pick a vibe, a place, a time of day. Discover your fragrance archetype — The Dark Romantic, The Fresh Minimalist, and more.',
     cta: 'Find My Archetype',
@@ -26,7 +84,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/mood',
-    icon: '🎭',
+    icon: <IconMood />,
     title: 'Mood Quiz',
     description: 'Three questions about your energy, headspace, and what you need today. Get a scent matched to this exact moment.',
     cta: 'Match My Mood',
@@ -34,7 +92,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/seasonal',
-    icon: '🌸',
+    icon: <IconLeaf />,
     title: 'Seasonal Quiz',
     description: 'Find fragrances tuned to the current season. Summer calls for aquatics and citrus. Winter wants amber and spice.',
     cta: 'Find a Seasonal Scent',
@@ -42,7 +100,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/astrology',
-    icon: '⭐',
+    icon: <IconStar />,
     title: 'Astrology Quiz',
     description: 'Your zodiac sign reveals your fragrance soul. From Aries fire to Pisces dreams — find the scent written in your stars.',
     cta: 'Find My Star Scent',
@@ -50,7 +108,7 @@ const QUIZZES = [
   },
   {
     href: '/quiz/gift',
-    icon: '🎁',
+    icon: <IconGift />,
     title: 'Gift Quiz',
     description: 'Shopping for someone else? Answer a few questions about them and we\'ll find a fragrance they\'ll actually love.',
     cta: 'Find a Gift',
@@ -100,7 +158,7 @@ function QuizCard({ href, icon, title, description, cta, accent }) {
       ].join(' ')}
     >
       <div className="mb-4 flex items-start justify-between gap-3">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-green-accent text-2xl">
+        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-green-accent">
           {icon}
         </div>
         {accent && (
