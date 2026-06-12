@@ -29,6 +29,16 @@ const QUIZZES = [
     steps: '4 steps · ~1 min',
   },
   {
+    href: '/quiz/mood',
+    icon: '🎭',
+    eyebrow: 'Mood',
+    title: 'What\'s Your Mood Right Now?',
+    description: 'Three questions about your energy, headspace, and what you need today. Get a scent matched to this exact moment.',
+    cta: 'Match My Mood',
+    accent: false,
+    steps: '4 steps · ~1 min',
+  },
+  {
     href: '/quiz/seasonal',
     icon: '🌸',
     eyebrow: 'Seasonal',
