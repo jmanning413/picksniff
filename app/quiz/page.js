@@ -34,17 +34,17 @@ const ACCORDS_FALLBACK = [
 
 // Simple hints so newcomers never have to guess what a word means
 const ACCORD_HINTS = {
-  Citrus: 'zesty lemon & orange',
+  Citrus: 'bright & zesty',
   Floral: 'fresh-cut flowers',
-  Woody: 'warm cedar & sandalwood',
+  Woody: 'warm & grounded',
   Vanilla: 'sweet & cozy',
   Amber: 'warm golden glow',
-  Spicy: 'pepper & cinnamon heat',
+  Spicy: 'bold warm heat',
   Fresh: 'clean, just-showered feel',
-  Aromatic: 'herbs like lavender',
-  Fruity: 'juicy peach & berries',
-  Aquatic: 'ocean breeze',
-  Green: 'cut grass & leaves',
+  Aromatic: 'crisp & herbal',
+  Fruity: 'juicy & sweet',
+  Aquatic: 'cool ocean breeze',
+  Green: 'crisp & leafy',
 }
 
 const CONCENTRATIONS = [

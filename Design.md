@@ -92,3 +92,5 @@ Tokens (defined in `app/globals.css`):
 - Homepage felt disorganized/center-stacked — RULE: hero is a two-column layout (message left, action card right); section headers are eyebrow + heading, left-aligned.
 - Copy said "plain English" — RULE: the site is universal; never use language-specific phrasing in copy. Say "simple questions", "no jargon", "explained simply" instead.
 - Header logo/wordmark were too small to read (fine-line logo illegible at 32px) — RULE: header logo renders at 48px minimum with a text-2xl wordmark; the logo's thin strokes need size to be legible.
+- Quiz answer options used emojis — replaced with the shared line-icon set (`app/_components/QuizIcons.js`, currentColor + `text-green-deep` wrapper). Any new quiz option gets an icon from that file or a new one drawn in the same style.
+- Accord hint copy named specific notes ("pepper & cinnamon") — RULE: accord/category descriptions must describe the FEEL, never claim ingredients; an accord doesn't guarantee any specific note is in a given fragrance.

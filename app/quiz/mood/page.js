@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 const GENDERS = [
   { id: 'male', label: 'Male' },
@@ -16,30 +17,30 @@ const QUESTIONS = [
     id: 'energy',
     question: "How's your energy right now?",
     options: [
-      { id: 'high', label: 'High', emoji: '🔥', desc: 'Ready to take on the world' },
-      { id: 'low', label: 'Low', emoji: '🔋', desc: 'Running on empty' },
-      { id: 'building', label: 'Building', emoji: '⚡', desc: 'Finding my momentum' },
-      { id: 'calm', label: 'Calm', emoji: '🌊', desc: 'Peaceful and present' },
+      { id: 'high', label: 'High', icon: 'flame', desc: 'Ready to take on the world' },
+      { id: 'low', label: 'Low', icon: 'battery', desc: 'Running on empty' },
+      { id: 'building', label: 'Building', icon: 'bolt', desc: 'Finding my momentum' },
+      { id: 'calm', label: 'Calm', icon: 'wave', desc: 'Peaceful and present' },
     ],
   },
   {
     id: 'social',
     question: "Where's your head at today?",
     options: [
-      { id: 'social', label: 'Social', emoji: '👥', desc: 'Out with people, loving it' },
-      { id: 'reflective', label: 'Reflective', emoji: '🧘', desc: 'Inward, solo mode' },
-      { id: 'on', label: 'On', emoji: '💼', desc: 'Presenting, performing, working' },
-      { id: 'comfort', label: 'Comfort', emoji: '🤗', desc: 'I just need a hug' },
+      { id: 'social', label: 'Social', icon: 'people', desc: 'Out with people, loving it' },
+      { id: 'reflective', label: 'Reflective', icon: 'lotus', desc: 'Inward, solo mode' },
+      { id: 'on', label: 'On', icon: 'briefcase', desc: 'Presenting, performing, working' },
+      { id: 'comfort', label: 'Comfort', icon: 'heart', desc: 'I just need a hug' },
     ],
   },
   {
     id: 'intent',
     question: 'What do you want your scent to do?',
     options: [
-      { id: 'statement', label: 'Make a statement', emoji: '💥', desc: 'Unforgettable entrance' },
-      { id: 'confidence', label: 'Give me confidence', emoji: '🛡️', desc: 'Background power' },
-      { id: 'ground', label: 'Ground me', emoji: '🌱', desc: 'Calm and centred' },
-      { id: 'lift', label: 'Lift my mood', emoji: '🌟', desc: 'Bright and energising' },
+      { id: 'statement', label: 'Make a statement', icon: 'burst', desc: 'Unforgettable entrance' },
+      { id: 'confidence', label: 'Give me confidence', icon: 'shield', desc: 'Background power' },
+      { id: 'ground', label: 'Ground me', icon: 'sprout', desc: 'Calm and centred' },
+      { id: 'lift', label: 'Lift my mood', icon: 'star', desc: 'Bright and energising' },
     ],
   },
 ]
@@ -221,7 +222,7 @@ export default function MoodQuizPage() {
                           : 'border-sand bg-white hover:border-green-accent',
                       ].join(' ')}
                     >
-                      <span className="text-3xl">{opt.emoji}</span>
+                      <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={opt.icon} /></span>
                       <div>
                         <p className="text-base font-black text-black">{opt.label}</p>
                         <p className="mt-0.5 text-sm text-slate">{opt.desc}</p>

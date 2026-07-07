@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 const GENDERS = [
   { id: 'male', label: 'Male' },
@@ -15,30 +16,30 @@ const QUESTIONS = [
     id: 'vibe',
     question: 'Pick a vibe',
     options: [
-      { id: 'moody', label: 'Dark & Moody', emoji: '🌑', desc: 'Low lights, deep music, velvet seats' },
-      { id: 'fresh', label: 'Crisp & Fresh', emoji: '🌿', desc: 'Open windows, morning runs, clean sheets' },
-      { id: 'bold', label: 'Bold & Loud', emoji: '🔥', desc: 'Centre of the room, unforgettable exits' },
-      { id: 'cozy', label: 'Soft & Cozy', emoji: '🕯️', desc: 'Blankets, candles, good books' },
+      { id: 'moody', label: 'Dark & Moody', icon: 'moon', desc: 'Low lights, deep music, velvet seats' },
+      { id: 'fresh', label: 'Crisp & Fresh', icon: 'sprig', desc: 'Open windows, morning runs, clean sheets' },
+      { id: 'bold', label: 'Bold & Loud', icon: 'flame', desc: 'Centre of the room, unforgettable exits' },
+      { id: 'cozy', label: 'Soft & Cozy', icon: 'candle', desc: 'Blankets, candles, good books' },
     ],
   },
   {
     id: 'place',
     question: 'Pick a place',
     options: [
-      { id: 'forest', label: 'Forest at dusk', emoji: '🌲', desc: 'Pine, earth, cool air' },
-      { id: 'city', label: 'City at midnight', emoji: '🌃', desc: 'Rain on concrete, neon lights' },
-      { id: 'beach', label: 'Beach at sunrise', emoji: '🌊', desc: 'Salt air, warm sand, open sky' },
-      { id: 'garden', label: 'Secret garden', emoji: '🌹', desc: 'Flowers, old stone, green shade' },
+      { id: 'forest', label: 'Forest at dusk', icon: 'pine', desc: 'Pine, earth, cool air' },
+      { id: 'city', label: 'City at midnight', icon: 'city', desc: 'Rain on concrete, neon lights' },
+      { id: 'beach', label: 'Beach at sunrise', icon: 'wave', desc: 'Salt air, warm sand, open sky' },
+      { id: 'garden', label: 'Secret garden', icon: 'rose', desc: 'Flowers, old stone, green shade' },
     ],
   },
   {
     id: 'time',
     question: 'Pick a time of day',
     options: [
-      { id: 'morning', label: 'Morning', emoji: '🌅', desc: '6–10am' },
-      { id: 'afternoon', label: 'Afternoon', emoji: '☀️', desc: '12–5pm' },
-      { id: 'evening', label: 'Evening', emoji: '🌆', desc: '6–10pm' },
-      { id: 'night', label: 'Late Night', emoji: '🌙', desc: '11pm–3am' },
+      { id: 'morning', label: 'Morning', icon: 'sunrise', desc: '6–10am' },
+      { id: 'afternoon', label: 'Afternoon', icon: 'sun', desc: '12–5pm' },
+      { id: 'evening', label: 'Evening', icon: 'sunset', desc: '6–10pm' },
+      { id: 'night', label: 'Late Night', icon: 'night', desc: '11pm–3am' },
     ],
   },
 ]
@@ -251,7 +252,7 @@ export default function PersonalityQuizPage() {
                             : 'border-sand bg-white hover:border-green-accent',
                         ].join(' ')}
                       >
-                        <span className="text-3xl">{opt.emoji}</span>
+                        <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={opt.icon} /></span>
                         <div>
                           <p className="text-base font-black text-black">{opt.label}</p>
                           <p className="mt-0.5 text-sm text-slate">{opt.desc}</p>
