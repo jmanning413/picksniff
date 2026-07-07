@@ -57,8 +57,8 @@ export default async function Home() {
         <section className="mx-auto grid w-full max-w-5xl items-center gap-10 px-5 pb-20 pt-14 sm:px-8 sm:pt-20 lg:grid-cols-[1.1fr_1fr] lg:gap-14">
           <div>
             <div className="flex items-center gap-3">
-              <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff logo" width={56} height={56} priority />
-              <span className="text-2xl font-black tracking-tight">
+              <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff logo" width={72} height={72} priority />
+              <span className="text-4xl font-black tracking-tight sm:text-5xl">
                 Pick<span className="text-green-accent">Sniff</span>
               </span>
             </div>
