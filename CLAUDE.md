@@ -7,7 +7,7 @@ Fragrance matchmaking web app (picksniff.com). 750-fragrance static JSON catalog
 quizzes funneling into one `/results` page, Supabase auth/user-data, live in production.
 - **PROJECT.md** — full architecture, data flow, design decisions, critical paths. Read it before structural changes.
 - **GAPS.md** — severity-ordered audit of known bugs, security issues, and debt, each with a scoped fix. Check it before "discovering" a bug.
-- **docs/** — business & compliance layer: `GAMEPLAN.md` (phased roadmap — check which phase we're in before proposing work), `AUDIT.md` (product/SEO/perf/a11y/ops audit), `SECURITY.md` (threat model + findings F-1…F-10), `LEGAL.md` (compliance checklist), `COMPETITORS.md` (positioning strategy).
+- **docs/** — business & compliance layer: `GAMEPLAN.md` (phased roadmap — check which phase we're in before proposing work), `AUDIT.md` (product/SEO/perf/a11y/ops audit), `SECURITY.md` (threat model + findings F-1…F-10), `LEGAL.md` (compliance checklist), `COMPETITORS.md` (positioning strategy), `CATALOG.md` (catalog revamp pipeline — follow it for ANY catalog data update: notes, descriptions, images, retailer links).
 - Priority standing order: GAMEPLAN Phase 0 items (security fix, legal-page truth fixes, disclosures, analytics) come before any new feature work.
 
 ## Commands
