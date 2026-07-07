@@ -58,8 +58,8 @@ export default async function Home() {
           <div>
             <div className="flex items-center gap-3">
               <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff logo" width={56} height={56} priority />
-              <span className="rounded-full bg-green-wash px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-green-deep">
-                750 hand-picked scents
+              <span className="text-2xl font-black tracking-tight">
+                Pick<span className="text-green-accent">Sniff</span>
               </span>
             </div>
             <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-black sm:text-6xl">
