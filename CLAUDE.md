@@ -1,281 +1,69 @@
-# PickSniff — AI Context File
-# Read this entire file before doing anything. This is the full project context.
-# Last updated: April 2026
+# PickSniff — Claude Code Instructions
+# Operational rules for working in this repo. Read PROJECT.md for architecture,
+# GAPS.md for known bugs/debt. Last updated: June 2026.
 
----
+## What this is
+Fragrance matchmaking web app (picksniff.com). 750-fragrance static JSON catalog, six
+quizzes funneling into one `/results` page, Supabase auth/user-data, live in production.
+- **PROJECT.md** — full architecture, data flow, design decisions, critical paths. Read it before structural changes.
+- **GAPS.md** — severity-ordered audit of known bugs, security issues, and debt, each with a scoped fix. Check it before "discovering" a bug.
+- **docs/** — business & compliance layer: `GAMEPLAN.md` (phased roadmap — check which phase we're in before proposing work), `AUDIT.md` (product/SEO/perf/a11y/ops audit), `SECURITY.md` (threat model + findings F-1…F-10), `LEGAL.md` (compliance checklist), `COMPETITORS.md` (positioning strategy).
+- Priority standing order: GAMEPLAN Phase 0 items (security fix, legal-page truth fixes, disclosures, analytics) come before any new feature work.
 
-## WHAT IS PICKSNIFF?
-PickSniff is a fragrance matchmaking web app — "the dating app for fragrances."
-It helps complete beginners find their perfect fragrance through a simple 4-step quiz.
-It is independently owned (not affiliated with any retailer) and monetized through affiliate links + premium subscriptions.
-The target user is someone who knows nothing about fragrance and wants help finding something they'll love.
+## Commands
+| Task | Command |
+|---|---|
+| Dev server | `npm run dev` (Turbopack; use port 3001+ if 3000 busy) |
+| Prod build check | `npx next build` — **run before every push**; there are no tests and push = deploy |
+| Lint | `npm run lint` |
+| Deploy | `git push origin main` → Vercel auto-deploys. **Never** use `npx vercel --prod` or `vercel alias` — manual deploys broke domain aliasing in the past |
+| Prod logs | `npx vercel logs` |
+| Env vars | `npx vercel env ls` (all prod vars are set; local `.env.local` exists, gitignored) |
 
----
+There is no test suite and no CI (GAPS.md #4). `npx next build` succeeding is the only gate.
 
-## APP NAME
-**PickSniff** (formerly called Scent Percent during planning — ignore that name going forward)
+## Environment / workflow gotchas
+- Windows 11, PowerShell 5.1 default shell: **no `&&`** in PowerShell tool calls (use `;` or the Bash tool). Heredocs for commit messages work in the Bash tool.
+- Git commits: LF→CRLF warnings are normal, ignore them.
+- Vercel preview URLs (`picksniff-*.vercel.app`) are SSO-protected — curl them and you get a login page, not the app. Test on picksniff.com or locally with `next build && next start`.
+- **Do not Read `public/logo.svg` or `public/logo-icon.svg`** — they are 840 KB base64-PNG-in-SVG files that blow the context window (and see GAPS.md #15).
+- Supabase "Confirm email" is deliberately OFF. Sign-up creates a session immediately.
+- The developer (Joseph) is a beginner: explain steps plainly, show full code, confirm before overwriting files he made.
 
----
+## The actual data (this section corrects older docs)
+- Catalog lives in **`/fragrances`** (not `/db`): 15 files, `{gender}_{vibe}_final.json`, 50 each, 750 total. `gender` ∈ male/female/unisex, `vibe` ∈ daily/date_night/sport/chill/formal.
+- `gender` and `vibe` are NOT in the JSON — `lib/fragrances.js` stamps them from the filename.
+- IDs are **string slugs** (`"male-daily-budget-giorgio-armani-acqua-di-gio"`), not numbers. Never `Number()` them (that bug killed the compare page — GAPS.md #2).
+- `top_notes` is a duplicate of `accords` — there is no real notes pyramid. `description` is mostly empty (UI synthesizes one). `sephora_url`/`jomashop_url` are null (UI falls back to search links). There is **no `affiliate_type` field** in the data; the Louis Vuitton special case is the hardcoded `BRAND_OVERRIDES` map (currently copy-pasted in 4 files — GAPS.md #12).
+- **Do not modify the JSON files unless explicitly asked.** They are the source of truth.
+- Fragrance data is cached forever via `unstable_cache` in `lib/fragrances.js` — always read through `loadAllFragrances()` / `getFragranceById()`, never `fs` directly.
 
-## CURRENT STATUS
-- ✅ 750 fragrance database COMPLETE (all JSON files in /db folder)
-- ✅ Master rules and accord system defined
-- ✅ Business plan and monetization strategy defined
-- ✅ UI/UX concept defined
-- 🔲 App build starting NOW — Next.js + Supabase + Vercel
+## Conventions this codebase follows
+- Plain JavaScript, no TypeScript. App Router (Next.js **16**, React 19). Path alias `@/*` = repo root.
+- Server components by default; `'use client'` only where state/effects needed. Client children of server pages are named `*Client.js` (`ResultsClient`, `EncyclopediaClient`) or live in `app/_components/`.
+- Server actions in `app/_actions/` and `app/auth/actions.js` (`'use server'`, zod-validated, return `{ error }` objects — never throw to the client).
+- API routes: zod schema → `safeParse` → generic error strings out, `console.error('[route-name]', err)` server-side. Rate limiting via `lib/ratelimit.js` (Upstash, no-ops without env vars).
+- Supabase: `lib/supabase/server.js` (cookie client) in server code, `lib/supabase/client.js` in browser code, inline service-role client (`getAdminClient()` pattern) only where RLS must be bypassed. Never concatenate user input into queries.
+- Styling: Tailwind v4 utilities inline, no CSS modules. Brand green = `green-accent` (`#7fe040`, defined in `globals.css` `@theme`). Font DM Sans via `next/font`. Buttons are `rounded-full`, headings `font-black tracking-tight`. White background, clean/minimal, NOT luxury.
+- Icons on the quizzes hub are inline SVG components (stroke `#1A1A1A`, strokeWidth 1.75, round caps) — match that style for new icons; no icon libraries.
+- All external/buy links: `target="_blank" rel="noopener noreferrer"`.
+- Client fetch flows use `react-hot-toast` for feedback; optimistic UI with `useTransition` for save buttons.
+- Every quiz page maps its answers onto `{genders, tier, vibe, accords}` and links to `/results?...&mode=<name>`; `mode` only selects copy in `MODE_COPY` (`app/results/ResultsClient.js`). New quiz = new page + hub card + `MODE_COPY` entry + sitemap entry. No backend changes.
 
----
+## Rules — do not break these
+- Match scoring lives in `lib/matchEngine.mjs` (pure, unit-tested via `npm test`); `lib/matchFragrances.js` is a thin loader wrapper — keep it that way. Bands are product decisions, set by the FRACTION of selected accords matched: all → 95–99, ≥2/3 → 80–94, some → 65–79, none → 40–64, no-accords-selected → 50–72 (identical to the old 3/2/1/0 table when 3 are picked). Displayed scores strictly decrease down the list (no ties, no out-of-order %); every selected accord represented in top 5; tier loosens when pool < 5 (tier bonus only applies then). Don't change bands without explicit instruction, and run `npm test` after any engine edit.
+- Guests get 10 results / accounts 20 (`limit` in `app/results/page.js` and `/api/quiz/match`). Steps 5–6 of `/quiz` are account-gated.
+- The 11 filter accords: Citrus, Floral, Woody, Vanilla, Amber, Spicy, Fresh, Aromatic, Fruity, Aquatic, Green. **Never add Powdery, Leather, or Oud as filter accords.**
+- App name is **PickSniff** (never "Scent Percent"). The flagship quiz is the **"Signature Scent Quiz"** (renamed from "Classic Fragrance Quiz" — don't reintroduce "Classic").
+- `/premium` is shelved and redirects to `/support` (tip jar). Don't wire anything to `PremiumGate`/`is_premium` — nothing sets it (GAPS.md #8).
+- `supabase/schema.sql` lags the live DB (missing `subscribers` — GAPS.md #6). The dashboard DB is the truth.
+- No pricing data anywhere; website only (no native app); max 1 LV fragrance per vibe; Byredo/Diptyque live only in unisex lists.
+- Secrets only in `.env.local` / Vercel env. Never hardcode (see GAPS.md #1 for the existing violation to fix, not imitate).
 
-## TECH STACK
-| Layer | Technology | Notes |
-|-------|-----------|-------|
-| Frontend | Next.js 14 (App Router) | React-based, deployed on Vercel |
-| Database | Supabase (PostgreSQL) | Free tier to start |
-| Hosting | Vercel | Free tier to start |
-| Payments | Stripe | ~3% per transaction, no monthly fee |
-| Images | Cloudinary | Free tier |
-| Email | Resend or Postmark | Free tier |
-| Analytics | Plausible or Google Analytics | |
-| Domain | Namecheap or Google Domains | ~$12-15/yr |
-
----
-
-## DATABASE STRUCTURE
-**750 fragrances total across 15 JSON files in /db folder:**
-
-| File | Count |
-|------|-------|
-| male_daily_final.json | 50 |
-| male_date_night_final.json | 50 |
-| male_sport_final.json | 50 |
-| male_chill_final.json | 50 |
-| male_formal_final.json | 50 |
-| female_daily_final.json | 50 |
-| female_date_night_final.json | 50 |
-| female_sport_final.json | 50 |
-| female_chill_final.json | 50 |
-| female_formal_final.json | 50 |
-| unisex_daily_final.json | 50 |
-| unisex_date_night_final.json | 50 |
-| unisex_sport_final.json | 50 |
-| unisex_chill_final.json | 50 |
-| unisex_formal_final.json | 50 |
-
-### Each fragrance object looks like this:
-```json
-{
-  "id": 1,
-  "name": "Sauvage EDT",
-  "brand": "Dior",
-  "gender": "male",
-  "tier": "budget",
-  "vibe": "daily",
-  "accords": ["fresh", "aromatic", "citrus"],
-  "concentration": "EDT",
-  "affiliate_type": "standard",
-  "description": "Bergamot, ambroxan, and pepper...",
-  "notes": {
-    "top": ["Bergamot", "Pepper"],
-    "middle": ["Lavender", "Pink pepper"],
-    "base": ["Ambroxan", "Cedar"]
-  }
-}
-```
-
-### Tiers:
-- **budget** = mainstream affordable (Dior, YSL, Versace, etc.)
-- **quality** = premium designer (Prada, Tom Ford designer, etc.)
-- **niche** = niche houses (Le Labo, Creed, Parfums de Marly, etc.)
-
-### Affiliate types:
-- **standard** = ALL fragrances including Chanel and Hermès — available on Sephora and Jomashop
-- **brand_direct_only** = Louis Vuitton ONLY — no resellers exist anywhere, link to louisvuitton.com
-
-**NOTE: brand_only no longer exists. Chanel and Hermès are sold on Sephora and Jomashop — use standard affiliate links for them.**
-
----
-
-## QUIZ FLOW (4 STEPS)
-1. **Gender** — Male / Female / Unisex (multi-select allowed)
-2. **Price Tier** — Budget ($0-$100) / Quality ($100-$200) / Niche ($200+)
-3. **Vibe** — Daily / Date Night / Sport / Chill / Formal
-4. **Accords** — Pick up to 3 from the 11 available (optional)
-
-### Result:
-- Multiple fragrance matches ranked HIGHEST to LOWEST match %
-- Every result has a unique score (no ties)
-- Shows fragrance card with: name, brand, accords, notes, description, match % bar, BUY button
-
----
-
-## 11 FILTER ACCORDS
-Citrus, Floral, Woody, Vanilla, Amber, Spicy, Fresh, Aromatic, Fruity, Aquatic, Green
-
-**NOT filter accords (exist in notes only):** Leather, Oud, Powdery (removed entirely)
-
----
-
-## ACCORD ASSIGNMENTS BY GENDER + VIBE
-### MALE
-- Daily: ALL 11 accords
-- Date Night: Amber, Spicy, Woody, Vanilla, Floral
-- Sport: Citrus, Fresh, Aquatic, Aromatic, Green
-- Chill: Woody, Aquatic, Fresh, Aromatic, Green
-- Formal: Woody, Spicy, Amber, Aromatic
-
-### FEMALE
-- Daily: ALL 11 accords
-- Date Night: Vanilla, Amber, Floral, Spicy
-- Sport: Citrus, Fresh, Fruity, Aquatic
-- Chill: Vanilla, Floral, Fruity, Amber
-- Formal: Floral, Amber, Vanilla
-
-### UNISEX
-- Daily: ALL 11 accords
-- Date Night: Amber, Vanilla, Spicy, Floral
-- Sport: Citrus, Fresh, Aquatic, Aromatic, Green
-- Chill: Vanilla, Amber, Floral, Woody, Green
-- Formal: Woody, Amber, Floral, Aromatic
-
----
-
-## UI DESIGN
-- **Background:** White
-- **Primary accent:** #7FE040 (Minecraft XP green)
-- **Font:** DM Sans
-- **Buy button:** matches accent green
-- **Match bar:** XP-style green progress bar showing match %
-- **Style:** Clean, minimal, beginner-friendly. NOT luxury. NOT overwhelming.
-- **Fragrance cards show:** brand, name, concentration, accords (as pills), top 3 notes, description, match % bar, BUY button
-
----
-
-## AFFILIATE SYSTEM
-- Every fragrance has an affiliate_type field
-- **standard** fragrances (everyone including Chanel and Hermès): Show Sephora + Jomashop buy buttons
-- **brand_direct_only** fragrances (LV ONLY): Button says "Visit LV Boutique" → louisvuitton.com
-- There are only TWO affiliate types — standard and brand_direct_only. No brand_only type.
-- Chanel and Hermès are sold on Sephora and Jomashop — treat them as standard
-- Affiliate IDs are configured once in environment variables and auto-applied to all links
-- Goal: maximize affiliate click-through and conversion
-
-### Affiliate Partners:
-- Sephora (affiliate program)
-- Jomashop (affiliate program)
-- FragranceNet (affiliate program)
-- FragranceX (affiliate program)
-
----
-
-## MONETIZATION
-### Free Version:
-- Full quiz access
-- Full 750-fragrance encyclopedia
-- Basic filters
-- Optional profile (no account required)
-- Affiliate buy buttons
-
-### Premium (~$4.99/mo via Stripe):
-- Advanced quiz (concentration filter, top/middle/base note filters)
-- Full encyclopedia filters
-- Compare tool (side-by-side fragrances)
-- Crown icon + custom profile border color
-- View other users' quiz results
-- Collection tab (owned vs wishlist)
-- No sponsored placements
-
----
-
-## COST STRUCTURE
-| Stage | Users | Monthly Cost |
-|-------|-------|-------------|
-| Launch | 0-500 | $0-15/mo |
-| Growing | 500-5k | $40-80/mo |
-| Established | 5k-50k | $150-400/mo |
-| Scaling | 50k+ | $500-1500/mo |
-
-**Break even:** ~3 months
-**First real profit:** ~6 months with consistent marketing
-
----
-
-## REVENUE PROJECTIONS
-- First 3 months: ~$150-200/mo
-- 500 users: $1,700-2,000/mo potential
-- 1,000 users: $500-1k/mo
-- 2,000 users: $2-3k/mo
-- Target: $5k-10k/mo in 1-2 years
-
----
-
-## MARKETING STRATEGY
-- Reddit fragrance communities (r/fragrance, r/cologne, r/femalefashionadvice)
-- TikTok and Instagram short-form content
-- Discord fragrance servers
-- Organic first — no paid ads early
-- Pitch to Jomashop as affiliate partner once traction established
-
----
-
-## SECURITY REQUIREMENTS (implement across every phase)
-1. **Environment Variables** — All API keys, Supabase credentials, Stripe keys, and affiliate IDs in `.env.local` only. Never hardcode secrets. Create `.env.example` with variable names but no values.
-2. **Input Validation** — Use `zod` to validate every input on client and server. Validate quiz selections, search queries, profile fields, and all form inputs.
-3. **Rate Limiting** — Use `@upstash/ratelimit`. Quiz: max 10/min per IP. Search: max 30/min per IP. Auth: max 5/min per IP.
-4. **Caching** — Cache fragrance JSON at build time. Never re-read 750 files per request. Use Next.js `unstable_cache`.
-5. **Deduplication** — 5-second cooldown between quiz submissions per user/IP. No duplicate wishlist saves.
-6. **Atomic Operations** — All database writes use Supabase transactions. Either fully saves or fully fails.
-7. **Security Headers** — Add to `next.config.js`: X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Content-Security-Policy.
-8. **SQL Injection Prevention** — Use Supabase parameterized queries only. Never concatenate user input into queries.
-9. **Error Handling** — Never expose internal errors to client. Log server-side, return generic messages to user.
-10. **External Links** — All buy buttons and external links must use `rel="noopener noreferrer"`.
-
----
-
-## BUILD ORDER (follow this sequence)
-1. Initialize Next.js project
-2. Set up Supabase database and import 750 fragrances
-3. Deploy skeleton to Vercel
-4. Build quiz UI (4 steps)
-5. Build matching algorithm
-6. Build fragrance card component
-7. Build encyclopedia page
-8. Wire up affiliate links
-9. Add Stripe for premium
-10. Mobile optimization
-11. User profiles (optional)
-12. Launch
-
----
-
-## IMPORTANT DECISIONS ALREADY MADE
-- Website first (not native app) — native apps later at 1,000 users
-- No pricing stored in database — affiliate feeds pull live prices
-- Unisex = fragrances worn by all genders regardless of marketing (not strictly "officially unisex")
-- Female/Unisex vibes allow cross-vibe duplicates (male lists do not)
-- Max 3 fragrances per brand per vibe per gender
-- Max 1 LV fragrance per vibe
-- Max 2 flankers from same DNA per vibe
-- Byredo and Diptyque excluded from male and female lists (live in Unisex only)
-- Le Labo = approved exception for all gender lists (brand only does unisex)
-- Maison Margiela Replica and Jo Malone = approved for male-leaning and female-leaning lists
-
----
-
-## DEVELOPER NOTES
-- The developer (Joseph) is a complete beginner — explain everything step by step
-- Never assume knowledge of terminal commands, file structure, or frameworks
-- Always show full code, never partial snippets unless asked
-- Confirm before overwriting any existing files
-- The /db folder contains all 15 JSON files — treat these as the source of truth
-- Do not modify the JSON files unless explicitly asked
-
----
-
-## WHAT NOT TO DO
-- Do not rename the app back to "Scent Percent" — it is now PickSniff
-- Do not add Powdery as a filter accord — it was removed
-- Do not add Leather or Oud as filter accords — notes only
-- Do not add more than 1 LV fragrance per vibe
-- Do not put Byredo or Diptyque in male or female lists
-- Do not use pricing in the database — affiliate feeds handle live pricing
-- Do not build a native app yet — website first
+## Gotchas (things that look right but aren't)
+- The quiz's POST to `/api/quiz/match` is only a validation/rate-limit gate — its response is discarded and `/results` recomputes from URL params. Changing match behavior means changing `lib/matchFragrances.js`, not the API route.
+- Errors thrown in client `useEffect`s surface as the generic "Something went wrong" boundary (`app/error.js`). `useUser.js` is hardened with try/catch for this; copy that pattern in new hooks (`useIsPremium` isn't — GAPS.md #16).
+- React state arrays must not be mutated: use `[...arr].sort()`, never `arr.sort()` (a past prod bug).
+- `middleware.js` runs Supabase session refresh on nearly every route; its cookie handling follows the `@supabase/ssr` recipe exactly — don't "simplify" it.
+- Homepage "Recently Viewed" and `LoadingSniff.js` are dead code (GAPS.md #14); don't build on them.
+- `/trending` picks are deterministic pseudo-random, not real analytics. Badges beyond `first_sniff`/`collector` are unearnable.
