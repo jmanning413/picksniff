@@ -63,7 +63,7 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
                   href="/auth"
                   className="mt-1 inline-flex rounded-xl bg-green-accent px-4 py-2.5 text-sm font-black text-black"
                 >
-                  Sign Up Free
+                  Sign Up
                 </Link>
               </>
             )}

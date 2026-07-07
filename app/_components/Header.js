@@ -89,7 +89,7 @@ export default async function Header() {
                 href="/auth"
                 className="rounded-xl border border-sand bg-white px-4 py-2 text-sm font-bold text-black transition hover:border-green-accent"
               >
-                Sign Up Free
+                Sign Up
               </Link>
             </>
           )}
