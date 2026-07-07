@@ -41,7 +41,7 @@ export default async function AccordsPage() {
           <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Accord Explorer</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What does it actually smell like?</h1>
           <p className="mt-3 text-base leading-7 text-slate">
-            Every fragrance accord explained in plain English — no jargon, just what your nose will experience.
+            Every fragrance accord explained simply — no jargon, just what your nose will experience.
           </p>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2">

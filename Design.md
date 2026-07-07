@@ -90,3 +90,5 @@ Tokens (defined in `app/globals.css`):
 - The hero slogan was rewritten without being asked — RULE: brand copy is locked: "Find your signature scent in 4 questions. No jargon. No overwhelm. Just your scent." Never rewrite slogans/taglines without explicit instruction.
 - Cream + white + wash alone read as flat and washed out ("not enough depth") — RULE: use full-bleed Ink (#1A1A1A) sections as depth anchors — the footer sitewide plus one band per long page. Pick Green pops on ink; use `text-green-accent` for accents on ink (dark bg = contrast is fine there).
 - Homepage felt disorganized/center-stacked — RULE: hero is a two-column layout (message left, action card right); section headers are eyebrow + heading, left-aligned.
+- Copy said "plain English" — RULE: the site is universal; never use language-specific phrasing in copy. Say "simple questions", "no jargon", "explained simply" instead.
+- Header logo/wordmark were too small to read (fine-line logo illegible at 32px) — RULE: header logo renders at 48px minimum with a text-2xl wordmark; the logo's thin strokes need size to be legible.

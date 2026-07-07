@@ -5,7 +5,7 @@ import Footer from '@/app/_components/Footer'
 
 export const metadata = {
   title: 'Notes Glossary — PickSniff',
-  description: 'Every fragrance note explained in plain English. What each note smells like, with real fragrance examples.',
+  description: 'Every fragrance note explained simply. What each note smells like, with real fragrance examples.',
 }
 
 const NOTE_DESCRIPTIONS = {
@@ -59,7 +59,7 @@ export default async function NotesPage() {
           <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Notes Glossary</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What does each note smell like?</h1>
           <p className="mt-3 text-base leading-7 text-slate">
-            Every note in the PickSniff library explained in plain English. No chemistry degree required.
+            Every note in the PickSniff library explained simply. No chemistry degree required.
           </p>
 
           {/* Featured notes with descriptions */}

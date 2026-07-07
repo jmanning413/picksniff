@@ -32,7 +32,7 @@ const ACCORDS_FALLBACK = [
   'Spicy', 'Fresh', 'Aromatic', 'Fruity', 'Aquatic', 'Green',
 ]
 
-// Plain-English hints so newcomers never have to guess what a word means
+// Simple hints so newcomers never have to guess what a word means
 const ACCORD_HINTS = {
   Citrus: 'zesty lemon & orange',
   Floral: 'fresh-cut flowers',
