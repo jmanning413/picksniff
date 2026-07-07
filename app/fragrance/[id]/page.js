@@ -93,7 +93,7 @@ export default async function FragrancePage({ params }) {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Script
         id={`jsonld-${f.id}`}
         type="application/ld+json"
@@ -105,7 +105,7 @@ export default async function FragrancePage({ params }) {
       <section className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-8">
         <Link
           href="/encyclopedia"
-          className="mb-6 inline-flex items-center gap-1 text-sm font-bold text-zinc-500 transition hover:text-black"
+          className="mb-6 inline-flex items-center gap-1 text-sm font-bold text-slate transition hover:text-black"
         >
           ← Encyclopedia
         </Link>
@@ -117,21 +117,21 @@ export default async function FragrancePage({ params }) {
           </div>
 
           <div className="min-w-0 flex-1">
-            <Link href={`/brand/${encodeURIComponent(f.brand)}`} className="text-xs font-black uppercase tracking-[0.18em] text-zinc-400 hover:text-green-accent transition">{f.brand}</Link>
+            <Link href={`/brand/${encodeURIComponent(f.brand)}`} className="text-xs font-black uppercase tracking-[0.18em] text-zinc-400 hover:text-green-deep transition">{f.brand}</Link>
             <h1 className="mt-1 text-2xl font-black leading-tight text-black sm:text-3xl">{f.name}</h1>
             <div className="mt-3 flex flex-wrap gap-2">
               {f.concentration && (
-                <span className="rounded-full border border-zinc-200 px-3 py-1 text-xs font-bold text-zinc-500">
+                <span className="rounded-full border border-sand px-3 py-1 text-xs font-bold text-slate">
                   {f.concentration}
                 </span>
               )}
               <span className="rounded-full bg-green-accent/20 px-3 py-1 text-xs font-bold capitalize text-zinc-700">
                 {f.tier}
               </span>
-              <span className="rounded-full border border-zinc-200 px-3 py-1 text-xs font-bold capitalize text-zinc-500">
+              <span className="rounded-full border border-sand px-3 py-1 text-xs font-bold capitalize text-slate">
                 {f.gender}
               </span>
-              <span className="rounded-full border border-zinc-200 px-3 py-1 text-xs font-bold text-zinc-500">
+              <span className="rounded-full border border-sand px-3 py-1 text-xs font-bold text-slate">
                 {VIBE_LABELS[f.vibe]}
               </span>
             </div>
@@ -159,13 +159,13 @@ export default async function FragrancePage({ params }) {
             <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">
               Top Notes
             </h2>
-            <p className="text-sm leading-7 text-zinc-600">{f.top_notes.join(' · ')}</p>
+            <p className="text-sm leading-7 text-slate">{f.top_notes.join(' · ')}</p>
           </div>
         )}
 
         <div className="mt-8">
           <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">About</h2>
-          <p className="text-sm leading-7 text-zinc-600">{description}</p>
+          <p className="text-sm leading-7 text-slate">{description}</p>
         </div>
 
         <SaveButtons
@@ -175,14 +175,14 @@ export default async function FragrancePage({ params }) {
           isLoggedIn={!!user}
         />
 
-        <div className="mt-6 rounded-xl border border-dashed border-zinc-200 p-6 text-center">
+        <div className="mt-6 rounded-xl border border-dashed border-sand p-6 text-center">
           <p className="font-black text-black">See your match score</p>
-          <p className="mt-1 text-sm leading-6 text-zinc-500">
+          <p className="mt-1 text-sm leading-6 text-slate">
             Take the PickSniff quiz to find out how well {f.name} matches your taste.
           </p>
           <Link
             href="/quiz"
-            className="mt-4 inline-flex rounded-full bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95"
+            className="mt-4 inline-flex rounded-xl bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95"
           >
             Take the Quiz
           </Link>
@@ -195,7 +195,7 @@ export default async function FragrancePage({ params }) {
               href={override.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-green-accent px-6 font-black text-black transition hover:brightness-95"
+              className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-green-accent px-6 font-black text-black transition hover:brightness-95"
             >
               {override.label}
             </a>
@@ -205,7 +205,7 @@ export default async function FragrancePage({ params }) {
                 href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-green-accent px-6 font-black text-black transition hover:brightness-95"
+                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl bg-green-accent px-6 font-black text-black transition hover:brightness-95"
               >
                 Sephora
               </a>
@@ -213,7 +213,7 @@ export default async function FragrancePage({ params }) {
                 href={f.jomashop_url || `https://www.jomashop.com/searchresult.html#q=${query}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-full border border-green-accent px-6 font-black text-black transition hover:bg-green-accent/10"
+                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-green-accent px-6 font-black text-black transition hover:bg-green-accent/10"
               >
                 Jomashop
               </a>
@@ -245,14 +245,14 @@ function FragranceShareButton({ name, brand }) {
         <a
           href={`https://twitter.com/intent/tweet?text=Just%20found%20${encodeURIComponent(brand + ' ' + name)}%20on%20PickSniff%20%F0%9F%91%83&url=${encodeURIComponent('https://picksniff.com')}`}
           target="_blank" rel="noopener noreferrer"
-          className="rounded-full border border-zinc-200 px-4 py-2 text-xs font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+          className="rounded-xl border border-sand px-4 py-2 text-xs font-bold text-slate transition hover:border-green-accent hover:text-black"
         >
           Share on X
         </a>
         <a
           href={`https://www.reddit.com/submit?title=${encodeURIComponent('Found ' + brand + ' ' + name + ' on PickSniff')}&url=${encodeURIComponent('https://picksniff.com')}`}
           target="_blank" rel="noopener noreferrer"
-          className="rounded-full border border-zinc-200 px-4 py-2 text-xs font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+          className="rounded-xl border border-sand px-4 py-2 text-xs font-bold text-slate transition hover:border-green-accent hover:text-black"
         >
           Share on Reddit
         </a>
@@ -281,7 +281,7 @@ function FragranceAlsoLiked({ fragrance, allFragrances }) {
       <div className="flex flex-col gap-2">
         {similar.map((f) => (
           <Link key={f.id} href={`/fragrance/${f.id}`}
-            className="flex items-center justify-between rounded-lg border border-zinc-200 px-4 py-3 transition hover:border-green-accent hover:shadow-sm">
+            className="flex items-center justify-between rounded-lg border border-sand px-4 py-3 transition hover:border-green-accent hover:shadow-sm">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
               <p className="text-sm font-black text-black">{f.name}</p>

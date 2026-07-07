@@ -12,7 +12,7 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
         type="button"
         onClick={() => setOpen((o) => !o)}
         aria-label={open ? 'Close menu' : 'Open menu'}
-        className="flex h-10 w-10 items-center justify-center rounded-full border border-zinc-200 text-zinc-600 transition hover:border-green-accent hover:text-black"
+        className="flex h-10 w-10 items-center justify-center rounded-full border border-sand text-slate transition hover:border-green-accent hover:text-black"
       >
         {open ? (
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
@@ -27,7 +27,7 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
 
       {open && (
         <div
-          className="fixed inset-x-0 top-[57px] z-40 border-b border-zinc-100 bg-white px-5 py-4 shadow-sm"
+          className="fixed inset-x-0 top-[57px] z-40 border-b border-sand bg-white px-5 py-4 shadow-sm"
           onClick={() => setOpen(false)}
         >
           <nav className="flex flex-col gap-1">
@@ -46,7 +46,7 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
             <Link href="/support" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
               Support
             </Link>
-            <div className="my-2 border-t border-zinc-100" />
+            <div className="my-2 border-t border-sand" />
             {isLoggedIn ? (
               <Link
                 href="/profile"
@@ -61,7 +61,7 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
                 </Link>
                 <Link
                   href="/auth"
-                  className="mt-1 inline-flex rounded-full bg-green-accent px-4 py-2.5 text-sm font-black text-black"
+                  className="mt-1 inline-flex rounded-xl bg-green-accent px-4 py-2.5 text-sm font-black text-black"
                 >
                   Sign Up Free
                 </Link>

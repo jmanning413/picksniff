@@ -52,7 +52,7 @@ export default function AdminEmailPage() {
 
   if (!authed) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-white px-5">
+      <div className="flex min-h-screen items-center justify-center bg-cream px-5">
         <form onSubmit={handleAuth} className="w-full max-w-sm space-y-4">
           <h1 className="text-2xl font-black text-black">Admin</h1>
           <input
@@ -60,7 +60,7 @@ export default function AdminEmailPage() {
             placeholder="Password"
             value={secret}
             onChange={(e) => setSecret(e.target.value)}
-            className="w-full rounded-lg border border-zinc-200 px-4 py-3 text-sm outline-none focus:border-green-accent"
+            className="w-full rounded-lg border border-sand px-4 py-3 text-sm outline-none focus:border-green-accent"
           />
           <button
             type="submit"
@@ -74,7 +74,7 @@ export default function AdminEmailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white px-5 py-10">
+    <div className="min-h-screen bg-cream px-5 py-10">
       <div className="mx-auto w-full max-w-2xl">
         <div className="mb-8 flex items-center justify-between">
           <h1 className="text-2xl font-black text-black">Send Email</h1>
@@ -82,14 +82,14 @@ export default function AdminEmailPage() {
             <button
               type="button"
               onClick={() => setPreview(false)}
-              className={`rounded-full px-4 py-2 text-xs font-black transition ${!preview ? 'bg-green-accent text-black' : 'border border-zinc-200 text-zinc-500 hover:text-black'}`}
+              className={`rounded-full px-4 py-2 text-xs font-black transition ${!preview ? 'bg-green-accent text-black' : 'border border-sand text-slate hover:text-black'}`}
             >
               Write
             </button>
             <button
               type="button"
               onClick={() => setPreview(true)}
-              className={`rounded-full px-4 py-2 text-xs font-black transition ${preview ? 'bg-green-accent text-black' : 'border border-zinc-200 text-zinc-500 hover:text-black'}`}
+              className={`rounded-full px-4 py-2 text-xs font-black transition ${preview ? 'bg-green-accent text-black' : 'border border-sand text-slate hover:text-black'}`}
             >
               Preview
             </button>
@@ -113,7 +113,7 @@ export default function AdminEmailPage() {
               placeholder="This week's fragrance pick..."
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
-              className="w-full rounded-lg border border-zinc-200 px-4 py-3 text-sm outline-none focus:border-green-accent"
+              className="w-full rounded-lg border border-sand px-4 py-3 text-sm outline-none focus:border-green-accent"
             />
           </div>
 
@@ -123,7 +123,7 @@ export default function AdminEmailPage() {
             </label>
             {preview ? (
               <div
-                className="min-h-64 rounded-lg border border-zinc-200 p-5 text-sm leading-7 text-zinc-700"
+                className="min-h-64 rounded-lg border border-sand p-5 text-sm leading-7 text-zinc-700"
                 dangerouslySetInnerHTML={{ __html: bodyToHtml(body) }}
               />
             ) : (
@@ -133,7 +133,7 @@ export default function AdminEmailPage() {
                 placeholder={`Write your email here...\n\nUse blank lines between paragraphs.\n\nYou can add a link like this:\n[Click here](https://picksniff.com)`}
                 value={body}
                 onChange={(e) => setBody(e.target.value)}
-                className="w-full rounded-lg border border-zinc-200 px-4 py-3 text-sm leading-7 outline-none focus:border-green-accent resize-none"
+                className="w-full rounded-lg border border-sand px-4 py-3 text-sm leading-7 outline-none focus:border-green-accent resize-none"
               />
             )}
             <p className="mt-1.5 text-xs text-zinc-400">

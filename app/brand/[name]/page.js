@@ -32,12 +32,12 @@ export default async function BrandPage({ params }) {
   if (fragrances.length === 0) notFound()
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
-          <Link href="/encyclopedia" className="mb-6 inline-flex items-center text-sm font-bold text-zinc-500 transition hover:text-black">
+          <Link href="/encyclopedia" className="mb-6 inline-flex items-center text-sm font-bold text-slate transition hover:text-black">
             ← Encyclopedia
           </Link>
 
@@ -47,7 +47,7 @@ export default async function BrandPage({ params }) {
             </div>
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">{brand}</h1>
-              <p className="mt-1 text-sm text-zinc-500">{fragrances.length} fragrance{fragrances.length !== 1 ? 's' : ''} in the PickSniff library</p>
+              <p className="mt-1 text-sm text-slate">{fragrances.length} fragrance{fragrances.length !== 1 ? 's' : ''} in the PickSniff library</p>
             </div>
           </div>
 
@@ -56,10 +56,10 @@ export default async function BrandPage({ params }) {
               const override = BRAND_OVERRIDES[f.brand]
               const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
               return (
-                <div key={f.id} className="rounded-lg border border-zinc-200 bg-white p-5">
+                <div key={f.id} className="rounded-lg border border-sand bg-white p-5">
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0">
-                      <Link href={`/fragrance/${f.id}`} className="text-lg font-black text-black transition hover:text-green-accent">
+                      <Link href={`/fragrance/${f.id}`} className="text-lg font-black text-black transition hover:text-green-deep">
                         {f.name}
                       </Link>
                       <div className="mt-2 flex flex-wrap gap-1.5">
@@ -81,14 +81,14 @@ export default async function BrandPage({ params }) {
                   <div className="mt-4 flex gap-2">
                     {override ? (
                       <a href={override.href} target="_blank" rel="noopener noreferrer"
-                        className="inline-flex flex-1 items-center justify-center rounded-full bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
+                        className="inline-flex flex-1 items-center justify-center rounded-xl bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
                         {override.label}
                       </a>
                     ) : (
                       <>
                         <a href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
                           target="_blank" rel="noopener noreferrer"
-                          className="inline-flex flex-1 items-center justify-center rounded-full bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
+                          className="inline-flex flex-1 items-center justify-center rounded-xl bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
                           Sephora
                         </a>
                         <a href={f.jomashop_url || `https://www.jomashop.com/searchresult.html#q=${query}`}
@@ -113,7 +113,7 @@ export default async function BrandPage({ params }) {
 
 function Tag({ children }) {
   return (
-    <span className="rounded-full border border-zinc-100 bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-zinc-500">
+    <span className="rounded-full border border-sand bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-slate">
       {children}
     </span>
   )

@@ -9,16 +9,16 @@ export default function GlobalError({ error, reset }) {
   }, [error])
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white px-5 text-center">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-cream px-5 text-center">
       <Image src="/logo.svg" alt="PickSniff" width={64} height={64} priority />
       <h1 className="mt-6 text-4xl font-black tracking-tight text-black">Something went wrong</h1>
-      <p className="mt-3 max-w-sm text-base text-zinc-500">
+      <p className="mt-3 max-w-sm text-base text-slate">
         An unexpected error occurred. Please try again.
       </p>
       <button
         type="button"
         onClick={reset}
-        className="mt-8 inline-flex rounded-full bg-green-accent px-8 py-3 text-sm font-black text-black transition hover:brightness-95"
+        className="mt-8 inline-flex rounded-xl bg-green-accent px-8 py-3 text-sm font-black text-black transition hover:brightness-95"
       >
         Try again
       </button>

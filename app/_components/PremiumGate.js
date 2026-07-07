@@ -19,12 +19,12 @@ export default function PremiumGate({ children, label = 'This feature' }) {
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-xl bg-white/80 p-6 text-center backdrop-blur-sm">
         <span className="text-2xl">♛</span>
         <p className="text-sm font-black text-black">{label} is Premium</p>
-        <p className="max-w-xs text-xs leading-5 text-zinc-500">
+        <p className="max-w-xs text-xs leading-5 text-slate">
           Upgrade to PickSniff Premium for $4.99/month to unlock this and more.
         </p>
         <Link
           href="/premium"
-          className="mt-1 inline-flex rounded-full bg-green-accent px-5 py-2.5 text-sm font-black text-black transition hover:brightness-95"
+          className="mt-1 inline-flex rounded-xl bg-green-accent px-5 py-2.5 text-sm font-black text-black transition hover:brightness-95"
         >
           Unlock with Premium
         </Link>

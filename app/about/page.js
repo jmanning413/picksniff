@@ -8,11 +8,11 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-white">
+    <div className="flex min-h-screen flex-col bg-cream">
       <Header />
       <main className="mx-auto w-full max-w-2xl flex-1 px-5 py-12 sm:px-8">
         <h1 className="text-4xl font-black tracking-tight text-black">About PickSniff</h1>
-        <div className="mt-8 space-y-6 text-base leading-7 text-zinc-600">
+        <div className="mt-8 space-y-6 text-base leading-7 text-slate">
           <p>
             PickSniff is the fragrance matchmaking app — built for people who love the idea of wearing
             a great fragrance but have no idea where to start.

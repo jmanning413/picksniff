@@ -12,7 +12,7 @@ export default function SaveButtons({ fragranceId, initialWishlisted, initialOwn
   if (!isLoggedIn) {
     return (
       <p className="mt-4 text-center text-xs text-zinc-400">
-        <a href="/auth" className="font-bold text-green-accent hover:underline">
+        <a href="/auth" className="font-bold text-green-deep hover:underline">
           Sign in
         </a>{' '}
         to save to wishlist or collection
@@ -47,10 +47,10 @@ export default function SaveButtons({ fragranceId, initialWishlisted, initialOwn
         onClick={handleWishlist}
         disabled={isPending}
         className={[
-          'flex-1 rounded-full border px-4 py-2.5 text-xs font-bold transition disabled:opacity-50',
+          'flex-1 rounded-xl border px-4 py-2.5 text-xs font-bold transition disabled:opacity-50',
           wishlisted
             ? 'border-green-accent bg-green-accent text-black'
-            : 'border-zinc-200 text-zinc-600 hover:border-green-accent',
+            : 'border-sand text-slate hover:border-green-accent',
         ].join(' ')}
       >
         {wishlisted ? '♥ Wishlisted' : '♡ Wishlist'}
@@ -60,10 +60,10 @@ export default function SaveButtons({ fragranceId, initialWishlisted, initialOwn
         onClick={handleOwned}
         disabled={isPending}
         className={[
-          'flex-1 rounded-full border px-4 py-2.5 text-xs font-bold transition disabled:opacity-50',
+          'flex-1 rounded-xl border px-4 py-2.5 text-xs font-bold transition disabled:opacity-50',
           owned
             ? 'border-green-accent bg-green-accent text-black'
-            : 'border-zinc-200 text-zinc-600 hover:border-green-accent',
+            : 'border-sand text-slate hover:border-green-accent',
         ].join(' ')}
       >
         {owned ? '✓ Owned' : '+ Own it'}

@@ -20,7 +20,7 @@ quizzes funneling into one `/results` page, Supabase auth/user-data, live in pro
 | Prod logs | `npx vercel logs` |
 | Env vars | `npx vercel env ls` (all prod vars are set; local `.env.local` exists, gitignored) |
 
-There is no test suite and no CI (GAPS.md #4). `npx next build` succeeding is the only gate.
+Engine tests exist (`npm test`); no CI yet (GAPS.md #4). Gate before push: `npm test` + `npx next build`.
 
 ## Environment / workflow gotchas
 - Windows 11, PowerShell 5.1 default shell: **no `&&`** in PowerShell tool calls (use `;` or the Bash tool). Heredocs for commit messages work in the Bash tool.
@@ -44,8 +44,8 @@ There is no test suite and no CI (GAPS.md #4). `npx next build` succeeding is th
 - Server actions in `app/_actions/` and `app/auth/actions.js` (`'use server'`, zod-validated, return `{ error }` objects — never throw to the client).
 - API routes: zod schema → `safeParse` → generic error strings out, `console.error('[route-name]', err)` server-side. Rate limiting via `lib/ratelimit.js` (Upstash, no-ops without env vars).
 - Supabase: `lib/supabase/server.js` (cookie client) in server code, `lib/supabase/client.js` in browser code, inline service-role client (`getAdminClient()` pattern) only where RLS must be bypassed. Never concatenate user input into queries.
-- Styling: Tailwind v4 utilities inline, no CSS modules. Brand green = `green-accent` (`#7fe040`, defined in `globals.css` `@theme`). Font DM Sans via `next/font`. Buttons are `rounded-full`, headings `font-black tracking-tight`. White background, clean/minimal, NOT luxury.
-- Icons on the quizzes hub are inline SVG components (stroke `#1A1A1A`, strokeWidth 1.75, round caps) — match that style for new icons; no icon libraries.
+- Styling: Tailwind v4 utilities inline, no CSS modules. **Read `Design.md` (rules + drift log) and `BrandGuidelines.md` (tokens) before touching any UI.** Canvas is cream (`bg-cream`, never pure white pages); green as text is `text-green-deep` (bright `green-accent` is fills only); borders `border-sand`; secondary text `text-slate`; buttons/inputs `rounded-xl` (12px), cards `rounded-2xl` (16px), pills only for badges/chips; no emojis as icons (inline SVG only); DM Sans via `next/font`; headings `font-black tracking-tight`. When Joseph corrects a design choice, append it to Design.md's Drift Loop Log.
+- Icons on the quizzes hub are inline SVG components (stroke `#3D7A16` Green Deep on `bg-green-wash` tiles, strokeWidth 1.75, round caps) — match that style for new icons; no icon libraries.
 - All external/buy links: `target="_blank" rel="noopener noreferrer"`.
 - Client fetch flows use `react-hot-toast` for feedback; optimistic UI with `useTransition` for save buttons.
 - Every quiz page maps its answers onto `{genders, tier, vibe, accords}` and links to `/results?...&mode=<name>`; `mode` only selects copy in `MODE_COPY` (`app/results/ResultsClient.js`). New quiz = new page + hub card + `MODE_COPY` entry + sitemap entry. No backend changes.

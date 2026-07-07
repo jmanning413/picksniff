@@ -51,14 +51,14 @@ export default async function NotesPage() {
   const sortedNotes = Object.keys(noteIndex).sort()
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
-          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-accent">Notes Glossary</p>
+          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Notes Glossary</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What does each note smell like?</h1>
-          <p className="mt-3 text-base leading-7 text-zinc-500">
+          <p className="mt-3 text-base leading-7 text-slate">
             Every note in the PickSniff library explained in plain English. No chemistry degree required.
           </p>
 
@@ -67,14 +67,14 @@ export default async function NotesPage() {
             {Object.entries(NOTE_DESCRIPTIONS).map(([note, desc]) => {
               const examples = noteIndex[note] ?? []
               return (
-                <div key={note} className="rounded-xl border border-zinc-200 bg-white p-5">
+                <div key={note} className="rounded-xl border border-sand bg-white p-5">
                   <h2 className="text-lg font-black">{note}</h2>
-                  <p className="mt-1 text-sm leading-6 text-zinc-500">{desc}</p>
+                  <p className="mt-1 text-sm leading-6 text-slate">{desc}</p>
                   {examples.length > 0 && (
                     <div className="mt-3 flex flex-col gap-1">
                       {examples.map((f) => (
                         <Link key={f.id} href={`/fragrance/${f.id}`}
-                          className="text-xs font-bold text-zinc-600 transition hover:text-green-accent">
+                          className="text-xs font-bold text-slate transition hover:text-green-deep">
                           {f.brand} {f.name}
                         </Link>
                       ))}
@@ -91,7 +91,7 @@ export default async function NotesPage() {
             <div className="columns-2 gap-4 sm:columns-3 lg:columns-4">
               {sortedNotes.map((note) => (
                 <div key={note} className="mb-1 break-inside-avoid">
-                  <span className="text-sm font-bold text-zinc-600">{note}</span>
+                  <span className="text-sm font-bold text-slate">{note}</span>
                   <span className="ml-1 text-xs text-zinc-400">({noteIndex[note].length})</span>
                 </div>
               ))}

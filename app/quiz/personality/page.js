@@ -116,24 +116,24 @@ export default function PersonalityQuizPage() {
     })
 
     return (
-      <main className="min-h-screen bg-white text-black">
+      <main className="min-h-screen bg-cream text-black">
         <div className="mx-auto flex min-h-screen max-w-xl flex-col items-center justify-center px-5 py-12 text-center sm:px-8">
           <Image src="/logo.svg" alt="PickSniff" width={64} height={64} priority />
-          <p className="mt-6 text-xs font-black uppercase tracking-[0.2em] text-green-accent">Your Fragrance Archetype</p>
+          <p className="mt-6 text-xs font-black uppercase tracking-[0.2em] text-green-deep">Your Fragrance Archetype</p>
           <h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">{result.name}</h1>
-          <p className="mt-5 max-w-sm text-base leading-7 text-zinc-500">{result.desc}</p>
+          <p className="mt-5 max-w-sm text-base leading-7 text-slate">{result.desc}</p>
 
           <div className="mt-8 flex w-full flex-col gap-3 sm:flex-row">
             <Link
               href={`/results?${params.toString()}`}
-              className="inline-flex flex-1 min-h-12 items-center justify-center rounded-full bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95"
+              className="inline-flex flex-1 min-h-12 items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95"
             >
               See My Matches →
             </Link>
             <button
               type="button"
               onClick={restart}
-              className="inline-flex flex-1 min-h-12 items-center justify-center rounded-full border border-zinc-200 px-8 text-base font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+              className="inline-flex flex-1 min-h-12 items-center justify-center rounded-xl border border-sand px-8 text-base font-bold text-slate transition hover:border-green-accent hover:text-black"
             >
               Retake Quiz
             </button>
@@ -151,7 +151,7 @@ export default function PersonalityQuizPage() {
   }
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
         <div className="h-1.5 w-full bg-zinc-100">
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
@@ -171,7 +171,7 @@ export default function PersonalityQuizPage() {
             <button
               type="button"
               onClick={goBack}
-              className="mb-8 inline-flex h-10 items-center gap-2 rounded-full border border-zinc-200 px-4 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+              className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
             >
               ← Back
             </button>
@@ -181,11 +181,11 @@ export default function PersonalityQuizPage() {
           {step === 0 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">
                   Step 1
                 </p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Who is this for?</h1>
-                <p className="mt-3 max-w-xl text-base leading-7 text-zinc-500">
+                <p className="mt-3 max-w-xl text-base leading-7 text-slate">
                   Choose one or more. This helps us match you to the right fragrances.
                 </p>
               </div>
@@ -197,10 +197,10 @@ export default function PersonalityQuizPage() {
                     onClick={() => toggleGender(g.id)}
                     aria-pressed={genders.includes(g.id)}
                     className={[
-                      'min-h-20 rounded-lg border p-5 text-left transition',
+                      'min-h-20 rounded-xl border p-5 text-left transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep',
                       genders.includes(g.id)
                         ? 'border-green-accent bg-green-accent/15 shadow-sm'
-                        : 'border-zinc-200 bg-white hover:border-green-accent',
+                        : 'border-sand bg-white hover:border-green-accent',
                     ].join(' ')}
                   >
                     <span className="block text-lg font-black text-black">{g.label}</span>
@@ -212,7 +212,7 @@ export default function PersonalityQuizPage() {
                   type="button"
                   onClick={advanceFromGender}
                   disabled={genders.length === 0}
-                  className="inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35 sm:w-auto sm:min-w-48"
+                  className="inline-flex min-h-[52px] w-full items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35 sm:w-auto sm:min-w-48"
                 >
                   Next →
                 </button>
@@ -226,7 +226,7 @@ export default function PersonalityQuizPage() {
             return (
               <>
                 <div className="mb-8">
-                  <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">
+                  <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">
                     Question {step}
                   </p>
                   <h1 className="text-4xl font-black tracking-tight sm:text-5xl">{q.question}</h1>
@@ -243,13 +243,13 @@ export default function PersonalityQuizPage() {
                           'flex items-start gap-4 rounded-xl border p-5 text-left transition',
                           selected
                             ? 'border-green-accent bg-green-accent/15 shadow-sm'
-                            : 'border-zinc-200 bg-white hover:border-green-accent',
+                            : 'border-sand bg-white hover:border-green-accent',
                         ].join(' ')}
                       >
                         <span className="text-3xl">{opt.emoji}</span>
                         <div>
                           <p className="text-base font-black text-black">{opt.label}</p>
-                          <p className="mt-0.5 text-sm text-zinc-500">{opt.desc}</p>
+                          <p className="mt-0.5 text-sm text-slate">{opt.desc}</p>
                         </div>
                       </button>
                     )

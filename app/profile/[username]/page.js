@@ -53,7 +53,7 @@ export default async function PublicProfilePage({ params }) {
   const earnedBadges = BADGE_DEFS.filter((b) => earnedBadgeIds.includes(b.id))
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
@@ -66,10 +66,10 @@ export default async function PublicProfilePage({ params }) {
             <div className="min-w-0 flex-1">
               <h1 className="text-2xl font-black text-black">@{profile.username}</h1>
               {profile.bio && (
-                <p className="mt-1.5 max-w-md text-sm leading-6 text-zinc-500">{profile.bio}</p>
+                <p className="mt-1.5 max-w-md text-sm leading-6 text-slate">{profile.bio}</p>
               )}
               {profile.favorite_fragrance && (
-                <p className="mt-1 text-sm text-zinc-500">
+                <p className="mt-1 text-sm text-slate">
                   <span className="font-bold text-zinc-700">Favourite: </span>
                   {profile.favorite_fragrance}
                 </p>
@@ -86,7 +86,7 @@ export default async function PublicProfilePage({ params }) {
               <div className="flex flex-wrap gap-2">
                 {earnedBadges.map((b) => (
                   <div key={b.id} title={b.description}
-                    className="flex items-center gap-1.5 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-700 cursor-help">
+                    className="flex items-center gap-1.5 rounded-full border border-sand bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-700 cursor-help">
                     <span>{b.emoji}</span>
                     <span>{b.name}</span>
                   </div>
@@ -103,7 +103,7 @@ export default async function PublicProfilePage({ params }) {
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {ownedFragrances.map((f) => (
                   <Link key={f.id} href={`/fragrance/${f.id}`}
-                    className="block rounded-lg border border-zinc-200 p-4 transition hover:border-green-accent hover:shadow-sm">
+                    className="block rounded-lg border border-sand p-4 transition hover:border-green-accent hover:shadow-sm">
                     <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
                     <h3 className="mt-1 text-base font-black leading-tight text-black">{f.name}</h3>
                     <div className="mt-2 flex flex-wrap gap-1.5">
@@ -124,13 +124,13 @@ export default async function PublicProfilePage({ params }) {
                 {(quizResults ?? []).slice(0, 5).map((r) => (
                   <Link key={r.id}
                     href={`/results?genders=${r.genders.join(',')}&tier=${r.tier}&vibe=${r.vibe}${r.accords?.length ? `&accords=${r.accords.join(',')}` : ''}`}
-                    className="flex items-center justify-between rounded-lg border border-zinc-200 px-4 py-3 transition hover:border-green-accent">
+                    className="flex items-center justify-between rounded-lg border border-sand px-4 py-3 transition hover:border-green-accent">
                     <div className="flex flex-wrap gap-2">
                       {r.genders.map((g) => <Tag key={g}>{g}</Tag>)}
                       <Tag>{r.tier}</Tag>
                       <Tag>{VIBE_LABELS[r.vibe] ?? r.vibe}</Tag>
                     </div>
-                    <span className="text-xs font-black text-green-accent">View →</span>
+                    <span className="text-xs font-black text-green-deep">View →</span>
                   </Link>
                 ))}
               </div>
@@ -146,7 +146,7 @@ export default async function PublicProfilePage({ params }) {
 
 function Tag({ children }) {
   return (
-    <span className="rounded-full border border-zinc-100 bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-zinc-500">
+    <span className="rounded-full border border-sand bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-slate">
       {children}
     </span>
   )

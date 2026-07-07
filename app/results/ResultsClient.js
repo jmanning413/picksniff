@@ -37,7 +37,7 @@ function FilterPill({ children, accent = false }) {
   return (
     <span className={[
       'rounded-full px-3 py-1.5 text-xs font-bold capitalize',
-      accent ? 'bg-green-accent text-black' : 'bg-zinc-100 text-zinc-600',
+      accent ? 'bg-green-accent text-black' : 'bg-zinc-100 text-slate',
     ].join(' ')}>
       {children}
     </span>
@@ -61,7 +61,7 @@ function BuyButtons({ fragrance }) {
     return (
       <div className="mt-5">
         <a href={override.href} target="_blank" rel="noopener noreferrer"
-          className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-green-accent px-5 text-sm font-black text-black transition hover:brightness-95">
+          className="inline-flex min-h-11 w-full items-center justify-center rounded-xl bg-green-accent px-5 text-sm font-black text-black transition hover:brightness-95">
           {override.label}
         </a>
       </div>
@@ -72,31 +72,46 @@ function BuyButtons({ fragrance }) {
     <div className="mt-5 flex flex-col gap-2 sm:flex-row">
       <a href={fragrance.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
         target="_blank" rel="noopener noreferrer"
-        className="inline-flex min-h-11 flex-1 items-center justify-center rounded-full bg-green-accent px-5 text-sm font-black text-black transition hover:brightness-95">
+        className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl bg-green-accent px-5 text-sm font-black text-black transition hover:brightness-95">
         Sephora
       </a>
       <a href={fragrance.jomashop_url || `https://www.jomashop.com/searchresult.html#q=${query}`}
         target="_blank" rel="noopener noreferrer"
-        className="inline-flex min-h-11 flex-1 items-center justify-center rounded-full border border-green-accent px-5 text-sm font-black text-black transition hover:bg-green-accent/10">
+        className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl border border-green-accent px-5 text-sm font-black text-black transition hover:bg-green-accent/10">
         Jomashop
       </a>
     </div>
   )
 }
 
-function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlighted, compareSelected, onCompareToggle, compareDisabled }) {
+function IconSparkle({ className }) {
+  return (
+    <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden>
+      <path d="M8 1.5 C8.8 5 11 6.2 14.5 8 C11 9.8 8.8 11 8 14.5 C7.2 11 5 9.8 1.5 8 C5 6.2 7.2 5 8 1.5 Z" />
+    </svg>
+  )
+}
+
+function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlighted, isTopMatch, compareSelected, onCompareToggle, compareDisabled }) {
   const score = Math.max(0, Math.min(100, fragrance.score || 0))
   const notes = (fragrance.top_notes || []).slice(0, 3)
   const description = fragrance.description || buildDescription(fragrance.accords)
 
   return (
     <article className={[
-      'rounded-lg border bg-white p-5 shadow-sm transition',
-      isHighlighted ? 'border-green-accent ring-2 ring-green-accent/30' : 'border-zinc-200',
+      'rounded-2xl border bg-white p-5 shadow-sm transition',
+      isHighlighted ? 'border-green-accent ring-2 ring-green-accent/30'
+        : isTopMatch ? 'border-green-accent bg-green-wash'
+        : 'border-sand',
     ].join(' ')}>
       {isHighlighted && (
         <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-green-accent px-3 py-1 text-xs font-black text-black">
-          🎲 Blind Pick
+          <IconSparkle /> Blind Pick
+        </div>
+      )}
+      {isTopMatch && !isHighlighted && (
+        <div className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-green-accent px-3 py-1 text-xs font-black text-black">
+          <IconSparkle /> Your Best Match
         </div>
       )}
       <div className="flex gap-4">
@@ -105,15 +120,15 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
           <div className="flex gap-3">
             <div className="min-w-0 flex-1">
               <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{fragrance.brand}</p>
-              <Link href={`/fragrance/${fragrance.id}`} className="mt-1 block text-xl font-black leading-tight text-black hover:text-green-accent transition">
+              <Link href={`/fragrance/${fragrance.id}`} className="mt-1 block text-xl font-black leading-tight text-black hover:text-green-deep transition">
                 {fragrance.name}
               </Link>
               {fragrance.concentration && (
-                <p className="mt-1 text-sm font-bold text-zinc-500">{fragrance.concentration}</p>
+                <p className="mt-1 text-sm font-bold text-slate">{fragrance.concentration}</p>
               )}
             </div>
             <div className="shrink-0 text-right">
-              <p className="text-2xl font-black text-green-accent">{score}%</p>
+              <p className="text-2xl font-black text-green-deep">{score}%</p>
               <p className="text-xs font-bold uppercase tracking-[0.12em] text-zinc-400">Match</p>
             </div>
           </div>
@@ -134,7 +149,7 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
       )}
 
 
-      <p className="mt-3 text-sm leading-6 text-zinc-500">{description}</p>
+      <p className="mt-3 text-sm leading-6 text-slate">{description}</p>
 
       <BuyButtons fragrance={fragrance} />
 
@@ -151,10 +166,10 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
           onClick={() => onCompareToggle(fragrance)}
           disabled={compareDisabled && !compareSelected}
           className={[
-            'rounded-full border px-3 py-1.5 text-xs font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
+            'rounded-xl border px-3 py-1.5 text-xs font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
             compareSelected
               ? 'border-green-accent bg-green-accent text-black'
-              : 'border-zinc-200 text-zinc-500 hover:border-green-accent',
+              : 'border-sand text-slate hover:border-green-accent',
           ].join(' ')}
         >
           {compareSelected ? '✓ Comparing' : '+ Compare'}
@@ -170,7 +185,7 @@ function CompareModal({ fragrances, onClose }) {
       <div className="w-full max-w-4xl rounded-2xl bg-white p-6 shadow-2xl">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-black">Compare Fragrances</h2>
-          <button type="button" onClick={onClose} className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-200 text-zinc-500 hover:border-green-accent hover:text-black transition">
+          <button type="button" onClick={onClose} className="flex h-9 w-9 items-center justify-center rounded-full border border-sand text-slate hover:border-green-accent hover:text-black transition">
             ✕
           </button>
         </div>
@@ -179,7 +194,7 @@ function CompareModal({ fragrances, onClose }) {
           {fragrances.map((f) => {
             const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
             return (
-              <div key={f.id} className="rounded-lg border border-zinc-200 p-4">
+              <div key={f.id} className="rounded-lg border border-sand p-4">
                 <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-green-accent">
                   <span className="text-xl font-black text-black">{f.brand.charAt(0)}</span>
                 </div>
@@ -206,7 +221,7 @@ function CompareModal({ fragrances, onClose }) {
 
                 <a href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
                   target="_blank" rel="noopener noreferrer"
-                  className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-green-accent py-2.5 text-xs font-black text-black transition hover:brightness-95">
+                  className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-green-accent py-2.5 text-xs font-black text-black transition hover:brightness-95">
                   Sephora
                 </a>
               </div>
@@ -222,7 +237,7 @@ function Row({ label, value, accent }) {
   return (
     <div className="flex items-baseline justify-between gap-2">
       <span className="text-xs font-black uppercase tracking-[0.12em] text-zinc-400">{label}</span>
-      <span className={['text-sm font-bold capitalize', accent ? 'text-green-accent' : 'text-zinc-700'].join(' ')}>{value}</span>
+      <span className={['text-sm font-bold capitalize', accent ? 'text-green-deep' : 'text-zinc-700'].join(' ')}>{value}</span>
     </div>
   )
 }
@@ -270,24 +285,24 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
       <section className="mx-auto w-full max-w-6xl px-5 py-8 sm:px-8 sm:py-12">
         <div className="mb-8 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">{MODE_COPY[mode]?.eyebrow ?? 'Signature Scent Results'}</p>
+            <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">{MODE_COPY[mode]?.eyebrow ?? 'Signature Scent Results'}</p>
             <h1 className="text-4xl font-black tracking-tight sm:text-5xl">{MODE_COPY[mode]?.heading ?? 'Your Matches'}</h1>
-            <p className="mt-3 max-w-2xl text-base leading-7 text-zinc-500">
+            <p className="mt-3 max-w-2xl text-base leading-7 text-slate">
               {MODE_COPY[mode]?.sub ?? 'Ranked by your gender, tier, vibe, and accord picks.'}
             </p>
             <div className="mt-4 flex flex-wrap items-center gap-3">
               <button
                 type="button"
                 onClick={doBlindPick}
-                className="inline-flex items-center gap-2 rounded-full bg-green-accent px-4 py-2 text-sm font-black text-black transition hover:brightness-95"
+                className="inline-flex items-center gap-2 rounded-xl bg-green-accent px-4 py-2 text-sm font-black text-black transition hover:brightness-95"
               >
-                🎲 Surprise Me
+                Surprise Me
               </button>
               {compareList.length >= 2 && (
                 <button
                   type="button"
                   onClick={() => setShowCompare(true)}
-                  className="inline-flex items-center gap-2 rounded-full border border-green-accent px-4 py-2 text-sm font-black text-black transition hover:bg-green-accent/10"
+                  className="inline-flex items-center gap-2 rounded-xl border border-green-accent px-4 py-2 text-sm font-black text-black transition hover:bg-green-accent/10"
                 >
                   Compare {compareList.length}
                 </button>
@@ -295,11 +310,11 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
               <button
                 type="button"
                 onClick={shareResults}
-                className="rounded-full border border-zinc-200 px-4 py-2 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+                className="rounded-xl border border-sand px-4 py-2 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
               >
                 Share Results
               </button>
-              <Link href="/quiz" className="rounded-full border border-zinc-200 px-4 py-2 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black">
+              <Link href="/quiz" className="rounded-xl border border-sand px-4 py-2 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black">
                 Retake Quiz
               </Link>
             </div>
@@ -316,17 +331,17 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
         {fragrances.length === 0 ? (
           <div className="rounded-lg border border-dashed border-zinc-300 p-10 text-center">
             <h2 className="text-xl font-black">No matches yet</h2>
-            <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-zinc-500">
+            <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-slate">
               Try a wider gender selection or a different price tier to open up the pool.
             </p>
-            <Link href="/quiz" className="mt-6 inline-flex rounded-full bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95">
+            <Link href="/quiz" className="mt-6 inline-flex rounded-xl bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95">
               Back to Quiz
             </Link>
           </div>
         ) : (
           <>
             <div className="grid gap-4 lg:grid-cols-2">
-              {fragrances.map((f) => (
+              {fragrances.map((f, idx) => (
                 <div key={f.id} id={`fcard-${f.id}`}>
                   <FragranceCard
                     fragrance={f}
@@ -334,6 +349,7 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
                     isOwned={ownedMap[f.id] ?? false}
                     isLoggedIn={isLoggedIn}
                     isHighlighted={blindPick === f.id}
+                    isTopMatch={idx === 0}
                     compareSelected={!!compareList.find((c) => c.id === f.id)}
                     onCompareToggle={toggleCompare}
                     compareDisabled={compareList.length >= 3}
@@ -344,12 +360,12 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
 
             {!isLoggedIn && (
               <div className="mt-8 rounded-xl border border-dashed border-green-accent/50 bg-green-accent/5 p-8 text-center">
-                <span className="text-2xl">🔓</span>
+                
                 <h3 className="mt-2 text-lg font-black text-black">See up to 20 matches — free account</h3>
-                <p className="mx-auto mt-2 max-w-sm text-sm leading-6 text-zinc-500">
+                <p className="mx-auto mt-2 max-w-sm text-sm leading-6 text-slate">
                   Create a free PickSniff account for double the results, wishlist, collection tracking, and more.
                 </p>
-                <Link href="/auth" className="mt-4 inline-flex rounded-full bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95">
+                <Link href="/auth" className="mt-4 inline-flex rounded-xl bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95">
                   Create Free Account
                 </Link>
               </div>
@@ -360,12 +376,12 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
                 <p className="mb-6 text-sm font-black uppercase tracking-[0.18em] text-zinc-400">You might also like</p>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {alsoLiked.map((f) => (
-                    <Link key={f.id} href={`/fragrance/${f.id}`} className="group block rounded-lg border border-zinc-200 bg-white p-4 transition hover:border-green-accent hover:shadow-sm">
+                    <Link key={f.id} href={`/fragrance/${f.id}`} className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm">
                       <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-green-accent">
                         <span className="text-lg font-black text-black">{f.brand.charAt(0)}</span>
                       </div>
                       <p className="text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
-                      <h3 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-accent transition">{f.name}</h3>
+                      <h3 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">{f.name}</h3>
                       <div className="mt-2 flex flex-wrap gap-1.5">
                         {(f.accords || []).slice(0, 3).map((a) => (
                           <span key={a} className="rounded-full bg-green-accent/15 px-2 py-0.5 text-xs font-bold text-zinc-700">{a}</span>

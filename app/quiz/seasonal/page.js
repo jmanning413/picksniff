@@ -128,7 +128,7 @@ export default function SeasonalQuizPage() {
   const isOptionalStep = step === 3
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
         <div className="h-1.5 w-full bg-zinc-100">
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
@@ -148,7 +148,7 @@ export default function SeasonalQuizPage() {
             <button
               type="button"
               onClick={() => setStep((s) => s - 1)}
-              className="mb-8 inline-flex h-10 items-center gap-2 rounded-full border border-zinc-200 px-4 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+              className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
             >
               ← Back
             </button>
@@ -158,14 +158,14 @@ export default function SeasonalQuizPage() {
           {step === 0 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Seasonal Quiz</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Seasonal Quiz</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Who is this for?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">Choose one or more.</p>
+                <p className="mt-3 text-base leading-7 text-slate">Choose one or more.</p>
               </div>
               <div className="grid gap-3 sm:grid-cols-3">
                 {GENDERS.map((g) => (
                   <button key={g.id} type="button" onClick={() => toggleGender(g.id)} aria-pressed={genders.includes(g.id)}
-                    className={['min-h-20 rounded-lg border p-5 text-left transition', genders.includes(g.id) ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent'].join(' ')}>
+                    className={['min-h-20 rounded-xl border p-5 text-left transition', genders.includes(g.id) ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="block text-lg font-black text-black">{g.label}</span>
                   </button>
                 ))}
@@ -177,18 +177,18 @@ export default function SeasonalQuizPage() {
           {step === 1 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Step 2</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 2</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Which season?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">Pick the season you want to dress for.</p>
+                <p className="mt-3 text-base leading-7 text-slate">Pick the season you want to dress for.</p>
               </div>
               <div className="grid gap-3 sm:grid-cols-2">
                 {SEASONS.map((s) => (
                   <button key={s.id} type="button" onClick={() => setSeason(s.id)} aria-pressed={season === s.id}
-                    className={['flex items-start gap-4 rounded-xl border p-5 text-left transition', season === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent'].join(' ')}>
+                    className={['flex items-start gap-4 rounded-xl border p-5 text-left transition', season === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="text-3xl">{s.emoji}</span>
                     <div>
                       <p className="text-base font-black text-black">{s.label}</p>
-                      <p className="mt-0.5 text-sm text-zinc-500">{s.desc}</p>
+                      <p className="mt-0.5 text-sm text-slate">{s.desc}</p>
                     </div>
                   </button>
                 ))}
@@ -200,16 +200,16 @@ export default function SeasonalQuizPage() {
           {step === 2 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Step 3</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 3</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Pick a price tier</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">This keeps recommendations in the right lane.</p>
+                <p className="mt-3 text-base leading-7 text-slate">This keeps recommendations in the right lane.</p>
               </div>
               <div className="grid gap-3">
                 {TIERS.map((t) => (
                   <button key={t.id} type="button" onClick={() => setTier(t.id)} aria-pressed={tier === t.id}
-                    className={['min-h-20 rounded-lg border p-5 text-left transition', tier === t.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent'].join(' ')}>
+                    className={['min-h-20 rounded-xl border p-5 text-left transition', tier === t.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="block text-lg font-black text-black">{t.label}</span>
-                    <span className="mt-1 block text-sm leading-6 text-zinc-500">{t.description}</span>
+                    <span className="mt-1 block text-sm leading-6 text-slate">{t.description}</span>
                   </button>
                 ))}
               </div>
@@ -220,9 +220,9 @@ export default function SeasonalQuizPage() {
           {step === 3 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Step 4 · Optional</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 4 · Optional</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Any accord preferences?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">Pick up to 2, or skip to let the season decide.</p>
+                <p className="mt-3 text-base leading-7 text-slate">Pick up to 2, or skip to let the season decide.</p>
               </div>
               <div className="flex flex-wrap gap-2.5">
                 {accordsLoading || availableAccords === null ? (
@@ -235,7 +235,7 @@ export default function SeasonalQuizPage() {
                     const disabled = accords.length >= 2 && !selected
                     return (
                       <button key={a} type="button" onClick={() => toggleAccord(a)} disabled={disabled} aria-pressed={selected}
-                        className={['min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40', selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-zinc-200 bg-white text-zinc-700 hover:border-green-accent'].join(' ')}>
+                        className={['min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40', selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-sand bg-white text-zinc-700 hover:border-green-accent'].join(' ')}>
                         {a}
                       </button>
                     )
@@ -250,13 +250,13 @@ export default function SeasonalQuizPage() {
               type="button"
               onClick={goNext}
               disabled={!canContinue()}
-              className="inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35"
+              className="inline-flex min-h-[52px] flex-1 items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35"
             >
               {step === 3 ? 'See My Seasonal Matches' : 'Next →'}
             </button>
             {isOptionalStep && (
               <button type="button" onClick={submit}
-                className="inline-flex min-h-[52px] items-center justify-center rounded-full border border-zinc-200 px-8 text-base font-bold text-zinc-500 transition hover:border-green-accent hover:text-black sm:min-w-36">
+                className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-8 text-base font-bold text-slate transition hover:border-green-accent hover:text-black sm:min-w-36">
                 Skip
               </button>
             )}

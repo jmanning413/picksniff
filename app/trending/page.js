@@ -29,14 +29,14 @@ export default async function TrendingPage() {
   const mostReviewed = trending.slice(10, 15)
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
-          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-accent">Trending</p>
+          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Trending</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Popular this week</h1>
-          <p className="mt-3 text-base leading-7 text-zinc-500">The fragrances getting the most attention on PickSniff right now.</p>
+          <p className="mt-3 text-base leading-7 text-slate">The fragrances getting the most attention on PickSniff right now.</p>
 
           <TrendSection title="Most Viewed" fragrances={mostViewed} />
           <TrendSection title="Most Saved" fragrances={mostSaved} />
@@ -58,12 +58,12 @@ function TrendSection({ title, fragrances }) {
           <Link
             key={f.id}
             href={`/fragrance/${f.id}`}
-            className="group flex items-start gap-4 rounded-lg border border-zinc-200 bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
+            className="group flex items-start gap-4 rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
           >
             <span className="mt-0.5 w-6 shrink-0 text-sm font-black text-zinc-400">#{i + 1}</span>
             <div className="min-w-0 flex-1">
               <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
-              <h3 className="mt-0.5 text-base font-black leading-tight text-black group-hover:text-green-accent transition">{f.name}</h3>
+              <h3 className="mt-0.5 text-base font-black leading-tight text-black group-hover:text-green-deep transition">{f.name}</h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {(f.accords || []).slice(0, 3).map((a) => (
                   <span key={a} className="rounded-full bg-green-accent/15 px-2 py-0.5 text-xs font-bold text-zinc-700">{a}</span>

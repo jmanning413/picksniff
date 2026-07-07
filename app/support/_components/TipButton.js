@@ -48,7 +48,7 @@ export default function TipButton() {
             className={`flex-1 rounded-full border py-3 text-sm font-black transition ${
               selected === a && !custom
                 ? 'border-green-accent bg-green-accent text-black'
-                : 'border-zinc-200 text-zinc-600 hover:border-green-accent hover:text-black'
+                : 'border-sand text-slate hover:border-green-accent hover:text-black'
             }`}
           >
             ${a}
@@ -65,7 +65,7 @@ export default function TipButton() {
           placeholder="Custom amount"
           value={custom}
           onChange={(e) => { setCustom(e.target.value); setSelected('') }}
-          className="w-full rounded-full border border-zinc-200 py-3 pl-8 pr-4 text-sm outline-none transition focus:border-green-accent"
+          className="w-full rounded-full border border-sand py-3 pl-8 pr-4 text-sm outline-none transition focus:border-green-accent"
         />
       </div>
 

@@ -18,15 +18,15 @@ export default function ProfileTabs({ quizResults, wishlistFragrances, ownedFrag
 
   return (
     <div className="mt-10">
-      <div className="flex gap-1 rounded-full border border-zinc-200 p-1 sm:w-fit">
+      <div className="flex gap-1 rounded-full border border-sand p-1 sm:w-fit">
         {TABS.map((t) => (
           <button
             key={t}
             type="button"
             onClick={() => setTab(t)}
             className={[
-              'rounded-full px-4 py-2 text-sm font-bold transition',
-              tab === t ? 'bg-green-accent text-black' : 'text-zinc-500 hover:text-black',
+              'rounded-xl px-4 py-2 text-sm font-bold transition',
+              tab === t ? 'bg-green-accent text-black' : 'text-slate hover:text-black',
             ].join(' ')}
           >
             {t}
@@ -61,7 +61,7 @@ function QuizHistory({ results }) {
       <Empty message="No quiz results saved yet.">
         <Link
           href="/quiz"
-          className="mt-4 inline-flex rounded-full bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95"
+          className="mt-4 inline-flex rounded-xl bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95"
         >
           Take the Quiz
         </Link>
@@ -75,7 +75,7 @@ function QuizHistory({ results }) {
         <Link
           key={r.id}
           href={`/results?genders=${r.genders.join(',')}&tier=${r.tier}&vibe=${r.vibe}${r.accords?.length ? `&accords=${r.accords.join(',')}` : ''}`}
-          className="block rounded-lg border border-zinc-200 p-4 transition hover:border-green-accent hover:shadow-sm"
+          className="block rounded-lg border border-sand p-4 transition hover:border-green-accent hover:shadow-sm"
         >
           <div className="flex items-start justify-between gap-4">
             <div className="flex flex-wrap gap-2">
@@ -94,7 +94,7 @@ function QuizHistory({ results }) {
               {new Date(r.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
             </span>
           </div>
-          <p className="mt-2 text-xs font-bold text-green-accent">View results →</p>
+          <p className="mt-2 text-xs font-bold text-green-deep">View results →</p>
         </Link>
       ))}
     </div>
@@ -112,7 +112,7 @@ function FragranceGrid({ fragrances, emptyMessage }) {
         <Link
           key={f.id}
           href={`/fragrance/${f.id}`}
-          className="block rounded-lg border border-zinc-200 p-4 transition hover:border-green-accent hover:shadow-sm"
+          className="block rounded-lg border border-sand p-4 transition hover:border-green-accent hover:shadow-sm"
         >
           <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{f.brand}</p>
           <h3 className="mt-1 text-base font-black leading-tight text-black">{f.name}</h3>
@@ -131,7 +131,7 @@ function FragranceGrid({ fragrances, emptyMessage }) {
 
 function Tag({ children }) {
   return (
-    <span className="rounded-full border border-zinc-100 bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-zinc-500">
+    <span className="rounded-full border border-sand bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-slate">
       {children}
     </span>
   )
@@ -140,7 +140,7 @@ function Tag({ children }) {
 function Empty({ message, children }) {
   return (
     <div className="flex flex-col items-center py-12 text-center">
-      <p className="text-sm text-zinc-500">{message}</p>
+      <p className="text-sm text-slate">{message}</p>
       {children}
     </div>
   )

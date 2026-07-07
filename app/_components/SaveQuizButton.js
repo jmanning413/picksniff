@@ -16,7 +16,7 @@ export default function SaveQuizButton({ genders, tier, vibe, accords }) {
 
   if (saved) {
     return (
-      <span className="text-sm font-bold text-green-accent">✓ Saved to profile</span>
+      <span className="text-sm font-bold text-green-deep">✓ Saved to profile</span>
     )
   }
 
@@ -25,7 +25,7 @@ export default function SaveQuizButton({ genders, tier, vibe, accords }) {
       type="button"
       onClick={handle}
       disabled={isPending}
-      className="rounded-full border border-zinc-200 px-4 py-2 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black disabled:opacity-50"
+      className="rounded-xl border border-sand px-4 py-2 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black disabled:opacity-50"
     >
       {isPending ? 'Saving…' : 'Save to profile'}
     </button>

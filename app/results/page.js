@@ -76,7 +76,7 @@ export default async function ResultsPage({ searchParams }) {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
       <ResultsClient
         fragrances={fragrances}

@@ -16,8 +16,8 @@ export default function AuthPage() {
   const action = isSignIn ? signInAction : signUpAction
 
   return (
-    <main className="flex min-h-screen flex-col bg-white">
-      <header className="border-b border-zinc-100 px-5 py-4 sm:px-8">
+    <main className="flex min-h-screen flex-col bg-cream">
+      <header className="border-b border-sand px-5 py-4 sm:px-8">
         <Link href="/" className="inline-flex items-center gap-2 font-bold" aria-label="PickSniff home">
           <Image src="/logo.svg" alt="" width={28} height={28} priority />
           <span>
@@ -31,18 +31,18 @@ export default function AuthPage() {
           <h1 className="mb-2 text-3xl font-black tracking-tight text-black">
             {isSignIn ? 'Welcome back' : 'Create account'}
           </h1>
-          <p className="mb-8 text-sm text-zinc-500">
+          <p className="mb-8 text-sm text-slate">
             {isSignIn
               ? 'Sign in to access your profile and saved fragrances.'
               : 'Save quiz results, build a wishlist, track your collection.'}
           </p>
 
-          <div className="mb-6 flex rounded-full border border-zinc-200 p-1">
+          <div className="mb-6 flex rounded-full border border-sand p-1">
             <button
               type="button"
               onClick={() => setMode('signin')}
               className={`flex-1 rounded-full py-2.5 text-sm font-bold transition ${
-                isSignIn ? 'bg-green-accent text-black' : 'text-zinc-500 hover:text-black'
+                isSignIn ? 'bg-green-accent text-black' : 'text-slate hover:text-black'
               }`}
             >
               Sign In
@@ -51,7 +51,7 @@ export default function AuthPage() {
               type="button"
               onClick={() => setMode('signup')}
               className={`flex-1 rounded-full py-2.5 text-sm font-bold transition ${
-                !isSignIn ? 'bg-green-accent text-black' : 'text-zinc-500 hover:text-black'
+                !isSignIn ? 'bg-green-accent text-black' : 'text-slate hover:text-black'
               }`}
             >
               Sign Up
@@ -88,7 +88,7 @@ export default function AuthPage() {
 
           <p className="mt-6 text-center text-xs text-zinc-400">
             No account required to take the quiz.{' '}
-            <Link href="/quiz" className="font-bold text-zinc-600 hover:text-black">
+            <Link href="/quiz" className="font-bold text-slate hover:text-black">
               Try it now →
             </Link>
           </p>
@@ -119,13 +119,13 @@ function Field({ label, name, type, placeholder, autoComplete }) {
           placeholder={placeholder}
           autoComplete={autoComplete}
           required
-          className="w-full rounded-lg border border-zinc-200 px-4 py-3 text-sm outline-none transition focus:border-green-accent pr-11"
+          className="w-full rounded-lg border border-sand px-4 py-3 text-sm outline-none transition focus:border-green-accent pr-11"
         />
         {isPassword && (
           <button
             type="button"
             onClick={() => setShow(s => !s)}
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 transition"
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-slate transition"
             aria-label={show ? 'Hide password' : 'Show password'}
           >
             {show ? (

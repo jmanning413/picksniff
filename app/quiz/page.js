@@ -14,23 +14,38 @@ const GENDERS = [
 ]
 
 const TIERS = [
-  { id: 'budget', label: 'Budget', description: 'Easy wins and smart starter picks.' },
-  { id: 'quality', label: 'Quality', description: 'Polished fragrances with more depth.' },
-  { id: 'niche', label: 'Niche', description: 'Distinctive houses and luxury bottles.' },
+  { id: 'budget', label: 'Budget', description: 'Under $100 — easy wins and smart starter picks.' },
+  { id: 'quality', label: 'Quality', description: '$100–$200 — polished fragrances with more depth.' },
+  { id: 'niche', label: 'Niche', description: '$200+ — distinctive houses and luxury bottles.' },
 ]
 
 const VIBES = [
-  { id: 'daily', label: 'Daily' },
-  { id: 'date_night', label: 'Date Night' },
-  { id: 'sport', label: 'Sport' },
-  { id: 'chill', label: 'Chill' },
-  { id: 'formal', label: 'Formal' },
+  { id: 'daily', label: 'Daily', description: 'Work, class, errands — your everyday scent.' },
+  { id: 'date_night', label: 'Date Night', description: 'Warm, close-up, memorable.' },
+  { id: 'sport', label: 'Sport', description: 'Gym, outdoors, hot days.' },
+  { id: 'chill', label: 'Chill', description: 'Weekends, cozy nights in.' },
+  { id: 'formal', label: 'Formal', description: 'Suits, events, business.' },
 ]
 
 const ACCORDS_FALLBACK = [
   'Citrus', 'Floral', 'Woody', 'Vanilla', 'Amber',
   'Spicy', 'Fresh', 'Aromatic', 'Fruity', 'Aquatic', 'Green',
 ]
+
+// Plain-English hints so newcomers never have to guess what a word means
+const ACCORD_HINTS = {
+  Citrus: 'zesty lemon & orange',
+  Floral: 'fresh-cut flowers',
+  Woody: 'warm cedar & sandalwood',
+  Vanilla: 'sweet & cozy',
+  Amber: 'warm golden glow',
+  Spicy: 'pepper & cinnamon heat',
+  Fresh: 'clean, just-showered feel',
+  Aromatic: 'herbs like lavender',
+  Fruity: 'juicy peach & berries',
+  Aquatic: 'ocean breeze',
+  Green: 'cut grass & leaves',
+}
 
 const CONCENTRATIONS = [
   { id: 'EDT', label: 'EDT', description: 'Eau de Toilette — lighter, everyday wear.' },
@@ -77,6 +92,15 @@ export default function QuizPage() {
   const [availableAccords, setAvailableAccords] = useState(null) // null = not yet fetched
   const [accordsLoading, setAccordsLoading] = useState(false)
   const fetchKeyRef = useRef(null)
+
+  // Fast-start from the homepage: /quiz?g=male preselects gender and jumps to Step 2
+  useEffect(() => {
+    const g = new URLSearchParams(window.location.search).get('g')
+    if (g && GENDERS.some((x) => x.id === g)) {
+      setGenders([g])
+      setStep(1)
+    }
+  }, [])
 
   // Fetch available accords when the user reaches Step 4 (index 3)
   // Also prefetch as soon as Steps 1-3 are all complete
@@ -205,7 +229,7 @@ export default function QuizPage() {
   const isOptionalStep = step === 3 || step === 4 || step === 5
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
         <div className="h-1.5 w-full bg-zinc-100">
           <div
@@ -228,19 +252,19 @@ export default function QuizPage() {
           <button
             type="button"
             onClick={goBack}
-            className="mb-8 inline-flex h-10 items-center gap-2 rounded-full border border-zinc-200 px-4 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+            className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
           >
             <span aria-hidden>&larr;</span> Back
           </button>
 
           <div className="mb-8">
-            <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">
+            <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">
               {currentStep.eyebrow}
             </p>
             <h1 className="text-4xl font-black tracking-tight text-black sm:text-5xl">
               {currentStep.title}
             </h1>
-            <p className="mt-3 max-w-xl text-base leading-7 text-zinc-500">{currentStep.subtitle}</p>
+            <p className="mt-3 max-w-xl text-base leading-7 text-slate">{currentStep.subtitle}</p>
           </div>
 
           {step === 0 && (
@@ -262,26 +286,23 @@ export default function QuizPage() {
           {step === 2 && (
             <div className="grid gap-3 sm:grid-cols-2">
               {VIBES.map((v) => (
-                <OptionButton key={v.id} label={v.label} selected={vibe === v.id} onClick={() => setVibe(v.id)} />
+                <OptionButton key={v.id} label={v.label} description={v.description} selected={vibe === v.id} onClick={() => setVibe(v.id)} />
               ))}
             </div>
           )}
 
           {step === 3 && (
-            <div className="flex flex-wrap gap-2.5">
+            <div className="grid gap-2.5 sm:grid-cols-2">
               {accordsLoading || availableAccords === null ? (
-                // Skeleton pills while fetching
-                Array.from({ length: 7 }).map((_, i) => (
-                  <div
-                    key={i}
-                    className="h-11 rounded-full bg-zinc-100 animate-pulse"
-                    style={{ width: `${72 + (i % 3) * 20}px` }}
-                  />
+                // Skeleton chips while fetching
+                Array.from({ length: 8 }).map((_, i) => (
+                  <div key={i} className="h-[62px] rounded-xl bg-zinc-100 animate-pulse" />
                 ))
               ) : (
                 availableAccords.map((accord) => {
                   const selected = accords.includes(accord)
                   const disabled = accords.length >= 3 && !selected
+                  const hint = ACCORD_HINTS[accord]
                   return (
                     <button
                       key={accord}
@@ -290,11 +311,15 @@ export default function QuizPage() {
                       disabled={disabled}
                       aria-pressed={selected}
                       className={[
-                        'min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
-                        selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-zinc-200 bg-white text-zinc-700 hover:border-green-accent',
+                        'rounded-xl border px-4 py-3 text-left transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep disabled:cursor-not-allowed disabled:opacity-40',
+                        selected ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent',
                       ].join(' ')}
                     >
-                      {accord}
+                      <span className="flex items-center gap-2">
+                        <span className="text-sm font-black text-black">{accord}</span>
+                        {selected && <span aria-hidden className="text-xs font-black text-green-deep">✓</span>}
+                      </span>
+                      {hint && <span className="mt-0.5 block text-xs text-slate">{hint}</span>}
                     </button>
                   )
                 })
@@ -333,7 +358,7 @@ export default function QuizPage() {
                       aria-pressed={selected}
                       className={[
                         'min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
-                        selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-zinc-200 bg-white text-zinc-700 hover:border-green-accent',
+                        selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-sand bg-white text-zinc-700 hover:border-green-accent',
                       ].join(' ')}
                     >
                       {note}
@@ -355,7 +380,7 @@ export default function QuizPage() {
               type="button"
               onClick={goNext}
               disabled={!canContinue() || isSubmitting}
-              className="inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35"
+              className="inline-flex min-h-[52px] flex-1 items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35"
             >
               {isSubmitting ? 'Finding matches…' : isLastStep ? 'See My Matches' : 'Next'}
               {!isSubmitting && !isLastStep && <span aria-hidden className="ml-2">&rarr;</span>}
@@ -366,7 +391,7 @@ export default function QuizPage() {
                 type="button"
                 onClick={isLastStep ? () => submitQuiz(false) : goNext}
                 disabled={isSubmitting}
-                className="inline-flex min-h-[52px] items-center justify-center rounded-full border border-zinc-200 px-8 text-base font-bold text-zinc-500 transition hover:border-green-accent hover:text-black disabled:cursor-not-allowed disabled:opacity-35 sm:min-w-36"
+                className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-8 text-base font-bold text-slate transition hover:border-green-accent hover:text-black disabled:cursor-not-allowed disabled:opacity-35 sm:min-w-36"
               >
                 Skip
               </button>
@@ -385,12 +410,12 @@ function OptionButton({ label, description, selected, onClick }) {
       onClick={onClick}
       aria-pressed={selected}
       className={[
-        'min-h-20 rounded-lg border p-5 text-left transition',
-        selected ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent',
+        'min-h-20 rounded-xl border p-5 text-left transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep',
+        selected ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent',
       ].join(' ')}
     >
       <span className="block text-lg font-black text-black">{label}</span>
-      {description && <span className="mt-1 block text-sm leading-6 text-zinc-500">{description}</span>}
+      {description && <span className="mt-1 block text-sm leading-6 text-slate">{description}</span>}
     </button>
   )
 }

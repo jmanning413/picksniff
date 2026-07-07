@@ -108,7 +108,7 @@ export default function GiftQuizPage() {
   const isOptionalStep = step === 3
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
         <div className="h-1.5 w-full bg-zinc-100">
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
@@ -126,7 +126,7 @@ export default function GiftQuizPage() {
         <div className="mx-auto w-full max-w-2xl">
           {step > 0 && (
             <button type="button" onClick={() => setStep((s) => s - 1)}
-              className="mb-8 inline-flex h-10 items-center gap-2 rounded-full border border-zinc-200 px-4 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black">
+              className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black">
               ← Back
             </button>
           )}
@@ -135,14 +135,14 @@ export default function GiftQuizPage() {
           {step === 0 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Gift Finder</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Gift Finder</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Who are you shopping for?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">Choose one or more. We'll find them the perfect scent.</p>
+                <p className="mt-3 text-base leading-7 text-slate">Choose one or more. We'll find them the perfect scent.</p>
               </div>
               <div className="grid gap-3 sm:grid-cols-3">
                 {GENDERS.map((g) => (
                   <button key={g.id} type="button" onClick={() => toggleGender(g.id)} aria-pressed={genders.includes(g.id)}
-                    className={['min-h-20 rounded-lg border p-5 text-left transition', genders.includes(g.id) ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent'].join(' ')}>
+                    className={['min-h-20 rounded-xl border p-5 text-left transition', genders.includes(g.id) ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="block text-lg font-black text-black">{g.label}</span>
                   </button>
                 ))}
@@ -154,18 +154,18 @@ export default function GiftQuizPage() {
           {step === 1 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Step 2</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 2</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What's the occasion?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">This shapes the whole recommendation.</p>
+                <p className="mt-3 text-base leading-7 text-slate">This shapes the whole recommendation.</p>
               </div>
               <div className="grid gap-3">
                 {OCCASIONS.map((o) => (
                   <button key={o.id} type="button" onClick={() => setOccasion(o)} aria-pressed={occasion?.id === o.id}
-                    className={['flex items-start gap-4 rounded-xl border p-4 text-left transition', occasion?.id === o.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent'].join(' ')}>
+                    className={['flex items-start gap-4 rounded-xl border p-4 text-left transition', occasion?.id === o.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="text-2xl">{o.emoji}</span>
                     <div>
                       <p className="text-base font-black text-black">{o.label}</p>
-                      <p className="mt-0.5 text-sm text-zinc-500">{o.desc}</p>
+                      <p className="mt-0.5 text-sm text-slate">{o.desc}</p>
                     </div>
                   </button>
                 ))}
@@ -177,16 +177,16 @@ export default function GiftQuizPage() {
           {step === 2 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Step 3</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 3</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What's the gift budget?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">No judgment — great gifts exist at every price.</p>
+                <p className="mt-3 text-base leading-7 text-slate">No judgment — great gifts exist at every price.</p>
               </div>
               <div className="grid gap-3">
                 {TIERS.map((t) => (
                   <button key={t.id} type="button" onClick={() => setTier(t.id)} aria-pressed={tier === t.id}
-                    className={['min-h-20 rounded-lg border p-5 text-left transition', tier === t.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-zinc-200 bg-white hover:border-green-accent'].join(' ')}>
+                    className={['min-h-20 rounded-xl border p-5 text-left transition', tier === t.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="block text-lg font-black text-black">{t.label}</span>
-                    <span className="mt-1 block text-sm leading-6 text-zinc-500">{t.description}</span>
+                    <span className="mt-1 block text-sm leading-6 text-slate">{t.description}</span>
                   </button>
                 ))}
               </div>
@@ -197,9 +197,9 @@ export default function GiftQuizPage() {
           {step === 3 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Step 4 · Optional</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 4 · Optional</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Do they have a scent preference?</h1>
-                <p className="mt-3 text-base leading-7 text-zinc-500">Pick up to 2 if you know what they like, or skip.</p>
+                <p className="mt-3 text-base leading-7 text-slate">Pick up to 2 if you know what they like, or skip.</p>
               </div>
               <div className="flex flex-wrap gap-2.5">
                 {accordsLoading || availableAccords === null ? (
@@ -212,7 +212,7 @@ export default function GiftQuizPage() {
                     const disabled = accords.length >= 2 && !selected
                     return (
                       <button key={a} type="button" onClick={() => toggleAccord(a)} disabled={disabled} aria-pressed={selected}
-                        className={['min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40', selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-zinc-200 bg-white text-zinc-700 hover:border-green-accent'].join(' ')}>
+                        className={['min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40', selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-sand bg-white text-zinc-700 hover:border-green-accent'].join(' ')}>
                         {a}
                       </button>
                     )
@@ -224,12 +224,12 @@ export default function GiftQuizPage() {
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <button type="button" onClick={goNext} disabled={!canContinue()}
-              className="inline-flex min-h-[52px] flex-1 items-center justify-center rounded-full bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35">
+              className="inline-flex min-h-[52px] flex-1 items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35">
               {step === 3 ? 'Find Their Perfect Scent →' : 'Next →'}
             </button>
             {isOptionalStep && (
               <button type="button" onClick={submit}
-                className="inline-flex min-h-[52px] items-center justify-center rounded-full border border-zinc-200 px-8 text-base font-bold text-zinc-500 transition hover:border-green-accent hover:text-black sm:min-w-36">
+                className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-8 text-base font-bold text-slate transition hover:border-green-accent hover:text-black sm:min-w-36">
                 Skip
               </button>
             )}

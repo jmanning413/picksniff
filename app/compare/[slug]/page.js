@@ -39,16 +39,16 @@ export default async function ComparePage({ params }) {
   if (!f1 || !f2) notFound()
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
-          <Link href="/encyclopedia" className="mb-6 inline-flex items-center text-sm font-bold text-zinc-500 transition hover:text-black">
+          <Link href="/encyclopedia" className="mb-6 inline-flex items-center text-sm font-bold text-slate transition hover:text-black">
             ← Encyclopedia
           </Link>
 
-          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-accent">Side-by-Side</p>
+          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Side-by-Side</p>
           <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
             {f1.brand} {f1.name} vs {f2.brand} {f2.name}
           </h1>
@@ -58,7 +58,7 @@ export default async function ComparePage({ params }) {
               const override = BRAND_OVERRIDES[f.brand]
               const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
               return (
-                <div key={f.id} className="rounded-xl border border-zinc-200 bg-white p-6">
+                <div key={f.id} className="rounded-xl border border-sand bg-white p-6">
                   <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-green-accent">
                     <span className="text-2xl font-black text-black">{f.brand.charAt(0)}</span>
                   </div>
@@ -83,12 +83,12 @@ export default async function ComparePage({ params }) {
                     {(f.top_notes || []).length > 0 && (
                       <div>
                         <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-zinc-400">Top Notes</p>
-                        <p className="text-sm text-zinc-600">{f.top_notes.join(' · ')}</p>
+                        <p className="text-sm text-slate">{f.top_notes.join(' · ')}</p>
                       </div>
                     )}
 
                     {f.description && (
-                      <p className="text-sm leading-6 text-zinc-500">{f.description}</p>
+                      <p className="text-sm leading-6 text-slate">{f.description}</p>
                     )}
                   </div>
 
@@ -119,9 +119,9 @@ export default async function ComparePage({ params }) {
           </div>
 
           <div className="mt-10 text-center">
-            <p className="text-sm text-zinc-500 mb-4">Not sure which one is for you?</p>
+            <p className="text-sm text-slate mb-4">Not sure which one is for you?</p>
             <Link href="/quiz"
-              className="inline-flex rounded-full bg-green-accent px-8 py-3 text-sm font-black text-black transition hover:brightness-95">
+              className="inline-flex rounded-xl bg-green-accent px-8 py-3 text-sm font-black text-black transition hover:brightness-95">
               Take the PickSniff Quiz
             </Link>
           </div>
@@ -135,7 +135,7 @@ export default async function ComparePage({ params }) {
 
 function Row({ label, value }) {
   return (
-    <div className="flex items-baseline justify-between gap-2 border-b border-zinc-100 pb-2">
+    <div className="flex items-baseline justify-between gap-2 border-b border-sand pb-2">
       <span className="text-xs font-black uppercase tracking-[0.12em] text-zinc-400">{label}</span>
       <span className="text-sm font-bold capitalize text-zinc-700">{value}</span>
     </div>

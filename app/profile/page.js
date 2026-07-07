@@ -47,7 +47,7 @@ export default async function ProfilePage() {
   const lockedBadges = BADGE_DEFS.filter((b) => !earnedBadgeIds.includes(b.id))
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
@@ -60,10 +60,10 @@ export default async function ProfilePage() {
             <div className="min-w-0 flex-1">
               <h1 className="text-2xl font-black text-black">@{profile.username}</h1>
               {profile.bio && (
-                <p className="mt-1.5 max-w-md text-sm leading-6 text-zinc-500">{profile.bio}</p>
+                <p className="mt-1.5 max-w-md text-sm leading-6 text-slate">{profile.bio}</p>
               )}
               {profile.favorite_fragrance && (
-                <p className="mt-1 text-sm text-zinc-500">
+                <p className="mt-1 text-sm text-slate">
                   <span className="font-bold text-zinc-700">Favourite: </span>
                   {profile.favorite_fragrance}
                 </p>
@@ -91,7 +91,7 @@ export default async function ProfilePage() {
               ))}
               {lockedBadges.map((b) => (
                 <div key={b.id} title={`Locked: ${b.description}`}
-                  className="flex items-center gap-1.5 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-400 cursor-help opacity-50">
+                  className="flex items-center gap-1.5 rounded-full border border-sand bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-400 cursor-help opacity-50">
                   <span>{b.emoji}</span><span>{b.name}</span>
                 </div>
               ))}

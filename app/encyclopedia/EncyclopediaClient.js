@@ -63,11 +63,11 @@ export default function EncyclopediaClient({ fragrances }) {
           placeholder="Search by name or brand…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full rounded-full border border-zinc-200 px-5 py-3 text-sm font-medium outline-none transition focus:border-green-accent"
+          className="w-full rounded-full border border-sand px-5 py-3 text-sm font-medium outline-none transition focus:border-green-accent"
         />
       </div>
 
-      <div className="mb-6 space-y-4 rounded-lg border border-zinc-100 bg-zinc-50 p-4">
+      <div className="mb-6 space-y-4 rounded-lg border border-sand bg-zinc-50 p-4">
         <FilterRow label="Gender">
           {GENDER_OPTIONS.map((g) => (
             <Pill key={g} active={genders.includes(g)} onClick={() => setGenders(toggleItem(genders, g))}>
@@ -119,11 +119,11 @@ export default function EncyclopediaClient({ fragrances }) {
       {filtered.length === 0 ? (
         <div className="mt-12 text-center">
           <p className="text-xl font-black">No matches found</p>
-          <p className="mt-2 text-sm text-zinc-500">Try adjusting your search or filters.</p>
+          <p className="mt-2 text-sm text-slate">Try adjusting your search or filters.</p>
           <button
             type="button"
             onClick={clearAll}
-            className="mt-5 rounded-full bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95"
+            className="mt-5 rounded-xl bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95"
           >
             Clear filters
           </button>
@@ -157,7 +157,7 @@ function Pill({ children, active, onClick }) {
         'rounded-full border px-3 py-1 text-xs font-bold capitalize transition',
         active
           ? 'border-green-accent bg-green-accent text-black'
-          : 'border-zinc-200 bg-white text-zinc-600 hover:border-green-accent',
+          : 'border-sand bg-white text-slate hover:border-green-accent',
       ].join(' ')}
     >
       {children}
@@ -169,12 +169,12 @@ function FragranceCard({ fragrance }) {
   return (
     <Link
       href={`/fragrance/${fragrance.id}`}
-      className="group block rounded-lg border border-zinc-200 bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
+      className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
     >
       <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
         {fragrance.brand}
       </p>
-      <h2 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-accent transition">
+      <h2 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">
         {fragrance.name}
       </h2>
 
@@ -205,7 +205,7 @@ function FragranceCard({ fragrance }) {
 
 function Tag({ children }) {
   return (
-    <span className="rounded-full border border-zinc-100 bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-zinc-500">
+    <span className="rounded-full border border-sand bg-zinc-50 px-2 py-0.5 text-xs font-bold capitalize text-slate">
       {children}
     </span>
   )

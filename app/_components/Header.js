@@ -18,7 +18,7 @@ export default async function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-30 border-b border-zinc-100 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-sand bg-cream/95 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3.5 sm:px-8">
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center gap-2 font-black" aria-label="PickSniff home">
@@ -32,31 +32,31 @@ export default async function Header() {
         <nav className="hidden items-center gap-1 sm:flex">
           <Link
             href="/quizzes"
-            className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:bg-zinc-50 hover:text-black"
+            className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:bg-zinc-50 hover:text-black"
           >
             Quizzes
           </Link>
           <Link
             href="/encyclopedia"
-            className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:bg-zinc-50 hover:text-black"
+            className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:bg-zinc-50 hover:text-black"
           >
             Encyclopedia
           </Link>
           <Link
             href="/accords"
-            className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:bg-zinc-50 hover:text-black"
+            className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:bg-zinc-50 hover:text-black"
           >
             Accords
           </Link>
           <Link
             href="/trending"
-            className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:bg-zinc-50 hover:text-black"
+            className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:bg-zinc-50 hover:text-black"
           >
             Trending
           </Link>
           <Link
             href="/support"
-            className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:bg-zinc-50 hover:text-black"
+            className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:bg-zinc-50 hover:text-black"
           >
             Support
           </Link>
@@ -64,10 +64,16 @@ export default async function Header() {
 
         {/* Right — desktop */}
         <div className="hidden items-center gap-2 sm:flex">
+          <Link
+            href="/quiz"
+            className="rounded-xl bg-green-accent px-4 py-2 text-sm font-black text-black transition hover:brightness-95"
+          >
+            Take the Quiz
+          </Link>
           {user ? (
             <Link
               href="/profile"
-              className="flex items-center gap-1.5 rounded-full border border-zinc-200 px-4 py-2 text-sm font-bold text-zinc-700 transition hover:border-green-accent hover:text-black"
+              className="flex items-center gap-1.5 rounded-xl border border-sand px-4 py-2 text-sm font-bold text-zinc-700 transition hover:border-green-accent hover:text-black"
             >
               {profile?.username ? `@${profile.username}` : 'Profile'}
             </Link>
@@ -75,13 +81,13 @@ export default async function Header() {
             <>
               <Link
                 href="/auth"
-                className="rounded-full px-4 py-2 text-sm font-bold text-zinc-600 transition hover:text-black"
+                className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:text-black"
               >
                 Sign In
               </Link>
               <Link
                 href="/auth"
-                className="rounded-full bg-green-accent px-4 py-2 text-sm font-black text-black transition hover:brightness-95"
+                className="rounded-xl border border-sand bg-white px-4 py-2 text-sm font-bold text-black transition hover:border-green-accent"
               >
                 Sign Up Free
               </Link>

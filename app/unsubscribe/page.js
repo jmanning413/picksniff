@@ -28,7 +28,7 @@ export default async function UnsubscribePage({ searchParams }) {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-white">
+    <div className="flex min-h-screen flex-col bg-cream">
       <Header />
       <main className="flex flex-1 items-center justify-center px-5 py-16">
         <div className="w-full max-w-sm text-center">
@@ -36,7 +36,7 @@ export default async function UnsubscribePage({ searchParams }) {
             <>
               <p className="text-4xl">👋</p>
               <h1 className="mt-4 text-2xl font-black text-black">You're unsubscribed</h1>
-              <p className="mt-3 text-sm leading-6 text-zinc-500">
+              <p className="mt-3 text-sm leading-6 text-slate">
                 You've been removed from the PickSniff email list. You won't hear from us again.
               </p>
             </>
@@ -44,7 +44,7 @@ export default async function UnsubscribePage({ searchParams }) {
           {status === 'invalid' && (
             <>
               <h1 className="text-2xl font-black text-black">Invalid link</h1>
-              <p className="mt-3 text-sm leading-6 text-zinc-500">
+              <p className="mt-3 text-sm leading-6 text-slate">
                 This unsubscribe link is invalid or has already been used.
               </p>
             </>
@@ -52,7 +52,7 @@ export default async function UnsubscribePage({ searchParams }) {
           {status === 'error' && (
             <>
               <h1 className="text-2xl font-black text-black">Something went wrong</h1>
-              <p className="mt-3 text-sm leading-6 text-zinc-500">
+              <p className="mt-3 text-sm leading-6 text-slate">
                 Please try again or contact us at hello@picksniff.com.
               </p>
             </>

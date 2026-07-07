@@ -71,14 +71,14 @@ export default async function SeasonalPage() {
   const seasons = ['Spring', 'Summer', 'Autumn', 'Winter']
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
-          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-accent">Seasonal Picks</p>
+          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Seasonal Picks</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Best fragrances by season</h1>
-          <p className="mt-3 text-base leading-7 text-zinc-500">
+          <p className="mt-3 text-base leading-7 text-slate">
             Curated picks that match each season&apos;s energy. Updated automatically.
           </p>
 
@@ -98,7 +98,7 @@ export default async function SeasonalPage() {
                         <span className="rounded-full bg-green-accent px-2.5 py-0.5 text-xs font-black text-black">Current</span>
                       )}
                     </div>
-                    <p className="mt-0.5 text-sm leading-6 text-zinc-500">{config.description}</p>
+                    <p className="mt-0.5 text-sm leading-6 text-slate">{config.description}</p>
                   </div>
                 </div>
 
@@ -107,16 +107,16 @@ export default async function SeasonalPage() {
                     <Link
                       key={f.id}
                       href={`/fragrance/${f.id}`}
-                      className="group block rounded-lg border border-zinc-200 bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
+                      className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
                     >
                       <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
-                      <h3 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-accent transition">{f.name}</h3>
+                      <h3 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">{f.name}</h3>
                       <div className="mt-2 flex flex-wrap gap-1.5">
                         {(f.accords || []).filter((a) => config.accords.includes(a)).map((a) => (
                           <span key={a} className="rounded-full bg-green-accent/15 px-2 py-0.5 text-xs font-bold text-zinc-700">{a}</span>
                         ))}
                         {(f.accords || []).filter((a) => !config.accords.includes(a)).map((a) => (
-                          <span key={a} className="rounded-full border border-zinc-100 bg-zinc-50 px-2 py-0.5 text-xs font-bold text-zinc-500">{a}</span>
+                          <span key={a} className="rounded-full border border-sand bg-zinc-50 px-2 py-0.5 text-xs font-bold text-slate">{a}</span>
                         ))}
                       </div>
                     </Link>
@@ -125,7 +125,7 @@ export default async function SeasonalPage() {
 
                 <Link
                   href={`/quiz`}
-                  className="mt-4 inline-flex items-center text-sm font-bold text-green-accent transition hover:underline"
+                  className="mt-4 inline-flex items-center text-sm font-bold text-green-deep transition hover:underline"
                 >
                   Find your perfect {season.toLowerCase()} fragrance →
                 </Link>

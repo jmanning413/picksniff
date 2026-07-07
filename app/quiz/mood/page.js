@@ -130,7 +130,7 @@ export default function MoodQuizPage() {
   const progress = (step / TOTAL_STEPS) * 100
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
         <div className="h-1.5 w-full bg-zinc-100">
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
@@ -150,7 +150,7 @@ export default function MoodQuizPage() {
             <button
               type="button"
               onClick={() => setStep((s) => s - 1)}
-              className="mb-8 inline-flex h-10 items-center gap-2 rounded-full border border-zinc-200 px-4 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+              className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
             >
               ← Back
             </button>
@@ -160,9 +160,9 @@ export default function MoodQuizPage() {
           {step === 0 && (
             <>
               <div className="mb-8">
-                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">Mood Quiz</p>
+                <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Mood Quiz</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Who is this for?</h1>
-                <p className="mt-3 max-w-xl text-base leading-7 text-zinc-500">
+                <p className="mt-3 max-w-xl text-base leading-7 text-slate">
                   Choose one or more. We'll match you to the right scents.
                 </p>
               </div>
@@ -174,10 +174,10 @@ export default function MoodQuizPage() {
                     onClick={() => toggleGender(g.id)}
                     aria-pressed={genders.includes(g.id)}
                     className={[
-                      'min-h-20 rounded-lg border p-5 text-left transition',
+                      'min-h-20 rounded-xl border p-5 text-left transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep',
                       genders.includes(g.id)
                         ? 'border-green-accent bg-green-accent/15 shadow-sm'
-                        : 'border-zinc-200 bg-white hover:border-green-accent',
+                        : 'border-sand bg-white hover:border-green-accent',
                     ].join(' ')}
                   >
                     <span className="block text-lg font-black text-black">{g.label}</span>
@@ -189,7 +189,7 @@ export default function MoodQuizPage() {
                   type="button"
                   onClick={() => genders.length > 0 && setStep(1)}
                   disabled={genders.length === 0}
-                  className="inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35 sm:w-auto sm:min-w-48"
+                  className="inline-flex min-h-[52px] w-full items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35 sm:w-auto sm:min-w-48"
                 >
                   Next →
                 </button>
@@ -203,7 +203,7 @@ export default function MoodQuizPage() {
             return (
               <>
                 <div className="mb-8">
-                  <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-accent">
+                  <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">
                     Question {step}
                   </p>
                   <h1 className="text-4xl font-black tracking-tight sm:text-5xl">{q.question}</h1>
@@ -218,13 +218,13 @@ export default function MoodQuizPage() {
                         'flex items-start gap-4 rounded-xl border p-5 text-left transition',
                         answers[q.id] === opt.id
                           ? 'border-green-accent bg-green-accent/15 shadow-sm'
-                          : 'border-zinc-200 bg-white hover:border-green-accent',
+                          : 'border-sand bg-white hover:border-green-accent',
                       ].join(' ')}
                     >
                       <span className="text-3xl">{opt.emoji}</span>
                       <div>
                         <p className="text-base font-black text-black">{opt.label}</p>
-                        <p className="mt-0.5 text-sm text-zinc-500">{opt.desc}</p>
+                        <p className="mt-0.5 text-sm text-slate">{opt.desc}</p>
                       </div>
                     </button>
                   ))}
@@ -236,7 +236,7 @@ export default function MoodQuizPage() {
           {isSubmitting && (
             <div className="flex flex-col items-center gap-4 py-12 text-center">
               <div className="h-1 w-12 rounded-full bg-green-accent animate-pulse" />
-              <p className="text-sm font-bold text-zinc-500">Reading your mood...</p>
+              <p className="text-sm font-bold text-slate">Reading your mood...</p>
             </div>
           )}
         </div>

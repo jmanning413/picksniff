@@ -36,9 +36,9 @@ export default function WardrobeButton({ quizResults, allFragrances }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="inline-flex items-center rounded-full border border-zinc-200 px-4 py-2 text-sm font-bold text-zinc-600 transition hover:border-green-accent hover:text-black"
+        className="inline-flex items-center rounded-xl border border-sand px-4 py-2 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
       >
-        💎 My Fragrance Wardrobe
+        My Fragrance Wardrobe
       </button>
 
       {open && (
@@ -46,11 +46,11 @@ export default function WardrobeButton({ quizResults, allFragrances }) {
           <div className="w-full max-w-3xl rounded-2xl bg-white p-6 shadow-2xl">
             <div className="mb-6 flex items-center justify-between">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.18em] text-green-accent">Your Complete</p>
+                <p className="text-xs font-black uppercase tracking-[0.18em] text-green-deep">Your Complete</p>
                 <h2 className="text-2xl font-black">Fragrance Wardrobe</h2>
               </div>
               <button type="button" onClick={() => setOpen(false)}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-zinc-200 text-zinc-500 hover:border-green-accent transition">
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-sand text-slate hover:border-green-accent transition">
                 ✕
               </button>
             </div>
@@ -60,8 +60,8 @@ export default function WardrobeButton({ quizResults, allFragrances }) {
                 const f = wardrobe[v]
                 const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
                 return (
-                  <div key={v} className="rounded-xl border border-zinc-200 p-4">
-                    <p className="mb-3 text-xs font-black uppercase tracking-[0.14em] text-green-accent">{VIBE_LABELS[v]}</p>
+                  <div key={v} className="rounded-xl border border-sand p-4">
+                    <p className="mb-3 text-xs font-black uppercase tracking-[0.14em] text-green-deep">{VIBE_LABELS[v]}</p>
                     <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-green-accent">
                       <span className="text-lg font-black text-black">{f.brand.charAt(0)}</span>
                     </div>
@@ -74,7 +74,7 @@ export default function WardrobeButton({ quizResults, allFragrances }) {
                     </div>
                     <a href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
                       target="_blank" rel="noopener noreferrer"
-                      className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
+                      className="mt-3 inline-flex w-full items-center justify-center rounded-xl bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
                       Sephora
                     </a>
                   </div>

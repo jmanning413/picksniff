@@ -1,14 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8f6f2; /* Cream — page canvas everywhere, never pure white */
+  --foreground: #1a1a1a; /* Ink */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-green-accent: #7fe040;
+  /* Brand tokens — values locked in BrandGuidelines.md, usage rules in Design.md */
+  --color-green-accent: #7fe040; /* Pick Green — accent/fills only, never text */
+  --color-green-deep: #3d7a16;   /* green as TEXT or small icons on light bg */
+  --color-green-wash: #eef9e6;   /* selected/featured card tint */
+  --color-cream: #f8f6f2;        /* page canvas */
+  --color-sand: #e8e4dc;         /* warm border */
+  --color-slate: #5c5c5c;        /* secondary text */
   --font-sans: "DM Sans", "DM Sans Fallback", ui-sans-serif, system-ui, sans-serif;
 }
 

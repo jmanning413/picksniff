@@ -34,7 +34,7 @@ export default function HomepageClient() {
 
   if (submitted) {
     return (
-      <div className="rounded-xl border border-green-accent/30 bg-green-accent/10 px-6 py-4 text-sm font-bold text-green-accent">
+      <div className="rounded-xl border border-green-accent/30 bg-green-accent/10 px-6 py-4 text-sm font-bold text-green-deep">
         You&apos;re on the list — first pick drops next week.
       </div>
     )
@@ -48,12 +48,12 @@ export default function HomepageClient() {
         placeholder="your@email.com"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="flex-1 rounded-full border border-zinc-200 px-5 py-3 text-sm outline-none transition focus:border-green-accent"
+        className="flex-1 rounded-xl border border-sand px-5 py-3 text-sm outline-none transition focus:border-green-accent"
       />
       <button
         type="submit"
         disabled={loading}
-        className="rounded-full bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95 disabled:opacity-50 whitespace-nowrap"
+        className="rounded-xl bg-green-accent px-6 py-3 text-sm font-black text-black transition hover:brightness-95 disabled:opacity-50 whitespace-nowrap"
       >
         {loading ? 'Subscribing…' : 'Subscribe'}
       </button>

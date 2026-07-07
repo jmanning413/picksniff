@@ -33,14 +33,14 @@ export default async function AccordsPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-black">
+    <div className="flex min-h-screen flex-col bg-cream text-black">
       <Header />
 
       <main className="flex-1">
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
-          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-accent">Accord Explorer</p>
+          <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Accord Explorer</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What does it actually smell like?</h1>
-          <p className="mt-3 text-base leading-7 text-zinc-500">
+          <p className="mt-3 text-base leading-7 text-slate">
             Every fragrance accord explained in plain English — no jargon, just what your nose will experience.
           </p>
 
@@ -48,12 +48,12 @@ export default async function AccordsPage() {
             {ACCORDS.map((accord) => {
               const examples = accordExamples[accord.name] ?? []
               return (
-                <div key={accord.name} className="rounded-xl border border-zinc-200 bg-white p-6">
+                <div key={accord.name} className="rounded-xl border border-sand bg-white p-6">
                   <div className="mb-3 flex items-center gap-3">
                     <span className="text-3xl">{accord.emoji}</span>
                     <h2 className="text-xl font-black">{accord.name}</h2>
                   </div>
-                  <p className="text-sm leading-6 text-zinc-500">{accord.description}</p>
+                  <p className="text-sm leading-6 text-slate">{accord.description}</p>
 
                   {examples.length > 0 && (
                     <div className="mt-4">
@@ -63,7 +63,7 @@ export default async function AccordsPage() {
                           <Link
                             key={f.id}
                             href={`/fragrance/${f.id}`}
-                            className="flex items-center justify-between rounded-lg border border-zinc-100 bg-zinc-50 px-3 py-2 text-sm transition hover:border-green-accent"
+                            className="flex items-center justify-between rounded-lg border border-sand bg-zinc-50 px-3 py-2 text-sm transition hover:border-green-accent"
                           >
                             <span className="font-bold text-zinc-700">{f.brand} {f.name}</span>
                             <span className="text-xs font-bold text-zinc-400">{f.concentration}</span>
@@ -75,7 +75,7 @@ export default async function AccordsPage() {
 
                   <Link
                     href={`/encyclopedia?accords=${accord.name}`}
-                    className="mt-4 inline-flex items-center text-xs font-black text-green-accent hover:underline"
+                    className="mt-4 inline-flex items-center text-xs font-black text-green-deep hover:underline"
                   >
                     Browse all {accord.name} fragrances →
                   </Link>
