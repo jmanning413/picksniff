@@ -15,6 +15,7 @@
   --color-cream: #f8f6f2;        /* page canvas */
   --color-sand: #e8e4dc;         /* warm border */
   --color-slate: #5c5c5c;        /* secondary text */
+  --color-ink: #1a1a1a;          /* dark anchor sections + primary text */
   --font-sans: "DM Sans", "DM Sans Fallback", ui-sans-serif, system-ui, sans-serif;
 }
 

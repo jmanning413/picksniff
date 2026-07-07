@@ -19,7 +19,7 @@ export default function AuthPage() {
     <main className="flex min-h-screen flex-col bg-cream">
       <header className="border-b border-sand px-5 py-4 sm:px-8">
         <Link href="/" className="inline-flex items-center gap-2 font-bold" aria-label="PickSniff home">
-          <Image src="/logo.svg" alt="" width={28} height={28} priority />
+          <Image className="mix-blend-multiply" src="/logo.svg" alt="" width={28} height={28} priority />
           <span>
             Pick<span className="text-green-accent">Sniff</span>
           </span>

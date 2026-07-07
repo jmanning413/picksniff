@@ -118,7 +118,7 @@ export default function PersonalityQuizPage() {
     return (
       <main className="min-h-screen bg-cream text-black">
         <div className="mx-auto flex min-h-screen max-w-xl flex-col items-center justify-center px-5 py-12 text-center sm:px-8">
-          <Image src="/logo.svg" alt="PickSniff" width={64} height={64} priority />
+          <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff" width={64} height={64} priority />
           <p className="mt-6 text-xs font-black uppercase tracking-[0.2em] text-green-deep">Your Fragrance Archetype</p>
           <h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">{result.name}</h1>
           <p className="mt-5 max-w-sm text-base leading-7 text-slate">{result.desc}</p>
@@ -158,7 +158,7 @@ export default function PersonalityQuizPage() {
         </div>
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
           <Link href="/" className="flex items-center gap-2 font-bold" aria-label="PickSniff home">
-            <Image src="/logo.svg" alt="" width={34} height={34} priority />
+            <Image className="mix-blend-multiply" src="/logo.svg" alt="" width={34} height={34} priority />
             <span>Pick<span className="text-green-accent">Sniff</span></span>
           </Link>
           <span className="text-sm font-semibold text-zinc-400">{step + 1} of {TOTAL_STEPS}</span>

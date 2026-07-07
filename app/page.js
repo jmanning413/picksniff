@@ -53,54 +53,78 @@ export default async function Home() {
           Best fragrances for {season} {new Date().getFullYear()} — <Link href="/seasonal" className="underline underline-offset-2">See the list</Link>
         </div>
 
-        {/* ── Hero: start the quiz in one tap ── */}
-        <section className="mx-auto flex w-full max-w-4xl flex-col items-center px-5 pb-16 pt-14 text-center sm:px-8 sm:pt-20">
-          <Image src="/logo.svg" alt="PickSniff logo" width={72} height={72} priority />
-          <h1 className="mt-5 max-w-2xl text-4xl font-black leading-[1.05] tracking-tight text-black sm:text-6xl">
-            Find a fragrance you&apos;ll <span className="text-green-deep">actually love.</span>
-          </h1>
-          <p className="mt-4 max-w-xl text-lg leading-8 text-slate">
-            4 easy questions. 750 hand-picked scents. Zero fragrance knowledge needed.
-          </p>
-
-          <div className="mt-9 w-full max-w-lg rounded-2xl border border-sand bg-white p-5 shadow-sm sm:p-6">
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-zinc-400">
-              Question 1 of 4
-            </p>
-            <p className="mt-1.5 text-xl font-black text-black">Who are you shopping for?</p>
-            <div className="mt-4 grid grid-cols-3 gap-2.5">
-              {[
-                { g: 'male', label: 'Male' },
-                { g: 'female', label: 'Female' },
-                { g: 'unisex', label: 'Unisex' },
-              ].map(({ g, label }) => (
-                <Link
-                  key={g}
-                  href={`/quiz?g=${g}`}
-                  className="inline-flex min-h-14 items-center justify-center rounded-xl border border-sand text-base font-black text-black transition hover:border-green-accent hover:bg-green-accent/10 active:bg-green-accent/20"
-                >
-                  {label}
-                </Link>
-              ))}
+        {/* ── Hero: slogan left, quiz start right ── */}
+        <section className="mx-auto grid w-full max-w-5xl items-center gap-10 px-5 pb-20 pt-14 sm:px-8 sm:pt-20 lg:grid-cols-[1.1fr_1fr] lg:gap-14">
+          <div>
+            <div className="flex items-center gap-3">
+              <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff logo" width={56} height={56} priority />
+              <span className="rounded-full bg-green-wash px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-green-deep">
+                750 hand-picked scents
+              </span>
             </div>
-            <p className="mt-3 text-xs text-zinc-400">Tap one to start — takes about a minute.</p>
+            <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-black sm:text-6xl">
+              Find your <span className="text-green-deep">signature scent</span> in 4 questions.
+            </h1>
+            <p className="mt-5 max-w-md text-lg leading-8 text-slate">
+              No jargon. No overwhelm. Just your scent.
+            </p>
+            <ul className="mt-6 space-y-2 text-sm font-bold text-zinc-700">
+              {['Plain-English questions — zero knowledge needed', 'Ranked matches with a % score, best first', 'Independent — we don’t stock or push anything'].map((line) => (
+                <li key={line} className="flex items-start gap-2.5">
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#3D7A16" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 shrink-0" aria-hidden>
+                    <path d="M4 10.5 L8.5 15 L16 5.5" />
+                  </svg>
+                  {line}
+                </li>
+              ))}
+            </ul>
           </div>
 
-          <Link
-            href="/quizzes"
-            className="mt-5 text-sm font-bold text-zinc-400 transition hover:text-black"
-          >
-            Or explore all 6 quizzes →
-          </Link>
+          <div className="w-full">
+            <div className="rounded-2xl border border-sand bg-white p-6 shadow-[0_1px_3px_rgba(26,26,26,0.06)]">
+              <div className="flex items-center justify-between">
+                <p className="text-xs font-black uppercase tracking-[0.16em] text-green-deep">
+                  Signature Scent Quiz
+                </p>
+                <span className="text-xs font-bold text-zinc-400">1 of 4</span>
+              </div>
+              <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-100">
+                <div className="h-full w-1/4 rounded-full bg-green-accent" />
+              </div>
+              <p className="mt-5 text-2xl font-black tracking-tight text-black">Who are you shopping for?</p>
+              <div className="mt-5 grid gap-2.5">
+                {[
+                  { g: 'male', label: 'Male' },
+                  { g: 'female', label: 'Female' },
+                  { g: 'unisex', label: 'Unisex' },
+                ].map(({ g, label }) => (
+                  <Link
+                    key={g}
+                    href={`/quiz?g=${g}`}
+                    className="group flex min-h-14 items-center justify-between rounded-xl border border-sand px-5 text-base font-black text-black transition hover:border-green-accent hover:bg-green-wash"
+                  >
+                    {label}
+                    <span aria-hidden className="text-green-deep opacity-0 transition group-hover:opacity-100">→</span>
+                  </Link>
+                ))}
+              </div>
+              <p className="mt-4 text-xs text-zinc-400">Tap one to start — takes about a minute.</p>
+            </div>
+            <p className="mt-4 text-center text-sm lg:text-left">
+              <Link href="/quizzes" className="font-bold text-slate transition hover:text-black">
+                Or explore all 6 quizzes →
+              </Link>
+            </p>
+          </div>
         </section>
 
         {/* ── How it works ── */}
         <section className="border-t border-sand bg-white/70 px-5 py-16 sm:px-8">
           <div className="mx-auto w-full max-w-4xl">
-            <p className="mb-2 text-center text-sm font-black uppercase tracking-[0.18em] text-green-deep">
+            <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">
               How it works
             </p>
-            <h2 className="mb-10 text-center text-3xl font-black tracking-tight text-black sm:text-4xl">
+            <h2 className="mb-10 text-3xl font-black tracking-tight text-black sm:text-4xl">
               Three steps to your perfect scent
             </h2>
             <div className="grid gap-6 sm:grid-cols-3">
@@ -114,10 +138,10 @@ export default async function Home() {
         {/* ── Example result ── */}
         <section className="px-5 py-16 sm:px-8">
           <div className="mx-auto w-full max-w-4xl">
-            <p className="mb-2 text-center text-sm font-black uppercase tracking-[0.18em] text-green-deep">
+            <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">
               Example result
             </p>
-            <h2 className="mb-10 text-center text-3xl font-black tracking-tight text-black sm:text-4xl">
+            <h2 className="mb-10 text-3xl font-black tracking-tight text-black sm:text-4xl">
               This is what you&apos;ll get
             </h2>
             <div className="mx-auto max-w-lg rounded-xl border border-sand bg-white p-5 shadow-sm">
@@ -268,28 +292,37 @@ export default async function Home() {
           </section>
         )}
 
-        {/* ── Social proof ── */}
-        <section className="px-5 py-16 sm:px-8">
-          <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-6 text-center">
-            <div className="text-5xl font-black text-green-deep">750</div>
-            <p className="text-xl font-black text-black">Fragrances across every style and budget</p>
-            <p className="max-w-lg text-base leading-7 text-slate">
-              From everyday budget picks to rare niche bottles — every fragrance hand-selected, scored,
-              and categorised so you don&apos;t have to think.
-            </p>
-            <div className="mt-2 flex flex-wrap justify-center gap-2">
-              {['Budget', 'Quality', 'Niche', 'Daily', 'Date Night', 'Sport', 'Chill', 'Formal'].map((tag) => (
-                <span key={tag} className="rounded-full bg-zinc-100 px-4 py-1.5 text-sm font-bold text-slate">
-                  {tag}
-                </span>
-              ))}
+        {/* ── Social proof — ink anchor band ── */}
+        <section className="bg-ink px-5 py-20 text-cream sm:px-8">
+          <div className="mx-auto grid w-full max-w-5xl items-center gap-10 lg:grid-cols-[1.2fr_1fr]">
+            <div>
+              <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-accent">The library</p>
+              <h2 className="text-3xl font-black tracking-tight sm:text-5xl">
+                <span className="text-green-accent">750</span> fragrances.<br />Every style. Every budget.
+              </h2>
+              <p className="mt-4 max-w-lg text-base leading-7 text-zinc-400">
+                From everyday budget picks to rare niche bottles — every fragrance hand-selected, scored,
+                and categorised so you don&apos;t have to think.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {['Budget', 'Quality', 'Niche', 'Daily', 'Date Night', 'Sport', 'Chill', 'Formal'].map((tag) => (
+                  <span key={tag} className="rounded-full border border-zinc-700 px-4 py-1.5 text-sm font-bold text-zinc-300">
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
-            <Link
-              href="/quiz"
-              className="mt-4 inline-flex min-h-14 items-center rounded-xl bg-green-accent px-10 text-lg font-black text-black transition hover:brightness-95"
-            >
-              Find My Scent
-            </Link>
+            <div className="flex flex-col items-start gap-4 lg:items-center">
+              <Link
+                href="/quiz"
+                className="inline-flex min-h-14 items-center rounded-xl bg-green-accent px-10 text-lg font-black text-black transition hover:brightness-95"
+              >
+                Find My Scent
+              </Link>
+              <Link href="/encyclopedia" className="text-sm font-bold text-zinc-400 transition hover:text-cream">
+                Or browse the full encyclopedia →
+              </Link>
+            </div>
           </div>
         </section>
 

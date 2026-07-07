@@ -10,7 +10,7 @@ export default function GlobalError({ error, reset }) {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-cream px-5 text-center">
-      <Image src="/logo.svg" alt="PickSniff" width={64} height={64} priority />
+      <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff" width={64} height={64} priority />
       <h1 className="mt-6 text-4xl font-black tracking-tight text-black">Something went wrong</h1>
       <p className="mt-3 max-w-sm text-base text-slate">
         An unexpected error occurred. Please try again.

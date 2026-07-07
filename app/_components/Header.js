@@ -22,7 +22,7 @@ export default async function Header() {
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3.5 sm:px-8">
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center gap-2 font-black" aria-label="PickSniff home">
-          <Image src="/logo.svg" alt="" width={32} height={32} priority />
+          <Image className="mix-blend-multiply" src="/logo.svg" alt="" width={32} height={32} priority />
           <span className="text-base">
             Pick<span className="text-green-accent">Sniff</span>
           </span>

@@ -61,7 +61,7 @@ export default function AstrologyQuizPage() {
         </div>
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
           <Link href="/" className="flex items-center gap-2 font-bold" aria-label="PickSniff home">
-            <Image src="/logo.svg" alt="" width={34} height={34} priority />
+            <Image className="mix-blend-multiply" src="/logo.svg" alt="" width={34} height={34} priority />
             <span>Pick<span className="text-green-accent">Sniff</span></span>
           </Link>
           <span className="text-sm font-semibold text-zinc-400">{step + 1} of {TOTAL_STEPS}</span>

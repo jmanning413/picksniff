@@ -86,3 +86,7 @@ Tokens (defined in `app/globals.css`):
 - Green (#7FE040) as text fails contrast — RULE: green text always uses Green Deep #3D7A16.
 - Buttons came back as full pills — RULE: buttons use 12px radius (`rounded-xl`); full pill radius is reserved for small badges/chips only.
 - Pages shipped with pure white backgrounds — RULE: page canvas is always Cream #F8F6F2; white is for cards on top of cream.
+- The logo files (`/logo.svg`, `/logo-icon.svg`) have a baked-in WHITE background that shows as a box on cream — RULE: every logo `<Image>` gets `className="mix-blend-multiply"` until a transparent asset replaces the file.
+- The hero slogan was rewritten without being asked — RULE: brand copy is locked: "Find your signature scent in 4 questions. No jargon. No overwhelm. Just your scent." Never rewrite slogans/taglines without explicit instruction.
+- Cream + white + wash alone read as flat and washed out ("not enough depth") — RULE: use full-bleed Ink (#1A1A1A) sections as depth anchors — the footer sitewide plus one band per long page. Pick Green pops on ink; use `text-green-accent` for accents on ink (dark bg = contrast is fine there).
+- Homepage felt disorganized/center-stacked — RULE: hero is a two-column layout (message left, action card right); section headers are eyebrow + heading, left-aligned.
