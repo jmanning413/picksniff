@@ -40,17 +40,16 @@ export default function SaveButtons({ fragranceId, initialWishlisted, initialOwn
     })
   }
 
+  // Deliberately quiet: the buy button is the one loud action on a card
   return (
-    <div className="mt-4 flex gap-2">
+    <div className="mt-3 flex gap-5">
       <button
         type="button"
         onClick={handleWishlist}
         disabled={isPending}
         className={[
-          'flex-1 rounded-xl border px-4 py-2.5 text-xs font-bold transition disabled:opacity-50',
-          wishlisted
-            ? 'border-green-accent bg-green-accent text-black'
-            : 'border-sand text-slate hover:border-green-accent',
+          'text-xs font-bold transition disabled:opacity-50',
+          wishlisted ? 'text-green-deep' : 'text-slate hover:text-black',
         ].join(' ')}
       >
         {wishlisted ? '♥ Wishlisted' : '♡ Wishlist'}
@@ -60,10 +59,8 @@ export default function SaveButtons({ fragranceId, initialWishlisted, initialOwn
         onClick={handleOwned}
         disabled={isPending}
         className={[
-          'flex-1 rounded-xl border px-4 py-2.5 text-xs font-bold transition disabled:opacity-50',
-          owned
-            ? 'border-green-accent bg-green-accent text-black'
-            : 'border-sand text-slate hover:border-green-accent',
+          'text-xs font-bold transition disabled:opacity-50',
+          owned ? 'text-green-deep' : 'text-slate hover:text-black',
         ].join(' ')}
       >
         {owned ? '✓ Owned' : '+ Own it'}

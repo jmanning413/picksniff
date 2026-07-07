@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState, useRef } from 'react'
 import toast from 'react-hot-toast'
 import SaveButtons from '@/app/_components/SaveButtons'
+import BuyButtons from '@/app/_components/BuyButtons'
 
 const ACCORD_DESCRIPTIONS = {
   Citrus: 'bright citrus lift',
@@ -17,13 +18,6 @@ const ACCORD_DESCRIPTIONS = {
   Fruity: 'juicy fruit energy',
   Aquatic: 'cool aquatic air',
   Green: 'crisp green character',
-}
-
-const BRAND_OVERRIDES = {
-  'Louis Vuitton': {
-    label: 'Visit LV Boutique',
-    href: 'https://us.louisvuitton.com/eng-us/women/fragrances/_/N-tfnabnp',
-  },
 }
 
 function buildDescription(accords = []) {
@@ -49,37 +43,6 @@ function BrandInitial({ brand }) {
   return (
     <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-green-accent sm:h-20 sm:w-20">
       <span className="text-2xl font-black text-black sm:text-3xl">{initial}</span>
-    </div>
-  )
-}
-
-function BuyButtons({ fragrance }) {
-  const override = BRAND_OVERRIDES[fragrance.brand]
-  const query = encodeURIComponent([fragrance.brand, fragrance.name, fragrance.concentration].filter(Boolean).join(' '))
-
-  if (override) {
-    return (
-      <div className="mt-5">
-        <a href={override.href} target="_blank" rel="noopener noreferrer"
-          className="inline-flex min-h-11 w-full items-center justify-center rounded-xl bg-green-accent px-5 text-sm font-black text-black transition hover:brightness-95">
-          {override.label}
-        </a>
-      </div>
-    )
-  }
-
-  return (
-    <div className="mt-5 flex flex-col gap-2 sm:flex-row">
-      <a href={fragrance.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
-        target="_blank" rel="noopener noreferrer"
-        className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl bg-green-accent px-5 text-sm font-black text-black transition hover:brightness-95">
-        Sephora
-      </a>
-      <a href={fragrance.jomashop_url || `https://www.jomashop.com/searchresult.html#q=${query}`}
-        target="_blank" rel="noopener noreferrer"
-        className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl border border-green-accent px-5 text-sm font-black text-black transition hover:bg-green-accent/10">
-        Jomashop
-      </a>
     </div>
   )
 }

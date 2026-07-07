@@ -7,13 +7,7 @@ import { createClient } from '@/lib/supabase/server'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 import SaveButtons from '@/app/_components/SaveButtons'
-
-const BRAND_OVERRIDES = {
-  'Louis Vuitton': {
-    label: 'Visit LV Boutique',
-    href: 'https://us.louisvuitton.com/eng-us/women/fragrances/_/N-tfnabnp',
-  },
-}
+import BuyButtons, { StickyBuyBar } from '@/app/_components/BuyButtons'
 
 const ACCORD_DESCRIPTIONS = {
   Citrus: 'bright citrus lift',
@@ -73,8 +67,6 @@ export default async function FragrancePage({ params }) {
     isOwned = !!oItem
   }
 
-  const override = BRAND_OVERRIDES[f.brand]
-  const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
   const description = f.description || buildDescription(f.accords)
   const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://picksniff.com'
 
@@ -102,7 +94,7 @@ export default async function FragrancePage({ params }) {
       <Header />
 
       <main className="flex-1">
-      <section className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-8">
+      <section className="mx-auto w-full max-w-2xl px-5 pb-28 pt-10 sm:px-8 sm:pb-10">
         <Link
           href="/encyclopedia"
           className="mb-6 inline-flex items-center gap-1 text-sm font-bold text-slate transition hover:text-black"
@@ -137,6 +129,8 @@ export default async function FragrancePage({ params }) {
             </div>
           </div>
         </div>
+
+        <BuyButtons fragrance={f} showNote />
 
         {f.accords?.length > 0 && (
           <div className="mt-8">
@@ -188,43 +182,12 @@ export default async function FragrancePage({ params }) {
           </Link>
         </div>
 
-        <div className="mt-8">
-          <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">Buy</h2>
-          {override ? (
-            <a
-              href={override.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-green-accent px-6 font-black text-black transition hover:brightness-95"
-            >
-              {override.label}
-            </a>
-          ) : (
-            <div className="flex flex-col gap-3 sm:flex-row">
-              <a
-                href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl bg-green-accent px-6 font-black text-black transition hover:brightness-95"
-              >
-                Sephora
-              </a>
-              <a
-                href={f.jomashop_url || `https://www.jomashop.com/searchresult.html#q=${query}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-green-accent px-6 font-black text-black transition hover:bg-green-accent/10"
-              >
-                Jomashop
-              </a>
-            </div>
-          )}
-        </div>
         <FragranceShareButton name={f.name} brand={f.brand} />
         <FragranceAlsoLiked fragrance={f} allFragrances={allFragrances} />
       </section>
       </main>
 
+      <StickyBuyBar fragrance={f} />
       <Footer />
     </div>
   )

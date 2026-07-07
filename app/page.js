@@ -179,14 +179,12 @@ export default async function Home() {
               <p className="mt-2 text-sm leading-6 text-slate">
                 A fragrance with clean freshness, aromatic texture, and bright citrus lift.
               </p>
-              <div className="mt-4 flex flex-col gap-2 sm:flex-row">
-                <div className="inline-flex h-11 flex-1 items-center justify-center rounded-full bg-green-accent text-sm font-black text-black">
-                  Sephora
-                </div>
-                <div className="inline-flex h-11 flex-1 items-center justify-center rounded-full border border-green-accent text-sm font-black text-black">
-                  Jomashop
-                </div>
-              </div>
+              <Link
+                href="/quiz"
+                className="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-xl bg-green-accent text-sm font-black text-black transition hover:brightness-95"
+              >
+                Take the quiz for your real match →
+              </Link>
             </div>
           </div>
         </section>
