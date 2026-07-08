@@ -5,7 +5,7 @@ import Footer from '@/app/_components/Footer'
 import QuizIcon from '@/app/_components/QuizIcons'
 
 export const metadata = {
-  title: 'Seasonal Fragrance Picks — PickSniff',
+  title: 'Seasonal Fragrance Picks | PickSniff',
   description: 'The best fragrances for every season, updated automatically.',
 }
 

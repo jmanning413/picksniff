@@ -3,7 +3,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Quizzes — PickSniff',
+  title: 'Quizzes | PickSniff',
   description: 'Find your perfect fragrance through one of our guided quizzes. Signature scent, personality, seasonal, astrology, and gift quizzes.',
 }
 
@@ -76,7 +76,7 @@ const QUIZZES = [
     href: '/quiz',
     icon: <IconPerfume />,
     title: 'Signature Scent Quiz',
-    description: 'Answer 4 questions — gender, budget, vibe, and accords — and get matched to your signature scent from 750 fragrances.',
+    description: 'Answer 4 questions (gender, budget, vibe, and accords) and get matched to your signature scent from 750 fragrances.',
     cta: 'Find My Signature Scent',
     accent: true,
   },
@@ -84,7 +84,7 @@ const QUIZZES = [
     href: '/quiz/personality',
     icon: <IconStar />,
     title: 'Personality Quiz',
-    description: 'Pick a vibe, a place, a time of day. Discover your fragrance archetype — The Dark Romantic, The Fresh Minimalist, and more.',
+    description: 'Pick a vibe, a place, a time of day. Discover your fragrance archetype: The Dark Romantic, The Fresh Minimalist, and more.',
     cta: 'Find My Archetype',
     accent: false,
   },
@@ -108,7 +108,7 @@ const QUIZZES = [
     href: '/quiz/astrology',
     icon: <IconZodiac />,
     title: 'Astrology Quiz',
-    description: 'Your zodiac sign reveals your fragrance soul. From Aries fire to Pisces dreams — find the scent written in your stars.',
+    description: 'Your zodiac sign reveals your fragrance soul. From Aries fire to Pisces dreams, find the scent written in your stars.',
     cta: 'Find My Star Scent',
     accent: false,
   },

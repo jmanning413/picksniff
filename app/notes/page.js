@@ -4,32 +4,32 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Notes Glossary — PickSniff',
+  title: 'Notes Glossary | PickSniff',
   description: 'Every fragrance note explained simply. What each note smells like, with real fragrance examples.',
 }
 
 const NOTE_DESCRIPTIONS = {
-  Bergamot: 'A citrus peel with a floral edge — sharper than orange, more complex than lemon. The backbone of countless colognes.',
+  Bergamot: 'A citrus peel with a floral edge, sharper than orange, more complex than lemon. The backbone of countless colognes.',
   Cedar: 'Dry, pencil-shaving woods with a slight sweetness. Versatile and grounding.',
   Sandalwood: 'Creamy, milky, and smooth with a warm woodiness that lingers for hours.',
   Vetiver: 'Smoky, earthy, and rooty. Dry and complex with a grassy undertone.',
-  Vanilla: 'Sweet, warm, and enveloping — like warm cake but more sophisticated in fragrance.',
-  Rose: 'The queen of flowers — can be dewy and green or velvety and opulent depending on the extract.',
+  Vanilla: 'Sweet, warm, and enveloping, like warm cake but more sophisticated in fragrance.',
+  Rose: 'The queen of flowers. It can be dewy and green or velvety and opulent depending on the extract.',
   Jasmine: 'Heady, indolic, and intensely floral with a slight animalic quality at high concentrations.',
   Lavender: 'Herbal, floral, and slightly medicinal. Fresh, clean, and endlessly versatile.',
   Pepper: 'Dry, spicy, and sharp. Black pepper adds crackling energy; pink pepper is softer and fruity.',
-  Amber: 'A warm, resinous accord of labdanum and musks — golden, sweet, and enveloping.',
+  Amber: 'A warm, resinous accord of labdanum and musks: golden, sweet, and enveloping.',
   Oud: 'Rich, smoky, animalic wood from infected agarwood. The most precious raw material in perfumery.',
   Musk: 'Skin-like and intimate. White musk is clean; animalic musk is warmer and more carnal.',
   Patchouli: 'Dark, earthy, and slightly sweet with a chocolate edge. Divisive but distinctive.',
   Iris: 'Powdery, rooty, and slightly chilly. Evokes violet and a hint of carrot. Elegant and expensive.',
   Lemon: 'Clean, bright citrus with a tart freshness that vanishes quickly but lifts everything around it.',
-  Orange: 'Sweeter and fuller than lemon — juicy, sunny, and immediately likeable.',
+  Orange: 'Sweeter and fuller than lemon: juicy, sunny, and immediately likeable.',
   Grapefruit: 'Slightly bitter citrus with a green, slightly metallic quality. Energising and modern.',
   Cardamom: 'Warm, slightly sweet spice with green herbal undertones. Bridges Eastern and Western perfumery.',
-  Neroli: 'Orange blossom distillate — floral, honeyed, slightly bitter, and intensely aromatic.',
+  Neroli: 'Orange blossom distillate: floral, honeyed, slightly bitter, and intensely aromatic.',
   'Tonka Bean': 'Sweet like vanilla but with almond, hay, and coumarin. Warm, gourmand, and addictive.',
-  Ambroxan: 'A synthetic amber molecule — warm, woody, and musky with incredible longevity. The secret weapon of modern fragrance.',
+  Ambroxan: 'A synthetic amber molecule: warm, woody, and musky with incredible longevity. The secret weapon of modern fragrance.',
 }
 
 export default async function NotesPage() {

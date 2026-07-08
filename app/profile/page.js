@@ -9,7 +9,7 @@ import SignOutButton from '../_components/SignOutButton'
 import WardrobeButton from '../_components/WardrobeButton'
 import QuizIcon from '@/app/_components/QuizIcons'
 
-export const metadata = { title: 'My Profile — PickSniff' }
+export const metadata = { title: 'My Profile | PickSniff' }
 
 export default async function ProfilePage() {
   const supabase = await createClient()

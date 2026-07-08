@@ -2,7 +2,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Contact — PickSniff',
+  title: 'Contact | PickSniff',
   description: 'Get in touch with the PickSniff team.',
 }
 
@@ -40,7 +40,7 @@ export default function ContactPage() {
             <h2 className="mb-1 font-black text-black">Suggest a fragrance</h2>
             <p className="text-slate">
               Think we're missing a gem from our 750-fragrance library? Tell us the name, brand, and
-              why it belongs — we review all suggestions.
+              why it belongs. We review all suggestions.
             </p>
           </div>
         </div>

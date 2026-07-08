@@ -4,7 +4,7 @@ import Footer from '@/app/_components/Footer'
 import EncyclopediaClient from './EncyclopediaClient'
 
 export const metadata = {
-  title: 'Fragrance Encyclopedia — PickSniff',
+  title: 'Fragrance Encyclopedia | PickSniff',
   description: 'Browse all 750 fragrances. Search by name or brand, filter by gender, vibe, tier, and accords.',
 }
 

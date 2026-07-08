@@ -14,13 +14,13 @@ const GENDERS = [
 ]
 
 const TIERS = [
-  { id: 'budget', label: 'Budget', description: 'Under $100 — easy wins and smart starter picks.' },
-  { id: 'quality', label: 'Quality', description: '$100–$200 — polished fragrances with more depth.' },
-  { id: 'niche', label: 'Niche', description: '$200+ — distinctive houses and luxury bottles.' },
+  { id: 'budget', label: 'Budget', description: 'Under $100. Easy wins and smart starter picks.' },
+  { id: 'quality', label: 'Quality', description: '$100 to $200. Polished fragrances with more depth.' },
+  { id: 'niche', label: 'Niche', description: '$200 and up. Distinctive houses and luxury bottles.' },
 ]
 
 const VIBES = [
-  { id: 'daily', label: 'Daily', description: 'Work, class, errands — your everyday scent.' },
+  { id: 'daily', label: 'Daily', description: 'Work, class, errands: your everyday scent.' },
   { id: 'date_night', label: 'Date Night', description: 'Warm, close-up, memorable.' },
   { id: 'sport', label: 'Sport', description: 'Gym, outdoors, hot days.' },
   { id: 'chill', label: 'Chill', description: 'Weekends, cozy nights in.' },
@@ -48,10 +48,10 @@ const ACCORD_HINTS = {
 }
 
 const CONCENTRATIONS = [
-  { id: 'EDT', label: 'EDT', description: 'Eau de Toilette — lighter, everyday wear.' },
-  { id: 'EDP', label: 'EDP', description: 'Eau de Parfum — richer, longer-lasting.' },
-  { id: 'Parfum', label: 'Parfum', description: 'Pure perfume — most intense and long-lasting.' },
-  { id: 'Cologne', label: 'Cologne', description: 'Eau de Cologne — fresh and light.' },
+  { id: 'EDT', label: 'EDT', description: 'Eau de Toilette: lighter, everyday wear.' },
+  { id: 'EDP', label: 'EDP', description: 'Eau de Parfum: richer, longer-lasting.' },
+  { id: 'Parfum', label: 'Parfum', description: 'Pure perfume: most intense and long-lasting.' },
+  { id: 'Cologne', label: 'Cologne', description: 'Eau de Cologne: fresh and light.' },
 ]
 
 const COMMON_NOTES = [

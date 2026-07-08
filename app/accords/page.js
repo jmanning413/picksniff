@@ -5,12 +5,12 @@ import Footer from '@/app/_components/Footer'
 import QuizIcon from '@/app/_components/QuizIcons'
 
 export const metadata = {
-  title: 'Accord Explorer — PickSniff',
+  title: 'Accord Explorer | PickSniff',
   description: 'Learn what every fragrance accord smells like, with real examples from our 750-fragrance library.',
 }
 
 const ACCORDS = [
-  { name: 'Citrus', icon: 'citrus', description: 'Bright, zesty, and energising. Think lemon, bergamot, grapefruit — the first thing you smell when you spray.' },
+  { name: 'Citrus', icon: 'citrus', description: 'Bright, zesty, and energising. Think lemon, bergamot, grapefruit: the first thing you smell when you spray.' },
   { name: 'Floral', icon: 'flower', description: 'Rose, jasmine, peony, iris. Can be soft and powdery or lush and heady. The most classic fragrance family.' },
   { name: 'Woody', icon: 'pine', description: 'Cedar, sandalwood, oud, vetiver. Grounding and warm with a sense of depth and permanence.' },
   { name: 'Vanilla', icon: 'droplet', description: 'Sweet, creamy, and comforting. Gourmand but not sugary. Pairs with almost everything for a soft landing.' },
@@ -42,7 +42,7 @@ export default async function AccordsPage() {
           <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Accord Explorer</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What does it actually smell like?</h1>
           <p className="mt-3 text-base leading-7 text-slate">
-            Every fragrance accord explained simply — no jargon, just what your nose will experience.
+            Every fragrance accord explained simply. No jargon, just what your nose will experience.
           </p>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2">

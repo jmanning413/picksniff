@@ -2,7 +2,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'About — PickSniff',
+  title: 'About | PickSniff',
   description: 'Learn about PickSniff, the fragrance matchmaking app.',
 }
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <h1 className="text-4xl font-black tracking-tight text-black">About PickSniff</h1>
         <div className="mt-8 space-y-6 text-base leading-7 text-slate">
           <p>
-            PickSniff is the fragrance matchmaking app — built for people who love the idea of wearing
+            PickSniff is the fragrance matchmaking app, built for people who love the idea of wearing
             a great fragrance but have no idea where to start.
           </p>
           <p>
@@ -24,7 +24,7 @@ export default function AboutPage() {
           </p>
           <p>
             PickSniff is independently owned and not affiliated with any retailer. We earn a small
-            commission if you buy through our links — at no extra cost to you. This keeps the app free
+            commission if you buy through our links, at no extra cost to you. This keeps the app free
             and lets us keep adding fragrances.
           </p>
           <p>

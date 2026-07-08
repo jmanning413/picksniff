@@ -9,10 +9,10 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: { default: "PickSniff — Find Your Perfect Fragrance", template: "%s — PickSniff" },
+  title: { default: "PickSniff: Find Your Perfect Fragrance", template: "%s | PickSniff" },
   description: "Find your perfect fragrance in minutes. PickSniff matches you to 750 fragrances across every style and budget.",
   openGraph: {
-    title: "PickSniff — Find Your Perfect Fragrance",
+    title: "PickSniff: Find Your Perfect Fragrance",
     description: "Find your perfect fragrance in minutes.",
     siteName: "PickSniff",
     type: "website",

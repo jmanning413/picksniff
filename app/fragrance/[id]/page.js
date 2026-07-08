@@ -34,9 +34,9 @@ const VIBE_LABELS = {
 export async function generateMetadata({ params }) {
   const { id } = await params
   const f = await getFragranceById(id)
-  if (!f) return { title: 'Not Found — PickSniff' }
+  if (!f) return { title: 'Not Found | PickSniff' }
   return {
-    title: `${f.brand} ${f.name} — PickSniff`,
+    title: `${f.brand} ${f.name} | PickSniff`,
     description: `Explore ${f.name} by ${f.brand}. ${f.concentration} · ${f.tier} tier · ${f.vibe} vibe.`,
   }
 }

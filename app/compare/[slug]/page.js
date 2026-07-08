@@ -7,13 +7,13 @@ import Footer from '@/app/_components/Footer'
 export async function generateMetadata({ params }) {
   const { slug } = await params
   const [id1, id2] = slug.split('-vs-').map(Number)
-  if (!id1 || !id2) return { title: 'Compare — PickSniff' }
+  if (!id1 || !id2) return { title: 'Compare | PickSniff' }
   const all = await loadAllFragrances()
   const f1 = all.find((f) => f.id === id1)
   const f2 = all.find((f) => f.id === id2)
-  if (!f1 || !f2) return { title: 'Compare — PickSniff' }
+  if (!f1 || !f2) return { title: 'Compare | PickSniff' }
   return {
-    title: `${f1.brand} ${f1.name} vs ${f2.brand} ${f2.name} — PickSniff`,
+    title: `${f1.brand} ${f1.name} vs ${f2.brand} ${f2.name} | PickSniff`,
     description: `Side-by-side comparison of ${f1.name} by ${f1.brand} and ${f2.name} by ${f2.brand}. Accords, notes, tier, and where to buy.`,
   }
 }
@@ -66,7 +66,7 @@ export default async function ComparePage({ params }) {
                   <h2 className="mt-1 text-2xl font-black">{f.name}</h2>
 
                   <div className="mt-5 space-y-4">
-                    <Row label="Concentration" value={f.concentration || '—'} />
+                    <Row label="Concentration" value={f.concentration || '–'} />
                     <Row label="Tier" value={f.tier} />
                     <Row label="Vibe" value={VIBE_LABELS[f.vibe] || f.vibe} />
                     <Row label="Gender" value={f.gender} />

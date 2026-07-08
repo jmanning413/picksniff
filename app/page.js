@@ -6,7 +6,7 @@ import HomepageClient from '@/app/_components/HomepageClient'
 import { loadAllFragrances } from '@/lib/fragrances'
 
 export const metadata = {
-  title: 'PickSniff — Find Your Perfect Fragrance',
+  title: 'PickSniff: Find Your Perfect Fragrance',
   description:
     'Answer 4 questions. Get matched to your perfect scent from 750 fragrances across every style and budget.',
 }
@@ -50,7 +50,7 @@ export default async function Home() {
       <main className="flex-1">
         {/* ── Seasonal banner ── */}
         <div className="border-b border-sand bg-green-wash px-5 py-2 text-center text-xs font-black text-black tracking-wide">
-          Best fragrances for {season} {new Date().getFullYear()} — <Link href="/seasonal" className="underline underline-offset-2">See the list</Link>
+          Best fragrances for {season} {new Date().getFullYear()}: <Link href="/seasonal" className="underline underline-offset-2">See the list</Link>
         </div>
 
         {/* ── Hero: slogan left, quiz start right ── */}
@@ -69,7 +69,7 @@ export default async function Home() {
               No jargon. No overwhelm. Just your scent.
             </p>
             <ul className="mt-6 space-y-2 text-sm font-bold text-zinc-700">
-              {['Simple questions — zero fragrance knowledge needed', 'Ranked matches with a % score, best first', 'Independent — we don’t stock or push anything'].map((line) => (
+              {['Simple questions, zero fragrance knowledge needed', 'Ranked matches with a % score, best first', 'Independent: we don’t stock or push anything'].map((line) => (
                 <li key={line} className="flex items-start gap-2.5">
                   <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="#3D7A16" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 shrink-0" aria-hidden>
                     <path d="M4 10.5 L8.5 15 L16 5.5" />
@@ -108,7 +108,7 @@ export default async function Home() {
                   </Link>
                 ))}
               </div>
-              <p className="mt-4 text-xs text-zinc-400">Tap one to start — takes about a minute.</p>
+              <p className="mt-4 text-xs text-zinc-400">Tap one to start. Takes about a minute.</p>
             </div>
             <p className="mt-4 text-center text-sm lg:text-left">
               <Link href="/quizzes" className="font-bold text-slate transition hover:text-black">
@@ -128,8 +128,8 @@ export default async function Home() {
               Three steps to your perfect scent
             </h2>
             <div className="grid gap-6 sm:grid-cols-3">
-              <HowStep number="1" title="Answer 4 questions" description="Who it's for, your budget, the occasion, and what smells good to you — simple words, no expertise needed." />
-              <HowStep number="2" title="Get ranked matches" description="Every fragrance is scored against your answers and ranked with a match percentage — your best match first." />
+              <HowStep number="1" title="Answer 4 questions" description="Who it's for, your budget, the occasion, and what smells good to you. Simple words, no expertise needed." />
+              <HowStep number="2" title="Get ranked matches" description="Every fragrance is scored against your answers and ranked with a match percentage, your best match first." />
               <HowStep number="3" title="Buy with one click" description="Every result links straight to Sephora and Jomashop so you can shop immediately." />
             </div>
           </div>
@@ -299,7 +299,7 @@ export default async function Home() {
                 <span className="text-green-accent">750</span> fragrances.<br />Every style. Every budget.
               </h2>
               <p className="mt-4 max-w-lg text-base leading-7 text-zinc-400">
-                From everyday budget picks to rare niche bottles — every fragrance hand-selected, scored,
+                From everyday budget picks to rare niche bottles. Every fragrance hand-selected, scored,
                 and categorised so you don&apos;t have to think.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">

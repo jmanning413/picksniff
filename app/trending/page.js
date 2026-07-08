@@ -4,7 +4,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Trending Fragrances — PickSniff',
+  title: 'Trending Fragrances | PickSniff',
   description: 'The most popular and saved fragrances on PickSniff this week.',
 }
 

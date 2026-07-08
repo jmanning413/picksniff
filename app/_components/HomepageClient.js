@@ -35,7 +35,7 @@ export default function HomepageClient() {
   if (submitted) {
     return (
       <div className="rounded-xl border border-green-accent/30 bg-green-accent/10 px-6 py-4 text-sm font-bold text-green-deep">
-        You&apos;re on the list — first pick drops next week.
+        You&apos;re on the list. First pick drops next week.
       </div>
     )
   }

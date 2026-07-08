@@ -34,7 +34,7 @@ export default function SupportPage({ searchParams }) {
                 Keep the sniffs coming
               </h1>
               <p className="mt-3 mb-8 text-sm leading-6 text-slate">
-                PickSniff is 100% free — no subscriptions, no ads.
+                PickSniff is 100% free. No subscriptions, no ads.
                 If it helped you find a fragrance you love, a small tip keeps the lights on.
               </p>
               <TipButton />

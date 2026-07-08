@@ -38,7 +38,7 @@ export default function BuyButtons({ fragrance, showNote = false }) {
         </a>
         {showNote && (
           <p className="mt-2 text-xs leading-5 text-zinc-400">
-            Opens the brand&apos;s official site — prices and returns are handled by them.
+            Opens the brand&apos;s official site. Prices and returns are handled by them.
           </p>
         )}
       </div>
@@ -67,7 +67,7 @@ export default function BuyButtons({ fragrance, showNote = false }) {
       </div>
       {showNote && (
         <p className="mt-2 text-xs leading-5 text-zinc-400">
-          Links open the retailer&apos;s official listing — prices and returns are handled by them.
+          Links open the retailer&apos;s official listing. Prices and returns are handled by them.
         </p>
       )}
     </div>

@@ -21,9 +21,9 @@ const OCCASIONS = [
 ]
 
 const TIERS = [
-  { id: 'budget', label: 'Budget', description: 'Great gift under $100 — impressive without breaking the bank.' },
-  { id: 'quality', label: 'Quality', description: 'The sweet spot — polished bottles they\'ll be proud to display.' },
-  { id: 'niche', label: 'Niche', description: 'A luxury statement — for someone who deserves the best.' },
+  { id: 'budget', label: 'Budget', description: 'Great gift under $100, impressive without breaking the bank.' },
+  { id: 'quality', label: 'Quality', description: 'The sweet spot: polished bottles they\'ll be proud to display.' },
+  { id: 'niche', label: 'Niche', description: 'A luxury statement for someone who deserves the best.' },
 ]
 
 const ACCORDS_FALLBACK = ['Citrus', 'Floral', 'Woody', 'Vanilla', 'Amber', 'Spicy', 'Fresh', 'Aromatic', 'Aquatic', 'Green']
@@ -180,7 +180,7 @@ export default function GiftQuizPage() {
               <div className="mb-8">
                 <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 3</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What's the gift budget?</h1>
-                <p className="mt-3 text-base leading-7 text-slate">No judgment — great gifts exist at every price.</p>
+                <p className="mt-3 text-base leading-7 text-slate">No judgment. Great gifts exist at every price.</p>
               </div>
               <div className="grid gap-3">
                 {TIERS.map((t) => (

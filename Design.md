@@ -46,6 +46,7 @@ Tokens (defined in `app/globals.css`):
 - Never add a second typeface.
 - Never center-align paragraphs longer than one line. (Short hero subheadings and single-line CTAs may center; real sentences left-align.)
 - Never use thin/light weights for small text — they disappear on cream.
+- Never use em dashes (—) in any user-facing copy. Use periods, commas, colons, or parentheses instead.
 
 ## Shape & layout rules
 
@@ -93,4 +94,5 @@ Tokens (defined in `app/globals.css`):
 - Copy said "plain English" — RULE: the site is universal; never use language-specific phrasing in copy. Say "simple questions", "no jargon", "explained simply" instead.
 - Header logo/wordmark were too small to read (fine-line logo illegible at 32px) — RULE: header logo renders at 48px minimum with a text-2xl wordmark; the logo's thin strokes need size to be legible.
 - Quiz answer options used emojis — replaced with the shared line-icon set (`app/_components/QuizIcons.js`, currentColor + `text-green-deep` wrapper). Any new quiz option gets an icon from that file or a new one drawn in the same style.
+- Copy shipped full of em dashes — RULE: never use em dashes (—) in user-facing copy; rewrite with periods, commas, colons, or parentheses. Titles use "Page | PickSniff".
 - Accord hint copy named specific notes ("pepper & cinnamon") — RULE: accord/category descriptions must describe the FEEL, never claim ingredients; an accord doesn't guarantee any specific note is in a given fragrance.

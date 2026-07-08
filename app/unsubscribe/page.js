@@ -8,7 +8,7 @@ function getAdmin() {
 }
 
 export const metadata = {
-  title: 'Unsubscribe — PickSniff',
+  title: 'Unsubscribe | PickSniff',
   robots: { index: false },
 }
 
