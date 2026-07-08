@@ -11,8 +11,8 @@ PickSniff (picksniff.com) is a fragrance recommendation web app — "the dating 
 fragrances." A complete beginner answers a short quiz (gender → price tier → vibe →
 accords) and gets a ranked list of fragrance matches with XP-style match-percentage bars
 and buy buttons linking to Sephora/Jomashop. The catalog is 750 hand-curated fragrances
-stored as static JSON. Revenue plan is affiliate links (not yet wired — see GAPS) plus a
-premium tier (deferred; currently replaced by a Stripe tip jar).
+stored as static JSON. Revenue is affiliate links (not yet wired — see GAPS). PickSniff is permanently
+100% free: no premium tiers, ever; Stripe handles optional donations only.
 
 The owner/developer (Joseph) is a self-described beginner. The site is live in production
 on Vercel, deployed automatically on every push to `main` on GitHub
@@ -26,7 +26,7 @@ on Vercel, deployed automatically on every push to `main` on GitHub
 | Styling | Tailwind CSS v4 (`@tailwindcss/postcss`, `@theme inline` in `globals.css`) | Utility classes inline in JSX; no component library. Brand token `--color-green-accent: #7fe040` used as `text-green-accent` etc. |
 | Auth + DB | Supabase (Postgres + RLS + cookie auth via `@supabase/ssr`) | Free tier, hosted auth. Only *user* data lives here — the fragrance catalog does not. |
 | Catalog | 15 static JSON files in `/fragrances`, loaded through `unstable_cache` | Catalog is immutable; avoids DB round-trips entirely. This was a deliberate decision — do not migrate it to Supabase casually. |
-| Payments | Stripe (one-time tips only) | Premium subscription was planned, then shelved; `/premium` now redirects to `/support`. |
+| Payments | Stripe (one-time donations only) | PickSniff is permanently free; premium was removed June 2026. `/premium` 301s to `/support`. |
 | Email | Resend (`lib/resend.js`), from `hello@picksniff.com` | Welcome email on subscribe/signup, manual broadcasts. |
 | Rate limiting | Upstash Redis via `@upstash/ratelimit` | Only on the quiz-match API. No-ops gracefully when env vars absent. |
 | Validation | Zod on every API route and server action | |
@@ -66,7 +66,7 @@ vars are missing, so the app boots locally with no `.env.local` at all.
    • service-role admin client created inline where RLS must be bypassed
      (subscribe route, broadcast route, unsubscribe page, signup auto-enroll)
 
- Stripe: /api/stripe/checkout (tip jar) → hosted checkout → /api/stripe/webhook (logs only)
+ Stripe: /api/stripe/checkout (donations) → hosted checkout → /api/stripe/webhook (logs only)
  Resend: /api/subscribe → welcome email;  /api/broadcast → batch email to all subscribers
 ```
 
@@ -127,7 +127,7 @@ accord that would produce zero band-3 results).
 
 ### Supabase schema (`supabase/schema.sql` + drift)
 
-Tables: `profiles` (username, bio, premium columns unused), `wishlist`, `owned`,
+Tables: `profiles` (username, bio, plus four deprecated premium columns — unread by code), `wishlist`, `owned`,
 `quiz_results` — all with RLS: public SELECT, owner-only writes. A `subscribers` table
 (email unique, token uuid for unsubscribe links) **exists in production but is missing
 from `schema.sql`** — it was created ad-hoc in the dashboard. Treat the live DB as the
@@ -143,7 +143,7 @@ session cookie on every matched request and redirects logged-out users off `/pro
 
 Client-side auth state comes from `lib/hooks/useUser.js` (hardened with try/catch after a
 production incident — errors thrown in effects hit `app/error.js`, the generic "Something
-went wrong" screen). `useIsPremium.js` is the same pattern **without** the hardening.
+went wrong" screen).
 
 ## Key design decisions (inferred and confirmed)
 
@@ -157,8 +157,7 @@ went wrong" screen). `useIsPremium.js` is the same pattern **without** the harde
    config; production Vercel has the real vars (verified present: Supabase ×3, Stripe ×2,
    Resend, Broadcast secret, site URL).
 5. **Guest vs. account limits** — guests get 10 results, accounts 20; extra quiz steps are
-   account-gated (`AccountGate` blurs + overlays). Premium gating (`PremiumGate`) exists
-   but nothing sets `is_premium` — premium is shelved, tips replaced it.
+   account-gated (`AccountGate` blurs + overlays). Premium was removed permanently in June 2026: PickSniff is 100% free and Stripe handles optional donations only.
 6. **Push-to-main deploys** — earlier manual `vercel --prod` + alias workflows caused
    domain-pointing bugs; the fix was "always deploy via git push."
 
@@ -188,8 +187,7 @@ Safe to change casually: static content pages (`/about`, `/privacy`, `/terms`,
   window); don't "optimize" it without checking rendering everywhere.
 - The quiz's POST to `/api/quiz/match` exists for **validation + rate limiting only**; its
   response is discarded and `/results` recomputes matches from URL params.
-- `/premium` is a client-side redirect to `/support`. `CheckoutButton` re-exports
-  `TipButton`. Don't resurrect premium without reading the Stripe webhook (it only logs).
+- `/premium` 301-redirects to `/support` (next.config.mjs). Premium is permanently removed; never resurrect it.
 - Windows dev machine: PowerShell 5.1 is the default shell (no `&&`), git warns
   LF→CRLF constantly (harmless), and the Vercel CLI prints a NativeCommandError-looking
   hint line that is not an error.

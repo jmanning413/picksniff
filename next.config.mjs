@@ -31,6 +31,12 @@ const nextConfig = {
       },
     ]
   },
+  async redirects() {
+    return [
+      // Premium was removed permanently (PickSniff is 100% free); keep old links working
+      { source: '/premium', destination: '/support', permanent: true },
+    ]
+  },
 }
 
 export default nextConfig

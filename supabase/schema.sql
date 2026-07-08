@@ -2,22 +2,21 @@
 -- Run this in your Supabase project: Dashboard → SQL Editor → New query → paste → Run
 
 -- PROFILES
+-- NOTE: is_premium, premium_expires_at, stripe_customer_id, profile_border_color are
+-- DEPRECATED (premium tier removed permanently 2026-06; PickSniff is 100% free).
+-- No code reads them. Columns kept in the live DB for now; drop during the next
+-- deliberate schema migration.
 create table public.profiles (
   id                  uuid references auth.users on delete cascade primary key,
   username            text unique not null,
   bio                 text default '',
   favorite_fragrance  text default '',
-  is_premium          boolean default false,
-  premium_expires_at  timestamptz,
-  stripe_customer_id  text,
-  profile_border_color text default '',
+  is_premium          boolean default false,       -- deprecated
+  premium_expires_at  timestamptz,                 -- deprecated
+  stripe_customer_id  text,                        -- deprecated
+  profile_border_color text default '',            -- deprecated
   created_at          timestamptz default now()
 );
-
--- Add premium columns to existing installs (safe to run on fresh db too)
--- alter table public.profiles add column if not exists premium_expires_at timestamptz;
--- alter table public.profiles add column if not exists stripe_customer_id text;
--- alter table public.profiles add column if not exists profile_border_color text default '';
 alter table public.profiles enable row level security;
 create policy "Profiles are publicly viewable"
   on public.profiles for select using (true);

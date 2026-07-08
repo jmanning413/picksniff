@@ -83,11 +83,15 @@ Unchanged: `/api/subscribe` is an unauthenticated email-send primitive with no l
 auth server actions have no throttle. Fix: second Upstash limiter (5/min/IP) in the
 subscribe route; same pattern inside `signIn`/`signUp`.
 
-## 8. 🔓 OPEN — Premium half-abandoned
+## 8. ✅ RESOLVED (2026-06-12) — Premium removed permanently
 
-Unchanged: dead `is_premium` columns, `PremiumGate` advertising $4.99/mo, webhook that
-only logs, empty `app/api/stripe/portal/` directory. Cleanup task unchanged (GAMEPLAN
-Phase 4 owns the real decision).
+Owner decision: PickSniff is 100% free forever; Stripe is donations-only. Removed:
+`PremiumGate`, `useIsPremium`, `app/premium/*`, empty `app/api/stripe/portal/`, unused
+`getStripeObjectId`. `/premium` now 301s to `/support` via next.config.mjs. Terms
+rewritten (Donations section). Remaining follow-up: drop the four deprecated `profiles`
+columns (`is_premium`, `premium_expires_at`, `stripe_customer_id`,
+`profile_border_color`) during the next deliberate schema migration; they are unread by
+code and marked deprecated in `supabase/schema.sql`.
 
 ## 9. 🔓 OPEN — Signup can strand accounts without profiles
 
