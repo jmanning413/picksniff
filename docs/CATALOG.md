@@ -84,7 +84,7 @@ Batch loop, ~50 fragrances per batch, 15 batches total:
 2. Batches 02–06: remaining budget + quality tier entries (they dominate results)
 3. Batches 07–15: niche tier and the long tail
 
-### Stage B — Retailer links + prices context (blocked on affiliate approvals)
+### Stage B — Retailer links (blocked on affiliate approvals)
 
 1. Apply to FragranceNet + FragranceX (fast approvals), Sephora via Rakuten,
    Jomashop (GAMEPLAN Phase 1 — owner task).
@@ -93,7 +93,8 @@ Batch loop, ~50 fragrances per batch, 15 batches total:
    `matched / ambiguous / unmatched`.
 3. Joseph reviews ambiguous matches; script fills `sephora_url`/`jomashop_url`
    (and future retailer fields) for confirmed matches.
-4. `lib/affiliate.js` (GAPS #3) appends tracking params at render time — URLs
+4. STANDING DECISION: feed imports take tracking URLs and image URLs only — IGNORE price columns. No price storage, refresh, or display systems, ever (see CLAUDE.md rules).
+5. `lib/affiliate.js` (GAPS #3) appends tracking params at render time — URLs
    in the catalog stay clean, tracking stays in one file.
 
 ### Stage C — Images (blocked on Stage B feeds; press kits as fallback)

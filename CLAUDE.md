@@ -57,7 +57,9 @@ Engine tests exist (`npm test`); no CI yet (GAPS.md #4). Gate before push: `npm 
 - App name is **PickSniff** (never "Scent Percent"). The flagship quiz is the **"Signature Scent Quiz"** (renamed from "Classic Fragrance Quiz" — don't reintroduce "Classic").
 - `/premium` is shelved and redirects to `/support` (tip jar). Don't wire anything to `PremiumGate`/`is_premium` — nothing sets it (GAPS.md #8).
 - `supabase/schema.sql` lags the live DB (missing `subscribers` — GAPS.md #6). The dashboard DB is the truth.
-- No pricing data anywhere; website only (no native app); max 1 LV fragrance per vibe; Byredo/Diptyque live only in unisex lists.
+- **Never display product prices anywhere on the site.** Buy buttons link out without dollar amounts. The tier system (Budget/Quality/Niche) is the only price communication. Do not build price display, storage, or refresh features unless this rule is explicitly changed. (Affiliate feed imports take tracking URLs + image URLs and IGNORE price columns.)
+- **Never use em dashes in any user-facing copy.** Use periods, commas, colons, or parentheses instead. Page titles use "Page | PickSniff".
+- Website only (no native app); max 1 LV fragrance per vibe; Byredo/Diptyque live only in unisex lists.
 - Secrets only in `.env.local` / Vercel env. Never hardcode (see GAPS.md #1 for the existing violation to fix, not imitate).
 
 ## Gotchas (things that look right but aren't)
