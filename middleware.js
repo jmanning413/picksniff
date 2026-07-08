@@ -37,6 +37,16 @@ export async function middleware(request) {
     return NextResponse.redirect(new URL('/auth', request.url))
   }
 
+  // Signed-in users land on their profile ONCE per browser session; after that
+  // the homepage stays reachable (logo clicks, direct visits).
+  if (request.nextUrl.pathname === '/' && user && !request.cookies.get('ps_landed')) {
+    const redirectResponse = NextResponse.redirect(new URL('/profile', request.url))
+    // carry over any refreshed Supabase session cookies
+    supabaseResponse.cookies.getAll().forEach((c) => redirectResponse.cookies.set(c))
+    redirectResponse.cookies.set('ps_landed', '1', { path: '/' }) // session cookie
+    return redirectResponse
+  }
+
   return supabaseResponse
 }
 

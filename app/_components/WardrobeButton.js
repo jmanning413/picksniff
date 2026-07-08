@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import { buildRetailerLinks } from '@/app/_components/BuyButtons'
 
 const VIBES = ['daily', 'date_night', 'sport', 'chill', 'formal']
 const VIBE_LABELS = { daily: 'Daily', date_night: 'Date Night', sport: 'Sport', chill: 'Chill', formal: 'Formal' }
@@ -58,7 +59,7 @@ export default function WardrobeButton({ quizResults, allFragrances }) {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {VIBES.filter((v) => wardrobe[v]).map((v) => {
                 const f = wardrobe[v]
-                const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
+                const links = buildRetailerLinks(f)
                 return (
                   <div key={v} className="rounded-xl border border-sand p-4">
                     <p className="mb-3 text-xs font-black uppercase tracking-[0.14em] text-green-deep">{VIBE_LABELS[v]}</p>
@@ -72,10 +73,10 @@ export default function WardrobeButton({ quizResults, allFragrances }) {
                         <span key={a} className="rounded-full bg-green-accent/15 px-2 py-0.5 text-xs font-bold text-zinc-700">{a}</span>
                       ))}
                     </div>
-                    <a href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
+                    <a href={links.override ? links.override.href : links.sephora}
                       target="_blank" rel="noopener noreferrer"
                       className="mt-3 inline-flex w-full items-center justify-center rounded-xl bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
-                      Sephora
+                      {links.override ? links.override.label : 'Shop at Sephora'} →
                     </a>
                   </div>
                 )

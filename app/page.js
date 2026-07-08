@@ -1,10 +1,8 @@
 import Link from 'next/link'
-import { redirect } from 'next/navigation'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 import HomepageClient from '@/app/_components/HomepageClient'
 import { loadAllFragrances } from '@/lib/fragrances'
-import { createClient } from '@/lib/supabase/server'
 
 export const metadata = {
   title: 'PickSniff: Find Your Perfect Fragrance',
@@ -35,11 +33,6 @@ const QUIZ_STRIP = [
 ]
 
 export default async function Home() {
-  // Signed-in users land on their account page instead of the marketing homepage
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (user) redirect('/profile')
-
   const fragrances = await loadAllFragrances()
   const fotd = getFragranceOfDay(fragrances)
   const season = getSeason()

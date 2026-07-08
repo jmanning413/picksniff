@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { loadAllFragrances } from '@/lib/fragrances'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
+import { buildRetailerLinks } from '@/app/_components/BuyButtons'
 
 export async function generateMetadata({ params }) {
   const { name } = await params
@@ -19,9 +20,7 @@ export async function generateStaticParams() {
   return brands.map((b) => ({ name: encodeURIComponent(b) }))
 }
 
-const BRAND_OVERRIDES = {
-  'Louis Vuitton': { label: 'Visit LV Boutique', href: 'https://us.louisvuitton.com/eng-us/women/fragrances/_/N-tfnabnp' },
-}
+
 
 export default async function BrandPage({ params }) {
   const { name } = await params
@@ -53,8 +52,7 @@ export default async function BrandPage({ params }) {
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {fragrances.map((f) => {
-              const override = BRAND_OVERRIDES[f.brand]
-              const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
+              const links = buildRetailerLinks(f)
               return (
                 <div key={f.id} className="rounded-lg border border-sand bg-white p-5">
                   <div className="flex items-start justify-between gap-3">
@@ -79,22 +77,22 @@ export default async function BrandPage({ params }) {
                   )}
 
                   <div className="mt-4 flex gap-2">
-                    {override ? (
-                      <a href={override.href} target="_blank" rel="noopener noreferrer"
+                    {links.override ? (
+                      <a href={links.override.href} target="_blank" rel="noopener noreferrer"
                         className="inline-flex flex-1 items-center justify-center rounded-xl bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
-                        {override.label}
+                        {links.override.label} →
                       </a>
                     ) : (
                       <>
-                        <a href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
+                        <a href={links.sephora}
                           target="_blank" rel="noopener noreferrer"
                           className="inline-flex flex-1 items-center justify-center rounded-xl bg-green-accent py-2 text-xs font-black text-black transition hover:brightness-95">
-                          Sephora
+                          Shop at Sephora →
                         </a>
-                        <a href={f.jomashop_url || `https://www.jomashop.com/searchresult.html#q=${query}`}
+                        <a href={links.jomashop}
                           target="_blank" rel="noopener noreferrer"
-                          className="inline-flex flex-1 items-center justify-center rounded-full border border-green-accent py-2 text-xs font-black text-black transition hover:bg-green-accent/10">
-                          Jomashop
+                          className="inline-flex flex-1 items-center justify-center rounded-xl border border-sand bg-white py-2 text-xs font-bold text-black transition hover:border-green-accent">
+                          Shop at Jomashop
                         </a>
                       </>
                     )}

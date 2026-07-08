@@ -28,10 +28,11 @@ restored by owner.
 2. Prevent Supabase re-pausing (free tier pauses after ~1 week idle): weekly cron ping
    or Supabase Pro at launch.
 
-**Follow-up fix (single task):** add `/api/health` returning JSON booleans —
-`{supabase, stripe, resend}` — each true only when the env var exists AND a trivial call
-succeeds. Check it after every deploy (and point a free uptime monitor at it) so silent
-env loss can never happen again.
+**Follow-up DONE (2026-06-12):** `/api/health` exists (JSON booleans for
+supabase/stripe/resend; 503 when any fail) and a daily Vercel cron (`vercel.json`) hits
+it — which also keeps the free-tier Supabase project active so it can't pause again.
+Remaining owner items: point a free uptime monitor (e.g. UptimeRobot) at `/api/health`,
+and delete the retired `picksniff` Vercel project after a stability window.
 
 ## 1. ✅ RESOLVED (2026-06-12) — Broadcast secret was hardcoded in the client bundle
 
@@ -56,32 +57,30 @@ change. **Still open:** no affiliate program memberships (owner task — GAMEPLA
 no tracking params, `sephora_url`/`jomashop_url` still null catalog-wide (Stage B of
 docs/CATALOG.md), and `WardrobeButton`/compare/brand pages still build their own links.
 
-## 4. 🔶 PARTIAL — Test coverage
+## 4. 🔶 PARTIAL — Test coverage (CI now gates every push)
 
-**Progress:** the match engine is pure (`lib/matchEngine.mjs`) with 19 passing
-`node --test` tests (`npm test`); bands/guarantee/ordering are locked in.
-**Still open:** zero tests for API routes, server actions, or components; no CI runs
-anything (AUDIT.md §7 — a 30-line GitHub Action would gate pushes on `npm test` +
-`next build`).
+**Progress:** engine has 19 passing tests; **CI added 2026-06-12**
+(`.github/workflows/ci.yml`: lint + `npm test` + `next build` on every push/PR — all
+lint errors were fixed to make lint a blocking gate).
+**Still open:** no tests for API routes, server actions, or components.
 
-## 5. 🔓 OPEN — Quiz rate limit trivially bypassed via /results
+## 5. ✅ RESOLVED (2026-06-12) — /results now validated and rate-limited
 
-Unchanged: `/api/quiz/match` is rate-limited but its response is discarded; `/results`
-recomputes from raw searchParams with no limit and runs the matcher twice per view.
-Fix options unchanged (validate + limit `/results`, drop the decorative POST).
+`/results` strictly validates every search param against allowlists (genders, tier,
+vibe, the 11 accords max 3, concentrations) and is rate-limited (30/min/IP via the
+shared Upstash limiters; friendly page when exceeded). Remaining nice-to-have: the
+quiz's decorative POST to `/api/quiz/match` could now be dropped (response discarded).
 
-## 6. 🔓 OPEN — `subscribers` table missing from `supabase/schema.sql`
+## 6. ✅ RESOLVED (2026-06-12) — `subscribers` added to `supabase/schema.sql`
 
-Unchanged schema drift. Now more urgent: if the paused Supabase project (#0) were ever
-lost rather than restored, `schema.sql` could not rebuild the newsletter system. Fix:
-append the `subscribers` CREATE TABLE (verify columns against the dashboard) with RLS
-enabled and no public policies.
+Columns verified against the live DB by probe (id, email unique, token, created_at);
+RLS enabled with no public policies (service-role only).
 
-## 7. 🔓 OPEN — No rate limiting on subscribe/auth
+## 7. ✅ RESOLVED (2026-06-12) — Subscribe + auth rate limits
 
-Unchanged: `/api/subscribe` is an unauthenticated email-send primitive with no limit;
-auth server actions have no throttle. Fix: second Upstash limiter (5/min/IP) in the
-subscribe route; same pattern inside `signIn`/`signUp`.
+`lib/ratelimit.js` generalized (`makeLimiter`); `/api/subscribe` limited 5/min/IP,
+`signIn`/`signUp` server actions limited 5/min/IP, `/results` 30/min/IP. All no-op
+without Upstash env vars (local dev).
 
 ## 8. ✅ RESOLVED (2026-06-12) — Premium removed permanently
 
@@ -93,11 +92,11 @@ columns (`is_premium`, `premium_expires_at`, `stripe_customer_id`,
 `profile_border_color`) during the next deliberate schema migration; they are unread by
 code and marked deprecated in `supabase/schema.sql`.
 
-## 9. 🔓 OPEN — Signup can strand accounts without profiles
+## 9. ✅ RESOLVED (2026-06-12) — Signup orphan-profile risk closed
 
-Unchanged: unchecked `profiles` insert after `auth.signUp` + `!profile → redirect('/auth')`
-loop risk on `/profile`. Fix unchanged (check insert error, sign out + return error;
-tolerant profile page).
+`signUp` now checks the profiles insert; on failure it signs the user out and returns a
+clear error. `/profile` self-heals any legacy orphan by creating a fallback profile
+(`sniffer_<id>`), so no redirect dead-ends remain.
 
 ## 10. ✅ RESOLVED (2026-06-12) — Sitemap missing quiz routes
 
@@ -112,29 +111,27 @@ imply ingredients (Design.md drift rule).
 **Still open:** the data itself — no enrichment batch has run yet; quiz Step 6 notes
 filter is still a placebo; fragrance pages still render the mirrored `top_notes`.
 
-## 12. 🔶 PARTIAL — Copy-paste duplication
+## 12. ✅ RESOLVED (2026-06-12) — Duplication centralized
 
-**Progress:** buy-link construction + LV override centralized in `BuyButtons.js` for the
-two money surfaces; quiz option icons centralized in `QuizIcons.js`.
-**Still open:** `BRAND_OVERRIDES` copies remain in `compare/[slug]` and `brand/[name]`;
-`ACCORD_DESCRIPTIONS`+`buildDescription` duplicated (ResultsClient, fragrance page);
-`VIBE_LABELS` in ~6 files; `GENDERS` arrays in 5 quiz pages. Fix: `lib/constants.js`.
+`lib/constants.js` now owns VIBE_LABELS, accord descriptions/buildDescription, and the
+valid-value allowlists; EVERY buy link on the site (results, fragrance, compare, brand,
+wardrobe modal) flows through `buildRetailerLinks` in `BuyButtons.js` — affiliate
+tracking is now genuinely a one-file change. Minor leftover: small `GENDERS` arrays in
+quiz pages (harmless, identical literals).
 
-## 13. 🔓 OPEN — Fake "Trending" labels & unearnable badges
+## 13. ✅ RESOLVED (2026-06-12) — Honest trending labels; only earnable badges
 
-Unchanged: `/trending` still labels pseudo-random picks "Most Viewed/Saved/Reviewed";
-5 of 7 badges unearnable (`computeBadges` ignores most conditions). Relabel + trim
-remains the honest quick fix (badge icons are now SVGs, but the earnability problem is
-untouched).
+`/trending` sections renamed to editorial framing ("Weekly Spotlight", "Fresh Finds",
+"Worth a Sniff") with honest subhead ("rotating selection, refreshed weekly"). Badges
+trimmed to the two earnable ones (First Sniff, Collector); new badges may only ship
+together with awarding logic in `computeBadges`.
 
-## 14. 🔶 PARTIAL — Dead code and stale scaffolding
+## 14. ✅ RESOLVED (2026-06-12) — Dead code and scaffolding cleaned
 
-**Resolved:** homepage "Recently Viewed" dead section removed (with its innerHTML
-self-XSS surface — SECURITY.md F-8).
-**Still open:** `LoadingSniff.js` never imported; empty `app/api/stripe/portal/` dir;
-`build_json.js`/`extract_pdf.js` in root (move to `scripts/`); boilerplate `README.md`;
-template SVGs in `public/` (`file.svg`, `globe.svg`, `next.svg`, `vercel.svg`,
-`window.svg`).
+Deleted: `LoadingSniff.js`, the five create-next-app template SVGs, the empty stripe
+portal dir (earlier). Moved `build_json.js`/`extract_pdf.js` to `scripts/`. README
+replaced with a real project pointer. Remaining (owner call): delete the unreferenced
+840 KB `public/logo.svg` + `logo-icon.svg`.
 
 ## 15. ✅ RESOLVED (2026-06-12) — 840 KB fake-SVG logo replaced
 
@@ -147,22 +144,17 @@ whenever the owner confirms.
 
 ## 16. 🔶 PARTIAL — Consistency and robustness nits
 
-- ✅ `useUser.js` hardened (try/catch on client creation + getUser).
-- ✅ `genders.sort()` state mutation fixed (`[...genders].sort()`).
-- 🔓 `useIsPremium.js` still lacks the same hardening.
-- 🔓 `app/quiz/page.js`: `step` can exceed `STEPS.length-1` if auth state flips
-  mid-quiz (clamp with `Math.min`).
-- 🔓 Accord-fetch effect has no AbortController (stale-resolution edge).
-- 🔓 CSP still allows `unsafe-inline`/`unsafe-eval` (SECURITY.md F-7; the dead inline
-  homepage script blocking cleanup was removed, so the GA-nonce pass is now unblocked).
-- 🔓 No `.gitattributes` (LF/CRLF warnings on every commit).
+- ✅ `useUser.js` hardened; `genders.sort()` mutation fixed; `useIsPremium` deleted with
+  premium; quiz `step` clamped against STEPS shrinking (2026-06-12); accord-fetch effect
+  has a stale-result guard (2026-06-12); `.gitattributes` added (2026-06-12).
+- 🔓 CSP still allows `unsafe-inline`/`unsafe-eval` (SECURITY.md F-7) — needs its own
+  deliberate pass with testing.
 
-## 17. 🔓 NEW — No post-deploy verification
+## 17. ✅ RESOLVED (2026-06-12) — /api/health + daily cron
 
-Every push auto-deploys, but nothing confirms the deployment actually works (the #0
-incident ran silently for an unknown period). Fix (single task): `/api/health` route +
-free UptimeRobot monitor on it and `/`; optionally a `scripts/smoke.mjs` that curls the
-critical endpoints, run manually after risky deploys.
+`/api/health` verifies Supabase (live query), Stripe and Resend env presence; returns
+503 if anything is down. `vercel.json` cron hits it daily (doubles as the Supabase
+keep-alive). Owner nice-to-have: point a free uptime monitor at it.
 
 ## 18. 🔓 NEW — Local `.env.local` may drift from production reality
 

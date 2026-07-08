@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { headers } from 'next/headers'
 import { matchFragrances } from '@/lib/matchFragrances'
-import { checkRateLimit } from '@/lib/ratelimit'
+import { checkRateLimit, ipFromHeaders } from '@/lib/ratelimit'
 import { createClient } from '@/lib/supabase/server'
 
 const VALID_GENDERS = ['male', 'female', 'unisex']
@@ -23,11 +23,7 @@ const quizSchema = z.object({
 })
 
 export async function POST(request) {
-  const headersList = await headers()
-  const ip =
-    headersList.get('x-forwarded-for')?.split(',')[0]?.trim() ||
-    headersList.get('x-real-ip') ||
-    'anonymous'
+  const ip = ipFromHeaders(await headers())
 
   const { success: rateLimitOk } = await checkRateLimit(ip)
   if (!rateLimitOk) {

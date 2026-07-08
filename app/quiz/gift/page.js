@@ -138,7 +138,7 @@ export default function GiftQuizPage() {
               <div className="mb-8">
                 <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Gift Finder</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Who are you shopping for?</h1>
-                <p className="mt-3 text-base leading-7 text-slate">Choose one or more. We'll find them the perfect scent.</p>
+                <p className="mt-3 text-base leading-7 text-slate">Choose one or more. We&apos;ll find them the perfect scent.</p>
               </div>
               <div className="grid gap-3 sm:grid-cols-3">
                 {GENDERS.map((g) => (
@@ -156,7 +156,7 @@ export default function GiftQuizPage() {
             <>
               <div className="mb-8">
                 <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 2</p>
-                <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What's the occasion?</h1>
+                <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What&apos;s the occasion?</h1>
                 <p className="mt-3 text-base leading-7 text-slate">This shapes the whole recommendation.</p>
               </div>
               <div className="grid gap-3">
@@ -179,7 +179,7 @@ export default function GiftQuizPage() {
             <>
               <div className="mb-8">
                 <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 3</p>
-                <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What's the gift budget?</h1>
+                <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What&apos;s the gift budget?</h1>
                 <p className="mt-3 text-base leading-7 text-slate">No judgment. Great gifts exist at every price.</p>
               </div>
               <div className="grid gap-3">

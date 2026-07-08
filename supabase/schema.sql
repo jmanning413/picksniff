@@ -68,3 +68,13 @@ create policy "Quiz results are publicly viewable"
   on public.quiz_results for select using (true);
 create policy "Users can manage their own quiz results"
   on public.quiz_results for all using (auth.uid() = user_id);
+
+-- SUBSCRIBERS (newsletter; columns verified against the live DB 2026-06-12)
+-- Service-role access only: RLS enabled with NO public policies.
+create table public.subscribers (
+  id         uuid default gen_random_uuid() primary key,
+  email      text unique not null,
+  token      uuid default gen_random_uuid() not null,
+  created_at timestamptz default now()
+);
+alter table public.subscribers enable row level security;

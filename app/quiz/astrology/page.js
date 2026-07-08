@@ -107,8 +107,8 @@ export default function AstrologyQuizPage() {
             <>
               <div className="mb-8">
                 <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Step 2</p>
-                <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What's your sign?</h1>
-                <p className="mt-3 text-base leading-7 text-slate">Pick your zodiac and we'll find your scent instantly.</p>
+                <h1 className="text-4xl font-black tracking-tight sm:text-5xl">What&apos;s your sign?</h1>
+                <p className="mt-3 text-base leading-7 text-slate">Pick your zodiac and we&apos;ll find your scent instantly.</p>
               </div>
               <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
                 {SIGNS.map((s) => (

@@ -164,7 +164,7 @@ export default function MoodQuizPage() {
                 <p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-green-deep">Mood Quiz</p>
                 <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Who is this for?</h1>
                 <p className="mt-3 max-w-xl text-base leading-7 text-slate">
-                  Choose one or more. We'll match you to the right scents.
+                  Choose one or more. We&apos;ll match you to the right scents.
                 </p>
               </div>
               <div className="grid gap-3 sm:grid-cols-3">

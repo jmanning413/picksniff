@@ -31,7 +31,18 @@ export default async function ProfilePage() {
     loadAllFragrances(),
   ])
 
-  if (!profile) redirect('/auth')
+  // Self-heal accounts that lost their profile row (GAPS #9)
+  let activeProfile = profile
+  if (!activeProfile) {
+    const fallbackUsername = `sniffer_${user.id.replace(/-/g, '').slice(0, 10)}`
+    const { data: created } = await supabase
+      .from('profiles')
+      .insert({ id: user.id, username: fallbackUsername })
+      .select('*')
+      .single()
+    if (!created) redirect('/auth')
+    activeProfile = created
+  }
 
   const wishlistIds = new Set((wishlistItems ?? []).map((w) => w.fragrance_id))
   const ownedIds = new Set((ownedItems ?? []).map((o) => o.fragrance_id))
@@ -55,22 +66,22 @@ export default async function ProfilePage() {
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
           <div className="flex items-start gap-5 sm:gap-8">
             <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-green-accent text-3xl font-black text-black sm:h-24 sm:w-24 sm:text-4xl">
-              {profile.username[0].toUpperCase()}
+              {activeProfile.username[0].toUpperCase()}
             </div>
 
             <div className="min-w-0 flex-1">
-              <h1 className="text-2xl font-black text-black">@{profile.username}</h1>
-              {profile.bio && (
-                <p className="mt-1.5 max-w-md text-sm leading-6 text-slate">{profile.bio}</p>
+              <h1 className="text-2xl font-black text-black">@{activeProfile.username}</h1>
+              {activeProfile.bio && (
+                <p className="mt-1.5 max-w-md text-sm leading-6 text-slate">{activeProfile.bio}</p>
               )}
-              {profile.favorite_fragrance && (
+              {activeProfile.favorite_fragrance && (
                 <p className="mt-1 text-sm text-slate">
                   <span className="font-bold text-zinc-700">Favourite: </span>
-                  {profile.favorite_fragrance}
+                  {activeProfile.favorite_fragrance}
                 </p>
               )}
               <p className="mt-2 text-xs text-zinc-400">
-                Member since {new Date(profile.created_at).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+                Member since {new Date(activeProfile.created_at).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
               </p>
             </div>
           </div>

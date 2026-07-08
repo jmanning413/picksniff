@@ -15,7 +15,7 @@ export default function ContactPage() {
 
         <div className="mt-8 space-y-6 text-base leading-7 text-slate">
           <p>
-            Have a question, found a bug, or want to suggest a fragrance? We'd love to hear from you.
+            Have a question, found a bug, or want to suggest a fragrance? We&apos;d love to hear from you.
           </p>
 
           <div className="rounded-xl border border-sand p-6">
@@ -39,7 +39,7 @@ export default function ContactPage() {
           <div className="rounded-xl border border-sand p-6">
             <h2 className="mb-1 font-black text-black">Suggest a fragrance</h2>
             <p className="text-slate">
-              Think we're missing a gem from our 750-fragrance library? Tell us the name, brand, and
+              Think we&apos;re missing a gem from our 750-fragrance library? Tell us the name, brand, and
               why it belongs. We review all suggestions.
             </p>
           </div>

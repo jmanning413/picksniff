@@ -8,28 +8,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 import SaveButtons from '@/app/_components/SaveButtons'
 import BuyButtons, { StickyBuyBar } from '@/app/_components/BuyButtons'
-
-const ACCORD_DESCRIPTIONS = {
-  Citrus: 'bright citrus lift',
-  Floral: 'soft floral polish',
-  Woody: 'smooth woods',
-  Vanilla: 'creamy sweetness',
-  Amber: 'warm amber depth',
-  Spicy: 'a confident spicy edge',
-  Fresh: 'clean freshness',
-  Aromatic: 'aromatic texture',
-  Fruity: 'juicy fruit energy',
-  Aquatic: 'cool aquatic air',
-  Green: 'crisp green character',
-}
-
-const VIBE_LABELS = {
-  daily: 'Daily',
-  date_night: 'Date Night',
-  sport: 'Sport',
-  chill: 'Chill',
-  formal: 'Formal',
-}
+import { VIBE_LABELS, buildDescription } from '@/lib/constants'
 
 export async function generateMetadata({ params }) {
   const { id } = await params
@@ -191,13 +170,6 @@ export default async function FragrancePage({ params }) {
       <Footer />
     </div>
   )
-}
-
-function buildDescription(accords = []) {
-  const phrases = accords.map((a) => ACCORD_DESCRIPTIONS[a]).filter(Boolean)
-  if (phrases.length === 0) return 'A balanced fragrance pick from the PickSniff library.'
-  if (phrases.length === 1) return `A fragrance centered on ${phrases[0]}.`
-  return `A fragrance with ${phrases.slice(0, -1).join(', ')} and ${phrases.at(-1)}.`
 }
 
 function FragranceShareButton({ name, brand }) {

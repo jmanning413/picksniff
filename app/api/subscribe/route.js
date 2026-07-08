@@ -1,5 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
+import { headers } from 'next/headers'
 import { z } from 'zod'
+import { checkSubscribeLimit, ipFromHeaders } from '@/lib/ratelimit'
 import { getResend, FROM } from '@/lib/resend'
 import { welcomeEmail } from '@/lib/emails/welcome'
 
@@ -13,6 +15,11 @@ function getAdminClient() {
 }
 
 export async function POST(request) {
+  const { success: withinLimit } = await checkSubscribeLimit(ipFromHeaders(await headers()))
+  if (!withinLimit) {
+    return Response.json({ error: 'Too many requests. Please try again in a minute.' }, { status: 429 })
+  }
+
   let body
   try {
     body = await request.json()

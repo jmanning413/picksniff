@@ -4,28 +4,8 @@ import Link from 'next/link'
 import { useState, useRef } from 'react'
 import toast from 'react-hot-toast'
 import SaveButtons from '@/app/_components/SaveButtons'
-import BuyButtons from '@/app/_components/BuyButtons'
-
-const ACCORD_DESCRIPTIONS = {
-  Citrus: 'bright citrus lift',
-  Floral: 'soft floral polish',
-  Woody: 'smooth woods',
-  Vanilla: 'creamy sweetness',
-  Amber: 'warm amber depth',
-  Spicy: 'a confident spicy edge',
-  Fresh: 'clean freshness',
-  Aromatic: 'aromatic texture',
-  Fruity: 'juicy fruit energy',
-  Aquatic: 'cool aquatic air',
-  Green: 'crisp green character',
-}
-
-function buildDescription(accords = []) {
-  const phrases = accords.map((a) => ACCORD_DESCRIPTIONS[a]).filter(Boolean)
-  if (phrases.length === 0) return 'A balanced fragrance pick from the PickSniff library.'
-  if (phrases.length === 1) return `A fragrance centered on ${phrases[0]}.`
-  return `A fragrance with ${phrases.slice(0, -1).join(', ')} and ${phrases.at(-1)}.`
-}
+import { buildDescription } from '@/lib/constants'
+import BuyButtons, { buildRetailerLinks } from '@/app/_components/BuyButtons'
 
 function FilterPill({ children, accent = false }) {
   return (
@@ -155,7 +135,7 @@ function CompareModal({ fragrances, onClose }) {
 
         <div className={`grid gap-4 ${fragrances.length === 2 ? 'grid-cols-2' : 'grid-cols-3'}`}>
           {fragrances.map((f) => {
-            const query = encodeURIComponent([f.brand, f.name, f.concentration].filter(Boolean).join(' '))
+            const links = buildRetailerLinks(f)
             return (
               <div key={f.id} className="rounded-lg border border-sand p-4">
                 <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-green-accent">
@@ -182,10 +162,10 @@ function CompareModal({ fragrances, onClose }) {
                   )}
                 </div>
 
-                <a href={f.sephora_url || `https://www.sephora.com/search?keyword=${query}`}
+                <a href={links.override ? links.override.href : links.sephora}
                   target="_blank" rel="noopener noreferrer"
                   className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-green-accent py-2.5 text-xs font-black text-black transition hover:brightness-95">
-                  Sephora
+                  {links.override ? links.override.label : 'Shop at Sephora'} →
                 </a>
               </div>
             )

@@ -2,7 +2,9 @@
 
 import { revalidatePath } from 'next/cache'
 import { redirect } from 'next/navigation'
+import { headers } from 'next/headers'
 import { z } from 'zod'
+import { checkAuthLimit, ipFromHeaders } from '@/lib/ratelimit'
 import { createClient } from '@/lib/supabase/server'
 import { createClient as createAdminClient } from '@supabase/supabase-js'
 import { getResend, FROM } from '@/lib/resend'
@@ -29,6 +31,9 @@ const signUpSchema = z.object({
 })
 
 export async function signIn(prevState, formData) {
+  const { success: withinLimit } = await checkAuthLimit(ipFromHeaders(await headers()))
+  if (!withinLimit) return { error: 'Too many attempts. Please wait a minute and try again.' }
+
   const parsed = signInSchema.safeParse({
     email: formData.get('email'),
     password: formData.get('password'),
@@ -48,6 +53,9 @@ export async function signIn(prevState, formData) {
 }
 
 export async function signUp(prevState, formData) {
+  const { success: withinLimit } = await checkAuthLimit(ipFromHeaders(await headers()))
+  if (!withinLimit) return { error: 'Too many attempts. Please wait a minute and try again.' }
+
   const parsed = signUpSchema.safeParse({
     username: formData.get('username'),
     email: formData.get('email'),
@@ -76,10 +84,15 @@ export async function signUp(prevState, formData) {
   if (error) return { error: 'Could not create account. Try a different email.' }
 
   if (data.user) {
-    await supabase.from('profiles').insert({
+    const { error: profileError } = await supabase.from('profiles').insert({
       id: data.user.id,
       username: parsed.data.username,
     })
+    if (profileError) {
+      // Don't strand an account without a profile (GAPS #9)
+      await supabase.auth.signOut()
+      return { error: 'That username may have just been taken. Please try a different one.' }
+    }
 
     // Auto-enroll in newsletter — only send welcome email if not already subscribed
     const admin = getAdmin()

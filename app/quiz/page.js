@@ -97,6 +97,7 @@ export default function QuizPage() {
   useEffect(() => {
     const g = new URLSearchParams(window.location.search).get('g')
     if (g && GENDERS.some((x) => x.id === g)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional one-time init from URL param
       setGenders([g])
       setStep(1)
     }
@@ -112,6 +113,7 @@ export default function QuizPage() {
     fetchKeyRef.current = key
 
     setAccordsLoading(true)
+    let stale = false
     // Call once per selected gender in parallel, then union results
     Promise.all(
       genders.map((g) =>
@@ -121,6 +123,7 @@ export default function QuizPage() {
           .catch(() => [])
       )
     ).then((perGenderAccords) => {
+      if (stale) return
       // Count how many gender pools contain each accord (most universal first)
       const counts = {}
       for (const list of perGenderAccords) {
@@ -133,15 +136,18 @@ export default function QuizPage() {
         .map(([accord]) => accord)
       setAvailableAccords(merged.length > 0 ? merged : ACCORDS_FALLBACK)
     }).catch(() => {
-      setAvailableAccords(ACCORDS_FALLBACK)
+      if (!stale) setAvailableAccords(ACCORDS_FALLBACK)
     }).finally(() => {
-      setAccordsLoading(false)
+      if (!stale) setAccordsLoading(false)
     })
+    return () => { stale = true }
   }, [genders, tier, vibe])
 
-  const progress = useMemo(() => ((step + 1) / STEPS.length) * 100, [step, STEPS.length])
-  const currentStep = STEPS[step]
-  const isLastStep = step === STEPS.length - 1
+  // Clamp: STEPS shrinks if auth state flips mid-quiz (GAPS #16)
+  const stepIndex = Math.min(step, STEPS.length - 1)
+  const progress = useMemo(() => ((stepIndex + 1) / STEPS.length) * 100, [stepIndex, STEPS.length])
+  const currentStep = STEPS[stepIndex]
+  const isLastStep = stepIndex === STEPS.length - 1
 
   function canContinue() {
     if (step === 0) return genders.length > 0

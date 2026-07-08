@@ -12,6 +12,7 @@ export default async function TrendingPage() {
   const all = await loadAllFragrances()
 
   // Deterministic "trending" based on date seed — rotates weekly
+  // eslint-disable-next-line react-hooks/purity -- server component; weekly seed is intentionally time-based
   const weekSeed = Math.floor(Date.now() / (86400000 * 7))
   function pseudoRandom(i) {
     return ((weekSeed * 2654435769 + i * 1234567891) >>> 0) % all.length
@@ -24,9 +25,9 @@ export default async function TrendingPage() {
     if (!seen.has(idx)) { seen.add(idx); trending.push(all[idx]) }
   }
 
-  const mostViewed = trending.slice(0, 5)
-  const mostSaved = trending.slice(5, 10)
-  const mostReviewed = trending.slice(10, 15)
+  const spotlight = trending.slice(0, 5)
+  const freshFinds = trending.slice(5, 10)
+  const worthASniff = trending.slice(10, 15)
 
   return (
     <div className="flex min-h-screen flex-col bg-cream text-black">
@@ -36,11 +37,11 @@ export default async function TrendingPage() {
         <section className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-8">
           <p className="mb-2 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Trending</p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">Popular this week</h1>
-          <p className="mt-3 text-base leading-7 text-slate">The fragrances getting the most attention on PickSniff right now.</p>
+          <p className="mt-3 text-base leading-7 text-slate">A rotating selection from the 750-fragrance library, refreshed weekly.</p>
 
-          <TrendSection title="Most Viewed" fragrances={mostViewed} />
-          <TrendSection title="Most Saved" fragrances={mostSaved} />
-          <TrendSection title="Most Reviewed" fragrances={mostReviewed} />
+          <TrendSection title="Weekly Spotlight" fragrances={spotlight} />
+          <TrendSection title="Fresh Finds" fragrances={freshFinds} />
+          <TrendSection title="Worth a Sniff" fragrances={worthASniff} />
         </section>
       </main>
 

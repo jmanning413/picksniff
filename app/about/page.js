@@ -28,8 +28,8 @@ export default function AboutPage() {
             and lets us keep adding fragrances.
           </p>
           <p>
-            Built with love by Joseph, a fragrance obsessive who got tired of googling "best cologne
-            for men" and getting 47 different answers.
+            Built with love by Joseph, a fragrance obsessive who got tired of googling &quot;best cologne
+            for men&quot; and getting 47 different answers.
           </p>
         </div>
       </main>

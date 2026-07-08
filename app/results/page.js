@@ -1,5 +1,8 @@
 import Link from 'next/link'
+import { headers } from 'next/headers'
 import { matchFragrances } from '@/lib/matchFragrances'
+import { checkResultsLimit, ipFromHeaders } from '@/lib/ratelimit'
+import { FILTER_ACCORDS, VALID_TIERS, VALID_VIBES, VALID_CONCENTRATIONS } from '@/lib/constants'
 import { createClient } from '@/lib/supabase/server'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
@@ -32,13 +35,30 @@ function findPeopleAlsoLiked(allFragrances, topResult, mainResults) {
     .map(({ _shared, ...f }) => f)
 }
 
+const VALID_GENDERS = ['male', 'female', 'unisex']
+
 export default async function ResultsPage({ searchParams }) {
+  // Rate limit + strict input validation (GAPS #5) - this page recomputes
+  // matches from raw URL params, so it is the surface that needs guarding.
+  const { success: withinLimit } = await checkResultsLimit(ipFromHeaders(await headers()))
+  if (!withinLimit) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center bg-cream px-5 text-center">
+        <h1 className="text-2xl font-black text-black">Slow down a moment</h1>
+        <p className="mt-2 max-w-sm text-sm leading-6 text-slate">
+          Too many requests from your connection. Please wait a minute and try again.
+        </p>
+      </div>
+    )
+  }
+
   const params = await searchParams
-  const genders = parseList(params.genders, ['unisex'])
-  const tier = params.tier || 'quality'
-  const vibe = params.vibe || 'daily'
-  const accords = parseList(params.accords, [])
-  const concentrations = parseList(params.concentrations, [])
+  const rawGenders = parseList(params.genders, ['unisex']).filter((g) => VALID_GENDERS.includes(g))
+  const genders = rawGenders.length > 0 ? rawGenders : ['unisex']
+  const tier = VALID_TIERS.includes(params.tier) ? params.tier : 'quality'
+  const vibe = VALID_VIBES.includes(params.vibe) ? params.vibe : 'daily'
+  const accords = parseList(params.accords, []).filter((a) => FILTER_ACCORDS.includes(a)).slice(0, 3)
+  const concentrations = parseList(params.concentrations, []).filter((c) => VALID_CONCENTRATIONS.includes(c))
 
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
