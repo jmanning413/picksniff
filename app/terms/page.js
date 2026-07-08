@@ -2,7 +2,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Terms of Service — PickSniff',
+  title: 'Terms of Service | PickSniff',
   description: 'PickSniff terms of service.',
 }
 
@@ -12,7 +12,7 @@ export default function TermsPage() {
       <Header />
       <main className="mx-auto w-full max-w-2xl flex-1 px-5 py-12 sm:px-8">
         <h1 className="text-4xl font-black tracking-tight text-black">Terms of Service</h1>
-        <p className="mt-2 text-sm text-zinc-400">Last updated: April 2026</p>
+        <p className="mt-2 text-sm text-zinc-400">Last updated: June 2026</p>
 
         <div className="mt-8 space-y-6 text-base leading-7 text-slate">
           <section>
@@ -27,15 +27,16 @@ export default function TermsPage() {
             <h2 className="mb-2 text-lg font-black text-black">Accounts</h2>
             <p>
               You are responsible for maintaining the security of your account. PickSniff is not
-              liable for any loss resulting from unauthorised access to your account.
+              liable for any loss resulting from unauthorized access to your account.
             </p>
           </section>
 
           <section>
-            <h2 className="mb-2 text-lg font-black text-black">Premium subscriptions</h2>
+            <h2 className="mb-2 text-lg font-black text-black">Donations</h2>
             <p>
-              Premium is billed monthly at $4.99/month via Stripe. You can cancel at any time from
-              your profile. No refunds are issued for partial months.
+              PickSniff is completely free to use. If you choose to support us with an optional
+              donation, payments are processed securely by Stripe. Donations are voluntary and
+              non-refundable, and do not unlock any features.
             </p>
           </section>
 

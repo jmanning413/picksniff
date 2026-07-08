@@ -165,7 +165,7 @@ function CompareModal({ fragrances, onClose }) {
                 <h3 className="mt-1 text-lg font-black leading-tight">{f.name}</h3>
 
                 <div className="mt-3 space-y-3 text-sm">
-                  <Row label="Concentration" value={f.concentration || '—'} />
+                  <Row label="Concentration" value={f.concentration || '–'} />
                   <Row label="Tier" value={f.tier} />
                   <Row label="Vibe" value={f.vibe?.replace('_', ' ')} />
                   <Row label="Match" value={`${f.score}%`} accent />
@@ -291,6 +291,10 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
           </div>
         </div>
 
+        <p className="mb-6 text-xs leading-5 text-slate">
+          PickSniff earns a commission when you buy through our links, at no extra cost to you.
+        </p>
+
         {fragrances.length === 0 ? (
           <div className="rounded-lg border border-dashed border-zinc-300 p-10 text-center">
             <h2 className="text-xl font-black">No matches yet</h2>
@@ -324,7 +328,7 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
             {!isLoggedIn && (
               <div className="mt-8 rounded-xl border border-dashed border-green-accent/50 bg-green-accent/5 p-8 text-center">
                 
-                <h3 className="mt-2 text-lg font-black text-black">See up to 20 matches — free account</h3>
+                <h3 className="mt-2 text-lg font-black text-black">See up to 20 matches with a free account</h3>
                 <p className="mx-auto mt-2 max-w-sm text-sm leading-6 text-slate">
                   Create a free PickSniff account for double the results, wishlist, collection tracking, and more.
                 </p>
