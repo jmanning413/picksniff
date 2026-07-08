@@ -26,7 +26,7 @@ Engine tests exist (`npm test`); no CI yet (GAPS.md #4). Gate before push: `npm 
 - Windows 11, PowerShell 5.1 default shell: **no `&&`** in PowerShell tool calls (use `;` or the Bash tool). Heredocs for commit messages work in the Bash tool.
 - Git commits: LF→CRLF warnings are normal, ignore them.
 - Vercel preview URLs (`picksniff-*.vercel.app`) are SSO-protected — curl them and you get a login page, not the app. Test on picksniff.com or locally with `next build && next start`.
-- **Do not Read `public/logo.svg` or `public/logo-icon.svg`** — they are 840 KB base64-PNG-in-SVG files that blow the context window (and see GAPS.md #15).
+- **Do not Read `public/logo.svg` or `public/logo-icon.svg`** — they are 840 KB base64-PNG-in-SVG files that blow the context window. They are UNREFERENCED since 2026-06-12; the site logo is `public/logo-mark.png` and the favicon is `app/icon.png`.
 - Supabase "Confirm email" is deliberately OFF. Sign-up creates a session immediately.
 - The developer (Joseph) is a beginner: explain steps plainly, show full code, confirm before overwriting files he made.
 

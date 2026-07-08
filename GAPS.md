@@ -136,14 +136,14 @@ self-XSS surface — SECURITY.md F-8).
 template SVGs in `public/` (`file.svg`, `globe.svg`, `next.svg`, `vercel.svg`,
 `window.svg`).
 
-## 15. 🔓 OPEN — `public/logo.svg` is an 840 KB fake SVG (now with a blend workaround)
+## 15. ✅ RESOLVED (2026-06-12) — 840 KB fake-SVG logo replaced
 
-Unchanged underlying problem, plus a new wrinkle: the logo file has a baked-in white
-background, so every usage now carries `mix-blend-multiply` to survive the cream canvas
-(Design.md drift rule). The real fix is unchanged and now MORE valuable: replace with a
-small transparent asset (owner has `logo.png`/`logo-icon.png` — check sizes), delete the
-blend workaround, and reclaim mobile LCP. This is the single highest-ROI performance
-task in the repo (AUDIT.md §4).
+Generated `public/logo-mark.png` (transparent background, trimmed, 384px, ~49 KB) from
+the owner's PNG and swapped every logo reference to it; all `mix-blend-multiply`
+workarounds removed; `next/image` can now optimize it. Real favicon set added
+(`app/icon.png` + `app/apple-icon.png`), template `favicon.ico` deleted. The old
+`public/logo.svg` / `logo-icon.svg` (840 KB each) are now unreferenced — safe to delete
+whenever the owner confirms.
 
 ## 16. 🔶 PARTIAL — Consistency and robustness nits
 

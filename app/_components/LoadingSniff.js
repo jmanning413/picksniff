@@ -4,7 +4,7 @@ export default function LoadingSniff({ message = 'Sniffing for you...' }) {
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white gap-5">
       <div className="flex flex-col items-center gap-4">
-        <Image className="mix-blend-multiply" src="/logo.svg" alt="PickSniff" width={80} height={80} priority />
+        <Image src="/logo-mark.png" alt="PickSniff" width={80} height={80} priority />
 
         <div className="flex flex-col items-center gap-2">
           <div
