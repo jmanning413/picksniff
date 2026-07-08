@@ -1,9 +1,10 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import { redirect } from 'next/navigation'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 import HomepageClient from '@/app/_components/HomepageClient'
 import { loadAllFragrances } from '@/lib/fragrances'
+import { createClient } from '@/lib/supabase/server'
 
 export const metadata = {
   title: 'PickSniff: Find Your Perfect Fragrance',
@@ -34,6 +35,11 @@ const QUIZ_STRIP = [
 ]
 
 export default async function Home() {
+  // Signed-in users land on their account page instead of the marketing homepage
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  if (user) redirect('/profile')
+
   const fragrances = await loadAllFragrances()
   const fotd = getFragranceOfDay(fragrances)
   const season = getSeason()
@@ -56,13 +62,7 @@ export default async function Home() {
         {/* ── Hero: slogan left, quiz start right ── */}
         <section className="mx-auto grid w-full max-w-5xl items-center gap-10 px-5 pb-20 pt-14 sm:px-8 sm:pt-20 lg:grid-cols-[1.1fr_1fr] lg:gap-14">
           <div>
-            <div className="flex items-center gap-3">
-              <Image src="/logo-mark.png" alt="PickSniff logo" width={96} height={96} priority />
-              <span className="text-4xl font-black tracking-tight sm:text-5xl">
-                Pick<span className="text-green-accent">Sniff</span>
-              </span>
-            </div>
-            <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-black sm:text-6xl">
+            <h1 className="text-4xl font-black leading-[1.05] tracking-tight text-black sm:text-6xl">
               Find your <span className="text-green-deep">signature scent</span> in 4 questions.
             </h1>
             <p className="mt-5 max-w-md text-lg leading-8 text-slate">
