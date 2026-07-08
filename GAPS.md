@@ -17,15 +17,16 @@ broken on the live site**. Separately, the Supabase project host
 (`mbryokifzglwyfznncoh.supabase.co`) stopped resolving in DNS — the classic signature of
 a **paused free-tier Supabase project** (they pause after ~1 week of inactivity).
 
-**Status:** 🔶 PARTIAL — All 8 Vercel production env vars were re-set from `.env.local`
-on 2026-06-12 (take effect on next deploy). **Remaining owner actions:**
-1. Supabase dashboard → restore the paused project. Nothing account-related works
-   until this is done.
-2. Investigate the Vercel dashboard (Settings → Environment Variables history / audit
-   log) to learn how the values became empty — until the cause is known it can recur.
-3. Prevent re-pausing: Supabase free tier pauses on inactivity. Options: a weekly cron
-   ping that runs one trivial query (free, e.g. Vercel cron hitting an endpoint that
-   calls Supabase), or upgrade to Supabase Pro at launch.
+**ROOT CAUSE FOUND (2026-06-12):** there are TWO Vercel projects. `project-a022s`
+serves www.picksniff.com; `picksniff` (the one this repo was CLI-linked to) only serves
+picksniff.vercel.app. All env vars lived in the wrong project, so production never had
+them. Fixed: repo relinked to `project-a022s` and all 8 vars set there; Supabase project
+restored by owner.
+**Remaining follow-ups:**
+1. Consolidate to ONE Vercel project (delete/retire the unused `picksniff` project in
+   the dashboard) so this split can never recur.
+2. Prevent Supabase re-pausing (free tier pauses after ~1 week idle): weekly cron ping
+   or Supabase Pro at launch.
 
 **Follow-up fix (single task):** add `/api/health` returning JSON booleans —
 `{supabase, stripe, resend}` — each true only when the env var exists AND a trivial call
