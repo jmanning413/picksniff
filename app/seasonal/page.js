@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { loadAllFragrances } from '@/lib/fragrances'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 export const metadata = {
   title: 'Seasonal Fragrance Picks — PickSniff',
@@ -10,25 +11,25 @@ export const metadata = {
 
 const SEASON_CONFIG = {
   Spring: {
-    emoji: '🌸',
+    icon: 'flower',
     description: 'Light, fresh, and floral. Spring fragrances wake up with green stems, blooming flowers, and dewy citrus.',
     accords: ['Floral', 'Fresh', 'Green', 'Citrus'],
     vibe: 'daily',
   },
   Summer: {
-    emoji: '☀️',
+    icon: 'sun',
     description: 'Breezy, aquatic, and alive. Summer calls for citrus-forward, aquatic, and light woody fragrances that survive heat.',
     accords: ['Citrus', 'Aquatic', 'Fresh', 'Fruity'],
     vibe: 'sport',
   },
   Autumn: {
-    emoji: '🍂',
+    icon: 'leaf',
     description: 'Warm, spiced, and complex. Autumn demands amber, woods, and spices that wrap around you like a coat.',
     accords: ['Amber', 'Woody', 'Spicy', 'Aromatic'],
     vibe: 'chill',
   },
   Winter: {
-    emoji: '❄️',
+    icon: 'snowflake',
     description: 'Rich, dark, and memorable. Winter fragrances lean into vanilla, oud, and deep musks that project through cold air.',
     accords: ['Vanilla', 'Amber', 'Woody', 'Spicy'],
     vibe: 'formal',
@@ -90,7 +91,7 @@ export default async function SeasonalPage() {
             return (
               <div key={season} className={['mt-14', isCurrent ? '' : ''].join(' ')}>
                 <div className="mb-5 flex items-center gap-3">
-                  <span className="text-3xl">{config.emoji}</span>
+                  <span className="shrink-0 text-green-deep"><QuizIcon name={config.icon} /></span>
                   <div>
                     <div className="flex items-center gap-2">
                       <h2 className="text-2xl font-black">{season} {new Date().getFullYear()}</h2>

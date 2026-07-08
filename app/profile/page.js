@@ -7,6 +7,7 @@ import Footer from '@/app/_components/Footer'
 import ProfileTabs from './ProfileTabs'
 import SignOutButton from '../_components/SignOutButton'
 import WardrobeButton from '../_components/WardrobeButton'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 export const metadata = { title: 'My Profile — PickSniff' }
 
@@ -86,13 +87,13 @@ export default async function ProfilePage() {
               {earnedBadges.map((b) => (
                 <div key={b.id} title={b.description}
                   className="flex items-center gap-1.5 rounded-full border border-green-accent bg-green-accent/10 px-3 py-1.5 text-xs font-bold text-zinc-700 cursor-help">
-                  <span>{b.emoji}</span><span>{b.name}</span>
+                  <span className="text-green-deep"><QuizIcon name={b.icon} size={15} /></span><span>{b.name}</span>
                 </div>
               ))}
               {lockedBadges.map((b) => (
                 <div key={b.id} title={`Locked: ${b.description}`}
                   className="flex items-center gap-1.5 rounded-full border border-sand bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-400 cursor-help opacity-50">
-                  <span>{b.emoji}</span><span>{b.name}</span>
+                  <span className="text-green-deep"><QuizIcon name={b.icon} size={15} /></span><span>{b.name}</span>
                 </div>
               ))}
             </div>

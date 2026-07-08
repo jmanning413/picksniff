@@ -34,7 +34,6 @@ export default async function UnsubscribePage({ searchParams }) {
         <div className="w-full max-w-sm text-center">
           {status === 'success' && (
             <>
-              <p className="text-4xl">👋</p>
               <h1 className="mt-4 text-2xl font-black text-black">You're unsubscribed</h1>
               <p className="mt-3 text-sm leading-6 text-slate">
                 You've been removed from the PickSniff email list. You won't hear from us again.

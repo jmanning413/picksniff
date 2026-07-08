@@ -5,6 +5,7 @@ import { loadAllFragrances } from '@/lib/fragrances'
 import { BADGE_DEFS, computeBadges } from '@/lib/badges'
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 export async function generateMetadata({ params }) {
   const { username } = await params
@@ -87,7 +88,7 @@ export default async function PublicProfilePage({ params }) {
                 {earnedBadges.map((b) => (
                   <div key={b.id} title={b.description}
                     className="flex items-center gap-1.5 rounded-full border border-sand bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-700 cursor-help">
-                    <span>{b.emoji}</span>
+                    <span className="text-green-deep"><QuizIcon name={b.icon} size={15} /></span>
                     <span>{b.name}</span>
                   </div>
                 ))}

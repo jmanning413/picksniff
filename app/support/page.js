@@ -1,5 +1,6 @@
 import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
+import QuizIcon from '@/app/_components/QuizIcons'
 import TipButton from './_components/TipButton'
 
 export const metadata = {
@@ -18,7 +19,7 @@ export default function SupportPage({ searchParams }) {
         <div className="w-full max-w-sm text-center">
           {thanked ? (
             <>
-              <p className="text-5xl">💚</p>
+              <div className="flex justify-center text-green-deep"><QuizIcon name="heart" size={48} /></div>
               <h1 className="mt-4 text-3xl font-black tracking-tight text-black">Thank you!</h1>
               <p className="mt-3 text-sm leading-6 text-slate">
                 Your tip means a lot and helps keep PickSniff free for everyone.

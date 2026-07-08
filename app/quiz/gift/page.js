@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 const GENDERS = [
   { id: 'male', label: 'Him' },
@@ -12,11 +13,11 @@ const GENDERS = [
 ]
 
 const OCCASIONS = [
-  { id: 'birthday',    label: 'Birthday',    emoji: '🎂', vibe: 'daily',      desc: 'A crowd-pleasing everyday favourite' },
-  { id: 'anniversary', label: 'Anniversary', emoji: '💍', vibe: 'date_night', desc: 'Romantic, memorable, and a little indulgent' },
-  { id: 'holiday',     label: 'Holiday',     emoji: '🎄', vibe: 'formal',     desc: 'Sophisticated and gift-worthy' },
-  { id: 'justbecause', label: 'Just Because',emoji: '💌', vibe: 'chill',      desc: 'Warm, wearable, and genuinely thoughtful' },
-  { id: 'datenight',   label: 'Date Night',  emoji: '✨', vibe: 'date_night', desc: 'Seductive, long-lasting, and bold' },
+  { id: 'birthday',    label: 'Birthday',    icon: 'cake', vibe: 'daily',      desc: 'A crowd-pleasing everyday favourite' },
+  { id: 'anniversary', label: 'Anniversary', icon: 'ring', vibe: 'date_night', desc: 'Romantic, memorable, and a little indulgent' },
+  { id: 'holiday',     label: 'Holiday',     icon: 'pine', vibe: 'formal',     desc: 'Sophisticated and gift-worthy' },
+  { id: 'justbecause', label: 'Just Because',icon: 'envelope', vibe: 'chill',      desc: 'Warm, wearable, and genuinely thoughtful' },
+  { id: 'datenight',   label: 'Date Night',  icon: 'sparkle', vibe: 'date_night', desc: 'Seductive, long-lasting, and bold' },
 ]
 
 const TIERS = [
@@ -162,7 +163,7 @@ export default function GiftQuizPage() {
                 {OCCASIONS.map((o) => (
                   <button key={o.id} type="button" onClick={() => setOccasion(o)} aria-pressed={occasion?.id === o.id}
                     className={['flex items-start gap-4 rounded-xl border p-4 text-left transition', occasion?.id === o.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="text-2xl">{o.emoji}</span>
+                    <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={o.icon} size={26} /></span>
                     <div>
                       <p className="text-base font-black text-black">{o.label}</p>
                       <p className="mt-0.5 text-sm text-slate">{o.desc}</p>

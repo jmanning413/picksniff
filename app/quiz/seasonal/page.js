@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
+import QuizIcon from '@/app/_components/QuizIcons'
 
 const GENDERS = [
   { id: 'male', label: 'Male' },
@@ -12,10 +13,10 @@ const GENDERS = [
 ]
 
 const SEASONS = [
-  { id: 'spring', label: 'Spring', emoji: '🌸', desc: 'Fresh florals, green air, new beginnings' },
-  { id: 'summer', label: 'Summer', emoji: '☀️', desc: 'Sun, sea, citrus, and open skies' },
-  { id: 'fall', label: 'Fall', emoji: '🍂', desc: 'Warm spice, golden woods, crisp mornings' },
-  { id: 'winter', label: 'Winter', emoji: '❄️', desc: 'Cozy amber, deep vanilla, cold air' },
+  { id: 'spring', label: 'Spring', icon: 'flower', desc: 'Fresh florals, green air, new beginnings' },
+  { id: 'summer', label: 'Summer', icon: 'sun', desc: 'Sun, sea, citrus, and open skies' },
+  { id: 'fall', label: 'Fall', icon: 'leaf', desc: 'Warm spice, golden woods, crisp mornings' },
+  { id: 'winter', label: 'Winter', icon: 'snowflake', desc: 'Cozy amber, deep vanilla, cold air' },
 ]
 
 const TIERS = [
@@ -185,7 +186,7 @@ export default function SeasonalQuizPage() {
                 {SEASONS.map((s) => (
                   <button key={s.id} type="button" onClick={() => setSeason(s.id)} aria-pressed={season === s.id}
                     className={['flex items-start gap-4 rounded-xl border p-5 text-left transition', season === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="text-3xl">{s.emoji}</span>
+                    <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={s.icon} /></span>
                     <div>
                       <p className="text-base font-black text-black">{s.label}</p>
                       <p className="mt-0.5 text-sm text-slate">{s.desc}</p>
