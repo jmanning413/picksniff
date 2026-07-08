@@ -13,11 +13,9 @@ export default function AdminEmailPage() {
 
   function handleAuth(e) {
     e.preventDefault()
-    if (secret === 'picksniff-broadcast-2026') {
-      setAuthed(true)
-    } else {
-      alert('Wrong password.')
-    }
+    // The server-side BROADCAST_SECRET check on /api/broadcast is the only
+    // real gate; this form just collects the password to send with requests.
+    if (secret.trim().length > 0) setAuthed(true)
   }
 
   async function handleSend(e) {

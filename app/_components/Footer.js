@@ -26,6 +26,11 @@ export default function Footer() {
             ))}
           </nav>
         </div>
+        <p className="text-xs leading-5 text-zinc-500">
+          PickSniff earns commissions from qualifying purchases made through links on this site,
+          at no extra cost to you. All trademarks and product names are the property of their
+          respective owners. PickSniff is independent and not affiliated with any brand or retailer.
+        </p>
         <div className="flex flex-col items-start justify-between gap-2 border-t border-zinc-800 pt-5 sm:flex-row sm:items-center">
           <p className="text-xs text-zinc-500">© {new Date().getFullYear()} PickSniff. All rights reserved.</p>
           <Link href="/unsubscribe" className="text-xs text-zinc-500 transition hover:text-zinc-300">

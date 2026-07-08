@@ -6,7 +6,7 @@ import Footer from '@/app/_components/Footer'
 
 export async function generateMetadata({ params }) {
   const { slug } = await params
-  const [id1, id2] = slug.split('-vs-').map(Number)
+  const [id1, id2] = slug.split('-vs-')
   if (!id1 || !id2) return { title: 'Compare | PickSniff' }
   const all = await loadAllFragrances()
   const f1 = all.find((f) => f.id === id1)
@@ -29,7 +29,7 @@ export default async function ComparePage({ params }) {
   const parts = slug.split('-vs-')
   if (parts.length !== 2) notFound()
 
-  const [id1, id2] = parts.map(Number)
+  const [id1, id2] = parts
   if (!id1 || !id2) notFound()
 
   const all = await loadAllFragrances()

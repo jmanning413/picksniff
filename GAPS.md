@@ -32,20 +32,19 @@ on 2026-06-12 (take effect on next deploy). **Remaining owner actions:**
 succeeds. Check it after every deploy (and point a free uptime monitor at it) so silent
 env loss can never happen again.
 
-## 1. 🔴 OPEN — Broadcast secret is hardcoded in the client bundle
+## 1. ✅ RESOLVED (2026-06-12) — Broadcast secret was hardcoded in the client bundle
 
-Unchanged: `app/admin/email/page.js` still compares the admin password to a literal
-string in client code, and `BROADCAST_SECRET` must equal it. Anyone reading the JS
-bundle can email the entire subscriber list. **This remains the top security fix**
-(SECURITY.md F-1). Fix: remove the client-side comparison, rotate the secret in Vercel
-(note: it was re-set to the same value during the 2026-06-12 env repair — rotation still
-needed), noindex `/admin`.
+Fixed (SECURITY.md F-1): the client-side password comparison was removed from
+`app/admin/email/page.js` (the server-side `BROADCAST_SECRET` check on `/api/broadcast`
+is the only gate), `BROADCAST_SECRET` was rotated to a new 48-char random value in both
+Vercel and `.env.local`, `/admin` is disallowed in robots.js, and the admin page is
+noindexed via a layout. Follow-up idea (optional hardening): switch admin auth to
+logged-in user id allowlist instead of a shared secret.
 
-## 2. 🔴 OPEN — The Compare page always 404s
+## 2. ✅ RESOLVED (2026-06-12) — The Compare page always 404'd
 
-Unchanged: `app/compare/[slug]/page.js` still does `slug.split('-vs-').map(Number)` on
-string-slug IDs → always `notFound()`. Fix: drop `.map(Number)`, compare strings, in
-both the page and `generateMetadata`.
+Fixed: `.map(Number)` removed in both the page and `generateMetadata`; string-slug ids
+compare directly. `/compare/{id}-vs-{id}` URLs resolve now.
 
 ## 3. 🔶 PARTIAL — No affiliate tracking (the primary monetization)
 
@@ -99,11 +98,10 @@ Unchanged: unchecked `profiles` insert after `auth.signUp` + `!profile → redir
 loop risk on `/profile`. Fix unchanged (check insert error, sign out + return error;
 tolerant profile page).
 
-## 10. 🔓 OPEN — Sitemap missing quiz routes
+## 10. ✅ RESOLVED (2026-06-12) — Sitemap missing quiz routes
 
-Still missing from `app/sitemap.js`: `/quizzes`, `/quiz/mood`, `/quiz/seasonal`,
-`/quiz/astrology`, `/quiz/gift`. One-array fix. (The homepage teaser copy issue from the
-original audit was resolved by the homepage redesign.)
+Fixed: `/quizzes`, `/quiz/mood`, `/quiz/seasonal`, `/quiz/astrology`, `/quiz/gift` added
+to `app/sitemap.js`; `/admin` disallowed in robots.js.
 
 ## 11. 🔶 PARTIAL — `top_notes` mirrors `accords` (fake notes)
 

@@ -67,7 +67,7 @@ export default function BuyButtons({ fragrance, showNote = false }) {
       </div>
       {showNote && (
         <p className="mt-2 text-xs leading-5 text-zinc-400">
-          Links open the retailer&apos;s official listing. Prices and returns are handled by them.
+          PickSniff may earn a commission when you buy through these links, at no extra cost to you. Prices and returns are handled by the retailer.
         </p>
       )}
     </div>
