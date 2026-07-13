@@ -201,8 +201,8 @@
   },
   {
     "id": "female-daily-budget-lauder-pleasures-edp-estee",
-    "name": "Pleasures EDP Estée",
-    "brand": "Lauder",
+    "name": "Pleasures",
+    "brand": "Estée Lauder",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -641,7 +641,7 @@
   },
   {
     "id": "female-daily-quality-guerlain-guerlain-mon-guerlain",
-    "name": "Guerlain Mon Guerlain",
+    "name": "Mon Guerlain",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "quality",

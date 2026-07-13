@@ -1,8 +1,8 @@
 [
   {
     "id": "female-formal-budget-lauder-knowing-edp-estee",
-    "name": "Knowing EDP Estée",
-    "brand": "Lauder",
+    "name": "Knowing",
+    "brand": "Estée Lauder",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -21,8 +21,8 @@
   },
   {
     "id": "female-formal-budget-lauder-beautiful-edp-estee",
-    "name": "Beautiful EDP Estée",
-    "brand": "Lauder",
+    "name": "Beautiful",
+    "brand": "Estée Lauder",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -41,8 +41,8 @@
   },
   {
     "id": "female-formal-budget-lauder-white-linen-edp-estee",
-    "name": "White Linen EDP Estée",
-    "brand": "Lauder",
+    "name": "White Linen",
+    "brand": "Estée Lauder",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [

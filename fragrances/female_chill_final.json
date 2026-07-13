@@ -1,8 +1,8 @@
 [
   {
     "id": "female-chill-budget-works-warm-vanilla-sugar-edt-bath-body",
-    "name": "Warm Vanilla Sugar EDT Bath & Body",
-    "brand": "Works",
+    "name": "Warm Vanilla Sugar",
+    "brand": "Bath & Body Works",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
@@ -41,8 +41,8 @@
   },
   {
     "id": "female-chill-budget-karan-cashmere-mist-edp-donna",
-    "name": "Cashmere Mist EDP Donna",
-    "brand": "Karan",
+    "name": "Cashmere Mist",
+    "brand": "Donna Karan",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -81,8 +81,8 @@
   },
   {
     "id": "female-chill-budget-works-sweet-pea-edp-bath-body",
-    "name": "Sweet Pea EDP Bath & Body",
-    "brand": "Works",
+    "name": "Sweet Pea",
+    "brand": "Bath & Body Works",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -101,8 +101,8 @@
   },
   {
     "id": "female-chill-budget-wang-princess-edp-vera",
-    "name": "Princess EDP Vera",
-    "brand": "Wang",
+    "name": "Princess",
+    "brand": "Vera Wang",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -121,8 +121,8 @@
   },
   {
     "id": "female-chill-budget-lempicka-lolita-lempicka-edp-lolita",
-    "name": "Lolita Lempicka EDP Lolita",
-    "brand": "Lempicka",
+    "name": "Lolita Lempicka",
+    "brand": "Lolita Lempicka",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -181,8 +181,8 @@
   },
   {
     "id": "female-chill-budget-ricci-nina-edp-nina",
-    "name": "Nina EDP Nina",
-    "brand": "Ricci",
+    "name": "Nina",
+    "brand": "Nina Ricci",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
@@ -261,8 +261,8 @@
   },
   {
     "id": "female-chill-budget-lavigne-forbidden-rose-edp-avril",
-    "name": "Forbidden Rose EDP Avril",
-    "brand": "Lavigne",
+    "name": "Forbidden Rose",
+    "brand": "Avril Lavigne",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
