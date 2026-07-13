@@ -46,7 +46,7 @@ export default function AuthPage() {
         options: { redirectTo: `${window.location.origin}/auth/callback` },
       })
       if (oauthError) {
-        toast.error(`${provider === 'google' ? 'Google' : 'Apple'} sign-in is not available right now.`)
+        toast.error('Google sign-in is not available right now.')
         setOauthPending('')
       }
       // on success the browser navigates away to the provider
