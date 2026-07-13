@@ -88,11 +88,11 @@ export default async function Home() {
               <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-100">
                 <div className="h-full w-1/4 rounded-full bg-green-accent" />
               </div>
-              <p className="mt-5 text-2xl font-black tracking-tight text-black">Who are you shopping for?</p>
+              <p className="mt-5 text-2xl font-black tracking-tight text-black">Show me scents for...</p>
               <div className="mt-5 grid gap-2.5">
                 {[
-                  { g: 'male', label: 'Male' },
-                  { g: 'female', label: 'Female' },
+                  { g: 'male', label: 'Men' },
+                  { g: 'female', label: 'Women' },
                   { g: 'unisex', label: 'Unisex' },
                 ].map(({ g, label }) => (
                   <Link
@@ -144,37 +144,35 @@ export default async function Home() {
             <div className="mx-auto max-w-lg rounded-xl border border-sand bg-white p-5 shadow-sm">
               <div className="flex gap-4">
                 <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-green-accent">
-                  <span className="text-2xl font-black text-black">D</span>
+                  <span className="text-2xl font-black text-black">S</span>
                 </div>
                 <div className="min-w-0 flex-1">
                   <div className="flex gap-3">
                     <div className="min-w-0 flex-1">
-                      <p className="text-xs font-black uppercase tracking-[0.16em] text-slate">Dior</p>
-                      <h3 className="mt-0.5 text-xl font-black text-black">Sauvage EDT</h3>
-                      <p className="mt-0.5 text-sm font-bold text-slate">EDT</p>
+                      <p className="text-xs font-black uppercase tracking-[0.16em] text-slate">Serge Lutens</p>
+                      <h3 className="mt-0.5 text-xl font-black text-black">Chergui</h3>
+                      <p className="mt-0.5 text-sm font-bold text-slate">EDP</p>
                     </div>
                     <div className="shrink-0 text-right">
-                      <p className="text-2xl font-black text-green-deep">94%</p>
+                      <p className="text-2xl font-black text-green-deep">93%</p>
                       <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate">Match</p>
                     </div>
                   </div>
                   <div className="mt-3 h-2 overflow-hidden rounded-full bg-zinc-100">
-                    <div className="h-full w-[94%] rounded-full bg-green-accent" />
+                    <div className="h-full w-[93%] rounded-full bg-green-accent" />
                   </div>
                 </div>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
-                {['Fresh', 'Aromatic', 'Citrus'].map((accord) => (
+                {['Amber', 'Vanilla', 'Woody'].map((accord) => (
                   <span key={accord} className="rounded-full bg-green-accent/15 px-3 py-1 text-xs font-bold text-zinc-700">
                     {accord}
                   </span>
                 ))}
               </div>
               <p className="mt-3 text-sm leading-6 text-slate">
-                <span className="font-black text-black">Top notes: </span>Bergamot, Pepper, Lavender
-              </p>
-              <p className="mt-2 text-sm leading-6 text-slate">
-                A fragrance with clean freshness, aromatic texture, and bright citrus lift.
+                A fragrance with warm amber depth, creamy sweetness, and smooth woods. The kind of
+                pick your nose knows but your feed does not.
               </p>
               <Link
                 href="/quiz"
@@ -297,7 +295,7 @@ export default async function Home() {
               </h2>
               <p className="mt-4 max-w-lg text-base leading-7 text-zinc-400">
                 From everyday budget picks to rare niche bottles. Every fragrance hand-selected, scored,
-                and categorised so you don&apos;t have to think.
+                and categorized so you don&apos;t have to think.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {['Budget', 'Quality', 'Niche', 'Daily', 'Date Night', 'Sport', 'Chill', 'Formal'].map((tag) => (

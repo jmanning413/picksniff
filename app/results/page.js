@@ -10,7 +10,7 @@ import ResultsClient from './ResultsClient'
 
 export const metadata = {
   title: 'Your Matches',
-  description: 'Your personalised fragrance matches ranked by preference.',
+  description: 'Your personalized fragrance matches ranked by preference.',
 }
 
 function parseList(value, fallback) {

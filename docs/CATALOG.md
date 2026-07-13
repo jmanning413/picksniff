@@ -60,6 +60,17 @@ the full notes-pyramid UI treatment.
 
 ## 3. The pipeline — five stages
 
+### Stage A0 — Name repair (DISCOVERED 2026-06-13; partially done)
+
+The original PDF extraction mangled names. 31 unambiguous corruptions were repaired
+in place (interleaved brand fragments like "Princess EDP Vera", truncations like
+"Y Le", one fused double-entry). **Remaining judgment task:** ~200+ entries carry a
+redundant brand prefix in the name ("Creed Aventus" under brand Creed). Cards show
+the brand separately, so these render doubled. Rule for repair batches: strip the
+prefix ONLY where the remainder is the true product name ("Aventus", "Santal 33");
+keep integral-brand names ("Dior Homme", "Miss Dior", "Bleu de Chanel"). Fold these
+decisions into each Stage A batch review. IDs are never edited.
+
 ### Stage A — Notes + descriptions (can start immediately, no dependencies)
 
 Batch loop, ~50 fragrances per batch, 15 batches total:

@@ -280,6 +280,9 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
 
         <p className="mb-6 text-xs leading-5 text-slate">
           PickSniff earns a commission when you buy through our links, at no extra cost to you.
+          Nervous about blind buying? Most matches are available as inexpensive samples at{' '}
+          <a href="https://www.microperfumes.com" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-black">MicroPerfumes</a> or{' '}
+          <a href="https://www.scentsplit.com" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-black">Scent Split</a>: try before you commit.
         </p>
 
         {fragrances.length === 0 ? (
@@ -296,7 +299,14 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
           <>
             <div className="grid gap-4 lg:grid-cols-2">
               {fragrances.map((f, idx) => (
-                <div key={f.id} id={`fcard-${f.id}`}>
+                <div key={f.id} id={`fcard-${f.id}`} className={idx === 0 ? 'lg:col-span-2' : ''}>
+                  {idx === 3 && (
+                    <div className="mb-4 flex items-center gap-3 lg:hidden">
+                      <div className="h-px flex-1 bg-sand" />
+                      <span className="text-xs font-black uppercase tracking-[0.16em] text-slate">More matches</span>
+                      <div className="h-px flex-1 bg-sand" />
+                    </div>
+                  )}
                   <FragranceCard
                     fragrance={f}
                     isWishlisted={wishlistMap[f.id] ?? false}

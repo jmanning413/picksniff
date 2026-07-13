@@ -7,7 +7,11 @@
       "Bash(node extract_pdf.js)",
       "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\standards_fixes.py\")",
       "Bash(grep -E \"^[├└┌] [○●ƒ] /$|opengraph|Error\")",
-      "Bash(node \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\axe_recheck.js\")"
+      "Bash(node \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\axe_recheck.js\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://www.picksniff.com/opengraph-image)",
+      "Bash(curl -sI \"https://www.picksniff.com/quiz?nocache=$\\(date +%s\\)\")",
+      "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\name_scan.py\")",
+      "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\catalog_repairs.py\")"
     ]
   }
 }

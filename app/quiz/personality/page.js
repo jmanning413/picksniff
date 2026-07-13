@@ -18,7 +18,7 @@ const QUESTIONS = [
     options: [
       { id: 'moody', label: 'Dark & Moody', icon: 'moon', desc: 'Low lights, deep music, velvet seats' },
       { id: 'fresh', label: 'Crisp & Fresh', icon: 'sprig', desc: 'Open windows, morning runs, clean sheets' },
-      { id: 'bold', label: 'Bold & Loud', icon: 'flame', desc: 'Centre of the room, unforgettable exits' },
+      { id: 'bold', label: 'Bold & Loud', icon: 'flame', desc: 'Center of the room, unforgettable exits' },
       { id: 'cozy', label: 'Soft & Cozy', icon: 'candle', desc: 'Blankets, candles, good books' },
     ],
   },
@@ -47,7 +47,7 @@ const QUESTIONS = [
 // One archetype per vibe × place combination — every answer path lands on a
 // distinct persona (time of day adds flavour but doesn't change the archetype).
 const ARCHETYPES = {
-  'moody-city': { name: 'The Dark Romantic', desc: 'You wear fragrance like armor: intense, unforgettable, always leaving a trace. Deep amber, oud, and smouldering spice are your language.', quiz: { tier: 'niche', vibe: 'date_night', accords: ['Amber', 'Spicy', 'Woody'] } },
+  'moody-city': { name: 'The Dark Romantic', desc: 'You wear fragrance like armor: intense, unforgettable, always leaving a trace. Deep amber, oud, and smoldering spice are your language.', quiz: { tier: 'niche', vibe: 'date_night', accords: ['Amber', 'Spicy', 'Woody'] } },
   'moody-forest': { name: 'The Mysterious Wanderer', desc: 'You prefer shadows to spotlights. Earthy woods, vetiver, and quiet smoke define your trail.', quiz: { tier: 'quality', vibe: 'chill', accords: ['Woody', 'Aromatic'] } },
   'moody-beach': { name: 'The Midnight Swimmer', desc: 'Calm on the surface, deep underneath. Cool sea air wrapped around dark woods and warm amber, a scent like the ocean after dark.', quiz: { tier: 'quality', vibe: 'chill', accords: ['Aquatic', 'Woody', 'Amber'] } },
   'moody-garden': { name: 'The Velvet Thorn', desc: 'Beautiful, but not to be underestimated. Dark florals edged with spice and amber, a rose with a warning label.', quiz: { tier: 'niche', vibe: 'date_night', accords: ['Floral', 'Spicy', 'Amber'] } },
@@ -59,10 +59,10 @@ const ARCHETYPES = {
   'bold-beach': { name: 'The Sunlit Adventurer', desc: 'Life is for living loudly. Bright citrus, sea air, and warm musks follow you everywhere.', quiz: { tier: 'budget', vibe: 'sport', accords: ['Citrus', 'Aquatic', 'Fresh'] } },
   'bold-forest': { name: 'The Wild Heart', desc: 'Untamed and unbothered. Rugged woods, crackling spice, and green wilderness. You were never meant for small rooms.', quiz: { tier: 'quality', vibe: 'chill', accords: ['Woody', 'Spicy', 'Green'] } },
   'bold-garden': { name: 'The Full Bloom', desc: 'Subtle was never the plan. Lush florals, juicy fruit, and golden amber. You arrive the way summer does.', quiz: { tier: 'quality', vibe: 'date_night', accords: ['Floral', 'Fruity', 'Amber'] } },
-  'cozy-garden': { name: 'The Cozy Homebody', desc: 'You find magic in the mundane. Vanilla, soft florals, and warm woods wrap around you like your favourite blanket.', quiz: { tier: 'budget', vibe: 'chill', accords: ['Vanilla', 'Floral', 'Woody'] } },
+  'cozy-garden': { name: 'The Cozy Homebody', desc: 'You find magic in the mundane. Vanilla, soft florals, and warm woods wrap around you like your favorite blanket.', quiz: { tier: 'budget', vibe: 'chill', accords: ['Vanilla', 'Floral', 'Woody'] } },
   'cozy-forest': { name: 'The Forest Dreamer', desc: 'Old soul. Pine resin, moss, and woody smoke speak your language. You belong somewhere between a cabin and a bookshop.', quiz: { tier: 'quality', vibe: 'chill', accords: ['Woody', 'Green', 'Aromatic'] } },
   'cozy-beach': { name: 'The Golden Hour', desc: 'You live for the soft part of the day. Warm vanilla drifting over salt air: sunset, sand still warm, nowhere to be.', quiz: { tier: 'budget', vibe: 'chill', accords: ['Vanilla', 'Aquatic', 'Fresh'] } },
-  'cozy-city': { name: 'The Café Regular', desc: 'Your comfort zone has an espresso machine. Warm vanilla, smooth woods, and clean musk, the scent of a favourite corner table.', quiz: { tier: 'budget', vibe: 'daily', accords: ['Vanilla', 'Woody', 'Fresh'] } },
+  'cozy-city': { name: 'The Café Regular', desc: 'Your comfort zone has an espresso machine. Warm vanilla, smooth woods, and clean musk, the scent of a favorite corner table.', quiz: { tier: 'budget', vibe: 'daily', accords: ['Vanilla', 'Woody', 'Fresh'] } },
 }
 
 function getArchetype(answers) {

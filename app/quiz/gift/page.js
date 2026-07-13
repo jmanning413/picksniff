@@ -13,7 +13,7 @@ const GENDERS = [
 ]
 
 const OCCASIONS = [
-  { id: 'birthday',    label: 'Birthday',    icon: 'cake', vibe: 'daily',      desc: 'A crowd-pleasing everyday favourite' },
+  { id: 'birthday',    label: 'Birthday',    icon: 'cake', vibe: 'daily',      desc: 'A crowd-pleasing everyday favorite' },
   { id: 'anniversary', label: 'Anniversary', icon: 'ring', vibe: 'date_night', desc: 'Romantic, memorable, and a little indulgent' },
   { id: 'holiday',     label: 'Holiday',     icon: 'pine', vibe: 'formal',     desc: 'Sophisticated and gift-worthy' },
   { id: 'justbecause', label: 'Just Because',icon: 'envelope', vibe: 'chill',      desc: 'Warm, wearable, and genuinely thoughtful' },

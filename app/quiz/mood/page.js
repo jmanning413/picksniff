@@ -39,7 +39,7 @@ const QUESTIONS = [
     options: [
       { id: 'statement', label: 'Make a statement', icon: 'burst', desc: 'Unforgettable entrance' },
       { id: 'confidence', label: 'Give me confidence', icon: 'shield', desc: 'Background power' },
-      { id: 'ground', label: 'Ground me', icon: 'sprout', desc: 'Calm and centred' },
+      { id: 'ground', label: 'Ground me', icon: 'sprout', desc: 'Calm and centered' },
       { id: 'lift', label: 'Lift my mood', icon: 'star', desc: 'Bright and energising' },
     ],
   },

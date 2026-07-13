@@ -76,7 +76,7 @@ export default async function ProfilePage() {
               )}
               {activeProfile.favorite_fragrance && (
                 <p className="mt-1 text-sm text-slate">
-                  <span className="font-bold text-zinc-700">Favourite: </span>
+                  <span className="font-bold text-zinc-700">Favorite: </span>
                   {activeProfile.favorite_fragrance}
                 </p>
               )}

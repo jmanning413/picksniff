@@ -71,7 +71,7 @@ const FREE_STEPS = [
 const ACCOUNT_STEPS = [
   ...FREE_STEPS,
   { eyebrow: 'Step 5', title: 'Concentration', subtitle: 'Filter by how intense you want the fragrance. Multi-select or skip.' },
-  { eyebrow: 'Step 6', title: 'Favourite notes', subtitle: 'Pick up to 5 specific notes you love. Optional.' },
+  { eyebrow: 'Step 6', title: 'Favorite notes', subtitle: 'Pick up to 5 specific notes you love. Optional.' },
 ]
 
 export default function QuizPage() {
