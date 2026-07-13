@@ -18,14 +18,6 @@ function GoogleIcon() {
   )
 }
 
-function AppleIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-      <path d="M16.36 12.79c.03 3.26 2.86 4.34 2.89 4.36-.02.08-.45 1.55-1.49 3.07-.9 1.31-1.83 2.62-3.3 2.65-1.44.03-1.91-.86-3.56-.86-1.65 0-2.17.83-3.53.89-1.42.05-2.5-1.42-3.4-2.73-1.86-2.68-3.28-7.56-1.37-10.86A5.28 5.28 0 0 1 7.05 6.6c1.39-.03 2.71.94 3.56 .94.85 0 2.45-1.16 4.13-.99.7.03 2.68.28 3.94 2.14-.1.06-2.35 1.37-2.32 4.1zM13.64 3.78c.75-.91 1.26-2.18 1.12-3.44-1.08.04-2.39.72-3.17 1.63-.7.81-1.31 2.1-1.14 3.34 1.2.09 2.44-.62 3.19-1.53z" />
-    </svg>
-  )
-}
-
 export default function AuthPage() {
   const [mode, setMode] = useState('signin')
   const [oauthPending, setOauthPending] = useState('')
@@ -122,15 +114,6 @@ export default function AuthPage() {
             >
               <GoogleIcon />
               {oauthPending === 'google' ? 'Redirecting…' : `${isSignIn ? 'Sign in' : 'Sign up'} with Google`}
-            </button>
-            <button
-              type="button"
-              onClick={() => oauthSignIn('apple')}
-              disabled={oauthPending !== ''}
-              className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-ink py-3 text-sm font-bold text-cream transition hover:opacity-90 disabled:opacity-50"
-            >
-              <AppleIcon />
-              {oauthPending === 'apple' ? 'Redirecting…' : `${isSignIn ? 'Sign in' : 'Sign up'} with Apple`}
             </button>
           </div>
 
