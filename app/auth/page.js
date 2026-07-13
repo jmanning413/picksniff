@@ -18,6 +18,11 @@ function GoogleIcon() {
   )
 }
 
+// Rendered only when the Supabase Google provider is actually configured;
+// an enabled-looking button for a disabled provider strands users on a
+// Supabase error page (incident: friend could not sign up, 2026-06-13).
+const GOOGLE_AUTH_ENABLED = process.env.NEXT_PUBLIC_GOOGLE_AUTH === '1'
+
 export default function AuthPage() {
   const [mode, setMode] = useState('signin')
   const [oauthPending, setOauthPending] = useState('')
@@ -105,6 +110,8 @@ export default function AuthPage() {
             </div>
           )}
 
+          {GOOGLE_AUTH_ENABLED && (
+          <>
           <div className="space-y-2.5">
             <button
               type="button"
@@ -122,6 +129,8 @@ export default function AuthPage() {
             <span className="text-xs font-bold uppercase tracking-[0.14em] text-slate">or</span>
             <div className="h-px flex-1 bg-sand" />
           </div>
+          </>
+          )}
 
           <form action={action} className="space-y-4">
             {!isSignIn && (
