@@ -77,9 +77,9 @@ export default async function ComparePage({ params }) {
                       </div>
                     </div>
 
-                    {(f.top_notes || []).length > 0 && (
+                    {(f.top_notes || []).length > 0 && JSON.stringify(f.top_notes) !== JSON.stringify(f.accords) && (
                       <div>
-                        <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-slate">Top Notes</p>
+                        <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-slate">Notes</p>
                         <p className="text-sm text-slate">{f.top_notes.join(' · ')}</p>
                       </div>
                     )}

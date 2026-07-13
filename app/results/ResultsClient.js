@@ -164,8 +164,8 @@ function CompareModal({ fragrances, onClose }) {
                       ))}
                     </div>
                   </div>
-                  {f.top_notes?.length > 0 && (
-                    <Row label="Top Notes" value={f.top_notes.slice(0, 3).join(', ')} />
+                  {f.top_notes?.length > 0 && JSON.stringify(f.top_notes) !== JSON.stringify(f.accords) && (
+                    <Row label="Notes" value={f.top_notes.slice(0, 3).join(', ')} />
                   )}
                 </div>
 

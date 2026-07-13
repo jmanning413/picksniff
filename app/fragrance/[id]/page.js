@@ -127,10 +127,13 @@ export default async function FragrancePage({ params }) {
           </div>
         )}
 
-        {f.top_notes?.length > 0 && (
+        {/* Notes render only when real note data exists (today top_notes just
+            mirrors accords, so showing it is pure duplication - owner call).
+            Label stays "Notes" until the full top/heart/base dataset lands. */}
+        {f.top_notes?.length > 0 && JSON.stringify(f.top_notes) !== JSON.stringify(f.accords) && (
           <div className="mt-8">
             <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">
-              Top Notes
+              Notes
             </h2>
             <p className="text-sm leading-7 text-slate">{f.top_notes.join(' · ')}</p>
           </div>
