@@ -4,7 +4,10 @@
       "Bash(python3 -c ' *)",
       "Bash(node -e ' *)",
       "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const p=JSON.parse\\(d\\); console.log\\('main:', p.main, 'exports:', JSON.stringify\\(p.exports\\).substring\\(0,200\\)\\);\")",
-      "Bash(node extract_pdf.js)"
+      "Bash(node extract_pdf.js)",
+      "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\standards_fixes.py\")",
+      "Bash(grep -E \"^[├└┌] [○●ƒ] /$|opengraph|Error\")",
+      "Bash(node \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\axe_recheck.js\")"
     ]
   }
 }

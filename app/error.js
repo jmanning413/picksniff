@@ -6,6 +6,19 @@ import { useEffect } from 'react'
 export default function GlobalError({ error, reset }) {
   useEffect(() => {
     console.error(error)
+    // Beacon to the server so production client crashes reach Vercel logs
+    try {
+      fetch('/api/log-error', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        keepalive: true,
+        body: JSON.stringify({
+          message: String(error?.message || error).slice(0, 500),
+          stack: String(error?.stack || '').slice(0, 2000),
+          url: window.location.pathname,
+        }),
+      }).catch(() => {})
+    } catch {}
   }, [error])
 
   return (

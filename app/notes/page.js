@@ -92,7 +92,7 @@ export default async function NotesPage() {
               {sortedNotes.map((note) => (
                 <div key={note} className="mb-1 break-inside-avoid">
                   <span className="text-sm font-bold text-slate">{note}</span>
-                  <span className="ml-1 text-xs text-zinc-400">({noteIndex[note].length})</span>
+                  <span className="ml-1 text-xs text-slate">({noteIndex[note].length})</span>
                 </div>
               ))}
             </div>

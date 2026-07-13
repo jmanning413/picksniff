@@ -59,7 +59,7 @@ export default async function ComparePage({ params }) {
                   <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-green-accent">
                     <span className="text-2xl font-black text-black">{f.brand.charAt(0)}</span>
                   </div>
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{f.brand}</p>
+                  <p className="text-xs font-black uppercase tracking-[0.16em] text-slate">{f.brand}</p>
                   <h2 className="mt-1 text-2xl font-black">{f.name}</h2>
 
                   <div className="mt-5 space-y-4">
@@ -69,7 +69,7 @@ export default async function ComparePage({ params }) {
                     <Row label="Gender" value={f.gender} />
 
                     <div>
-                      <p className="mb-2 text-xs font-black uppercase tracking-[0.14em] text-zinc-400">Accords</p>
+                      <p className="mb-2 text-xs font-black uppercase tracking-[0.14em] text-slate">Accords</p>
                       <div className="flex flex-wrap gap-1.5">
                         {(f.accords || []).map((a) => (
                           <span key={a} className="rounded-full bg-green-accent/15 px-3 py-1 text-xs font-bold text-zinc-700">{a}</span>
@@ -79,7 +79,7 @@ export default async function ComparePage({ params }) {
 
                     {(f.top_notes || []).length > 0 && (
                       <div>
-                        <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-zinc-400">Top Notes</p>
+                        <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-slate">Top Notes</p>
                         <p className="text-sm text-slate">{f.top_notes.join(' · ')}</p>
                       </div>
                     )}
@@ -133,7 +133,7 @@ export default async function ComparePage({ params }) {
 function Row({ label, value }) {
   return (
     <div className="flex items-baseline justify-between gap-2 border-b border-sand pb-2">
-      <span className="text-xs font-black uppercase tracking-[0.12em] text-zinc-400">{label}</span>
+      <span className="text-xs font-black uppercase tracking-[0.12em] text-slate">{label}</span>
       <span className="text-sm font-bold capitalize text-zinc-700">{value}</span>
     </div>
   )

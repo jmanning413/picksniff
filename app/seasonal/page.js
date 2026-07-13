@@ -110,7 +110,7 @@ export default async function SeasonalPage() {
                       href={`/fragrance/${f.id}`}
                       className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
                     >
-                      <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+                      <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
                       <h3 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">{f.name}</h3>
                       <div className="mt-2 flex flex-wrap gap-1.5">
                         {(f.accords || []).filter((a) => config.accords.includes(a)).map((a) => (

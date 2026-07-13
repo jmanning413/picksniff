@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useState, useRef } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import toast from 'react-hot-toast'
 import SaveButtons from '@/app/_components/SaveButtons'
 import { buildDescription } from '@/lib/constants'
@@ -62,7 +62,7 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
         <div className="min-w-0 flex-1">
           <div className="flex gap-3">
             <div className="min-w-0 flex-1">
-              <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{fragrance.brand}</p>
+              <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-slate">{fragrance.brand}</p>
               <Link href={`/fragrance/${fragrance.id}`} className="mt-1 block text-xl font-black leading-tight text-black hover:text-green-deep transition">
                 {fragrance.name}
               </Link>
@@ -72,7 +72,7 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
             </div>
             <div className="shrink-0 text-right">
               <p className="text-2xl font-black text-green-deep">{score}%</p>
-              <p className="text-xs font-bold uppercase tracking-[0.12em] text-zinc-400">Match</p>
+              <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate">Match</p>
             </div>
           </div>
           <div className="mt-4 h-2 overflow-hidden rounded-full bg-zinc-100">
@@ -123,12 +123,19 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
 }
 
 function CompareModal({ fragrances, onClose }) {
+  // Dialog a11y: Esc closes, initial focus on the close button
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [onClose])
+
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-4 pt-16 backdrop-blur-sm overflow-y-auto">
+    <div role="dialog" aria-modal="true" aria-label="Compare fragrances" className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-4 pt-16 backdrop-blur-sm overflow-y-auto">
       <div className="w-full max-w-4xl rounded-2xl bg-white p-6 shadow-2xl">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-black">Compare Fragrances</h2>
-          <button type="button" onClick={onClose} className="flex h-9 w-9 items-center justify-center rounded-full border border-sand text-slate hover:border-green-accent hover:text-black transition">
+          <button type="button" autoFocus onClick={onClose} aria-label="Close compare" className="flex h-9 w-9 items-center justify-center rounded-full border border-sand text-slate hover:border-green-accent hover:text-black transition">
             ✕
           </button>
         </div>
@@ -141,7 +148,7 @@ function CompareModal({ fragrances, onClose }) {
                 <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-green-accent">
                   <span className="text-xl font-black text-black">{f.brand.charAt(0)}</span>
                 </div>
-                <p className="text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+                <p className="text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
                 <h3 className="mt-1 text-lg font-black leading-tight">{f.name}</h3>
 
                 <div className="mt-3 space-y-3 text-sm">
@@ -150,7 +157,7 @@ function CompareModal({ fragrances, onClose }) {
                   <Row label="Vibe" value={f.vibe?.replace('_', ' ')} />
                   <Row label="Match" value={`${f.score}%`} accent />
                   <div>
-                    <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-zinc-400">Accords</p>
+                    <p className="mb-1 text-xs font-black uppercase tracking-[0.14em] text-slate">Accords</p>
                     <div className="flex flex-wrap gap-1">
                       {(f.accords || []).map((a) => (
                         <span key={a} className="rounded-full bg-green-accent/15 px-2 py-0.5 text-xs font-bold text-zinc-700">{a}</span>
@@ -179,7 +186,7 @@ function CompareModal({ fragrances, onClose }) {
 function Row({ label, value, accent }) {
   return (
     <div className="flex items-baseline justify-between gap-2">
-      <span className="text-xs font-black uppercase tracking-[0.12em] text-zinc-400">{label}</span>
+      <span className="text-xs font-black uppercase tracking-[0.12em] text-slate">{label}</span>
       <span className={['text-sm font-bold capitalize', accent ? 'text-green-deep' : 'text-zinc-700'].join(' ')}>{value}</span>
     </div>
   )
@@ -308,7 +315,7 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
             {!isLoggedIn && (
               <div className="mt-8 rounded-xl border border-dashed border-green-accent/50 bg-green-accent/5 p-8 text-center">
                 
-                <h3 className="mt-2 text-lg font-black text-black">See up to 20 matches with a free account</h3>
+                <h2 className="mt-2 text-lg font-black text-black">See up to 20 matches with a free account</h2>
                 <p className="mx-auto mt-2 max-w-sm text-sm leading-6 text-slate">
                   Create a free PickSniff account for double the results, wishlist, collection tracking, and more.
                 </p>
@@ -320,14 +327,14 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
 
             {alsoLiked.length > 0 && (
               <div className="mt-12">
-                <h2 className="mb-6 text-sm font-black uppercase tracking-[0.18em] text-zinc-400">You might also like</h2>
+                <h2 className="mb-6 text-sm font-black uppercase tracking-[0.18em] text-slate">You might also like</h2>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {alsoLiked.map((f) => (
                     <Link key={f.id} href={`/fragrance/${f.id}`} className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm">
                       <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-green-accent">
                         <span className="text-lg font-black text-black">{f.brand.charAt(0)}</span>
                       </div>
-                      <p className="text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+                      <p className="text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
                       <h3 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">{f.name}</h3>
                       <div className="mt-2 flex flex-wrap gap-1.5">
                         {(f.accords || []).slice(0, 3).map((a) => (

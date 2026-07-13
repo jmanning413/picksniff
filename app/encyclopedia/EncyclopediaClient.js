@@ -102,14 +102,14 @@ export default function EncyclopediaClient({ fragrances }) {
       </div>
 
       <div className="mb-5 flex items-center justify-between">
-        <p className="text-sm font-bold text-zinc-400">
+        <p className="text-sm font-bold text-slate">
           {filtered.length} of {fragrances.length} fragrances
         </p>
         {hasFilters && (
           <button
             type="button"
             onClick={clearAll}
-            className="text-sm font-bold text-zinc-400 transition hover:text-black"
+            className="text-sm font-bold text-slate transition hover:text-black"
           >
             Clear all
           </button>
@@ -142,7 +142,7 @@ export default function EncyclopediaClient({ fragrances }) {
 function FilterRow({ label, children }) {
   return (
     <div>
-      <p className="mb-2 text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{label}</p>
+      <p className="mb-2 text-xs font-black uppercase tracking-[0.16em] text-slate">{label}</p>
       <div className="flex flex-wrap gap-2">{children}</div>
     </div>
   )
@@ -171,7 +171,7 @@ function FragranceCard({ fragrance }) {
       href={`/fragrance/${fragrance.id}`}
       className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
     >
-      <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
+      <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-slate">
         {fragrance.brand}
       </p>
       <h2 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">

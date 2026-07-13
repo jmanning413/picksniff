@@ -102,7 +102,7 @@ export default function AdminEmailPage() {
 
         <form onSubmit={handleSend} className="space-y-5">
           <div>
-            <label className="mb-1.5 block text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
+            <label className="mb-1.5 block text-xs font-black uppercase tracking-[0.16em] text-slate">
               Subject
             </label>
             <input
@@ -116,7 +116,7 @@ export default function AdminEmailPage() {
           </div>
 
           <div>
-            <label className="mb-1.5 block text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
+            <label className="mb-1.5 block text-xs font-black uppercase tracking-[0.16em] text-slate">
               Body
             </label>
             {preview ? (
@@ -134,7 +134,7 @@ export default function AdminEmailPage() {
                 className="w-full rounded-lg border border-sand px-4 py-3 text-sm leading-7 outline-none focus:border-green-accent resize-none"
               />
             )}
-            <p className="mt-1.5 text-xs text-zinc-400">
+            <p className="mt-1.5 text-xs text-slate">
               Blank line = new paragraph · <code>[Link text](url)</code> = clickable link
             </p>
           </div>

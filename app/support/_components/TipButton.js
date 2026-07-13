@@ -57,7 +57,7 @@ export default function TipButton() {
       </div>
 
       <div className="relative">
-        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-bold text-zinc-400">$</span>
+        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-bold text-slate">$</span>
         <input
           type="number"
           min="1"

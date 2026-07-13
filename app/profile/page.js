@@ -80,7 +80,7 @@ export default async function ProfilePage() {
                   {activeProfile.favorite_fragrance}
                 </p>
               )}
-              <p className="mt-2 text-xs text-zinc-400">
+              <p className="mt-2 text-xs text-slate">
                 Member since {new Date(activeProfile.created_at).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
               </p>
             </div>
@@ -93,7 +93,7 @@ export default async function ProfilePage() {
 
           {/* Badges */}
           <div className="mt-10">
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">Badges</p>
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">Badges</p>
             <div className="flex flex-wrap gap-2">
               {earnedBadges.map((b) => (
                 <div key={b.id} title={b.description}
@@ -103,7 +103,7 @@ export default async function ProfilePage() {
               ))}
               {lockedBadges.map((b) => (
                 <div key={b.id} title={`Locked: ${b.description}`}
-                  className="flex items-center gap-1.5 rounded-full border border-sand bg-zinc-50 px-3 py-1.5 text-xs font-bold text-zinc-400 cursor-help opacity-50">
+                  className="flex items-center gap-1.5 rounded-full border border-sand bg-zinc-50 px-3 py-1.5 text-xs font-bold text-slate cursor-help opacity-50">
                   <span className="text-green-deep"><QuizIcon name={b.icon} size={15} /></span><span>{b.name}</span>
                 </div>
               ))}

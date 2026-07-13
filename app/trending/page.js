@@ -61,9 +61,9 @@ function TrendSection({ title, fragrances }) {
             href={`/fragrance/${f.id}`}
             className="group flex items-start gap-4 rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
           >
-            <span className="mt-0.5 w-6 shrink-0 text-sm font-black text-zinc-400">#{i + 1}</span>
+            <span className="mt-0.5 w-6 shrink-0 text-sm font-black text-slate">#{i + 1}</span>
             <div className="min-w-0 flex-1">
-              <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+              <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
               <h3 className="mt-0.5 text-base font-black leading-tight text-black group-hover:text-green-deep transition">{f.name}</h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {(f.accords || []).slice(0, 3).map((a) => (

@@ -58,7 +58,7 @@ export default async function AccordsPage() {
 
                   {examples.length > 0 && (
                     <div className="mt-4">
-                      <p className="mb-2 text-xs font-black uppercase tracking-[0.14em] text-zinc-400">Examples</p>
+                      <p className="mb-2 text-xs font-black uppercase tracking-[0.14em] text-slate">Examples</p>
                       <div className="flex flex-col gap-1.5">
                         {examples.map((f) => (
                           <Link
@@ -67,7 +67,7 @@ export default async function AccordsPage() {
                             className="flex items-center justify-between rounded-lg border border-sand bg-zinc-50 px-3 py-2 text-sm transition hover:border-green-accent"
                           >
                             <span className="font-bold text-zinc-700">{f.brand} {f.name}</span>
-                            <span className="text-xs font-bold text-zinc-400">{f.concentration}</span>
+                            <span className="text-xs font-bold text-slate">{f.concentration}</span>
                           </Link>
                         ))}
                       </div>

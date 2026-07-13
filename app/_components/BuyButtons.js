@@ -37,7 +37,7 @@ export default function BuyButtons({ fragrance, showNote = false }) {
           {links.override.label} →
         </a>
         {showNote && (
-          <p className="mt-2 text-xs leading-5 text-zinc-400">
+          <p className="mt-2 text-xs leading-5 text-slate">
             Opens the brand&apos;s official site. Prices and returns are handled by them.
           </p>
         )}
@@ -66,7 +66,7 @@ export default function BuyButtons({ fragrance, showNote = false }) {
         </a>
       </div>
       {showNote && (
-        <p className="mt-2 text-xs leading-5 text-zinc-400">
+        <p className="mt-2 text-xs leading-5 text-slate">
           PickSniff may earn a commission when you buy through these links, at no extra cost to you. Prices and returns are handled by the retailer.
         </p>
       )}
@@ -83,7 +83,7 @@ export function StickyBuyBar({ fragrance }) {
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-sand bg-cream/95 px-4 py-3 backdrop-blur sm:hidden">
       <div className="flex items-center gap-2.5">
         <div className="min-w-0 flex-1">
-          <p className="truncate text-xs font-black uppercase tracking-[0.12em] text-zinc-400">{fragrance.brand}</p>
+          <p className="truncate text-xs font-black uppercase tracking-[0.12em] text-slate">{fragrance.brand}</p>
           <p className="truncate text-sm font-black text-black">{fragrance.name}</p>
         </div>
         <a

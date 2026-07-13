@@ -9,6 +9,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.picksniff.com"),
+  alternates: { canonical: "./" },
   title: { default: "PickSniff: Find Your Perfect Fragrance", template: "%s | PickSniff" },
   description: "Find your perfect fragrance in minutes. PickSniff matches you to 750 fragrances across every style and budget.",
   openGraph: {

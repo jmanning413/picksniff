@@ -11,7 +11,7 @@ export default function SaveButtons({ fragranceId, initialWishlisted, initialOwn
 
   if (!isLoggedIn) {
     return (
-      <p className="mt-4 text-center text-xs text-zinc-400">
+      <p className="mt-4 text-center text-xs text-slate">
         <a href="/auth" className="font-bold text-green-deep hover:underline">
           Sign in
         </a>{' '}

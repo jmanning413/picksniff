@@ -62,9 +62,9 @@ export default function AstrologyQuizPage() {
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
           <Link href="/" className="flex items-center gap-2 font-bold" aria-label="PickSniff home">
             <Image src="/logo-mark.png" alt="" width={48} height={48} priority />
-            <span className="text-2xl font-black tracking-tight">Pick<span className="text-green-accent">Sniff</span></span>
+            <span className="text-2xl font-black tracking-tight">Pick<span className="text-green-deep">Sniff</span></span>
           </Link>
-          <span className="text-sm font-semibold text-zinc-400">{step + 1} of {TOTAL_STEPS}</span>
+          <span className="text-sm font-semibold text-slate">{step + 1} of {TOTAL_STEPS}</span>
         </header>
       </div>
 
@@ -116,7 +116,7 @@ export default function AstrologyQuizPage() {
                     className={['flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition', sign?.id === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     <span className="text-2xl">{s.emoji}</span>
                     <span className="text-sm font-black text-black">{s.label}</span>
-                    <span className="text-xs text-zinc-400 leading-tight">{s.dates}</span>
+                    <span className="text-xs text-slate leading-tight">{s.dates}</span>
                   </button>
                 ))}
               </div>

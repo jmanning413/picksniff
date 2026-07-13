@@ -62,7 +62,7 @@ export default function AuthPage() {
         <Link href="/" className="inline-flex items-center gap-2 font-bold" aria-label="PickSniff home">
           <Image src="/logo-mark.png" alt="" width={48} height={48} priority />
           <span className="text-2xl font-black tracking-tight">
-            Pick<span className="text-green-accent">Sniff</span>
+            Pick<span className="text-green-deep">Sniff</span>
           </span>
         </Link>
       </header>
@@ -119,7 +119,7 @@ export default function AuthPage() {
 
           <div className="my-6 flex items-center gap-3">
             <div className="h-px flex-1 bg-sand" />
-            <span className="text-xs font-bold uppercase tracking-[0.14em] text-zinc-400">or</span>
+            <span className="text-xs font-bold uppercase tracking-[0.14em] text-slate">or</span>
             <div className="h-px flex-1 bg-sand" />
           </div>
 
@@ -145,7 +145,7 @@ export default function AuthPage() {
             </button>
           </form>
 
-          <p className="mt-6 text-center text-xs text-zinc-400">
+          <p className="mt-6 text-center text-xs text-slate">
             No account required to take the quiz.{' '}
             <Link href="/quiz" className="font-bold text-slate hover:text-black">
               Try it now →
@@ -166,7 +166,7 @@ function Field({ label, name, type, placeholder, autoComplete }) {
     <div>
       <label
         htmlFor={name}
-        className="mb-1.5 block text-xs font-black uppercase tracking-[0.16em] text-zinc-400"
+        className="mb-1.5 block text-xs font-black uppercase tracking-[0.16em] text-slate"
       >
         {label}
       </label>
@@ -184,7 +184,7 @@ function Field({ label, name, type, placeholder, autoComplete }) {
           <button
             type="button"
             onClick={() => setShow(s => !s)}
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-slate transition"
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-slate hover:text-slate transition"
             aria-label={show ? 'Hide password' : 'Show password'}
           >
             {show ? (

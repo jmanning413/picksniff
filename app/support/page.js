@@ -38,7 +38,7 @@ export default function SupportPage({ searchParams }) {
                 If it helped you find a fragrance you love, a small tip keeps the lights on.
               </p>
               <TipButton />
-              <p className="mt-6 text-xs text-zinc-400">
+              <p className="mt-6 text-xs text-slate">
                 One-time payment · Processed securely by Stripe
               </p>
             </>

@@ -88,7 +88,7 @@ export default async function FragrancePage({ params }) {
           </div>
 
           <div className="min-w-0 flex-1">
-            <Link href={`/brand/${encodeURIComponent(f.brand)}`} className="text-xs font-black uppercase tracking-[0.18em] text-zinc-400 hover:text-green-deep transition">{f.brand}</Link>
+            <Link href={`/brand/${encodeURIComponent(f.brand)}`} className="text-xs font-black uppercase tracking-[0.18em] text-slate hover:text-green-deep transition">{f.brand}</Link>
             <h1 className="mt-1 text-2xl font-black leading-tight text-black sm:text-3xl">{f.name}</h1>
             <div className="mt-3 flex flex-wrap gap-2">
               {f.concentration && (
@@ -113,7 +113,7 @@ export default async function FragrancePage({ params }) {
 
         {f.accords?.length > 0 && (
           <div className="mt-8">
-            <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">Accords</h2>
+            <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">Accords</h2>
             <div className="flex flex-wrap gap-2">
               {f.accords.map((a) => (
                 <span
@@ -129,7 +129,7 @@ export default async function FragrancePage({ params }) {
 
         {f.top_notes?.length > 0 && (
           <div className="mt-8">
-            <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">
+            <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">
               Top Notes
             </h2>
             <p className="text-sm leading-7 text-slate">{f.top_notes.join(' · ')}</p>
@@ -137,7 +137,7 @@ export default async function FragrancePage({ params }) {
         )}
 
         <div className="mt-8">
-          <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">About</h2>
+          <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">About</h2>
           <p className="text-sm leading-7 text-slate">{description}</p>
         </div>
 
@@ -175,7 +175,7 @@ export default async function FragrancePage({ params }) {
 function FragranceShareButton({ name, brand }) {
   return (
     <div className="mt-6">
-      <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">Share</h2>
+      <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">Share</h2>
       <div className="flex flex-wrap gap-2">
         <a
           href={`https://twitter.com/intent/tweet?text=Just%20found%20${encodeURIComponent(brand + ' ' + name)}%20on%20PickSniff%20%F0%9F%91%83&url=${encodeURIComponent('https://picksniff.com')}`}
@@ -212,13 +212,13 @@ function FragranceAlsoLiked({ fragrance, allFragrances }) {
 
   return (
     <div className="mt-10">
-      <h2 className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">People also liked</h2>
+      <h2 className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-slate">People also liked</h2>
       <div className="flex flex-col gap-2">
         {similar.map((f) => (
           <Link key={f.id} href={`/fragrance/${f.id}`}
             className="flex items-center justify-between rounded-lg border border-sand px-4 py-3 transition hover:border-green-accent hover:shadow-sm">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+              <p className="text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
               <p className="text-sm font-black text-black">{f.name}</p>
             </div>
             <div className="flex flex-wrap gap-1 justify-end">

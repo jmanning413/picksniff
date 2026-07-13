@@ -24,7 +24,7 @@ export default async function Header() {
         <Link href="/" className="flex shrink-0 items-center gap-2 font-black" aria-label="PickSniff home">
           <Image src="/logo-mark.png" alt="" width={48} height={48} priority />
           <span className="text-2xl tracking-tight">
-            Pick<span className="text-green-accent">Sniff</span>
+            Pick<span className="text-green-deep">Sniff</span>
           </span>
         </Link>
 

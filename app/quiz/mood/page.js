@@ -139,9 +139,9 @@ export default function MoodQuizPage() {
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
           <Link href="/" className="flex items-center gap-2 font-bold" aria-label="PickSniff home">
             <Image src="/logo-mark.png" alt="" width={48} height={48} priority />
-            <span className="text-2xl font-black tracking-tight">Pick<span className="text-green-accent">Sniff</span></span>
+            <span className="text-2xl font-black tracking-tight">Pick<span className="text-green-deep">Sniff</span></span>
           </Link>
-          <span className="text-sm font-semibold text-zinc-400">{step + 1} of {TOTAL_STEPS}</span>
+          <span className="text-sm font-semibold text-slate">{step + 1} of {TOTAL_STEPS}</span>
         </header>
       </div>
 

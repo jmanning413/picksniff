@@ -75,7 +75,7 @@ export default async function PublicProfilePage({ params }) {
                   {profile.favorite_fragrance}
                 </p>
               )}
-              <p className="mt-2 text-xs text-zinc-400">
+              <p className="mt-2 text-xs text-slate">
                 Member since {new Date(profile.created_at).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
               </p>
             </div>
@@ -83,7 +83,7 @@ export default async function PublicProfilePage({ params }) {
 
           {earnedBadges.length > 0 && (
             <div className="mt-8">
-              <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">Badges</p>
+              <p className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">Badges</p>
               <div className="flex flex-wrap gap-2">
                 {earnedBadges.map((b) => (
                   <div key={b.id} title={b.description}
@@ -98,14 +98,14 @@ export default async function PublicProfilePage({ params }) {
 
           {ownedFragrances.length > 0 && (
             <div className="mt-10">
-              <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">
+              <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-slate">
                 Collection ({ownedFragrances.length})
               </p>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {ownedFragrances.map((f) => (
                   <Link key={f.id} href={`/fragrance/${f.id}`}
                     className="block rounded-lg border border-sand p-4 transition hover:border-green-accent hover:shadow-sm">
-                    <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+                    <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
                     <h3 className="mt-1 text-base font-black leading-tight text-black">{f.name}</h3>
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {(f.accords || []).slice(0, 3).map((a) => (
@@ -120,7 +120,7 @@ export default async function PublicProfilePage({ params }) {
 
           {(quizResults ?? []).length > 0 && (
             <div className="mt-10">
-              <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-zinc-400">Recent Quiz Results</p>
+              <p className="mb-4 text-xs font-black uppercase tracking-[0.18em] text-slate">Recent Quiz Results</p>
               <div className="space-y-2">
                 {(quizResults ?? []).slice(0, 5).map((r) => (
                   <Link key={r.id}

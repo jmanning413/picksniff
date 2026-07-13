@@ -90,7 +90,7 @@ function QuizHistory({ results }) {
                 </span>
               ))}
             </div>
-            <span className="shrink-0 text-xs text-zinc-400">
+            <span className="shrink-0 text-xs text-slate">
               {new Date(r.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
             </span>
           </div>
@@ -114,7 +114,7 @@ function FragranceGrid({ fragrances, emptyMessage }) {
           href={`/fragrance/${f.id}`}
           className="block rounded-lg border border-sand p-4 transition hover:border-green-accent hover:shadow-sm"
         >
-          <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{f.brand}</p>
+          <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-slate">{f.brand}</p>
           <h3 className="mt-1 text-base font-black leading-tight text-black">{f.name}</h3>
           <div className="mt-2 flex flex-wrap gap-1.5">
             {f.accords?.slice(0, 3).map((a) => (

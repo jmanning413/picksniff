@@ -32,6 +32,10 @@ const QUIZ_STRIP = [
   { href: '/quiz/gift', title: 'Gift', hint: 'Shopping for someone else?' },
 ]
 
+// Revalidate hourly: homepage is fully static content (FOTD rotates daily,
+// season banner changes quarterly) - ISR serves cached HTML on cold starts.
+export const revalidate = 3600
+
 export default async function Home() {
   const fragrances = await loadAllFragrances()
   const fotd = getFragranceOfDay(fragrances)
@@ -79,7 +83,7 @@ export default async function Home() {
                 <p className="text-xs font-black uppercase tracking-[0.16em] text-green-deep">
                   Signature Scent Quiz
                 </p>
-                <span className="text-xs font-bold text-zinc-400">1 of 4</span>
+                <span className="text-xs font-bold text-slate">1 of 4</span>
               </div>
               <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-100">
                 <div className="h-full w-1/4 rounded-full bg-green-accent" />
@@ -101,7 +105,7 @@ export default async function Home() {
                   </Link>
                 ))}
               </div>
-              <p className="mt-4 text-xs text-zinc-400">Tap one to start. Takes about a minute.</p>
+              <p className="mt-4 text-xs text-slate">Tap one to start. Takes about a minute.</p>
             </div>
             <p className="mt-4 text-center text-sm lg:text-left">
               <Link href="/quizzes" className="font-bold text-slate transition hover:text-black">
@@ -145,13 +149,13 @@ export default async function Home() {
                 <div className="min-w-0 flex-1">
                   <div className="flex gap-3">
                     <div className="min-w-0 flex-1">
-                      <p className="text-xs font-black uppercase tracking-[0.16em] text-zinc-400">Dior</p>
+                      <p className="text-xs font-black uppercase tracking-[0.16em] text-slate">Dior</p>
                       <h3 className="mt-0.5 text-xl font-black text-black">Sauvage EDT</h3>
                       <p className="mt-0.5 text-sm font-bold text-slate">EDT</p>
                     </div>
                     <div className="shrink-0 text-right">
                       <p className="text-2xl font-black text-green-deep">94%</p>
-                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-zinc-400">Match</p>
+                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate">Match</p>
                     </div>
                   </div>
                   <div className="mt-3 h-2 overflow-hidden rounded-full bg-zinc-100">
@@ -227,7 +231,7 @@ export default async function Home() {
                   <span className="text-3xl font-black text-black">{fotd.brand.charAt(0)}</span>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-zinc-400">{fotd.brand}</p>
+                  <p className="text-xs font-black uppercase tracking-[0.16em] text-slate">{fotd.brand}</p>
                   <h3 className="mt-1 text-xl font-black text-black group-hover:text-green-deep transition">{fotd.name}</h3>
                   {fotd.concentration && (
                     <p className="mt-1 text-sm font-bold text-slate">{fotd.concentration}</p>
@@ -269,7 +273,7 @@ export default async function Home() {
                     <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-green-accent">
                       <span className="text-lg font-black text-black">{f.brand.charAt(0)}</span>
                     </div>
-                    <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-zinc-400">{f.brand}</p>
+                    <p className="truncate text-xs font-black uppercase tracking-[0.14em] text-slate">{f.brand}</p>
                     <h3 className="mt-1 text-sm font-black leading-tight text-black group-hover:text-green-deep transition line-clamp-2">{f.name}</h3>
                     <div className="mt-2 flex flex-wrap gap-1">
                       {(f.accords || []).slice(0, 2).map((a) => (
