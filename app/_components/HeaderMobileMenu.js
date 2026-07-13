@@ -30,7 +30,7 @@ export default function HeaderMobileMenu({ isLoggedIn, username }) {
           className="fixed inset-x-0 top-[57px] z-40 border-b border-sand bg-white px-5 py-4 shadow-sm"
           onClick={() => setOpen(false)}
         >
-          <nav className="flex flex-col gap-1">
+          <nav aria-label="Mobile" className="flex flex-col gap-1">
             <Link href="/quizzes" className="rounded-lg px-3 py-2.5 text-sm font-bold text-zinc-700 hover:bg-zinc-50 hover:text-black">
               Quizzes
             </Link>

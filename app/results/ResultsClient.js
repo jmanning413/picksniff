@@ -320,7 +320,7 @@ export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vi
 
             {alsoLiked.length > 0 && (
               <div className="mt-12">
-                <p className="mb-6 text-sm font-black uppercase tracking-[0.18em] text-zinc-400">You might also like</p>
+                <h2 className="mb-6 text-sm font-black uppercase tracking-[0.18em] text-zinc-400">You might also like</h2>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {alsoLiked.map((f) => (
                     <Link key={f.id} href={`/fragrance/${f.id}`} className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm">

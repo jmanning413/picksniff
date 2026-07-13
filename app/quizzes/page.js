@@ -3,7 +3,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Quizzes | PickSniff',
+  title: 'Quizzes',
   description: 'Find your perfect fragrance through one of our guided quizzes. Signature scent, personality, seasonal, astrology, and gift quizzes.',
 }
 

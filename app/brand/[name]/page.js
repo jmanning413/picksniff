@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   const { name } = await params
   const brand = decodeURIComponent(name)
   return {
-    title: `${brand} Fragrances | PickSniff`,
+    title: `${brand} Fragrances`,
     description: `Explore all ${brand} fragrances in the PickSniff library. Find your perfect match.`,
   }
 }

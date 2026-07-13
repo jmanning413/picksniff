@@ -9,13 +9,13 @@ import { VIBE_LABELS } from '@/lib/constants'
 export async function generateMetadata({ params }) {
   const { slug } = await params
   const [id1, id2] = slug.split('-vs-')
-  if (!id1 || !id2) return { title: 'Compare | PickSniff' }
+  if (!id1 || !id2) return { title: 'Compare' }
   const all = await loadAllFragrances()
   const f1 = all.find((f) => f.id === id1)
   const f2 = all.find((f) => f.id === id2)
-  if (!f1 || !f2) return { title: 'Compare | PickSniff' }
+  if (!f1 || !f2) return { title: 'Compare' }
   return {
-    title: `${f1.brand} ${f1.name} vs ${f2.brand} ${f2.name} | PickSniff`,
+    title: `${f1.brand} ${f1.name} vs ${f2.brand} ${f2.name}`,
     description: `Side-by-side comparison of ${f1.name} by ${f1.brand} and ${f2.name} by ${f2.brand}. Accords, notes, tier, and where to buy.`,
   }
 }

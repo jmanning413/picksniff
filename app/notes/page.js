@@ -4,7 +4,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Notes Glossary | PickSniff',
+  title: 'Notes Glossary',
   description: 'Every fragrance note explained simply. What each note smells like, with real fragrance examples.',
 }
 

@@ -5,7 +5,7 @@ import Footer from '@/app/_components/Footer'
 import QuizIcon from '@/app/_components/QuizIcons'
 
 export const metadata = {
-  title: 'Accord Explorer | PickSniff',
+  title: 'Accord Explorer',
   description: 'Learn what every fragrance accord smells like, with real examples from our 750-fragrance library.',
 }
 

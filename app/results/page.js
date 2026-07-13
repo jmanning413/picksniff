@@ -9,7 +9,7 @@ import Footer from '@/app/_components/Footer'
 import ResultsClient from './ResultsClient'
 
 export const metadata = {
-  title: 'Your Matches | PickSniff',
+  title: 'Your Matches',
   description: 'Your personalised fragrance matches ranked by preference.',
 }
 

@@ -29,7 +29,7 @@ export default async function Header() {
         </Link>
 
         {/* Center nav — desktop */}
-        <nav className="hidden items-center gap-1 sm:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-1 sm:flex">
           <Link
             href="/quizzes"
             className="rounded-xl px-4 py-2 text-sm font-bold text-slate transition hover:bg-zinc-50 hover:text-black"

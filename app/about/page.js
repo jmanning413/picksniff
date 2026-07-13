@@ -2,7 +2,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'About | PickSniff',
+  title: 'About',
   description: 'Learn about PickSniff, the fragrance matchmaking app.',
 }
 

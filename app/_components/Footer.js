@@ -18,7 +18,7 @@ export default function Footer() {
           <span className="text-lg font-black">
             Pick<span className="text-green-accent">Sniff</span>
           </span>
-          <nav className="flex flex-wrap items-center gap-x-5 gap-y-2">
+          <nav aria-label="Footer" className="flex flex-wrap items-center gap-x-5 gap-y-2">
             {LINKS.map(([href, label]) => (
               <Link key={href} href={href} className="text-sm font-bold text-zinc-400 transition hover:text-cream">
                 {label}

@@ -10,7 +10,7 @@ import QuizIcon from '@/app/_components/QuizIcons'
 export async function generateMetadata({ params }) {
   const { username } = await params
   return {
-    title: `@${username} | PickSniff`,
+    title: `@${username}`,
     description: `View ${username}'s fragrance profile on PickSniff.`,
   }
 }

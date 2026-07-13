@@ -2,7 +2,7 @@ import Header from '@/app/_components/Header'
 import Footer from '@/app/_components/Footer'
 
 export const metadata = {
-  title: 'Privacy Policy | PickSniff',
+  title: 'Privacy Policy',
   description: 'PickSniff privacy policy.',
 }
 
