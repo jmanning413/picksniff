@@ -2,11 +2,33 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useActionState, useState } from 'react'
+import { useActionState, useEffect, useState } from 'react'
+import toast from 'react-hot-toast'
+import { createClient } from '@/lib/supabase/client'
 import { signIn, signUp } from './actions'
+
+function GoogleIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden>
+      <path fill="#4285F4" d="M23.5 12.27c0-.85-.08-1.66-.22-2.45H12v4.64h6.45a5.52 5.52 0 0 1-2.4 3.62v3h3.88c2.27-2.1 3.57-5.17 3.57-8.81z" />
+      <path fill="#34A853" d="M12 24c3.24 0 5.96-1.07 7.94-2.91l-3.88-3c-1.07.72-2.45 1.15-4.06 1.15-3.12 0-5.77-2.11-6.71-4.95H1.28v3.1A12 12 0 0 0 12 24z" />
+      <path fill="#FBBC05" d="M5.29 14.29A7.2 7.2 0 0 1 4.91 12c0-.8.14-1.57.38-2.29V6.6H1.28a12 12 0 0 0 0 10.78l4.01-3.1z" />
+      <path fill="#EA4335" d="M12 4.77c1.76 0 3.34.6 4.59 1.79l3.44-3.44C17.95 1.19 15.24 0 12 0A12 12 0 0 0 1.28 6.6l4.01 3.11C6.23 6.88 8.88 4.77 12 4.77z" />
+    </svg>
+  )
+}
+
+function AppleIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M16.36 12.79c.03 3.26 2.86 4.34 2.89 4.36-.02.08-.45 1.55-1.49 3.07-.9 1.31-1.83 2.62-3.3 2.65-1.44.03-1.91-.86-3.56-.86-1.65 0-2.17.83-3.53.89-1.42.05-2.5-1.42-3.4-2.73-1.86-2.68-3.28-7.56-1.37-10.86A5.28 5.28 0 0 1 7.05 6.6c1.39-.03 2.71.94 3.56 .94.85 0 2.45-1.16 4.13-.99.7.03 2.68.28 3.94 2.14-.1.06-2.35 1.37-2.32 4.1zM13.64 3.78c.75-.91 1.26-2.18 1.12-3.44-1.08.04-2.39.72-3.17 1.63-.7.81-1.31 2.1-1.14 3.34 1.2.09 2.44-.62 3.19-1.53z" />
+    </svg>
+  )
+}
 
 export default function AuthPage() {
   const [mode, setMode] = useState('signin')
+  const [oauthPending, setOauthPending] = useState('')
   const [signInState, signInAction, signInPending] = useActionState(signIn, null)
   const [signUpState, signUpAction, signUpPending] = useActionState(signUp, null)
 
@@ -14,6 +36,33 @@ export default function AuthPage() {
   const error = isSignIn ? signInState?.error : signUpState?.error
   const pending = isSignIn ? signInPending : signUpPending
   const action = isSignIn ? signInAction : signUpAction
+
+  // Surface OAuth callback failures (redirected back with ?error=oauth)
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get('error') === 'oauth') {
+      toast.error('Sign-in was cancelled or failed. Please try again.')
+      window.history.replaceState(null, '', '/auth')
+    }
+  }, [])
+
+  async function oauthSignIn(provider) {
+    setOauthPending(provider)
+    try {
+      const supabase = createClient()
+      const { error: oauthError } = await supabase.auth.signInWithOAuth({
+        provider,
+        options: { redirectTo: `${window.location.origin}/auth/callback` },
+      })
+      if (oauthError) {
+        toast.error(`${provider === 'google' ? 'Google' : 'Apple'} sign-in is not available right now.`)
+        setOauthPending('')
+      }
+      // on success the browser navigates away to the provider
+    } catch {
+      toast.error('Something went wrong. Please try again.')
+      setOauthPending('')
+    }
+  }
 
   return (
     <main className="flex min-h-screen flex-col bg-cream">
@@ -63,6 +112,33 @@ export default function AuthPage() {
               {error}
             </div>
           )}
+
+          <div className="space-y-2.5">
+            <button
+              type="button"
+              onClick={() => oauthSignIn('google')}
+              disabled={oauthPending !== ''}
+              className="flex w-full items-center justify-center gap-2.5 rounded-xl border border-sand bg-white py-3 text-sm font-bold text-black transition hover:border-green-accent disabled:opacity-50"
+            >
+              <GoogleIcon />
+              {oauthPending === 'google' ? 'Redirecting…' : `${isSignIn ? 'Sign in' : 'Sign up'} with Google`}
+            </button>
+            <button
+              type="button"
+              onClick={() => oauthSignIn('apple')}
+              disabled={oauthPending !== ''}
+              className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-ink py-3 text-sm font-bold text-cream transition hover:opacity-90 disabled:opacity-50"
+            >
+              <AppleIcon />
+              {oauthPending === 'apple' ? 'Redirecting…' : `${isSignIn ? 'Sign in' : 'Sign up'} with Apple`}
+            </button>
+          </div>
+
+          <div className="my-6 flex items-center gap-3">
+            <div className="h-px flex-1 bg-sand" />
+            <span className="text-xs font-bold uppercase tracking-[0.14em] text-zinc-400">or</span>
+            <div className="h-px flex-1 bg-sand" />
+          </div>
 
           <form action={action} className="space-y-4">
             {!isSignIn && (
