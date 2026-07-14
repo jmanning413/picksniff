@@ -13,7 +13,9 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "img-src 'self' blob: data: https:",
       "font-src 'self' https://fonts.gstatic.com",
-      "connect-src 'self' https://*.supabase.co https://*.supabase.com wss://*.supabase.co https://www.google-analytics.com",
+      // GA4 loads gtag from googletagmanager and beacons to *.google-analytics.com /
+      // *.analytics.google.com (region-specific). Wildcards keep the collect hit from being blocked.
+      "connect-src 'self' https://*.supabase.co https://*.supabase.com wss://*.supabase.co https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
       "frame-ancestors 'none'",
     ].join('; '),
   },

@@ -36,8 +36,10 @@ export default function PrivacyPage() {
           <section>
             <h2 className="mb-2 text-lg font-black text-black">Cookies</h2>
             <p>
-              We use cookies only for authentication (Supabase session). We do not use tracking
-              cookies or advertising cookies.
+              We use essential cookies for authentication (your Supabase session). We may use
+              privacy-friendly analytics (Google Analytics) to understand aggregate usage, such as
+              which pages are popular. This measures traffic in aggregate and is not used to
+              identify you individually. We do not use advertising cookies and we do not sell your data.
             </p>
           </section>
 
