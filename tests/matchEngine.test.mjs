@@ -277,6 +277,18 @@ test('rankFragrances respects limit and handles empty pool', () => {
   assert.equal(r.length, 5)
 })
 
+test('rankFragrances de-duplicates same brand+name+concentration', () => {
+  const pool = [
+    frag(['Amber', 'Spicy', 'Woody'], { brand: 'Versace', name: 'Eros Flame' }),
+    frag(['Amber', 'Spicy', 'Woody'], { brand: 'Versace', name: 'Eros Flame' }), // dup
+    frag(['Fresh', 'Citrus', 'Aquatic'], { brand: 'Dior', name: 'Sauvage' }),
+  ]
+  // both Eros Flames default to EDP via the frag() fixture
+  const results = rankFragrances(pool, { ...OPTS, accords: ['Amber'], limit: 10 })
+  const erosCount = results.filter((f) => f.name === 'Eros Flame').length
+  assert.equal(erosCount, 1, 'Eros Flame must appear exactly once')
+})
+
 test('rankFragrances is deterministic', () => {
   const a = rankFragrances(pool20(), { ...OPTS, accords: ['Vanilla', 'Amber'], limit: 10 })
   const b = rankFragrances(pool20(), { ...OPTS, accords: ['Vanilla', 'Amber'], limit: 10 })
