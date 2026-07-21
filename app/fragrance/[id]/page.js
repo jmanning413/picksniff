@@ -127,15 +127,47 @@ export default async function FragrancePage({ params }) {
           </div>
         )}
 
-        {/* Notes render only when real note data exists (today top_notes just
-            mirrors accords, so showing it is pure duplication - owner call).
-            Label stays "Notes" until the full top/heart/base dataset lands. */}
-        {f.top_notes?.length > 0 && JSON.stringify(f.top_notes) !== JSON.stringify(f.accords) && (
+        {/* Real top/heart/base pyramid. Gated on middle+base existing so rows
+            still carrying the legacy accord-mirror top_notes render nothing
+            rather than a half-empty pyramid. See docs/CATALOG.md Stage A/D. */}
+        {f.middle_notes?.length > 0 && f.base_notes?.length > 0 && (
           <div className="mt-8">
             <h2 className="mb-3 text-xs font-black uppercase tracking-[0.18em] text-slate">
               Notes
             </h2>
-            <p className="text-sm leading-7 text-slate">{f.top_notes.join(' · ')}</p>
+            <dl className="overflow-hidden rounded-2xl border border-sand bg-white">
+              {[
+                { label: 'Top', hint: 'First impression', notes: f.top_notes },
+                { label: 'Heart', hint: 'The core', notes: f.middle_notes },
+                { label: 'Base', hint: 'The dry-down', notes: f.base_notes },
+              ]
+                .filter((tier) => tier.notes?.length > 0)
+                .map((tier, i) => (
+                  <div
+                    key={tier.label}
+                    className={`flex flex-col gap-2 p-4 sm:flex-row sm:items-baseline sm:gap-5 ${
+                      i > 0 ? 'border-t border-sand' : ''
+                    }`}
+                  >
+                    <dt className="sm:w-24 sm:shrink-0">
+                      <span className="block text-xs font-black uppercase tracking-[0.18em] text-green-deep">
+                        {tier.label}
+                      </span>
+                      <span className="block text-xs text-slate">{tier.hint}</span>
+                    </dt>
+                    <dd className="flex flex-wrap gap-2">
+                      {tier.notes.map((n) => (
+                        <span
+                          key={n}
+                          className="rounded-full bg-green-wash px-3 py-1 text-sm font-bold text-zinc-700"
+                        >
+                          {n}
+                        </span>
+                      ))}
+                    </dd>
+                  </div>
+                ))}
+            </dl>
           </div>
         )}
 
