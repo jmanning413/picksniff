@@ -411,13 +411,19 @@
       "Fruity"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fruity"
+      "Rangoon Creeper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine Sambac"
+    ],
+    "base_notes": [
+      "Orris Root"
+    ],
+    "description": "A dense white-floral bouquet, tuberose forward, with powdery orris underneath. Lush and unapologetically floral.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-lancome-la-vie-est-belle",
@@ -431,13 +437,24 @@
       "Fruity"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fruity"
+      "Blackcurrant",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "description": "A sweet gourmand centered on praline and iris, softened by tonka and vanilla. Rich but rounded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-marc-jacobs-daisy",
@@ -671,13 +688,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Orange",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Litchi",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver",
+      "Vanilla",
+      "White Musk",
+      "Tonka Bean"
+    ],
+    "description": "Bright orange and rose riding on a bold patchouli base. Confident and modern, a genuine signature scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-parfums-de-marly-parfums-de-marly-delina",
@@ -811,13 +842,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Cardamom",
+      "Iris",
+      "Violet"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ambrox",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Cedarwood",
+      "Leather",
+      "Papyrus"
+    ],
+    "description": "Dry sandalwood and cedar wrapped in leather and a smoky violet. Unmistakable, and it carries across a room.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-le-labo-le-labo-another-13",
@@ -831,13 +872,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Pear",
+      "Ambrette"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Ambroxan"
+    ],
+    "base_notes": [
+      "Moss",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "A clean skin-musk built on ambroxan with a whisper of pear. Quiet and magnetic rather than loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-creed-creed-fleurissimo",
@@ -871,13 +921,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Raspberry",
+      "Blackcurrant",
+      "Cinnamon",
+      "Clove"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turkish Rose",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Frankincense",
+      "Benzoin",
+      "Musk",
+      "Amber"
+    ],
+    "description": "A monumental rose built on patchouli and incense. Dense, dramatic and long-lasting, with nothing shy about it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-amouage-amouage-blossom-love",
@@ -991,12 +1054,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Rum",
+      "Cinnamon",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "description": "Boozy rum and tobacco poured over vanilla and sandalwood. Rich, heady and firmly after-dark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

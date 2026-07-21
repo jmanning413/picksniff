@@ -251,13 +251,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Mandarin",
+      "Fig Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Jasmine",
+      "Water Lily"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Olive Tree"
+    ],
+    "description": "Green fig leaf and citrus over a soft woody base. Mediterranean and leafy, light on its feet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-calvin-klein-ck-one",
@@ -271,13 +282,33 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Lemon",
+      "Bergamot",
+      "Cardamom",
+      "Pineapple",
+      "Papaya",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Nutmeg",
+      "Violet",
+      "Orris Root",
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Amber",
+      "Musk",
+      "Oakmoss",
+      "Green Tea"
+    ],
+    "description": "The blueprint for shared fragrance: citrus and green tea over soft musk. Nineties to its core and still endlessly wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-escada-escada-sorbetto-rosso",
@@ -511,13 +542,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Mandarin",
+      "Neroli",
+      "Galbanum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Benzoin",
+      "Cedar",
+      "Incense"
+    ],
+    "description": "Powdery iris over clean citrus and a trace of incense. Soft, refined, and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-marc-jacobs-daisy-eau-so-fresh",
@@ -691,13 +733,23 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Lime",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Basil",
+      "Lilac",
+      "Iris"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Zesty lime lifted by peppery basil over a quiet woody base. The house signature, crisp and immediately recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-maison-margiela-maison-margiela-replica-beach-walk",
@@ -751,13 +803,23 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Bergamot",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Petitgrain"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Musk",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "A bright citrus opening anchored by vetiver and musk so it lasts. Clean and sparkling with real staying power.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-hermes-hermes-un-jardin-sur-le-nil",
@@ -851,13 +913,20 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Ambrette Seeds",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Salt"
+    ],
+    "base_notes": [
+      "Sage",
+      "Red Algae"
+    ],
+    "description": "A windswept shoreline in a bottle: mineral sea salt against earthy sage. Airy, dry, and deliberately understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-le-labo-le-labo-citron-28",
@@ -931,13 +1000,23 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Blood Orange",
+      "Bitter Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "description": "A vivid squeeze of blood orange held up by sandalwood and tonka. Juicy at the open, warm and lasting underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-parfums-de-marly-parfums-de-marly-meliora",

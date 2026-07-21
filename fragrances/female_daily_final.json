@@ -31,13 +31,25 @@
       "Floral"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Floral"
+      "Sicilian Lemon",
+      "Apple",
+      "Cedar",
+      "Bluebell"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bamboo",
+      "Jasmine",
+      "White Rose"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Crisp Sicilian lemon and green apple over soft cedar. A sun-on-skin summer staple, breezy and instantly likeable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-lacoste-eau-de-lacoste-pour-femme",
@@ -351,13 +363,27 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Fresh"
+      "Orange",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Litchi",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver",
+      "Vanilla",
+      "White Musk",
+      "Tonka Bean"
+    ],
+    "description": "Bright orange and rose riding on a bold patchouli base. Confident and modern, a genuine signature scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-dior-miss-dior",
@@ -471,13 +497,24 @@
       "Fruity"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fruity"
+      "Blackcurrant",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "description": "A sweet gourmand centered on praline and iris, softened by tonka and vanilla. Rich but rounded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-marc-jacobs-daisy-love",
@@ -611,13 +648,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Woody"
+      "Almond",
+      "Coffee"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine Sambac",
+      "Bulgarian Rose",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cacao",
+      "Vanilla",
+      "Praline",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Roasted coffee and bitter almond over a bed of white flowers, landing on praline and tonka. Sweet and dark at once, built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-giorgio-armani-acqua-di-gioia",
@@ -691,13 +742,24 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Fresh"
+      "Rose",
+      "Cumin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedar",
+      "Vetiver",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Oud",
+      "Musk",
+      "Amber",
+      "Guaiac Wood"
+    ],
+    "description": "Rose stripped of sweetness and pushed through cumin and dry woods. Spiky and unisex, nothing like a rose soliflore.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-le-labo-le-labo-ylang-49",

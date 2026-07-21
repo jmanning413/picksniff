@@ -11,13 +11,33 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Lemon",
+      "Bergamot",
+      "Cardamom",
+      "Pineapple",
+      "Papaya",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Nutmeg",
+      "Violet",
+      "Orris Root",
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Amber",
+      "Musk",
+      "Oakmoss",
+      "Green Tea"
+    ],
+    "description": "The blueprint for shared fragrance: citrus and green tea over soft musk. Nineties to its core and still endlessly wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-giorgio-armani-acqua-di-gio",
@@ -51,13 +71,30 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Aromatic"
+      "Sea Water",
+      "Mint",
+      "Lavender",
+      "Coriander",
+      "Rosemary",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sandalwood",
+      "Neroli",
+      "Geranium",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Oakmoss",
+      "Amber",
+      "Tobacco"
+    ],
+    "description": "The fragrance that invented the aquatic genre: sea spray, mint and lavender over warm woods. A permanent reference point.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-nautica-nautica-voyage",
@@ -71,13 +108,23 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Apple",
+      "Green Leaves"
     ],
-    "description": "",
+    "middle_notes": [
+      "Mimosa",
+      "Water Lotus",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Moss"
+    ],
+    "description": "Crisp green apple over airy lotus and soft cedar. Fresh, breezy, and famously good value.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-dolce-gabbana-light-blue",
@@ -91,13 +138,25 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Sicilian Lemon",
+      "Apple",
+      "Cedar",
+      "Bluebell"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bamboo",
+      "Jasmine",
+      "White Rose"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Crisp Sicilian lemon and green apple over soft cedar. A sun-on-skin summer staple, breezy and instantly likeable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-adidas-adidas-ice-dive",
@@ -131,13 +190,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Mandarin",
+      "Fig Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Jasmine",
+      "Water Lily"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Olive Tree"
+    ],
+    "description": "Green fig leaf and citrus over a soft woody base. Mediterranean and leafy, light on its feet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-lacoste-lacoste-l-12-12-blanc",
@@ -151,13 +221,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Grapefruit",
+      "Rosemary",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Ylang-Ylang",
+      "Woody Notes"
+    ],
+    "base_notes": [
+      "Virginia Cedar",
+      "Leather",
+      "Suede"
+    ],
+    "description": "Crisp grapefruit and rosemary over a soft suede base. Clean and laundered, the definition of an easy daily wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-hugo-boss-hugo-boss-hugo",
@@ -171,13 +252,29 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Green",
-      "Aromatic"
+      "Green Apple",
+      "Mint",
+      "Basil",
+      "Grapefruit",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Carnation",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Fir",
+      "Cedar",
+      "Patchouli",
+      "Vetiver",
+      "Musk"
+    ],
+    "description": "Green apple and mint over pine and cedar. Sharp and energetic, a nineties staple that still reads fresh.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-azzaro-azzaro-chrome",
@@ -191,13 +288,29 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Lemon",
+      "Bergamot",
+      "Neroli",
+      "Pineapple",
+      "Rosemary"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Cyclamen",
+      "Coriander",
+      "Oakmoss"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Cedar",
+      "Tonka Bean",
+      "Brazilian Rosewood"
+    ],
+    "description": "Clean citrus and neroli over soft woods and musk. Soapy, fresh, and reliably inoffensive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-tommy-hilfiger-tommy-hilfiger-tommy",
@@ -211,13 +324,29 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Green",
-      "Citrus"
+      "Apple",
+      "Grapefruit",
+      "Lemon",
+      "Lavender",
+      "Mint",
+      "Cranberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Sage",
+      "Cactus",
+      "Cotton Flower"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "Apple and mint over a soft cotton-and-musk base. All-American and uncomplicated, easy in any season.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-clinique-clinique-happy",
@@ -271,13 +400,27 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Green"
+      "Bergamot",
+      "Lemon",
+      "Mint",
+      "Rhubarb"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Jasmine",
+      "Fennel",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Oakmoss",
+      "Celery Seed"
+    ],
+    "description": "Steeped green tea with citrus and mint. Light, clean and refreshing, closer to a spa than a perfume counter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-issey-miyake-issey-miyake-l-eau-d-issey",
@@ -291,13 +434,28 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Lotus",
+      "Freesia",
+      "Cyclamen",
+      "Melon",
+      "Rose Water"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Lily",
+      "Carnation",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Amber",
+      "Osmanthus"
+    ],
+    "description": "Watery lotus and peony over clean woods. Translucent and cool, a defining floral of its era.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-versace-versace-dylan-blue",
@@ -331,13 +489,27 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Green"
+      "Mandarin",
+      "Peach",
+      "Nectarine",
+      "Wild Rose",
+      "Reseda"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Hyacinth",
+      "Blue Cedar"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Musk",
+      "Honey"
+    ],
+    "description": "Soft stone fruit and hyacinth over warm cedar and honey. Relaxed and floral, exactly as the name suggests.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-dior-sauvage",
@@ -351,13 +523,27 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Bergamot",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sichuan Pepper",
+      "Lavender",
+      "Pink Pepper",
+      "Vetiver",
+      "Patchouli",
+      "Geranium",
+      "Elemi"
+    ],
+    "base_notes": [
+      "Ambroxan",
+      "Cedar",
+      "Labdanum"
+    ],
+    "description": "A bright bergamot opening gives way to a peppery heart and a warm, mineral trail of ambroxan and cedar. Clean and forceful.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-giorgio-armani-acqua-di-gio-profondo",
@@ -371,13 +557,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Sea Notes",
+      "Bergamot",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rosemary",
+      "Lavender",
+      "Cypress",
+      "Mastic"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Mineral Notes"
+    ],
+    "description": "A darker, deeper take on the aquatic original, with rosemary and cypress over wet stone. Cool and serious.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-chanel-bleu-de-chanel",
@@ -391,13 +589,29 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Grapefruit",
+      "Lemon",
+      "Mint",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Nutmeg",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Incense",
+      "Vetiver",
+      "Cedar",
+      "Sandalwood",
+      "Patchouli",
+      "Labdanum",
+      "White Musk"
+    ],
+    "description": "Citrus and mint sharpened by ginger, settling into smoky incense and cedar. Polished, versatile, hard to wear badly.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-paco-rabanne-invictus",
@@ -431,13 +645,23 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Geranium",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Bitter orange over flint, pepper and dry vetiver. Mineral and earthy, a modern classic with real structure.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-yves-saint-laurent-y",
@@ -511,13 +735,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Bergamot",
+      "Black Pepper",
+      "Juniper Berries"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedarwood",
+      "Pine"
+    ],
+    "base_notes": [
+      "Atlas Cedar",
+      "Virginia Cedar",
+      "Vetiver",
+      "Benzoin"
+    ],
+    "description": "A study in cedar, layered three ways over bright bergamot and pepper. Woody and upright without turning heavy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-prada-prada-infusion-d-iris",
@@ -531,13 +766,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Mandarin",
+      "Neroli",
+      "Galbanum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Benzoin",
+      "Cedar",
+      "Incense"
+    ],
+    "description": "Powdery iris over clean citrus and a trace of incense. Soft, refined, and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-montblanc-montblanc-explorer",
@@ -571,13 +817,19 @@
       "Green"
     ],
     "top_notes": [
-      "Aromatic",
-      "Fresh",
-      "Green"
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Narcissus",
+      "Rosewood"
+    ],
+    "base_notes": [
+      "Sclarene"
+    ],
+    "description": "Green clary sage and narcissus against a smooth, almost metallic warmth. Modern and unusual, more sculpture than bouquet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-yves-saint-laurent-libre",
@@ -711,13 +963,22 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Petitgrain"
+    ],
+    "description": "Green tea and blackcurrant over clean musk, cool as meltwater. Bright and transparent, built for warm days.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-byredo-byredo-gypsy-water",
@@ -731,13 +992,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Bergamot",
+      "Lemon",
+      "Pepper",
+      "Juniper Berries"
     ],
-    "description": "",
+    "middle_notes": [
+      "Incense",
+      "Pine Needles",
+      "Orris"
+    ],
+    "base_notes": [
+      "Amber",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Pine and incense smoothed by vanilla and amber. Reads like a campfire the morning after, clean rather than smoky.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-diptyque-diptyque-oyedo",
@@ -751,13 +1024,20 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Yuzu",
+      "Mandarin",
+      "Lime"
     ],
-    "description": "",
+    "middle_notes": [
+      "Thyme"
+    ],
+    "base_notes": [
+      "Woody Notes"
+    ],
+    "description": "A sharp burst of yuzu and mandarin cut with thyme. Tart and zesty, closer to a citrus peel than a cologne.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-diptyque-diptyque-philosykos",
@@ -771,13 +1051,20 @@
       "Citrus"
     ],
     "top_notes": [
-      "Green",
-      "Fresh",
-      "Citrus"
+      "Fig Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Fig",
+      "Coconut"
+    ],
+    "base_notes": [
+      "White Cedar",
+      "Woody Notes"
+    ],
+    "description": "The whole fig tree: green leaf, milky fruit and dry wood. Sun-warmed and Mediterranean, beautifully simple.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-maison-margiela-maison-margiela-replica-beach-walk",
@@ -831,13 +1118,20 @@
       "Green"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Green"
+      "Ambrette Seeds",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Salt"
+    ],
+    "base_notes": [
+      "Sage",
+      "Red Algae"
+    ],
+    "description": "A windswept shoreline in a bottle: mineral sea salt against earthy sage. Airy, dry, and deliberately understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-jo-malone-jo-malone-lime-basil-mandarin",
@@ -851,13 +1145,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Lime",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Basil",
+      "Lilac",
+      "Iris"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Zesty lime lifted by peppery basil over a quiet woody base. The house signature, crisp and immediately recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-le-labo-le-labo-bergamote-22",
@@ -871,13 +1175,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Bergamot",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Petitgrain"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Musk",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "A bright citrus opening anchored by vetiver and musk so it lasts. Clean and sparkling with real staying power.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-atelier-cologne-atelier-cologne-orange-sanguine",
@@ -891,13 +1205,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Blood Orange",
+      "Bitter Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "description": "A vivid squeeze of blood orange held up by sandalwood and tonka. Juicy at the open, warm and lasting underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-hermes-hermes-un-jardin-sur-le-nil",
@@ -931,13 +1255,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Pineapple",
+      "Grapefruit",
+      "Bergamot",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Patchouli",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Woody Notes",
+      "Amber"
+    ],
+    "description": "A juicy pineapple opening over dry woods and moss. Rich and fruity with a polished, resinous finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-byredo-byredo-super-cedar",
@@ -951,13 +1287,19 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Rose"
     ],
-    "description": "",
+    "middle_notes": [
+      "Virginia Cedar"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Pencil-shaving cedar softened by a single rose and clean musk. Minimal by design, close to the skin.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-xerjoff-xerjoff-40-knots",
@@ -991,12 +1333,22 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Bergamot",
+      "Citron",
+      "Neroli"
     ],
-    "description": "",
+    "middle_notes": [
+      "Black Tea",
+      "Ginger"
+    ],
+    "base_notes": [
+      "Ambroxan",
+      "Guaiac Wood",
+      "Cedar"
+    ],
+    "description": "Sparkling citrus over smoky black tea and warm ambroxan. Light and radiant with an unexpected woody depth.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

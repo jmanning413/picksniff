@@ -111,13 +111,29 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Green"
+      "Apple",
+      "Grapefruit",
+      "Lemon",
+      "Lavender",
+      "Mint",
+      "Cranberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Sage",
+      "Cactus",
+      "Cotton Flower"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "Apple and mint over a soft cotton-and-musk base. All-American and uncomplicated, easy in any season.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-clinique-clinique-chemistry",
@@ -191,13 +207,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Grapefruit",
+      "Rosemary",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Ylang-Ylang",
+      "Woody Notes"
+    ],
+    "base_notes": [
+      "Virginia Cedar",
+      "Leather",
+      "Suede"
+    ],
+    "description": "Crisp grapefruit and rosemary over a soft suede base. Clean and laundered, the definition of an easy daily wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-davidoff-davidoff-champion",
@@ -351,13 +378,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Fresh",
-      "Aromatic"
+      "Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Geranium",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Bitter orange over flint, pepper and dry vetiver. Mineral and earthy, a modern classic with real structure.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-dior-dior-homme",
@@ -671,13 +708,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Cardamom",
+      "Iris",
+      "Violet"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ambrox",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Cedarwood",
+      "Leather",
+      "Papyrus"
+    ],
+    "description": "Dry sandalwood and cedar wrapped in leather and a smoky violet. Unmistakable, and it carries across a room.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-le-labo-le-labo-the-noir-29",
@@ -711,13 +758,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Pear",
+      "Ambrette"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Ambroxan"
+    ],
+    "base_notes": [
+      "Moss",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "A clean skin-musk built on ambroxan with a whisper of pear. Quiet and magnetic rather than loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-maison-margiela-maison-margiela-replica-jazz-club",
@@ -791,13 +847,20 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Green",
-      "Woody"
+      "Ambrette Seeds",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Salt"
+    ],
+    "base_notes": [
+      "Sage",
+      "Red Algae"
+    ],
+    "description": "A windswept shoreline in a bottle: mineral sea salt against earthy sage. Airy, dry, and deliberately understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-jo-malone-jo-malone-dark-amber-ginger-lily",
@@ -871,13 +934,22 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Green"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Petitgrain"
+    ],
+    "description": "Green tea and blackcurrant over clean musk, cool as meltwater. Bright and transparent, built for warm days.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-creed-creed-original-vetiver",

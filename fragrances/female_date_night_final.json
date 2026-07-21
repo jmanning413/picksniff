@@ -91,13 +91,31 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Floral"
+      "Bergamot",
+      "Cotton Candy",
+      "Melon",
+      "Coconut"
     ],
-    "description": "",
+    "middle_notes": [
+      "Red Berries",
+      "Honey",
+      "Peach",
+      "Apricot",
+      "Plum",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Chocolate",
+      "Caramel",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "The original gourmand: caramel and chocolate slammed against earthy patchouli. Divisive, unmistakable, and genuinely historic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-victoria-s-secret-bombshell",
@@ -371,13 +389,31 @@
       "Amber"
     ],
     "top_notes": [
-      "Spicy",
-      "Floral",
-      "Amber"
+      "Coriander",
+      "Peach",
+      "Mandarin",
+      "Bulgarian Rose",
+      "Angelica"
     ],
-    "description": "",
+    "middle_notes": [
+      "Clove",
+      "Rose",
+      "Jasmine",
+      "Orange Blossom",
+      "Mimosa"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Vanilla",
+      "Tonka Bean",
+      "Opoponax",
+      "Labdanum"
+    ],
+    "description": "Spiced florals over deep amber and resin. Opulent and old-world, a very different animal from Mademoiselle.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-giorgio-armani-s-354-passione",

@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "purpose": "PROOF SAMPLE for docs/CATALOG.md Stage A (real note pyramids). Five iconic catalog entries, real note data sourced from general knowledge of the mainline formulations. NOT merged into /fragrances - this is a review artifact per CATALOG.md rule 5. Joseph validates accuracy + format here BEFORE the full top-100 batch is built.",
+    "verify_before_merge": "Every entry must be spot-checked against the brand's or a major retailer's product page. Note pyramids can differ by concentration (e.g. Sauvage EDT vs EDP vs Parfum) - confirm the concentration each catalog id actually carries.",
+    "note_on_duplicate_ids": "Several of these products appear in the catalog under multiple gender/vibe/tier ids (Sauvage has ~7). Notes are per-PRODUCT, so in the real batch one verified pyramid propagates to every id variant of that product.",
+    "created": "2026-07-20"
+  },
+  "entries": [
+    {
+      "id": "male-daily-quality-dior-sauvage",
+      "name": "Sauvage",
+      "brand": "Dior",
+      "concentration_assumed": "EDT",
+      "top_notes": ["Bergamot", "Pepper"],
+      "middle_notes": ["Sichuan Pepper", "Lavender", "Pink Pepper", "Vetiver", "Patchouli", "Geranium", "Elemi"],
+      "base_notes": ["Ambroxan", "Cedar", "Labdanum"],
+      "description": "A bright, radiant opening of bergamot gives way to a peppery, aromatic heart and a warm, mineral trail of ambroxan and cedar. Clean and forceful, it reads modern and effortless in equal measure.",
+      "confidence": "high"
+    },
+    {
+      "id": "male-sport-niche-creed-creed-aventus",
+      "name": "Creed Aventus",
+      "brand": "Creed",
+      "concentration_assumed": "EDP",
+      "top_notes": ["Bergamot", "Blackcurrant", "Apple", "Pineapple"],
+      "middle_notes": ["Birch", "Patchouli", "Moroccan Jasmine", "Rose"],
+      "base_notes": ["Oakmoss", "Dry Woods", "Ambergris", "Vanilla", "Musk"],
+      "description": "A fruity, smoky signature built on juicy pineapple and blackcurrant over a dry, birch-smoke base. Bold and polished, it wears like confidence in a bottle.",
+      "confidence": "high"
+    },
+    {
+      "id": "female-date-night-budget-yves-saint-laurent-black-opium",
+      "name": "Black Opium",
+      "brand": "Yves Saint Laurent",
+      "concentration_assumed": "EDP",
+      "top_notes": ["Pear", "Pink Pepper", "Orange Blossom"],
+      "middle_notes": ["Coffee", "Jasmine", "Bitter Almond", "Licorice"],
+      "base_notes": ["Vanilla", "Patchouli", "Cedar", "Cashmere Wood"],
+      "description": "A jolt of black coffee wrapped in sweet vanilla and white flowers. Addictive and nocturnal, it leans into warmth without tipping into cloying.",
+      "confidence": "high"
+    },
+    {
+      "id": "female-daily-budget-dolce-gabbana-light-blue",
+      "name": "Light Blue",
+      "brand": "Dolce & Gabbana",
+      "concentration_assumed": "EDT",
+      "top_notes": ["Sicilian Lemon", "Apple", "Cedar", "Bluebell"],
+      "middle_notes": ["Bamboo", "Jasmine", "White Rose"],
+      "base_notes": ["Cedar", "Musk", "Amber"],
+      "description": "Crisp Sicilian lemon and green apple over a soft cedar base. A sun-on-skin summer staple, breezy and instantly likeable.",
+      "confidence": "high"
+    },
+    {
+      "id": "female-daily-quality-lancome-la-vie-est-belle",
+      "name": "La Vie Est Belle",
+      "brand": "Lancôme",
+      "concentration_assumed": "EDP",
+      "top_notes": ["Blackcurrant", "Pear"],
+      "middle_notes": ["Iris", "Jasmine", "Orange Blossom"],
+      "base_notes": ["Praline", "Vanilla", "Patchouli", "Tonka Bean"],
+      "description": "A sweet gourmand centered on praline and iris, softened by tonka and vanilla. Rich but rounded, it stays comforting rather than heavy.",
+      "confidence": "high"
+    }
+  ]
+}

@@ -151,13 +151,30 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Freesia",
+      "Sage",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lily",
+      "Rose",
+      "Jasmine",
+      "Lily-of-the-Valley",
+      "Narcissus",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Musk",
+      "Patchouli",
+      "Heliotrope"
+    ],
+    "description": "A full white-floral bouquet over powdery sandalwood and amber. Classic, composed, and built to last.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-gucci-gucci-rush",
@@ -231,13 +248,31 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Coriander",
+      "Peach",
+      "Mandarin",
+      "Bulgarian Rose",
+      "Angelica"
     ],
-    "description": "",
+    "middle_notes": [
+      "Clove",
+      "Rose",
+      "Jasmine",
+      "Orange Blossom",
+      "Mimosa"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Vanilla",
+      "Tonka Bean",
+      "Opoponax",
+      "Labdanum"
+    ],
+    "description": "Spiced florals over deep amber and resin. Opulent and old-world, a very different animal from Mademoiselle.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-dior-hypnotic-poison",
@@ -251,13 +286,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Coconut",
+      "Plum",
+      "Apricot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Tuberose",
+      "Rose",
+      "Caraway",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Almond",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Bitter almond and coconut wrapped in creamy vanilla. Hypnotic is the right word, warm and faintly dangerous.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-thierry-mugler-angel",
@@ -271,13 +320,31 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Cotton Candy",
+      "Melon",
+      "Coconut"
     ],
-    "description": "",
+    "middle_notes": [
+      "Red Berries",
+      "Honey",
+      "Peach",
+      "Apricot",
+      "Plum",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Chocolate",
+      "Caramel",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "The original gourmand: caramel and chocolate slammed against earthy patchouli. Divisive, unmistakable, and genuinely historic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-versace-crystal-noir",
@@ -471,13 +538,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "description": "Lavender and vanilla in the classic Guerlain register, richer and more resinous than the original. Soft but substantial.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-yves-saint-laurent-libre",
@@ -671,13 +749,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Almond",
+      "Coffee"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine Sambac",
+      "Bulgarian Rose",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cacao",
+      "Vanilla",
+      "Praline",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Roasted coffee and bitter almond over a bed of white flowers, landing on praline and tonka. Sweet and dark at once, built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-amouage-amouage-gold-woman",
@@ -911,13 +1003,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Rose",
+      "Cumin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedar",
+      "Vetiver",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Oud",
+      "Musk",
+      "Amber",
+      "Guaiac Wood"
+    ],
+    "description": "Rose stripped of sweetness and pushed through cumin and dry woods. Spiky and unisex, nothing like a rose soliflore.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-louis-vuitton-lv-rose-des-vents",
@@ -971,13 +1074,30 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Bergamot",
+      "Lemon",
+      "Mandarin",
+      "Cedar"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Rose",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Opoponax",
+      "Incense",
+      "Leather",
+      "Sandalwood"
+    ],
+    "description": "Smoky vanilla and incense over bright citrus, a template the whole oriental family still follows. Nearly a century old and still commanding.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-initio-oud-for-greatness",

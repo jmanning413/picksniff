@@ -51,13 +51,31 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Floral"
+      "Bergamot",
+      "Cotton Candy",
+      "Melon",
+      "Coconut"
     ],
-    "description": "",
+    "middle_notes": [
+      "Red Berries",
+      "Honey",
+      "Peach",
+      "Apricot",
+      "Plum",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Chocolate",
+      "Caramel",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "The original gourmand: caramel and chocolate slammed against earthy patchouli. Divisive, unmistakable, and genuinely historic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-viktor-rolf-spicebomb",
@@ -131,13 +149,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Blackcurrant",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "description": "A sweet gourmand centered on praline and iris, softened by tonka and vanilla. Rich but rounded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-thierry-mugler-alien",
@@ -171,13 +200,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Almond",
+      "Coffee"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine Sambac",
+      "Bulgarian Rose",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cacao",
+      "Vanilla",
+      "Praline",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Roasted coffee and bitter almond over a bed of white flowers, landing on praline and tonka. Sweet and dark at once, built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-versace-eros",
@@ -231,13 +274,27 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Orange",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Litchi",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver",
+      "Vanilla",
+      "White Musk",
+      "Tonka Bean"
+    ],
+    "description": "Bright orange and rose riding on a bold patchouli base. Confident and modern, a genuine signature scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-paco-rabanne-olympea",
@@ -291,13 +348,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Coconut",
+      "Plum",
+      "Apricot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Tuberose",
+      "Rose",
+      "Caraway",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Almond",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Bitter almond and coconut wrapped in creamy vanilla. Hypnotic is the right word, warm and faintly dangerous.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-givenchy-givenchy-l-interdit",
@@ -331,13 +402,30 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Freesia",
+      "Sage",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lily",
+      "Rose",
+      "Jasmine",
+      "Lily-of-the-Valley",
+      "Narcissus",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Musk",
+      "Patchouli",
+      "Heliotrope"
+    ],
+    "description": "A full white-floral bouquet over powdery sandalwood and amber. Classic, composed, and built to last.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-viktor-rolf-spicebomb-extreme",
@@ -391,13 +479,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "description": "Lavender and vanilla in the classic Guerlain register, richer and more resinous than the original. Soft but substantial.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-burberry-burberry-goddess",
@@ -571,13 +670,30 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Bergamot",
+      "Lemon",
+      "Mandarin",
+      "Cedar"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Rose",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Opoponax",
+      "Incense",
+      "Leather",
+      "Sandalwood"
+    ],
+    "description": "Smoky vanilla and incense over bright citrus, a template the whole oriental family still follows. Nearly a century old and still commanding.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-parfums-de-marly-pegasus",
@@ -631,13 +747,27 @@
       "Floral"
     ],
     "top_notes": [
+      "Lavender",
+      "Bergamot",
+      "Mandarin"
+    ],
+    "middle_notes": [
+      "Cinnamon",
+      "Clove"
+    ],
+    "base_notes": [
+      "Musk",
       "Vanilla",
       "Amber",
-      "Floral"
+      "Sandalwood",
+      "Cedar",
+      "Tonka Bean",
+      "Guaiac Wood"
     ],
-    "description": "",
+    "description": "Warm spice and vanilla over a heavy musk. Sensual and skin-like, exactly as the name promises.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-gucci-gucci-bloom-acqua-di-fiori",
@@ -811,13 +941,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Rose",
+      "Cumin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedar",
+      "Vetiver",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Oud",
+      "Musk",
+      "Amber",
+      "Guaiac Wood"
+    ],
+    "description": "Rose stripped of sweetness and pushed through cumin and dry woods. Spiky and unisex, nothing like a rose soliflore.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-frederic-malle-frederic-malle-portrait-of-a-lady",
@@ -831,13 +972,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
+      "Raspberry",
+      "Blackcurrant",
+      "Cinnamon",
+      "Clove"
+    ],
+    "middle_notes": [
+      "Turkish Rose",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Frankincense",
+      "Benzoin",
+      "Musk",
       "Amber"
     ],
-    "description": "",
+    "description": "A monumental rose built on patchouli and incense. Dense, dramatic and long-lasting, with nothing shy about it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-creed-creed-aventus",
@@ -851,13 +1005,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Blackcurrant",
+      "Apple",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Birch",
+      "Patchouli",
+      "Moroccan Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Dry Woods",
+      "Ambergris",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "A fruity, smoky signature built on juicy pineapple and blackcurrant over a dry birch-smoke base. Bold and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-parfums-de-marly-parfums-de-marly-herod",
@@ -991,12 +1160,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Rum",
+      "Cinnamon",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "description": "Boozy rum and tobacco poured over vanilla and sandalwood. Rich, heady and firmly after-dark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

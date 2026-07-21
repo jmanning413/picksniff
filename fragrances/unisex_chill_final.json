@@ -11,13 +11,33 @@
       "Green"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Green"
+      "Lemon",
+      "Bergamot",
+      "Cardamom",
+      "Pineapple",
+      "Papaya",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Nutmeg",
+      "Violet",
+      "Orris Root",
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Amber",
+      "Musk",
+      "Oakmoss",
+      "Green Tea"
+    ],
+    "description": "The blueprint for shared fragrance: citrus and green tea over soft musk. Nineties to its core and still endlessly wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-tommy-hilfiger-tommy-hilfiger-tommy",
@@ -31,13 +51,29 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Floral",
-      "Woody"
+      "Apple",
+      "Grapefruit",
+      "Lemon",
+      "Lavender",
+      "Mint",
+      "Cranberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Sage",
+      "Cactus",
+      "Cotton Flower"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "Apple and mint over a soft cotton-and-musk base. All-American and uncomplicated, easy in any season.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-nautica-nautica-classic",
@@ -71,13 +107,29 @@
       "Floral"
     ],
     "top_notes": [
-      "Green",
-      "Woody",
-      "Floral"
+      "Green Apple",
+      "Mint",
+      "Basil",
+      "Grapefruit",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Carnation",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Fir",
+      "Cedar",
+      "Patchouli",
+      "Vetiver",
+      "Musk"
+    ],
+    "description": "Green apple and mint over pine and cedar. Sharp and energetic, a nineties staple that still reads fresh.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-ralph-lauren-polo-blue",
@@ -111,13 +163,28 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Green"
+      "Lotus",
+      "Freesia",
+      "Cyclamen",
+      "Melon",
+      "Rose Water"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Lily",
+      "Carnation",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Amber",
+      "Osmanthus"
+    ],
+    "description": "Watery lotus and peony over clean woods. Translucent and cool, a defining floral of its era.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-davidoff-davidoff-cool-water",
@@ -151,13 +218,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Floral",
-      "Woody"
+      "Mandarin",
+      "Peach",
+      "Nectarine",
+      "Wild Rose",
+      "Reseda"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Hyacinth",
+      "Blue Cedar"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Musk",
+      "Honey"
+    ],
+    "description": "Soft stone fruit and hyacinth over warm cedar and honey. Relaxed and floral, exactly as the name suggests.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-elizabeth-arden-elizabeth-arden-green-tea",
@@ -171,13 +252,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Floral",
-      "Woody"
+      "Bergamot",
+      "Lemon",
+      "Mint",
+      "Rhubarb"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Jasmine",
+      "Fennel",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Oakmoss",
+      "Celery Seed"
+    ],
+    "description": "Steeped green tea with citrus and mint. Light, clean and refreshing, closer to a spa than a perfume counter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-calvin-klein-calvin-klein-ck-free",
@@ -211,13 +306,24 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Grapefruit",
+      "Rosemary",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Ylang-Ylang",
+      "Woody Notes"
+    ],
+    "base_notes": [
+      "Virginia Cedar",
+      "Leather",
+      "Suede"
+    ],
+    "description": "Crisp grapefruit and rosemary over a soft suede base. Clean and laundered, the definition of an easy daily wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-juicy-couture-viva-la-juicy-la-fleur",
@@ -291,13 +397,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Floral",
-      "Woody"
+      "Bergamot",
+      "Mandarin",
+      "Fig Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Jasmine",
+      "Water Lily"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Olive Tree"
+    ],
+    "description": "Green fig leaf and citrus over a soft woody base. Mediterranean and leafy, light on its feet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-bvlgari-bulgari-eau-parfumee-au-the-vert",
@@ -351,13 +468,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Geranium",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Bitter orange over flint, pepper and dry vetiver. Mineral and earthy, a modern classic with real structure.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-giorgio-armani-armani-code-colonia",
@@ -411,13 +538,19 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Narcissus",
+      "Rosewood"
+    ],
+    "base_notes": [
+      "Sclarene"
+    ],
+    "description": "Green clary sage and narcissus against a smooth, almost metallic warmth. Modern and unusual, more sculpture than bouquet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-dolce-gabbana-dolce-gabbana-k",
@@ -511,13 +644,19 @@
       "Green"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Green"
+      "Rangoon Creeper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine Sambac"
+    ],
+    "base_notes": [
+      "Orris Root"
+    ],
+    "description": "A dense white-floral bouquet, tuberose forward, with powdery orris underneath. Lush and unapologetically floral.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-lancome-lancome-la-vie-est-belle",
@@ -571,13 +710,24 @@
       "Green"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Green"
+      "Mandarin",
+      "Neroli",
+      "Galbanum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Benzoin",
+      "Cedar",
+      "Incense"
+    ],
+    "description": "Powdery iris over clean citrus and a trace of incense. Soft, refined, and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-bvlgari-bvlgari-aqva",
@@ -671,13 +821,20 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Floral",
-      "Woody"
+      "Fig Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Fig",
+      "Coconut"
+    ],
+    "base_notes": [
+      "White Cedar",
+      "Woody Notes"
+    ],
+    "description": "The whole fig tree: green leaf, milky fruit and dry wood. Sun-warmed and Mediterranean, beautifully simple.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-le-labo-le-labo-santal-33",
@@ -691,13 +848,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Cardamom",
+      "Iris",
+      "Violet"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ambrox",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Cedarwood",
+      "Leather",
+      "Papyrus"
+    ],
+    "description": "Dry sandalwood and cedar wrapped in leather and a smoky violet. Unmistakable, and it carries across a room.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-le-labo-le-labo-another-13",
@@ -711,13 +878,22 @@
       "Green"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Green"
+      "Pear",
+      "Ambrette"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Ambroxan"
+    ],
+    "base_notes": [
+      "Moss",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "A clean skin-musk built on ambroxan with a whisper of pear. Quiet and magnetic rather than loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-byredo-byredo-mojave-ghost",
@@ -751,13 +927,25 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Bergamot",
+      "Lemon",
+      "Pepper",
+      "Juniper Berries"
     ],
-    "description": "",
+    "middle_notes": [
+      "Incense",
+      "Pine Needles",
+      "Orris"
+    ],
+    "base_notes": [
+      "Amber",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Pine and incense smoothed by vanilla and amber. Reads like a campfire the morning after, clean rather than smoky.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-diptyque-diptyque-tam-dao",
@@ -831,13 +1019,20 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Ambrette Seeds",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Salt"
+    ],
+    "base_notes": [
+      "Sage",
+      "Red Algae"
+    ],
+    "description": "A windswept shoreline in a bottle: mineral sea salt against earthy sage. Airy, dry, and deliberately understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-jo-malone-jo-malone-dark-amber-ginger-lily",
@@ -891,13 +1086,22 @@
       "Floral"
     ],
     "top_notes": [
-      "Green",
-      "Woody",
-      "Floral"
+      "Lemon",
+      "Verbena",
+      "Peppermint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Violet Leaf"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ambergris"
+    ],
+    "description": "Violet leaf and mint over soft sandalwood, green as cut grass. Refined and gentlemanly, endlessly imitated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-parfums-de-marly-parfums-de-marly-galloway",

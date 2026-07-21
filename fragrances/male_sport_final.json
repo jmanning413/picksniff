@@ -11,13 +11,30 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Aromatic"
+      "Sea Water",
+      "Mint",
+      "Lavender",
+      "Coriander",
+      "Rosemary",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sandalwood",
+      "Neroli",
+      "Geranium",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Oakmoss",
+      "Amber",
+      "Tobacco"
+    ],
+    "description": "The fragrance that invented the aquatic genre: sea spray, mint and lavender over warm woods. A permanent reference point.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-adidas-adidas-ice-dive",
@@ -51,13 +68,23 @@
       "Green"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Green"
+      "Apple",
+      "Green Leaves"
     ],
-    "description": "",
+    "middle_notes": [
+      "Mimosa",
+      "Water Lotus",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Moss"
+    ],
+    "description": "Crisp green apple over airy lotus and soft cedar. Fresh, breezy, and famously good value.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-issey-miyake-l-eau-d-issey-pour-homme-sport",
@@ -411,13 +438,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Bergamot",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sichuan Pepper",
+      "Lavender",
+      "Pink Pepper",
+      "Vetiver",
+      "Patchouli",
+      "Geranium",
+      "Elemi"
+    ],
+    "base_notes": [
+      "Ambroxan",
+      "Cedar",
+      "Labdanum"
+    ],
+    "description": "A bright bergamot opening gives way to a peppery heart and a warm, mineral trail of ambroxan and cedar. Clean and forceful.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-giorgio-armani-acqua-di-gio",
@@ -451,13 +492,29 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Woody",
-      "Aromatic"
+      "Grapefruit",
+      "Lemon",
+      "Mint",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Nutmeg",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Incense",
+      "Vetiver",
+      "Cedar",
+      "Sandalwood",
+      "Patchouli",
+      "Labdanum",
+      "White Musk"
+    ],
+    "description": "Citrus and mint sharpened by ginger, settling into smoky incense and cedar. Polished, versatile, hard to wear badly.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-versace-versace-dylan-blue",
@@ -571,13 +628,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Fresh",
-      "Aromatic"
+      "Bergamot",
+      "Black Pepper",
+      "Juniper Berries"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedarwood",
+      "Pine"
+    ],
+    "base_notes": [
+      "Atlas Cedar",
+      "Virginia Cedar",
+      "Vetiver",
+      "Benzoin"
+    ],
+    "description": "A study in cedar, layered three ways over bright bergamot and pepper. Woody and upright without turning heavy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-giorgio-armani-acqua-di-gio-profondo",
@@ -591,13 +659,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Sea Notes",
+      "Bergamot",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rosemary",
+      "Lavender",
+      "Cypress",
+      "Mastic"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Mineral Notes"
+    ],
+    "description": "A darker, deeper take on the aquatic original, with rosemary and cypress over wet stone. Cool and serious.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-montblanc-mont-blanc-explorer",
@@ -711,13 +791,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Woody"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Petitgrain"
+    ],
+    "description": "Green tea and blackcurrant over clean musk, cool as meltwater. Bright and transparent, built for warm days.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-creed-creed-aventus",
@@ -731,13 +820,28 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "Bergamot",
+      "Blackcurrant",
+      "Apple",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Birch",
+      "Patchouli",
+      "Moroccan Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Dry Woods",
+      "Ambergris",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "A fruity, smoky signature built on juicy pineapple and blackcurrant over a dry birch-smoke base. Bold and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-creed-creed-green-irish-tweed",
@@ -751,13 +855,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Green",
-      "Woody"
+      "Lemon",
+      "Verbena",
+      "Peppermint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Violet Leaf"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ambergris"
+    ],
+    "description": "Violet leaf and mint over soft sandalwood, green as cut grass. Refined and gentlemanly, endlessly imitated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-maison-margiela-replica-beach-walk",
@@ -851,13 +964,25 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Fresh",
-      "Green"
+      "Bergamot",
+      "Lemon",
+      "Pepper",
+      "Juniper Berries"
     ],
-    "description": "",
+    "middle_notes": [
+      "Incense",
+      "Pine Needles",
+      "Orris"
+    ],
+    "base_notes": [
+      "Amber",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Pine and incense smoothed by vanilla and amber. Reads like a campfire the morning after, clean rather than smoky.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-jo-malone-jo-malone-lime-basil-mandarin",
@@ -871,13 +996,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Green",
-      "Fresh"
+      "Lime",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Basil",
+      "Lilac",
+      "Iris"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Zesty lime lifted by peppery basil over a quiet woody base. The house signature, crisp and immediately recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-diptyque-diptyque-oyedo",
@@ -891,13 +1026,20 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Yuzu",
+      "Mandarin",
+      "Lime"
     ],
-    "description": "",
+    "middle_notes": [
+      "Thyme"
+    ],
+    "base_notes": [
+      "Woody Notes"
+    ],
+    "description": "A sharp burst of yuzu and mandarin cut with thyme. Tart and zesty, closer to a citrus peel than a cologne.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-roja-parfums-roja-elysium-pour-homme",

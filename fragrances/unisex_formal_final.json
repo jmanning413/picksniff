@@ -71,13 +71,30 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Freesia",
+      "Sage",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lily",
+      "Rose",
+      "Jasmine",
+      "Lily-of-the-Valley",
+      "Narcissus",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Musk",
+      "Patchouli",
+      "Heliotrope"
+    ],
+    "description": "A full white-floral bouquet over powdery sandalwood and amber. Classic, composed, and built to last.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-gucci-gucci-rush",
@@ -171,13 +188,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Coconut",
+      "Plum",
+      "Apricot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Tuberose",
+      "Rose",
+      "Caraway",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Almond",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Bitter almond and coconut wrapped in creamy vanilla. Hypnotic is the right word, warm and faintly dangerous.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-picasso-paloma-picasso-edp-paloma",
@@ -211,13 +242,31 @@
       "Floral"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Floral"
+      "Bergamot",
+      "Cotton Candy",
+      "Melon",
+      "Coconut"
     ],
-    "description": "",
+    "middle_notes": [
+      "Red Berries",
+      "Honey",
+      "Peach",
+      "Apricot",
+      "Plum",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Chocolate",
+      "Caramel",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "The original gourmand: caramel and chocolate slammed against earthy patchouli. Divisive, unmistakable, and genuinely historic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-arpels-van-cleef-arpels-first-edp-van-cleef",
@@ -271,13 +320,31 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Coriander",
+      "Peach",
+      "Mandarin",
+      "Bulgarian Rose",
+      "Angelica"
     ],
-    "description": "",
+    "middle_notes": [
+      "Clove",
+      "Rose",
+      "Jasmine",
+      "Orange Blossom",
+      "Mimosa"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Vanilla",
+      "Tonka Bean",
+      "Opoponax",
+      "Labdanum"
+    ],
+    "description": "Spiced florals over deep amber and resin. Opulent and old-world, a very different animal from Mademoiselle.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-givenchy-givenchy-l-interdit-rouge",
@@ -411,13 +478,30 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Bergamot",
+      "Lemon",
+      "Mandarin",
+      "Cedar"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Rose",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Opoponax",
+      "Incense",
+      "Leather",
+      "Sandalwood"
+    ],
+    "description": "Smoky vanilla and incense over bright citrus, a template the whole oriental family still follows. Nearly a century old and still commanding.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-viktor-rolf-flowerbomb",
@@ -551,13 +635,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "description": "Lavender and vanilla in the classic Guerlain register, richer and more resinous than the original. Soft but substantial.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-yves-saint-laurent-black-opium",
@@ -591,13 +686,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Almond",
+      "Coffee"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine Sambac",
+      "Bulgarian Rose",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cacao",
+      "Vanilla",
+      "Praline",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Roasted coffee and bitter almond over a bed of white flowers, landing on praline and tonka. Sweet and dark at once, built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-paco-rabanne-paco-rabanne-1-million",
@@ -731,13 +840,28 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Bergamot",
+      "Blackcurrant",
+      "Apple",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Birch",
+      "Patchouli",
+      "Moroccan Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Dry Woods",
+      "Ambergris",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "A fruity, smoky signature built on juicy pineapple and blackcurrant over a dry birch-smoke base. Bold and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-amouage-amouage-interlude",
@@ -771,13 +895,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Raspberry",
+      "Blackcurrant",
+      "Cinnamon",
+      "Clove"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turkish Rose",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Frankincense",
+      "Benzoin",
+      "Musk",
+      "Amber"
+    ],
+    "description": "A monumental rose built on patchouli and incense. Dense, dramatic and long-lasting, with nothing shy about it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-roja-parfums-roja-parfums-elysium",
@@ -951,13 +1088,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Pineapple",
+      "Grapefruit",
+      "Bergamot",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Patchouli",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Woody Notes",
+      "Amber"
+    ],
+    "description": "A juicy pineapple opening over dry woods and moss. Rich and fruity with a polished, resinous finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-louis-vuitton-lv-ombre-nomade",

@@ -683,13 +683,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Blackcurrant",
+      "Apple",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Birch",
+      "Patchouli",
+      "Moroccan Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Dry Woods",
+      "Ambergris",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "A fruity, smoky signature built on juicy pineapple and blackcurrant over a dry birch-smoke base. Bold and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-creed-creed-millesime-imperial",
@@ -883,13 +898,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Rum",
+      "Cinnamon",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "description": "Boozy rum and tobacco poured over vanilla and sandalwood. Rich, heady and firmly after-dark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george",
@@ -943,13 +969,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Lavender",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Clove"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Amber",
+      "Sandalwood",
+      "Cedar",
+      "Tonka Bean",
+      "Guaiac Wood"
+    ],
+    "description": "Warm spice and vanilla over a heavy musk. Sensual and skin-like, exactly as the name promises.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-parfums-de-marly-parfums-de-marly-percival",
