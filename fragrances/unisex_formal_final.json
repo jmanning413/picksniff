@@ -31,13 +31,28 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Aromatic"
+      "Verbena",
+      "Bergamot",
+      "Chamomile",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Ylang-Ylang",
+      "Orris",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Sandalwood",
+      "Musk",
+      "Incense"
+    ],
+    "description": "A dense, herbal chypre with rose and patchouli at its core. Divisive, powerful and utterly of its era.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-lanvin-arpege",
@@ -300,13 +315,19 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Jasmine Sambac"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "White Amber",
+      "Woody Notes"
+    ],
+    "description": "A huge, solar jasmine over warm amber woods. Minimal in structure but enormous in presence.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-chanel-coco",
@@ -418,13 +439,30 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Aldehydes",
+      "Ylang-Ylang",
+      "Neroli",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Vanilla",
+      "Amber",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "The most famous fragrance ever made: soapy aldehydes over a vast floral heart and warm woods. A genuine historical artefact.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-dior-j-adore",
@@ -438,13 +476,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Pear",
+      "Melon",
+      "Magnolia",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Orchid",
+      "Violet"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Cedar",
+      "Blackberry"
+    ],
+    "description": "A glossy, fruity floral built on jasmine and rose. Polished and universally flattering.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-chanel-coco-mademoiselle-intense",
@@ -458,13 +510,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Orange",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vanilla",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "The Coco Mademoiselle signature pushed warmer and deeper, with more vanilla and tonka.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-guerlain-guerlain-shalimar",
@@ -555,13 +619,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Lavender",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla Absolute",
+      "Vanilla Caviar"
+    ],
+    "base_notes": [
+      "Vanilla Bourbon",
+      "Cacao"
+    ],
+    "description": "The richer concentration of the vanilla-and-lavender signature, deeper and longer lasting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-prada-prada-infusion-d-iris",
@@ -740,13 +812,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Bergamot",
+      "Mandarin",
+      "Honey",
+      "Rum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Jasmine",
+      "Rose",
+      "Narcissus"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vanilla",
+      "Myrrh",
+      "Labdanum"
+    ],
+    "description": "Honeyed florals over creamy sandalwood and vanilla. Lush, sweet and deliberately excessive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-paco-rabanne-paco-rabanne-phantom",
@@ -800,13 +886,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Aromatic"
+      "Tobacco Leaf",
+      "Spicy Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla",
+      "Cacao",
+      "Tonka Bean",
+      "Tobacco Blossom"
+    ],
+    "base_notes": [
+      "Dried Fruits",
+      "Woody Notes"
+    ],
+    "description": "Pipe tobacco steeped in vanilla and dried fruit. Rich, gourmand and unapologetically wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-tom-ford-tuscan-leather",
@@ -948,13 +1044,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Peach",
+      "Plum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Violet"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vanilla",
+      "Leather"
+    ],
+    "description": "Stewed fruit and vanilla over leather and old paper. Cosy and bookish, exactly as intended.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-xerjoff-xerjoff-alexandria-ii",
@@ -1120,13 +1225,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Raspberry",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud",
+      "Rose",
+      "Incense"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Birch",
+      "Guaiac Wood",
+      "Amber"
+    ],
+    "description": "Dense oud and incense lifted by a jammy raspberry note. Heavy, resinous and unmistakably opulent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-creed-creed-aventus-for-her",
@@ -1139,11 +1255,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Amber"
+      "Bergamot",
+      "Green Apple",
+      "Violet",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Sandalwood",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Peach",
+      "Ylang-Ylang"
+    ],
+    "description": "A fruity rose over soft woods and musk. Shares the fruit-and-wood idea of Aventus without copying it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

@@ -158,13 +158,30 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Aromatic"
+      "Sea Water",
+      "Mint",
+      "Lavender",
+      "Coriander",
+      "Rosemary",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sandalwood",
+      "Neroli",
+      "Geranium",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Oakmoss",
+      "Amber",
+      "Tobacco"
+    ],
+    "description": "The fragrance that invented the aquatic genre: sea spray, mint and lavender over warm woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-budget-tommy-hilfiger-tommy-hilfiger-tommy",
@@ -401,13 +418,27 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Floral",
-      "Fresh"
+      "Grapefruit",
+      "Bergamot",
+      "Lemon",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Freesia",
+      "Magnolia",
+      "Rose",
+      "Orchid"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Cedar",
+      "Mahogany"
+    ],
+    "description": "Zesty grapefruit over soft florals. Bright, uncomplicated and exactly as cheerful as the name suggests.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-budget-lacoste-lacoste-l-12-12-blanc",
@@ -626,13 +657,27 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Bergamot",
+      "Grapefruit",
+      "Fig Leaf",
+      "Water Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Papyrus",
+      "Black Pepper",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Musk",
+      "Tonka Bean",
+      "Saffron",
+      "Incense"
+    ],
+    "description": "Aquatic citrus over papyrus and dry musk. Fresh at the open, darker and woodier as it settles.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-dior-miss-dior-blooming-bouquet",
@@ -646,13 +691,20 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Citrus"
+      "Sicilian Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Rose",
+      "Apricot"
+    ],
+    "base_notes": [
+      "White Musk"
+    ],
+    "description": "Soft peony and apricot over clean musk. Gentle and powdery, the most casual of the Miss Dior line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-yves-saint-laurent-y",
@@ -666,13 +718,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Bergamot",
+      "Ginger",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Violet Leaf"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Vetiver",
+      "Tonka Bean"
+    ],
+    "description": "Crisp aldehydes and sage over dry cedar. Clean and modern, closer to a sharp shirt than a statement.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-yves-saint-laurent-libre",
@@ -686,13 +749,26 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Citrus"
+      "Lavender",
+      "Mandarin",
+      "Blackcurrant",
+      "Petitgrain"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "Lavender pulled in two directions, sharp up top and creamy vanilla underneath. Modern and confident.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-paco-rabanne-invictus",
@@ -706,13 +782,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Grapefruit",
+      "Marine Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "description": "Bright grapefruit over a salty marine accord and warm woods. Loud, fresh and built for crowds.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-chanel-chance-eau-tendre",
@@ -726,13 +813,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Citrus"
+      "Grapefruit",
+      "Quince"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Iris"
+    ],
+    "description": "Soft grapefruit and quince over powdery musk. The gentlest member of the Chance family.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-hermes-hermes-h24",
@@ -934,13 +1030,26 @@
       "Floral"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Floral"
+      "Bergamot",
+      "Lemon",
+      "Neroli",
+      "Marigold"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Cyclamen"
+    ],
+    "base_notes": [
+      "Black Amber",
+      "Musk",
+      "Vetiver",
+      "Cedar"
+    ],
+    "description": "Bright citrus and marigold over warm amber and vetiver. Sunny up top, smoky underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-niche-byredo-byredo-gypsy-water",
@@ -1092,13 +1201,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aromatic",
-      "Fresh",
-      "Citrus"
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rum",
+      "Clary Sage",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tobacco Leaf",
+      "Vetiver",
+      "Styrax",
+      "Benzoin"
+    ],
+    "description": "Boozy rum and sweet tobacco in a wood-panelled room. Warm, smoky and very easy to like.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-niche-maison-margiela-maison-margiela-replica-beach-walk",
@@ -1112,13 +1233,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Pink Pepper",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut Milk",
+      "Ylang-Ylang",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Coconut milk and warm skin over soft musk. Smells like sunscreen on a hot beach, in the best way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-niche-jo-malone-jo-malone-wood-sage-sea-salt",

@@ -42,13 +42,22 @@ const reorder = (o) => {
 const batch = JSON.parse(readFileSync(batchPath, 'utf8'))
 const files = readdirSync(CATALOG_DIR).filter((f) => f.endsWith('.json'))
 
-// id -> { file, index }
+// Rows are matched by PRODUCT IDENTITY (brand|name|concentration), never by id.
+// The catalog contains duplicate ids: Bleu de Chanel EDP and EDT both slug to
+// male-daily-quality-chanel-bleu-de-chanel because the id does not encode
+// concentration. Matching on id would hand one concentration the other's
+// pyramid, and would silently update only one of the colliding rows.
+const pkey = (r) => `${r.brand}|${r.name}|${r.concentration}`
 const index = new Map()
 const catalogs = {}
 for (const f of files) {
   const rows = JSON.parse(readFileSync(join(CATALOG_DIR, f), 'utf8'))
   catalogs[f] = rows
-  rows.forEach((r, i) => index.set(r.id, { file: f, i }))
+  rows.forEach((r, i) => {
+    const k = pkey(r)
+    if (!index.has(k)) index.set(k, [])
+    index.get(k).push({ file: f, i, id: r.id })
+  })
 }
 
 const plan = []      // { id, file, product, fields }
@@ -61,11 +70,20 @@ for (const e of batch.entries) {
     skipped.push({ label, rows: e.applies_to_ids.length, reason: e.reason || 'null notes' })
     continue
   }
-  for (const id of e.applies_to_ids) {
-    const loc = index.get(id)
-    if (!loc) { unmatched.push({ id, label }); continue }
+  const locs = index.get(`${e.brand}|${e.name}|${e.concentration}`) || []
+  if (locs.length === 0) {
+    unmatched.push({ id: e.applies_to_ids[0] || '(none)', label })
+    continue
+  }
+  if (locs.length !== e.applies_to_ids.length) {
+    console.warn(
+      `  note: ${label} matches ${locs.length} catalog rows but the batch lists ` +
+      `${e.applies_to_ids.length} ids (duplicate-id collision). Updating all ${locs.length}.`,
+    )
+  }
+  for (const loc of locs) {
     plan.push({
-      id,
+      id: loc.id,
       file: loc.file,
       i: loc.i,
       product: label,

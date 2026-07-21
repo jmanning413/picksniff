@@ -398,13 +398,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Woody"
+      "Grapefruit",
+      "Marine Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "description": "Bright grapefruit over a salty marine accord and warm woods. Loud, fresh and built for crowds.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-chanel-allure-homme-sport",
@@ -418,13 +429,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Woody"
+      "Orange",
+      "Aldehydes",
+      "Sea Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Neroli",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "White Musk",
+      "Vetiver",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Clean citrus and sea air over soft tonka and musk. Fresh, polished and endlessly office-safe.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-dior-sauvage",
@@ -528,13 +553,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Bergamot",
+      "Grapefruit",
+      "Fig Leaf",
+      "Water Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Papyrus",
+      "Black Pepper",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Musk",
+      "Tonka Bean",
+      "Saffron",
+      "Incense"
+    ],
+    "description": "Aquatic citrus over papyrus and dry musk. Fresh at the open, darker and woodier as it settles.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-paco-rabanne-invictus-aqua",
@@ -608,13 +647,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Mint",
+      "Green Apple",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tonka Bean",
+      "Ambroxan",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Vetiver",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "Cool mint and green apple crashing into sweet tonka and vanilla. Bold, sweet and impossible to miss.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-burberry-burberry-hero",
@@ -771,13 +822,23 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Lime",
+      "Coconut",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ylang-Ylang",
+      "Sugar Cane",
+      "Ginger"
+    ],
+    "base_notes": [
+      "White Rum",
+      "Musk"
+    ],
+    "description": "Lime, coconut and rum. A holiday cocktail rendered almost literally, and all the better for it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-creed-creed-silver-mountain-water",
@@ -1093,13 +1154,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Woody"
+      "Lemon",
+      "Lime",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pine",
+      "Black Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Black Pepper"
+    ],
+    "description": "Sharp citrus and pine with a peppery bite. A Victorian classic that still reads crisp and clean.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-parfumeur-l-artisan-timbuktu-l-artisan",

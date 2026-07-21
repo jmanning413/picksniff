@@ -129,13 +129,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Freesia",
+      "Rose"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Vanilla"
+    ],
+    "description": "An explosion of sweet florals over patchouli and vanilla. Enormous projection, instantly recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-lancome-la-vie-est-belle",
@@ -180,13 +192,19 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Jasmine Sambac"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "White Amber",
+      "Woody Notes"
+    ],
+    "description": "A huge, solar jasmine over warm amber woods. Minimal in structure but enormous in presence.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-carolina-herrera-good-girl",
@@ -308,13 +326,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Water Jasmine",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris"
+    ],
+    "description": "Salted vanilla against fresh jasmine. Sweet but with a saline edge that keeps it from cloying.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-yves-saint-laurent-libre",
@@ -459,13 +486,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Cognac"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Tonka Bean",
+      "Praline"
+    ],
+    "base_notes": [
+      "Oak",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Cognac and toasted oak wrapped in praline and vanilla. Boozy, dessert-like and very warm.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-guerlain-guerlain-mon-guerlain-intense",
@@ -510,13 +546,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Lavender",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla Absolute",
+      "Vanilla Caviar"
+    ],
+    "base_notes": [
+      "Vanilla Bourbon",
+      "Cacao"
+    ],
+    "description": "Vanilla layered three ways, cut with lavender so it never turns flat. Warm, creamy and modern.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-thierry-mugler-alien-goddess",
@@ -550,13 +594,23 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Vanilla"
+      "Bergamot",
+      "Sichuan Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Star Anise",
+      "Nutmeg"
+    ],
+    "base_notes": [
+      "Ambroxan",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "The Sauvage idea made warmer and smoother, with vanilla softening the ambroxan.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-parfums-de-marly-layton",
@@ -630,13 +684,30 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Aldehydes",
+      "Ylang-Ylang",
+      "Neroli",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Vanilla",
+      "Amber",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "The most famous fragrance ever made: soapy aldehydes over a vast floral heart and warm woods. A genuine historical artefact.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-tom-ford-tom-ford-noir",
@@ -821,13 +892,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Tobacco Leaf",
+      "Spicy Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla",
+      "Cacao",
+      "Tonka Bean",
+      "Tobacco Blossom"
+    ],
+    "base_notes": [
+      "Dried Fruits",
+      "Woody Notes"
+    ],
+    "description": "Pipe tobacco steeped in vanilla and dried fruit. Rich, gourmand and unapologetically wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-byredo-byredo-mojave-ghost",
@@ -841,13 +922,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
+      "Ambrette",
+      "Jamaican Nesberry"
+    ],
+    "middle_notes": [
+      "Violet",
+      "Sandalwood",
+      "Magnolia"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
       "Amber"
     ],
-    "description": "",
+    "description": "Soft woods and powdery violet with a dry, desert-air quality. Understated and skin-close.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-byredo-byredo-bibliotheque",
@@ -861,13 +952,22 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Peach",
+      "Plum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Violet"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vanilla",
+      "Leather"
+    ],
+    "description": "Stewed fruit and vanilla over leather and old paper. Cosy and bookish, exactly as intended.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-diptyque-diptyque-do-son",
@@ -1080,13 +1180,24 @@
       "Floral"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Floral"
+      "Raspberry",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud",
+      "Rose",
+      "Incense"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Birch",
+      "Guaiac Wood",
+      "Amber"
+    ],
+    "description": "Dense oud and incense lifted by a jammy raspberry note. Heavy, resinous and unmistakably opulent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-roja-parfums-roja-parfums-elysium",

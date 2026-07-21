@@ -382,13 +382,23 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Lemon",
+      "Citron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Water Hyacinth"
+    ],
+    "base_notes": [
+      "Teak",
+      "Amber",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Sparkling citrus over clean woods. The crispest, most transparent Chance.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-dior-miss-dior-blooming-bouquet",
@@ -402,13 +412,20 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Sicilian Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Rose",
+      "Apricot"
+    ],
+    "base_notes": [
+      "White Musk"
+    ],
+    "description": "Soft peony and apricot over clean musk. Gentle and powdery, the most casual of the Miss Dior line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-gucci-bloom-acqua-di-fiori",
@@ -462,13 +479,26 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "Lavender",
+      "Mandarin",
+      "Blackcurrant",
+      "Petitgrain"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "Lavender pulled in two directions, sharp up top and creamy vanilla underneath. Modern and confident.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-paco-rabanne-olympea",
@@ -713,13 +743,20 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Bamboo",
+      "Nashi Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus Flower"
+    ],
+    "base_notes": [
+      "Balsa Wood",
+      "Musk"
+    ],
+    "description": "Watery pear and bamboo over pale woods. Light, translucent and almost weightless.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-jo-malone-jo-malone-lime-basil-mandarin",
@@ -763,13 +800,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Pink Pepper",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut Milk",
+      "Ylang-Ylang",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Coconut milk and warm skin over soft musk. Smells like sunscreen on a hot beach, in the best way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-maison-margiela-maison-margiela-replica-sailing-day",

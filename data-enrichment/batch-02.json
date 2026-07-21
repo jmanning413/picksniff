@@ -1,0 +1,1663 @@
+{
+  "_meta": {
+    "batch": "batch-02",
+    "scope": "Unique products ranked 51-100 by catalog row count, from data-enrichment/manifest.json",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge of widely documented fragrances. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "review_gate": "Nothing merges into /fragrances/*.json without explicit sign-off (CATALOG.md rule 5).",
+    "counts": {
+      "medium": 33,
+      "high": 13,
+      "low": 4
+    },
+    "products": 50,
+    "catalog_rows_covered": 118
+  },
+  "entries": [
+    {
+      "brand": "Louis Vuitton",
+      "name": "LV Ombre Nomade",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Raspberry",
+        "Saffron"
+      ],
+      "middle_notes": [
+        "Oud",
+        "Rose",
+        "Incense"
+      ],
+      "base_notes": [
+        "Benzoin",
+        "Birch",
+        "Guaiac Wood",
+        "Amber"
+      ],
+      "description": "Dense oud and incense lifted by a jammy raspberry note. Heavy, resinous and unmistakably opulent.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-date-night-niche-louis-vuitton-lv-ombre-nomade",
+        "unisex-date-night-niche-louis-vuitton-lv-ombre-nomade",
+        "unisex-formal-niche-louis-vuitton-lv-ombre-nomade"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Beach Walk",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aquatic"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Pink Pepper",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Coconut Milk",
+        "Ylang-Ylang",
+        "Heliotrope"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Benzoin"
+      ],
+      "description": "Coconut milk and warm skin over soft musk. Smells like sunscreen on a hot beach, in the best way.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-sport-niche-maison-margiela-maison-margiela-replica-beach-walk",
+        "unisex-daily-niche-maison-margiela-maison-margiela-replica-beach-walk",
+        "unisex-sport-niche-maison-margiela-maison-margiela-replica-beach-walk"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Jazz Club",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fresh"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pink Pepper",
+        "Neroli",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Rum",
+        "Clary Sage",
+        "Vanilla"
+      ],
+      "base_notes": [
+        "Tobacco Leaf",
+        "Vetiver",
+        "Styrax",
+        "Benzoin"
+      ],
+      "description": "Boozy rum and sweet tobacco in a wood-panelled room. Warm, smoky and very easy to like.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-niche-maison-margiela-maison-margiela-replica-jazz-club",
+        "unisex-chill-niche-maison-margiela-maison-margiela-replica-jazz-club",
+        "unisex-daily-niche-maison-margiela-maison-margiela-replica-jazz-club"
+      ]
+    },
+    {
+      "brand": "Nautica",
+      "name": "Nautica Classic",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aquatic",
+        "Green"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "Older mass-market release with inconsistent published note lists. Cannot ground reliably.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-budget-nautica-nautica-classic",
+        "male-formal-budget-nautica-nautica-classic",
+        "unisex-chill-budget-nautica-nautica-classic"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Olympéa",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Water Jasmine",
+        "Green Mandarin"
+      ],
+      "middle_notes": [
+        "Salted Vanilla",
+        "Ginger Flower"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Cashmere Wood",
+        "Ambergris"
+      ],
+      "description": "Salted vanilla against fresh jasmine. Sweet but with a saline edge that keeps it from cloying.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-chill-quality-paco-rabanne-olympea",
+        "female-daily-quality-paco-rabanne-olympea",
+        "unisex-date-night-budget-paco-rabanne-olympea"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Invictus",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Aquatic",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Grapefruit",
+        "Marine Notes",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Bay Leaf",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Ambergris",
+        "Guaiac Wood",
+        "Oakmoss",
+        "Patchouli"
+      ],
+      "description": "Bright grapefruit over a salty marine accord and warm woods. Loud, fresh and built for crowds.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-sport-quality-paco-rabanne-invictus",
+        "unisex-daily-quality-paco-rabanne-invictus",
+        "unisex-sport-quality-paco-rabanne-invictus"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Galloway",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "Lower-profile Parfums de Marly release; published pyramid varies by source. Cannot ground reliably.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-niche-parfums-de-marly-parfums-de-marly-galloway",
+        "male-sport-niche-parfums-de-marly-parfums-de-marly-galloway",
+        "unisex-chill-niche-parfums-de-marly-parfums-de-marly-galloway"
+      ]
+    },
+    {
+      "brand": "Penhaligon's",
+      "name": "Penhaligon's Blenheim Bouquet",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Lime",
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Pine",
+        "Black Pepper"
+      ],
+      "base_notes": [
+        "Musk",
+        "Black Pepper"
+      ],
+      "description": "Sharp citrus and pine with a peppery bite. A Victorian classic that still reads crisp and clean.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",
+        "male-sport-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",
+        "unisex-chill-niche-penhaligon-s-penhaligon-s-blenheim-bouquet"
+      ]
+    },
+    {
+      "brand": "Thierry Mugler",
+      "name": "Alien",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Jasmine Sambac"
+      ],
+      "middle_notes": [
+        "Cashmeran"
+      ],
+      "base_notes": [
+        "White Amber",
+        "Woody Notes"
+      ],
+      "description": "A huge, solar jasmine over warm amber woods. Minimal in structure but enormous in presence.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-date-night-budget-thierry-mugler-alien",
+        "unisex-date-night-budget-thierry-mugler-alien",
+        "unisex-formal-budget-thierry-mugler-alien"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Tom Ford Velvet Orchid",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Honey",
+        "Rum"
+      ],
+      "middle_notes": [
+        "Orchid",
+        "Jasmine",
+        "Rose",
+        "Narcissus"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vanilla",
+        "Myrrh",
+        "Labdanum"
+      ],
+      "description": "Honeyed florals over creamy sandalwood and vanilla. Lush, sweet and deliberately excessive.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-date-night-niche-tom-ford-tom-ford-velvet-orchid",
+        "female-formal-quality-tom-ford-tom-ford-velvet-orchid",
+        "unisex-formal-quality-tom-ford-tom-ford-velvet-orchid"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Tobacco Vanille",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Tobacco Leaf",
+        "Spicy Notes"
+      ],
+      "middle_notes": [
+        "Vanilla",
+        "Cacao",
+        "Tonka Bean",
+        "Tobacco Blossom"
+      ],
+      "base_notes": [
+        "Dried Fruits",
+        "Woody Notes"
+      ],
+      "description": "Pipe tobacco steeped in vanilla and dried fruit. Rich, gourmand and unapologetically wintry.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-date-night-niche-tom-ford-tobacco-vanille",
+        "unisex-date-night-niche-tom-ford-tobacco-vanille",
+        "unisex-formal-niche-tom-ford-tobacco-vanille"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Versace Eros",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Mint",
+        "Green Apple",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Tonka Bean",
+        "Ambroxan",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Vetiver",
+        "Oakmoss",
+        "Cedar"
+      ],
+      "description": "Cool mint and green apple crashing into sweet tonka and vanilla. Bold, sweet and impossible to miss.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-daily-quality-versace-versace-eros",
+        "male-sport-quality-versace-versace-eros",
+        "unisex-sport-quality-versace-versace-eros"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Versace Dylan Blue",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Grapefruit",
+        "Fig Leaf",
+        "Water Notes"
+      ],
+      "middle_notes": [
+        "Violet Leaf",
+        "Papyrus",
+        "Black Pepper",
+        "Patchouli"
+      ],
+      "base_notes": [
+        "Musk",
+        "Tonka Bean",
+        "Saffron",
+        "Incense"
+      ],
+      "description": "Aquatic citrus over papyrus and dry musk. Fresh at the open, darker and woodier as it settles.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-sport-quality-versace-versace-dylan-blue",
+        "unisex-daily-quality-versace-versace-dylan-blue",
+        "unisex-sport-budget-versace-versace-dylan-blue"
+      ]
+    },
+    {
+      "brand": "Viktor & Rolf",
+      "name": "Flowerbomb",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Tea",
+        "Bergamot",
+        "Osmanthus"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Orange Blossom",
+        "Freesia",
+        "Rose"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Musk",
+        "Vanilla"
+      ],
+      "description": "An explosion of sweet florals over patchouli and vanilla. Enormous projection, instantly recognisable.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-chill-quality-viktor-rolf-flowerbomb",
+        "female-daily-quality-viktor-rolf-flowerbomb",
+        "unisex-date-night-budget-viktor-rolf-flowerbomb"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff Alexandria II",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "Limited-distribution Xerjoff release; note lists differ between sources. Cannot ground reliably.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-formal-niche-xerjoff-xerjoff-alexandria-ii",
+        "male-formal-niche-xerjoff-xerjoff-alexandria-ii",
+        "unisex-formal-niche-xerjoff-xerjoff-alexandria-ii"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff 40 Knots",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aquatic",
+        "Citrus",
+        "Fresh"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "Lower-profile Xerjoff release. Cannot ground a reliable pyramid.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-daily-niche-xerjoff-xerjoff-40-knots",
+        "male-sport-niche-xerjoff-xerjoff-40-knots",
+        "unisex-sport-niche-xerjoff-xerjoff-40-knots"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Libre",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender",
+        "Mandarin",
+        "Blackcurrant",
+        "Petitgrain"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Orange Blossom",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Musk",
+        "Cedar",
+        "Ambergris"
+      ],
+      "description": "Lavender pulled in two directions, sharp up top and creamy vanilla underneath. Modern and confident.",
+      "note": "Libre ships as EDT, EDP and Intense with differing pyramids. Confirm the EDT-specific list.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-sport-quality-yves-saint-laurent-libre",
+        "unisex-daily-quality-yves-saint-laurent-libre",
+        "unisex-sport-quality-yves-saint-laurent-libre"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Y",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Ginger",
+        "Aldehydes"
+      ],
+      "middle_notes": [
+        "Sage",
+        "Geranium",
+        "Violet Leaf"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Vetiver",
+        "Tonka Bean"
+      ],
+      "description": "Crisp aldehydes and sage over dry cedar. Clean and modern, closer to a sharp shirt than a statement.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-daily-budget-yves-saint-laurent-y",
+        "unisex-daily-quality-yves-saint-laurent-y",
+        "unisex-sport-quality-yves-saint-laurent-y"
+      ]
+    },
+    {
+      "brand": "Amouage",
+      "name": "Amouage Reflection Man",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aromatic",
+        "Woody",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rosemary",
+        "Pink Pepper",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Orris",
+        "Neroli"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Cedar",
+        "Vetiver",
+        "Musk"
+      ],
+      "description": "Powdery jasmine and orris over smooth sandalwood. Polished and quietly formal.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-daily-niche-amouage-amouage-reflection-man",
+        "male-formal-niche-amouage-amouage-reflection-man"
+      ]
+    },
+    {
+      "brand": "Amouage",
+      "name": "Amouage Interlude Man",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aromatic",
+        "Woody",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Oregano",
+        "Pimento"
+      ],
+      "middle_notes": [
+        "Frankincense",
+        "Amber",
+        "Opoponax"
+      ],
+      "base_notes": [
+        "Leather",
+        "Patchouli",
+        "Sandalwood",
+        "Agarwood"
+      ],
+      "description": "A wall of smoky incense and resin over leather. Famously dense, not remotely casual.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-daily-niche-amouage-amouage-interlude-man",
+        "male-formal-niche-amouage-amouage-interlude-man"
+      ]
+    },
+    {
+      "brand": "Burberry",
+      "name": "Burberry Her",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Strawberry",
+        "Blackcurrant",
+        "Raspberry",
+        "Blackberry"
+      ],
+      "middle_notes": [
+        "Violet",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Patchouli",
+        "Woody Notes"
+      ],
+      "description": "A jammy berry opening softened by violet and musk. Sweet, youthful and very wearable.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-chill-quality-burberry-burberry-her",
+        "female-daily-quality-burberry-burberry-her"
+      ]
+    },
+    {
+      "brand": "Burberry",
+      "name": "Burberry Goddess",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Vanilla",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Vanilla Absolute",
+        "Vanilla Caviar"
+      ],
+      "base_notes": [
+        "Vanilla Bourbon",
+        "Cacao"
+      ],
+      "description": "Vanilla layered three ways, cut with lavender so it never turns flat. Warm, creamy and modern.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-date-night-quality-burberry-burberry-goddess",
+        "unisex-date-night-quality-burberry-burberry-goddess"
+      ]
+    },
+    {
+      "brand": "Burberry",
+      "name": "Burberry Goddess",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Vanilla",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Vanilla Absolute",
+        "Vanilla Caviar"
+      ],
+      "base_notes": [
+        "Vanilla Bourbon",
+        "Cacao"
+      ],
+      "description": "The richer concentration of the vanilla-and-lavender signature, deeper and longer lasting.",
+      "note": "Parfum concentration. Reflects the Goddess vanilla DNA; confirm the Parfum-specific list against the brand page.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-formal-quality-burberry-burberry-goddess",
+        "unisex-formal-quality-burberry-burberry-goddess"
+      ]
+    },
+    {
+      "brand": "Bvlgari",
+      "name": "Bvlgari Omnia Crystalline",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bamboo",
+        "Nashi Pear"
+      ],
+      "middle_notes": [
+        "Lotus Flower"
+      ],
+      "base_notes": [
+        "Balsa Wood",
+        "Musk"
+      ],
+      "description": "Watery pear and bamboo over pale woods. Light, translucent and almost weightless.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-sport-quality-bvlgari-bvlgari-omnia-crystalline",
+        "unisex-sport-quality-bvlgari-bvlgari-omnia-crystalline"
+      ]
+    },
+    {
+      "brand": "By Kilian",
+      "name": "Angels' Share",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Vanilla",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cognac"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Tonka Bean",
+        "Praline"
+      ],
+      "base_notes": [
+        "Oak",
+        "Vanilla",
+        "Sandalwood"
+      ],
+      "description": "Cognac and toasted oak wrapped in praline and vanilla. Boozy, dessert-like and very warm.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-date-night-niche-by-kilian-angels-share",
+        "unisex-date-night-quality-by-kilian-angels-share"
+      ]
+    },
+    {
+      "brand": "Byredo",
+      "name": "Byredo Mojave Ghost",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Floral",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ambrette",
+        "Jamaican Nesberry"
+      ],
+      "middle_notes": [
+        "Violet",
+        "Sandalwood",
+        "Magnolia"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Amber"
+      ],
+      "description": "Soft woods and powdery violet with a dry, desert-air quality. Understated and skin-close.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "unisex-chill-niche-byredo-byredo-mojave-ghost",
+        "unisex-date-night-niche-byredo-byredo-mojave-ghost"
+      ]
+    },
+    {
+      "brand": "Byredo",
+      "name": "Byredo Bal d'Afrique",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Floral",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Lemon",
+        "Neroli",
+        "Marigold"
+      ],
+      "middle_notes": [
+        "Violet",
+        "Jasmine",
+        "Cyclamen"
+      ],
+      "base_notes": [
+        "Black Amber",
+        "Musk",
+        "Vetiver",
+        "Cedar"
+      ],
+      "description": "Bright citrus and marigold over warm amber and vetiver. Sunny up top, smoky underneath.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "unisex-chill-niche-byredo-byredo-bal-d-afrique",
+        "unisex-daily-niche-byredo-byredo-bal-d-afrique"
+      ]
+    },
+    {
+      "brand": "Byredo",
+      "name": "Byredo Bibliotheque",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Vanilla",
+        "Amber",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Peach",
+        "Plum"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Violet"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Vanilla",
+        "Leather"
+      ],
+      "description": "Stewed fruit and vanilla over leather and old paper. Cosy and bookish, exactly as intended.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "unisex-date-night-niche-byredo-byredo-bibliotheque",
+        "unisex-formal-niche-byredo-byredo-bibliotheque"
+      ]
+    },
+    {
+      "brand": "Calvin Klein",
+      "name": "Calvin Klein CK Free",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Jackfruit",
+        "Star Anise",
+        "Coriander"
+      ],
+      "middle_notes": [
+        "Blue Sage",
+        "Tobacco Leaf"
+      ],
+      "base_notes": [
+        "Suede",
+        "Sandalwood",
+        "Amber",
+        "Tonka Bean"
+      ],
+      "description": "Spiced tobacco and suede over warm amber. Dry and masculine without being heavy.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-chill-budget-calvin-klein-calvin-klein-ck-free",
+        "unisex-chill-budget-calvin-klein-calvin-klein-ck-free"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chance Eau Tendre",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Quince"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Iris"
+      ],
+      "description": "Soft grapefruit and quince over powdery musk. The gentlest member of the Chance family.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-daily-budget-chanel-chance-eau-tendre",
+        "unisex-daily-quality-chanel-chance-eau-tendre"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Coco Mademoiselle Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Vanilla",
+        "Tonka Bean",
+        "White Musk"
+      ],
+      "description": "The Coco Mademoiselle signature pushed warmer and deeper, with more vanilla and tonka.",
+      "note": "Intense flanker. Shares the original DNA but the exact list differs; confirm against the brand page.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-formal-quality-chanel-coco-mademoiselle-intense",
+        "unisex-formal-quality-chanel-coco-mademoiselle-intense"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chance Eau Fra\\356che",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aquatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Citron"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Water Hyacinth"
+      ],
+      "base_notes": [
+        "Teak",
+        "Amber",
+        "Patchouli",
+        "Vetiver"
+      ],
+      "description": "Sparkling citrus over clean woods. The crispest, most transparent Chance.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-sport-quality-chanel-chance-eau-fra-356che",
+        "unisex-sport-quality-chanel-chance-eau-fra-356che"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Bleu de Chanel",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Citrus"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Grapefruit",
+        "Lemon",
+        "Mint",
+        "Pink Pepper",
+        "Aldehydes"
+      ],
+      "middle_notes": [
+        "Ginger",
+        "Nutmeg",
+        "Jasmine",
+        "Iso E Super"
+      ],
+      "base_notes": [
+        "Incense",
+        "Amber",
+        "Sandalwood",
+        "Patchouli",
+        "Cedar",
+        "Labdanum"
+      ],
+      "description": "The Bleu signature in a richer register: same citrus and ginger opening, but warmer and more resinous in the dry-down.",
+      "note": "This is the EDP, a genuinely different pyramid from the EDT (which is a separate catalog product). Warmer, more amber and sandalwood.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-daily-quality-chanel-bleu-de-chanel",
+        "male-date-night-quality-chanel-bleu-de-chanel"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Allure Homme Sport",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Citrus",
+        "Woody",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Aldehydes",
+        "Sea Notes",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Pepper",
+        "Neroli",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "White Musk",
+        "Vetiver",
+        "Vanilla",
+        "Amber"
+      ],
+      "description": "Clean citrus and sea air over soft tonka and musk. Fresh, polished and endlessly office-safe.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-daily-quality-chanel-allure-homme-sport",
+        "male-sport-quality-chanel-allure-homme-sport"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chanel N\\2605",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Aldehydes",
+        "Ylang-Ylang",
+        "Neroli",
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Jasmine",
+        "Rose",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vetiver",
+        "Vanilla",
+        "Amber",
+        "Patchouli",
+        "Musk"
+      ],
+      "description": "The most famous fragrance ever made: soapy aldehydes over a vast floral heart and warm woods. A genuine historical artefact.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "unisex-date-night-quality-chanel-chanel-n-2605",
+        "unisex-formal-quality-chanel-chanel-n-2605"
+      ]
+    },
+    {
+      "brand": "Clinique",
+      "name": "Aromatics Elixir",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Verbena",
+        "Bergamot",
+        "Chamomile",
+        "Aldehydes"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Ylang-Ylang",
+        "Orris",
+        "Patchouli"
+      ],
+      "base_notes": [
+        "Oakmoss",
+        "Sandalwood",
+        "Musk",
+        "Incense"
+      ],
+      "description": "A dense, herbal chypre with rose and patchouli at its core. Divisive, powerful and utterly of its era.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-formal-budget-clinique-aromatics-elixir",
+        "unisex-formal-budget-clinique-aromatics-elixir"
+      ]
+    },
+    {
+      "brand": "Clinique",
+      "name": "Clinique Happy",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Citrus",
+        "Floral",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Bergamot",
+        "Lemon",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Freesia",
+        "Magnolia",
+        "Rose",
+        "Orchid"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Cedar",
+        "Mahogany"
+      ],
+      "description": "Zesty grapefruit over soft florals. Bright, uncomplicated and exactly as cheerful as the name suggests.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "unisex-daily-budget-clinique-clinique-happy",
+        "unisex-sport-budget-clinique-clinique-happy"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Fleurissimo",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Violet"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Rose",
+        "Violet"
+      ],
+      "base_notes": [
+        "Orris",
+        "Ambergris"
+      ],
+      "description": "A classical white-floral bouquet built around tuberose and rose. Formal, bridal and old-world.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-chill-niche-creed-creed-fleurissimo",
+        "female-daily-niche-creed-creed-fleurissimo"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Aventus for Her",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Green Apple",
+        "Violet",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Sandalwood",
+        "Blackcurrant"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Peach",
+        "Ylang-Ylang"
+      ],
+      "description": "A fruity rose over soft woods and musk. Shares the fruit-and-wood idea of Aventus without copying it.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-formal-niche-creed-creed-aventus-for-her",
+        "unisex-formal-niche-creed-creed-aventus-for-her"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Original Vetiver",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Green",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Vetiver"
+      ],
+      "base_notes": [
+        "Amber",
+        "Musk",
+        "Sandalwood",
+        "Tonka Bean"
+      ],
+      "description": "Clean, green vetiver with a citrus lift and a soft amber finish. Crisp and understated.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-chill-niche-creed-creed-original-vetiver",
+        "unisex-chill-niche-creed-creed-original-vetiver"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Millésime Impérial",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Lemon",
+        "Sea Salt"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Sicilian Lemon"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood"
+      ],
+      "description": "Salted citrus over soft iris and musk. Airy and sophisticated, built for warm weather.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-date-night-niche-creed-creed-millesime-imperial",
+        "male-formal-niche-creed-creed-millesime-imperial"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Virgin Island Water",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Aquatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lime",
+        "Coconut",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Ylang-Ylang",
+        "Sugar Cane",
+        "Ginger"
+      ],
+      "base_notes": [
+        "White Rum",
+        "Musk"
+      ],
+      "description": "Lime, coconut and rum. A holiday cocktail rendered almost literally, and all the better for it.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-sport-niche-creed-creed-virgin-island-water",
+        "unisex-sport-niche-creed-creed-virgin-island-water"
+      ]
+    },
+    {
+      "brand": "Davidoff",
+      "name": "Davidoff Cool Water",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Green",
+        "Floral"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Sea Water",
+        "Mint",
+        "Lavender",
+        "Coriander",
+        "Rosemary",
+        "Green Notes"
+      ],
+      "middle_notes": [
+        "Sandalwood",
+        "Neroli",
+        "Geranium",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Oakmoss",
+        "Amber",
+        "Tobacco"
+      ],
+      "description": "The fragrance that invented the aquatic genre: sea spray, mint and lavender over warm woods.",
+      "note": "DUPLICATE PRODUCT: this is the same fragrance as the \"Cool Water\" row enriched in batch-01, listed separately only because the catalog name carries a redundant brand prefix. Pyramid intentionally identical. Candidate for the Stage A0 name repair.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "unisex-chill-budget-davidoff-davidoff-cool-water",
+        "unisex-daily-budget-davidoff-davidoff-cool-water"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Miss Dior",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Peony",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Musk",
+        "Sandalwood"
+      ],
+      "description": "A bright rose over clean patchouli. Modern and polished, a long way from the original 1947 chypre.",
+      "note": "Miss Dior has been reformulated repeatedly and the name covers several distinct compositions. Confirm which against the brand page.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-chill-quality-dior-miss-dior",
+        "female-daily-quality-dior-miss-dior"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "J'adore",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Melon",
+        "Magnolia",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Orchid",
+        "Violet"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "Cedar",
+        "Blackberry"
+      ],
+      "description": "A glossy, fruity floral built on jasmine and rose. Polished and universally flattering.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-formal-quality-dior-j-adore",
+        "unisex-formal-quality-dior-j-adore"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Miss Dior Blooming Bouquet",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Sicilian Mandarin"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Rose",
+        "Apricot"
+      ],
+      "base_notes": [
+        "White Musk"
+      ],
+      "description": "Soft peony and apricot over clean musk. Gentle and powdery, the most casual of the Miss Dior line.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "female-sport-quality-dior-miss-dior-blooming-bouquet",
+        "unisex-daily-quality-dior-miss-dior-blooming-bouquet"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Homme",
+      "concentration": "Cologne",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Grapefruit"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Musk"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Cedar"
+      ],
+      "description": "A pared-back citrus and iris over clean musk. The lightest, most transparent Dior Homme.",
+      "note": "Cologne concentration, materially lighter than the EDT and Intense, which are separate catalog rows.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-chill-quality-dior-dior-homme",
+        "male-daily-quality-dior-dior-homme"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Fahrenheit",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Green"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Lavender",
+        "Mandarin",
+        "Bergamot",
+        "Nutmeg",
+        "Hawthorn"
+      ],
+      "middle_notes": [
+        "Violet Leaf",
+        "Carnation",
+        "Sandalwood",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Leather",
+        "Vetiver",
+        "Amber",
+        "Tonka Bean",
+        "Patchouli"
+      ],
+      "description": "Violet leaf and leather over a petrol-like accord that nothing else has replicated. Strange, divisive and genuinely iconic.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-chill-quality-dior-dior-fahrenheit",
+        "unisex-chill-quality-dior-dior-fahrenheit"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Homme Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Ambrette",
+        "Pear"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Virginia Cedar"
+      ],
+      "description": "Buttery iris over soft woods. Refined, powdery and quietly formal.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-date-night-quality-dior-dior-homme-intense",
+        "male-formal-quality-dior-dior-homme-intense"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Sauvage",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Amber",
+        "Spicy",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Sichuan Pepper"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Star Anise",
+        "Nutmeg"
+      ],
+      "base_notes": [
+        "Ambroxan",
+        "Vanilla",
+        "Sandalwood"
+      ],
+      "description": "The Sauvage idea made warmer and smoother, with vanilla softening the ambroxan.",
+      "note": "This is the EDP, a different pyramid from the EDT (a separate catalog product). Sweeter and less peppery.",
+      "row_count": 2,
+      "applies_to_ids": [
+        "male-date-night-quality-dior-sauvage",
+        "unisex-date-night-quality-dior-sauvage"
+      ]
+    }
+  ]
+}

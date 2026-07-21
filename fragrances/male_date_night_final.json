@@ -391,13 +391,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Ambrette",
+      "Pear"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Virginia Cedar"
+    ],
+    "description": "Buttery iris over soft woods. Refined, powdery and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-emporio-armani-stronger-with-you-intensely",
@@ -431,13 +439,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Bergamot",
+      "Sichuan Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Star Anise",
+      "Nutmeg"
+    ],
+    "base_notes": [
+      "Ambroxan",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "The Sauvage idea made warmer and smoother, with vanilla softening the ambroxan.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-chanel-allure-homme-sport",
@@ -551,13 +569,30 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Grapefruit",
+      "Lemon",
+      "Mint",
+      "Pink Pepper",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Nutmeg",
+      "Jasmine",
+      "Iso E Super"
+    ],
+    "base_notes": [
+      "Incense",
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Cedar",
+      "Labdanum"
+    ],
+    "description": "The Bleu signature in a richer register: same citrus and ginger opening, but warmer and more resinous in the dry-down.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-diesel-diesel-spirit-of-the-brave",
@@ -691,13 +726,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Tobacco Leaf",
+      "Spicy Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla",
+      "Cacao",
+      "Tonka Bean",
+      "Tobacco Blossom"
+    ],
+    "base_notes": [
+      "Dried Fruits",
+      "Woody Notes"
+    ],
+    "description": "Pipe tobacco steeped in vanilla and dried fruit. Rich, gourmand and unapologetically wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-tom-ford-tuscan-leather",
@@ -751,13 +796,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Lemon",
+      "Sea Salt"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Sicilian Lemon"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Salted citrus over soft iris and musk. Airy and sophisticated, built for warm weather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-by-kilian-angels-share",
@@ -771,13 +825,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Spicy"
+      "Cognac"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Tonka Bean",
+      "Praline"
+    ],
+    "base_notes": [
+      "Oak",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Cognac and toasted oak wrapped in praline and vanilla. Boozy, dessert-like and very warm.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-parfums-de-marly-herod",
@@ -891,13 +954,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Raspberry",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud",
+      "Rose",
+      "Incense"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Birch",
+      "Guaiac Wood",
+      "Amber"
+    ],
+    "description": "Dense oud and incense lifted by a jammy raspberry note. Heavy, resinous and unmistakably opulent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-amouage-amouage-interlude-53",

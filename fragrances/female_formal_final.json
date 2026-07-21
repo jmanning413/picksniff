@@ -131,13 +131,28 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Verbena",
+      "Bergamot",
+      "Chamomile",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Ylang-Ylang",
+      "Orris",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Sandalwood",
+      "Musk",
+      "Incense"
+    ],
+    "description": "A dense, herbal chypre with rose and patchouli at its core. Divisive, powerful and utterly of its era.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-calvin-klein-eternity",
@@ -498,13 +513,27 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Pear",
+      "Melon",
+      "Magnolia",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Orchid",
+      "Violet"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Cedar",
+      "Blackberry"
+    ],
+    "description": "A glossy, fruity floral built on jasmine and rose. Polished and universally flattering.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-giorgio-armani-s-354-fiori",
@@ -649,13 +678,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Lavender",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla Absolute",
+      "Vanilla Caviar"
+    ],
+    "base_notes": [
+      "Vanilla Bourbon",
+      "Cacao"
+    ],
+    "description": "The richer concentration of the vanilla-and-lavender signature, deeper and longer lasting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-valentino-valentino-voce-viva",
@@ -689,13 +726,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Orange",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vanilla",
+      "Tonka Bean",
+      "White Musk"
+    ],
+    "description": "The Coco Mademoiselle signature pushed warmer and deeper, with more vanilla and tonka.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-prada-prada-infusion-d-iris",
@@ -729,13 +778,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Mandarin",
+      "Honey",
+      "Rum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Jasmine",
+      "Rose",
+      "Narcissus"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vanilla",
+      "Myrrh",
+      "Labdanum"
+    ],
+    "description": "Honeyed florals over creamy sandalwood and vanilla. Lush, sweet and deliberately excessive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-carolina-herrera-good-girl",
@@ -903,13 +966,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Bergamot",
+      "Green Apple",
+      "Violet",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Sandalwood",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Peach",
+      "Ylang-Ylang"
+    ],
+    "description": "A fruity rose over soft woods and musk. Shares the fruit-and-wood idea of Aventus without copying it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-jo-malone-jo-malone-velvet-rose-oud-intense",

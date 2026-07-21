@@ -425,13 +425,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Ambrette",
+      "Pear"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Virginia Cedar"
+    ],
+    "description": "Buttery iris over soft woods. Refined, powdery and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-giorgio-armani-armani-code",
@@ -718,13 +726,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Bergamot",
+      "Lemon",
+      "Sea Salt"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Sicilian Lemon"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Salted citrus over soft iris and musk. Airy and sophisticated, built for warm weather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-parfums-de-marly-parfums-de-marly-layton",
@@ -818,13 +835,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Amber"
+      "Rosemary",
+      "Pink Pepper",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orris",
+      "Neroli"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Vetiver",
+      "Musk"
+    ],
+    "description": "Powdery jasmine and orris over smooth sandalwood. Polished and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-amouage-amouage-interlude-man",
@@ -838,13 +867,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Oregano",
+      "Pimento"
     ],
-    "description": "",
+    "middle_notes": [
+      "Frankincense",
+      "Amber",
+      "Opoponax"
+    ],
+    "base_notes": [
+      "Leather",
+      "Patchouli",
+      "Sandalwood",
+      "Agarwood"
+    ],
+    "description": "A wall of smoky incense and resin over leather. Famously dense, not remotely casual.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-roja-parfums-roja-parfums-elysium-pour-homme",

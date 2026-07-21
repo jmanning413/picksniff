@@ -198,13 +198,30 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Sea Water",
+      "Mint",
+      "Lavender",
+      "Coriander",
+      "Rosemary",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sandalwood",
+      "Neroli",
+      "Geranium",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Oakmoss",
+      "Amber",
+      "Tobacco"
+    ],
+    "description": "The fragrance that invented the aquatic genre: sea spray, mint and lavender over warm woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-burberry-burberry-weekend",
@@ -286,13 +303,24 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Jackfruit",
+      "Star Anise",
+      "Coriander"
     ],
-    "description": "",
+    "middle_notes": [
+      "Blue Sage",
+      "Tobacco Leaf"
+    ],
+    "base_notes": [
+      "Suede",
+      "Sandalwood",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "description": "Spiced tobacco and suede over warm amber. Dry and masculine without being heavy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-lacoste-lacoste-l-12-12-blanc",
@@ -604,13 +632,29 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Lavender",
+      "Mandarin",
+      "Bergamot",
+      "Nutmeg",
+      "Hawthorn"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Carnation",
+      "Sandalwood",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vetiver",
+      "Amber",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "description": "Violet leaf and leather over a petrol-like accord that nothing else has replicated. Strange, divisive and genuinely iconic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-montblanc-montblanc-legend-red",
@@ -907,13 +951,23 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Green"
+      "Ambrette",
+      "Jamaican Nesberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Sandalwood",
+      "Magnolia"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Amber"
+    ],
+    "description": "Soft woods and powdery violet with a dry, desert-air quality. Understated and skin-close.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-byredo-byredo-gypsy-water",
@@ -999,13 +1053,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Amber"
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rum",
+      "Clary Sage",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tobacco Leaf",
+      "Vetiver",
+      "Styrax",
+      "Benzoin"
+    ],
+    "description": "Boozy rum and sweet tobacco in a wood-panelled room. Warm, smoky and very easy to like.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-jo-malone-jo-malone-wood-sage-sea-salt",
@@ -1066,13 +1132,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Bergamot",
+      "Mandarin",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Amber",
+      "Musk",
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "description": "Clean, green vetiver with a citrus lift and a soft amber finish. Crisp and understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-creed-creed-green-irish-tweed",
@@ -1135,13 +1211,26 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Green"
+      "Bergamot",
+      "Lemon",
+      "Neroli",
+      "Marigold"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Cyclamen"
+    ],
+    "base_notes": [
+      "Black Amber",
+      "Musk",
+      "Vetiver",
+      "Cedar"
+    ],
+    "description": "Bright citrus and marigold over warm amber and vetiver. Sunny up top, smoky underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",
@@ -1155,13 +1244,22 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Lemon",
+      "Lime",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pine",
+      "Black Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Black Pepper"
+    ],
+    "description": "Sharp citrus and pine with a peppery bite. A Victorian classic that still reads crisp and clean.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-louis-vuitton-lv-au-hasard",

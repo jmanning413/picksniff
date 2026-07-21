@@ -183,13 +183,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Citrus"
+      "Grapefruit",
+      "Quince"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Iris"
+    ],
+    "description": "Soft grapefruit and quince over powdery musk. The gentlest member of the Chance family.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-tommy-hilfiger-tommy-girl",
@@ -397,13 +406,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Peony",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "A bright rose over clean patchouli. Modern and polished, a long way from the original 1947 chypre.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-giorgio-armani-si",
@@ -548,13 +567,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
+    ],
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Freesia",
+      "Rose"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
       "Vanilla"
     ],
-    "description": "",
+    "description": "An explosion of sweet florals over patchouli and vanilla. Enormous projection, instantly recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-yves-saint-laurent-yves-saint-laurent-libre",
@@ -588,13 +619,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fresh"
+      "Water Jasmine",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris"
+    ],
+    "description": "Salted vanilla against fresh jasmine. Sweet but with a saline edge that keeps it from cloying.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-burberry-burberry-her",
@@ -608,13 +648,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Woody"
+      "Strawberry",
+      "Blackcurrant",
+      "Raspberry",
+      "Blackberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "A jammy berry opening softened by violet and musk. Sweet, youthful and very wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-chanel-chance",
@@ -953,13 +1005,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Floral",
-      "Fresh"
+      "Bergamot",
+      "Violet"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Rose",
+      "Violet"
+    ],
+    "base_notes": [
+      "Orris",
+      "Ambergris"
+    ],
+    "description": "A classical white-floral bouquet built around tuberose and rose. Formal, bridal and old-world.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-creed-creed-spring-flower",

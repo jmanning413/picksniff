@@ -360,13 +360,27 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Grapefruit",
+      "Bergamot",
+      "Lemon",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Freesia",
+      "Magnolia",
+      "Rose",
+      "Orchid"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Cedar",
+      "Mahogany"
+    ],
+    "description": "Zesty grapefruit over soft florals. Bright, uncomplicated and exactly as cheerful as the name suggests.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-dkny-dkny-be-delicious",
@@ -469,13 +483,27 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Bergamot",
+      "Grapefruit",
+      "Fig Leaf",
+      "Water Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Papyrus",
+      "Black Pepper",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Musk",
+      "Tonka Bean",
+      "Saffron",
+      "Incense"
+    ],
+    "description": "Aquatic citrus over papyrus and dry musk. Fresh at the open, darker and woodier as it settles.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-burberry-burberry-weekend",
@@ -625,13 +653,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Grapefruit",
+      "Marine Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Oakmoss",
+      "Patchouli"
+    ],
+    "description": "Bright grapefruit over a salty marine accord and warm woods. Loud, fresh and built for crowds.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-hermes-terre-d-hermes",
@@ -675,13 +714,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Bergamot",
+      "Ginger",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Violet Leaf"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Vetiver",
+      "Tonka Bean"
+    ],
+    "description": "Crisp aldehydes and sage over dry cedar. Clean and modern, closer to a sharp shirt than a statement.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-versace-versace-eros",
@@ -695,13 +745,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Mint",
+      "Green Apple",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tonka Bean",
+      "Ambroxan",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Vetiver",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "Cool mint and green apple crashing into sweet tonka and vanilla. Bold, sweet and impossible to miss.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-chanel-chance-eau-fra-356che",
@@ -715,13 +777,23 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Lemon",
+      "Citron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Water Hyacinth"
+    ],
+    "base_notes": [
+      "Teak",
+      "Amber",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Sparkling citrus over clean woods. The crispest, most transparent Chance.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-burberry-burberry-hero",
@@ -843,13 +915,26 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Lavender",
+      "Mandarin",
+      "Blackcurrant",
+      "Petitgrain"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "Lavender pulled in two directions, sharp up top and creamy vanilla underneath. Modern and confident.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-guerlain-guerlain-aqua-allegoria-bergamote-calabria",
@@ -883,13 +968,20 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Bamboo",
+      "Nashi Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus Flower"
+    ],
+    "base_notes": [
+      "Balsa Wood",
+      "Musk"
+    ],
+    "description": "Watery pear and bamboo over pale woods. Light, translucent and almost weightless.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-paco-rabanne-invictus-aqua",
@@ -943,13 +1035,23 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Lime",
+      "Coconut",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ylang-Ylang",
+      "Sugar Cane",
+      "Ginger"
+    ],
+    "base_notes": [
+      "White Rum",
+      "Musk"
+    ],
+    "description": "Lime, coconut and rum. A holiday cocktail rendered almost literally, and all the better for it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-creed-creed-silver-mountain-water",
@@ -1078,13 +1180,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Pink Pepper",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut Milk",
+      "Ylang-Ylang",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Coconut milk and warm skin over soft musk. Smells like sunscreen on a hot beach, in the best way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-maison-margiela-maison-margiela-replica-sailing-day",

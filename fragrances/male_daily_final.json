@@ -51,13 +51,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Bergamot",
+      "Ginger",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Violet Leaf"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Vetiver",
+      "Tonka Bean"
+    ],
+    "description": "Crisp aldehydes and sage over dry cedar. Clean and modern, closer to a sharp shirt than a statement.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-nautica-nautica-voyage",
@@ -405,13 +416,30 @@
       "Citrus"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Citrus"
+      "Grapefruit",
+      "Lemon",
+      "Mint",
+      "Pink Pepper",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Nutmeg",
+      "Jasmine",
+      "Iso E Super"
+    ],
+    "base_notes": [
+      "Incense",
+      "Amber",
+      "Sandalwood",
+      "Patchouli",
+      "Cedar",
+      "Labdanum"
+    ],
+    "description": "The Bleu signature in a richer register: same citrus and ginger opening, but warmer and more resinous in the dry-down.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-dior-sauvage",
@@ -515,13 +543,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Woody"
+      "Bergamot",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Musk"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar"
+    ],
+    "description": "A pared-back citrus and iris over clean musk. The lightest, most transparent Dior Homme.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-prada-prada-l-homme",
@@ -575,13 +611,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Mint",
+      "Green Apple",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tonka Bean",
+      "Ambroxan",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Vetiver",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "Cool mint and green apple crashing into sweet tonka and vanilla. Bold, sweet and impossible to miss.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-paco-rabanne-paco-rabanne-phantom",
@@ -764,13 +812,27 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Woody",
-      "Fresh"
+      "Orange",
+      "Aldehydes",
+      "Sea Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Neroli",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "White Musk",
+      "Vetiver",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Clean citrus and sea air over soft tonka and musk. Fresh, polished and endlessly office-safe.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-montblanc-legend-spirit",
@@ -977,13 +1039,25 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Rosemary",
+      "Pink Pepper",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orris",
+      "Neroli"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cedar",
+      "Vetiver",
+      "Musk"
+    ],
+    "description": "Powdery jasmine and orris over smooth sandalwood. Polished and quietly formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-niche-xerjoff-xerjoff-40-knots",
@@ -1172,12 +1246,24 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Bergamot",
+      "Oregano",
+      "Pimento"
     ],
-    "description": "",
+    "middle_notes": [
+      "Frankincense",
+      "Amber",
+      "Opoponax"
+    ],
+    "base_notes": [
+      "Leather",
+      "Patchouli",
+      "Sandalwood",
+      "Agarwood"
+    ],
+    "description": "A wall of smoky incense and resin over leather. Famously dense, not remotely casual.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

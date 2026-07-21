@@ -588,13 +588,23 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Peony",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "A bright rose over clean patchouli. Modern and polished, a long way from the original 1947 chypre.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-paco-rabanne-olympea",
@@ -608,13 +618,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Water Jasmine",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris"
+    ],
+    "description": "Salted vanilla against fresh jasmine. Sweet but with a saline edge that keeps it from cloying.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-yves-saint-laurent-yves-saint-laurent-libre",
@@ -648,13 +667,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Freesia",
+      "Rose"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Vanilla"
+    ],
+    "description": "An explosion of sweet florals over patchouli and vanilla. Enormous projection, instantly recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-burberry-burberry-her",
@@ -668,13 +699,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Amber"
+      "Strawberry",
+      "Blackcurrant",
+      "Raspberry",
+      "Blackberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "A jammy berry opening softened by violet and musk. Sweet, youthful and very wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-chanel-coco-mademoiselle",
@@ -901,13 +944,22 @@
       "Fruity"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fruity"
+      "Bergamot",
+      "Violet"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Rose",
+      "Violet"
+    ],
+    "base_notes": [
+      "Orris",
+      "Ambergris"
+    ],
+    "description": "A classical white-floral bouquet built around tuberose and rose. Formal, bridal and old-world.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-frederic-malle-frederic-malle-portrait-of-a-lady",

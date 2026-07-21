@@ -318,13 +318,24 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Jackfruit",
+      "Star Anise",
+      "Coriander"
     ],
-    "description": "",
+    "middle_notes": [
+      "Blue Sage",
+      "Tobacco Leaf"
+    ],
+    "base_notes": [
+      "Suede",
+      "Sandalwood",
+      "Amber",
+      "Tonka Bean"
+    ],
+    "description": "Spiced tobacco and suede over warm amber. Dry and masculine without being heavy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-davidoff-davidoff-cool-water-game",
@@ -408,13 +419,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Bergamot",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Musk"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar"
+    ],
+    "description": "A pared-back citrus and iris over clean musk. The lightest, most transparent Dior Homme.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-bvlgari-bvlgari-aqva-pour-homme",
@@ -568,13 +587,29 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Green"
+      "Lavender",
+      "Mandarin",
+      "Bergamot",
+      "Nutmeg",
+      "Hawthorn"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Carnation",
+      "Sandalwood",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vetiver",
+      "Amber",
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "description": "Violet leaf and leather over a petrol-like accord that nothing else has replicated. Strange, divisive and genuinely iconic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-hermes-hermes-terre-d-hermes-eau-tres-fra-356che",
@@ -787,13 +822,25 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rum",
+      "Clary Sage",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tobacco Leaf",
+      "Vetiver",
+      "Styrax",
+      "Benzoin"
+    ],
+    "description": "Boozy rum and sweet tobacco in a wood-panelled room. Warm, smoky and very easy to like.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-maison-margiela-maison-margiela-replica-autumn-vibes",
@@ -963,13 +1010,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Green",
-      "Woody",
-      "Aromatic"
+      "Bergamot",
+      "Mandarin",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Amber",
+      "Musk",
+      "Sandalwood",
+      "Tonka Bean"
+    ],
+    "description": "Clean, green vetiver with a citrus lift and a soft amber finish. Crisp and understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-creed-creed-erolfa",
@@ -1023,13 +1080,22 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Green"
+      "Lemon",
+      "Lime",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pine",
+      "Black Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Black Pepper"
+    ],
+    "description": "Sharp citrus and pine with a peppery bite. A Victorian classic that still reads crisp and clean.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-xerjoff-xerjoff-1861-renaissance",

@@ -71,13 +71,19 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Jasmine Sambac"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "White Amber",
+      "Woody Notes"
+    ],
+    "description": "A huge, solar jasmine over warm amber woods. Minimal in structure but enormous in presence.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-thierry-mugler-angel",
@@ -647,13 +653,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Lavender",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla Absolute",
+      "Vanilla Caviar"
+    ],
+    "base_notes": [
+      "Vanilla Bourbon",
+      "Cacao"
+    ],
+    "description": "Vanilla layered three ways, cut with lavender so it never turns flat. Warm, creamy and modern.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-valentino-valentino-donna-born-in-roma",
@@ -787,13 +801,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Mandarin",
+      "Honey",
+      "Rum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Jasmine",
+      "Rose",
+      "Narcissus"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vanilla",
+      "Myrrh",
+      "Labdanum"
+    ],
+    "description": "Honeyed florals over creamy sandalwood and vanilla. Lush, sweet and deliberately excessive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-maison-margiela-maison-margiela-replica-by-the-fireplace",
