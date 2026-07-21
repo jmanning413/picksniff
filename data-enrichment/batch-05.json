@@ -1,0 +1,1655 @@
+{
+  "_meta": {
+    "batch": "batch-05",
+    "scope": "Unique products ranked 201-250 by catalog row count.",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "counts": {
+      "medium": 41,
+      "high": 8,
+      "low": 1
+    },
+    "products": 50,
+    "catalog_rows_covered": 50
+  },
+  "entries": [
+    {
+      "brand": "Calvin Klein",
+      "name": "Obsession for Men",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Amber",
+        "Spicy",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Bergamot",
+        "Lavender",
+        "Clary Sage"
+      ],
+      "middle_notes": [
+        "Myrrh",
+        "Coriander",
+        "Cinnamon",
+        "Carnation"
+      ],
+      "base_notes": [
+        "Amber",
+        "Musk",
+        "Vanilla",
+        "Sandalwood",
+        "Patchouli"
+      ],
+      "description": "Warm amber and spice under a citrus-lavender opening. A dense, sweet oriental from the late eighties.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-calvin-klein-obsession-for-men"
+      ]
+    },
+    {
+      "brand": "Calvin Klein",
+      "name": "Calvin Klein Euphoria Men",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Pepper"
+      ],
+      "middle_notes": [
+        "Black Basil",
+        "Sage",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Amber",
+        "Suede",
+        "Patchouli"
+      ],
+      "description": "Cool ginger and pepper over suede and amber. Dark and smooth without turning heavy.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-calvin-klein-calvin-klein-euphoria-men"
+      ]
+    },
+    {
+      "brand": "Calvin Klein",
+      "name": "Calvin Klein CK Be",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Green",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender",
+        "Mint",
+        "Bergamot",
+        "Juniper",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Magnolia",
+        "Jasmine",
+        "Peach",
+        "Freesia"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood",
+        "Tonka Bean",
+        "Opoponax",
+        "Cedar"
+      ],
+      "description": "Soft lavender and mint over skin musk. The quieter sibling of CK One, calm and unisex.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-calvin-klein-calvin-klein-ck-be"
+      ]
+    },
+    {
+      "brand": "Calvin Klein",
+      "name": "CK Be",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender",
+        "Mint",
+        "Bergamot",
+        "Juniper",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Magnolia",
+        "Jasmine",
+        "Peach",
+        "Freesia"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood",
+        "Tonka Bean",
+        "Opoponax",
+        "Cedar"
+      ],
+      "description": "Soft lavender and mint over skin musk. The quieter sibling of CK One, calm and unisex.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Calvin Klein CK Be\" row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-daily-budget-calvin-klein-ck-be"
+      ]
+    },
+    {
+      "brand": "Calvin Klein",
+      "name": "CK2",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Violet Leaf",
+        "Mandarin",
+        "Cucumber"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Aquatic Notes",
+        "Orris"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Incense",
+        "Sandalwood",
+        "Musk"
+      ],
+      "description": "Wet violet leaf and cucumber over mineral vetiver. Urban and deliberately androgynous.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-daily-budget-calvin-klein-ck2"
+      ]
+    },
+    {
+      "brand": "Calvin Klein",
+      "name": "Obsession",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Amber",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Notes",
+        "Mandarin",
+        "Bergamot",
+        "Peach",
+        "Basil"
+      ],
+      "middle_notes": [
+        "Coriander",
+        "Orange Blossom",
+        "Jasmine",
+        "Sandalwood",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Amber",
+        "Incense",
+        "Musk",
+        "Vanilla",
+        "Civet"
+      ],
+      "description": "A landmark eighties oriental: amber, incense and animalic warmth under a bright green opening.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-budget-calvin-klein-obsession"
+      ]
+    },
+    {
+      "brand": "Carolina Herrera",
+      "name": "Good Girl Supreme",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Berries",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Roasted Coffee",
+        "Vanilla",
+        "Tonka Bean"
+      ],
+      "description": "The Good Girl coffee-and-tuberose idea pushed darker with berries.",
+      "note": "Supreme flanker. Shares the Good Girl DNA; confirm the Supreme-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-quality-carolina-herrera-good-girl-supreme"
+      ]
+    },
+    {
+      "brand": "Carolina Herrera",
+      "name": "Good Girl Blush",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Bitter Almond"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Coumarin"
+      ],
+      "description": "Peony and ylang over a double dose of vanilla. The Good Girl idea turned soft, powdery and pink.",
+      "note": "RESEARCHED against the OFFICIAL Carolina Herrera product page plus Sephora and Nordstrom 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-carolina-herrera-good-girl-blush"
+      ]
+    },
+    {
+      "brand": "Carolina Herrera",
+      "name": "Good Girl Légère",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Jasmine",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Cacao",
+        "Sandalwood",
+        "Musk"
+      ],
+      "description": "The Good Girl signature with the coffee dialled down and the florals lifted. Softer and daytime-friendly.",
+      "note": "Légère flanker. Shares the Good Girl DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-carolina-herrera-good-girl-legere"
+      ]
+    },
+    {
+      "brand": "Carolina Herrera",
+      "name": "Bad Boy",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Spicy",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Black Pepper",
+        "White Pepper",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Cedar",
+        "Clary Sage"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Cacao",
+        "Amberwood"
+      ],
+      "description": "Pepper and sage over sweet tonka and cacao. Spicy-sweet with a deliberate edge.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-carolina-herrera-bad-boy"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chance",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pink Pepper",
+        "Lemon",
+        "Pineapple"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Iris",
+        "Hyacinth"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Amber",
+        "Vetiver",
+        "White Musk"
+      ],
+      "description": "Pink pepper and jasmine spun around bright patchouli. Youthful, rounded and instantly recognisable.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-quality-chanel-chance"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "N\\2605",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Aldehydes",
+        "Ylang-Ylang",
+        "Neroli",
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Jasmine",
+        "Rose",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vetiver",
+        "Vanilla",
+        "Amber",
+        "Patchouli",
+        "Musk"
+      ],
+      "description": "The most famous fragrance ever made: soapy aldehydes over a vast floral heart and warm woods.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Chanel N°5\" row enriched in batch-02, listed twice due to an encoding variant of the name. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-chanel-n-2605"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chance Eau de Cologne pour Homme",
+      "concentration": "Cologne",
+      "tier": "quality",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Aromatic"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "CONFIRMED NON-EXISTENT PRODUCT (researched 2026-07-21): Chanel has never released a men’s Chance — the Chance line is women-only per Chanel’s own catalog. This row is a data-corruption artifact from the original PDF extraction. Its accords (Citrus, Fresh, Aromatic) and Cologne concentration suggest it may be a mangling of Allure Homme Sport Cologne, a real Chanel men’s cologne with exactly that profile. OWNER DECISION NEEDED: rename the row (Stage A0) or remove it. Notes deliberately left null; do not invent a pyramid for a product that does not exist.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-quality-chanel-chance-eau-de-cologne-pour-homme"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chanel Sycomore",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cypress",
+        "Pink Pepper",
+        "Juniper"
+      ],
+      "middle_notes": [
+        "Vetiver",
+        "Violet"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Tobacco",
+        "Incense"
+      ],
+      "description": "Smoky vetiver over dry cypress and sandalwood. Austere, elegant and quietly one of Chanel’s best.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-niche-chanel-chanel-sycomore"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Allure Homme Sport",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Aldehydes",
+        "Sea Notes",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Pepper",
+        "Neroli",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "White Musk",
+        "Vetiver",
+        "Vanilla",
+        "Amber"
+      ],
+      "description": "The Allure Homme Sport signature in a deeper concentration.",
+      "note": "The catalog lists this as EDP; Chanel’s richer version is formally Eau Extrême. Shares the line DNA; confirm which product this row is.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-chanel-allure-homme-sport"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Allure Homme Sport Eau Extreme",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Cypress",
+        "Sage"
+      ],
+      "middle_notes": [
+        "Pepper",
+        "Neroli"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Sandalwood",
+        "White Musk"
+      ],
+      "description": "The darkest, warmest Allure Homme Sport: less citrus splash, more tonka and woods.",
+      "note": "The catalog lists this as EDT; Eau Extrême is formally an EDP. Concentration label likely swapped with the other Allure Homme Sport row. Notes reflect Eau Extrême.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-chanel-allure-homme-sport-eau-extreme"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chanel Egoiste",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Coriander",
+        "Mandarin",
+        "Rosewood"
+      ],
+      "middle_notes": [
+        "Carnation",
+        "Cinnamon",
+        "Rose"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vanilla",
+        "Ambrette"
+      ],
+      "description": "Spiced sandalwood and carnation from 1990. Bold, woody and still unlike anything else on a shelf.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-chanel-chanel-egoiste"
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "Chanel Coco Mademoiselle",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Orange",
+        "Bergamot",
+        "Orange Blossom"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Ylang-Ylang",
+        "Mimosa"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "White Musk",
+        "Vanilla",
+        "Vetiver",
+        "Tonka Bean"
+      ],
+      "description": "Bright orange over rose, jasmine and clean patchouli. Polished, modern and enormously popular.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Coco Mademoiselle\" row enriched in batch-01, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-quality-chanel-chanel-coco-mademoiselle"
+      ]
+    },
+    {
+      "brand": "Chloé",
+      "name": "Chloé",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Peony",
+        "Litchi",
+        "Freesia"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Magnolia",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Amber",
+        "Cedar",
+        "Honey"
+      ],
+      "description": "A powdery modern rose over soft amber. Romantic without being sugary, and a template many copied.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-budget-chloe-chloe"
+      ]
+    },
+    {
+      "brand": "Claiborne",
+      "name": "Curve for Men Liz",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pineapple",
+        "Lavender",
+        "Lemon",
+        "Juniper Berries",
+        "Neroli"
+      ],
+      "middle_notes": [
+        "Ginger",
+        "Sage",
+        "Cardamom",
+        "Cactus",
+        "Coriander"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood",
+        "Mahogany",
+        "Cedar",
+        "Vetiver"
+      ],
+      "description": "Green pineapple and juniper over dry woods. A mid-nineties mall classic that aged better than expected.",
+      "note": "RESEARCHED against retailer listings (FragranceX, Osmoz, Basenotes) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-claiborne-curve-for-men-liz"
+      ]
+    },
+    {
+      "brand": "Clinique",
+      "name": "Happy",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Bergamot",
+        "Lemon",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Freesia",
+        "Magnolia",
+        "Rose",
+        "Orchid"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Cedar",
+        "Mahogany"
+      ],
+      "description": "Zesty grapefruit over soft florals. Bright, uncomplicated and exactly as cheerful as the name suggests.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Clinique Happy\" row enriched in batch-02, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-clinique-happy"
+      ]
+    },
+    {
+      "brand": "Clinique",
+      "name": "Clinique Chemistry",
+      "concentration": "Cologne",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mint",
+        "Neroli",
+        "Lavender",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Ginger",
+        "Coriander",
+        "Pepper",
+        "Cyclamen"
+      ],
+      "base_notes": [
+        "Musk",
+        "Oakmoss",
+        "Sandalwood",
+        "Cedar",
+        "Amber"
+      ],
+      "description": "Cool mint and citrus over mossy woods. Clean-cut, quiet and very much of its decade.",
+      "note": "RESEARCHED against retailer listings (Perfume.com, FragranceNet, Basenotes) 2026-07-21. Discontinued product.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-clinique-clinique-chemistry"
+      ]
+    },
+    {
+      "brand": "Clinique",
+      "name": "Clinique Happy for Men",
+      "concentration": "Cologne",
+      "tier": "budget",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lime",
+        "Green Notes",
+        "Cypress"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Freesia",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Musk",
+        "Suede",
+        "Guaiac Wood"
+      ],
+      "description": "Cold citrus and cypress over clean musk. Crisp, green and deliberately simple.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-budget-clinique-clinique-happy-for-men"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Spring Flower",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Peach",
+        "Melon",
+        "Apple",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambergris"
+      ],
+      "description": "Juicy peach and melon over soft florals and musk. The sunniest, most easygoing Creed.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-creed-creed-spring-flower"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Love in White",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange Zest"
+      ],
+      "middle_notes": [
+        "Magnolia",
+        "Jasmine",
+        "Daffodil",
+        "Rice Husk"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Ambergris",
+        "Vanilla"
+      ],
+      "description": "White florals over creamy rice husk and sandalwood. Clean and bridal, with a faintly powdery finish.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-creed-love-in-white"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Love in White",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aquatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange Zest"
+      ],
+      "middle_notes": [
+        "Magnolia",
+        "Jasmine",
+        "Daffodil",
+        "Rice Husk"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Ambergris",
+        "Vanilla"
+      ],
+      "description": "White florals over creamy rice husk and sandalwood. Clean and bridal, with a faintly powdery finish.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Love in White\" row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-creed-creed-love-in-white"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Erolfa",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Lime",
+        "Melon",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Ginger",
+        "Violet",
+        "Cyclamen",
+        "Pepper"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambergris",
+        "Oakmoss",
+        "Cedar"
+      ],
+      "description": "Citrus and sea air built for deck shoes. A 1992 marine that still reads properly nautical.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-niche-creed-creed-erolfa"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Aventus Cologne",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Mandarin",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Vetiver",
+        "Patchouli",
+        "Sandalwood"
+      ],
+      "base_notes": [
+        "Birch",
+        "Musk",
+        "Tonka Bean",
+        "Styrax"
+      ],
+      "description": "The Aventus smoke rebuilt around ginger and vetiver. Fresher and greener than its famous sibling.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-niche-creed-creed-aventus-cologne"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Viking Cologne",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Spicy",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Sage",
+        "Nutmeg",
+        "Lavender",
+        "Rosemary"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vetiver",
+        "Patchouli"
+      ],
+      "description": "Herbal citrus over dry woods. The Viking fire calmed down into something office-safe.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-creed-viking-cologne"
+      ]
+    },
+    {
+      "brand": "Creed",
+      "name": "Creed Millesime Imperial",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Lemon",
+        "Sea Salt"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Sicilian Lemon"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood"
+      ],
+      "description": "Salted citrus over soft iris and musk. Airy and sophisticated, built for warm weather.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Creed Millésime Impérial\" row enriched in batch-02, listed twice due to an accent variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-niche-creed-creed-millesime-imperial"
+      ]
+    },
+    {
+      "brand": "Davidoff",
+      "name": "Cool Water Woman",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Citrus",
+        "Pineapple",
+        "Blackcurrant",
+        "Quince"
+      ],
+      "middle_notes": [
+        "Lotus",
+        "Lily",
+        "Water Notes"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood",
+        "Vanilla"
+      ],
+      "description": "Watery fruit and lotus over clean musk. The aquatic idea translated brighter and fruitier.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-davidoff-cool-water-woman"
+      ]
+    },
+    {
+      "brand": "Davidoff",
+      "name": "Davidoff Champion",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Clary Sage",
+        "Galbanum"
+      ],
+      "base_notes": [
+        "Oakmoss",
+        "Cedar"
+      ],
+      "description": "Sharp citrus over green galbanum and moss. Lean, gym-bag fresh and deliberately simple.",
+      "note": "RESEARCHED against retailer listings (Parfumo, Perfumebox, Cologne.com) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-davidoff-davidoff-champion"
+      ]
+    },
+    {
+      "brand": "Davidoff",
+      "name": "Davidoff Cool Water Game",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Watermelon",
+        "Grapefruit",
+        "Lemon Verbena",
+        "Basil"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Violet Leaf",
+        "Blackcurrant"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Woody Notes"
+      ],
+      "description": "Watermelon and verbena over light woods. A sweeter, fruitier spin on the Cool Water idea.",
+      "note": "RESEARCHED 2026-07-21; resolved to Cool Water Game for Him (2006), distinct from the Happy Summer flanker. Discontinued product.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-davidoff-davidoff-cool-water-game"
+      ]
+    },
+    {
+      "brand": "Davidoff",
+      "name": "Davidoff Adventure",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin Orange",
+        "Pepper",
+        "Lemon",
+        "Bergamot",
+        "Mate"
+      ],
+      "middle_notes": [
+        "Pimento",
+        "Sesame"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Cedar",
+        "White Musk"
+      ],
+      "description": "Peppered citrus and mate over dry vetiver. Outdoorsy in a low-key, wearable way.",
+      "note": "RESEARCHED against retailer listings (FragranceX, Parfumo, Perfume Direct) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-davidoff-davidoff-adventure"
+      ]
+    },
+    {
+      "brand": "Diesel",
+      "name": "Diesel Loverdose",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Star Anise"
+      ],
+      "middle_notes": [
+        "Licorice",
+        "Jasmine",
+        "Gardenia"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Amber",
+        "Woody Notes"
+      ],
+      "description": "Licorice and star anise over sweet vanilla. Dark candy, worn with intent.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-diesel-diesel-loverdose"
+      ]
+    },
+    {
+      "brand": "Diesel",
+      "name": "Diesel Spirit of the Brave",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Spicy",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Galbanum",
+        "Artemisia"
+      ],
+      "middle_notes": [
+        "Clary Sage",
+        "Elemi",
+        "Cypress"
+      ],
+      "base_notes": [
+        "Balsam Fir",
+        "Tonka Bean",
+        "Labdanum"
+      ],
+      "description": "Green galbanum and cypress over warm tonka and fir balsam. Fresher and greener than the Only the Brave line it extends.",
+      "note": "RESEARCHED against the official Diesel product listing and launch coverage 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-diesel-diesel-spirit-of-the-brave"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Miss Dior Absolutely Blooming",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Red Berries",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Damascus Rose",
+        "Grasse Rose"
+      ],
+      "base_notes": [
+        "White Musk"
+      ],
+      "description": "A bouquet of roses over sweet berries and musk. Bright, pink and unabashedly pretty.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-dior-miss-dior-absolutely-blooming"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Miss Dior",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Amber",
+        "Woody Notes",
+        "Vanilla"
+      ],
+      "description": "The Miss Dior rose in its densest concentration.",
+      "note": "Parfum concentration (2024 release). Shares the modern Miss Dior DNA; confirm the Parfum-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-dior-miss-dior"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Fahrenheit",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Violet Leaf",
+        "Sandalwood"
+      ],
+      "base_notes": [
+        "Leather",
+        "Vetiver",
+        "Tonka Bean"
+      ],
+      "description": "The Fahrenheit violet-and-leather signature, warmer and denser.",
+      "note": "Parfum concentration; the EDT enriched in batch-03 is the reference formulation. Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-dior-fahrenheit"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Higher",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Basil",
+        "Lemon",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Cypress",
+        "Rosemary",
+        "Cardamom",
+        "Pepper"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar"
+      ],
+      "description": "Crisp pear and basil over cypress and musk. An energetic early-2000s fresh scent, since discontinued.",
+      "note": "RESEARCHED against retailer listings (Parfumo, Basenotes, Le Parfumier) 2026-07-21. Discontinued product.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-dior-dior-higher"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Homme",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Cedar",
+        "Musk"
+      ],
+      "description": "The Dior Homme iris in a deeper, woodier register.",
+      "note": "EDP concentration; the EDT and Intense are separate catalog rows with their own lists. Confirm against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-dior-dior-homme"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Sauvage",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Elemi"
+      ],
+      "middle_notes": [
+        "Sandalwood",
+        "Olibanum"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean"
+      ],
+      "description": "Sauvage condensed: the citrus survives, but sandalwood and vanilla carry it.",
+      "note": "Parfum concentration (2019). The EDT and EDP are separate catalog rows with their own lists.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-dior-dior-sauvage"
+      ]
+    },
+    {
+      "brand": "Dior",
+      "name": "Dior Sauvage",
+      "concentration": "Elixir",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Cinnamon",
+        "Nutmeg",
+        "Cardamom",
+        "Grapefruit"
+      ],
+      "middle_notes": [
+        "Lavender"
+      ],
+      "base_notes": [
+        "Licorice",
+        "Sandalwood",
+        "Amber",
+        "Patchouli",
+        "Vetiver"
+      ],
+      "description": "A spiced, concentrated shot of the Sauvage idea: lavender and licorice over dense woods. Very strong, very dark.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-dior-dior-sauvage"
+      ]
+    },
+    {
+      "brand": "Diptyque",
+      "name": "Diptyque Tempo",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Green",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Patchouli",
+        "Violet Leaf",
+        "Mate"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Clary Sage",
+        "Woody Notes"
+      ],
+      "description": "Patchouli studied from three angles: green, earthy and clean. Serious and beautifully made.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-niche-diptyque-diptyque-tempo"
+      ]
+    },
+    {
+      "brand": "Diptyque",
+      "name": "Diptyque Eau Rose",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Litchi"
+      ],
+      "middle_notes": [
+        "Damascena Rose",
+        "Centifolia Rose",
+        "Artichoke Leaf"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Cedar"
+      ],
+      "description": "Two roses kept fresh and green rather than jammy. Light, natural and very wearable.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-niche-diptyque-diptyque-eau-rose"
+      ]
+    },
+    {
+      "brand": "DKNY",
+      "name": "Be Delicious",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Cucumber",
+        "Apple"
+      ],
+      "middle_notes": [
+        "Apple",
+        "Rose",
+        "Violet",
+        "Magnolia"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Amber",
+        "White Musk"
+      ],
+      "description": "Crisp green apple and cucumber over soft woods. Juicy, clean and famously easy to wear.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"DKNY Be Delicious\" EDP row enriched in batch-03, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-dkny-be-delicious"
+      ]
+    },
+    {
+      "brand": "DKNY",
+      "name": "Be Delicious",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Cucumber",
+        "Apple"
+      ],
+      "middle_notes": [
+        "Apple",
+        "Rose",
+        "Violet",
+        "Magnolia"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Amber",
+        "White Musk"
+      ],
+      "description": "The Be Delicious green apple in a lighter, brighter splash.",
+      "note": "EDT concentration of the Be Delicious EDP. Shares the DNA; the EDT-specific list is not separately documented.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-dkny-be-delicious"
+      ]
+    },
+    {
+      "brand": "DKNY",
+      "name": "DKNY Be Delicious",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aquatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Cucumber",
+        "Apple"
+      ],
+      "middle_notes": [
+        "Apple",
+        "Rose",
+        "Violet",
+        "Magnolia"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Amber",
+        "White Musk"
+      ],
+      "description": "The Be Delicious green apple in a lighter, brighter splash.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Be Delicious\" EDT row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-sport-budget-dkny-dkny-be-delicious"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Rose The One",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pink Grapefruit",
+        "Mandarin",
+        "Blackcurrant"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Peony",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "Ambrette",
+        "Sandalwood"
+      ],
+      "description": "A soft pink rose over musk and vanilla. Gentle, rounded and easy to like.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-dolce-gabbana-rose-the-one"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Light Blue Eau Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aquatic"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Sicilian Lemon",
+        "Granny Smith Apple"
+      ],
+      "middle_notes": [
+        "Marigold",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Amberwood",
+        "Musk"
+      ],
+      "description": "The Light Blue citrus sharpened and deepened with amberwood. Brighter opening, warmer finish.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-dolce-gabbana-light-blue-eau-intense"
+      ]
+    }
+  ]
+}

@@ -205,13 +205,28 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Green"
+      "Mint",
+      "Neroli",
+      "Lavender",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Coriander",
+      "Pepper",
+      "Cyclamen"
+    ],
+    "base_notes": [
+      "Musk",
+      "Oakmoss",
+      "Sandalwood",
+      "Cedar",
+      "Amber"
+    ],
+    "description": "Cool mint and citrus over mossy woods. Clean-cut, quiet and very much of its decade.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-azzaro-azzaro-pour-homme",
@@ -316,13 +331,21 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Clary Sage",
+      "Galbanum"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "Sharp citrus over green galbanum and moss. Lean, gym-bag fresh and deliberately simple.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-kenneth-cole-kenneth-cole-black",
@@ -390,13 +413,30 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Green"
+      "Pineapple",
+      "Lavender",
+      "Lemon",
+      "Juniper Berries",
+      "Neroli"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Sage",
+      "Cardamom",
+      "Cactus",
+      "Coriander"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Mahogany",
+      "Cedar",
+      "Vetiver"
+    ],
+    "description": "Green pineapple and juniper over dry woods. A mid-nineties mall classic that aged better than expected.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-calvin-klein-calvin-klein-ck-free",
@@ -441,13 +481,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Aromatic"
+      "Watermelon",
+      "Grapefruit",
+      "Lemon Verbena",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Violet Leaf",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "Watermelon and verbena over light woods. A sweeter, fruitier spin on the Cool Water idea.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-zara-zara-man-gold",
@@ -1241,13 +1292,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Lemon",
+      "Lime",
+      "Melon",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Violet",
+      "Cyclamen",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "Citrus and sea air built for deck shoes. A 1992 marine that still reads properly nautical.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-penhaligon-s-penhaligon-s-sartorial",

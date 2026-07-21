@@ -11,13 +11,27 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Grapefruit",
+      "Bergamot",
+      "Lemon",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Freesia",
+      "Magnolia",
+      "Rose",
+      "Orchid"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Cedar",
+      "Mahogany"
+    ],
+    "description": "Zesty grapefruit over soft florals. Bright, uncomplicated and exactly as cheerful as the name suggests.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-davidoff-cool-water-woman",
@@ -31,13 +45,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Citrus",
+      "Pineapple",
+      "Blackcurrant",
+      "Quince"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus",
+      "Lily",
+      "Water Notes"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Vanilla"
+    ],
+    "description": "Watery fruit and lotus over clean musk. The aquatic idea translated brighter and fruitier.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-lopez-glow-edt-jennifer",
@@ -71,13 +97,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Grapefruit",
+      "Cucumber",
+      "Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Apple",
+      "Rose",
+      "Violet",
+      "Magnolia"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "White Musk"
+    ],
+    "description": "The Be Delicious green apple in a lighter, brighter splash.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-nautica-nautica-voyage-pour-elle",
@@ -470,13 +508,21 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Sicilian Lemon",
+      "Granny Smith Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Marigold",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Amberwood",
+      "Musk"
+    ],
+    "description": "The Light Blue citrus sharpened and deepened with amberwood. Brighter opening, warmer finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-yves-saint-laurent-libre",
@@ -672,13 +718,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cacao",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "The Good Girl signature with the coffee dialled down and the florals lifted. Softer and daytime-friendly.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-lancome-idole",
@@ -990,13 +1047,23 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Orange Zest"
     ],
-    "description": "",
+    "middle_notes": [
+      "Magnolia",
+      "Jasmine",
+      "Daffodil",
+      "Rice Husk"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ambergris",
+      "Vanilla"
+    ],
+    "description": "White florals over creamy rice husk and sandalwood. Clean and bridal, with a faintly powdery finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-jo-malone-jo-malone-wood-sage-sea-salt",

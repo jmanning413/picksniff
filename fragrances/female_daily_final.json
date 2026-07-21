@@ -166,13 +166,25 @@
       "Floral"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Floral"
+      "Grapefruit",
+      "Cucumber",
+      "Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Apple",
+      "Rose",
+      "Violet",
+      "Magnolia"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "White Musk"
+    ],
+    "description": "Crisp green apple and cucumber over soft woods. Juicy, clean and famously easy to wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-kenzo-flower-by-kenzo",
@@ -739,13 +751,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Citrus"
+      "Pink Pepper",
+      "Lemon",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Iris",
+      "Hyacinth"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Amber",
+      "Vetiver",
+      "White Musk"
+    ],
+    "description": "Pink pepper and jasmine spun around bright patchouli. Youthful, rounded and instantly recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-carolina-herrera-good-girl",
@@ -1126,13 +1150,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Peach",
+      "Melon",
+      "Apple",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris"
+    ],
+    "description": "Juicy peach and melon over soft florals and musk. The sunniest, most easygoing Creed.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-louis-vuitton-lv-attrape-reves",

@@ -126,13 +126,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Woody"
+      "Black Pepper",
+      "White Pepper",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedar",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cacao",
+      "Amberwood"
+    ],
+    "description": "Pepper and sage over sweet tonka and cacao. Spicy-sweet with a deliberate edge.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-jean-paul-gaultier-le-male",
@@ -398,13 +408,28 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Vanilla"
+      "Mandarin",
+      "Bergamot",
+      "Lavender",
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Myrrh",
+      "Coriander",
+      "Cinnamon",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Amber",
+      "Musk",
+      "Vanilla",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "description": "Warm amber and spice under a citrus-lavender opening. A dense, sweet oriental from the late eighties.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-viktor-rolf-spicebomb-extreme",
@@ -544,13 +569,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
+      "Orange",
+      "Aldehydes",
+      "Sea Notes",
+      "Mandarin"
+    ],
+    "middle_notes": [
+      "Pepper",
+      "Neroli",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "White Musk",
+      "Vetiver",
+      "Vanilla",
       "Amber"
     ],
-    "description": "",
+    "description": "The Allure Homme Sport signature in a deeper concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-parfums-de-marly-layton",
@@ -710,13 +749,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Spicy",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Galbanum",
+      "Artemisia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Clary Sage",
+      "Elemi",
+      "Cypress"
+    ],
+    "base_notes": [
+      "Balsam Fir",
+      "Tonka Bean",
+      "Labdanum"
+    ],
+    "description": "Green galbanum and cypress over warm tonka and fir balsam. Fresher and greener than the Only the Brave line it extends.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-jean-paul-gaultier-le-male-le",
@@ -810,13 +860,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Mandarin",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vetiver",
+      "Tonka Bean"
+    ],
+    "description": "The Fahrenheit violet-and-leather signature, warmer and denser.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-tom-ford-tobacco-vanille",
@@ -1133,13 +1192,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Woody"
+      "Bergamot",
+      "Mandarin",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Nutmeg",
+      "Lavender",
+      "Rosemary"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "Herbal citrus over dry woods. The Viking fire calmed down into something office-safe.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-parfums-de-marly-pegasus",

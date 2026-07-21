@@ -146,13 +146,30 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Green Notes",
+      "Mandarin",
+      "Bergamot",
+      "Peach",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coriander",
+      "Orange Blossom",
+      "Jasmine",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Amber",
+      "Incense",
+      "Musk",
+      "Vanilla",
+      "Civet"
+    ],
+    "description": "A landmark eighties oriental: amber, incense and animalic warmth under a bright green opening.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-viktor-rolf-flowerbomb",
@@ -1122,13 +1139,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Litchi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Damascena Rose",
+      "Centifolia Rose",
+      "Artichoke Leaf"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar"
+    ],
+    "description": "Two roses kept fresh and green rather than jammy. Light, natural and very wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-maison-margiela-maison-margiela-replica-by-the-fireplace",
@@ -1429,13 +1455,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Bergamot",
+      "Lemon",
+      "Sea Salt"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Sicilian Lemon"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Salted citrus over soft iris and musk. Airy and sophisticated, built for warm weather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-initio-initio-side-effect",

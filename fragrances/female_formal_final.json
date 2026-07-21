@@ -108,13 +108,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Peony",
+      "Litchi",
+      "Freesia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Magnolia",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Amber",
+      "Cedar",
+      "Honey"
+    ],
+    "description": "A powdery modern rose over soft amber. Romantic without being sugary, and a template many copied.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-yves-saint-laurent-opium",
@@ -519,13 +530,30 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Aldehydes",
+      "Ylang-Ylang",
+      "Neroli",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Rose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Vanilla",
+      "Amber",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "The most famous fragrance ever made: soapy aldehydes over a vast floral heart and warm woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-dior-miss-dior",
@@ -539,13 +567,21 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
+      "Mandarin"
+    ],
+    "middle_notes": [
+      "Rose",
+      "Jasmine"
+    ],
+    "base_notes": [
       "Amber",
+      "Woody Notes",
       "Vanilla"
     ],
-    "description": "",
+    "description": "The Miss Dior rose in its densest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-narciso-rodriguez-narciso-rodriguez-for-her",

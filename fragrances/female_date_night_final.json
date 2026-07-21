@@ -505,13 +505,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Bitter Almond"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Coumarin"
+    ],
+    "description": "Peony and ylang over a double dose of vanilla. The Good Girl idea turned soft, powdery and pink.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-paco-rabanne-olympea-intense",
@@ -657,13 +665,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Red Berries",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Damascus Rose",
+      "Grasse Rose"
+    ],
+    "base_notes": [
+      "White Musk"
+    ],
+    "description": "A bouquet of roses over sweet berries and musk. Bright, pink and unabashedly pretty.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-paco-rabanne-fame",
@@ -1136,13 +1152,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Orange Zest"
     ],
-    "description": "",
+    "middle_notes": [
+      "Magnolia",
+      "Jasmine",
+      "Daffodil",
+      "Rice Husk"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ambergris",
+      "Vanilla"
+    ],
+    "description": "White florals over creamy rice husk and sandalwood. Clean and bridal, with a faintly powdery finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-penhaligon-s-halfeti-pour-femme",

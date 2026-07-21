@@ -233,13 +233,23 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Ginger",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Black Basil",
+      "Sage",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Amber",
+      "Suede",
+      "Patchouli"
+    ],
+    "description": "Cool ginger and pepper over suede and amber. Dark and smooth without turning heavy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-hugo-boss-boss-the-scent-absolute",
@@ -273,13 +283,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Aromatic"
+      "Mandarin Orange",
+      "Pepper",
+      "Lemon",
+      "Bergamot",
+      "Mate"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pimento",
+      "Sesame"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "White Musk"
+    ],
+    "description": "Peppered citrus and mate over dry vetiver. Outdoorsy in a low-key, wearable way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-dior-dior-higher",
@@ -293,13 +315,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Pear",
+      "Basil",
+      "Lemon",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cypress",
+      "Rosemary",
+      "Cardamom",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar"
+    ],
+    "description": "Crisp pear and basil over cypress and musk. An energetic early-2000s fresh scent, since discontinued.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-dunhill-dunhill-century",
@@ -413,13 +447,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Bergamot",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Musk"
+    ],
+    "description": "The Dior Homme iris in a deeper, woodier register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-prada-luna-rossa-black",
@@ -470,12 +513,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic"
+      "Mandarin",
+      "Cypress",
+      "Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Neroli"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Sandalwood",
+      "White Musk"
+    ],
+    "description": "The darkest, warmest Allure Homme Sport: less citrus splash, more tonka and woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-dior-dior-homme-intense",
@@ -537,13 +591,22 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Bergamot",
+      "Mandarin",
+      "Elemi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sandalwood",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "description": "Sauvage condensed: the citrus survives, but sandalwood and vanilla carry it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-burberry-burberry-hero-eau-de",
@@ -673,13 +736,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Coriander",
+      "Mandarin",
+      "Rosewood"
     ],
-    "description": "",
+    "middle_notes": [
+      "Carnation",
+      "Cinnamon",
+      "Rose"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vanilla",
+      "Ambrette"
+    ],
+    "description": "Spiced sandalwood and carnation from 1990. Bold, woody and still unlike anything else on a shelf.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-ferragamo-ferragamo-signorina-uomo",

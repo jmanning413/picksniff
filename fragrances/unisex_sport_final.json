@@ -429,13 +429,25 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Grapefruit",
+      "Cucumber",
+      "Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Apple",
+      "Rose",
+      "Violet",
+      "Magnolia"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "White Musk"
+    ],
+    "description": "The Be Delicious green apple in a lighter, brighter splash.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-elizabeth-arden-elizabeth-arden-green-tea",

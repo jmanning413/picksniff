@@ -276,13 +276,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Mandarin",
+      "Star Anise"
     ],
-    "description": "",
+    "middle_notes": [
+      "Licorice",
+      "Jasmine",
+      "Gardenia"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Amber",
+      "Woody Notes"
+    ],
+    "description": "Licorice and star anise over sweet vanilla. Dark candy, worn with intent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-guess-guess-seductive",
@@ -376,13 +386,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Pink Grapefruit",
+      "Mandarin",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Peony",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Ambrette",
+      "Sandalwood"
+    ],
+    "description": "A soft pink rose over musk and vanilla. Gentle, rounded and easy to like.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-thierry-mugler-angel-muse",
@@ -436,13 +458,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Berries",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Roasted Coffee",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "description": "The Good Girl coffee-and-tuberose idea pushed darker with berries.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-giorgio-armani-si",

@@ -301,13 +301,29 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Green",
-      "Citrus"
+      "Lavender",
+      "Mint",
+      "Bergamot",
+      "Juniper",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Magnolia",
+      "Jasmine",
+      "Peach",
+      "Freesia"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Tonka Bean",
+      "Opoponax",
+      "Cedar"
+    ],
+    "description": "Soft lavender and mint over skin musk. The quieter sibling of CK One, calm and unisex.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-versace-versace-man-eau-fraiche",
@@ -711,13 +727,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Cinnamon",
+      "Nutmeg",
+      "Cardamom",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender"
+    ],
+    "base_notes": [
+      "Licorice",
+      "Sandalwood",
+      "Amber",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "A spiced, concentrated shot of the Sauvage idea: lavender and licorice over dense woods. Very strong, very dark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-versace-versace-eros",
@@ -1099,13 +1127,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Fresh",
-      "Woody"
+      "Bergamot",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Patchouli",
+      "Violet Leaf",
+      "Mate"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Clary Sage",
+      "Woody Notes"
+    ],
+    "description": "Patchouli studied from three angles: green, earthy and clean. Serious and beautifully made.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-byredo-byredo-gypsy-water",

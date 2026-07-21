@@ -51,13 +51,29 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Green"
+      "Lavender",
+      "Mint",
+      "Bergamot",
+      "Juniper",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Magnolia",
+      "Jasmine",
+      "Peach",
+      "Freesia"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Tonka Bean",
+      "Opoponax",
+      "Cedar"
+    ],
+    "description": "Soft lavender and mint over skin musk. The quieter sibling of CK One, calm and unisex.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-budget-giorgio-armani-acqua-di-gio",
@@ -547,13 +563,25 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Green"
+      "Violet Leaf",
+      "Mandarin",
+      "Cucumber"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Aquatic Notes",
+      "Orris"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Incense",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "Wet violet leaf and cucumber over mineral vetiver. Urban and deliberately androgynous.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-dior-sauvage",
