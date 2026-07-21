@@ -486,24 +486,31 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-daily-budget-dunhill-dunhill-icon",
-    "name": "Dunhill Icon",
-    "brand": "Dunhill",
-    "concentration": "EDP",
+    "id": "male-daily-budget-prada-luna-rossa-ocean",
+    "name": "Luna Rossa Ocean",
+    "brand": "Prada",
+    "concentration": "EDT",
     "tier": "budget",
     "accords": [
-      "Woody",
+      "Fresh",
       "Aromatic",
-      "Citrus"
+      "Woody"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Citrus"
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Sage"
+    ],
+    "base_notes": [
+      "Suede",
+      "Musk"
+    ],
+    "description": "Bergamot and iris over a suede finish. Minimal, elegant and modern, with real staying power.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-chanel-bleu-de-chanel",
@@ -834,8 +841,8 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-daily-quality-chanel-chance-eau-de-cologne-pour-homme",
-    "name": "Chance Eau de Cologne pour Homme",
+    "id": "male-daily-quality-chanel-allure-homme-sport-cologne",
+    "name": "Allure Homme Sport Cologne",
     "brand": "Chanel",
     "concentration": "Cologne",
     "tier": "quality",
@@ -845,13 +852,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Lemon",
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Neroli",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar",
+      "Vetiver"
+    ],
+    "description": "A burst of cold citrus over clean musk and light woods. The freshest, fastest member of the Allure Homme Sport family.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-hermes-hermes-h24",

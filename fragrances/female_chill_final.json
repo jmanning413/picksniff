@@ -315,61 +315,60 @@
     "jomashop_url": null
   },
   {
-    "id": "female-chill-budget-lavigne-forbidden-rose-edp-avril",
-    "name": "Forbidden Rose",
-    "brand": "Avril Lavigne",
+    "id": "female-chill-budget-billie-eilish-eilish",
+    "name": "Eilish",
+    "brand": "Billie Eilish",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Vanilla",
+      "Amber",
+      "Fruity"
     ],
     "top_notes": [
-      "Red Apple",
-      "Peach",
-      "Pepper"
+      "Mandarin",
+      "Red Berries",
+      "Sugared Petals"
     ],
     "middle_notes": [
-      "Lotus",
-      "Green Apple",
-      "Heliotrope"
+      "Vanilla",
+      "Cocoa"
     ],
     "base_notes": [
-      "Vanilla",
-      "Chocolate",
-      "Sandalwood"
+      "Musk",
+      "Amber",
+      "Tonka Bean"
     ],
-    "description": "Red apple and peach over vanilla and chocolate. A fruity gourmand, sweet and firmly of its moment.",
+    "description": "Warm vanilla and cocoa wrapped in soft amber. A cozy modern gourmand with a huge following.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"
   },
   {
-    "id": "female-chill-budget-avon-incandessence",
-    "name": "Incandessence",
-    "brand": "Avon",
+    "id": "female-chill-budget-ariana-grande-cloud-pink",
+    "name": "Cloud Pink",
+    "brand": "Ariana Grande",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
-      "Floral",
       "Vanilla",
-      "Amber"
+      "Fruity",
+      "Floral"
     ],
     "top_notes": [
-      "Orchid",
-      "Lily-of-the-Valley",
-      "Cyclamen"
+      "Forest Fruits",
+      "Bergamot"
     ],
     "middle_notes": [
-      "Tulip",
-      "Peony"
+      "Whipped Cream",
+      "Jasmine Sambac"
     ],
     "base_notes": [
-      "Orchid",
+      "Praline",
+      "Vanilla",
       "Musk"
     ],
-    "description": "A soft, powdery floral built around orchid and peony. Gentle and easy, aimed at everyday wear.",
+    "description": "The Cloud formula in a softer, fruitier register. Whipped cream and berries over praline.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

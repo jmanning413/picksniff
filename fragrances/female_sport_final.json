@@ -158,44 +158,65 @@
     "jomashop_url": null
   },
   {
-    "id": "female-sport-budget-escada-escada-island-kiss",
-    "name": "Escada Island Kiss",
-    "brand": "Escada",
+    "id": "female-sport-budget-tommy-hilfiger-tommy-girl",
+    "name": "Tommy Girl",
+    "brand": "Tommy Hilfiger",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
+      "Floral",
       "Fruity",
-      "Fresh",
-      "Citrus"
+      "Fresh"
     ],
     "top_notes": [
-      "Fruity",
-      "Fresh",
-      "Citrus"
+      "Apple Blossom",
+      "Mandarin",
+      "Camellia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honeysuckle",
+      "Lily",
+      "Rose"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "Apple blossom and honeysuckle over clean musk. A bright, energetic nineties classic that never left.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
-    "id": "female-sport-budget-victoria-s-secret-victoria-s-secret-bombshell-summer",
-    "name": "Victoria's Secret Bombshell Summer",
+    "id": "female-sport-budget-victoria-s-secret-bombshell",
+    "name": "Bombshell",
     "brand": "Victoria's Secret",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
       "Fruity",
-      "Fresh",
-      "Citrus"
+      "Floral",
+      "Fresh"
     ],
     "top_notes": [
-      "Fruity",
-      "Fresh",
-      "Citrus"
+      "Passion Fruit",
+      "Grapefruit",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Vanilla Orchid",
+      "Red Berries"
+    ],
+    "base_notes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Juicy passion fruit and peony over soft musk. One of the best-selling fragrances in America, year after year.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-ariana-grande-ariana-grande-cloud",
@@ -360,24 +381,34 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-sport-budget-escada-escada-sorbetto-rosso",
-    "name": "Escada Sorbetto Rosso",
-    "brand": "Escada",
+    "id": "female-sport-budget-ralph-lauren-ralph",
+    "name": "Ralph",
+    "brand": "Ralph Lauren",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
+      "Floral",
       "Fruity",
-      "Citrus",
-      "Fresh"
+      "Green"
     ],
     "top_notes": [
-      "Fruity",
-      "Citrus",
-      "Fresh"
+      "Green Apple",
+      "Mandarin",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Freesia",
+      "Magnolia",
+      "Boronia"
+    ],
+    "base_notes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Green apple and fresh florals with a clean musk finish. Youthful, breezy and easy to reach for.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-versace-versace-dylan-blue-pour-femme",

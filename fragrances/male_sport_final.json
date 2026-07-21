@@ -346,34 +346,30 @@
     "jomashop_url": null
   },
   {
-    "id": "male-sport-budget-burberry-burberry-brit-for-men-sport",
-    "name": "Burberry Brit for Men Sport",
-    "brand": "Burberry",
-    "concentration": "EDT",
+    "id": "male-sport-budget-davidoff-cool-water-intense",
+    "name": "Cool Water Intense",
+    "brand": "Davidoff",
+    "concentration": "EDP",
     "tier": "budget",
     "accords": [
-      "Fresh",
       "Aquatic",
-      "Citrus"
+      "Fresh",
+      "Woody"
     ],
     "top_notes": [
-      "Ginger",
-      "Cardamom",
-      "Green Mandarin",
-      "Bergamot"
+      "Sea Notes",
+      "Mandarin"
     ],
     "middle_notes": [
-      "Wild Rose",
-      "Nutmeg",
-      "Cedar"
+      "Palm Leaf",
+      "Juniper"
     ],
     "base_notes": [
-      "Tonka Bean",
-      "Musk",
-      "Cedar",
-      "Patchouli"
+      "Ambroxan",
+      "Patchouli",
+      "Sandalwood"
     ],
-    "description": "Ginger and cardamom over nutmeg and warm cedar. Sharp and spicy with a soft tonka finish.",
+    "description": "The Cool Water sea breeze deepened with ambroxan and woods. Familiar freshness with more staying power.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

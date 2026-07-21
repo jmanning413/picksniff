@@ -194,36 +194,35 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-chill-budget-clinique-clinique-chemistry",
-    "name": "Clinique Chemistry",
-    "brand": "Clinique",
-    "concentration": "Cologne",
+    "id": "male-chill-budget-versace-versace-dylan-blue",
+    "name": "Versace Dylan Blue",
+    "brand": "Versace",
+    "concentration": "EDT",
     "tier": "budget",
     "accords": [
+      "Aquatic",
       "Fresh",
-      "Aromatic",
-      "Green"
+      "Woody"
     ],
     "top_notes": [
-      "Mint",
-      "Neroli",
-      "Lavender",
-      "Lemon"
+      "Bergamot",
+      "Grapefruit",
+      "Fig Leaf",
+      "Water Notes"
     ],
     "middle_notes": [
-      "Ginger",
-      "Coriander",
-      "Pepper",
-      "Cyclamen"
+      "Violet Leaf",
+      "Papyrus",
+      "Black Pepper",
+      "Patchouli"
     ],
     "base_notes": [
       "Musk",
-      "Oakmoss",
-      "Sandalwood",
-      "Cedar",
-      "Amber"
+      "Tonka Bean",
+      "Saffron",
+      "Incense"
     ],
-    "description": "Cool mint and citrus over mossy woods. Clean-cut, quiet and very much of its decade.",
+    "description": "Aquatic citrus over papyrus and dry musk. Fresh at the open, darker and woodier as it settles.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"
@@ -470,32 +469,31 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-chill-budget-davidoff-davidoff-cool-water-game",
-    "name": "Davidoff Cool Water Game",
-    "brand": "Davidoff",
+    "id": "male-chill-budget-nautica-nautica-voyage",
+    "name": "Nautica Voyage",
+    "brand": "Nautica",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
       "Aquatic",
       "Fresh",
-      "Aromatic"
+      "Green"
     ],
     "top_notes": [
-      "Watermelon",
-      "Grapefruit",
-      "Lemon Verbena",
-      "Basil"
+      "Apple",
+      "Green Leaves"
     ],
     "middle_notes": [
-      "Lavender",
-      "Violet Leaf",
-      "Blackcurrant"
+      "Mimosa",
+      "Water Lotus",
+      "Cedar"
     ],
     "base_notes": [
-      "Patchouli",
-      "Woody Notes"
+      "Musk",
+      "Amber",
+      "Moss"
     ],
-    "description": "Watermelon and verbena over light woods. A sweeter, fruitier spin on the Cool Water idea.",
+    "description": "Crisp green apple over airy lotus and soft cedar. Fresh, breezy, and famously good value.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"
@@ -838,30 +836,31 @@
     "jomashop_url": null
   },
   {
-    "id": "male-chill-quality-bvlgari-bvlgari-man-in-black-essence",
-    "name": "Bvlgari Man In Black Essence",
+    "id": "male-chill-quality-bvlgari-man-in-black",
+    "name": "Man in Black",
     "brand": "Bvlgari",
     "concentration": "EDP",
     "tier": "quality",
     "accords": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Amber",
+      "Spicy",
+      "Woody"
     ],
     "top_notes": [
-      "Spices",
-      "Rum"
+      "Rum",
+      "Spices"
     ],
     "middle_notes": [
-      "Floral Notes",
-      "Musk"
+      "Tuberose",
+      "Iris",
+      "Leather"
     ],
     "base_notes": [
-      "Resin",
-      "Guaiac Wood",
-      "Amber"
+      "Benzoin",
+      "Tonka Bean",
+      "Guaiac Wood"
     ],
-    "description": "Boozy rum and spice over resin and guaiac wood. Dark and warm, a lighter reading of the Man in Black idea.",
+    "description": "Boozy rum and spice over leather and warm benzoin. Dark, plush and the reason this line has a devoted following.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

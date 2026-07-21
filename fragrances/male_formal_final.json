@@ -170,24 +170,35 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-formal-budget-montblanc-mont-blanc-individuel",
-    "name": "Mont Blanc Individuel",
+    "id": "male-formal-budget-montblanc-legend",
+    "name": "Legend",
     "brand": "Montblanc",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
-      "Woody",
-      "Spicy",
-      "Aromatic"
+      "Aromatic",
+      "Fresh",
+      "Woody"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Aromatic"
+      "Bergamot",
+      "Lavender",
+      "Pineapple Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Red Apple",
+      "Rose",
+      "Coumarin"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Oakmoss",
+      "Sandalwood"
+    ],
+    "description": "A smooth fougere built on lavender, apple and tonka. Dependable, versatile and hugely popular.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-azzaro-azzaro-pour-homme-intense",
@@ -304,56 +315,64 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-formal-budget-dior-dior-higher",
-    "name": "Dior Higher",
-    "brand": "Dior",
+    "id": "male-formal-budget-yves-saint-laurent-l-homme",
+    "name": "L'Homme",
+    "brand": "Yves Saint Laurent",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
       "Woody",
-      "Aromatic",
-      "Amber"
+      "Fresh",
+      "Spicy"
     ],
     "top_notes": [
-      "Pear",
-      "Basil",
-      "Lemon",
-      "Peach"
+      "Ginger",
+      "Bergamot",
+      "Lemon"
     ],
     "middle_notes": [
-      "Cypress",
-      "Rosemary",
-      "Cardamom",
-      "Pepper"
+      "Violet Leaf",
+      "White Pepper",
+      "Basil"
     ],
     "base_notes": [
-      "Musk",
-      "Cedar"
+      "Cedar",
+      "Vetiver",
+      "Tonka Bean"
     ],
-    "description": "Crisp pear and basil over cypress and musk. An energetic early-2000s fresh scent, since discontinued.",
+    "description": "Crisp ginger and citrus over smooth cedar and tonka. Polished, office-safe and reliably complimented.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"
   },
   {
-    "id": "male-formal-budget-dunhill-dunhill-century",
-    "name": "Dunhill Century",
-    "brand": "Dunhill",
+    "id": "male-formal-budget-carolina-herrera-212-vip-black",
+    "name": "212 VIP Black",
+    "brand": "Carolina Herrera",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Aromatic",
+      "Vanilla",
+      "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Absinthe",
+      "Anise"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Sage"
+    ],
+    "base_notes": [
+      "Black Vanilla",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Absinthe and lavender over dark vanilla. Party-coded and confident, built for evenings out.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-nautica-nautica-classic",

@@ -552,33 +552,29 @@
     "data_status": "drafted"
   },
   {
-    "id": "unisex-daily-budget-calvin-klein-ck2",
-    "name": "CK2",
+    "id": "unisex-daily-budget-calvin-klein-ck-everyone",
+    "name": "CK Everyone",
     "brand": "Calvin Klein",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
-      "Fresh",
       "Citrus",
-      "Green"
+      "Green",
+      "Fresh"
     ],
     "top_notes": [
-      "Violet Leaf",
-      "Mandarin",
-      "Cucumber"
+      "Orange",
+      "Ginger"
     ],
     "middle_notes": [
-      "Rose",
-      "Aquatic Notes",
-      "Orris"
+      "Blue Tea",
+      "Green Notes"
     ],
     "base_notes": [
-      "Vetiver",
-      "Incense",
-      "Sandalwood",
+      "Cedar",
       "Musk"
     ],
-    "description": "Wet violet leaf and cucumber over mineral vetiver. Urban and deliberately androgynous.",
+    "description": "Bright orange and blue tea over clean cedar. The modern CK unisex staple, light and easygoing.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

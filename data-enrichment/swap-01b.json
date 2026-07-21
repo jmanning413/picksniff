@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "swap": "swap-01b",
+    "note": "Addendum to swap-01: Bvlgari Man In Black Essence was verified discontinued in the cut-audit research (limited edition, secondary market only) but was accidentally omitted from the cut-audit-01/swap-01 files. Covered by Joseph's blanket approval of the dead-product cuts, executed here with disclosure.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "male-chill-quality-bvlgari-bvlgari-man-in-black-essence",
+      "file": "male_chill_final.json",
+      "replacement": {
+        "id": "male-chill-quality-bvlgari-man-in-black",
+        "name": "Man in Black", "brand": "Bvlgari", "concentration": "EDP", "tier": "quality",
+        "accords": ["Amber", "Spicy", "Woody"],
+        "top_notes": ["Rum", "Spices"],
+        "middle_notes": ["Tuberose", "Iris", "Leather"],
+        "base_notes": ["Benzoin", "Tonka Bean", "Guaiac Wood"],
+        "description": "Boozy rum and spice over leather and warm benzoin. Dark, plush and the reason this line has a devoted following."
+      }
+    }
+  ]
+}

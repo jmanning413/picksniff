@@ -296,24 +296,35 @@
     "jomashop_url": null
   },
   {
-    "id": "female-daily-budget-taylor-swift-wonderstruck",
-    "name": "Wonderstruck",
-    "brand": "Taylor Swift",
+    "id": "female-daily-budget-ariana-grande-thank-u-next",
+    "name": "Thank U Next",
+    "brand": "Ariana Grande",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
       "Floral",
-      "Fruity",
-      "Vanilla"
+      "Vanilla",
+      "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Raspberry",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Orris"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Pink berries and rose over creamy vanilla. Sweet, soft and unabashedly commercial.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-ariana-grande-cloud",

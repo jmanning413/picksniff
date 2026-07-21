@@ -1,0 +1,193 @@
+{
+  "_meta": {
+    "swap": "swap-01",
+    "source_audit": "cut-audit-01.json (all 15 cuts approved by Joseph 2026-07-21, replacements chosen for mass appeal)",
+    "provenance": "Replacement pyramids compiled from general knowledge or copied from already-enriched rows of the same product (copy_pyramid_from). No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "male-daily-quality-chanel-chance-eau-de-cologne-pour-homme",
+      "file": "male_daily_final.json",
+      "replacement": {
+        "id": "male-daily-quality-chanel-allure-homme-sport-cologne",
+        "name": "Allure Homme Sport Cologne", "brand": "Chanel", "concentration": "Cologne", "tier": "quality",
+        "accords": ["Citrus", "Fresh", "Aromatic"],
+        "top_notes": ["Lemon", "Mandarin", "Bergamot"],
+        "middle_notes": ["Neroli", "Clary Sage"],
+        "base_notes": ["White Musk", "Cedar", "Vetiver"],
+        "description": "A burst of cold citrus over clean musk and light woods. The freshest, fastest member of the Allure Homme Sport family."
+      }
+    },
+    {
+      "cut_id": "male-formal-budget-dior-dior-higher",
+      "file": "male_formal_final.json",
+      "replacement": {
+        "id": "male-formal-budget-yves-saint-laurent-l-homme",
+        "name": "L'Homme", "brand": "Yves Saint Laurent", "concentration": "EDT", "tier": "budget",
+        "accords": ["Woody", "Fresh", "Spicy"],
+        "top_notes": ["Ginger", "Bergamot", "Lemon"],
+        "middle_notes": ["Violet Leaf", "White Pepper", "Basil"],
+        "base_notes": ["Cedar", "Vetiver", "Tonka Bean"],
+        "description": "Crisp ginger and citrus over smooth cedar and tonka. Polished, office-safe and reliably complimented."
+      }
+    },
+    {
+      "cut_id": "male-chill-budget-clinique-clinique-chemistry",
+      "file": "male_chill_final.json",
+      "copy_pyramid_from": { "brand": "Versace", "name": "Versace Dylan Blue", "concentration": "EDT" },
+      "replacement": {
+        "id": "male-chill-budget-versace-versace-dylan-blue",
+        "name": "Versace Dylan Blue", "brand": "Versace", "concentration": "EDT", "tier": "budget"
+      }
+    },
+    {
+      "cut_id": "male-chill-budget-davidoff-davidoff-cool-water-game",
+      "file": "male_chill_final.json",
+      "copy_pyramid_from": { "brand": "Nautica", "name": "Nautica Voyage", "concentration": "EDT" },
+      "replacement": {
+        "id": "male-chill-budget-nautica-nautica-voyage",
+        "name": "Nautica Voyage", "brand": "Nautica", "concentration": "EDT", "tier": "budget"
+      }
+    },
+    {
+      "cut_id": "male-sport-budget-burberry-burberry-brit-for-men-sport",
+      "file": "male_sport_final.json",
+      "replacement": {
+        "id": "male-sport-budget-davidoff-cool-water-intense",
+        "name": "Cool Water Intense", "brand": "Davidoff", "concentration": "EDP", "tier": "budget",
+        "accords": ["Aquatic", "Fresh", "Woody"],
+        "top_notes": ["Sea Notes", "Mandarin"],
+        "middle_notes": ["Palm Leaf", "Juniper"],
+        "base_notes": ["Ambroxan", "Patchouli", "Sandalwood"],
+        "description": "The Cool Water sea breeze deepened with ambroxan and woods. Familiar freshness with more staying power."
+      }
+    },
+    {
+      "cut_id": "unisex-daily-budget-calvin-klein-ck2",
+      "file": "unisex_daily_final.json",
+      "replacement": {
+        "id": "unisex-daily-budget-calvin-klein-ck-everyone",
+        "name": "CK Everyone", "brand": "Calvin Klein", "concentration": "EDT", "tier": "budget",
+        "accords": ["Citrus", "Green", "Fresh"],
+        "top_notes": ["Orange", "Ginger"],
+        "middle_notes": ["Blue Tea", "Green Notes"],
+        "base_notes": ["Cedar", "Musk"],
+        "description": "Bright orange and blue tea over clean cedar. The modern CK unisex staple, light and easygoing."
+      }
+    },
+    {
+      "cut_id": "female-daily-budget-taylor-swift-wonderstruck",
+      "file": "female_daily_final.json",
+      "copy_pyramid_from": { "brand": "Ariana Grande", "name": "Thank U Next", "concentration": "EDP" },
+      "replacement": {
+        "id": "female-daily-budget-ariana-grande-thank-u-next",
+        "name": "Thank U Next", "brand": "Ariana Grande", "concentration": "EDP", "tier": "budget"
+      }
+    },
+    {
+      "cut_id": "female-sport-budget-escada-escada-island-kiss",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-budget-tommy-hilfiger-tommy-girl",
+        "name": "Tommy Girl", "brand": "Tommy Hilfiger", "concentration": "EDT", "tier": "budget",
+        "accords": ["Floral", "Fruity", "Fresh"],
+        "top_notes": ["Apple Blossom", "Mandarin", "Camellia"],
+        "middle_notes": ["Honeysuckle", "Lily", "Rose"],
+        "base_notes": ["Musk", "Sandalwood", "Cedar"],
+        "description": "Apple blossom and honeysuckle over clean musk. A bright, energetic nineties classic that never left."
+      }
+    },
+    {
+      "cut_id": "female-sport-budget-escada-escada-sorbetto-rosso",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-budget-ralph-lauren-ralph",
+        "name": "Ralph", "brand": "Ralph Lauren", "concentration": "EDT", "tier": "budget",
+        "accords": ["Floral", "Fruity", "Green"],
+        "top_notes": ["Green Apple", "Mandarin", "Osmanthus"],
+        "middle_notes": ["Freesia", "Magnolia", "Boronia"],
+        "base_notes": ["Musk", "Woody Notes"],
+        "description": "Green apple and fresh florals with a clean musk finish. Youthful, breezy and easy to reach for."
+      }
+    },
+    {
+      "cut_id": "female-sport-budget-victoria-s-secret-victoria-s-secret-bombshell-summer",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-budget-victoria-s-secret-bombshell",
+        "name": "Bombshell", "brand": "Victoria's Secret", "concentration": "EDP", "tier": "budget",
+        "accords": ["Fruity", "Floral", "Fresh"],
+        "top_notes": ["Passion Fruit", "Grapefruit", "Pineapple"],
+        "middle_notes": ["Peony", "Vanilla Orchid", "Red Berries"],
+        "base_notes": ["Musk", "Woody Notes"],
+        "description": "Juicy passion fruit and peony over soft musk. One of the best-selling fragrances in America, year after year."
+      }
+    },
+    {
+      "cut_id": "female-chill-budget-lavigne-forbidden-rose-edp-avril",
+      "file": "female_chill_final.json",
+      "replacement": {
+        "id": "female-chill-budget-billie-eilish-eilish",
+        "name": "Eilish", "brand": "Billie Eilish", "concentration": "EDP", "tier": "budget",
+        "accords": ["Vanilla", "Amber", "Fruity"],
+        "top_notes": ["Mandarin", "Red Berries", "Sugared Petals"],
+        "middle_notes": ["Vanilla", "Cocoa"],
+        "base_notes": ["Musk", "Amber", "Tonka Bean"],
+        "description": "Warm vanilla and cocoa wrapped in soft amber. A cozy modern gourmand with a huge following."
+      }
+    },
+    {
+      "cut_id": "female-chill-budget-avon-incandessence",
+      "file": "female_chill_final.json",
+      "replacement": {
+        "id": "female-chill-budget-ariana-grande-cloud-pink",
+        "name": "Cloud Pink", "brand": "Ariana Grande", "concentration": "EDP", "tier": "budget",
+        "accords": ["Vanilla", "Fruity", "Floral"],
+        "top_notes": ["Forest Fruits", "Bergamot"],
+        "middle_notes": ["Whipped Cream", "Jasmine Sambac"],
+        "base_notes": ["Praline", "Vanilla", "Musk"],
+        "description": "The Cloud formula in a softer, fruitier register. Whipped cream and berries over praline."
+      }
+    },
+    {
+      "cut_id": "male-formal-budget-montblanc-mont-blanc-individuel",
+      "file": "male_formal_final.json",
+      "replacement": {
+        "id": "male-formal-budget-montblanc-legend",
+        "name": "Legend", "brand": "Montblanc", "concentration": "EDT", "tier": "budget",
+        "accords": ["Aromatic", "Fresh", "Woody"],
+        "top_notes": ["Bergamot", "Lavender", "Pineapple Leaf"],
+        "middle_notes": ["Red Apple", "Rose", "Coumarin"],
+        "base_notes": ["Tonka Bean", "Oakmoss", "Sandalwood"],
+        "description": "A smooth fougere built on lavender, apple and tonka. Dependable, versatile and hugely popular."
+      }
+    },
+    {
+      "cut_id": "male-daily-budget-dunhill-dunhill-icon",
+      "file": "male_daily_final.json",
+      "replacement": {
+        "id": "male-daily-budget-prada-luna-rossa-ocean",
+        "name": "Luna Rossa Ocean", "brand": "Prada", "concentration": "EDT", "tier": "budget",
+        "accords": ["Fresh", "Aromatic", "Woody"],
+        "top_notes": ["Bergamot"],
+        "middle_notes": ["Iris", "Sage"],
+        "base_notes": ["Suede", "Musk"],
+        "description": "Bergamot and iris over a suede finish. Minimal, elegant and modern, with real staying power."
+      }
+    },
+    {
+      "cut_id": "male-formal-budget-dunhill-dunhill-century",
+      "file": "male_formal_final.json",
+      "replacement": {
+        "id": "male-formal-budget-carolina-herrera-212-vip-black",
+        "name": "212 VIP Black", "brand": "Carolina Herrera", "concentration": "EDP", "tier": "budget",
+        "accords": ["Aromatic", "Vanilla", "Amber"],
+        "top_notes": ["Absinthe", "Anise"],
+        "middle_notes": ["Lavender", "Sage"],
+        "base_notes": ["Black Vanilla", "Musk", "Amber"],
+        "description": "Absinthe and lavender over dark vanilla. Party-coded and confident, built for evenings out."
+      }
+    }
+  ]
+}
