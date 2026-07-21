@@ -75,7 +75,14 @@ function FragranceCard({ fragrance, isWishlisted, isOwned, isLoggedIn, isHighlig
               <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate">Match</p>
             </div>
           </div>
-          <div className="mt-4 h-2 overflow-hidden rounded-full bg-zinc-100">
+          <div
+            role="progressbar"
+            aria-label={`${fragrance.brand} ${fragrance.name} match score`}
+            aria-valuenow={score}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            className="mt-4 h-2 overflow-hidden rounded-full bg-zinc-100"
+          >
             <div className="h-full rounded-full bg-green-accent transition-all duration-700" style={{ width: `${score}%` }} />
           </div>
         </div>

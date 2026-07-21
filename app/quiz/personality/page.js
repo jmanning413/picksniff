@@ -159,7 +159,15 @@ export default function PersonalityQuizPage() {
   return (
     <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
-        <div className="h-1.5 w-full bg-zinc-100">
+        <div
+          role="progressbar"
+          aria-label="Quiz progress"
+          aria-valuenow={Math.round(progress)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuetext={`Step ${step + 1} of ${TOTAL_STEPS}`}
+          className="h-1.5 w-full bg-zinc-100"
+        >
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
         </div>
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
@@ -209,7 +217,10 @@ export default function PersonalityQuizPage() {
                         : 'border-sand bg-white hover:border-green-accent',
                     ].join(' ')}
                   >
-                    <span className="block text-lg font-black text-black">{g.label}</span>
+                    <span className="flex items-center gap-2">
+                      <span className="text-lg font-black text-black">{g.label}</span>
+                      {genders.includes(g.id) && <span aria-hidden className="text-sm font-black text-green-deep">✓</span>}
+                    </span>
                   </button>
                 ))}
               </div>
@@ -245,18 +256,22 @@ export default function PersonalityQuizPage() {
                         key={opt.id}
                         type="button"
                         onClick={() => select(q.id, opt.id)}
+                        aria-pressed={selected}
                         className={[
-                          'flex items-start gap-4 rounded-xl border p-5 text-left transition',
+                          'flex items-start justify-between gap-4 rounded-xl border p-5 text-left transition',
                           selected
                             ? 'border-green-accent bg-green-accent/15 shadow-sm'
                             : 'border-sand bg-white hover:border-green-accent',
                         ].join(' ')}
                       >
-                        <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={opt.icon} /></span>
-                        <div>
-                          <p className="text-base font-black text-black">{opt.label}</p>
-                          <p className="mt-0.5 text-sm text-slate">{opt.desc}</p>
-                        </div>
+                        <span className="flex items-start gap-4">
+                          <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={opt.icon} /></span>
+                          <span>
+                            <span className="block text-base font-black text-black">{opt.label}</span>
+                            <span className="mt-0.5 block text-sm text-slate">{opt.desc}</span>
+                          </span>
+                        </span>
+                        {selected && <span aria-hidden className="mt-0.5 shrink-0 text-sm font-black text-green-deep">✓</span>}
                       </button>
                     )
                   })}

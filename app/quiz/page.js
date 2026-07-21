@@ -197,7 +197,15 @@ export default function QuizPage() {
   return (
     <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
-        <div className="h-1.5 w-full bg-zinc-100">
+        <div
+          role="progressbar"
+          aria-label="Quiz progress"
+          aria-valuenow={Math.round(progress)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuetext={`Step ${step + 1} of ${STEPS.length}`}
+          className="h-1.5 w-full bg-zinc-100"
+        >
           <div
             className="h-full bg-green-accent transition-all duration-300 ease-out"
             style={{ width: `${progress}%` }}
@@ -338,7 +346,10 @@ function OptionButton({ label, description, selected, onClick }) {
         selected ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent',
       ].join(' ')}
     >
-      <span className="block text-lg font-black text-black">{label}</span>
+      <span className="flex items-center gap-2">
+        <span className="text-lg font-black text-black">{label}</span>
+        {selected && <span aria-hidden className="text-sm font-black text-green-deep">✓</span>}
+      </span>
       {description && <span className="mt-1 block text-sm leading-6 text-slate">{description}</span>}
     </button>
   )

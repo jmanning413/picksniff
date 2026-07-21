@@ -85,7 +85,7 @@ export default async function Home() {
                 </p>
                 <span className="text-xs font-bold text-slate">1 of 4</span>
               </div>
-              <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-100">
+              <div aria-hidden="true" className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-100">
                 <div className="h-full w-1/4 rounded-full bg-green-accent" />
               </div>
               <p className="mt-5 text-2xl font-black tracking-tight text-black">Show me scents for...</p>
@@ -158,7 +158,7 @@ export default async function Home() {
                       <p className="text-xs font-bold uppercase tracking-[0.12em] text-slate">Match</p>
                     </div>
                   </div>
-                  <div className="mt-3 h-2 overflow-hidden rounded-full bg-zinc-100">
+                  <div aria-hidden="true" className="mt-3 h-2 overflow-hidden rounded-full bg-zinc-100">
                     <div className="h-full w-[93%] rounded-full bg-green-accent" />
                   </div>
                 </div>

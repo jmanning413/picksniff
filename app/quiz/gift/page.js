@@ -111,7 +111,15 @@ export default function GiftQuizPage() {
   return (
     <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
-        <div className="h-1.5 w-full bg-zinc-100">
+        <div
+          role="progressbar"
+          aria-label="Quiz progress"
+          aria-valuenow={Math.round(progress)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuetext={`Step ${step + 1} of ${TOTAL_STEPS}`}
+          className="h-1.5 w-full bg-zinc-100"
+        >
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
         </div>
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
@@ -144,7 +152,10 @@ export default function GiftQuizPage() {
                 {GENDERS.map((g) => (
                   <button key={g.id} type="button" onClick={() => toggleGender(g.id)} aria-pressed={genders.includes(g.id)}
                     className={['min-h-20 rounded-xl border p-5 text-left transition', genders.includes(g.id) ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="block text-lg font-black text-black">{g.label}</span>
+                    <span className="flex items-center gap-2">
+                      <span className="text-lg font-black text-black">{g.label}</span>
+                      {genders.includes(g.id) && <span aria-hidden className="text-sm font-black text-green-deep">✓</span>}
+                    </span>
                   </button>
                 ))}
               </div>
@@ -162,12 +173,15 @@ export default function GiftQuizPage() {
               <div className="grid gap-3">
                 {OCCASIONS.map((o) => (
                   <button key={o.id} type="button" onClick={() => setOccasion(o)} aria-pressed={occasion?.id === o.id}
-                    className={['flex items-start gap-4 rounded-xl border p-4 text-left transition', occasion?.id === o.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={o.icon} size={26} /></span>
-                    <div>
-                      <p className="text-base font-black text-black">{o.label}</p>
-                      <p className="mt-0.5 text-sm text-slate">{o.desc}</p>
-                    </div>
+                    className={['flex items-start justify-between gap-4 rounded-xl border p-4 text-left transition', occasion?.id === o.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
+                    <span className="flex items-start gap-4">
+                      <span className="mt-0.5 shrink-0 text-green-deep"><QuizIcon name={o.icon} size={26} /></span>
+                      <span>
+                        <span className="block text-base font-black text-black">{o.label}</span>
+                        <span className="mt-0.5 block text-sm text-slate">{o.desc}</span>
+                      </span>
+                    </span>
+                    {occasion?.id === o.id && <span aria-hidden className="mt-0.5 shrink-0 text-sm font-black text-green-deep">✓</span>}
                   </button>
                 ))}
               </div>
@@ -186,7 +200,10 @@ export default function GiftQuizPage() {
                 {TIERS.map((t) => (
                   <button key={t.id} type="button" onClick={() => setTier(t.id)} aria-pressed={tier === t.id}
                     className={['min-h-20 rounded-xl border p-5 text-left transition', tier === t.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="block text-lg font-black text-black">{t.label}</span>
+                    <span className="flex items-center gap-2">
+                      <span className="text-lg font-black text-black">{t.label}</span>
+                      {tier === t.id && <span aria-hidden className="text-sm font-black text-green-deep">✓</span>}
+                    </span>
                     <span className="mt-1 block text-sm leading-6 text-slate">{t.description}</span>
                   </button>
                 ))}
@@ -213,8 +230,9 @@ export default function GiftQuizPage() {
                     const disabled = accords.length >= 2 && !selected
                     return (
                       <button key={a} type="button" onClick={() => toggleAccord(a)} disabled={disabled} aria-pressed={selected}
-                        className={['min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40', selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-sand bg-white text-zinc-700 hover:border-green-accent'].join(' ')}>
+                        className={['flex min-h-11 items-center gap-1.5 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40', selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-sand bg-white text-zinc-700 hover:border-green-accent'].join(' ')}>
                         {a}
+                        {selected && <span aria-hidden>✓</span>}
                       </button>
                     )
                   })

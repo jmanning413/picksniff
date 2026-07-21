@@ -56,7 +56,15 @@ export default function AstrologyQuizPage() {
   return (
     <main className="min-h-screen bg-cream text-black">
       <div className="sticky top-0 z-20 bg-white">
-        <div className="h-1.5 w-full bg-zinc-100">
+        <div
+          role="progressbar"
+          aria-label="Quiz progress"
+          aria-valuenow={Math.round(progress)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuetext={`Step ${step + 1} of ${TOTAL_STEPS}`}
+          className="h-1.5 w-full bg-zinc-100"
+        >
           <div className="h-full bg-green-accent transition-all duration-300 ease-out" style={{ width: `${progress}%` }} />
         </div>
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
@@ -89,7 +97,10 @@ export default function AstrologyQuizPage() {
                 {GENDERS.map((g) => (
                   <button key={g.id} type="button" onClick={() => toggleGender(g.id)} aria-pressed={genders.includes(g.id)}
                     className={['min-h-20 rounded-xl border p-5 text-left transition', genders.includes(g.id) ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="block text-lg font-black text-black">{g.label}</span>
+                    <span className="flex items-center gap-2">
+                      <span className="text-lg font-black text-black">{g.label}</span>
+                      {genders.includes(g.id) && <span aria-hidden className="text-sm font-black text-green-deep">✓</span>}
+                    </span>
                   </button>
                 ))}
               </div>
@@ -113,8 +124,9 @@ export default function AstrologyQuizPage() {
               <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
                 {SIGNS.map((s) => (
                   <button key={s.id} type="button" onClick={() => selectSign(s)} aria-pressed={sign?.id === s.id}
-                    className={['flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition', sign?.id === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
-                    <span className="text-2xl">{s.emoji}</span>
+                    className={['relative flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition', sign?.id === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
+                    {sign?.id === s.id && <span aria-hidden className="absolute right-2 top-2 text-sm font-black text-green-deep">✓</span>}
+                    <span aria-hidden className="text-2xl">{s.emoji}</span>
                     <span className="text-sm font-black text-black">{s.label}</span>
                     <span className="text-xs text-slate leading-tight">{s.dates}</span>
                   </button>
