@@ -87,13 +87,33 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Green"
+      "Aldehydes",
+      "Lime",
+      "Coriander",
+      "Cypress",
+      "Clary Sage",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cyclamen",
+      "Jasmine",
+      "Caraway",
+      "Rose",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Patchouli",
+      "Musk",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "A woody chypre built on citrus and herbs over mossy sandalwood. Classic early-nineties structure, dry and masculine.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-hugo-boss-hugo-boss-hugo",
@@ -405,13 +425,27 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Mandarin Orange",
+      "Water Mint",
+      "Ginger",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus",
+      "Incense",
+      "Cedar",
+      "Nutmeg"
+    ],
+    "base_notes": [
+      "Musk",
+      "Violet Leaf",
+      "Suede",
+      "Amber"
+    ],
+    "description": "Cool mint and ginger over incense and soft suede. Clean and understated, closer to fresh than to dark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-versace-versace-versense",
@@ -1191,13 +1225,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Lemon",
+      "Pepper",
+      "Elemi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Iris"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambrox",
+      "Cypriol"
+    ],
+    "description": "Zesty lemon and pepper over powdery iris, resting on warm ambrox and musk. Bright and spicy without being loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-byredo-byredo-bal-d-afrique",

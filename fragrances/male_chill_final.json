@@ -71,13 +71,33 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Green"
+      "Aldehydes",
+      "Lime",
+      "Coriander",
+      "Cypress",
+      "Clary Sage",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cyclamen",
+      "Jasmine",
+      "Caraway",
+      "Rose",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Patchouli",
+      "Musk",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "A woody chypre built on citrus and herbs over mossy sandalwood. Classic early-nineties structure, dry and masculine.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-hugo-boss-hugo-boss-hugo-man",
@@ -258,13 +278,27 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Mandarin Orange",
+      "Water Mint",
+      "Ginger",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus",
+      "Incense",
+      "Cedar",
+      "Nutmeg"
+    ],
+    "base_notes": [
+      "Musk",
+      "Violet Leaf",
+      "Suede",
+      "Amber"
+    ],
+    "description": "Cool mint and ginger over incense and soft suede. Clean and understated, closer to fresh than to dark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-nautica-nautica-blue",
@@ -941,13 +975,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Lemon",
+      "Pepper",
+      "Elemi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Iris"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambrox",
+      "Cypriol"
+    ],
+    "description": "Zesty lemon and pepper over powdery iris, resting on warm ambrox and musk. Bright and spicy without being loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-parfums-de-marly-parfums-de-marly-sedley",

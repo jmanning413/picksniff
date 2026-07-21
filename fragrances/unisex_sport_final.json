@@ -170,13 +170,30 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Mint",
+      "Grapefruit",
+      "Lavender",
+      "Bergamot",
+      "Yuzu",
+      "Mandarin Orange",
+      "Anise"
     ],
-    "description": "",
+    "middle_notes": [
+      "Geranium",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Pepper",
+      "Ambergris",
+      "Musk",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "description": "Icy mint and citrus over a soft woody base. Sharp and bracing up front, warmer and sweeter as it settles.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-versace-versace-versense",
@@ -1426,13 +1443,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aquatic",
-      "Citrus",
-      "Fresh"
+      "Sea Notes",
+      "Foliage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Notes",
+      "Salt",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Driftwood",
+      "Cedar",
+      "Musk"
+    ],
+    "description": "Sea salt and green foliage over sun-bleached driftwood. Airy and maritime, built around openness rather than weight.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-louis-vuitton-lv-imagination",

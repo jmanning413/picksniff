@@ -1039,13 +1039,27 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Palisander Rosewood",
+      "Lavender",
+      "Apple",
+      "Cinnamon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Cedar",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Agarwood",
+      "Sandalwood",
+      "Amber",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Rich oud and sandalwood under spiced rose and rosewood. Opulent and resinous, a signature of the Oud Stars line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george-pour-femme",

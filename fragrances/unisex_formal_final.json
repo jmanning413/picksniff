@@ -1073,13 +1073,27 @@
       "Floral"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Floral"
+      "Palisander Rosewood",
+      "Lavender",
+      "Apple",
+      "Cinnamon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Cedar",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Agarwood",
+      "Sandalwood",
+      "Amber",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Rich oud and sandalwood under spiced rose and rosewood. Opulent and resinous, a signature of the Oud Stars line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-parfums-de-marly-parfums-de-marly-layton",

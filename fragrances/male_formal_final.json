@@ -289,13 +289,33 @@
       "Amber"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Amber"
+      "Aldehydes",
+      "Lime",
+      "Coriander",
+      "Cypress",
+      "Clary Sage",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cyclamen",
+      "Jasmine",
+      "Caraway",
+      "Rose",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Patchouli",
+      "Musk",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "A woody chypre built on citrus and herbs over mossy sandalwood. Classic early-nineties structure, dry and masculine.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-kenneth-cole-kenneth-cole-black-bold",
@@ -1063,11 +1083,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Woody"
+      "Palisander Rosewood",
+      "Lavender",
+      "Apple",
+      "Cinnamon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Cedar",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Agarwood",
+      "Sandalwood",
+      "Amber",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Rich oud and sandalwood under spiced rose and rosewood. Opulent and resinous, a signature of the Oud Stars line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

@@ -48,13 +48,30 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Mint",
+      "Grapefruit",
+      "Lavender",
+      "Bergamot",
+      "Yuzu",
+      "Mandarin Orange",
+      "Anise"
     ],
-    "description": "",
+    "middle_notes": [
+      "Geranium",
+      "Sandalwood",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Pepper",
+      "Ambergris",
+      "Musk",
+      "Vanilla",
+      "Tonka Bean"
+    ],
+    "description": "Icy mint and citrus over a soft woody base. Sharp and bracing up front, warmer and sweeter as it settles.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-nautica-nautica-voyage",
@@ -965,13 +982,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aquatic",
-      "Citrus",
-      "Fresh"
+      "Sea Notes",
+      "Foliage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Notes",
+      "Salt",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Driftwood",
+      "Cedar",
+      "Musk"
+    ],
+    "description": "Sea salt and green foliage over sun-bleached driftwood. Airy and maritime, built around openness rather than weight.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-maison-margiela-replica-sailing-day",
@@ -1134,13 +1161,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Woody",
-      "Fresh"
+      "Lemon",
+      "Pepper",
+      "Elemi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Iris"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambrox",
+      "Cypriol"
+    ],
+    "description": "Zesty lemon and pepper over powdery iris, resting on warm ambrox and musk. Bright and spicy without being loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",

@@ -1,0 +1,247 @@
+{
+  "_meta": {
+    "batch": "gapfill-01",
+    "scope": "Resolves the 6 products batches 01-02 shipped as null (confidence \"low\").",
+    "created": "2026-07-21",
+    "provenance": "RESEARCHED against brand and retailer product pages, not compiled from general knowledge. Each entry carries a `source`. Individual product lookups only, never bulk import (CATALOG.md §2 rule 1).",
+    "counts": {
+      "medium": 5,
+      "high": 1
+    },
+    "products": 6,
+    "catalog_rows_covered": 18
+  },
+  "entries": [
+    {
+      "brand": "Adidas",
+      "name": "Adidas Ice Dive",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "source": "Retailer/aggregator listings (Wikiparfum, Basenotes, Le Parfumier) 2026-07-21",
+      "top_notes": [
+        "Mint",
+        "Grapefruit",
+        "Lavender",
+        "Bergamot",
+        "Yuzu",
+        "Mandarin Orange",
+        "Anise"
+      ],
+      "middle_notes": [
+        "Geranium",
+        "Sandalwood",
+        "Patchouli"
+      ],
+      "base_notes": [
+        "Pepper",
+        "Ambergris",
+        "Musk",
+        "Vanilla",
+        "Tonka Bean"
+      ],
+      "description": "Icy mint and citrus over a soft woody base. Sharp and bracing up front, warmer and sweeter as it settles.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-daily-budget-adidas-adidas-ice-dive",
+        "male-sport-budget-adidas-adidas-ice-dive",
+        "unisex-sport-budget-adidas-adidas-ice-dive"
+      ]
+    },
+    {
+      "brand": "Kenneth Cole",
+      "name": "Kenneth Cole Black",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "source": "Retailer listings (Perfume.com, Perfumania, Basenotes) 2026-07-21",
+      "top_notes": [
+        "Mandarin Orange",
+        "Water Mint",
+        "Ginger",
+        "Basil"
+      ],
+      "middle_notes": [
+        "Lotus",
+        "Incense",
+        "Cedar",
+        "Nutmeg"
+      ],
+      "base_notes": [
+        "Musk",
+        "Violet Leaf",
+        "Suede",
+        "Amber"
+      ],
+      "description": "Cool mint and ginger over incense and soft suede. Clean and understated, closer to fresh than to dark.",
+      "note": "Resolved to Kenneth Cole Black for Men (2003). Distinct from the separate Black Bold catalog row and from the 2004 women's Black.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-budget-kenneth-cole-kenneth-cole-black",
+        "male-daily-budget-kenneth-cole-kenneth-cole-black",
+        "unisex-chill-budget-kenneth-cole-kenneth-cole-black"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Galloway",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "high",
+      "source": "OFFICIAL brand page: us.parfums-de-marly.com/products/galloway (2026-07-21)",
+      "top_notes": [
+        "Lemon",
+        "Pepper",
+        "Elemi"
+      ],
+      "middle_notes": [
+        "Cardamom",
+        "Iris"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambrox",
+        "Cypriol"
+      ],
+      "description": "Zesty lemon and pepper over powdery iris, resting on warm ambrox and musk. Bright and spicy without being loud.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-niche-parfums-de-marly-parfums-de-marly-galloway",
+        "male-sport-niche-parfums-de-marly-parfums-de-marly-galloway",
+        "unisex-chill-niche-parfums-de-marly-parfums-de-marly-galloway"
+      ]
+    },
+    {
+      "brand": "Nautica",
+      "name": "Nautica Classic",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aquatic",
+        "Green"
+      ],
+      "confidence": "medium",
+      "source": "Retailer listings (FragranceX, Fragrance Outlet, Basenotes) 2026-07-21",
+      "top_notes": [
+        "Aldehydes",
+        "Lime",
+        "Coriander",
+        "Cypress",
+        "Clary Sage",
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Cyclamen",
+        "Jasmine",
+        "Caraway",
+        "Rose",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Amber",
+        "Patchouli",
+        "Musk",
+        "Oakmoss",
+        "Cedar"
+      ],
+      "description": "A woody chypre built on citrus and herbs over mossy sandalwood. Classic early-nineties structure, dry and masculine.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-chill-budget-nautica-nautica-classic",
+        "male-formal-budget-nautica-nautica-classic",
+        "unisex-chill-budget-nautica-nautica-classic"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff Alexandria II",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "source": "Retailer listings (Neiman Marcus, The Scent Room, Beautinow) 2026-07-21",
+      "top_notes": [
+        "Palisander Rosewood",
+        "Lavender",
+        "Apple",
+        "Cinnamon"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Cedar",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Agarwood",
+        "Sandalwood",
+        "Amber",
+        "Vanilla",
+        "Musk"
+      ],
+      "description": "Rich oud and sandalwood under spiced rose and rosewood. Opulent and resinous, a signature of the Oud Stars line.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "female-formal-niche-xerjoff-xerjoff-alexandria-ii",
+        "male-formal-niche-xerjoff-xerjoff-alexandria-ii",
+        "unisex-formal-niche-xerjoff-xerjoff-alexandria-ii"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff 40 Knots",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aquatic",
+        "Citrus",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "source": "Retailer listings (FragranceX, The Scent Room, Parfinity) 2026-07-21",
+      "top_notes": [
+        "Sea Notes",
+        "Foliage"
+      ],
+      "middle_notes": [
+        "Green Notes",
+        "Salt",
+        "Clary Sage"
+      ],
+      "base_notes": [
+        "Driftwood",
+        "Cedar",
+        "Musk"
+      ],
+      "description": "Sea salt and green foliage over sun-bleached driftwood. Airy and maritime, built around openness rather than weight.",
+      "note": "Sources disagree on the exact list for this one. The salt/marine/driftwood core is consistent everywhere; secondary notes vary. Worth a second check against the brand page before it is ever treated as verified.",
+      "row_count": 3,
+      "applies_to_ids": [
+        "male-daily-niche-xerjoff-xerjoff-40-knots",
+        "male-sport-niche-xerjoff-xerjoff-40-knots",
+        "unisex-sport-niche-xerjoff-xerjoff-40-knots"
+      ]
+    }
+  ]
+}
