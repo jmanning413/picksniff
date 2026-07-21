@@ -108,8 +108,10 @@ to `app/sitemap.js`; `/admin` disallowed in robots.js.
 **Progress:** full remediation pipeline written — **docs/CATALOG.md** (enrichment
 batches, verification rules, feed imports, image licensing). Quiz accord hints no longer
 imply ingredients (Design.md drift rule).
-**Still open:** the data itself — no enrichment batch has run yet; quiz Step 6 notes
-filter is still a placebo; fragrance pages still render the mirrored `top_notes`.
+**Still open:** the data itself — no enrichment batch has run yet; fragrance pages
+hide notes while `top_notes` mirrors accords (real notes/pyramid land with batch 1).
+NOTE: the placebo quiz notes step (old Step 6) was removed 2026-06-13 when the quiz
+went to a flat 4 steps; concentration filtering (old Step 5) also removed from the quiz.
 
 ## 12. ✅ RESOLVED (2026-06-12) — Duplication centralized
 

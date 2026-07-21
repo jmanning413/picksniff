@@ -4,8 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useUser } from '@/lib/hooks/useUser'
-import AccountGate from '@/app/_components/AccountGate'
 
 const GENDERS = [
   { id: 'male', label: 'Male' },
@@ -47,46 +45,24 @@ const ACCORD_HINTS = {
   Green: 'crisp & leafy',
 }
 
-const CONCENTRATIONS = [
-  { id: 'EDT', label: 'EDT', description: 'Eau de Toilette: lighter, everyday wear.' },
-  { id: 'EDP', label: 'EDP', description: 'Eau de Parfum: richer, longer-lasting.' },
-  { id: 'Parfum', label: 'Parfum', description: 'Pure perfume: most intense and long-lasting.' },
-  { id: 'Cologne', label: 'Cologne', description: 'Eau de Cologne: fresh and light.' },
-]
-
-const COMMON_NOTES = [
-  'Bergamot', 'Cedar', 'Sandalwood', 'Vetiver', 'Vanilla',
-  'Rose', 'Jasmine', 'Lavender', 'Pepper', 'Amber',
-  'Oud', 'Musk', 'Patchouli', 'Iris', 'Lemon',
-  'Orange', 'Grapefruit', 'Cardamom', 'Neroli', 'Tonka Bean',
-]
-
-const FREE_STEPS = [
+// The Signature Scent Quiz is exactly 4 steps for everyone (matches the
+// "find your scent in 4 questions" promise). Account perks live elsewhere
+// (20 results vs 10, wishlist, collection) — never as extra quiz steps.
+const STEPS = [
   { eyebrow: 'Step 1', title: 'Who is this for?', subtitle: 'Choose one or more. Unisex can be mixed with any selection.' },
   { eyebrow: 'Step 2', title: 'Pick a price tier', subtitle: 'This keeps the recommendations in the right lane.' },
   { eyebrow: 'Step 3', title: 'Choose the vibe', subtitle: 'Tell PickSniff where this fragrance needs to shine.' },
   { eyebrow: 'Step 4', title: 'Choose favorite accords', subtitle: 'Pick up to 3, or skip if you want us to keep it broad.' },
 ]
 
-const ACCOUNT_STEPS = [
-  ...FREE_STEPS,
-  { eyebrow: 'Step 5', title: 'Concentration', subtitle: 'Filter by how intense you want the fragrance. Multi-select or skip.' },
-  { eyebrow: 'Step 6', title: 'Favorite notes', subtitle: 'Pick up to 5 specific notes you love. Optional.' },
-]
-
 export default function QuizPage() {
   const router = useRouter()
-  const { isLoggedIn } = useUser()
-
-  const STEPS = isLoggedIn ? ACCOUNT_STEPS : FREE_STEPS
 
   const [step, setStep] = useState(0)
   const [genders, setGenders] = useState([])
   const [tier, setTier] = useState('')
   const [vibe, setVibe] = useState('')
   const [accords, setAccords] = useState([])
-  const [concentrations, setConcentrations] = useState([])
-  const [notes, setNotes] = useState([])
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitError, setSubmitError] = useState('')
   const [availableAccords, setAvailableAccords] = useState(null) // null = not yet fetched
@@ -143,11 +119,9 @@ export default function QuizPage() {
     return () => { stale = true }
   }, [genders, tier, vibe])
 
-  // Clamp: STEPS shrinks if auth state flips mid-quiz (GAPS #16)
-  const stepIndex = Math.min(step, STEPS.length - 1)
-  const progress = useMemo(() => ((stepIndex + 1) / STEPS.length) * 100, [stepIndex, STEPS.length])
-  const currentStep = STEPS[stepIndex]
-  const isLastStep = stepIndex === STEPS.length - 1
+  const progress = useMemo(() => ((step + 1) / STEPS.length) * 100, [step])
+  const currentStep = STEPS[step]
+  const isLastStep = step === STEPS.length - 1
 
   function canContinue() {
     if (step === 0) return genders.length > 0
@@ -161,7 +135,7 @@ export default function QuizPage() {
     setStep((s) => s - 1)
   }
 
-  async function submitQuiz(includeOptional = true) {
+  async function submitQuiz(includeAccords = true) {
     setSubmitError('')
     setIsSubmitting(true)
 
@@ -170,9 +144,7 @@ export default function QuizPage() {
         genders,
         tier,
         vibe,
-        accords: includeOptional ? accords : [],
-        concentrations: includeOptional ? concentrations : [],
-        notes: includeOptional ? notes : [],
+        accords: includeAccords ? accords : [],
       }
 
       const res = await fetch('/api/quiz/match', {
@@ -192,8 +164,7 @@ export default function QuizPage() {
       }
 
       const params = new URLSearchParams({ genders: genders.join(','), tier, vibe })
-      if (includeOptional && accords.length > 0) params.set('accords', accords.join(','))
-      if (includeOptional && concentrations.length > 0) params.set('concentrations', concentrations.join(','))
+      if (includeAccords && accords.length > 0) params.set('accords', accords.join(','))
       router.push(`/results?${params.toString()}`)
     } catch {
       setSubmitError('Network error. Please check your connection and try again.')
@@ -220,19 +191,8 @@ export default function QuizPage() {
     })
   }
 
-  function toggleConcentration(id) {
-    setConcentrations((curr) => curr.includes(id) ? curr.filter((x) => x !== id) : [...curr, id])
-  }
-
-  function toggleNote(note) {
-    setNotes((curr) => {
-      if (curr.includes(note)) return curr.filter((x) => x !== note)
-      if (curr.length >= 5) return curr
-      return [...curr, note]
-    })
-  }
-
-  const isOptionalStep = step === 3 || step === 4 || step === 5
+  // Only Step 4 (accords) is skippable
+  const isOptionalStep = step === 3
 
   return (
     <main className="min-h-screen bg-cream text-black">
@@ -333,48 +293,6 @@ export default function QuizPage() {
             </div>
           )}
 
-          {step === 4 && (
-            <AccountGate label="Concentration filter">
-              <div className="grid gap-3">
-                {CONCENTRATIONS.map((c) => (
-                  <OptionButton
-                    key={c.id}
-                    label={c.label}
-                    description={c.description}
-                    selected={concentrations.includes(c.id)}
-                    onClick={() => toggleConcentration(c.id)}
-                  />
-                ))}
-              </div>
-            </AccountGate>
-          )}
-
-          {step === 5 && (
-            <AccountGate label="Notes filter">
-              <div className="flex flex-wrap gap-2.5">
-                {COMMON_NOTES.map((note) => {
-                  const selected = notes.includes(note)
-                  const disabled = notes.length >= 5 && !selected
-                  return (
-                    <button
-                      key={note}
-                      type="button"
-                      onClick={() => toggleNote(note)}
-                      disabled={disabled}
-                      aria-pressed={selected}
-                      className={[
-                        'min-h-11 rounded-full border px-5 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-40',
-                        selected ? 'border-green-accent bg-green-accent text-black shadow-sm' : 'border-sand bg-white text-zinc-700 hover:border-green-accent',
-                      ].join(' ')}
-                    >
-                      {note}
-                    </button>
-                  )
-                })}
-              </div>
-            </AccountGate>
-          )}
-
           {submitError && (
             <p className="mt-6 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-bold text-red-600">
               {submitError}
@@ -395,7 +313,7 @@ export default function QuizPage() {
             {isOptionalStep && (
               <button
                 type="button"
-                onClick={isLastStep ? () => submitQuiz(false) : goNext}
+                onClick={() => submitQuiz(false)}
                 disabled={isSubmitting}
                 className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-8 text-base font-bold text-slate transition hover:border-green-accent hover:text-black disabled:cursor-not-allowed disabled:opacity-35 sm:min-w-36"
               >
