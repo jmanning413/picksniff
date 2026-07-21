@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "audit": "cut-audit-01",
+    "criteria": "CONSERVATIVE (owner decision 2026-07-21): cut only products that are confirmed discontinued or effectively unbuyable at retail. Every status below was verified by web research on 2026-07-21, not assumed.",
+    "scope": "All 748 catalog rows scanned; 17 products investigated; 14 confirmed dead (16 rows), 2 borderline (4 rows, default keep), 1 corrupt row.",
+    "rules_for_execution": [
+      "REVIEW ARTIFACT ONLY. Nothing in /fragrances changes until Joseph approves line items.",
+      "Replacements are same-slot (same gender/vibe/tier pool) and were pre-checked against brand caps (max 3/brand/vibe) and in-pool duplicates; the execution script must re-validate both plus max-1-LV and Byredo/Diptyque-unisex-only.",
+      "Replacements enter with the FULL target record per CATALOG.md Stage E: real pyramid, description, data_status drafted-or-verified. No legacy-shaped rows.",
+      "Cut rows may be referenced by Supabase wishlists/collections. Execution must count affected references first (SELECT count by fragrance_id) and Joseph decides: silent removal vs migration.",
+      "New rows get NEW ids (never reuse a cut id)."
+    ],
+    "created": "2026-07-21"
+  },
+  "cuts": [
+    {
+      "brand": "Chanel", "name": "Chance Eau de Cologne pour Homme", "concentration": "Cologne",
+      "status": "corrupt_row",
+      "reason": "Product does not exist. Chanel's Chance line is women-only per Chanel's own catalog; row is a PDF-extraction artifact.",
+      "rows": [{ "id": "male-daily-quality-chanel-chance-eau-de-cologne-pour-homme", "file": "male_daily_final.json" }],
+      "replacement_proposal": { "brand": "Chanel", "name": "Allure Homme Sport Cologne", "concentration": "Cologne", "rationale": "RENAME rather than replace: the row's accords (Citrus/Fresh/Aromatic) and Cologne concentration match this real Chanel men's cologne exactly, and renaming keeps the Chanel count in male_daily unchanged (already 5, over cap; adding a different brand would not fix that pre-existing violation either)." }
+    },
+    {
+      "brand": "Dior", "name": "Dior Higher", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued; vintage/sealed listings only.",
+      "rows": [{ "id": "male-formal-budget-dior-dior-higher", "file": "male_formal_final.json" }],
+      "replacement_proposal": { "brand": "Yves Saint Laurent", "name": "L'Homme", "concentration": "EDT", "rationale": "Current, popular, formal-appropriate. Dior is at 4 in male_formal (over cap) so the replacement deliberately reduces Dior." }
+    },
+    {
+      "brand": "Clinique", "name": "Clinique Chemistry", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued 1994 release; vintage/rare listings only.",
+      "rows": [{ "id": "male-chill-budget-clinique-clinique-chemistry", "file": "male_chill_final.json" }],
+      "replacement_proposal": { "brand": "Versace", "name": "Dylan Blue", "concentration": "EDT", "rationale": "Current, hugely popular, heavily discounted (budget band), casual-friendly. Versace count in male_chill is 1." }
+    },
+    {
+      "brand": "Davidoff", "name": "Davidoff Cool Water Game", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued 2006 flanker.",
+      "rows": [{ "id": "male-chill-budget-davidoff-davidoff-cool-water-game", "file": "male_chill_final.json" }],
+      "replacement_proposal": { "brand": "Lacoste", "name": "L.12.12 Bleu", "concentration": "EDT", "rationale": "Current, budget, chill-coded. Keeps Davidoff at 1 in the pool (Champion) instead of 2." }
+    },
+    {
+      "brand": "Burberry", "name": "Burberry Brit for Men Sport", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued flanker.",
+      "rows": [{ "id": "male-sport-budget-burberry-burberry-brit-for-men-sport", "file": "male_sport_final.json" }],
+      "replacement_proposal": { "brand": "Davidoff", "name": "Cool Water Intense", "concentration": "EDP", "rationale": "Current (2019), budget, sport-adjacent, widely stocked. Davidoff in male_sport goes 1 -> 2, under cap." }
+    },
+    {
+      "brand": "Calvin Klein", "name": "CK2", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued, confirmed by CK rep per Basenotes; secondary market only, counterfeits common.",
+      "rows": [{ "id": "unisex-daily-budget-calvin-klein-ck2", "file": "unisex_daily_final.json" }],
+      "replacement_proposal": { "brand": "Calvin Klein", "name": "CK Everyone", "concentration": "EDT", "rationale": "The direct modern successor: current, unisex, cheap, popular. Cutting CK2 takes CK to 2 in the pool, so this stays at the 3 cap." }
+    },
+    {
+      "brand": "Taylor Swift", "name": "Wonderstruck", "concentration": "EDP",
+      "status": "confirmed_dead", "reason": "Discontinued; resale at $75-350. Users cannot buy it at retail at all.",
+      "rows": [{ "id": "female-daily-budget-taylor-swift-wonderstruck", "file": "female_daily_final.json" }],
+      "replacement_proposal": { "brand": "Ariana Grande", "name": "Thank U Next", "concentration": "EDP", "rationale": "Current celebrity bestseller in the same budget-daily lane. Execution must confirm it is not already in this pool (it exists elsewhere in the catalog)." }
+    },
+    {
+      "brand": "Escada", "name": "Escada Island Kiss", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued limited edition; Escada's summer LEs are dead by design.",
+      "rows": [{ "id": "female-sport-budget-escada-escada-island-kiss", "file": "female_sport_final.json" }],
+      "replacement_proposal": { "brand": "Tommy Hilfiger", "name": "Tommy Girl", "concentration": "EDT", "rationale": "Current, fresh, budget, sport-friendly. Not currently in female_sport." }
+    },
+    {
+      "brand": "Escada", "name": "Escada Sorbetto Rosso", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "2018 limited edition, out of stock across retailers.",
+      "rows": [{ "id": "female-sport-budget-escada-escada-sorbetto-rosso", "file": "female_sport_final.json" }],
+      "replacement_proposal": { "brand": "Clinique", "name": "Happy Heart", "concentration": "EDP", "rationale": "Current, fresh-floral, budget. Clinique in female_sport goes 1 -> 2, under cap." }
+    },
+    {
+      "brand": "Victoria's Secret", "name": "Victoria's Secret Bombshell Summer", "concentration": "EDP",
+      "status": "confirmed_dead", "reason": "Discontinued limited edition, secondary market only.",
+      "rows": [{ "id": "female-sport-budget-victoria-s-secret-victoria-s-secret-bombshell-summer", "file": "female_sport_final.json" }],
+      "replacement_proposal": { "brand": "Victoria's Secret", "name": "Bombshell", "concentration": "EDP", "rationale": "The core Bombshell is a current bestseller; users searching for the Summer LE almost certainly want this. Same brand slot. Execution must verify the exact row id in female_sport." }
+    },
+    {
+      "brand": "Avril Lavigne", "name": "Forbidden Rose", "concentration": "EDP",
+      "status": "confirmed_dead", "reason": "Entire Avril Lavigne fragrance line discontinued; resale only.",
+      "rows": [{ "id": "female-chill-budget-lavigne-forbidden-rose-edp-avril", "file": "female_chill_final.json" }],
+      "replacement_proposal": { "brand": "Billie Eilish", "name": "Eilish", "concentration": "EDP", "rationale": "Current, popular celebrity gourmand (vanilla/amber) that fits the chill lane the cut row occupied. Note the cut row's id is itself mangled (lavigne...edp-avril), more PDF corruption." }
+    },
+    {
+      "brand": "Avon", "name": "Incandessence", "concentration": "EDP",
+      "status": "confirmed_dead", "reason": "Discontinued years ago; Avon is direct-sales even when alive, so retail buyability was already near zero.",
+      "rows": [{ "id": "female-chill-budget-avon-incandessence", "file": "female_chill_final.json" }],
+      "replacement_proposal": { "brand": "Ariana Grande", "name": "Cloud Pink", "concentration": "EDP", "rationale": "Current (2023), budget, soft-gourmand chill profile. Distinct product from Cloud; Ariana Grande in female_chill goes 1 -> 2." }
+    },
+    {
+      "brand": "Montblanc", "name": "Mont Blanc Individuel", "concentration": "EDT",
+      "status": "confirmed_dead", "reason": "Discontinued; remaining-stock listings only.",
+      "rows": [{ "id": "male-formal-budget-montblanc-mont-blanc-individuel", "file": "male_formal_final.json" }],
+      "replacement_proposal": { "brand": "Montblanc", "name": "Legend", "concentration": "EDT", "rationale": "The brand's current flagship: popular, budget, formal-appropriate. Same brand slot, count unchanged." }
+    },
+    {
+      "brand": "Dunhill", "name": "Dunhill Icon", "concentration": "EDP",
+      "status": "confirmed_dead", "reason": "Inter Parfums' Dunhill license expired Sep 2023 and was not renewed; entire fragrance line dead. Icon stock is thin and rising in price.",
+      "rows": [{ "id": "male-daily-budget-dunhill-dunhill-icon", "file": "male_daily_final.json" }],
+      "replacement_proposal": { "brand": "Prada", "name": "Luna Rossa Ocean", "concentration": "EDT", "rationale": "Current, popular, daily-wear. Prada not at cap in male_daily. (Budget band via heavy discounting, same as other entries in this pool.)" }
+    },
+    {
+      "brand": "Dunhill", "name": "Dunhill Century", "concentration": "EDP",
+      "status": "confirmed_dead", "reason": "Same expired license; no longer produced.",
+      "rows": [{ "id": "male-formal-budget-dunhill-dunhill-century", "file": "male_formal_final.json" }],
+      "replacement_proposal": { "brand": "Carolina Herrera", "name": "212 VIP Black", "concentration": "EDP", "rationale": "Current, popular, evening/formal-coded, heavily discounted. Carolina Herrera not at cap in male_formal." }
+    }
+  ],
+  "borderline_default_keep": [
+    {
+      "brand": "Nautica", "name": "Nautica Classic", "concentration": "EDT",
+      "status": "discontinued_but_deep_stock",
+      "reason": "Officially discontinued per community consensus, but FragranceNet and other discounters still stock it deeply with reviews into 2026. Users can still buy it today.",
+      "rows": [
+        { "id": "male-chill-budget-nautica-nautica-classic", "file": "male_chill_final.json" },
+        { "id": "male-formal-budget-nautica-nautica-classic", "file": "male_formal_final.json" },
+        { "id": "unisex-chill-budget-nautica-nautica-classic", "file": "unisex_chill_final.json" }
+      ],
+      "recommendation": "Keep for now; recheck stock in the next audit. If cut later: male_chill -> Nautica Voyage (brand count holds), male_formal -> Ralph Lauren Polo Black, unisex_chill -> Davidoff Cool Water Parfum."
+    },
+    {
+      "brand": "Dunhill", "name": "Dunhill Desire Blue", "concentration": "EDT",
+      "status": "discontinued_but_deep_stock",
+      "reason": "Same dead license as Icon/Century, but Desire Blue has years of deep discounter stock and remains cheap and easy to buy.",
+      "rows": [{ "id": "male-sport-budget-dunhill-dunhill-desire-blue", "file": "male_sport_final.json" }],
+      "recommendation": "Keep for now; recheck in the next audit. If cut later -> Abercrombie & Fitch First Instinct Blue or Nautica Voyage Sport."
+    }
+  ],
+  "watch_list": [
+    { "brand": "Diesel", "name": "Diesel Loverdose", "note": "Suspected discontinued; not verified this audit. Check next audit before enriching further." }
+  ]
+}
