@@ -11,19 +11,23 @@ const GENDERS = [
   { id: 'unisex', label: 'Unisex' },
 ]
 
+// Zodiac glyphs are pinned to text presentation with the U+FE0E variation
+// selector: by default (U+2648–U+2653) these render as COLOR emoji on iOS/
+// Android, which is off-brand. FE0E forces the monochrome symbol so we can
+// tint it Green Deep in an icon tile like the other quizzes. (See Design.md.)
 const SIGNS = [
-  { id: 'aries',       label: 'Aries',       emoji: '♈', dates: 'Mar 21 – Apr 19', vibe: 'sport',      accords: ['Spicy', 'Fresh'],    tier: 'quality' },
-  { id: 'taurus',      label: 'Taurus',      emoji: '♉', dates: 'Apr 20 – May 20', vibe: 'chill',      accords: ['Woody', 'Vanilla'],   tier: 'quality' },
-  { id: 'gemini',      label: 'Gemini',      emoji: '♊', dates: 'May 21 – Jun 20', vibe: 'daily',      accords: ['Citrus', 'Aromatic'], tier: 'quality' },
-  { id: 'cancer',      label: 'Cancer',      emoji: '♋', dates: 'Jun 21 – Jul 22', vibe: 'chill',      accords: ['Aquatic', 'Floral'],  tier: 'quality' },
-  { id: 'leo',         label: 'Leo',         emoji: '♌', dates: 'Jul 23 – Aug 22', vibe: 'formal',     accords: ['Amber', 'Spicy'],     tier: 'quality' },
-  { id: 'virgo',       label: 'Virgo',       emoji: '♍', dates: 'Aug 23 – Sep 22', vibe: 'daily',      accords: ['Green', 'Aromatic'],  tier: 'quality' },
-  { id: 'libra',       label: 'Libra',       emoji: '♎', dates: 'Sep 23 – Oct 22', vibe: 'date_night', accords: ['Floral', 'Amber'],    tier: 'quality' },
-  { id: 'scorpio',     label: 'Scorpio',     emoji: '♏', dates: 'Oct 23 – Nov 21', vibe: 'date_night', accords: ['Spicy', 'Woody'],     tier: 'niche'   },
-  { id: 'sagittarius', label: 'Sagittarius', emoji: '♐', dates: 'Nov 22 – Dec 21', vibe: 'sport',      accords: ['Fresh', 'Citrus'],    tier: 'quality' },
-  { id: 'capricorn',   label: 'Capricorn',   emoji: '♑', dates: 'Dec 22 – Jan 19', vibe: 'formal',     accords: ['Woody', 'Amber'],     tier: 'quality' },
-  { id: 'aquarius',    label: 'Aquarius',    emoji: '♒', dates: 'Jan 20 – Feb 18', vibe: 'daily',      accords: ['Fresh', 'Aromatic'],  tier: 'quality' },
-  { id: 'pisces',      label: 'Pisces',      emoji: '♓', dates: 'Feb 19 – Mar 20', vibe: 'chill',      accords: ['Aquatic', 'Vanilla'], tier: 'quality' },
+  { id: 'aries',       label: 'Aries',       glyph: '♈︎', dates: 'Mar 21 – Apr 19', vibe: 'sport',      accords: ['Spicy', 'Fresh'],    tier: 'quality' },
+  { id: 'taurus',      label: 'Taurus',      glyph: '♉︎', dates: 'Apr 20 – May 20', vibe: 'chill',      accords: ['Woody', 'Vanilla'],   tier: 'quality' },
+  { id: 'gemini',      label: 'Gemini',      glyph: '♊︎', dates: 'May 21 – Jun 20', vibe: 'daily',      accords: ['Citrus', 'Aromatic'], tier: 'quality' },
+  { id: 'cancer',      label: 'Cancer',      glyph: '♋︎', dates: 'Jun 21 – Jul 22', vibe: 'chill',      accords: ['Aquatic', 'Floral'],  tier: 'quality' },
+  { id: 'leo',         label: 'Leo',         glyph: '♌︎', dates: 'Jul 23 – Aug 22', vibe: 'formal',     accords: ['Amber', 'Spicy'],     tier: 'quality' },
+  { id: 'virgo',       label: 'Virgo',       glyph: '♍︎', dates: 'Aug 23 – Sep 22', vibe: 'daily',      accords: ['Green', 'Aromatic'],  tier: 'quality' },
+  { id: 'libra',       label: 'Libra',       glyph: '♎︎', dates: 'Sep 23 – Oct 22', vibe: 'date_night', accords: ['Floral', 'Amber'],    tier: 'quality' },
+  { id: 'scorpio',     label: 'Scorpio',     glyph: '♏︎', dates: 'Oct 23 – Nov 21', vibe: 'date_night', accords: ['Spicy', 'Woody'],     tier: 'niche'   },
+  { id: 'sagittarius', label: 'Sagittarius', glyph: '♐︎', dates: 'Nov 22 – Dec 21', vibe: 'sport',      accords: ['Fresh', 'Citrus'],    tier: 'quality' },
+  { id: 'capricorn',   label: 'Capricorn',   glyph: '♑︎', dates: 'Dec 22 – Jan 19', vibe: 'formal',     accords: ['Woody', 'Amber'],     tier: 'quality' },
+  { id: 'aquarius',    label: 'Aquarius',    glyph: '♒︎', dates: 'Jan 20 – Feb 18', vibe: 'daily',      accords: ['Fresh', 'Aromatic'],  tier: 'quality' },
+  { id: 'pisces',      label: 'Pisces',      glyph: '♓︎', dates: 'Feb 19 – Mar 20', vibe: 'chill',      accords: ['Aquatic', 'Vanilla'], tier: 'quality' },
 ]
 
 const TOTAL_STEPS = 2
@@ -126,7 +130,7 @@ export default function AstrologyQuizPage() {
                   <button key={s.id} type="button" onClick={() => selectSign(s)} aria-pressed={sign?.id === s.id}
                     className={['relative flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition', sign?.id === s.id ? 'border-green-accent bg-green-accent/15 shadow-sm' : 'border-sand bg-white hover:border-green-accent'].join(' ')}>
                     {sign?.id === s.id && <span aria-hidden className="absolute right-2 top-2 text-sm font-black text-green-deep">✓</span>}
-                    <span aria-hidden className="text-2xl">{s.emoji}</span>
+                    <span aria-hidden className="flex h-11 w-11 items-center justify-center rounded-xl bg-green-wash text-xl leading-none text-green-deep">{s.glyph}</span>
                     <span className="text-sm font-black text-black">{s.label}</span>
                     <span className="text-xs text-slate leading-tight">{s.dates}</span>
                   </button>
