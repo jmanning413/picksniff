@@ -512,13 +512,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Water Jasmine",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris"
+    ],
+    "description": "The salted-vanilla Olympéa signature in a lighter, fresher concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-versace-versace-bright-crystal",
@@ -831,13 +840,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Sea Salt",
+      "Coriander",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Seaweed",
+      "Juniper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambrette"
+    ],
+    "description": "Salt spray and wet rope over clean musk. Bracing and genuinely maritime rather than generically fresh.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-le-labo-le-labo-bergamote-22",
@@ -881,13 +899,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Green Mango",
+      "Grapefruit",
+      "Tomato Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus",
+      "Orange",
+      "Peony"
+    ],
+    "base_notes": [
+      "Incense",
+      "Sycamore",
+      "Musk"
+    ],
+    "description": "Unripe green mango over watery lotus and soft incense. Green, dry and unusually original.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-hermes-hermes-un-jardin-sur-le-toit",

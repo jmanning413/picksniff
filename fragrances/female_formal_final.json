@@ -71,13 +71,30 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Bergamot",
+      "Honeysuckle",
+      "Peach",
+      "Neroli",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Ylang-Ylang",
+      "Lily-of-the-Valley",
+      "Iris"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Vanilla",
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "A grand aldehydic floral from 1927 that still smells composed and complete. Powdery, rosy and formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-chloe-chloe",
@@ -203,13 +220,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Freesia",
+      "Peach",
+      "Coriander",
+      "Gardenia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Orris"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Vetiver",
+      "Musk"
+    ],
+    "description": "A creamy, almost synthetic floral over vanilla and patchouli. Distinctive and unmistakably late-nineties.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-guerlain-samsara",
@@ -223,13 +253,28 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Bergamot",
+      "Lemon",
+      "Ylang-Ylang",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Iris",
+      "Narcissus"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Tonka Bean",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Creamy sandalwood under a rich floral heart. Opulent, warm and firmly of the late eighties.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-givenchy-givenchy-l-interdit-intense",
@@ -393,13 +438,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Lychee",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Black Orchid",
+      "Vanilla Orchid"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Praline",
+      "Patchouli",
+      "Incense"
+    ],
+    "description": "Jammy rose and lychee over praline and vanilla. Dark, sweet and built for night.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-givenchy-l-interdit-rouge",
@@ -658,13 +714,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Blackcurrant",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "description": "The La Vie Est Belle praline signature pushed richer and sweeter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-burberry-burberry-goddess",
@@ -758,13 +825,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Mandarin",
+      "Galbanum",
+      "Neroli"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Benzoin",
+      "Incense"
+    ],
+    "description": "Cool, earthy iris over clean woods. Refined and slightly austere, closer to a watercolour than a statement.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-tom-ford-tom-ford-velvet-orchid",
@@ -1124,13 +1202,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Peach",
+      "Green Notes",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "May Rose",
+      "Turkish Rose",
+      "Iris"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Orris Root",
+      "Cedar",
+      "Violet Leaf",
+      "Pepper"
+    ],
+    "description": "A field of Grasse roses softened by peach and iris. Powdery, green and deliberately classical.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-maison-margiela-maison-margiela-replica-jazz-club",
@@ -1144,13 +1235,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rum",
+      "Clary Sage",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tobacco Leaf",
+      "Vetiver",
+      "Styrax",
+      "Benzoin"
+    ],
+    "description": "Boozy rum and sweet tobacco, in the richer eau de parfum concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-guerlain-guerlain-shalimar",

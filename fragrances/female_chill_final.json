@@ -211,13 +211,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Red Berries",
+      "Mandarin Orange",
+      "Water Lily"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honeysuckle",
+      "Gardenia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Caramel",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Berries and white flowers over caramel and vanilla. Sweet, fruity and cheerfully uncomplicated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-diesel-diesel-loverdose",
@@ -391,13 +402,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Blackcurrant",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Freesia",
+      "May Rose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Amberwood",
+      "Musk"
+    ],
+    "description": "Blackcurrant and rose over a creamy vanilla-patchouli base. Modern chypre warmth, polished and rich.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-gucci-gucci-bloom",
@@ -488,13 +511,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Lavender",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Iris"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Coumarin"
+    ],
+    "description": "Lavender and vanilla in a soft, powdery balance. Comforting and modern, with classic Guerlain sweetness.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-valentino-valentino-donna",
@@ -568,13 +600,20 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Caramel"
     ],
-    "description": "",
+    "middle_notes": [
+      "White Musk"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Vanilla",
+      "Caramel"
+    ],
+    "description": "Burnt caramel and benzoin over powdery musk. Deliberately simple, unapologetically sweet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-dior-miss-dior",
@@ -765,13 +804,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
+      "Litchi",
+      "Rhubarb",
+      "Bergamot",
+      "Nutmeg"
+    ],
+    "middle_notes": [
+      "Turkish Rose",
+      "Peony",
       "Vanilla"
     ],
-    "description": "",
+    "base_notes": [
+      "Musk",
+      "Cashmere Wood",
+      "Incense",
+      "Vetiver"
+    ],
+    "description": "A bright, fruity Turkish rose over soft musk and cashmere wood. Sweet, polished and extremely popular.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-parfums-de-marly-parfums-de-marly-cassili",
@@ -805,13 +857,23 @@
       "Fruity"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fruity"
+      "Pear",
+      "Aldehydes",
+      "Lily-of-the-Valley"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Rose",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Ambrette"
+    ],
+    "description": "Clean laundry and soft iris. Smells like fresh sheets, which is exactly the intention.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-maison-margiela-maison-margiela-replica-flower-market",
@@ -865,13 +927,29 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Truffle",
+      "Gardenia",
+      "Blackcurrant",
+      "Ylang-Ylang",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Lotus Wood",
+      "Fruity Notes"
+    ],
+    "base_notes": [
+      "Mexican Chocolate",
+      "Patchouli",
+      "Vanilla",
+      "Incense",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "description": "Truffle, dark chocolate and orchid over patchouli. Opulent, strange and completely uncompromising.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-le-labo-le-labo-santal-33",
@@ -1026,13 +1104,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Litchi",
+      "Bergamot",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Turkish Rose",
+      "Cacao"
+    ],
+    "base_notes": [
+      "Patchouli"
+    ],
+    "description": "Juicy litchi and peony over an unexpected thread of cacao and patchouli. Bright and slightly gourmand.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-penhaligon-s-penhaligon-s-babylon",

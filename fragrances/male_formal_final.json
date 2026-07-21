@@ -10,12 +10,19 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic"
+      "Cypress"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Cashmere Wood",
+      "Musk"
+    ],
+    "description": "Dark, earthy vetiver over cold cypress. Austere and inky, with almost nothing sweet in it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-azzaro-azzaro-wanted",
@@ -775,13 +782,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Apple",
+      "Bergamot",
+      "Lavender",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Geranium",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Guaiac Wood",
+      "Patchouli",
+      "Cardamom"
+    ],
+    "description": "Green apple and lavender over creamy vanilla and sandalwood. Sweet, spicy and hugely versatile.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-parfums-de-marly-parfums-de-marly-herod",
@@ -795,13 +817,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Cinnamon",
+      "Pepper",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco Leaf",
+      "Incense"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cypriol",
+      "Labdanum",
+      "Musk"
+    ],
+    "description": "Sweet vanilla and tobacco over cinnamon and incense. Warm, boozy and unmistakably wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-tom-ford-tom-ford-tuscan-leather",
@@ -990,13 +1023,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Brandy",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tonka Bean",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vanilla",
+      "Cedar"
+    ],
+    "description": "Brandy and tonka over soft leather. Clubby and old-world, with a boozy sweetness throughout.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-penhaligon-s-penhaligon-s-halfeti-cedar",

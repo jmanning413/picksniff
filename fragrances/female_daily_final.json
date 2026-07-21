@@ -436,13 +436,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Woody"
+      "Blackcurrant",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Freesia",
+      "May Rose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Amberwood",
+      "Musk"
+    ],
+    "description": "Blackcurrant and rose over a creamy vanilla-patchouli base. Modern chypre warmth, polished and rich.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-gucci-flora-gorgeous-gardenia",
@@ -734,13 +746,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Citrus"
+      "Mint",
+      "Lemon",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Peony",
+      "Aquatic Notes"
+    ],
+    "base_notes": [
+      "Labdanum",
+      "Cedar",
+      "Brown Sugar"
+    ],
+    "description": "Crushed mint and lemon over watery jasmine. The aquatic idea of Acqua di Giò rendered greener and sweeter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-guerlain-guerlain-mon-guerlain",
@@ -754,13 +777,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Fresh"
+      "Lavender",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Iris"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Coumarin"
+    ],
+    "description": "Lavender and vanilla in a soft, powdery balance. Comforting and modern, with classic Guerlain sweetness.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-yves-saint-laurent-mon-paris",
@@ -945,13 +977,26 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Litchi",
+      "Rhubarb",
+      "Bergamot",
+      "Nutmeg"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turkish Rose",
+      "Peony",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cashmere Wood",
+      "Incense",
+      "Vetiver"
+    ],
+    "description": "A bright, fruity Turkish rose over soft musk and cashmere wood. Sweet, polished and extremely popular.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-parfums-de-marly-parfums-de-marly-oriana",
@@ -1054,13 +1099,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Litchi",
+      "Bergamot",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Turkish Rose",
+      "Cacao"
+    ],
+    "base_notes": [
+      "Patchouli"
+    ],
+    "description": "Juicy litchi and peony over an unexpected thread of cacao and patchouli. Bright and slightly gourmand.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-frederic-malle-portrait-of-a-lady",

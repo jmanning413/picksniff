@@ -51,13 +51,31 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aquatic",
-      "Citrus",
-      "Fresh"
+      "Bergamot",
+      "Neroli",
+      "Green Tangerine",
+      "Lime",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Jasmine",
+      "Rosemary",
+      "Peach",
+      "Freesia",
+      "Coriander"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar",
+      "Oakmoss",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "The defining marine fragrance: citrus and sea air over soft woods and musk. Effortless and endlessly copied.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-budget-davidoff-cool-water",
@@ -886,13 +904,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Bergamot",
+      "Pink Pepper",
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver",
+      "Leather"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Ambroxan",
+      "Cacao"
+    ],
+    "description": "Bergamot and vetiver over ambroxan and a touch of cacao. Clean, modern and very wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-hermes-hermes-h24",
@@ -965,13 +993,22 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Bergamot",
+      "Lemon",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Neroli",
+      "Petitgrain"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar"
+    ],
+    "description": "Pure, zesty bergamot kept bright and uncomplicated. A citrus cologne in the classic Guerlain style.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-bvlgari-bvlgari-omnia-crystalline",
@@ -1012,13 +1049,23 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Grapefruit",
+      "Marine Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Patchouli"
+    ],
+    "description": "The Invictus marine accord made fresher and more transparent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-quality-guerlain-guerlain-aqua-allegoria-bergamote-calabria",
@@ -1032,13 +1079,22 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aromatic"
+      "Bergamot",
+      "Lemon",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Neroli",
+      "Petitgrain"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar"
+    ],
+    "description": "Pure, zesty bergamot kept bright and uncomplicated. A citrus cologne in the classic Guerlain style.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-creed-creed-virgin-island-water",
@@ -1228,13 +1284,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Sea Salt",
+      "Coriander",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Seaweed",
+      "Juniper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambrette"
+    ],
+    "description": "Salt spray and wet rope over clean musk. Bracing and genuinely maritime rather than generically fresh.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-jo-malone-jo-malone-wood-sage-sea-salt",
@@ -1365,13 +1430,24 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Green"
+      "Green Mango",
+      "Grapefruit",
+      "Tomato Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus",
+      "Orange",
+      "Peony"
+    ],
+    "base_notes": [
+      "Incense",
+      "Sycamore",
+      "Musk"
+    ],
+    "description": "Unripe green mango over watery lotus and soft incense. Green, dry and unusually original.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-sport-niche-nishane-nishane-hacivat",

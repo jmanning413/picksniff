@@ -11,13 +11,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Woody"
+      "Grapefruit",
+      "Sicilian Mandarin",
+      "Bergamot",
+      "Juniper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rosemary",
+      "Rosewood",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Incense",
+      "Oakmoss"
+    ],
+    "description": "Bitter grapefruit and juniper over dry woods. Sharper and more mineral than the women's Light Blue.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-versace-versace-pour-homme",
@@ -51,13 +63,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Melon",
+      "Cucumber",
+      "Mandarin",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Suede"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "Cool melon and cucumber over soft suede. Breezy, clean and built for warm weather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-nautica-nautica-classic",
@@ -521,13 +546,25 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Neroli",
+      "Black Pepper",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Violet",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Amber",
+      "Patchouli",
+      "Cedar",
+      "Sandalwood"
+    ],
+    "description": "Powdery iris and violet over soft amber. Clean, smooth and quietly sophisticated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-paco-rabanne-paco-rabanne-pure-xs",
@@ -561,13 +598,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Bergamot",
+      "Grapefruit",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "A lighter, citrus-forward take on the Armani Code idea. Clean and bright rather than sweet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-hugo-boss-hugo-boss-boss-the-scent",
@@ -717,13 +765,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Blood Orange",
+      "Sicilian Lemon",
+      "Juniper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pimento",
+      "Geranium",
+      "Lavender",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Vetiver",
+      "Patchouli"
+    ],
+    "description": "Bright citrus over spicy pimento and dry cedar. Fresh at the top, distinctly woody underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-hugo-boss-hugo-boss-number-one",
@@ -757,13 +817,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Grapefruit",
+      "Lemon",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Leather",
+      "Cedar"
+    ],
+    "description": "Bright grapefruit over warm cinnamon and leather. Fresh opening, considerably warmer finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-le-labo-le-labo-santal-33",
@@ -888,13 +958,24 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Green"
+      "Pink Pepper",
+      "Coriander",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Carrot Seed",
+      "Nutmeg",
+      "Frankincense"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Oakmoss",
+      "Balsam"
+    ],
+    "description": "Spiced woods and frankincense over damp moss. Smells like a forest floor in October, which is the point.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-maison-margiela-maison-margiela-replica-matcha-meditation",
@@ -955,13 +1036,27 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Ginger",
+      "Black Cardamom",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Water Lily",
+      "Orchid",
+      "Jasmine",
+      "Rose"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Black Amber",
+      "Incense",
+      "Patchouli",
+      "Leather"
+    ],
+    "description": "Smoky incense and black amber under spiced lily. Dark and resinous, the heaviest thing Jo Malone makes.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-parfums-de-marly-parfums-de-marly-galloway",

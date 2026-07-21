@@ -453,13 +453,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Coconut Water"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cashmeran"
+    ],
+    "description": "Solar jasmine and coconut over creamy vanilla. Brighter and softer than the original Alien.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-carolina-herrera-good-girl-blush",
@@ -701,13 +709,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Lychee",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Black Orchid",
+      "Vanilla Orchid"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Praline",
+      "Patchouli",
+      "Incense"
+    ],
+    "description": "Jammy rose and lychee over praline and vanilla. Dark, sweet and built for night.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-gucci-guilty",
@@ -835,13 +854,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Spicy"
+      "Pink Pepper",
+      "Orange Blossom",
+      "Clove"
     ],
-    "description": "",
+    "middle_notes": [
+      "Chestnut",
+      "Guaiac Wood",
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Peru Balsam",
+      "Cade Oil"
+    ],
+    "description": "Woodsmoke, roasted chestnut and vanilla. Genuinely smells like sitting by a fire, and it is the reason this line sells.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-jo-malone-jo-malone-velvet-rose-oud",
@@ -955,13 +985,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Peach",
+      "Green Notes",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "May Rose",
+      "Turkish Rose",
+      "Iris"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Orris Root",
+      "Cedar",
+      "Violet Leaf",
+      "Pepper"
+    ],
+    "description": "A field of Grasse roses softened by peach and iris. Powdery, green and deliberately classical.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-le-labo-le-labo-rose-31-intense",
@@ -995,13 +1038,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Vanilla"
+      "Italian Bergamot",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bulgarian Rose",
+      "Turkish Rose",
+      "Egyptian Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Ambroxan"
+    ],
+    "description": "Two natural roses over vanilla and ambroxan. Lush and modern, with the rose kept bright rather than jammy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-amouage-gold-woman",

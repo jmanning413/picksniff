@@ -11,13 +11,25 @@
       "Floral"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Floral"
+      "Blood Mandarin",
+      "Grapefruit",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Cinnamon",
+      "Spicy Notes"
+    ],
+    "base_notes": [
+      "Leather",
+      "Amber",
+      "Patchouli",
+      "White Wood"
+    ],
+    "description": "Sweet cinnamon and leather over bright mandarin. Loud, sweet and one of the defining designer scents of its decade.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-yves-saint-laurent-black-opium",
@@ -574,13 +586,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Coconut Water"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cashmeran"
+    ],
+    "description": "Solar jasmine and coconut over creamy vanilla. Brighter and softer than the original Alien.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-dior-sauvage",
@@ -624,13 +644,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Spicy"
+      "Apple",
+      "Bergamot",
+      "Lavender",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Geranium",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Guaiac Wood",
+      "Patchouli",
+      "Cardamom"
+    ],
+    "description": "Green apple and lavender over creamy vanilla and sandalwood. Sweet, spicy and hugely versatile.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-gucci-gucci-guilty",
@@ -664,13 +699,20 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Caramel"
     ],
-    "description": "",
+    "middle_notes": [
+      "White Musk"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Vanilla",
+      "Caramel"
+    ],
+    "description": "Burnt caramel and benzoin over powdery musk. Deliberately simple, unapologetically sweet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-chanel-chanel-n-2605",
@@ -778,13 +820,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Bergamot",
+      "Heliotrope"
     ],
-    "description": "",
+    "middle_notes": [
+      "Almond",
+      "Lavender",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Vetiver"
+    ],
+    "description": "Creamy almond and heliotrope over vanilla and sandalwood. Soft, nutty and comforting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-tom-ford-tom-ford-black-orchid",
@@ -798,13 +851,29 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Truffle",
+      "Gardenia",
+      "Blackcurrant",
+      "Ylang-Ylang",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Lotus Wood",
+      "Fruity Notes"
+    ],
+    "base_notes": [
+      "Mexican Chocolate",
+      "Patchouli",
+      "Vanilla",
+      "Incense",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "description": "Truffle, dark chocolate and orchid over patchouli. Opulent, strange and completely uncompromising.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-frederic-malle-frederic-malle-musc-ravageur",
@@ -981,13 +1050,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Orange Blossom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Rose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Benzoin"
+    ],
+    "description": "Airy tuberose kept light rather than heady. Soft, white-floral and quietly elegant.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-diptyque-diptyque-eau-rose",
@@ -1021,13 +1098,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Spicy"
+      "Pink Pepper",
+      "Orange Blossom",
+      "Clove"
     ],
-    "description": "",
+    "middle_notes": [
+      "Chestnut",
+      "Guaiac Wood",
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Peru Balsam",
+      "Cade Oil"
+    ],
+    "description": "Woodsmoke, roasted chestnut and vanilla. Genuinely smells like sitting by a fire, and it is the reason this line sells.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-le-labo-le-labo-rose-31",
@@ -1140,13 +1228,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Cinnamon",
+      "Pepper",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco Leaf",
+      "Incense"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cypriol",
+      "Labdanum",
+      "Musk"
+    ],
+    "description": "Sweet vanilla and tobacco over cinnamon and incense. Warm, boozy and unmistakably wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-xerjoff-xerjoff-naxos",
@@ -1211,13 +1310,27 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Spicy"
+      "Lime",
+      "Lemon",
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Blackcurrant",
+      "Juniper",
+      "Apple",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Sparkling citrus and blackcurrant over clean musk and ambergris. Fresh, expensive-smelling and very smooth.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-initio-initio-atomic-rose",
@@ -1231,13 +1344,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Spicy"
+      "Italian Bergamot",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bulgarian Rose",
+      "Turkish Rose",
+      "Egyptian Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Ambroxan"
+    ],
+    "description": "Two natural roses over vanilla and ambroxan. Lush and modern, with the rose kept bright rather than jammy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-creed-creed-millesime-imperial",

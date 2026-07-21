@@ -66,13 +66,30 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Honeysuckle",
+      "Peach",
+      "Neroli",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Ylang-Ylang",
+      "Lily-of-the-Valley",
+      "Iris"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Vanilla",
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "A grand aldehydic floral from 1927 that still smells composed and complete. Powdery, rosy and formal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-calvin-klein-eternity",
@@ -123,13 +140,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Freesia",
+      "Peach",
+      "Coriander",
+      "Gardenia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Orris"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Vetiver",
+      "Musk"
+    ],
+    "description": "A creamy, almost synthetic floral over vanilla and patchouli. Distinctive and unmistakably late-nineties.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-guerlain-samsara",
@@ -143,13 +173,28 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Lemon",
+      "Ylang-Ylang",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Iris",
+      "Narcissus"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Tonka Bean",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Creamy sandalwood under a rich floral heart. Opulent, warm and firmly of the late eighties.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-lalique-lalique-encre-noire",
@@ -163,13 +208,19 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Cypress"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Cashmere Wood",
+      "Musk"
+    ],
+    "description": "Dark, earthy vetiver over cold cypress. Austere and inky, with almost nothing sweet in it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-hermes-hermes-eau-des-merveilles",
@@ -647,13 +698,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Aromatic"
+      "Mandarin",
+      "Galbanum",
+      "Neroli"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Benzoin",
+      "Incense"
+    ],
+    "description": "Cool, earthy iris over clean woods. Refined and slightly austere, closer to a watercolour than a statement.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-lancome-la-vie-est-belle-intensement",
@@ -667,13 +729,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Blackcurrant",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "description": "The La Vie Est Belle praline signature pushed richer and sweeter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-valentino-valentino-voce-viva-intense",
@@ -846,13 +919,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Lemon",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Clean lavender and lemon over sweet vanilla and patchouli. Simple, bright and modern.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-kenzo-kenzo-flower",
@@ -1024,13 +1105,27 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
+      "Lime",
+      "Lemon",
+      "Grapefruit",
+      "Bergamot"
+    ],
+    "middle_notes": [
+      "Blackcurrant",
+      "Juniper",
+      "Apple",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris",
+      "Vetiver",
       "Amber"
     ],
-    "description": "",
+    "description": "Sparkling citrus and blackcurrant over clean musk and ambergris. Fresh, expensive-smelling and very smooth.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-byredo-byredo-bibliotheque",
@@ -1107,13 +1202,28 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Floral"
+      "Apple",
+      "Bergamot",
+      "Lavender",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Geranium",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Guaiac Wood",
+      "Patchouli",
+      "Cardamom"
+    ],
+    "description": "Green apple and lavender over creamy vanilla and sandalwood. Sweet, spicy and hugely versatile.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-initio-initio-oud-for-greatness",
@@ -1147,13 +1257,22 @@
       "Floral"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Floral"
+      "Brandy",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tonka Bean",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vanilla",
+      "Cedar"
+    ],
+    "description": "Brandy and tonka over soft leather. Clubby and old-world, with a boozy sweetness throughout.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-maison-margiela-maison-margiela-replica-jazz-club",
@@ -1167,13 +1286,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rum",
+      "Clary Sage",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tobacco Leaf",
+      "Vetiver",
+      "Styrax",
+      "Benzoin"
+    ],
+    "description": "Boozy rum and sweet tobacco, in the richer eau de parfum concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-diptyque-diptyque-do-son",
@@ -1187,13 +1318,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Orange Blossom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Rose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Benzoin"
+    ],
+    "description": "Airy tuberose kept light rather than heady. Soft, white-floral and quietly elegant.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-nishane-nishane-hacivat",

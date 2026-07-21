@@ -514,13 +514,31 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aquatic",
-      "Citrus",
-      "Fresh"
+      "Bergamot",
+      "Neroli",
+      "Green Tangerine",
+      "Lime",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Jasmine",
+      "Rosemary",
+      "Peach",
+      "Freesia",
+      "Coriander"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar",
+      "Oakmoss",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "The defining marine fragrance: citrus and sea air over soft woods and musk. Effortless and endlessly copied.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-chanel-bleu-de-chanel",
@@ -604,13 +622,23 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Grapefruit",
+      "Marine Notes",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Patchouli"
+    ],
+    "description": "The Invictus marine accord made fresher and more transparent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-dolce-gabbana-dolce-gabbana-light-blue-forever",

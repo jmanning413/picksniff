@@ -71,13 +71,31 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aquatic",
-      "Citrus",
-      "Fresh"
+      "Bergamot",
+      "Neroli",
+      "Green Tangerine",
+      "Lime",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Jasmine",
+      "Rosemary",
+      "Peach",
+      "Freesia",
+      "Coriander"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar",
+      "Oakmoss",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "The defining marine fragrance: citrus and sea air over soft woods and musk. Effortless and endlessly copied.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-budget-dolce-gabbana-light-blue",
@@ -261,13 +279,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Grapefruit",
+      "Cucumber",
+      "Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Apple",
+      "Rose",
+      "Violet",
+      "Magnolia"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "White Musk"
+    ],
+    "description": "Crisp green apple and cucumber over soft woods. Juicy, clean and famously easy to wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-budget-azzaro-azzaro-chrome",
@@ -637,13 +667,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Mint",
+      "Lemon",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Peony",
+      "Aquatic Notes"
+    ],
+    "base_notes": [
+      "Labdanum",
+      "Cedar",
+      "Brown Sugar"
+    ],
+    "description": "Crushed mint and lemon over watery jasmine. The aquatic idea of Acqua di Giò rendered greener and sweeter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-versace-versace-dylan-blue",
@@ -899,13 +940,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Bergamot",
+      "Pink Pepper",
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver",
+      "Leather"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Ambroxan",
+      "Cacao"
+    ],
+    "description": "Bergamot and vetiver over ambroxan and a touch of cacao. Clean, modern and very wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-paco-rabanne-olympea",
@@ -919,13 +970,22 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Aquatic"
+      "Water Jasmine",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris"
+    ],
+    "description": "The salted-vanilla Olympéa signature in a lighter, fresher concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-quality-carolina-herrera-good-girl",
@@ -1122,13 +1182,21 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Citrus"
+      "Italian Cypress",
+      "Rosewood"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sandalwood",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Amber",
+      "Musk"
+    ],
+    "description": "Creamy sandalwood over dry cypress. Meditative and monastic, with very little sweetness.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-daily-niche-le-labo-le-labo-santal-33",

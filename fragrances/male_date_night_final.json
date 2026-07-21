@@ -31,13 +31,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Woody"
+      "Blood Mandarin",
+      "Grapefruit",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Cinnamon",
+      "Spicy Notes"
+    ],
+    "base_notes": [
+      "Leather",
+      "Amber",
+      "Patchouli",
+      "White Wood"
+    ],
+    "description": "Sweet cinnamon and leather over bright mandarin. Loud, sweet and one of the defining designer scents of its decade.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-azzaro-azzaro-wanted-by-night",
@@ -171,13 +183,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Woody"
+      "Lemon",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Clean lavender and lemon over sweet vanilla and patchouli. Simple, bright and modern.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-paco-rabanne-1-million-royal",
@@ -271,13 +291,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Lemon",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Star Anise",
+      "Olive Blossom",
+      "Guaiac Wood"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Leather",
+      "Tobacco"
+    ],
+    "description": "Sweet anise and olive blossom over tonka and leather. Warm, seductive and built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-versace-eros-flame",
@@ -489,13 +519,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Vanilla",
-      "Spicy"
+      "Apple",
+      "Bergamot",
+      "Lavender",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Geranium",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Guaiac Wood",
+      "Patchouli",
+      "Cardamom"
+    ],
+    "description": "Green apple and lavender over creamy vanilla and sandalwood. Sweet, spicy and hugely versatile.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-givenchy-gentleman-reserve-privee",
@@ -1025,13 +1070,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Heliotrope"
     ],
-    "description": "",
+    "middle_notes": [
+      "Almond",
+      "Lavender",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Amber",
+      "Vetiver"
+    ],
+    "description": "Creamy almond and heliotrope over vanilla and sandalwood. Soft, nutty and comforting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-tom-ford-noir-extreme",

@@ -11,13 +11,31 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aquatic",
-      "Citrus",
-      "Fresh"
+      "Bergamot",
+      "Neroli",
+      "Green Tangerine",
+      "Lime",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Jasmine",
+      "Rosemary",
+      "Peach",
+      "Freesia",
+      "Coriander"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cedar",
+      "Oakmoss",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "The defining marine fragrance: citrus and sea air over soft woods and musk. Effortless and endlessly copied.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-hugo-boss-boss-bottled",
@@ -205,13 +223,25 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Aquatic",
-      "Fresh"
+      "Grapefruit",
+      "Sicilian Mandarin",
+      "Bergamot",
+      "Juniper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rosemary",
+      "Rosewood",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Incense",
+      "Oakmoss"
+    ],
+    "description": "Bitter grapefruit and juniper over dry woods. Sharper and more mineral than the women's Light Blue.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-issey-miyake-l-eau-d-issey-pour-homme",
@@ -602,13 +632,25 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Neroli",
+      "Black Pepper",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Violet",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Amber",
+      "Patchouli",
+      "Cedar",
+      "Sandalwood"
+    ],
+    "description": "Powdery iris and violet over soft amber. Clean, smooth and quietly sophisticated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-giorgio-armani-armani-code",
@@ -622,13 +664,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Lemon",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Star Anise",
+      "Olive Blossom",
+      "Guaiac Wood"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Leather",
+      "Tobacco"
+    ],
+    "description": "Sweet anise and olive blossom over tonka and leather. Warm, seductive and built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-versace-versace-eros",
@@ -823,13 +875,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Melon",
+      "Cucumber",
+      "Mandarin",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Suede"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "The Polo Blue melon-and-suede signature in a deeper, longer-lasting concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-chanel-allure-homme-sport",
