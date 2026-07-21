@@ -408,24 +408,34 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-chill-budget-thierry-mugler-angel-muse",
-    "name": "Angel Muse",
-    "brand": "Thierry Mugler",
+    "id": "female-chill-budget-lattafa-yara",
+    "name": "Yara",
+    "brand": "Lattafa",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
       "Vanilla",
       "Fruity",
-      "Amber"
+      "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Fruity",
-      "Amber"
+      "Orchid",
+      "Heliotrope"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tropical Fruits",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "Creamy vanilla and soft orchid with a fruity glow. One of the best-selling budget fragrances in the world right now.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "Angel Muse is on Mugler's own discontinued-products page. Yara is a top Amazon seller, modern and cheap. Pyramid from general knowledge; verify against a retailer listing."
   },
   {
     "id": "female-chill-quality-lancome-la-vie-est-belle-l-311clat",

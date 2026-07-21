@@ -974,24 +974,32 @@
     "data_status": "drafted"
   },
   {
-    "id": "unisex-date-night-quality-gucci-gucci-bloom-acqua-di-fiori",
-    "name": "Gucci Bloom Acqua di Fiori",
+    "id": "unisex-date-night-quality-gucci-bloom",
+    "name": "Bloom",
     "brand": "Gucci",
-    "concentration": "EDT",
+    "concentration": "EDP",
     "tier": "quality",
     "accords": [
       "Floral",
-      "Vanilla",
-      "Amber"
+      "Green",
+      "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Jasmine Bud"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Rangoon Creeper"
+    ],
+    "base_notes": [
+      "Orris Root",
+      "Sandalwood"
+    ],
+    "description": "A lush white-floral built on tuberose and jasmine. The core Bloom, a current pillar that sells year after year.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "Same replacement as the female_sport row; one product, two pools, identical record."
   },
   {
     "id": "unisex-date-night-quality-byredo-byredo-sunday-cologne",

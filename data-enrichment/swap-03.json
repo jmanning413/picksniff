@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "swap": "swap-03",
+    "scope": "Popularity/availability pass (owner standard: every row must be a proven seller within its tier, modern and available online). Web-verified 2026-07-21.",
+    "findings_kept": [
+      "Idole Aura: officially NOT discontinued (Lancome statement); rumors were clearance noise. KEEP.",
+      "Mr. Burberry, Burberry London for Men: current or deeply stocked. KEEP.",
+      "Montblanc Legend Red: still sold by Montblanc directly. KEEP.",
+      "Elizabeth Arden Untold Absolu: discontinued then RELAUNCHED, buyable now. KEEP, watch.",
+      "Replica Flower Market (plain rows x2): listed under /discontinued/ on the US brand site but deeply stocked at retailers. KEEP, watch list with Lacoste/Velvet Orchid/Nautica Classic."
+    ],
+    "provenance": "Pyramids compiled from general knowledge; entries with thinner documentation carry verify notes. No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "female-chill-budget-thierry-mugler-angel-muse",
+      "file": "female_chill_final.json",
+      "replacement": {
+        "id": "female-chill-budget-lattafa-yara",
+        "name": "Yara", "brand": "Lattafa", "concentration": "EDP", "tier": "budget",
+        "accords": ["Vanilla", "Fruity", "Floral"],
+        "top_notes": ["Orchid", "Heliotrope"],
+        "middle_notes": ["Tropical Fruits", "Jasmine"],
+        "base_notes": ["Vanilla", "Musk", "Sandalwood"],
+        "description": "Creamy vanilla and soft orchid with a fruity glow. One of the best-selling budget fragrances in the world right now.",
+        "note": "Angel Muse is on Mugler's own discontinued-products page. Yara is a top Amazon seller, modern and cheap. Pyramid from general knowledge; verify against a retailer listing."
+      }
+    },
+    {
+      "cut_id": "unisex-formal-budget-thierry-mugler-thierry-mugler-aura",
+      "file": "unisex_formal_final.json",
+      "replacement": {
+        "id": "unisex-formal-budget-lattafa-khamrah",
+        "name": "Khamrah", "brand": "Lattafa", "concentration": "EDP", "tier": "budget",
+        "accords": ["Vanilla", "Spicy", "Amber"],
+        "top_notes": ["Cinnamon", "Nutmeg", "Bergamot"],
+        "middle_notes": ["Dates", "Praline", "Tuberose"],
+        "base_notes": ["Vanilla", "Tonka Bean", "Benzoin", "Amberwood"],
+        "description": "Spiced dates and praline over warm vanilla and amber. A modern viral bestseller with real evening presence.",
+        "note": "Mugler Aura is on Mugler's own discontinued-products page. Khamrah is one of the highest-volume online sellers in fragrance today."
+      }
+    },
+    {
+      "cut_id": "female-sport-quality-gucci-bloom-acqua-di-fiori",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-quality-gucci-bloom",
+        "name": "Bloom", "brand": "Gucci", "concentration": "EDP", "tier": "quality",
+        "accords": ["Floral", "Green", "Fresh"],
+        "top_notes": ["Jasmine Bud"],
+        "middle_notes": ["Tuberose", "Rangoon Creeper"],
+        "base_notes": ["Orris Root", "Sandalwood"],
+        "description": "A lush white-floral built on tuberose and jasmine. The core Bloom, a current pillar that sells year after year.",
+        "note": "Acqua di Fiori flanker verified discontinued 2026-07-21; replaced by the living core product. Gucci publishes Bloom as a floral trio; base notes flagged for verification."
+      }
+    },
+    {
+      "cut_id": "unisex-date-night-quality-gucci-gucci-bloom-acqua-di-fiori",
+      "file": "unisex_date_night_final.json",
+      "replacement": {
+        "id": "unisex-date-night-quality-gucci-bloom",
+        "name": "Bloom", "brand": "Gucci", "concentration": "EDP", "tier": "quality",
+        "accords": ["Floral", "Green", "Fresh"],
+        "top_notes": ["Jasmine Bud"],
+        "middle_notes": ["Tuberose", "Rangoon Creeper"],
+        "base_notes": ["Orris Root", "Sandalwood"],
+        "description": "A lush white-floral built on tuberose and jasmine. The core Bloom, a current pillar that sells year after year.",
+        "note": "Same replacement as the female_sport row; one product, two pools, identical record."
+      }
+    },
+    {
+      "cut_id": "female-sport-niche-le-labo-le-labo-citron-28",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-niche-le-labo-another-13",
+        "name": "Another 13", "brand": "Le Labo", "concentration": "EDP", "tier": "niche",
+        "accords": ["Fresh", "Woody", "Amber"],
+        "top_notes": ["Ambrette"],
+        "middle_notes": ["Jasmine", "Pear"],
+        "base_notes": ["Ambroxan", "Moss", "Musk"],
+        "description": "A radiant skin-musk built around ambroxan. Clean, magnetic and the house's second-biggest seller after Santal 33.",
+        "note": "Citron 28 is a Seoul city exclusive sold online only one month per year, which fails the available-online standard. Another 13 is core line, year-round. Pyramid flagged for verification."
+      }
+    },
+    {
+      "cut_id": "female-date-night-niche-le-labo-le-labo-rose-31-intense",
+      "file": "female_date_night_final.json",
+      "replacement": {
+        "id": "female-date-night-niche-le-labo-rose-31",
+        "name": "Rose 31", "brand": "Le Labo", "concentration": "EDP", "tier": "niche",
+        "accords": ["Floral", "Woody", "Spicy"],
+        "top_notes": ["Rose", "Cumin"],
+        "middle_notes": ["Olibanum", "Cedar", "Guaiac Wood"],
+        "base_notes": ["Musk", "Amber", "Vetiver"],
+        "description": "A rose roughened with cumin and smoky woods. Warm, spicy and deliberately unisex despite the name.",
+        "note": "NAME REPAIR: 'Rose 31 Intense' does not exist (verified against Le Labo's line 2026-07-21). Same product family, corrected identity."
+      }
+    },
+    {
+      "cut_id": "female-date-night-niche-maison-margiela-maison-margiela-replica-flower-market-night",
+      "file": "female_date_night_final.json",
+      "replacement": {
+        "id": "female-date-night-niche-maison-margiela-replica-bubble-bath",
+        "name": "Replica Bubble Bath", "brand": "Maison Margiela", "concentration": "EDT", "tier": "niche",
+        "accords": ["Fresh", "Floral", "Woody"],
+        "top_notes": ["Bergamot", "Soap Accord"],
+        "middle_notes": ["Coconut Milk", "Lavender", "Rose"],
+        "base_notes": ["White Musk", "Patchouli"],
+        "description": "Warm soap bubbles, coconut milk and clean musk. Cozy, intimate and one of the line's current favorites.",
+        "note": "'Flower Market Night' does not exist (verified against the Replica line 2026-07-21). Replaced with a current, popular Replica not already in this pool. Pyramid flagged for verification."
+      }
+    }
+  ]
+}

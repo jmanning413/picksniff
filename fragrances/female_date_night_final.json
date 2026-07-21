@@ -986,24 +986,34 @@
     "jomashop_url": null
   },
   {
-    "id": "female-date-night-niche-maison-margiela-maison-margiela-replica-flower-market-night",
-    "name": "Maison Margiela Replica Flower Market Night",
+    "id": "female-date-night-niche-maison-margiela-replica-bubble-bath",
+    "name": "Replica Bubble Bath",
     "brand": "Maison Margiela",
-    "concentration": "EDP",
+    "concentration": "EDT",
     "tier": "niche",
     "accords": [
+      "Fresh",
       "Floral",
-      "Vanilla",
-      "Amber"
+      "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Soap Accord"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut Milk",
+      "Lavender",
+      "Rose"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Patchouli"
+    ],
+    "description": "Warm soap bubbles, coconut milk and clean musk. Cozy, intimate and one of the line's current favorites.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "'Flower Market Night' does not exist (verified against the Replica line 2026-07-21). Replaced with a current, popular Replica not already in this pool. Pyramid flagged for verification."
   },
   {
     "id": "female-date-night-niche-xerjoff-xerjoff-casamorati-1888",
@@ -1059,24 +1069,35 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-date-night-niche-le-labo-le-labo-rose-31-intense",
-    "name": "Le Labo Rose 31 Intense",
+    "id": "female-date-night-niche-le-labo-rose-31",
+    "name": "Rose 31",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
     "accords": [
       "Floral",
-      "Spicy",
-      "Amber"
+      "Woody",
+      "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Rose",
+      "Cumin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Olibanum",
+      "Cedar",
+      "Guaiac Wood"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Vetiver"
+    ],
+    "description": "A rose roughened with cumin and smoky woods. Warm, spicy and deliberately unisex despite the name.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: 'Rose 31 Intense' does not exist (verified against Le Labo's line 2026-07-21). Same product family, corrected identity."
   },
   {
     "id": "female-date-night-niche-initio-initio-atomic-rose",

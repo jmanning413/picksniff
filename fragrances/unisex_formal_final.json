@@ -477,24 +477,37 @@
     "jomashop_url": null
   },
   {
-    "id": "unisex-formal-budget-thierry-mugler-thierry-mugler-aura",
-    "name": "Thierry Mugler Aura",
-    "brand": "Thierry Mugler",
+    "id": "unisex-formal-budget-lattafa-khamrah",
+    "name": "Khamrah",
+    "brand": "Lattafa",
     "concentration": "EDP",
     "tier": "budget",
     "accords": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Vanilla",
+      "Spicy",
+      "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Cinnamon",
+      "Nutmeg",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Dates",
+      "Praline",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Benzoin",
+      "Amberwood"
+    ],
+    "description": "Spiced dates and praline over warm vanilla and amber. A modern viral bestseller with real evening presence.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "Mugler Aura is on Mugler's own discontinued-products page. Khamrah is one of the highest-volume online sellers in fragrance today."
   },
   {
     "id": "unisex-formal-quality-chanel-chanel-n-2605",
