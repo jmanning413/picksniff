@@ -276,24 +276,31 @@
     "jomashop_url": null
   },
   {
-    "id": "female-daily-budget-salvatore-ferragamo-incanto-dream",
-    "name": "Incanto Dream",
-    "brand": "Salvatore Ferragamo",
-    "concentration": "EDT",
+    "id": "female-daily-budget-marc-jacobs-perfect",
+    "name": "Perfect",
+    "brand": "Marc Jacobs",
+    "concentration": "EDP",
     "tier": "budget",
     "accords": [
       "Floral",
       "Fruity",
-      "Fresh"
+      "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Rhubarb",
+      "Daffodil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Almond Milk"
+    ],
+    "base_notes": [
+      "Cashmeran",
+      "Cedar"
+    ],
+    "description": "Tart rhubarb over creamy almond milk and soft woods. A modern hit with an optimistic, easygoing character.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-ariana-grande-thank-u-next",

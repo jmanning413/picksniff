@@ -1171,23 +1171,38 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-date-night-niche-penhaligon-s-halfeti-pour-femme",
-    "name": "Halfeti Pour Femme",
+    "id": "female-date-night-niche-penhaligon-s-halfeti",
+    "name": "Halfeti",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
     "accords": [
-      "Floral",
+      "Amber",
       "Spicy",
-      "Amber"
+      "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Bergamot",
+      "Grapefruit",
+      "Cardamom",
+      "Cypress"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Saffron",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Oud",
+      "Leather",
+      "Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "Black rose and saffron over oud and leather. Rich, spicy and one of the house's most loved modern releases.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: the cut row 'Halfeti Pour Femme' does not exist as a product. Halfeti is unisex; verified against Penhaligon's line 2026-07-21. Same product, corrected identity."
   }
 ]

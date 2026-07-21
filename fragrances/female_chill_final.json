@@ -265,31 +265,33 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-chill-budget-diesel-diesel-loverdose",
-    "name": "Diesel Loverdose",
-    "brand": "Diesel",
-    "concentration": "EDT",
+    "id": "female-chill-budget-juicy-couture-viva-la-juicy",
+    "name": "Viva La Juicy",
+    "brand": "Juicy Couture",
+    "concentration": "EDP",
     "tier": "budget",
     "accords": [
+      "Fruity",
       "Vanilla",
-      "Floral",
-      "Amber"
+      "Floral"
     ],
     "top_notes": [
-      "Mandarin",
-      "Star Anise"
+      "Wild Berries",
+      "Mandarin"
     ],
     "middle_notes": [
-      "Licorice",
-      "Jasmine",
-      "Gardenia"
+      "Honeysuckle",
+      "Gardenia",
+      "Jasmine"
     ],
     "base_notes": [
-      "Vanilla",
       "Amber",
-      "Woody Notes"
+      "Caramel",
+      "Vanilla",
+      "Sandalwood",
+      "Praline"
     ],
-    "description": "Licorice and star anise over sweet vanilla. Dark candy, worn with intent.",
+    "description": "Juicy berries over honeysuckle and a caramel-praline base. A modern gourmand staple that keeps on selling.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

@@ -1257,24 +1257,32 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george-pour-femme",
-    "name": "Penhaligon's The Tragedy of Lord George Pour Femme",
+    "id": "female-formal-niche-penhaligon-s-the-coveted-duchess-rose",
+    "name": "The Coveted Duchess Rose",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
     "accords": [
       "Floral",
-      "Amber",
-      "Vanilla"
+      "Fruity",
+      "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Mandarin",
+      "Lychee"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turkish Rose"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cashmeran"
+    ],
+    "description": "A bright rose lifted by mandarin and lychee over clean musk. Polished, regal and easy to wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "The cut row 'Tragedy of Lord George Pour Femme' does not exist; Lord George is a men's Portrait (verified 2026-07-21). Replaced with the line's women's Portrait. Pyramid flagged for verification against the brand page."
   },
   {
     "id": "female-formal-niche-le-labo-le-labo-rose-31",

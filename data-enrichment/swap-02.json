@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "swap": "swap-02",
+    "scope": "Full-database dead-product sweep (owner: 'check the entire database'). All 476 remaining products re-scanned brand by brand; 10 new suspects web-verified 2026-07-21. Replacements per owner standard: MODERN and AVAILABLE ONLINE.",
+    "findings_kept": [
+      "Lacoste line (6+ rows): license moved Coty -> Interparfums Jan 2024; L.12.12 range still deeply stocked online. KEEP, watch list.",
+      "Tom Ford Velvet Orchid: conflicting reports, still sold at Amazon/Fragrance Outlet. KEEP, watch list.",
+      "Guess Effect (2021) verified REAL and current; the catalog's 'Guess Effect Sport' name is a corruption of it (renamed below)."
+    ],
+    "provenance": "Pyramids compiled from general knowledge or from today's sourced research (noted per entry). No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "female-chill-budget-diesel-diesel-loverdose",
+      "file": "female_chill_final.json",
+      "replacement": {
+        "id": "female-chill-budget-juicy-couture-viva-la-juicy",
+        "name": "Viva La Juicy", "brand": "Juicy Couture", "concentration": "EDP", "tier": "budget",
+        "accords": ["Fruity", "Vanilla", "Floral"],
+        "top_notes": ["Wild Berries", "Mandarin"],
+        "middle_notes": ["Honeysuckle", "Gardenia", "Jasmine"],
+        "base_notes": ["Amber", "Caramel", "Vanilla", "Sandalwood", "Praline"],
+        "description": "Juicy berries over honeysuckle and a caramel-praline base. A modern gourmand staple that keeps on selling."
+      }
+    },
+    {
+      "cut_id": "unisex-date-night-quality-tom-ford-tom-ford-noir",
+      "file": "unisex_date_night_final.json",
+      "replacement": {
+        "id": "unisex-date-night-quality-tom-ford-noir-extreme",
+        "name": "Noir Extreme", "brand": "Tom Ford", "concentration": "EDP", "tier": "quality",
+        "accords": ["Amber", "Spicy", "Vanilla"],
+        "top_notes": ["Mandarin", "Neroli", "Saffron", "Cardamom"],
+        "middle_notes": ["Jasmine", "Orange Blossom", "Rose", "Kulfi"],
+        "base_notes": ["Amber", "Sandalwood", "Vanilla", "Woody Notes"],
+        "description": "Spiced mandarin and a dessert-like kulfi heart over warm amber and sandalwood. The Noir line's current standard-bearer."
+      }
+    },
+    {
+      "cut_id": "male-chill-quality-giorgio-armani-armani-code-colonia",
+      "file": "male_chill_final.json",
+      "replacement": {
+        "id": "male-chill-quality-giorgio-armani-acqua-di-gio-profumo",
+        "name": "Acqua di Giò Profumo", "brand": "Giorgio Armani", "concentration": "EDP", "tier": "quality",
+        "accords": ["Aquatic", "Aromatic", "Woody"],
+        "top_notes": ["Bergamot", "Sea Notes"],
+        "middle_notes": ["Rosemary", "Sage", "Geranium"],
+        "base_notes": ["Incense", "Patchouli"],
+        "description": "The Acqua di Giò sea breeze deepened with incense and patchouli. Darker, smokier and widely considered the best of the line."
+      }
+    },
+    {
+      "cut_id": "unisex-chill-quality-giorgio-armani-armani-code-colonia",
+      "file": "unisex_chill_final.json",
+      "replacement": {
+        "id": "unisex-chill-quality-giorgio-armani-acqua-di-gio-profumo",
+        "name": "Acqua di Giò Profumo", "brand": "Giorgio Armani", "concentration": "EDP", "tier": "quality",
+        "accords": ["Aquatic", "Aromatic", "Woody"],
+        "top_notes": ["Bergamot", "Sea Notes"],
+        "middle_notes": ["Rosemary", "Sage", "Geranium"],
+        "base_notes": ["Incense", "Patchouli"],
+        "description": "The Acqua di Giò sea breeze deepened with incense and patchouli. Darker, smokier and widely considered the best of the line."
+      }
+    },
+    {
+      "cut_id": "female-daily-budget-salvatore-ferragamo-incanto-dream",
+      "file": "female_daily_final.json",
+      "replacement": {
+        "id": "female-daily-budget-marc-jacobs-perfect",
+        "name": "Perfect", "brand": "Marc Jacobs", "concentration": "EDP", "tier": "budget",
+        "accords": ["Floral", "Fruity", "Woody"],
+        "top_notes": ["Rhubarb", "Daffodil"],
+        "middle_notes": ["Almond Milk"],
+        "base_notes": ["Cashmeran", "Cedar"],
+        "description": "Tart rhubarb over creamy almond milk and soft woods. A modern hit with an optimistic, easygoing character."
+      }
+    },
+    {
+      "cut_id": "female-date-night-niche-penhaligon-s-halfeti-pour-femme",
+      "file": "female_date_night_final.json",
+      "replacement": {
+        "id": "female-date-night-niche-penhaligon-s-halfeti",
+        "name": "Halfeti", "brand": "Penhaligon's", "concentration": "EDP", "tier": "niche",
+        "accords": ["Amber", "Spicy", "Woody"],
+        "top_notes": ["Bergamot", "Grapefruit", "Cardamom", "Cypress"],
+        "middle_notes": ["Rose", "Saffron", "Jasmine"],
+        "base_notes": ["Oud", "Leather", "Vanilla", "Amber", "Sandalwood"],
+        "description": "Black rose and saffron over oud and leather. Rich, spicy and one of the house's most loved modern releases.",
+        "note": "NAME REPAIR: the cut row 'Halfeti Pour Femme' does not exist as a product. Halfeti is unisex; verified against Penhaligon's line 2026-07-21. Same product, corrected identity."
+      }
+    },
+    {
+      "cut_id": "female-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george-pour-femme",
+      "file": "female_formal_final.json",
+      "replacement": {
+        "id": "female-formal-niche-penhaligon-s-the-coveted-duchess-rose",
+        "name": "The Coveted Duchess Rose", "brand": "Penhaligon's", "concentration": "EDP", "tier": "niche",
+        "accords": ["Floral", "Fruity", "Woody"],
+        "top_notes": ["Mandarin", "Lychee"],
+        "middle_notes": ["Turkish Rose"],
+        "base_notes": ["White Musk", "Cashmeran"],
+        "description": "A bright rose lifted by mandarin and lychee over clean musk. Polished, regal and easy to wear.",
+        "note": "The cut row 'Tragedy of Lord George Pour Femme' does not exist; Lord George is a men's Portrait (verified 2026-07-21). Replaced with the line's women's Portrait. Pyramid flagged for verification against the brand page."
+      }
+    },
+    {
+      "cut_id": "male-sport-budget-guess-guess-effect-sport",
+      "file": "male_sport_final.json",
+      "replacement": {
+        "id": "male-sport-budget-guess-guess-effect",
+        "name": "Guess Effect", "brand": "Guess", "concentration": "EDT", "tier": "budget",
+        "accords": ["Aromatic", "Fresh", "Woody"],
+        "top_notes": ["Grapefruit", "Mandarin Orange", "Star Anise", "Pineapple"],
+        "middle_notes": ["Clary Sage", "Rosemary", "Violet Leaf"],
+        "base_notes": ["Musk", "Vanilla", "Ambroxan", "Guaiac Wood", "Sandalwood"],
+        "description": "Bright grapefruit and pineapple over herbs and creamy woods. A modern, affordable fresh-aromatic.",
+        "note": "NAME REPAIR: 'Guess Effect Sport' does not exist; Guess Effect (2021) verified real and current 2026-07-21. Pyramid sourced from retailer listings the same day."
+      }
+    },
+    {
+      "cut_id": "male-sport-budget-tommy-hilfiger-tommy-sport",
+      "file": "male_sport_final.json",
+      "replacement": {
+        "id": "male-sport-budget-jean-paul-gaultier-le-male",
+        "name": "Le Male", "brand": "Jean Paul Gaultier", "concentration": "EDT", "tier": "budget",
+        "accords": ["Aromatic", "Vanilla", "Fresh"],
+        "top_notes": ["Mint", "Lavender", "Bergamot"],
+        "middle_notes": ["Cinnamon", "Orange Blossom", "Caraway"],
+        "base_notes": ["Vanilla", "Tonka Bean", "Sandalwood", "Amber"],
+        "description": "Cool mint and lavender over sweet vanilla. One of the best-selling men's fragrances ever made, and still everywhere.",
+        "note": "The cut row 'Tommy Sport' does not exist as a product (verified 2026-07-21; Hilfiger's sport releases are named Hilfiger Man Sport / Freedom Sport). Replaced with a modern, universally available bestseller."
+      }
+    }
+  ]
+}

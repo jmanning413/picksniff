@@ -802,24 +802,38 @@
     "data_status": "drafted"
   },
   {
-    "id": "unisex-date-night-quality-tom-ford-tom-ford-noir",
-    "name": "Tom Ford Noir",
+    "id": "unisex-date-night-quality-tom-ford-noir-extreme",
+    "name": "Noir Extreme",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "quality",
     "accords": [
-      "Spicy",
       "Amber",
+      "Spicy",
       "Vanilla"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Vanilla"
+      "Mandarin",
+      "Neroli",
+      "Saffron",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Rose",
+      "Kulfi"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Spiced mandarin and a dessert-like kulfi heart over warm amber and sandalwood. The Noir line's current standard-bearer.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-guerlain-guerlain-shalimar",

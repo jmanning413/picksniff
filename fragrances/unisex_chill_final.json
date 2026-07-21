@@ -599,32 +599,30 @@
     "data_status": "drafted"
   },
   {
-    "id": "unisex-chill-quality-giorgio-armani-armani-code-colonia",
-    "name": "Armani Code Colonia",
+    "id": "unisex-chill-quality-giorgio-armani-acqua-di-gio-profumo",
+    "name": "Acqua di Giò Profumo",
     "brand": "Giorgio Armani",
-    "concentration": "EDT",
+    "concentration": "EDP",
     "tier": "quality",
     "accords": [
-      "Woody",
-      "Floral",
-      "Green"
+      "Aquatic",
+      "Aromatic",
+      "Woody"
     ],
     "top_notes": [
       "Bergamot",
-      "Grapefruit",
-      "Cardamom"
+      "Sea Notes"
     ],
     "middle_notes": [
-      "Orange Blossom",
-      "Jasmine",
-      "Rose"
+      "Rosemary",
+      "Sage",
+      "Geranium"
     ],
     "base_notes": [
-      "Tonka Bean",
-      "Musk",
-      "Woody Notes"
+      "Incense",
+      "Patchouli"
     ],
-    "description": "A lighter, citrus-forward take on the Armani Code idea. Clean and bright rather than sweet.",
+    "description": "The Acqua di Giò sea breeze deepened with incense and patchouli. Darker, smokier and widely considered the best of the line.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

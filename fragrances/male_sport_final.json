@@ -217,24 +217,37 @@
     "jomashop_url": null
   },
   {
-    "id": "male-sport-budget-tommy-hilfiger-tommy-sport",
-    "name": "Tommy Sport",
-    "brand": "Tommy Hilfiger",
+    "id": "male-sport-budget-jean-paul-gaultier-le-male",
+    "name": "Le Male",
+    "brand": "Jean Paul Gaultier",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Aromatic",
+      "Vanilla",
+      "Fresh"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Mint",
+      "Lavender",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Orange Blossom",
+      "Caraway"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Cool mint and lavender over sweet vanilla. One of the best-selling men's fragrances ever made, and still everywhere.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "The cut row 'Tommy Sport' does not exist as a product (verified 2026-07-21; Hilfiger's sport releases are named Hilfiger Man Sport / Freedom Sport). Replaced with a modern, universally available bestseller."
   },
   {
     "id": "male-sport-budget-adidas-adidas-dynamic-pulse",
@@ -270,24 +283,39 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-sport-budget-guess-guess-effect-sport",
-    "name": "Guess Effect Sport",
+    "id": "male-sport-budget-guess-guess-effect",
+    "name": "Guess Effect",
     "brand": "Guess",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
+      "Aromatic",
       "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Grapefruit",
+      "Mandarin Orange",
+      "Star Anise",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Clary Sage",
+      "Rosemary",
+      "Violet Leaf"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Ambroxan",
+      "Guaiac Wood",
+      "Sandalwood"
+    ],
+    "description": "Bright grapefruit and pineapple over herbs and creamy woods. A modern, affordable fresh-aromatic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: 'Guess Effect Sport' does not exist; Guess Effect (2021) verified real and current 2026-07-21. Pyramid sourced from retailer listings the same day."
   },
   {
     "id": "male-sport-budget-calvin-klein-calvin-klein-ck-be",
