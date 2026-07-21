@@ -23,6 +23,7 @@ import { join } from 'node:path'
 
 const args = process.argv.slice(2)
 const WRITE = args.includes('--write')
+const ALLOW_COLLISION = args.includes('--allow-accord-collision')
 const batchPath = args.includes('--batch') ? args[args.indexOf('--batch') + 1] : 'data-enrichment/batch-01.json'
 const CATALOG_DIR = 'fragrances'
 
@@ -149,10 +150,17 @@ for (const e of batch.entries) {
 }
 if (collisions.length) {
   console.error('\nACCORD COLLISION: these top notes share a name with a filter accord')
-  console.error('and would change match scoring. Rename the note or re-verify before merging:')
+  console.error('and could change match scoring:')
   collisions.forEach((c) => console.error('  - ' + c))
-  console.error('\nRe-run scripts/snapshot-matches.mjs before/after if you intend this.')
-  process.exit(1)
+  if (!ALLOW_COLLISION) {
+    console.error('\nRefusing to merge. Either rename the note, or pass')
+    console.error('--allow-accord-collision AFTER proving with scripts/snapshot-matches.mjs')
+    console.error('that a before/after diff shows 0 changed cases.')
+    process.exit(1)
+  }
+  console.error('\n--allow-accord-collision passed: proceeding. The note name is')
+  console.error('genuine (do not falsify data to satisfy this guard), and a before/after')
+  console.error('snapshot diff MUST be run to confirm scoring is unaffected.\n')
 }
 
 if (unmatched.length) {

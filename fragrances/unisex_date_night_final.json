@@ -43,13 +43,26 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Spicy"
+      "Pear",
+      "Pink Pepper",
+      "Orange Blossom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coffee",
+      "Jasmine",
+      "Bitter Almond",
+      "Licorice"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Cedar",
+      "Cashmere Wood"
+    ],
+    "description": "A jolt of black coffee wrapped in sweet vanilla and white flowers. Addictive and nocturnal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-thierry-mugler-angel",
@@ -101,13 +114,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Vanilla"
+      "Bergamot",
+      "Grapefruit",
+      "Pink Pepper",
+      "Elemi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Saffron",
+      "Paprika"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Leather",
+      "Vetiver"
+    ],
+    "description": "Warm cinnamon and paprika over tobacco and leather. Spicy and enveloping, built for cold weather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-calvin-klein-obsession",
@@ -478,13 +503,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Spicy",
-      "Vanilla",
-      "Amber"
+      "Black Pepper",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Cumin"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Vanilla"
+    ],
+    "description": "The Spicebomb idea stripped down and darkened: pepper and cumin over sweet tobacco and vanilla.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-by-kilian-angels-share",
@@ -941,13 +974,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Cardamom",
+      "Star Anise"
     ],
-    "description": "",
+    "middle_notes": [
+      "Incense",
+      "Geranium",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Moss",
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Crisp bergamot and cardamom over incense and moss. A relaxed, slightly smoky cologne.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-tom-ford-tobacco-vanille",
@@ -1259,13 +1303,25 @@
       "Spicy"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Lavender",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honey",
+      "Cinnamon",
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Tonka Bean",
+      "Vanilla",
+      "Benzoin"
+    ],
+    "description": "Honeyed tobacco over vanilla and tonka. Rich and golden, the Xerjoff everyone recommends first.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-niche-louis-vuitton-lv-ombre-nomade",

@@ -128,13 +128,31 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Coriander",
+      "Plum",
+      "Clove",
+      "Bergamot",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Carnation",
+      "Jasmine",
+      "Rose",
+      "Cinnamon",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Amber",
+      "Patchouli",
+      "Vanilla",
+      "Myrrh",
+      "Incense",
+      "Sandalwood"
+    ],
+    "description": "A monumental spicy oriental from 1977. Clove, amber and incense, worn like a statement rather than a scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-clinique-aromatics-elixir",
@@ -418,13 +436,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Ginger",
+      "Cardamom",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Gardenia",
+      "Orange Blossom",
+      "Coconut"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Musk",
+      "Tonka Bean"
+    ],
+    "description": "Creamy gardenia and coconut over warm amber. Soft and spicy, closer to velvet than to crystal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-lancome-la-nuit-tresor",
@@ -654,13 +684,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mandarin Orange",
+      "Blackcurrant",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "The richest Libre concentration, with the vanilla pushed forward.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-paco-rabanne-olympea",
@@ -694,13 +736,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Freesia",
+      "Rose"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Vanilla"
+    ],
+    "description": "The Flowerbomb floral explosion in its richest concentration, deeper and longer lasting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-lancome-la-vie-est-belle-intensement",
@@ -924,13 +978,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Rose",
+      "Frankincense",
+      "Lily-of-the-Valley"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orris",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Myrrh",
+      "Musk",
+      "Sandalwood",
+      "Amber",
+      "Civet"
+    ],
+    "description": "A dense, powdery floral over myrrh and animalic musk. Opulent and unmistakably old-school Amouage.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-amouage-amouage-interlude-woman",
@@ -944,13 +1011,27 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
+      "Bergamot",
+      "Coriander",
+      "Ginger"
+    ],
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
       "Amber",
+      "Oregano"
+    ],
+    "base_notes": [
+      "Frankincense",
+      "Patchouli",
+      "Opoponax",
+      "Leather",
       "Vanilla"
     ],
-    "description": "",
+    "description": "Smoky incense and resin under a rich floral heart. Heavy and dramatic, softer than the Interlude Man.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-tom-ford-tom-ford-rose-prick",

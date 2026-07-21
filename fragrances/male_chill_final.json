@@ -43,13 +43,26 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Lemon",
+      "Bergamot",
+      "Neroli",
+      "Rose de Mai"
     ],
-    "description": "",
+    "middle_notes": [
+      "Hyacinth",
+      "Clary Sage",
+      "Cedar",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Musk",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "description": "Clean citrus and herbs over soft musk. Inoffensive, well-made and endlessly wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-ralph-lauren-polo-blue",
@@ -212,13 +225,33 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Lavender",
+      "Anise",
+      "Lemon",
+      "Basil",
+      "Caraway",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver",
+      "Cardamom",
+      "Sandalwood",
+      "Coriander",
+      "Jasmine",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Leather",
+      "Amber",
+      "Musk",
+      "Oakmoss",
+      "Tonka Bean",
+      "Cedar"
+    ],
+    "description": "A towering fougere from 1978: anise and lavender over leather and moss. Barbershop in the grandest sense.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-kenneth-cole-kenneth-cole-connected",
@@ -506,13 +539,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Petitgrain",
+      "Mandarin Orange"
     ],
-    "description": "",
+    "middle_notes": [
+      "Posidonia",
+      "Santolina"
+    ],
+    "base_notes": [
+      "Amber",
+      "Clary Sage",
+      "Woody Notes"
+    ],
+    "description": "A seaweed accord over warm amber. Genuinely marine rather than generically fresh, and quietly distinctive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-dolce-gabbana-dolce-gabbana-light-blue-eau-intense",
@@ -649,13 +691,24 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Bergamot",
+      "Lavender",
+      "Cinnamon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Mimosa",
+      "Leather",
+      "Port Wine"
+    ],
+    "base_notes": [
+      "Guaiac Wood",
+      "Tobacco Leaf",
+      "Oakmoss"
+    ],
+    "description": "Port wine and leather over tobacco and moss. Warm, boozy and distinctly wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-dior-dior-fahrenheit",
@@ -745,13 +798,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Spices",
+      "Rum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Floral Notes",
+      "Musk"
+    ],
+    "base_notes": [
+      "Resin",
+      "Guaiac Wood",
+      "Amber"
+    ],
+    "description": "Boozy rum and spice over resin and guaiac wood. Dark and warm, a lighter reading of the Man in Black idea.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-dolce-gabbana-dolce-gabbana-k",

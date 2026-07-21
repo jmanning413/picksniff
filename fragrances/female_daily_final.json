@@ -83,13 +83,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Magnolia",
+      "Golden Anjou Pear",
+      "Lotus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine",
+      "Star Magnolia"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood",
+      "Blonde Woods"
+    ],
+    "description": "Pear and magnolia over soft vanilla musk. Clean, sweet and very mid-2000s.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-juicy-couture-viva-la-juicy",
@@ -123,13 +135,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Vanilla"
+      "Quince",
+      "Litchi",
+      "Kiwi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "White Chocolate",
+      "Orchid"
+    ],
+    "base_notes": [
+      "Musk",
+      "Orris Root",
+      "Woody Notes"
+    ],
+    "description": "Litchi and white chocolate over powdery musk. A cupcake of a fragrance, and proudly so.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-dkny-be-delicious",
@@ -292,13 +315,24 @@
       "Fresh"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Fresh"
+      "Lavender",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut",
+      "Praline",
+      "Vanilla Orchid"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cashmere Wood",
+      "Woody Notes"
+    ],
+    "description": "Coconut praline and lavender over creamy musk. A genuine phenomenon, and much better made than it needed to be.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-jessica-simpson-fancy",
@@ -611,13 +645,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Vanilla"
+      "Mandarin Orange",
+      "Blackcurrant",
+      "Bergamot",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "Sharp lavender over creamy vanilla, in the eau de parfum concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-paco-rabanne-olympea",

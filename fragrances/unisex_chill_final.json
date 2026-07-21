@@ -526,13 +526,27 @@
       "Floral"
     ],
     "top_notes": [
-      "Green",
-      "Fresh",
-      "Floral"
+      "Bergamot",
+      "Orange Blossom",
+      "Lemon",
+      "Bulgarian Rose"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Jasmine",
+      "Carnation",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Oakmoss",
+      "Cedar",
+      "Beeswax"
+    ],
+    "description": "The original green tea fragrance: bitter tea over citrus and soft musk. Clean, calm and widely imitated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-budget-kenzo-kenzo-flower",
@@ -901,13 +915,22 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Green",
-      "Floral"
+      "Petitgrain",
+      "Mandarin Orange"
     ],
-    "description": "",
+    "middle_notes": [
+      "Posidonia",
+      "Santolina"
+    ],
+    "base_notes": [
+      "Amber",
+      "Clary Sage",
+      "Woody Notes"
+    ],
+    "description": "A seaweed accord over warm amber. Genuinely marine rather than generically fresh.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-narciso-rodriguez-narciso-rodriguez-musc-noir",

@@ -12,12 +12,23 @@
     ],
     "top_notes": [
       "Vanilla",
-      "Fruity",
-      "Amber"
+      "White Orchid"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sugar",
+      "Tonka Bean",
+      "Coconut",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Cacao"
+    ],
+    "description": "Sweet vanilla and sugar over creamy sandalwood. Comforting, edible and enormously popular.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-victoria-s-secret-love-spell",
@@ -71,13 +82,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Vanilla"
+      "Raspberry",
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Peony",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Marshmallow",
+      "Woody Notes"
+    ],
+    "description": "Sweet berries and marshmallow over soft musk. Uncomplicated, sugary and aimed squarely at fun.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-works-sweet-pea-edp-bath-body",
@@ -91,13 +114,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Sweet Pea",
+      "Pear",
+      "Tayberry",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "Raspberry",
+      "Freesia",
+      "Pink Peony"
+    ],
+    "base_notes": [
+      "Plum Tree",
+      "Musk"
+    ],
+    "description": "Pear and berries over soft freesia and peony. Light, fruity-floral and instantly familiar.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-wang-princess-edp-vera",
@@ -282,13 +316,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Red Apple",
+      "Peach",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lotus",
+      "Green Apple",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Chocolate",
+      "Sandalwood"
+    ],
+    "description": "Red apple and peach over vanilla and chocolate. A fruity gourmand, sweet and firmly of its moment.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-avon-incandessence",
@@ -302,13 +347,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Orchid",
+      "Lily-of-the-Valley",
+      "Cyclamen"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tulip",
+      "Peony"
+    ],
+    "base_notes": [
+      "Orchid",
+      "Musk"
+    ],
+    "description": "A soft, powdery floral built around orchid and peony. Gentle and easy, aimed at everyday wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-dolce-gabbana-rose-the-one",
@@ -686,13 +740,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mandarin Orange",
+      "Blackcurrant",
+      "Bergamot",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "Sharp lavender over creamy vanilla, in the eau de parfum concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-viktor-rolf-flowerbomb",
@@ -1084,13 +1151,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Cherry Blossom",
+      "Rose Liquor"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ylang-Ylang",
+      "Amaretto",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Sandalwood",
+      "Cashmeran"
+    ],
+    "description": "Cherry blossom and amaretto over creamy tonka. Sweet and almond-tinged, unusually gourmand for Amouage.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-louis-vuitton-lv-attrape-reves",

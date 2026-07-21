@@ -135,13 +135,26 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Lemon",
+      "Bergamot",
+      "Grapefruit",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Cyclamen",
+      "Cardamom"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Sharp citrus and mint over clean musk. Crisp, sporty and deliberately simple.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-ralph-lauren-polo-sport",
@@ -235,13 +248,26 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Mandarin Orange",
+      "Grapefruit",
+      "Mint",
+      "Cedar Leaves"
     ],
-    "description": "",
+    "middle_notes": [
+      "Mango",
+      "Apple",
+      "Floral Notes"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Sandalwood",
+      "Tonka Bean",
+      "Rockrose"
+    ],
+    "description": "Mint and grapefruit over a fruity heart and soft woods. Sporty and cheerfully uncomplicated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-guess-guess-effect-sport",
@@ -315,13 +341,26 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Ginger",
+      "Cardamom",
+      "Green Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Wild Rose",
+      "Nutmeg",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Musk",
+      "Cedar",
+      "Patchouli"
+    ],
+    "description": "Ginger and cardamom over nutmeg and warm cedar. Sharp and spicy with a soft tonka finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-dunhill-dunhill-desire-blue",
@@ -1268,12 +1307,20 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Fruity",
-      "Fresh"
+      "Mandarin Orange",
+      "Californian Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Neroli",
+      "Jasmine Sambac"
+    ],
+    "base_notes": [
+      "Cotton Candy",
+      "White Musk"
+    ],
+    "description": "Bright citrus and neroli over spun sugar. Sunny and playful, lighter than most of the Byredo line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

@@ -203,13 +203,26 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Woody",
-      "Aromatic"
+      "Lemon",
+      "Bergamot",
+      "Neroli",
+      "Rose de Mai"
     ],
-    "description": "",
+    "middle_notes": [
+      "Hyacinth",
+      "Clary Sage",
+      "Cedar",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Musk",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "description": "Clean citrus and herbs over soft musk. Inoffensive, well-made and endlessly wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-dolce-gabbana-light-blue-pour-homme",
@@ -329,13 +342,29 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Green"
+      "Lavender",
+      "Mandarin Orange",
+      "Bergamot",
+      "Lemon",
+      "Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coriander",
+      "Jasmine",
+      "Lily-of-the-Valley",
+      "Basil",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Musk",
+      "Amber"
+    ],
+    "description": "A clean aromatic fougere built on lavender and sage. Crisp, soapy and a genuine nineties benchmark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-dolce-gabbana-the-one-for-men",
@@ -777,13 +806,21 @@
       "Fruity"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fruity"
+      "Cardamom",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Toffee",
+      "Amberwood"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Spiced cardamom over toffee and amberwood. Sweet, warm and very loud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-chanel-chance-eau-de-cologne-pour-homme",
@@ -982,13 +1019,26 @@
       "Citrus"
     ],
     "top_notes": [
-      "Woody",
-      "Fresh",
-      "Citrus"
+      "Bergamot",
+      "Lemon",
+      "Neroli",
+      "Marigold"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Jasmine",
+      "Cyclamen"
+    ],
+    "base_notes": [
+      "Black Amber",
+      "Musk",
+      "Vetiver",
+      "Cedar"
+    ],
+    "description": "Bright citrus and marigold over warm amber and vetiver. Sunny up top, smoky underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-niche-maison-margiela-replica-jazz-club",
@@ -1052,13 +1102,24 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Rosewood",
+      "Cardamom",
+      "Chinese Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Smooth oud and sandalwood over warm tonka. The approachable oud, dry and refined rather than medicinal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-niche-frederic-malle-frederic-malle-musc-ravageur",

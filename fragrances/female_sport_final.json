@@ -171,13 +171,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Lavender",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut",
+      "Praline",
+      "Vanilla Orchid"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cashmere Wood",
+      "Woody Notes"
+    ],
+    "description": "Coconut praline and lavender over creamy musk. A genuine phenomenon, and much better made than it needed to be.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-lauder-pleasures-edt-estee",
@@ -561,13 +572,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Bergamot",
+      "Strawberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Peony"
+    ],
+    "base_notes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Soft rose and strawberry over clean musk. Light, pretty and easy to wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-prada-prada-infusion-d-iris",

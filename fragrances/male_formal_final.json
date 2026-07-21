@@ -36,13 +36,26 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Spicy"
+      "Lemon",
+      "Ginger",
+      "Mint",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Juniper",
+      "Apple",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Amberwood",
+      "Haitian Vetiver"
+    ],
+    "description": "Zesty lemon and ginger over warm tonka. Bright up top, comfortably sweet underneath.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-paco-rabanne-invictus-victory",
@@ -136,13 +149,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
+      "Tarragon",
+      "Cardamom",
+      "Grapefruit"
+    ],
+    "middle_notes": [
+      "Nutmeg",
+      "Birch Leaf",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Guaiac Wood",
+      "Benzoin",
       "Amber"
     ],
-    "description": "",
+    "description": "Herbal tarragon and cardamom over dry vetiver. Clean and modern without being generic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-montblanc-mont-blanc-individuel",
@@ -176,13 +201,25 @@
       "Spicy"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Spicy"
+      "Lavender",
+      "Anise",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cardamom",
+      "Sandalwood",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Leather",
+      "Amber",
+      "Tonka Bean",
+      "Cedar"
+    ],
+    "description": "The Azzaro Pour Homme fougere rendered denser and warmer.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-calvin-klein-calvin-klein-euphoria-men",
@@ -520,13 +557,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Bergamot",
+      "Black Pepper",
+      "Juniper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedar",
+      "Cypress"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Incense",
+      "Vetiver"
+    ],
+    "description": "Three cedars over incense and benzoin. Dry, woody and unusually single-minded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-azzaro-azzaro-the-most-wanted",
@@ -540,13 +587,21 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Cardamom",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Toffee",
+      "Amberwood"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "The Most Wanted signature in its richest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-givenchy-givenchy-gentleman-boisee",
@@ -868,13 +923,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Rosewood",
+      "Cardamom",
+      "Chinese Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Smooth oud and sandalwood over warm tonka. The approachable oud, dry and refined rather than medicinal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-amouage-amouage-reflection-man",
@@ -972,13 +1038,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Bergamot",
+      "Lavender",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honey",
+      "Cinnamon",
+      "Cashmeran"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Tonka Bean",
+      "Vanilla",
+      "Benzoin"
+    ],
+    "description": "Honeyed tobacco over vanilla and tonka. Rich and golden, the Xerjoff everyone recommends first.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-initio-initio-side-effect",

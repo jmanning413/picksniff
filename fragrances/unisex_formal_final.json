@@ -11,13 +11,31 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Floral"
+      "Coriander",
+      "Plum",
+      "Clove",
+      "Bergamot",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Carnation",
+      "Jasmine",
+      "Rose",
+      "Cinnamon",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Amber",
+      "Patchouli",
+      "Vanilla",
+      "Myrrh",
+      "Incense",
+      "Sandalwood"
+    ],
+    "description": "A monumental spicy oriental from 1977. Clove, amber and incense, worn like a statement rather than a scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-clinique-aromatics-elixir",
@@ -630,13 +648,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Tea",
+      "Bergamot",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Freesia",
+      "Rose"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Musk",
+      "Vanilla"
+    ],
+    "description": "The Flowerbomb floral explosion in its richest concentration, deeper and longer lasting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-yves-saint-laurent-libre",
@@ -650,13 +680,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Mandarin Orange",
+      "Blackcurrant",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "The richest Libre concentration, with the vanilla pushed forward.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-burberry-burberry-goddess",
@@ -997,13 +1039,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Aromatic"
+      "Thyme",
+      "Raspberry",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Leather",
+      "Jasmine",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Amber",
+      "Suede",
+      "Woody Notes"
+    ],
+    "description": "Raw leather cut with jammy raspberry. Dense, animalic and one of the most distinctive things Tom Ford makes.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-creed-creed-aventus",
@@ -1052,13 +1105,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Bergamot",
+      "Oregano",
+      "Pimento"
     ],
-    "description": "",
+    "middle_notes": [
+      "Frankincense",
+      "Amber",
+      "Opoponax"
+    ],
+    "base_notes": [
+      "Leather",
+      "Patchouli",
+      "Sandalwood",
+      "Agarwood"
+    ],
+    "description": "A wall of smoky incense and resin over leather. Famously dense, not remotely casual.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-frederic-malle-frederic-malle-portrait-of-a-lady",

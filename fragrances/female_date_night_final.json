@@ -51,13 +51,26 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Floral"
+      "Pear",
+      "Pink Pepper",
+      "Orange Blossom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coffee",
+      "Jasmine",
+      "Bitter Almond",
+      "Licorice"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Cedar",
+      "Cashmere Wood"
+    ],
+    "description": "A jolt of black coffee wrapped in sweet vanilla and white flowers. Addictive and nocturnal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-thierry-mugler-alien",
@@ -355,13 +368,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Raspberry",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Orris"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "Pink berries and rose over creamy vanilla. Sweet, soft and unabashedly commercial.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-yves-saint-laurent-black-opium-intense",
@@ -581,13 +605,25 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Spicy"
+      "Ginger",
+      "Cardamom",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Gardenia",
+      "Orange Blossom",
+      "Coconut"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Musk",
+      "Tonka Bean"
+    ],
+    "description": "Creamy gardenia and coconut over warm amber. Soft and spicy, closer to velvet than to crystal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-viktor-rolf-flowerbomb-ruby-orchid",
@@ -1067,13 +1103,26 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Spicy"
+      "Rose",
+      "Frankincense",
+      "Lily-of-the-Valley"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orris",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Myrrh",
+      "Musk",
+      "Sandalwood",
+      "Amber",
+      "Civet"
+    ],
+    "description": "A dense, powdery floral over myrrh and animalic musk. Opulent and unmistakably old-school Amouage.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-creed-love-in-white",

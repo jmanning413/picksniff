@@ -63,13 +63,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Spicy",
-      "Woody",
-      "Vanilla"
+      "Cinnamon",
+      "Red Fruits",
+      "Spicy Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco",
+      "Cedar",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Benzoin"
+    ],
+    "description": "Cinnamon and red fruit over tobacco and vanilla. Dark, sweet and built for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-viktor-rolf-spicebomb",
@@ -83,13 +94,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Spicy",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Grapefruit",
+      "Pink Pepper",
+      "Elemi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Saffron",
+      "Paprika"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Leather",
+      "Vetiver"
+    ],
+    "description": "Warm cinnamon and paprika over tobacco and leather. Spicy and enveloping, built for cold weather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-carolina-herrera-bad-boy",
@@ -321,13 +344,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Lemon",
+      "Black Pepper",
+      "Mandarin",
+      "Rosemary"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Geranium",
+      "Rosemary"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli",
+      "Cedar"
+    ],
+    "description": "The Eros sweetness redirected into citrus and pepper. Warmer and spicier, less minty than the original.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-paco-rabanne-1-million-prive",
@@ -381,13 +418,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Spicy",
-      "Vanilla",
-      "Amber"
+      "Black Pepper",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Cumin"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Vanilla"
+    ],
+    "description": "The Spicebomb idea stripped down and darkened: pepper and cumin over sweet tobacco and vanilla.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-yves-saint-laurent-la-nuit-de-l-homme",
@@ -594,13 +639,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Woody"
+      "Lemon",
+      "Black Pepper",
+      "Mandarin",
+      "Rosemary"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Geranium",
+      "Rosemary"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli",
+      "Cedar"
+    ],
+    "description": "The Eros sweetness redirected into citrus and pepper. Warmer and spicier, less minty than the original.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-chanel-bleu-de-chanel",
@@ -801,13 +860,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Spicy"
+      "Thyme",
+      "Raspberry",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Leather",
+      "Jasmine",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Amber",
+      "Suede",
+      "Woody Notes"
+    ],
+    "description": "Raw leather cut with jammy raspberry. Dense, animalic and one of the most distinctive things Tom Ford makes.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-tom-ford-oud-wood",
@@ -1030,13 +1100,26 @@
       "Spicy"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Spicy"
+      "Bergamot",
+      "Oregano",
+      "Pimento Berry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Amber",
+      "Frankincense",
+      "Cistus",
+      "Opoponax"
+    ],
+    "base_notes": [
+      "Leather",
+      "Agarwood",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "description": "The Interlude accord at extreme concentration: incense, resin and leather pushed far past comfortable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-creed-viking-cologne",
