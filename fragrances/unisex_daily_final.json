@@ -77,7 +77,7 @@
   },
   {
     "id": "unisex-daily-budget-giorgio-armani-acqua-di-gio",
-    "name": "Acqua di Gio",
+    "name": "Acqua di Giò",
     "brand": "Giorgio Armani",
     "concentration": "EDT",
     "tier": "budget",
@@ -147,7 +147,7 @@
   },
   {
     "id": "unisex-daily-budget-issey-miyake-issey-miyake-l-eau-d-issey",
-    "name": "Issey Miyake L'Eau d'Issey",
+    "name": "L'Eau d'Issey",
     "brand": "Issey Miyake",
     "concentration": "EDT",
     "tier": "budget",
@@ -182,7 +182,7 @@
   },
   {
     "id": "unisex-daily-budget-davidoff-davidoff-cool-water",
-    "name": "Davidoff Cool Water",
+    "name": "Cool Water",
     "brand": "Davidoff",
     "concentration": "EDT",
     "tier": "budget",
@@ -353,7 +353,7 @@
   },
   {
     "id": "unisex-daily-budget-versace-versace-versense",
-    "name": "Versace Versense",
+    "name": "Versense",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "budget",
@@ -420,7 +420,7 @@
   },
   {
     "id": "unisex-daily-budget-elizabeth-arden-elizabeth-arden-green-tea",
-    "name": "Elizabeth Arden Green Tea",
+    "name": "Green Tea",
     "brand": "Elizabeth Arden",
     "concentration": "EDT",
     "tier": "budget",
@@ -454,7 +454,7 @@
   },
   {
     "id": "unisex-daily-budget-clinique-clinique-happy",
-    "name": "Clinique Happy",
+    "name": "Happy",
     "brand": "Clinique",
     "concentration": "EDT",
     "tier": "budget",
@@ -488,7 +488,7 @@
   },
   {
     "id": "unisex-daily-budget-lacoste-lacoste-l-12-12-blanc",
-    "name": "Lacoste L.12.12 Blanc",
+    "name": "L.12.12 Blanc",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -712,7 +712,7 @@
   },
   {
     "id": "unisex-daily-quality-versace-versace-dylan-blue",
-    "name": "Versace Dylan Blue",
+    "name": "Dylan Blue",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "quality",
@@ -954,7 +954,7 @@
   },
   {
     "id": "unisex-daily-quality-montblanc-montblanc-explorer",
-    "name": "Montblanc Explorer",
+    "name": "Explorer",
     "brand": "Montblanc",
     "concentration": "EDP",
     "tier": "quality",
@@ -1047,7 +1047,7 @@
   },
   {
     "id": "unisex-daily-quality-gucci-gucci-bloom",
-    "name": "Gucci Bloom",
+    "name": "Bloom",
     "brand": "Gucci",
     "concentration": "EDP",
     "tier": "quality",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "unisex-daily-quality-prada-prada-infusion-d-iris",
-    "name": "Prada Infusion d'Iris",
+    "name": "Infusion d'Iris",
     "brand": "Prada",
     "concentration": "EDT",
     "tier": "quality",
@@ -1104,7 +1104,7 @@
   },
   {
     "id": "unisex-daily-niche-byredo-byredo-bal-d-afrique",
-    "name": "Byredo Bal d'Afrique",
+    "name": "Bal d'Afrique",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "unisex-daily-niche-byredo-byredo-gypsy-water",
-    "name": "Byredo Gypsy Water",
+    "name": "Gypsy Water",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1169,7 +1169,7 @@
   },
   {
     "id": "unisex-daily-niche-diptyque-diptyque-philosykos",
-    "name": "Diptyque Philosykos",
+    "name": "Philosykos",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1196,7 +1196,7 @@
   },
   {
     "id": "unisex-daily-niche-diptyque-diptyque-tam-dao",
-    "name": "Diptyque Tam Dao",
+    "name": "Tam Dao",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1224,7 +1224,7 @@
   },
   {
     "id": "unisex-daily-niche-le-labo-le-labo-santal-33",
-    "name": "Le Labo Santal 33",
+    "name": "Santal 33",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1254,7 +1254,7 @@
   },
   {
     "id": "unisex-daily-niche-le-labo-le-labo-another-13",
-    "name": "Le Labo Another 13",
+    "name": "Another 13",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1283,7 +1283,7 @@
   },
   {
     "id": "unisex-daily-niche-maison-margiela-maison-margiela-replica-jazz-club",
-    "name": "Maison Margiela Replica Jazz Club",
+    "name": "Replica Jazz Club",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "unisex-daily-niche-maison-margiela-maison-margiela-replica-beach-walk",
-    "name": "Maison Margiela Replica Beach Walk",
+    "name": "Replica Beach Walk",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1346,7 +1346,7 @@
   },
   {
     "id": "unisex-daily-niche-jo-malone-jo-malone-wood-sage-sea-salt",
-    "name": "Jo Malone Wood Sage & Sea Salt",
+    "name": "Wood Sage & Sea Salt",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1373,7 +1373,7 @@
   },
   {
     "id": "unisex-daily-niche-jo-malone-jo-malone-lime-basil-mandarin",
-    "name": "Jo Malone Lime Basil & Mandarin",
+    "name": "Lime Basil & Mandarin",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1403,7 +1403,7 @@
   },
   {
     "id": "unisex-daily-niche-creed-creed-silver-mountain-water",
-    "name": "Creed Silver Mountain Water",
+    "name": "Silver Mountain Water",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "unisex-daily-niche-atelier-cologne-atelier-cologne-orange-sanguine",
-    "name": "Atelier Cologne Orange Sanguine",
+    "name": "Orange Sanguine",
     "brand": "Atelier Cologne",
     "concentration": "Cologne Absolue",
     "tier": "niche",
@@ -1462,7 +1462,7 @@
   },
   {
     "id": "unisex-daily-niche-diptyque-diptyque-oyedo",
-    "name": "Diptyque Oyédo",
+    "name": "Oyédo",
     "brand": "Diptyque",
     "concentration": "EDT",
     "tier": "niche",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "unisex-daily-niche-byredo-byredo-super-cedar",
-    "name": "Byredo Super Cedar",
+    "name": "Super Cedar",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1515,7 +1515,7 @@
   },
   {
     "id": "unisex-daily-niche-nishane-nishane-hacivat",
-    "name": "Nishane Hacivat",
+    "name": "Hacivat",
     "brand": "Nishane",
     "concentration": "Extrait",
     "tier": "niche",
@@ -1547,7 +1547,7 @@
   },
   {
     "id": "unisex-daily-niche-louis-vuitton-lv-imagination",
-    "name": "LV Imagination",
+    "name": "Imagination",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",

@@ -342,7 +342,7 @@
   },
   {
     "id": "male-daily-budget-clinique-clinique-happy-for-men",
-    "name": "Clinique Happy for Men",
+    "name": "Happy for Men",
     "brand": "Clinique",
     "concentration": "Cologne",
     "tier": "budget",
@@ -440,7 +440,7 @@
   },
   {
     "id": "male-daily-budget-adidas-adidas-ice-dive",
-    "name": "Adidas Ice Dive",
+    "name": "Ice Dive",
     "brand": "Adidas",
     "concentration": "EDT",
     "tier": "budget",
@@ -506,7 +506,7 @@
   },
   {
     "id": "male-daily-budget-lacoste-lacoste-l-12-12-blanc",
-    "name": "Lacoste L.12.12 Blanc",
+    "name": "L.12.12 Blanc",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -728,7 +728,7 @@
   },
   {
     "id": "male-daily-quality-prada-prada-l-homme",
-    "name": "Prada L'Homme",
+    "name": "L'Homme",
     "brand": "Prada",
     "concentration": "EDT",
     "tier": "quality",
@@ -790,7 +790,7 @@
   },
   {
     "id": "male-daily-quality-versace-versace-eros",
-    "name": "Versace Eros",
+    "name": "Eros",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "quality",
@@ -822,7 +822,7 @@
   },
   {
     "id": "male-daily-quality-paco-rabanne-paco-rabanne-phantom",
-    "name": "Paco Rabanne Phantom",
+    "name": "Phantom",
     "brand": "Paco Rabanne",
     "concentration": "EDT",
     "tier": "quality",
@@ -1095,7 +1095,7 @@
   },
   {
     "id": "male-daily-niche-creed-creed-aventus-cologne",
-    "name": "Creed Aventus Cologne",
+    "name": "Aventus Cologne",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1192,7 +1192,7 @@
   },
   {
     "id": "male-daily-niche-louis-vuitton-lv-imagination",
-    "name": "LV Imagination",
+    "name": "Imagination",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1222,7 +1222,7 @@
   },
   {
     "id": "male-daily-niche-tom-ford-tom-ford-oud-wood",
-    "name": "Tom Ford Oud Wood",
+    "name": "Oud Wood",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "niche",
@@ -1253,7 +1253,7 @@
   },
   {
     "id": "male-daily-niche-frederic-malle-frederic-malle-musc-ravageur",
-    "name": "Frederic Malle Musc Ravageur",
+    "name": "Musc Ravageur",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "male-daily-niche-creed-creed-green-irish-tweed",
-    "name": "Creed Green Irish Tweed",
+    "name": "Green Irish Tweed",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1316,7 +1316,7 @@
   },
   {
     "id": "male-daily-niche-amouage-amouage-reflection-man",
-    "name": "Amouage Reflection Man",
+    "name": "Reflection Man",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1348,7 +1348,7 @@
   },
   {
     "id": "male-daily-niche-xerjoff-xerjoff-40-knots",
-    "name": "Xerjoff 40 Knots",
+    "name": "40 Knots",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1407,7 +1407,7 @@
   },
   {
     "id": "male-daily-niche-diptyque-diptyque-oyedo",
-    "name": "Diptyque Oyédo",
+    "name": "Oyédo",
     "brand": "Diptyque",
     "concentration": "EDT",
     "tier": "niche",
@@ -1434,7 +1434,7 @@
   },
   {
     "id": "male-daily-niche-byredo-byredo-super-cedar",
-    "name": "Byredo Super Cedar",
+    "name": "Super Cedar",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1460,7 +1460,7 @@
   },
   {
     "id": "male-daily-niche-le-labo-le-labo-bergamote-22",
-    "name": "Le Labo Bergamote 22",
+    "name": "Bergamote 22",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1490,7 +1490,7 @@
   },
   {
     "id": "male-daily-niche-nishane-nishane-hacivat",
-    "name": "Nishane Hacivat",
+    "name": "Hacivat",
     "brand": "Nishane",
     "concentration": "Extrait",
     "tier": "niche",
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "male-daily-niche-chanel-chanel-sycomore",
-    "name": "Chanel Sycomore",
+    "name": "Sycomore",
     "brand": "Chanel",
     "concentration": "EDP",
     "tier": "niche",
@@ -1552,7 +1552,7 @@
   },
   {
     "id": "male-daily-niche-amouage-amouage-interlude-man",
-    "name": "Amouage Interlude Man",
+    "name": "Interlude Man",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",

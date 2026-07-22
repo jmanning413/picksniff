@@ -38,7 +38,7 @@
   },
   {
     "id": "male-sport-budget-adidas-adidas-ice-dive",
-    "name": "Adidas Ice Dive",
+    "name": "Ice Dive",
     "brand": "Adidas",
     "concentration": "EDT",
     "tier": "budget",
@@ -232,7 +232,7 @@
   },
   {
     "id": "male-sport-budget-lacoste-lacoste-essential-sport",
-    "name": "Lacoste Essential Sport",
+    "name": "Essential Sport",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -297,7 +297,7 @@
   },
   {
     "id": "male-sport-budget-adidas-adidas-dynamic-pulse",
-    "name": "Adidas Dynamic Pulse",
+    "name": "Dynamic Pulse",
     "brand": "Adidas",
     "concentration": "EDT",
     "tier": "budget",
@@ -365,7 +365,7 @@
   },
   {
     "id": "male-sport-budget-calvin-klein-calvin-klein-ck-be",
-    "name": "Calvin Klein CK Be",
+    "name": "CK Be",
     "brand": "Calvin Klein",
     "concentration": "EDT",
     "tier": "budget",
@@ -401,7 +401,7 @@
   },
   {
     "id": "male-sport-budget-versace-versace-man-eau-fraiche",
-    "name": "Versace Man Eau Fraiche",
+    "name": "Man Eau Fraiche",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "budget",
@@ -461,7 +461,7 @@
   },
   {
     "id": "male-sport-budget-dunhill-dunhill-desire-blue",
-    "name": "Dunhill Desire Blue",
+    "name": "Desire Blue",
     "brand": "Dunhill",
     "concentration": "EDT",
     "tier": "budget",
@@ -527,7 +527,7 @@
   },
   {
     "id": "male-sport-budget-montblanc-mont-blanc-explorer-ultra-blue",
-    "name": "Mont Blanc Explorer Ultra Blue",
+    "name": "Explorer Ultra Blue",
     "brand": "Montblanc",
     "concentration": "EDP",
     "tier": "budget",
@@ -757,7 +757,7 @@
   },
   {
     "id": "male-sport-quality-versace-versace-dylan-blue",
-    "name": "Versace Dylan Blue",
+    "name": "Dylan Blue",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "quality",
@@ -821,7 +821,7 @@
   },
   {
     "id": "male-sport-quality-dolce-gabbana-dolce-gabbana-light-blue-forever",
-    "name": "Dolce & Gabbana Light Blue Forever",
+    "name": "Light Blue Forever",
     "brand": "Dolce & Gabbana",
     "concentration": "EDP",
     "tier": "quality",
@@ -850,7 +850,7 @@
   },
   {
     "id": "male-sport-quality-dior-dior-sauvage",
-    "name": "Dior Sauvage",
+    "name": "Sauvage",
     "brand": "Dior",
     "concentration": "Elixir",
     "tier": "quality",
@@ -882,7 +882,7 @@
   },
   {
     "id": "male-sport-quality-versace-versace-eros",
-    "name": "Versace Eros",
+    "name": "Eros",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "quality",
@@ -977,7 +977,7 @@
   },
   {
     "id": "male-sport-quality-montblanc-mont-blanc-explorer",
-    "name": "Mont Blanc Explorer",
+    "name": "Explorer",
     "brand": "Montblanc",
     "concentration": "EDP",
     "tier": "quality",
@@ -1064,7 +1064,7 @@
   },
   {
     "id": "male-sport-quality-narciso-rodriguez-narciso-rodriguez-for-him-bleu",
-    "name": "Narciso Rodriguez for Him Bleu",
+    "name": "for Him Bleu",
     "brand": "Narciso Rodriguez",
     "concentration": "EDP",
     "tier": "quality",
@@ -1092,7 +1092,7 @@
   },
   {
     "id": "male-sport-niche-creed-creed-virgin-island-water",
-    "name": "Creed Virgin Island Water",
+    "name": "Virgin Island Water",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1122,7 +1122,7 @@
   },
   {
     "id": "male-sport-niche-creed-creed-silver-mountain-water",
-    "name": "Creed Silver Mountain Water",
+    "name": "Silver Mountain Water",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1151,7 +1151,7 @@
   },
   {
     "id": "male-sport-niche-creed-creed-aventus",
-    "name": "Creed Aventus",
+    "name": "Aventus",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1186,7 +1186,7 @@
   },
   {
     "id": "male-sport-niche-creed-creed-green-irish-tweed",
-    "name": "Creed Green Irish Tweed",
+    "name": "Green Irish Tweed",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1246,7 +1246,7 @@
   },
   {
     "id": "male-sport-niche-xerjoff-xerjoff-40-knots",
-    "name": "Xerjoff 40 Knots",
+    "name": "40 Knots",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "male-sport-niche-diptyque-diptyque-tempo",
-    "name": "Diptyque Tempo",
+    "name": "Tempo",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": "male-sport-niche-byredo-byredo-gypsy-water",
-    "name": "Byredo Gypsy Water",
+    "name": "Gypsy Water",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1367,7 +1367,7 @@
   },
   {
     "id": "male-sport-niche-jo-malone-jo-malone-lime-basil-mandarin",
-    "name": "Jo Malone Lime Basil & Mandarin",
+    "name": "Lime Basil & Mandarin",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1397,7 +1397,7 @@
   },
   {
     "id": "male-sport-niche-diptyque-diptyque-oyedo",
-    "name": "Diptyque Oyédo",
+    "name": "Oyédo",
     "brand": "Diptyque",
     "concentration": "EDT",
     "tier": "niche",
@@ -1424,7 +1424,7 @@
   },
   {
     "id": "male-sport-niche-roja-parfums-roja-elysium-pour-homme",
-    "name": "Roja Elysium Pour Homme",
+    "name": "Elysium Pour Homme",
     "brand": "Roja Parfums",
     "concentration": "Parfum",
     "tier": "niche",
@@ -1458,7 +1458,7 @@
   },
   {
     "id": "male-sport-niche-parfums-de-marly-parfums-de-marly-galloway",
-    "name": "Parfums de Marly Galloway",
+    "name": "Galloway",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1488,7 +1488,7 @@
   },
   {
     "id": "male-sport-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",
-    "name": "Penhaligon's Blenheim Bouquet",
+    "name": "Blenheim Bouquet",
     "brand": "Penhaligon's",
     "concentration": "EDT",
     "tier": "niche",
@@ -1517,8 +1517,8 @@
   },
   {
     "id": "male-sport-niche-parfumeur-l-artisan-timbuktu-l-artisan",
-    "name": "L'Artisan Timbuktu L'Artisan",
-    "brand": "Parfumeur",
+    "name": "Timbuktu",
+    "brand": "L'Artisan Parfumeur",
     "concentration": "EDT",
     "tier": "niche",
     "accords": [
@@ -1548,7 +1548,7 @@
   },
   {
     "id": "male-sport-niche-byredo-byredo-sundazed",
-    "name": "Byredo Sundazed",
+    "name": "Sundazed",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",

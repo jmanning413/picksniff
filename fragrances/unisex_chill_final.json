@@ -186,7 +186,7 @@
   },
   {
     "id": "unisex-chill-budget-issey-miyake-issey-miyake-l-eau-d-issey",
-    "name": "Issey Miyake L'Eau d'Issey",
+    "name": "L'Eau d'Issey",
     "brand": "Issey Miyake",
     "concentration": "EDT",
     "tier": "budget",
@@ -221,7 +221,7 @@
   },
   {
     "id": "unisex-chill-budget-davidoff-davidoff-cool-water",
-    "name": "Davidoff Cool Water",
+    "name": "Cool Water",
     "brand": "Davidoff",
     "concentration": "EDT",
     "tier": "budget",
@@ -292,7 +292,7 @@
   },
   {
     "id": "unisex-chill-budget-elizabeth-arden-elizabeth-arden-green-tea",
-    "name": "Elizabeth Arden Green Tea",
+    "name": "Green Tea",
     "brand": "Elizabeth Arden",
     "concentration": "EDT",
     "tier": "budget",
@@ -326,7 +326,7 @@
   },
   {
     "id": "unisex-chill-budget-calvin-klein-calvin-klein-ck-free",
-    "name": "Calvin Klein CK Free",
+    "name": "CK Free",
     "brand": "Calvin Klein",
     "concentration": "EDT",
     "tier": "budget",
@@ -357,7 +357,7 @@
   },
   {
     "id": "unisex-chill-budget-lacoste-lacoste-l-12-12-blanc",
-    "name": "Lacoste L.12.12 Blanc",
+    "name": "L.12.12 Blanc",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -485,7 +485,7 @@
   },
   {
     "id": "unisex-chill-budget-versace-versace-versense",
-    "name": "Versace Versense",
+    "name": "Versense",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "budget",
@@ -516,7 +516,7 @@
   },
   {
     "id": "unisex-chill-budget-bvlgari-bulgari-eau-parfumee-au-the-vert",
-    "name": "Bulgari Eau Parfumée au Thé Vert",
+    "name": "Eau Parfumée au Thé Vert",
     "brand": "Bvlgari",
     "concentration": "EDT",
     "tier": "budget",
@@ -550,7 +550,7 @@
   },
   {
     "id": "unisex-chill-budget-kenzo-kenzo-flower",
-    "name": "Kenzo Flower",
+    "name": "Flower by Kenzo",
     "brand": "Kenzo",
     "concentration": "EDT",
     "tier": "budget",
@@ -730,7 +730,7 @@
   },
   {
     "id": "unisex-chill-quality-hugo-boss-hugo-boss-the-scent",
-    "name": "Hugo Boss The Scent",
+    "name": "Boss The Scent",
     "brand": "Hugo Boss",
     "concentration": "EDT",
     "tier": "quality",
@@ -758,7 +758,7 @@
   },
   {
     "id": "unisex-chill-quality-dior-dior-fahrenheit",
-    "name": "Dior Fahrenheit",
+    "name": "Fahrenheit",
     "brand": "Dior",
     "concentration": "EDT",
     "tier": "quality",
@@ -794,7 +794,7 @@
   },
   {
     "id": "unisex-chill-quality-montblanc-montblanc-legend-red",
-    "name": "Montblanc Legend Red",
+    "name": "Legend Red",
     "brand": "Montblanc",
     "concentration": "EDP",
     "tier": "quality",
@@ -824,7 +824,7 @@
   },
   {
     "id": "unisex-chill-quality-gucci-gucci-bloom",
-    "name": "Gucci Bloom",
+    "name": "Bloom",
     "brand": "Gucci",
     "concentration": "EDP",
     "tier": "quality",
@@ -850,7 +850,7 @@
   },
   {
     "id": "unisex-chill-quality-lancome-lancome-la-vie-est-belle",
-    "name": "Lancôme La Vie Est Belle",
+    "name": "La Vie Est Belle",
     "brand": "Lancôme",
     "concentration": "EDP",
     "tier": "quality",
@@ -881,7 +881,7 @@
   },
   {
     "id": "unisex-chill-quality-chanel-chanel-coco-mademoiselle",
-    "name": "Chanel Coco Mademoiselle",
+    "name": "Coco Mademoiselle",
     "brand": "Chanel",
     "concentration": "EDP",
     "tier": "quality",
@@ -915,7 +915,7 @@
   },
   {
     "id": "unisex-chill-quality-prada-prada-infusion-d-iris",
-    "name": "Prada Infusion d'Iris",
+    "name": "Infusion d'Iris",
     "brand": "Prada",
     "concentration": "EDT",
     "tier": "quality",
@@ -946,7 +946,7 @@
   },
   {
     "id": "unisex-chill-quality-bvlgari-bvlgari-aqva",
-    "name": "Bvlgari Aqva",
+    "name": "Aqva",
     "brand": "Bvlgari",
     "concentration": "EDT",
     "tier": "quality",
@@ -975,7 +975,7 @@
   },
   {
     "id": "unisex-chill-quality-narciso-rodriguez-narciso-rodriguez-musc-noir",
-    "name": "Narciso Rodriguez Musc Noir",
+    "name": "Musc Noir",
     "brand": "Narciso Rodriguez",
     "concentration": "EDP",
     "tier": "quality",
@@ -1002,7 +1002,7 @@
   },
   {
     "id": "unisex-chill-quality-dolce-gabbana-dolce-gabbana-light-blue",
-    "name": "Dolce & Gabbana Light Blue",
+    "name": "Light Blue",
     "brand": "Dolce & Gabbana",
     "concentration": "EDT",
     "tier": "quality",
@@ -1034,7 +1034,7 @@
   },
   {
     "id": "unisex-chill-quality-dolce-gabbana-dolce-gabbana-the-one",
-    "name": "Dolce & Gabbana The One",
+    "name": "The One",
     "brand": "Dolce & Gabbana",
     "concentration": "EDT",
     "tier": "quality",
@@ -1067,7 +1067,7 @@
   },
   {
     "id": "unisex-chill-quality-diptyque-diptyque-philosykos",
-    "name": "Diptyque Philosykos",
+    "name": "Philosykos",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "quality",
@@ -1094,7 +1094,7 @@
   },
   {
     "id": "unisex-chill-niche-le-labo-le-labo-santal-33",
-    "name": "Le Labo Santal 33",
+    "name": "Santal 33",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1124,7 +1124,7 @@
   },
   {
     "id": "unisex-chill-niche-le-labo-le-labo-another-13",
-    "name": "Le Labo Another 13",
+    "name": "Another 13",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "unisex-chill-niche-byredo-byredo-mojave-ghost",
-    "name": "Byredo Mojave Ghost",
+    "name": "Mojave Ghost",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1183,7 +1183,7 @@
   },
   {
     "id": "unisex-chill-niche-byredo-byredo-gypsy-water",
-    "name": "Byredo Gypsy Water",
+    "name": "Gypsy Water",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "unisex-chill-niche-diptyque-diptyque-tam-dao",
-    "name": "Diptyque Tam Dao",
+    "name": "Tam Dao",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": "unisex-chill-niche-maison-margiela-maison-margiela-replica-lazy-sunday-morning",
-    "name": "Maison Margiela Replica Lazy Sunday Morning",
+    "name": "Replica Lazy Sunday Morning",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "unisex-chill-niche-maison-margiela-maison-margiela-replica-jazz-club",
-    "name": "Maison Margiela Replica Jazz Club",
+    "name": "Replica Jazz Club",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "unisex-chill-niche-jo-malone-jo-malone-wood-sage-sea-salt",
-    "name": "Jo Malone Wood Sage & Sea Salt",
+    "name": "Wood Sage & Sea Salt",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1332,7 +1332,7 @@
   },
   {
     "id": "unisex-chill-niche-jo-malone-jo-malone-dark-amber-ginger-lily",
-    "name": "Jo Malone Dark Amber & Ginger Lily",
+    "name": "Dark Amber & Ginger Lily",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1366,7 +1366,7 @@
   },
   {
     "id": "unisex-chill-niche-creed-creed-original-vetiver",
-    "name": "Creed Original Vetiver",
+    "name": "Original Vetiver",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1396,7 +1396,7 @@
   },
   {
     "id": "unisex-chill-niche-creed-creed-green-irish-tweed",
-    "name": "Creed Green Irish Tweed",
+    "name": "Green Irish Tweed",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "unisex-chill-niche-parfums-de-marly-parfums-de-marly-galloway",
-    "name": "Parfums de Marly Galloway",
+    "name": "Galloway",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1455,7 +1455,7 @@
   },
   {
     "id": "unisex-chill-niche-byredo-byredo-bal-d-afrique",
-    "name": "Byredo Bal d'Afrique",
+    "name": "Bal d'Afrique",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1488,7 +1488,7 @@
   },
   {
     "id": "unisex-chill-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",
-    "name": "Penhaligon's Blenheim Bouquet",
+    "name": "Blenheim Bouquet",
     "brand": "Penhaligon's",
     "concentration": "EDT",
     "tier": "niche",
@@ -1517,7 +1517,7 @@
   },
   {
     "id": "unisex-chill-niche-louis-vuitton-lv-au-hasard",
-    "name": "LV Au Hasard",
+    "name": "Au Hasard",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1551,7 +1551,7 @@
   },
   {
     "id": "unisex-chill-niche-maison-margiela-maison-margiela-replica-autumn-vibes",
-    "name": "Maison Margiela Replica Autumn Vibes",
+    "name": "Replica Autumn Vibes",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",

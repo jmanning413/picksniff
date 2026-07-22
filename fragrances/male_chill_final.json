@@ -208,7 +208,7 @@
   },
   {
     "id": "male-chill-budget-versace-versace-dylan-blue",
-    "name": "Versace Dylan Blue",
+    "name": "Dylan Blue",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "budget",
@@ -315,7 +315,7 @@
   },
   {
     "id": "male-chill-budget-lacoste-lacoste-l-12-12-blanc",
-    "name": "Lacoste L.12.12 Blanc",
+    "name": "L.12.12 Blanc",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -346,7 +346,7 @@
   },
   {
     "id": "male-chill-budget-davidoff-davidoff-champion",
-    "name": "Davidoff Champion",
+    "name": "Champion",
     "brand": "Davidoff",
     "concentration": "EDT",
     "tier": "budget",
@@ -438,8 +438,8 @@
   },
   {
     "id": "male-chill-budget-claiborne-curve-for-men-liz",
-    "name": "Curve for Men Liz",
-    "brand": "Claiborne",
+    "name": "Curve for Men",
+    "brand": "Liz Claiborne",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
@@ -475,7 +475,7 @@
   },
   {
     "id": "male-chill-budget-calvin-klein-calvin-klein-ck-free",
-    "name": "Calvin Klein CK Free",
+    "name": "CK Free",
     "brand": "Calvin Klein",
     "concentration": "EDT",
     "tier": "budget",
@@ -621,7 +621,7 @@
   },
   {
     "id": "male-chill-quality-bvlgari-bvlgari-aqva-pour-homme",
-    "name": "Bvlgari Aqva pour Homme",
+    "name": "Aqva pour Homme",
     "brand": "Bvlgari",
     "concentration": "EDT",
     "tier": "quality",
@@ -650,7 +650,7 @@
   },
   {
     "id": "male-chill-quality-dolce-gabbana-dolce-gabbana-light-blue-eau-intense",
-    "name": "Dolce & Gabbana Light Blue Eau Intense",
+    "name": "Light Blue Eau Intense",
     "brand": "Dolce & Gabbana",
     "concentration": "EDP",
     "tier": "quality",
@@ -678,7 +678,7 @@
   },
   {
     "id": "male-chill-quality-prada-prada-l-homme",
-    "name": "Prada L'Homme",
+    "name": "L'Homme",
     "brand": "Prada",
     "concentration": "EDT",
     "tier": "quality",
@@ -710,7 +710,7 @@
   },
   {
     "id": "male-chill-quality-paco-rabanne-paco-rabanne-pure-xs",
-    "name": "Paco Rabanne Pure XS",
+    "name": "Pure XS",
     "brand": "Paco Rabanne",
     "concentration": "EDT",
     "tier": "quality",
@@ -770,7 +770,7 @@
   },
   {
     "id": "male-chill-quality-hugo-boss-hugo-boss-boss-the-scent",
-    "name": "Hugo Boss Boss The Scent",
+    "name": "Boss The Scent",
     "brand": "Hugo Boss",
     "concentration": "EDT",
     "tier": "quality",
@@ -829,7 +829,7 @@
   },
   {
     "id": "male-chill-quality-dior-dior-fahrenheit",
-    "name": "Dior Fahrenheit",
+    "name": "Fahrenheit",
     "brand": "Dior",
     "concentration": "EDT",
     "tier": "quality",
@@ -865,7 +865,7 @@
   },
   {
     "id": "male-chill-quality-hermes-hermes-terre-d-hermes-eau-tres-fra-356che",
-    "name": "Hermès Terre d'Hermès Eau Très Fra\\356che",
+    "name": "Terre d'Hermès Eau Très Fraîche",
     "brand": "Hermès",
     "concentration": "EDT",
     "tier": "quality",
@@ -892,7 +892,7 @@
   },
   {
     "id": "male-chill-quality-yves-saint-laurent-yves-saint-laurent-l-homme",
-    "name": "Yves Saint Laurent L'Homme",
+    "name": "L'Homme",
     "brand": "Yves Saint Laurent",
     "concentration": "EDT",
     "tier": "quality",
@@ -985,7 +985,7 @@
   },
   {
     "id": "male-chill-quality-hugo-boss-hugo-boss-number-one",
-    "name": "Hugo Boss Number One",
+    "name": "Boss Number One",
     "brand": "Hugo Boss",
     "concentration": "EDT",
     "tier": "quality",
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "male-chill-quality-montblanc-montblanc-legend-red",
-    "name": "Montblanc Legend Red",
+    "name": "Legend Red",
     "brand": "Montblanc",
     "concentration": "EDP",
     "tier": "quality",
@@ -1048,7 +1048,7 @@
   },
   {
     "id": "male-chill-niche-le-labo-le-labo-santal-33",
-    "name": "Le Labo Santal 33",
+    "name": "Santal 33",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1078,7 +1078,7 @@
   },
   {
     "id": "male-chill-niche-le-labo-le-labo-the-noir-29",
-    "name": "Le Labo The Noir 29",
+    "name": "The Noir 29",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1108,7 +1108,7 @@
   },
   {
     "id": "male-chill-niche-le-labo-le-labo-another-13",
-    "name": "Le Labo Another 13",
+    "name": "Another 13",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "male-chill-niche-maison-margiela-maison-margiela-replica-jazz-club",
-    "name": "Maison Margiela Replica Jazz Club",
+    "name": "Replica Jazz Club",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1169,7 +1169,7 @@
   },
   {
     "id": "male-chill-niche-maison-margiela-maison-margiela-replica-autumn-vibes",
-    "name": "Maison Margiela Replica Autumn Vibes",
+    "name": "Replica Autumn Vibes",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1200,7 +1200,7 @@
   },
   {
     "id": "male-chill-niche-maison-margiela-maison-margiela-replica-matcha-meditation",
-    "name": "Maison Margiela Replica Matcha Meditation",
+    "name": "Replica Matcha Meditation",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1227,7 +1227,7 @@
   },
   {
     "id": "male-chill-niche-jo-malone-jo-malone-wood-sage-sea-salt",
-    "name": "Jo Malone Wood Sage & Sea Salt",
+    "name": "Wood Sage & Sea Salt",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1254,7 +1254,7 @@
   },
   {
     "id": "male-chill-niche-jo-malone-jo-malone-dark-amber-ginger-lily",
-    "name": "Jo Malone Dark Amber & Ginger Lily",
+    "name": "Dark Amber & Ginger Lily",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "male-chill-niche-parfums-de-marly-parfums-de-marly-galloway",
-    "name": "Parfums de Marly Galloway",
+    "name": "Galloway",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1318,7 +1318,7 @@
   },
   {
     "id": "male-chill-niche-parfums-de-marly-parfums-de-marly-sedley",
-    "name": "Parfums de Marly Sedley",
+    "name": "Sedley",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1347,7 +1347,7 @@
   },
   {
     "id": "male-chill-niche-creed-creed-silver-mountain-water",
-    "name": "Creed Silver Mountain Water",
+    "name": "Silver Mountain Water",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1376,7 +1376,7 @@
   },
   {
     "id": "male-chill-niche-creed-creed-original-vetiver",
-    "name": "Creed Original Vetiver",
+    "name": "Original Vetiver",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1406,7 +1406,7 @@
   },
   {
     "id": "male-chill-niche-creed-creed-erolfa",
-    "name": "Creed Erolfa",
+    "name": "Erolfa",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1440,7 +1440,7 @@
   },
   {
     "id": "male-chill-niche-penhaligon-s-penhaligon-s-sartorial",
-    "name": "Penhaligon's Sartorial",
+    "name": "Sartorial",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
@@ -1477,7 +1477,7 @@
   },
   {
     "id": "male-chill-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",
-    "name": "Penhaligon's Blenheim Bouquet",
+    "name": "Blenheim Bouquet",
     "brand": "Penhaligon's",
     "concentration": "EDT",
     "tier": "niche",
@@ -1506,7 +1506,7 @@
   },
   {
     "id": "male-chill-niche-xerjoff-xerjoff-1861-renaissance",
-    "name": "Xerjoff 1861 Renaissance",
+    "name": "1861 Renaissance",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",

@@ -1,7 +1,7 @@
 [
   {
     "id": "male-date-night-budget-joop-joop-homme",
-    "name": "Joop! Homme",
+    "name": "Homme",
     "brand": "Joop!",
     "concentration": "EDT",
     "tier": "budget",
@@ -251,7 +251,7 @@
   },
   {
     "id": "male-date-night-budget-paco-rabanne-paco-rabanne-phantom",
-    "name": "Paco Rabanne Phantom",
+    "name": "Phantom",
     "brand": "Paco Rabanne",
     "concentration": "EDP",
     "tier": "budget",
@@ -307,7 +307,7 @@
   },
   {
     "id": "male-date-night-budget-prada-prada-l-homme-intense",
-    "name": "Prada L'Homme Intense",
+    "name": "L'Homme Intense",
     "brand": "Prada",
     "concentration": "EDP",
     "tier": "budget",
@@ -367,7 +367,7 @@
   },
   {
     "id": "male-date-night-budget-lacoste-lacoste-l-12-12-noir",
-    "name": "Lacoste L.12.12 Noir",
+    "name": "L.12.12 Noir",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -868,7 +868,7 @@
   },
   {
     "id": "male-date-night-quality-diesel-diesel-spirit-of-the-brave",
-    "name": "Diesel Spirit of the Brave",
+    "name": "Spirit of the Brave",
     "brand": "Diesel",
     "concentration": "EDT",
     "tier": "quality",
@@ -1134,7 +1134,7 @@
   },
   {
     "id": "male-date-night-niche-creed-creed-millesime-imperial",
-    "name": "Creed Millésime Impérial",
+    "name": "Millésime Impérial",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1352,7 +1352,7 @@
   },
   {
     "id": "male-date-night-niche-louis-vuitton-lv-ombre-nomade",
-    "name": "LV Ombre Nomade",
+    "name": "Ombre Nomade",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1383,7 +1383,7 @@
   },
   {
     "id": "male-date-night-niche-amouage-amouage-interlude-53",
-    "name": "Amouage Interlude 53",
+    "name": "Interlude 53",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",

@@ -163,7 +163,7 @@
   },
   {
     "id": "female-sport-budget-lacoste-lacoste-l-12-12-pour-elle-fra-356che",
-    "name": "Lacoste L.12.12 Pour Elle Fra\\356che",
+    "name": "L.12.12 Pour Elle Fraîche",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
@@ -254,7 +254,7 @@
   },
   {
     "id": "female-sport-budget-ariana-grande-ariana-grande-cloud",
-    "name": "Ariana Grande Cloud",
+    "name": "Cloud",
     "brand": "Ariana Grande",
     "concentration": "EDP",
     "tier": "budget",
@@ -380,7 +380,7 @@
   },
   {
     "id": "female-sport-budget-versace-versace-versense",
-    "name": "Versace Versense",
+    "name": "Versense",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "budget",
@@ -481,7 +481,7 @@
   },
   {
     "id": "female-sport-budget-versace-versace-dylan-blue-pour-femme",
-    "name": "Versace Dylan Blue Pour Femme",
+    "name": "Dylan Blue Pour Femme",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "budget",
@@ -545,7 +545,7 @@
   },
   {
     "id": "female-sport-quality-chanel-chance-eau-fra-356che",
-    "name": "Chance Eau Fra\\356che",
+    "name": "Chance Eau Fraîche",
     "brand": "Chanel",
     "concentration": "EDT",
     "tier": "quality",
@@ -720,7 +720,7 @@
   },
   {
     "id": "female-sport-quality-versace-versace-bright-crystal",
-    "name": "Versace Bright Crystal",
+    "name": "Bright Crystal",
     "brand": "Versace",
     "concentration": "EDT",
     "tier": "quality",
@@ -780,7 +780,7 @@
   },
   {
     "id": "female-sport-quality-prada-prada-infusion-d-iris",
-    "name": "Prada Infusion d'Iris",
+    "name": "Infusion d'Iris",
     "brand": "Prada",
     "concentration": "EDT",
     "tier": "quality",
@@ -961,7 +961,7 @@
   },
   {
     "id": "female-sport-quality-giorgio-armani-si",
-    "name": "Si",
+    "name": "Sì",
     "brand": "Giorgio Armani",
     "concentration": "EDT",
     "tier": "quality",
@@ -993,7 +993,7 @@
   },
   {
     "id": "female-sport-quality-marc-jacobs-marc-jacobs-honey",
-    "name": "Marc Jacobs Honey",
+    "name": "Honey",
     "brand": "Marc Jacobs",
     "concentration": "EDP",
     "tier": "quality",
@@ -1023,7 +1023,7 @@
   },
   {
     "id": "female-sport-quality-bvlgari-bvlgari-omnia-crystalline",
-    "name": "Bvlgari Omnia Crystalline",
+    "name": "Omnia Crystalline",
     "brand": "Bvlgari",
     "concentration": "EDT",
     "tier": "quality",
@@ -1050,7 +1050,7 @@
   },
   {
     "id": "female-sport-niche-jo-malone-jo-malone-lime-basil-mandarin",
-    "name": "Jo Malone Lime Basil & Mandarin",
+    "name": "Lime Basil & Mandarin",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1080,7 +1080,7 @@
   },
   {
     "id": "female-sport-niche-maison-margiela-maison-margiela-replica-beach-walk",
-    "name": "Maison Margiela Replica Beach Walk",
+    "name": "Replica Beach Walk",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1111,7 +1111,7 @@
   },
   {
     "id": "female-sport-niche-maison-margiela-maison-margiela-replica-sailing-day",
-    "name": "Maison Margiela Replica Sailing Day",
+    "name": "Replica Sailing Day",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1140,7 +1140,7 @@
   },
   {
     "id": "female-sport-niche-le-labo-le-labo-bergamote-22",
-    "name": "Le Labo Bergamote 22",
+    "name": "Bergamote 22",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1170,7 +1170,7 @@
   },
   {
     "id": "female-sport-niche-hermes-hermes-un-jardin-sur-le-nil",
-    "name": "Hermès Un Jardin Sur Le Nil",
+    "name": "Un Jardin Sur Le Nil",
     "brand": "Hermès",
     "concentration": "EDT",
     "tier": "niche",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "female-sport-niche-hermes-hermes-un-jardin-sur-le-toit",
-    "name": "Hermès Un Jardin Sur Le Toit",
+    "name": "Un Jardin Sur Le Toit",
     "brand": "Hermès",
     "concentration": "EDT",
     "tier": "niche",
@@ -1230,7 +1230,7 @@
   },
   {
     "id": "female-sport-niche-louis-vuitton-lv-spell-on-you",
-    "name": "LV Spell on You",
+    "name": "Spell on You",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "female-sport-niche-creed-creed-love-in-white",
-    "name": "Creed Love in White",
+    "name": "Love in White",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "female-sport-niche-jo-malone-jo-malone-wood-sage-sea-salt",
-    "name": "Jo Malone Wood Sage & Sea Salt",
+    "name": "Wood Sage & Sea Salt",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1347,7 +1347,7 @@
   },
   {
     "id": "female-sport-niche-maison-margiela-maison-margiela-replica-under-the-lemon-trees",
-    "name": "Maison Margiela Replica Under the Lemon Trees",
+    "name": "Replica Under the Lemon Trees",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1375,7 +1375,7 @@
   },
   {
     "id": "female-sport-niche-hermes-hermes-eau-de-citron-noir",
-    "name": "Hermès Eau de Citron Noir",
+    "name": "Eau de Citron Noir",
     "brand": "Hermès",
     "concentration": "EDC",
     "tier": "niche",
@@ -1403,7 +1403,7 @@
   },
   {
     "id": "female-sport-niche-atelier-cologne-atelier-cologne-orange-sanguine",
-    "name": "Atelier Cologne Orange Sanguine",
+    "name": "Orange Sanguine",
     "brand": "Atelier Cologne",
     "concentration": "Cologne Absolue",
     "tier": "niche",
@@ -1433,7 +1433,7 @@
   },
   {
     "id": "female-sport-niche-parfums-de-marly-parfums-de-marly-meliora",
-    "name": "Parfums de Marly Meliora",
+    "name": "Meliora",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1464,7 +1464,7 @@
   },
   {
     "id": "female-sport-niche-xerjoff-xerjoff-soprano",
-    "name": "Xerjoff Soprano",
+    "name": "Soprano",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1496,7 +1496,7 @@
   },
   {
     "id": "female-sport-niche-penhaligon-s-penhaligon-s-clandestine-clara",
-    "name": "Penhaligon's Clandestine Clara",
+    "name": "Clandestine Clara",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",

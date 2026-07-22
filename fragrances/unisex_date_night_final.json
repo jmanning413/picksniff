@@ -489,7 +489,7 @@
   },
   {
     "id": "unisex-date-night-budget-givenchy-givenchy-l-interdit",
-    "name": "Givenchy L'Interdit",
+    "name": "L'Interdit",
     "brand": "Givenchy",
     "concentration": "EDP",
     "tier": "budget",
@@ -613,7 +613,7 @@
   },
   {
     "id": "unisex-date-night-quality-guerlain-guerlain-mon-guerlain-intense",
-    "name": "Guerlain Mon Guerlain Intense",
+    "name": "Mon Guerlain Intense",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "quality",
@@ -765,7 +765,7 @@
   },
   {
     "id": "unisex-date-night-quality-gucci-gucci-guilty",
-    "name": "Gucci Guilty",
+    "name": "Guilty",
     "brand": "Gucci",
     "concentration": "EDP",
     "tier": "quality",
@@ -796,7 +796,7 @@
   },
   {
     "id": "unisex-date-night-quality-prada-prada-candy",
-    "name": "Prada Candy",
+    "name": "Candy",
     "brand": "Prada",
     "concentration": "EDP",
     "tier": "quality",
@@ -823,7 +823,7 @@
   },
   {
     "id": "unisex-date-night-quality-chanel-chanel-n-2605",
-    "name": "Chanel N\\2605",
+    "name": "Chanel N°5",
     "brand": "Chanel",
     "concentration": "EDP",
     "tier": "quality",
@@ -894,7 +894,7 @@
   },
   {
     "id": "unisex-date-night-quality-guerlain-guerlain-shalimar",
-    "name": "Guerlain Shalimar",
+    "name": "Shalimar",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "quality",
@@ -962,7 +962,7 @@
   },
   {
     "id": "unisex-date-night-quality-tom-ford-tom-ford-black-orchid",
-    "name": "Tom Ford Black Orchid",
+    "name": "Black Orchid",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "quality",
@@ -998,7 +998,7 @@
   },
   {
     "id": "unisex-date-night-quality-frederic-malle-frederic-malle-musc-ravageur",
-    "name": "Frederic Malle Musc Ravageur",
+    "name": "Musc Ravageur",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "quality",
@@ -1060,7 +1060,7 @@
   },
   {
     "id": "unisex-date-night-quality-byredo-byredo-sunday-cologne",
-    "name": "Byredo Sunday Cologne",
+    "name": "Sunday Cologne",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "quality",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "unisex-date-night-niche-byredo-byredo-mojave-ghost",
-    "name": "Byredo Mojave Ghost",
+    "name": "Mojave Ghost",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1151,7 +1151,7 @@
   },
   {
     "id": "unisex-date-night-niche-byredo-byredo-bibliotheque",
-    "name": "Byredo Bibliotheque",
+    "name": "Bibliotheque",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1180,7 +1180,7 @@
   },
   {
     "id": "unisex-date-night-niche-diptyque-diptyque-do-son",
-    "name": "Diptyque Do Son",
+    "name": "Do Son",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1208,7 +1208,7 @@
   },
   {
     "id": "unisex-date-night-niche-diptyque-diptyque-eau-rose",
-    "name": "Diptyque Eau Rose",
+    "name": "Eau Rose",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1237,7 +1237,7 @@
   },
   {
     "id": "unisex-date-night-niche-maison-margiela-maison-margiela-replica-by-the-fireplace",
-    "name": "Maison Margiela Replica By The Fireplace",
+    "name": "Replica By The Fireplace",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1268,7 +1268,7 @@
   },
   {
     "id": "unisex-date-night-niche-le-labo-le-labo-rose-31",
-    "name": "Le Labo Rose 31",
+    "name": "Rose 31",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1299,7 +1299,7 @@
   },
   {
     "id": "unisex-date-night-niche-frederic-malle-frederic-malle-portrait-of-a-lady",
-    "name": "Frederic Malle Portrait of a Lady",
+    "name": "Portrait of a Lady",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -1332,7 +1332,7 @@
   },
   {
     "id": "unisex-date-night-niche-creed-creed-aventus",
-    "name": "Creed Aventus",
+    "name": "Aventus",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1367,7 +1367,7 @@
   },
   {
     "id": "unisex-date-night-niche-parfums-de-marly-parfums-de-marly-herod",
-    "name": "Parfums de Marly Herod",
+    "name": "Herod",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1398,7 +1398,7 @@
   },
   {
     "id": "unisex-date-night-niche-xerjoff-xerjoff-naxos",
-    "name": "Xerjoff Naxos",
+    "name": "Naxos",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1430,7 +1430,7 @@
   },
   {
     "id": "unisex-date-night-niche-louis-vuitton-lv-ombre-nomade",
-    "name": "LV Ombre Nomade",
+    "name": "Ombre Nomade",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1461,7 +1461,7 @@
   },
   {
     "id": "unisex-date-night-niche-roja-parfums-roja-parfums-elysium",
-    "name": "Roja Parfums Elysium",
+    "name": "Elysium",
     "brand": "Roja Parfums",
     "concentration": "EDP",
     "tier": "niche",
@@ -1495,7 +1495,7 @@
   },
   {
     "id": "unisex-date-night-niche-initio-initio-atomic-rose",
-    "name": "Initio Atomic Rose",
+    "name": "Atomic Rose",
     "brand": "Initio",
     "concentration": "EDP",
     "tier": "niche",
@@ -1524,7 +1524,7 @@
   },
   {
     "id": "unisex-date-night-niche-creed-creed-millesime-imperial",
-    "name": "Creed Millesime Imperial",
+    "name": "Millésime Impérial",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1553,7 +1553,7 @@
   },
   {
     "id": "unisex-date-night-niche-initio-initio-side-effect",
-    "name": "Initio Side Effect",
+    "name": "Side Effect",
     "brand": "Initio",
     "concentration": "EDP",
     "tier": "niche",

@@ -1,7 +1,7 @@
 [
   {
     "id": "male-formal-budget-lalique-lalique-encre-noire",
-    "name": "Lalique Encre Noire",
+    "name": "Encre Noire",
     "brand": "Lalique",
     "concentration": "EDT",
     "tier": "budget",
@@ -87,7 +87,7 @@
   },
   {
     "id": "male-formal-budget-hugo-boss-hugo-boss-boss-bottled-night",
-    "name": "Hugo Boss Boss Bottled Night",
+    "name": "Boss Bottled Night",
     "brand": "Hugo Boss",
     "concentration": "EDT",
     "tier": "budget",
@@ -115,7 +115,7 @@
   },
   {
     "id": "male-formal-budget-paco-rabanne-paco-rabanne-pure-xs-black",
-    "name": "Paco Rabanne Pure XS Black",
+    "name": "Pure XS Black",
     "brand": "Paco Rabanne",
     "concentration": "EDP",
     "tier": "budget",
@@ -145,7 +145,7 @@
   },
   {
     "id": "male-formal-budget-giorgio-armani-giorgio-armani-code-absolu",
-    "name": "Giorgio Armani Code Absolu",
+    "name": "Armani Code Absolu",
     "brand": "Giorgio Armani",
     "concentration": "EDP",
     "tier": "budget",
@@ -270,7 +270,7 @@
   },
   {
     "id": "male-formal-budget-calvin-klein-calvin-klein-euphoria-men",
-    "name": "Calvin Klein Euphoria Men",
+    "name": "Euphoria Men",
     "brand": "Calvin Klein",
     "concentration": "EDT",
     "tier": "budget",
@@ -329,7 +329,7 @@
   },
   {
     "id": "male-formal-budget-davidoff-davidoff-adventure",
-    "name": "Davidoff Adventure",
+    "name": "Adventure",
     "brand": "Davidoff",
     "concentration": "EDT",
     "tier": "budget",
@@ -694,7 +694,7 @@
   },
   {
     "id": "male-formal-quality-dior-dior-sauvage",
-    "name": "Dior Sauvage",
+    "name": "Sauvage",
     "brand": "Dior",
     "concentration": "Parfum",
     "tier": "quality",
@@ -781,7 +781,7 @@
   },
   {
     "id": "male-formal-quality-givenchy-givenchy-gentleman-boisee",
-    "name": "Givenchy Gentleman Boisée",
+    "name": "Gentleman Boisée",
     "brand": "Givenchy",
     "concentration": "EDP",
     "tier": "quality",
@@ -866,7 +866,7 @@
   },
   {
     "id": "male-formal-quality-chanel-chanel-egoiste",
-    "name": "Chanel Egoiste",
+    "name": "Egoiste",
     "brand": "Chanel",
     "concentration": "EDT",
     "tier": "quality",
@@ -929,7 +929,7 @@
   },
   {
     "id": "male-formal-quality-hugo-boss-hugo-boss-boss-the-scent",
-    "name": "Hugo Boss Boss The Scent",
+    "name": "Boss The Scent",
     "brand": "Hugo Boss",
     "concentration": "Parfum",
     "tier": "quality",
@@ -958,7 +958,7 @@
   },
   {
     "id": "male-formal-quality-paco-rabanne-paco-rabanne-invictus",
-    "name": "Paco Rabanne Invictus",
+    "name": "Invictus",
     "brand": "Paco Rabanne",
     "concentration": "Parfum",
     "tier": "quality",
@@ -987,7 +987,7 @@
   },
   {
     "id": "male-formal-quality-tom-ford-tom-ford-ombre-leather",
-    "name": "Tom Ford Ombre Leather",
+    "name": "Ombre Leather",
     "brand": "Tom Ford",
     "concentration": "Parfum",
     "tier": "quality",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "male-formal-niche-creed-creed-aventus",
-    "name": "Creed Aventus",
+    "name": "Aventus",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1050,7 +1050,7 @@
   },
   {
     "id": "male-formal-niche-creed-creed-millesime-imperial",
-    "name": "Creed Millésime Impérial",
+    "name": "Millésime Impérial",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "male-formal-niche-parfums-de-marly-parfums-de-marly-layton",
-    "name": "Parfums de Marly Layton",
+    "name": "Layton",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1114,7 +1114,7 @@
   },
   {
     "id": "male-formal-niche-parfums-de-marly-parfums-de-marly-herod",
-    "name": "Parfums de Marly Herod",
+    "name": "Herod",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1145,7 +1145,7 @@
   },
   {
     "id": "male-formal-niche-tom-ford-tom-ford-tuscan-leather",
-    "name": "Tom Ford Tuscan Leather",
+    "name": "Tuscan Leather",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "niche",
@@ -1176,7 +1176,7 @@
   },
   {
     "id": "male-formal-niche-tom-ford-tom-ford-oud-wood",
-    "name": "Tom Ford Oud Wood",
+    "name": "Oud Wood",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "niche",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "male-formal-niche-amouage-amouage-reflection-man",
-    "name": "Amouage Reflection Man",
+    "name": "Reflection Man",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1239,7 +1239,7 @@
   },
   {
     "id": "male-formal-niche-amouage-amouage-interlude-man",
-    "name": "Amouage Interlude Man",
+    "name": "Interlude Man",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1271,7 +1271,7 @@
   },
   {
     "id": "male-formal-niche-roja-parfums-roja-parfums-elysium-pour-homme",
-    "name": "Roja Parfums Elysium Pour Homme",
+    "name": "Elysium Pour Homme",
     "brand": "Roja Parfums",
     "concentration": "Parfum",
     "tier": "niche",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "male-formal-niche-xerjoff-xerjoff-naxos",
-    "name": "Xerjoff Naxos",
+    "name": "Naxos",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1337,7 +1337,7 @@
   },
   {
     "id": "male-formal-niche-initio-initio-side-effect",
-    "name": "Initio Side Effect",
+    "name": "Side Effect",
     "brand": "Initio",
     "concentration": "EDP",
     "tier": "niche",
@@ -1368,7 +1368,7 @@
   },
   {
     "id": "male-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george",
-    "name": "Penhaligon's The Tragedy of Lord George",
+    "name": "The Tragedy of Lord George",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
@@ -1397,7 +1397,7 @@
   },
   {
     "id": "male-formal-niche-penhaligon-s-penhaligon-s-halfeti-cedar",
-    "name": "Penhaligon's Halfeti Cedar",
+    "name": "Halfeti Cedar",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "male-formal-niche-frederic-malle-frederic-malle-musc-ravageur",
-    "name": "Frederic Malle Musc Ravageur",
+    "name": "Musc Ravageur",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -1466,7 +1466,7 @@
   },
   {
     "id": "male-formal-niche-parfums-de-marly-parfums-de-marly-percival",
-    "name": "Parfums de Marly Percival",
+    "name": "Percival",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1496,7 +1496,7 @@
   },
   {
     "id": "male-formal-niche-xerjoff-xerjoff-alexandria-ii",
-    "name": "Xerjoff Alexandria II",
+    "name": "Alexandria II",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",

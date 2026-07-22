@@ -276,7 +276,7 @@
   },
   {
     "id": "female-formal-budget-gucci-gucci-rush",
-    "name": "Gucci Rush",
+    "name": "Rush",
     "brand": "Gucci",
     "concentration": "EDP",
     "tier": "budget",
@@ -344,7 +344,7 @@
   },
   {
     "id": "female-formal-budget-givenchy-givenchy-l-interdit-intense",
-    "name": "Givenchy L'Interdit Intense",
+    "name": "L'Interdit Intense",
     "brand": "Givenchy",
     "concentration": "EDP",
     "tier": "budget",
@@ -576,7 +576,7 @@
   },
   {
     "id": "female-formal-quality-chanel-n-2605",
-    "name": "N\\2605",
+    "name": "N°5",
     "brand": "Chanel",
     "concentration": "EDP",
     "tier": "quality",
@@ -641,7 +641,7 @@
   },
   {
     "id": "female-formal-quality-narciso-rodriguez-narciso-rodriguez-for-her",
-    "name": "Narciso Rodriguez For Her",
+    "name": "For Her",
     "brand": "Narciso Rodriguez",
     "concentration": "Parfum",
     "tier": "quality",
@@ -731,7 +731,7 @@
   },
   {
     "id": "female-formal-quality-giorgio-armani-s-354-fiori",
-    "name": "S\\354 Fiori",
+    "name": "Sì Fiori",
     "brand": "Giorgio Armani",
     "concentration": "EDP",
     "tier": "quality",
@@ -760,7 +760,7 @@
   },
   {
     "id": "female-formal-quality-guerlain-guerlain-mon-guerlain-intense",
-    "name": "Guerlain Mon Guerlain Intense",
+    "name": "Mon Guerlain Intense",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "quality",
@@ -1003,7 +1003,7 @@
   },
   {
     "id": "female-formal-quality-prada-prada-infusion-d-iris",
-    "name": "Prada Infusion d'Iris",
+    "name": "Infusion d'Iris",
     "brand": "Prada",
     "concentration": "EDP",
     "tier": "quality",
@@ -1034,7 +1034,7 @@
   },
   {
     "id": "female-formal-quality-tom-ford-tom-ford-velvet-orchid",
-    "name": "Tom Ford Velvet Orchid",
+    "name": "Velvet Orchid",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "quality",
@@ -1102,7 +1102,7 @@
   },
   {
     "id": "female-formal-niche-amouage-amouage-gold-woman",
-    "name": "Amouage Gold Woman",
+    "name": "Gold Woman",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "female-formal-niche-amouage-amouage-interlude-woman",
-    "name": "Amouage Interlude Woman",
+    "name": "Interlude Woman",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1169,7 +1169,7 @@
   },
   {
     "id": "female-formal-niche-tom-ford-tom-ford-rose-prick",
-    "name": "Tom Ford Rose Prick",
+    "name": "Rose Prick",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "niche",
@@ -1198,7 +1198,7 @@
   },
   {
     "id": "female-formal-niche-tom-ford-tom-ford-jasmin-rouge",
-    "name": "Tom Ford Jasmin Rouge",
+    "name": "Jasmin Rouge",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "niche",
@@ -1227,7 +1227,7 @@
   },
   {
     "id": "female-formal-niche-frederic-malle-frederic-malle-une-fleur-de-cassie",
-    "name": "Frederic Malle Une Fleur de Cassie",
+    "name": "Une Fleur de Cassie",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -1258,7 +1258,7 @@
   },
   {
     "id": "female-formal-niche-roja-parfums-roja-parfums-danger-pour-femme",
-    "name": "Roja Parfums Danger Pour Femme",
+    "name": "Danger Pour Femme",
     "brand": "Roja Parfums",
     "concentration": "Parfum",
     "tier": "niche",
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "female-formal-niche-creed-creed-aventus-for-her",
-    "name": "Creed Aventus for Her",
+    "name": "Aventus for Her",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1330,7 +1330,7 @@
   },
   {
     "id": "female-formal-niche-jo-malone-jo-malone-velvet-rose-oud-intense",
-    "name": "Jo Malone Velvet Rose & Oud Intense",
+    "name": "Velvet Rose & Oud",
     "brand": "Jo Malone",
     "concentration": "Cologne Intense",
     "tier": "niche",
@@ -1355,7 +1355,7 @@
   },
   {
     "id": "female-formal-niche-parfums-de-marly-parfums-de-marly-delina-la-rosee",
-    "name": "Parfums de Marly Delina La Rosée",
+    "name": "Delina La Rosée",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1384,7 +1384,7 @@
   },
   {
     "id": "female-formal-niche-xerjoff-xerjoff-alexandria-ii",
-    "name": "Xerjoff Alexandria II",
+    "name": "Alexandria II",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1446,7 +1446,7 @@
   },
   {
     "id": "female-formal-niche-le-labo-le-labo-rose-31",
-    "name": "Le Labo Rose 31",
+    "name": "Rose 31",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1477,7 +1477,7 @@
   },
   {
     "id": "female-formal-niche-louis-vuitton-lv-rose-des-vents",
-    "name": "LV Rose des Vents",
+    "name": "Rose des Vents",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1510,7 +1510,7 @@
   },
   {
     "id": "female-formal-niche-maison-margiela-maison-margiela-replica-jazz-club",
-    "name": "Maison Margiela Replica Jazz Club",
+    "name": "Replica Jazz Club",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1542,7 +1542,7 @@
   },
   {
     "id": "female-formal-niche-guerlain-guerlain-shalimar",
-    "name": "Guerlain Shalimar",
+    "name": "Shalimar",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "niche",

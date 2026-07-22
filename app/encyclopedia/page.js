@@ -5,11 +5,15 @@ import EncyclopediaClient from './EncyclopediaClient'
 
 export const metadata = {
   title: 'Fragrance Encyclopedia',
-  description: 'Browse all 750 fragrances. Search by name or brand, filter by gender, vibe, tier, and accords.',
+  description: 'Browse the full PickSniff fragrance library. Search by name or brand, filter by gender, vibe, tier, and accords.',
 }
 
 export default async function EncyclopediaPage() {
   const fragrances = await loadAllFragrances()
+  // Catalog rows repeat a product across gender/vibe pools; count distinct products.
+  const productCount = new Set(
+    fragrances.map((f) => `${f.brand}|${f.name}|${f.concentration}`),
+  ).size
 
   return (
     <div className="flex min-h-screen flex-col bg-cream text-black">
@@ -22,7 +26,7 @@ export default async function EncyclopediaPage() {
           </p>
           <h1 className="text-4xl font-black tracking-tight sm:text-5xl">All Fragrances</h1>
           <p className="mt-3 text-base leading-7 text-slate">
-            {fragrances.length} fragrances. Search, filter, explore.
+            {productCount} fragrances. Search, filter, explore.
           </p>
         </div>
 

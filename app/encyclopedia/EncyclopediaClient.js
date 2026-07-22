@@ -32,20 +32,58 @@ export default function EncyclopediaClient({ fragrances }) {
 
   const hasFilters = query || genders.length || tiers.length || vibes.length || accords.length
 
+  // One card per PRODUCT, not per catalog row. A fragrance deliberately lives in
+  // several gender/vibe pools so the quiz can match it in each context, which
+  // meant the encyclopedia rendered Good Girl five times and Santal 33 four
+  // times. Group on brand|name|concentration and merge the pool metadata.
+  const products = useMemo(() => {
+    const groups = new Map()
+    for (const f of fragrances) {
+      const key = `${f.brand}|${f.name}|${f.concentration}`
+      if (!groups.has(key)) groups.set(key, [])
+      groups.get(key).push(f)
+    }
+
+    return [...groups.values()]
+      .map((rows) => {
+        const sorted = [...rows].sort((a, b) => a.id.localeCompare(b.id))
+        // Accords vary between rows of the same product (a known data issue —
+        // they were assigned per pool, not per product), so rank by how often
+        // each appears across the rows and keep the most representative.
+        const freq = new Map()
+        for (const r of rows) for (const a of r.accords || []) freq.set(a, (freq.get(a) || 0) + 1)
+        const accordsRanked = [...freq.entries()]
+          .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+          .map(([a]) => a)
+
+        return {
+          id: sorted[0].id,
+          brand: sorted[0].brand,
+          name: sorted[0].name,
+          concentration: sorted[0].concentration,
+          genders: [...new Set(rows.map((r) => r.gender))],
+          vibes: [...new Set(rows.map((r) => r.vibe))],
+          tiers: [...new Set(rows.map((r) => r.tier))],
+          accords: accordsRanked,
+          rowCount: rows.length,
+        }
+      })
+      .sort((a, b) => `${a.brand} ${a.name}`.localeCompare(`${b.brand} ${b.name}`))
+  }, [fragrances])
+
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim()
 
-    return fragrances
-      .filter((f) => {
-        if (q && !f.name.toLowerCase().includes(q) && !f.brand.toLowerCase().includes(q)) return false
-        if (genders.length && !genders.includes(f.gender)) return false
-        if (tiers.length && !tiers.includes(f.tier)) return false
-        if (vibes.length && !vibes.includes(f.vibe)) return false
-        if (accords.length && !accords.some((a) => f.accords?.includes(a))) return false
-        return true
-      })
-      .sort((a, b) => `${a.brand} ${a.name}`.localeCompare(`${b.brand} ${b.name}`))
-  }, [fragrances, query, genders, tiers, vibes, accords])
+    // A product matches a facet if ANY of its rows does.
+    return products.filter((p) => {
+      if (q && !p.name.toLowerCase().includes(q) && !p.brand.toLowerCase().includes(q)) return false
+      if (genders.length && !genders.some((g) => p.genders.includes(g))) return false
+      if (tiers.length && !tiers.some((t) => p.tiers.includes(t))) return false
+      if (vibes.length && !vibes.some((v) => p.vibes.includes(v))) return false
+      if (accords.length && !accords.some((a) => p.accords.includes(a))) return false
+      return true
+    })
+  }, [products, query, genders, tiers, vibes, accords])
 
   function clearAll() {
     setQuery('')
@@ -103,7 +141,7 @@ export default function EncyclopediaClient({ fragrances }) {
 
       <div className="mb-5 flex items-center justify-between">
         <p className="text-sm font-bold text-slate">
-          {filtered.length} of {fragrances.length} fragrances
+          {filtered.length} of {products.length} fragrances
         </p>
         {hasFilters && (
           <button
@@ -130,8 +168,8 @@ export default function EncyclopediaClient({ fragrances }) {
         </div>
       ) : (
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((f) => (
-            <FragranceCard key={f.id} fragrance={f} />
+          {filtered.map((p) => (
+            <FragranceCard key={p.id} product={p} />
           ))}
         </div>
       )}
@@ -165,31 +203,40 @@ function Pill({ children, active, onClick }) {
   )
 }
 
-function FragranceCard({ fragrance }) {
+function FragranceCard({ product }) {
+  // Vibes are capped so a fragrance sitting in five pools doesn't wrap the card.
+  const shownVibes = product.vibes.slice(0, 2)
+  const extraVibes = product.vibes.length - shownVibes.length
+
   return (
     <Link
-      href={`/fragrance/${fragrance.id}`}
+      href={`/fragrance/${product.id}`}
       className="group block rounded-lg border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
     >
       <p className="truncate text-xs font-black uppercase tracking-[0.16em] text-slate">
-        {fragrance.brand}
+        {product.brand}
       </p>
       <h2 className="mt-1 text-base font-black leading-tight text-black group-hover:text-green-deep transition">
-        {fragrance.name}
+        {product.name}
       </h2>
 
       <div className="mt-2.5 flex flex-wrap gap-1.5">
-        {fragrance.concentration && (
-          <Tag>{fragrance.concentration}</Tag>
-        )}
-        <Tag>{fragrance.tier}</Tag>
-        <Tag>{fragrance.gender}</Tag>
-        <Tag>{VIBE_LABELS[fragrance.vibe]}</Tag>
+        {product.concentration && <Tag>{product.concentration}</Tag>}
+        {product.tiers.map((t) => (
+          <Tag key={t}>{t}</Tag>
+        ))}
+        {product.genders.map((g) => (
+          <Tag key={g}>{g}</Tag>
+        ))}
+        {shownVibes.map((v) => (
+          <Tag key={v}>{VIBE_LABELS[v]}</Tag>
+        ))}
+        {extraVibes > 0 && <Tag>{`+${extraVibes}`}</Tag>}
       </div>
 
-      {fragrance.accords?.length > 0 && (
+      {product.accords.length > 0 && (
         <div className="mt-2.5 flex flex-wrap gap-1.5">
-          {fragrance.accords.slice(0, 3).map((a) => (
+          {product.accords.slice(0, 3).map((a) => (
             <span
               key={a}
               className="rounded-full bg-green-accent/15 px-2 py-0.5 text-xs font-bold text-zinc-700"

@@ -148,7 +148,7 @@
   },
   {
     "id": "unisex-formal-budget-gucci-gucci-rush",
-    "name": "Gucci Rush",
+    "name": "Rush",
     "brand": "Gucci",
     "concentration": "EDP",
     "tier": "budget",
@@ -216,7 +216,7 @@
   },
   {
     "id": "unisex-formal-budget-lalique-lalique-encre-noire",
-    "name": "Lalique Encre Noire",
+    "name": "Encre Noire",
     "brand": "Lalique",
     "concentration": "EDT",
     "tier": "budget",
@@ -242,7 +242,7 @@
   },
   {
     "id": "unisex-formal-budget-hermes-hermes-eau-des-merveilles",
-    "name": "Hermès Eau des Merveilles",
+    "name": "Eau des Merveilles",
     "brand": "Hermès",
     "concentration": "EDT",
     "tier": "budget",
@@ -474,7 +474,7 @@
   },
   {
     "id": "unisex-formal-budget-givenchy-givenchy-l-interdit-rouge",
-    "name": "Givenchy L'Interdit Rouge",
+    "name": "L'Interdit Rouge",
     "brand": "Givenchy",
     "concentration": "EDP",
     "tier": "budget",
@@ -503,7 +503,7 @@
   },
   {
     "id": "unisex-formal-budget-givenchy-givenchy-amarige",
-    "name": "Givenchy Amarige",
+    "name": "Amarige",
     "brand": "Givenchy",
     "concentration": "EDP",
     "tier": "budget",
@@ -570,7 +570,7 @@
   },
   {
     "id": "unisex-formal-quality-chanel-chanel-n-2605",
-    "name": "Chanel N\\2605",
+    "name": "Chanel N°5",
     "brand": "Chanel",
     "concentration": "EDP",
     "tier": "quality",
@@ -673,7 +673,7 @@
   },
   {
     "id": "unisex-formal-quality-guerlain-guerlain-shalimar",
-    "name": "Guerlain Shalimar",
+    "name": "Shalimar",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "quality",
@@ -802,7 +802,7 @@
   },
   {
     "id": "unisex-formal-quality-prada-prada-infusion-d-iris",
-    "name": "Prada Infusion d'Iris",
+    "name": "Infusion d'Iris",
     "brand": "Prada",
     "concentration": "EDP",
     "tier": "quality",
@@ -893,7 +893,7 @@
   },
   {
     "id": "unisex-formal-quality-guerlain-guerlain-mon-guerlain-intense",
-    "name": "Guerlain Mon Guerlain Intense",
+    "name": "Mon Guerlain Intense",
     "brand": "Guerlain",
     "concentration": "EDP",
     "tier": "quality",
@@ -988,7 +988,7 @@
   },
   {
     "id": "unisex-formal-quality-paco-rabanne-paco-rabanne-1-million",
-    "name": "Paco Rabanne 1 Million",
+    "name": "1 Million",
     "brand": "Paco Rabanne",
     "concentration": "Parfum",
     "tier": "quality",
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "unisex-formal-quality-tom-ford-tom-ford-velvet-orchid",
-    "name": "Tom Ford Velvet Orchid",
+    "name": "Velvet Orchid",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "quality",
@@ -1052,7 +1052,7 @@
   },
   {
     "id": "unisex-formal-quality-paco-rabanne-paco-rabanne-phantom",
-    "name": "Paco Rabanne Phantom",
+    "name": "Phantom",
     "brand": "Paco Rabanne",
     "concentration": "EDP",
     "tier": "quality",
@@ -1080,7 +1080,7 @@
   },
   {
     "id": "unisex-formal-quality-kenzo-kenzo-flower",
-    "name": "Kenzo Flower",
+    "name": "Flower by Kenzo",
     "brand": "Kenzo",
     "concentration": "EDP",
     "tier": "quality",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "unisex-formal-niche-creed-creed-aventus",
-    "name": "Creed Aventus",
+    "name": "Aventus",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1206,7 +1206,7 @@
   },
   {
     "id": "unisex-formal-niche-amouage-amouage-interlude",
-    "name": "Amouage Interlude",
+    "name": "Interlude",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1238,7 +1238,7 @@
   },
   {
     "id": "unisex-formal-niche-frederic-malle-frederic-malle-portrait-of-a-lady",
-    "name": "Frederic Malle Portrait of a Lady",
+    "name": "Portrait of a Lady",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -1271,7 +1271,7 @@
   },
   {
     "id": "unisex-formal-niche-roja-parfums-roja-parfums-elysium",
-    "name": "Roja Parfums Elysium",
+    "name": "Elysium",
     "brand": "Roja Parfums",
     "concentration": "EDP",
     "tier": "niche",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "unisex-formal-niche-byredo-byredo-bibliotheque",
-    "name": "Byredo Bibliotheque",
+    "name": "Bibliotheque",
     "brand": "Byredo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1334,7 +1334,7 @@
   },
   {
     "id": "unisex-formal-niche-xerjoff-xerjoff-alexandria-ii",
-    "name": "Xerjoff Alexandria II",
+    "name": "Alexandria II",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1368,7 +1368,7 @@
   },
   {
     "id": "unisex-formal-niche-parfums-de-marly-parfums-de-marly-layton",
-    "name": "Parfums de Marly Layton",
+    "name": "Layton",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1403,7 +1403,7 @@
   },
   {
     "id": "unisex-formal-niche-initio-initio-oud-for-greatness",
-    "name": "Initio Oud for Greatness",
+    "name": "Oud for Greatness",
     "brand": "Initio",
     "concentration": "EDP",
     "tier": "niche",
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "unisex-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george",
-    "name": "Penhaligon's The Tragedy of Lord George",
+    "name": "The Tragedy of Lord George",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
@@ -1460,7 +1460,7 @@
   },
   {
     "id": "unisex-formal-niche-maison-margiela-maison-margiela-replica-jazz-club",
-    "name": "Maison Margiela Replica Jazz Club",
+    "name": "Replica Jazz Club",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1492,7 +1492,7 @@
   },
   {
     "id": "unisex-formal-niche-diptyque-diptyque-do-son",
-    "name": "Diptyque Do Son",
+    "name": "Do Son",
     "brand": "Diptyque",
     "concentration": "EDP",
     "tier": "niche",
@@ -1520,7 +1520,7 @@
   },
   {
     "id": "unisex-formal-niche-nishane-nishane-hacivat",
-    "name": "Nishane Hacivat",
+    "name": "Hacivat",
     "brand": "Nishane",
     "concentration": "Extrait",
     "tier": "niche",
@@ -1552,7 +1552,7 @@
   },
   {
     "id": "unisex-formal-niche-louis-vuitton-lv-ombre-nomade",
-    "name": "LV Ombre Nomade",
+    "name": "Ombre Nomade",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1583,7 +1583,7 @@
   },
   {
     "id": "unisex-formal-niche-creed-creed-aventus-for-her",
-    "name": "Creed Aventus for Her",
+    "name": "Aventus for Her",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",

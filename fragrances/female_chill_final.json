@@ -246,7 +246,7 @@
   },
   {
     "id": "female-chill-budget-moschino-moschino-toy-2",
-    "name": "Moschino Toy 2",
+    "name": "Toy 2",
     "brand": "Moschino",
     "concentration": "EDP",
     "tier": "budget",
@@ -521,7 +521,7 @@
   },
   {
     "id": "female-chill-quality-lancome-la-vie-est-belle-l-311clat",
-    "name": "La Vie Est Belle L'\\311clat",
+    "name": "La Vie Est Belle L'Éclat",
     "brand": "Lancôme",
     "concentration": "EDP",
     "tier": "quality",
@@ -578,7 +578,7 @@
   },
   {
     "id": "female-chill-quality-giorgio-armani-si",
-    "name": "Si",
+    "name": "Sì",
     "brand": "Giorgio Armani",
     "concentration": "EDP",
     "tier": "quality",
@@ -610,7 +610,7 @@
   },
   {
     "id": "female-chill-quality-gucci-gucci-bloom",
-    "name": "Gucci Bloom",
+    "name": "Bloom",
     "brand": "Gucci",
     "concentration": "EDP",
     "tier": "quality",
@@ -755,7 +755,7 @@
   },
   {
     "id": "female-chill-quality-giorgio-armani-si-passione",
-    "name": "Si Passione",
+    "name": "Sì Passione",
     "brand": "Giorgio Armani",
     "concentration": "EDP",
     "tier": "quality",
@@ -818,7 +818,7 @@
   },
   {
     "id": "female-chill-quality-prada-prada-candy",
-    "name": "Prada Candy",
+    "name": "Candy",
     "brand": "Prada",
     "concentration": "EDP",
     "tier": "quality",
@@ -904,7 +904,7 @@
   },
   {
     "id": "female-chill-quality-yves-saint-laurent-yves-saint-laurent-libre",
-    "name": "Yves Saint Laurent Libre",
+    "name": "Libre",
     "brand": "Yves Saint Laurent",
     "concentration": "EDP",
     "tier": "quality",
@@ -1035,7 +1035,7 @@
   },
   {
     "id": "female-chill-niche-parfums-de-marly-parfums-de-marly-delina",
-    "name": "Parfums de Marly Delina",
+    "name": "Delina",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1068,7 +1068,7 @@
   },
   {
     "id": "female-chill-niche-parfums-de-marly-parfums-de-marly-cassili",
-    "name": "Parfums de Marly Cassili",
+    "name": "Cassili",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "female-chill-niche-maison-margiela-maison-margiela-replica-lazy-sunday-morning",
-    "name": "Maison Margiela Replica Lazy Sunday Morning",
+    "name": "Replica Lazy Sunday Morning",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "female-chill-niche-maison-margiela-maison-margiela-replica-flower-market",
-    "name": "Maison Margiela Replica Flower Market",
+    "name": "Replica Flower Market",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1158,7 +1158,7 @@
   },
   {
     "id": "female-chill-niche-maison-margiela-maison-margiela-replica-on-a-date",
-    "name": "Maison Margiela Replica On A Date",
+    "name": "Replica On A Date",
     "brand": "Maison Margiela",
     "concentration": "EDP",
     "tier": "niche",
@@ -1186,7 +1186,7 @@
   },
   {
     "id": "female-chill-niche-tom-ford-tom-ford-black-orchid",
-    "name": "Tom Ford Black Orchid",
+    "name": "Black Orchid",
     "brand": "Tom Ford",
     "concentration": "EDP",
     "tier": "niche",
@@ -1222,7 +1222,7 @@
   },
   {
     "id": "female-chill-niche-le-labo-le-labo-santal-33",
-    "name": "Le Labo Santal 33",
+    "name": "Santal 33",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1252,7 +1252,7 @@
   },
   {
     "id": "female-chill-niche-le-labo-le-labo-another-13",
-    "name": "Le Labo Another 13",
+    "name": "Another 13",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "female-chill-niche-creed-creed-fleurissimo",
-    "name": "Creed Fleurissimo",
+    "name": "Fleurissimo",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1310,7 +1310,7 @@
   },
   {
     "id": "female-chill-niche-frederic-malle-frederic-malle-portrait-of-a-lady",
-    "name": "Frederic Malle Portrait of a Lady",
+    "name": "Portrait of a Lady",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -1343,7 +1343,7 @@
   },
   {
     "id": "female-chill-niche-amouage-amouage-blossom-love",
-    "name": "Amouage Blossom Love",
+    "name": "Blossom Love",
     "brand": "Amouage",
     "concentration": "EDP",
     "tier": "niche",
@@ -1373,7 +1373,7 @@
   },
   {
     "id": "female-chill-niche-louis-vuitton-lv-attrape-reves",
-    "name": "LV Attrape-Rêves",
+    "name": "Attrape-Rêves",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
@@ -1402,7 +1402,7 @@
   },
   {
     "id": "female-chill-niche-penhaligon-s-penhaligon-s-babylon",
-    "name": "Penhaligon's Babylon",
+    "name": "Babylon",
     "brand": "Penhaligon's",
     "concentration": "EDP",
     "tier": "niche",
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "female-chill-niche-roja-parfums-roja-parfums-elysium-pour-femme",
-    "name": "Roja Parfums Elysium Pour Femme",
+    "name": "Elysium Pour Femme",
     "brand": "Roja Parfums",
     "concentration": "Parfum",
     "tier": "niche",
@@ -1468,7 +1468,7 @@
   },
   {
     "id": "female-chill-niche-xerjoff-xerjoff-casamorati-fiore-d-ulivo",
-    "name": "Xerjoff Casamorati Fiore d'Ulivo",
+    "name": "Casamorati Fiore d'Ulivo",
     "brand": "Xerjoff",
     "concentration": "EDP",
     "tier": "niche",
@@ -1500,7 +1500,7 @@
   },
   {
     "id": "female-chill-niche-initio-initio-side-effect",
-    "name": "Initio Side Effect",
+    "name": "Side Effect",
     "brand": "Initio",
     "concentration": "EDP",
     "tier": "niche",

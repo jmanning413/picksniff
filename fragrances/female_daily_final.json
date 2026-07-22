@@ -593,7 +593,7 @@
   },
   {
     "id": "female-daily-quality-giorgio-armani-si",
-    "name": "Si",
+    "name": "Sì",
     "brand": "Giorgio Armani",
     "concentration": "EDP",
     "tier": "quality",
@@ -797,7 +797,7 @@
   },
   {
     "id": "female-daily-quality-yves-saint-laurent-yves-saint-laurent-libre",
-    "name": "Yves Saint Laurent Libre",
+    "name": "Libre",
     "brand": "Yves Saint Laurent",
     "concentration": "EDP",
     "tier": "quality",
@@ -1049,7 +1049,7 @@
   },
   {
     "id": "female-daily-niche-le-labo-le-labo-rose-31",
-    "name": "Le Labo Rose 31",
+    "name": "Rose 31",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1080,7 +1080,7 @@
   },
   {
     "id": "female-daily-niche-le-labo-le-labo-ylang-49",
-    "name": "Le Labo Ylang 49",
+    "name": "Ylang 49",
     "brand": "Le Labo",
     "concentration": "EDP",
     "tier": "niche",
@@ -1109,7 +1109,7 @@
   },
   {
     "id": "female-daily-niche-maison-margiela-maison-margiela-replica-flower-market",
-    "name": "Maison Margiela Replica Flower Market",
+    "name": "Replica Flower Market",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1138,7 +1138,7 @@
   },
   {
     "id": "female-daily-niche-jo-malone-jo-malone-peony-blush-suede",
-    "name": "Jo Malone Peony & Blush Suede",
+    "name": "Peony & Blush Suede",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1163,7 +1163,7 @@
   },
   {
     "id": "female-daily-niche-jo-malone-jo-malone-english-pear-freesia",
-    "name": "Jo Malone English Pear & Freesia",
+    "name": "English Pear & Freesia",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1188,7 +1188,7 @@
   },
   {
     "id": "female-daily-niche-jo-malone-jo-malone-blackberry-bay",
-    "name": "Jo Malone Blackberry & Bay",
+    "name": "Blackberry & Bay",
     "brand": "Jo Malone",
     "concentration": "Cologne",
     "tier": "niche",
@@ -1213,7 +1213,7 @@
   },
   {
     "id": "female-daily-niche-maison-margiela-maison-margiela-replica-springtime-in-a-park",
-    "name": "Maison Margiela Replica Springtime in a Park",
+    "name": "Replica Springtime in a Park",
     "brand": "Maison Margiela",
     "concentration": "EDT",
     "tier": "niche",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "female-daily-niche-parfums-de-marly-parfums-de-marly-delina",
-    "name": "Parfums de Marly Delina",
+    "name": "Delina",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1274,7 +1274,7 @@
   },
   {
     "id": "female-daily-niche-parfums-de-marly-parfums-de-marly-oriana",
-    "name": "Parfums de Marly Oriana",
+    "name": "Oriana",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
@@ -1334,7 +1334,7 @@
   },
   {
     "id": "female-daily-niche-creed-creed-fleurissimo",
-    "name": "Creed Fleurissimo",
+    "name": "Fleurissimo",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1363,7 +1363,7 @@
   },
   {
     "id": "female-daily-niche-creed-creed-spring-flower",
-    "name": "Creed Spring Flower",
+    "name": "Spring Flower",
     "brand": "Creed",
     "concentration": "EDP",
     "tier": "niche",
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "female-daily-niche-louis-vuitton-lv-attrape-reves",
-    "name": "LV Attrape-Rêves",
+    "name": "Attrape-Rêves",
     "brand": "Louis Vuitton",
     "concentration": "EDP",
     "tier": "niche",
