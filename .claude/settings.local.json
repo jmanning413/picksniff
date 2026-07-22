@@ -14,7 +14,8 @@
       "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\catalog_repairs.py\")",
       "Bash(curl -s \"https://www.picksniff.com/results?genders=male&tier=quality&vibe=date_night&accords=Spicy,Amber,Woody\")",
       "Bash(curl -s \"https://www.picksniff.com/results?genders=male&tier=quality&vibe=date_night\")",
-      "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\dupscan.py\")"
+      "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\dupscan.py\")",
+      "Bash(node data-enrichment/build-batch-06.mjs)"
     ]
   }
 }

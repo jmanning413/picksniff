@@ -1,0 +1,1451 @@
+{
+  "_meta": {
+    "batch": "batch-06",
+    "scope": "Unique products ranked 251-300 by catalog row count.",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "counts": {
+      "high": 11,
+      "medium": 31,
+      "low": 3
+    },
+    "products": 45,
+    "skipped_swapped": [
+      {
+        "product": "Dunhill Dunhill Icon",
+        "reason": "Row removed by cut-audit-01 (Dunhill license expired 2023); replaced by Prada Luna Rossa Ocean, which entered fully enriched."
+      },
+      {
+        "product": "Dunhill Dunhill Century",
+        "reason": "Row removed by cut-audit-01; replaced by Carolina Herrera 212 VIP Black, which entered fully enriched."
+      },
+      {
+        "product": "Escada Escada Island Kiss",
+        "reason": "Row removed by cut-audit-01 (dead limited edition); replaced by Tommy Girl, which entered fully enriched."
+      },
+      {
+        "product": "Escada Escada Sorbetto Rosso",
+        "reason": "Row removed by cut-audit-01 (dead limited edition); replaced by Ralph, which entered fully enriched."
+      },
+      {
+        "product": "Gucci Bloom Acqua di Fiori",
+        "reason": "Row removed by swap-03 (flanker discontinued); replaced by core Gucci Bloom, which entered fully enriched."
+      }
+    ],
+    "catalog_rows_covered": 45
+  },
+  "entries": [
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Dolce & Gabbana Light Blue Eau Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Sicilian Lemon",
+        "Granny Smith Apple"
+      ],
+      "middle_notes": [
+        "Marigold",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Amberwood",
+        "Musk"
+      ],
+      "description": "The Light Blue citrus sharpened and deepened with amberwood. Brighter opening, warmer finish.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Light Blue Eau Intense\" row enriched in batch-05, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-quality-dolce-gabbana-dolce-gabbana-light-blue-eau-intense"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "The One for Men",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fruity"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Grapefruit",
+        "Coriander",
+        "Basil"
+      ],
+      "middle_notes": [
+        "Cardamom",
+        "Ginger",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Tobacco",
+        "Cedar",
+        "Amber"
+      ],
+      "description": "Warm tobacco and spice under a bright citrus opening. Smooth, mature and built for evenings.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-budget-dolce-gabbana-the-one-for-men"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Dolce & Gabbana Pour Homme",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Neroli"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Sage",
+        "Pepper"
+      ],
+      "base_notes": [
+        "Tobacco",
+        "Cedar",
+        "Tonka Bean"
+      ],
+      "description": "A classic barbershop citrus-lavender over tobacco and cedar. Traditional in the best sense.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-dolce-gabbana-dolce-gabbana-pour-homme"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Dolce & Gabbana Light Blue Forever",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Citrus",
+        "Aquatic",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Violet Leaf",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Patchouli",
+        "Amberwood"
+      ],
+      "description": "The Light Blue idea rendered cleaner and more transparent, with a musky finish.",
+      "note": "Forever flanker (2021). Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-dolce-gabbana-dolce-gabbana-light-blue-forever"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Dolce & Gabbana Light Blue",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Floral",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Sicilian Lemon",
+        "Apple",
+        "Cedar",
+        "Bluebell"
+      ],
+      "middle_notes": [
+        "Bamboo",
+        "Jasmine",
+        "White Rose"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Musk",
+        "Amber"
+      ],
+      "description": "Crisp Sicilian lemon and green apple over a soft cedar base. A sun-on-skin summer staple.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Light Blue\" row enriched in batch-01, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-quality-dolce-gabbana-dolce-gabbana-light-blue"
+      ]
+    },
+    {
+      "brand": "Dolce & Gabbana",
+      "name": "Dolce & Gabbana The One",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Lychee",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Madonna Lily",
+        "Lily-of-the-Valley",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Amber",
+        "Musk",
+        "Vetiver"
+      ],
+      "description": "Golden fruit and lily over warm vanilla amber. Polished and glamorous without shouting.",
+      "note": "Resolved to the women’s The One EDT (2011). Confirm which The One this row carries.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-quality-dolce-gabbana-dolce-gabbana-the-one"
+      ]
+    },
+    {
+      "brand": "Donna Karan",
+      "name": "Cashmere Mist",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lily-of-the-Valley",
+        "Suede",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Musk",
+        "Amber",
+        "Vanilla"
+      ],
+      "description": "Powdery suede and soft florals over skin musk. A quiet signature scent worn by millions.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-karan-cashmere-mist-edp-donna"
+      ]
+    },
+    {
+      "brand": "Dunhill",
+      "name": "Dunhill Desire Blue",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aromatic"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "Borderline-keep row (discontinued, deep discounter stock). Needs a source lookup for the pyramid.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-dunhill-dunhill-desire-blue"
+      ]
+    },
+    {
+      "brand": "Elizabeth Arden",
+      "name": "Green Tea",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Bergamot",
+        "Mint",
+        "Orange Peel"
+      ],
+      "middle_notes": [
+        "Green Tea",
+        "Jasmine",
+        "Carnation",
+        "Fennel"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Oakmoss"
+      ],
+      "description": "Bitter green tea over bright citrus and clean musk. A warm-weather staple for almost thirty years.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-elizabeth-arden-green-tea"
+      ]
+    },
+    {
+      "brand": "Elizabeth Arden",
+      "name": "Untold Absolu",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Plum",
+        "Raspberry",
+        "Ginger",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Egyptian Jasmine",
+        "Narcissus"
+      ],
+      "base_notes": [
+        "Tahitian Vanilla",
+        "Tonka Bean",
+        "Benzoin",
+        "Cashmere Wood"
+      ],
+      "description": "Dark fruit and jasmine over a rich vanilla base. Discontinued once, relaunched by demand.",
+      "note": "RESEARCHED against retailer listings 2026-07-21 during the availability audit; product was relaunched after a discontinuation gap.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-elizabeth-arden-untold-absolu"
+      ]
+    },
+    {
+      "brand": "Emporio Armani",
+      "name": "Stronger With You Intensely",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pink Pepper",
+        "Violet Leaf"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Toffee",
+        "Sage"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Amber"
+      ],
+      "description": "The Stronger With You warmth pushed sweeter, with a toffee heart.",
+      "note": "Intensely flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-emporio-armani-stronger-with-you-intensely"
+      ]
+    },
+    {
+      "brand": "Emporio Armani",
+      "name": "Stronger With You",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Cardamom",
+        "Pink Pepper",
+        "Violet Leaves"
+      ],
+      "middle_notes": [
+        "Sage",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Chestnut",
+        "Vanilla",
+        "Amberwood",
+        "Cedar"
+      ],
+      "description": "Spiced sweetness over roasted chestnut and vanilla. A modern crowd-pleaser with real warmth.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-budget-emporio-armani-stronger-with-you"
+      ]
+    },
+    {
+      "brand": "Estée Lauder",
+      "name": "Pleasures",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "White Lily",
+        "Violet Leaves",
+        "Green Notes"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Lilac",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Patchouli",
+        "Musk"
+      ],
+      "description": "Dewy florals with a clean green edge. Fresh-from-the-shower polish, endlessly reliable.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-lauder-pleasures-edp-estee"
+      ]
+    },
+    {
+      "brand": "Estée Lauder",
+      "name": "Knowing",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rose",
+        "Plum",
+        "Aldehydes"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Patchouli",
+        "Orris"
+      ],
+      "base_notes": [
+        "Oakmoss",
+        "Amber",
+        "Sandalwood",
+        "Civet"
+      ],
+      "description": "A mossy rose chypre from 1988. Deep, formal and unapologetically grown-up.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-budget-lauder-knowing-edp-estee"
+      ]
+    },
+    {
+      "brand": "Estée Lauder",
+      "name": "Beautiful",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rose",
+        "Mandarin",
+        "Lily"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Jasmine",
+        "Ylang-Ylang",
+        "Marigold"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vetiver",
+        "Musk",
+        "Amber"
+      ],
+      "description": "A grand floral bouquet built around rose and tuberose. A wedding-day classic for four decades.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-budget-lauder-beautiful-edp-estee"
+      ]
+    },
+    {
+      "brand": "Estée Lauder",
+      "name": "White Linen",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Aldehydes",
+        "Citrus",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Oakmoss",
+        "Amber",
+        "Musk"
+      ],
+      "description": "Crisp aldehydes over rose and clean woods. Smells like pressed sheets and daylight.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-budget-lauder-white-linen-edp-estee"
+      ]
+    },
+    {
+      "brand": "Estée Lauder",
+      "name": "Pleasures",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "White Lily",
+        "Violet Leaves",
+        "Green Notes"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Lilac",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Patchouli",
+        "Musk"
+      ],
+      "description": "The Pleasures dewy-floral signature in a lighter splash.",
+      "note": "EDT concentration of the Pleasures EDP row; shares the composition.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-lauder-pleasures-edt-estee"
+      ]
+    },
+    {
+      "brand": "Ferragamo",
+      "name": "Ferragamo Signorina Uomo",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Aromatic"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "SUSPECT NAME: Signorina is a Ferragamo women’s line; no \"Signorina Uomo\" is known. Likely a corruption of Uomo Salvatore Ferragamo (2016). Needs verification before any pyramid.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-ferragamo-ferragamo-signorina-uomo"
+      ]
+    },
+    {
+      "brand": "Frederic Malle",
+      "name": "Portrait of a Lady",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Spicy"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Turkish Rose",
+        "Raspberry",
+        "Blackcurrant",
+        "Cinnamon",
+        "Clove"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Patchouli"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Sandalwood",
+        "Incense",
+        "Ambroxan",
+        "Benzoin",
+        "Musk"
+      ],
+      "description": "An enormous rose over dark patchouli and incense. One of the most acclaimed perfumes of the century.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-frederic-malle-portrait-of-a-lady"
+      ]
+    },
+    {
+      "brand": "Frederic Malle",
+      "name": "Portrait of a Lady Intense",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "low",
+      "top_notes": null,
+      "middle_notes": null,
+      "base_notes": null,
+      "description": null,
+      "needs_verification": true,
+      "reason": "SUSPECT NAME: no Intense version of Portrait of a Lady is known in the Frederic Malle line. Needs verification before any pyramid.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-frederic-malle-portrait-of-a-lady-intense"
+      ]
+    },
+    {
+      "brand": "Frederic Malle",
+      "name": "Frederic Malle Une Fleur de Cassie",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mimosa",
+        "Cassie",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine",
+        "Violet"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Musk",
+        "Vanilla"
+      ],
+      "description": "Powdery mimosa and cassie over soft sandalwood. Delicate, strange and quietly beautiful.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-frederic-malle-frederic-malle-une-fleur-de-cassie"
+      ]
+    },
+    {
+      "brand": "Frederic Malle",
+      "name": "Musc Ravageur",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Amber",
+        "Vanilla",
+        "Spicy"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Lavender",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Clove"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Musk",
+        "Amber",
+        "Sandalwood",
+        "Cedar"
+      ],
+      "description": "Spiced vanilla and musk with almost no flowers. Warm, animalic and famously seductive.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-frederic-malle-musc-ravageur"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "Si Passione",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Pear",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine",
+        "Heliotrope"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Cedar",
+        "Amberwood"
+      ],
+      "description": "The Si blackcurrant turned up and sweetened. Bold, fruity and made for nights out.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-quality-giorgio-armani-si-passione"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "My Way",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange Blossom",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "White Musk",
+        "Cedar"
+      ],
+      "description": "Bright orange blossom and tuberose over creamy vanilla. Modern, clean and widely loved.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-giorgio-armani-my-way"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "S\\354 Passione",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Pear",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine",
+        "Heliotrope"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Cedar",
+        "Amberwood"
+      ],
+      "description": "The Si blackcurrant turned up and sweetened. Bold, fruity and made for nights out.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Si Passione\" row, listed twice due to an accent-encoding variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-giorgio-armani-s-354-passione"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "S\\354 Fiori",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Green Mandarin"
+      ],
+      "middle_notes": [
+        "Neroli",
+        "Rose"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Patchouli",
+        "Musk"
+      ],
+      "description": "The Si idea brightened with neroli and green mandarin. Fresher and more floral than its siblings.",
+      "note": "Si Fiori flanker (2019). Shares the line DNA; confirm the flanker-specific list and current availability.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-giorgio-armani-s-354-fiori"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "Acqua di Gioia",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aquatic",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mint",
+        "Lemon",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Peony",
+        "Aquatic Notes"
+      ],
+      "base_notes": [
+        "Labdanum",
+        "Cedar",
+        "Brown Sugar"
+      ],
+      "description": "The Acqua di Gioia water-and-mint idea in a lighter splash.",
+      "note": "EDT concentration; the EDP was enriched in batch-03. Shares the composition.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-giorgio-armani-acqua-di-gioia"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "Si",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Freesia",
+        "May Rose"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Patchouli",
+        "Amberwood",
+        "Musk"
+      ],
+      "description": "The Si chypre signature in a brighter, lighter register.",
+      "note": "EDT concentration; the EDP was enriched in batch-03. Shares the composition.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-giorgio-armani-si"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "Giorgio Armani Code Absolu",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Apple",
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Nutmeg"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Vanilla",
+        "Suede"
+      ],
+      "description": "The Code sweetness wrapped in apple and suede. Smooth, dense and evening-coded.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-giorgio-armani-giorgio-armani-code-absolu"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "Armani Code",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Green Mandarin"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Clary Sage"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Cedar",
+        "Vetiver"
+      ],
+      "description": "The modern Code pillar: citrus and orange blossom over a woody tonka base.",
+      "note": "Parfum concentration (2022 relaunch pillar). Confirm the Parfum-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-giorgio-armani-armani-code"
+      ]
+    },
+    {
+      "brand": "Giorgio Armani",
+      "name": "Acqua di Giò Profumo",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Sea Notes"
+      ],
+      "middle_notes": [
+        "Rosemary",
+        "Sage",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Incense",
+        "Patchouli"
+      ],
+      "description": "The Acqua di Giò sea breeze deepened with incense and patchouli. Darker, smokier and widely considered the best of the line.",
+      "note": "Same product as the swap-02 replacement rows; pyramid kept identical across all rows.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-giorgio-armani-acqua-di-gio-profumo"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "L'Interdit",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Jasmine",
+        "Tuberose"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Patchouli",
+        "Ambroxan"
+      ],
+      "description": "White flowers over a dark vetiver undercurrent. Elegant with a deliberate edge.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-givenchy-l-interdit"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Givenchy L'Interdit Intense",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Blackcurrant"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Jasmine",
+        "Tuberose"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vetiver",
+        "Vanilla"
+      ],
+      "description": "The L’Interdit white-floral dna pushed creamier and deeper.",
+      "note": "Intense flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-budget-givenchy-givenchy-l-interdit-intense"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "L'Interdit Rouge",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blood Orange",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Vanilla",
+        "Amberwood"
+      ],
+      "description": "The L’Interdit florals set against spiced orange and warm woods.",
+      "note": "Rouge flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-budget-givenchy-l-interdit-rouge"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Gentleman",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Iris"
+      ],
+      "base_notes": [
+        "Leather",
+        "Patchouli",
+        "Black Vanilla"
+      ],
+      "description": "Powdery iris and lavender over leather and dark vanilla. Soft-spoken and modern.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-quality-givenchy-gentleman-givenchy"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Gentleman Reserve Privée",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Whisky Accord",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Oak",
+        "Patchouli",
+        "Vanilla"
+      ],
+      "description": "A whisky-and-oak reading of the Gentleman iris. Warm, boozy and refined.",
+      "note": "Reserve Privee flanker. Confirm the flanker-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-givenchy-gentleman-reserve-privee"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Givenchy Gentleman Boisée",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Clary Sage",
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Cypress"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Patchouli",
+        "Vanilla"
+      ],
+      "description": "The Gentleman iris grounded in dry woods. The most versatile of the line.",
+      "note": "Boisee flanker (2020). Confirm the flanker-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-givenchy-givenchy-gentleman-boisee"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Givenchy L'Interdit",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Jasmine",
+        "Tuberose"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Patchouli",
+        "Ambroxan"
+      ],
+      "description": "White flowers over a dark vetiver undercurrent. Elegant with a deliberate edge.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"L’Interdit\" EDP row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-budget-givenchy-givenchy-l-interdit"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Givenchy L'Interdit Rouge",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blood Orange",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Vanilla",
+        "Amberwood"
+      ],
+      "description": "The L’Interdit florals set against spiced orange and warm woods.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"L’Interdit Rouge\" row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-budget-givenchy-givenchy-l-interdit-rouge"
+      ]
+    },
+    {
+      "brand": "Givenchy",
+      "name": "Givenchy Amarige",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Violet",
+        "Mandarin",
+        "Peach",
+        "Plum"
+      ],
+      "middle_notes": [
+        "Gardenia",
+        "Tuberose",
+        "Ylang-Ylang",
+        "Mimosa"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Sandalwood",
+        "Amber"
+      ],
+      "description": "An exuberant white-floral wall of tuberose and gardenia. Loud, joyful and unmistakable.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-budget-givenchy-givenchy-amarige"
+      ]
+    },
+    {
+      "brand": "Gucci",
+      "name": "Flora Gorgeous Gardenia",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Fresh"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pear Blossom"
+      ],
+      "middle_notes": [
+        "Gardenia",
+        "Frangipani"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Brown Sugar"
+      ],
+      "description": "Creamy gardenia over brown sugar. Sweet, sunny and a current bestseller.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-quality-gucci-flora-gorgeous-gardenia"
+      ]
+    },
+    {
+      "brand": "Gucci",
+      "name": "Bloom",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Jasmine Bud"
+      ],
+      "middle_notes": [
+        "Tuberose",
+        "Rangoon Creeper"
+      ],
+      "base_notes": [
+        "Orris Root",
+        "Sandalwood"
+      ],
+      "description": "A lush white-floral built on tuberose and jasmine. The core Bloom, a current pillar that sells year after year.",
+      "note": "Same product as the swap-03 replacement rows; pyramid kept identical across all rows. Gucci publishes Bloom as a floral trio; base notes flagged for verification.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-quality-gucci-bloom"
+      ]
+    },
+    {
+      "brand": "Gucci",
+      "name": "Gucci Flora Gorgeous Magnolia",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Dewberry"
+      ],
+      "middle_notes": [
+        "Magnolia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Warm Musk"
+      ],
+      "description": "Juicy dewberry over creamy magnolia. Bright, modern and easy to love.",
+      "note": "Flora flanker (2022). Confirm the flanker-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-gucci-gucci-flora-gorgeous-magnolia"
+      ]
+    },
+    {
+      "brand": "Gucci",
+      "name": "Guilty",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Pink Pepper",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Lilac",
+        "Geranium",
+        "Peach"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Amber",
+        "Vanilla"
+      ],
+      "description": "Lilac and warm amber with a peachy glow. Confident and a little rebellious.",
+      "note": "Resolved to the women’s Guilty EDP. Confirm which Guilty this row carries.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-gucci-guilty"
+      ]
+    },
+    {
+      "brand": "Gucci",
+      "name": "Gucci Guilty",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Pink Pepper",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Lilac",
+        "Geranium",
+        "Peach"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Amber",
+        "Vanilla"
+      ],
+      "description": "Lilac and warm amber with a peachy glow. Confident and a little rebellious.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Guilty\" EDP row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-quality-gucci-gucci-guilty"
+      ]
+    }
+  ]
+}

@@ -272,13 +272,54 @@ export default function NoseTestPage() {
 
               <div className="rounded-2xl border border-sand bg-white p-6">
                 <p className="text-sm font-bold uppercase tracking-[0.14em] text-slate">
-                  What you lean toward
+                  Notes your nose goes for
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {profile.notes.map((n) => (
+                    <span
+                      key={n}
+                      className="rounded-full bg-green-accent/20 px-3 py-1 text-sm font-black text-green-deep"
+                    >
+                      {n}
+                    </span>
+                  ))}
+                </div>
+                <p className="mt-4 text-sm leading-6 text-slate">
+                  These are the actual materials perfumers build with. Look for them on a note
+                  list and you are reading the same language.
+                </p>
+              </div>
+
+              {profile.avoidNotes.length > 0 && (
+                <div className="mt-4 rounded-2xl border border-sand bg-white p-6">
+                  <p className="text-sm font-bold uppercase tracking-[0.14em] text-slate">
+                    Notes to be careful with
+                  </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {profile.avoidNotes.map((n) => (
+                      <span
+                        key={n}
+                        className="rounded-full border border-sand px-3 py-1 text-sm font-bold text-slate"
+                      >
+                        {n}
+                      </span>
+                    ))}
+                  </div>
+                  <p className="mt-4 text-sm leading-6 text-slate">
+                    Not banned, just worth sampling before you commit to a bottle.
+                  </p>
+                </div>
+              )}
+
+              <div className="mt-4 rounded-2xl border border-sand bg-white p-6">
+                <p className="text-sm font-bold uppercase tracking-[0.14em] text-slate">
+                  Your accord families
                 </p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {profile.accords.map((a) => (
                     <span
                       key={a}
-                      className="rounded-full bg-green-accent/20 px-3 py-1 text-sm font-black text-green-deep"
+                      className="rounded-full bg-green-wash px-3 py-1 text-sm font-black text-green-deep"
                     >
                       {a}
                     </span>
@@ -334,25 +375,32 @@ export default function NoseTestPage() {
                 </p>
               )}
 
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <button
-                  type="button"
-                  onClick={goToResults}
-                  className="inline-flex min-h-[52px] items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95"
-                >
-                  See my matches →
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setAnswers({})
-                    setProfile(null)
-                    setStep(0)
-                  }}
-                  className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-8 text-base font-bold text-slate transition hover:border-green-accent hover:text-black"
-                >
-                  Start over
-                </button>
+              <div className="mt-8 border-t border-sand pt-6">
+                <p className="text-sm leading-6 text-slate">
+                  This profile is the result. It describes your nose, not a shopping list, and it
+                  works anywhere: in a shop, on a note list, in a conversation with someone behind
+                  a counter.
+                </p>
+                <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+                  <button
+                    type="button"
+                    onClick={goToResults}
+                    className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-green-accent px-6 text-base font-bold text-black transition hover:bg-green-accent/10"
+                  >
+                    Browse fragrances built on these notes
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setAnswers({})
+                      setProfile(null)
+                      setStep(0)
+                    }}
+                    className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-6 text-base font-bold text-slate transition hover:border-green-accent hover:text-black"
+                  >
+                    Start over
+                  </button>
+                </div>
               </div>
             </div>
           )}
