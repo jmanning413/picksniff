@@ -1402,13 +1402,24 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Blackcurrant",
+      "Red Berries",
+      "Cassis"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Lily-of-the-Valley",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Zesty berries over rose and a warm vanilla-wood base. Playful and bright.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-xerjoff-xerjoff-soprano",
@@ -1442,12 +1453,20 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "Rum",
+      "Vanilla"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Musk"
+    ],
+    "base_notes": [
+      "Amber",
+      "Patchouli"
+    ],
+    "description": "Rum and cinnamon over warm amber. The most mischievous of the Portraits.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

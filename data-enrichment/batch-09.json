@@ -1,0 +1,1444 @@
+{
+  "_meta": {
+    "batch": "batch-09",
+    "scope": "Unique products ranked 401-450 by catalog row count.",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "counts": {
+      "medium": 31,
+      "high": 11
+    },
+    "products": 42,
+    "skipped_swapped": [
+      {
+        "product": "Parfums de Marly Leilani",
+        "reason": "CONFIRMED WRONG BRAND (verified 2026-07-21): Leilani is a Parfums d Elmar fragrance, not Parfums de Marly; PdM has no Leilani. Repaired via swap-07 to PdM Valaya, which enters fully enriched from the official page."
+      },
+      {
+        "product": "Paris Hilton Night",
+        "reason": "CONFIRMED FAKE NAME (verified 2026-07-21): no Paris Hilton fragrance called Night exists in her 30-fragrance line. Repaired via swap-07 to Can Can, which matches this row’s Floral/Vanilla/Amber evening profile."
+      },
+      {
+        "product": "Penhaligon's Halfeti Pour Femme",
+        "reason": "Row repaired by swap-02 (fake name; product is unisex Halfeti), which entered fully enriched."
+      },
+      {
+        "product": "Penhaligon's Penhaligon's The Tragedy of Lord George Pour Femme",
+        "reason": "Row repaired by swap-02 (fake name); replaced by The Coveted Duchess Rose, fully enriched."
+      },
+      {
+        "product": "Salvatore Ferragamo Incanto Dream",
+        "reason": "Row removed by swap-02 (discontinued); replaced by Marc Jacobs Perfect, fully enriched."
+      },
+      {
+        "product": "Taylor Swift Wonderstruck",
+        "reason": "Row removed by cut-audit-01 (discontinued); replaced by Thank U Next, fully enriched."
+      },
+      {
+        "product": "Thierry Mugler Angel Muse",
+        "reason": "Row removed by swap-03 (discontinued per Mugler); replaced by Lattafa Yara, fully enriched."
+      },
+      {
+        "product": "Thierry Mugler Thierry Mugler Aura",
+        "reason": "Row removed by swap-03 (discontinued per Mugler); replaced by Lattafa Khamrah, fully enriched."
+      }
+    ],
+    "catalog_rows_covered": 42
+  },
+  "entries": [
+    {
+      "brand": "Paco Rabanne",
+      "name": "Paco Rabanne Phantom",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Vanilla"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Vetiver"
+      ],
+      "description": "Clean lavender and lemon over sweet vanilla and patchouli.",
+      "note": "Phantom is formally an EDP (enriched in batch-03); this EDT row is a concentration oddity. Notes reflect the core product.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-quality-paco-rabanne-paco-rabanne-phantom"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "1 Million Royal",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Amber",
+        "Spicy",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Apple",
+        "Blood Mandarin"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Rose Absolute"
+      ],
+      "base_notes": [
+        "Amberwood",
+        "Cedar"
+      ],
+      "description": "The 1 Million sweetness crowned with rose and amberwood.",
+      "note": "Royal flanker (2023). Confirm the flanker-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-paco-rabanne-1-million-royal"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "1 Million Privé",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Amber",
+        "Spicy",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blood Mandarin",
+        "Cinnamon"
+      ],
+      "middle_notes": [
+        "Myrrh",
+        "Rose"
+      ],
+      "base_notes": [
+        "Tobacco",
+        "Amber",
+        "Patchouli"
+      ],
+      "description": "The 1 Million DNA smoked with myrrh and tobacco.",
+      "note": "Prive flanker (2015), quietly wound down but still stocked. Confirm the list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-paco-rabanne-1-million-prive"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Invictus Victory",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Black Pepper"
+      ],
+      "middle_notes": [
+        "Lavender"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Olibanum"
+      ],
+      "description": "The Invictus freshness armored with pepper and incense-tinged vanilla.",
+      "note": "Victory flanker (2021). Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-paco-rabanne-invictus-victory"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Paco Rabanne Pure XS Black",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Spicy",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Tangerine"
+      ],
+      "middle_notes": [
+        "Vanilla",
+        "Cinnamon",
+        "Coconut"
+      ],
+      "base_notes": [
+        "Cashmere Wood",
+        "Myrrh",
+        "Patchouli"
+      ],
+      "description": "The Pure XS sugar pulled darker with coconut and myrrh.",
+      "note": "Black flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-paco-rabanne-paco-rabanne-pure-xs-black"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Paco Rabanne Invictus",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Amber",
+        "Woody",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Marine Notes"
+      ],
+      "middle_notes": [
+        "Bay Leaf",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Ambergris",
+        "Guaiac Wood",
+        "Patchouli"
+      ],
+      "description": "The Invictus marine accord in its densest concentration.",
+      "note": "Parfum concentration; the EDT was enriched in batch-02. Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-paco-rabanne-paco-rabanne-invictus"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Invictus Platinum",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Mint"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Sage"
+      ],
+      "base_notes": [
+        "Ambergris",
+        "Woody Notes"
+      ],
+      "description": "A colder, more metallic Invictus.",
+      "note": "Platinum flanker (2022). Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-paco-rabanne-invictus-platinum"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Paco Rabanne 1 Million",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Amber",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blood Mandarin",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Cinnamon"
+      ],
+      "base_notes": [
+        "Leather",
+        "Amber",
+        "Patchouli",
+        "Woody Notes"
+      ],
+      "description": "The 1 Million cinnamon-leather signature in its richest concentration.",
+      "note": "Parfum concentration (2020); the EDT was enriched in batch-03. Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-quality-paco-rabanne-paco-rabanne-1-million"
+      ]
+    },
+    {
+      "brand": "Paloma Picasso",
+      "name": "Paloma Picasso",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Aldehydes",
+        "Hyacinth",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Oakmoss",
+        "Patchouli",
+        "Amber",
+        "Civet"
+      ],
+      "description": "A fierce green chypre with real animalic depth. Unmistakably eighties, in the best way.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-budget-picasso-paloma-picasso-edp-paloma"
+      ]
+    },
+    {
+      "brand": "Parfumeur",
+      "name": "L'Artisan Timbuktu L'Artisan",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Fresh",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Mango",
+        "Cardamom",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Karo Karounde",
+        "Incense"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Myrrh",
+        "Patchouli",
+        "Benzoin"
+      ],
+      "description": "Smoky incense and green mango over dry vetiver. Spare, strange and much loved.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-niche-parfumeur-l-artisan-timbuktu-l-artisan"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Cassili",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Red Currant",
+        "Plum",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Mimosa",
+        "White Flowers"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Tonka Bean",
+        "Vanilla"
+      ],
+      "description": "Plum and mimosa over creamy sandalwood and vanilla. Soft-spoken and polished.",
+      "note": "RESEARCHED against the OFFICIAL Parfums de Marly product page 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-niche-parfums-de-marly-parfums-de-marly-cassili"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Oriana",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Mandarin",
+        "Bergamot",
+        "Grapefruit"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Blackcurrant",
+        "Raspberry"
+      ],
+      "base_notes": [
+        "Marshmallow",
+        "Ambrette",
+        "Chantilly Cream",
+        "Musk"
+      ],
+      "description": "Citrus and berries whipped into marshmallow and chantilly cream. A dessert with posture.",
+      "note": "RESEARCHED against the OFFICIAL Parfums de Marly product page plus Dillards 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-parfums-de-marly-parfums-de-marly-oriana"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Cassili",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Red Currant",
+        "Plum",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Mimosa",
+        "White Flowers"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Tonka Bean",
+        "Vanilla"
+      ],
+      "description": "Plum and mimosa over creamy sandalwood and vanilla. Soft-spoken and polished.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the prefixed Cassili row. Pyramid intentionally identical (sourced from the official PdM page). Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-parfums-de-marly-cassili"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Delina Exclusif",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Litchi",
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Turkish Rose",
+        "Incense"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Musk",
+        "Oud"
+      ],
+      "description": "The Delina rose deepened with incense and oud.",
+      "note": "Exclusif flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-parfums-de-marly-delina-exclusif"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Delina La Rosée",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Litchi",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Turkish Rose",
+        "Peony"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood"
+      ],
+      "description": "The Delina rose washed lighter and dewier.",
+      "note": "La Rosee flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-parfums-de-marly-parfums-de-marly-delina-la-rosee"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Meliora",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Fruity"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Blackcurrant",
+        "Red Berries",
+        "Cassis"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Lily-of-the-Valley",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "Woody Notes"
+      ],
+      "description": "Zesty berries over rose and a warm vanilla-wood base. Playful and bright.",
+      "note": "RESEARCHED against the OFFICIAL Parfums de Marly product page plus Harrods 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-parfums-de-marly-parfums-de-marly-meliora"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Sedley",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Spearmint",
+        "Water Notes"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vetiver"
+      ],
+      "description": "Minted citrus over watery woods. The freshest Parfums de Marly.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-niche-parfums-de-marly-parfums-de-marly-sedley"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Layton Exclusif",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Coffee",
+        "Sandalwood"
+      ],
+      "description": "The Layton sweetness sharpened with coffee.",
+      "note": "Exclusif flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-niche-parfums-de-marly-layton-exclusif"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Herod",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cinnamon",
+        "Pepper",
+        "Osmanthus"
+      ],
+      "middle_notes": [
+        "Tobacco Leaf",
+        "Incense"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Cypriol",
+        "Labdanum",
+        "Musk"
+      ],
+      "description": "Sweet vanilla and tobacco over cinnamon and incense. Warm, boozy and unmistakably wintry.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Parfums de Marly Herod\" row enriched in batch-02, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-parfums-de-marly-herod"
+      ]
+    },
+    {
+      "brand": "Parfums de Marly",
+      "name": "Parfums de Marly Percival",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Geranium",
+        "Cinnamon"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Musk",
+        "Amber"
+      ],
+      "description": "A polished fresh-spicy crowd-pleaser with a soft tonka finish.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-niche-parfums-de-marly-parfums-de-marly-percival"
+      ]
+    },
+    {
+      "brand": "Paris Hilton",
+      "name": "Paris",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Frozen Apple",
+        "Peach Nectar",
+        "Melon"
+      ],
+      "middle_notes": [
+        "Mimosa",
+        "Freesia",
+        "Tuberose",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Ylang-Ylang",
+        "Oakmoss",
+        "Musk"
+      ],
+      "description": "Chilled apple and peach over soft white florals. Bubbly, flirty and exactly of its moment.",
+      "note": "RESEARCHED against retailer listings (FragranceX, Perfumania, Basenotes) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-paris-hilton-paris"
+      ]
+    },
+    {
+      "brand": "Penhaligon's",
+      "name": "Penhaligon's Babylon",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Nutmeg",
+        "Saffron",
+        "Coriander"
+      ],
+      "middle_notes": [
+        "Cypriol"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Sandalwood",
+        "Cedar"
+      ],
+      "description": "Saffron and nutmeg over earthy cypriol and vanilla. Ancient-world spice, modern polish.",
+      "note": "RESEARCHED against retailer listings (Parfumo, BeautyTheShop) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-niche-penhaligon-s-penhaligon-s-babylon"
+      ]
+    },
+    {
+      "brand": "Penhaligon's",
+      "name": "Penhaligon's Clandestine Clara",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rum",
+        "Vanilla"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Musk"
+      ],
+      "base_notes": [
+        "Amber",
+        "Patchouli"
+      ],
+      "description": "Rum and cinnamon over warm amber. The most mischievous of the Portraits.",
+      "note": "RESEARCHED against retailer listings (Perfume.com, FragranceX, Beautinow) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-penhaligon-s-penhaligon-s-clandestine-clara"
+      ]
+    },
+    {
+      "brand": "Penhaligon's",
+      "name": "Penhaligon's Sartorial",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aromatic",
+        "Woody",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Violet Leaf",
+        "Neroli",
+        "Cardamom",
+        "Black Pepper",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Beeswax",
+        "Linden Blossom",
+        "Lavender",
+        "Leather"
+      ],
+      "base_notes": [
+        "Gurjum Wood",
+        "Myrrh",
+        "Cedar",
+        "Tonka Bean",
+        "Oakmoss",
+        "Honey"
+      ],
+      "description": "A Savile Row tailor shop in scent: pressed wool, beeswax and steam. Genuinely original.",
+      "note": "RESEARCHED against retailer listings (Bloomingdales, Selfridges, Osmoz) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-niche-penhaligon-s-penhaligon-s-sartorial"
+      ]
+    },
+    {
+      "brand": "Penhaligon's",
+      "name": "Penhaligon's Halfeti Cedar",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Rum",
+        "Saffron",
+        "Peach",
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Virginia Cedar",
+        "Dried Fruits",
+        "Cinnamon",
+        "Immortelle"
+      ],
+      "base_notes": [
+        "Atlas Cedar",
+        "Tonka Bean",
+        "Vanilla",
+        "Labdanum",
+        "Patchouli"
+      ],
+      "description": "The Halfeti spice rebuilt around two cedars, rum and dried fruit. Luminous and warm.",
+      "note": "RESEARCHED against retailer listings (Maxaroma, Harrods, Basenotes) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-niche-penhaligon-s-penhaligon-s-halfeti-cedar"
+      ]
+    },
+    {
+      "brand": "Prada",
+      "name": "Candy",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Amber",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Caramel"
+      ],
+      "middle_notes": [
+        "White Musk"
+      ],
+      "base_notes": [
+        "Benzoin",
+        "Vanilla",
+        "Caramel"
+      ],
+      "description": "Burnt caramel and benzoin over powdery musk. Deliberately simple, unapologetically sweet.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Prada Candy\" row enriched in batch-02, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-prada-candy"
+      ]
+    },
+    {
+      "brand": "Prada",
+      "name": "Prada L'Homme Intense",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Amber",
+        "Woody",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Neroli",
+        "Black Pepper"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Tonka Bean"
+      ],
+      "base_notes": [
+        "Amber",
+        "Patchouli",
+        "Sandalwood"
+      ],
+      "description": "The Prada iris warmed with tonka and amber.",
+      "note": "Intense flanker of Prada L Homme (batch-02). Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-prada-prada-l-homme-intense"
+      ]
+    },
+    {
+      "brand": "Prada",
+      "name": "Luna Rossa Black",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Aromatic",
+        "Spicy",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Angelica"
+      ],
+      "middle_notes": [
+        "Coffee"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Patchouli"
+      ],
+      "description": "Soft coffee and angelica over warm musk. The plushest Luna Rossa.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-prada-luna-rossa-black"
+      ]
+    },
+    {
+      "brand": "Ralph Lauren",
+      "name": "Polo Sport",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Aldehydes",
+        "Lavender",
+        "Mint",
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Sea Notes",
+        "Rosemary",
+        "Geranium",
+        "Juniper"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Amber",
+        "Oakmoss"
+      ],
+      "description": "Mint, sea air and lavender over mossy woods. The 1994 template for sporty freshness.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-ralph-lauren-polo-sport"
+      ]
+    },
+    {
+      "brand": "Roja Parfums",
+      "name": "Roja Parfums Elysium Pour Femme",
+      "concentration": "Parfum",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin",
+        "Blackberry",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Freesia",
+        "Ylang-Ylang",
+        "Jasmine",
+        "Magnolia",
+        "Violet"
+      ],
+      "base_notes": [
+        "Pink Pepper",
+        "Cedar",
+        "Sandalwood",
+        "Vanilla",
+        "Musk"
+      ],
+      "description": "Sun-lit fruit over a big floral heart and creamy woods. Bright, expensive and effortless.",
+      "note": "RESEARCHED against ROJA London and Neiman Marcus listings 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-niche-roja-parfums-roja-parfums-elysium-pour-femme"
+      ]
+    },
+    {
+      "brand": "Roja Parfums",
+      "name": "Roja Parfums Danger Pour Femme",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Lemon",
+        "Bergamot",
+        "Grapefruit",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose de Mai",
+        "Gardenia",
+        "Jasmine",
+        "Ylang-Ylang",
+        "Violet",
+        "Peach"
+      ],
+      "base_notes": [
+        "Clove",
+        "Patchouli",
+        "Sandalwood",
+        "Vanilla",
+        "Tonka Bean",
+        "Orris",
+        "Musk"
+      ],
+      "description": "A grand floral chypre with clove-spiced warmth underneath. Glamorous and unapologetic.",
+      "note": "RESEARCHED against ROJA London listings 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-roja-parfums-roja-parfums-danger-pour-femme"
+      ]
+    },
+    {
+      "brand": "Roja Parfums",
+      "name": "Roja Parfums Danger Pour Femme",
+      "concentration": "Parfum",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Lemon",
+        "Bergamot",
+        "Grapefruit",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose de Mai",
+        "Gardenia",
+        "Jasmine",
+        "Ylang-Ylang",
+        "Violet",
+        "Peach"
+      ],
+      "base_notes": [
+        "Clove",
+        "Patchouli",
+        "Sandalwood",
+        "Vanilla",
+        "Tonka Bean",
+        "Orris",
+        "Musk"
+      ],
+      "description": "The Danger floral chypre in its densest concentration.",
+      "note": "Parfum concentration; ROJA sells both EDP and Parfum. Pyramid per the ROJA London listing; the Parfum reads deeper.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-roja-parfums-roja-parfums-danger-pour-femme"
+      ]
+    },
+    {
+      "brand": "Roja Parfums",
+      "name": "Elysium Pour Homme",
+      "concentration": "Parfum",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lime",
+        "Lemon",
+        "Grapefruit",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Blackcurrant",
+        "Juniper",
+        "Apple",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambergris",
+        "Vetiver",
+        "Amber"
+      ],
+      "description": "Sparkling citrus and blackcurrant over clean musk and ambergris. Fresh, expensive-smelling and very smooth.",
+      "note": "Same product as the \"Roja Parfums Elysium\" row enriched in batch-02 (that row omits Pour Homme from the name). Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-roja-parfums-elysium-pour-homme"
+      ]
+    },
+    {
+      "brand": "Roja Parfums",
+      "name": "Roja Parfums Elysium Pour Homme",
+      "concentration": "Parfum",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lime",
+        "Lemon",
+        "Grapefruit",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Blackcurrant",
+        "Juniper",
+        "Apple",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambergris",
+        "Vetiver",
+        "Amber"
+      ],
+      "description": "Sparkling citrus and blackcurrant over clean musk and ambergris.",
+      "note": "DUPLICATE PRODUCT: prefix variant of the Elysium Pour Homme row. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-niche-roja-parfums-roja-parfums-elysium-pour-homme"
+      ]
+    },
+    {
+      "brand": "Roja Parfums",
+      "name": "Roja Elysium Pour Homme",
+      "concentration": "Parfum",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lime",
+        "Lemon",
+        "Grapefruit",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Blackcurrant",
+        "Juniper",
+        "Apple",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambergris",
+        "Vetiver",
+        "Amber"
+      ],
+      "description": "Sparkling citrus and blackcurrant over clean musk and ambergris.",
+      "note": "DUPLICATE PRODUCT: another prefix variant of Elysium Pour Homme. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-niche-roja-parfums-roja-elysium-pour-homme"
+      ]
+    },
+    {
+      "brand": "Serge Lutens",
+      "name": "Chergui",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Amber",
+        "Vanilla",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Honey",
+        "Tobacco Leaf"
+      ],
+      "middle_notes": [
+        "Hay",
+        "Iris",
+        "Rose"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Amber",
+        "Musk"
+      ],
+      "description": "Honeyed tobacco and hay in desert heat. A modern classic of warmth.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-serge-lutens-chergui"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Black Orchid",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Truffle",
+        "Gardenia",
+        "Blackcurrant",
+        "Ylang-Ylang",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Orchid",
+        "Lotus Wood",
+        "Fruity Notes"
+      ],
+      "base_notes": [
+        "Mexican Chocolate",
+        "Patchouli",
+        "Vanilla",
+        "Incense",
+        "Sandalwood",
+        "Vetiver"
+      ],
+      "description": "Truffle, dark chocolate and orchid over patchouli. Opulent, strange and completely uncompromising.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Tom Ford Black Orchid\" row enriched in batch-03, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-tom-ford-black-orchid"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Tom Ford Black Orchid",
+      "concentration": "Parfum",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Truffle",
+        "Blackcurrant",
+        "Ylang-Ylang"
+      ],
+      "middle_notes": [
+        "Orchid",
+        "Rum"
+      ],
+      "base_notes": [
+        "Mexican Chocolate",
+        "Patchouli",
+        "Vanilla",
+        "Sandalwood"
+      ],
+      "description": "The Black Orchid darkness in its densest form.",
+      "note": "Parfum concentration (2020). Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-tom-ford-tom-ford-black-orchid"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Tom Ford Rose Prick",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rose de Mai",
+        "Turkish Rose",
+        "Bulgarian Rose"
+      ],
+      "middle_notes": [
+        "Turmeric",
+        "Sichuan Pepper"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Patchouli"
+      ],
+      "description": "Three roses with thorns of pepper and turmeric.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-tom-ford-tom-ford-rose-prick"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Tom Ford Jasmin Rouge",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Jasmine Sambac"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Ginger",
+        "Clary Sage"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Amber",
+        "Leather"
+      ],
+      "description": "Lipstick-red jasmine spiced with cinnamon and ginger.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-tom-ford-tom-ford-jasmin-rouge"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Oud Wood",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Rosewood",
+        "Cardamom",
+        "Chinese Pepper"
+      ],
+      "middle_notes": [
+        "Oud",
+        "Sandalwood",
+        "Vetiver"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Vanilla",
+        "Amber"
+      ],
+      "description": "Smooth oud and sandalwood over warm tonka. The approachable oud, dry and refined rather than medicinal.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Tom Ford Oud Wood\" row enriched in batch-04, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-tom-ford-oud-wood"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Noir Extreme",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Neroli",
+        "Saffron",
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Orange Blossom",
+        "Rose",
+        "Kulfi"
+      ],
+      "base_notes": [
+        "Amber",
+        "Sandalwood",
+        "Vanilla",
+        "Woody Notes"
+      ],
+      "description": "Spiced mandarin and a dessert-like kulfi heart over warm amber and sandalwood.",
+      "note": "Same product as the swap-02 replacement row in unisex_date_night; pyramid kept identical across all rows.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-tom-ford-noir-extreme"
+      ]
+    }
+  ]
+}

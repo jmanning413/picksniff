@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "swap": "swap-07",
+    "scope": "Fake-name/wrong-brand cleanup round 7, found during batch-09 prep. Web-verified 2026-07-21.",
+    "provenance": "Valaya pyramid from the OFFICIAL Parfums de Marly page; Can Can from retailer listings. No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "female-date-night-niche-parfums-de-marly-leilani",
+      "file": "female_date_night_final.json",
+      "replacement": {
+        "id": "female-date-night-niche-parfums-de-marly-valaya",
+        "name": "Valaya", "brand": "Parfums de Marly", "concentration": "EDP", "tier": "niche",
+        "accords": ["Floral", "Fresh", "Vanilla"],
+        "top_notes": ["Bergamot", "Mandarin", "White Peach"],
+        "middle_notes": ["Orange Blossom", "White Flowers"],
+        "base_notes": ["White Musk", "Akigalawood", "Vanilla", "Vetiver"],
+        "description": "Creamy white flowers over clean musk and akigalawood. A veil of fresh linen with an evening glow.",
+        "note": "WRONG-BRAND REPAIR: Leilani is a Parfums d'Elmar fragrance, not Parfums de Marly (verified 2026-07-21). Replaced with a real, current, popular PdM feminine. Pyramid from the OFFICIAL PdM product page."
+      }
+    },
+    {
+      "cut_id": "female-date-night-budget-paris-hilton-night",
+      "file": "female_date_night_final.json",
+      "replacement": {
+        "id": "female-date-night-budget-paris-hilton-can-can",
+        "name": "Can Can", "brand": "Paris Hilton", "concentration": "EDP", "tier": "budget",
+        "accords": ["Floral", "Vanilla", "Amber"],
+        "top_notes": ["Clementine", "Nectarine", "Cassis"],
+        "middle_notes": ["Orange Blossom", "Wild Orchid"],
+        "base_notes": ["Amber", "Musk", "Woody Notes"],
+        "description": "Juicy clementine over orchid and warm amber. Cabaret-coded and built for nights out.",
+        "note": "FAKE-NAME REPAIR: no Paris Hilton 'Night' exists in her line (verified 2026-07-21). Can Can matches this row's Floral/Vanilla/Amber evening profile and remains widely sold. Pyramid from retailer listings; flagged for verification."
+      }
+    }
+  ]
+}

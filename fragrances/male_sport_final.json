@@ -177,13 +177,28 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Aromatic"
+      "Aldehydes",
+      "Lavender",
+      "Mint",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Rosemary",
+      "Geranium",
+      "Juniper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Amber",
+      "Oakmoss"
+    ],
+    "description": "Mint, sea air and lavender over mossy woods. The 1994 template for sporty freshness.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-kenneth-cole-kenneth-cole-reaction",
@@ -991,13 +1006,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Woody"
+      "Grapefruit",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Sage"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Woody Notes"
+    ],
+    "description": "A colder, more metallic Invictus.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-issey-miyake-l-eau-d-issey-pour-homme-intense",
@@ -1400,13 +1423,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Woody"
+      "Lime",
+      "Lemon",
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Blackcurrant",
+      "Juniper",
+      "Apple",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Sparkling citrus and blackcurrant over clean musk and ambergris.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-parfums-de-marly-parfums-de-marly-galloway",
@@ -1479,13 +1516,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Fresh",
-      "Aromatic"
+      "Green Mango",
+      "Cardamom",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Karo Karounde",
+      "Incense"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Myrrh",
+      "Patchouli",
+      "Benzoin"
+    ],
+    "description": "Smoky incense and green mango over dry vetiver. Spare, strange and much loved.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-byredo-byredo-sundazed",

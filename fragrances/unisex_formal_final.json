@@ -317,13 +317,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Aldehydes",
+      "Hyacinth",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Patchouli",
+      "Amber",
+      "Civet"
+    ],
+    "description": "A fierce green chypre with real animalic depth. Unmistakably eighties, in the best way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-thierry-mugler-angel",
@@ -954,13 +966,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Aromatic"
+      "Blood Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Cinnamon"
+    ],
+    "base_notes": [
+      "Leather",
+      "Amber",
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "The 1 Million cinnamon-leather signature in its richest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-tom-ford-tom-ford-velvet-orchid",

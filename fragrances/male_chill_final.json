@@ -1310,13 +1310,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Bergamot",
+      "Spearmint",
+      "Water Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "description": "Minted citrus over watery woods. The freshest Parfums de Marly.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-creed-creed-silver-mountain-water",
@@ -1423,13 +1432,30 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Violet Leaf",
+      "Neroli",
+      "Cardamom",
+      "Black Pepper",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Beeswax",
+      "Linden Blossom",
+      "Lavender",
+      "Leather"
+    ],
+    "base_notes": [
+      "Gurjum Wood",
+      "Myrrh",
+      "Cedar",
+      "Tonka Bean",
+      "Oakmoss",
+      "Honey"
+    ],
+    "description": "A Savile Row tailor shop in scent: pressed wool, beeswax and steam. Genuinely original.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-penhaligon-s-penhaligon-s-blenheim-bouquet",

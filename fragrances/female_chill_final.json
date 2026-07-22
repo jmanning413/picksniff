@@ -1052,13 +1052,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
+      "Red Currant",
+      "Plum",
+      "Peach"
+    ],
+    "middle_notes": [
+      "Rose",
+      "Mimosa",
+      "White Flowers"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Tonka Bean",
       "Vanilla"
     ],
-    "description": "",
+    "description": "Plum and mimosa over creamy sandalwood and vanilla. Soft-spoken and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-maison-margiela-maison-margiela-replica-lazy-sunday-morning",
@@ -1375,13 +1386,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Nutmeg",
+      "Saffron",
+      "Coriander"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cypriol"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "Saffron and nutmeg over earthy cypriol and vanilla. Ancient-world spice, modern polish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-roja-parfums-roja-parfums-elysium-pour-femme",
@@ -1395,13 +1415,30 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Bergamot",
+      "Mandarin",
+      "Blackberry",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Freesia",
+      "Ylang-Ylang",
+      "Jasmine",
+      "Magnolia",
+      "Violet"
+    ],
+    "base_notes": [
+      "Pink Pepper",
+      "Cedar",
+      "Sandalwood",
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "Sun-lit fruit over a big floral heart and creamy woods. Bright, expensive and effortless.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-xerjoff-xerjoff-casamorati-fiore-d-ulivo",

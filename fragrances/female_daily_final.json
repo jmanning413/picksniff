@@ -462,13 +462,26 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Frozen Apple",
+      "Peach Nectar",
+      "Melon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Mimosa",
+      "Freesia",
+      "Tuberose",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ylang-Ylang",
+      "Oakmoss",
+      "Musk"
+    ],
+    "description": "Chilled apple and peach over soft white florals. Bubbly, flirty and exactly of its moment.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-elizabeth-arden-green-tea",
@@ -1248,13 +1261,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Mandarin",
+      "Bergamot",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Blackcurrant",
+      "Raspberry"
+    ],
+    "base_notes": [
+      "Marshmallow",
+      "Ambrette",
+      "Chantilly Cream",
+      "Musk"
+    ],
+    "description": "Citrus and berries whipped into marshmallow and chantilly cream. A dessert with posture.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-maison-margiela-replica-under-the-lemon-trees",
@@ -1419,13 +1444,29 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Vanilla"
+      "Truffle",
+      "Gardenia",
+      "Blackcurrant",
+      "Ylang-Ylang",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Lotus Wood",
+      "Fruity Notes"
+    ],
+    "base_notes": [
+      "Mexican Chocolate",
+      "Patchouli",
+      "Vanilla",
+      "Incense",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "description": "Truffle, dark chocolate and orchid over patchouli. Opulent, strange and completely uncompromising.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-parfums-de-marly-cassili",
@@ -1439,12 +1480,23 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
+      "Red Currant",
+      "Plum",
+      "Peach"
+    ],
+    "middle_notes": [
+      "Rose",
+      "Mimosa",
+      "White Flowers"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Tonka Bean",
       "Vanilla"
     ],
-    "description": "",
+    "description": "Plum and mimosa over creamy sandalwood and vanilla. Soft-spoken and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

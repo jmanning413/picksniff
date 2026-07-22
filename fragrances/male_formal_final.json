@@ -69,13 +69,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Lemon",
+      "Black Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Olibanum"
+    ],
+    "description": "The Invictus freshness armored with pepper and incense-tinged vanilla.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-hugo-boss-hugo-boss-boss-bottled-night",
@@ -117,13 +125,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Woody"
+      "Ginger",
+      "Tangerine"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla",
+      "Cinnamon",
+      "Coconut"
+    ],
+    "base_notes": [
+      "Cashmere Wood",
+      "Myrrh",
+      "Patchouli"
+    ],
+    "description": "The Pure XS sugar pulled darker with coconut and myrrh.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-giorgio-armani-giorgio-armani-code-absolu",
@@ -535,13 +553,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Aromatic",
-      "Spicy",
-      "Woody"
+      "Bergamot",
+      "Angelica"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coffee"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Patchouli"
+    ],
+    "description": "Soft coffee and angelica over warm musk. The plushest Luna Rossa.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-hermes-terre-d-hermes",
@@ -925,13 +951,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Spicy"
+      "Grapefruit",
+      "Marine Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Ambergris",
+      "Guaiac Wood",
+      "Patchouli"
+    ],
+    "description": "The Invictus marine accord in its densest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-tom-ford-tom-ford-ombre-leather",
@@ -1210,13 +1245,27 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Lime",
+      "Lemon",
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Blackcurrant",
+      "Juniper",
+      "Apple",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Sparkling citrus and blackcurrant over clean musk and ambergris.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-xerjoff-xerjoff-naxos",
@@ -1322,13 +1371,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Rum",
+      "Saffron",
+      "Peach",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Virginia Cedar",
+      "Dried Fruits",
+      "Cinnamon",
+      "Immortelle"
+    ],
+    "base_notes": [
+      "Atlas Cedar",
+      "Tonka Bean",
+      "Vanilla",
+      "Labdanum",
+      "Patchouli"
+    ],
+    "description": "The Halfeti spice rebuilt around two cedars, rum and dried fruit. Luminous and warm.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-frederic-malle-frederic-malle-musc-ravageur",
@@ -1376,13 +1440,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
+      "Bergamot",
+      "Mandarin"
+    ],
+    "middle_notes": [
+      "Lavender",
+      "Geranium",
+      "Cinnamon"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Musk",
       "Amber"
     ],
-    "description": "",
+    "description": "A polished fresh-spicy crowd-pleaser with a soft tonka finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-xerjoff-xerjoff-alexandria-ii",

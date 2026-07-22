@@ -832,13 +832,21 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Lemon",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver"
+    ],
+    "description": "Clean lavender and lemon over sweet vanilla and patchouli.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-quality-burberry-burberry-hero",
@@ -1380,13 +1388,22 @@
       "Fruity"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fruity"
+      "Mandarin",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Coffee",
+      "Sandalwood"
+    ],
+    "description": "The Layton sweetness sharpened with coffee.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-niche-diptyque-diptyque-oyedo",

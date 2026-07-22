@@ -1171,13 +1171,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Rose de Mai",
+      "Turkish Rose",
+      "Bulgarian Rose"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turmeric",
+      "Sichuan Pepper"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Patchouli"
+    ],
+    "description": "Three roses with thorns of pepper and turmeric.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-tom-ford-tom-ford-jasmin-rouge",
@@ -1191,13 +1200,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Jasmine Sambac"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Ginger",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Amber",
+      "Leather"
+    ],
+    "description": "Lipstick-red jasmine spiced with cinnamon and ginger.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-frederic-malle-frederic-malle-une-fleur-de-cassie",
@@ -1242,13 +1260,32 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Lemon",
+      "Bergamot",
+      "Grapefruit",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose de Mai",
+      "Gardenia",
+      "Jasmine",
+      "Ylang-Ylang",
+      "Violet",
+      "Peach"
+    ],
+    "base_notes": [
+      "Clove",
+      "Patchouli",
+      "Sandalwood",
+      "Vanilla",
+      "Tonka Bean",
+      "Orris",
+      "Musk"
+    ],
+    "description": "The Danger floral chypre in its densest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-creed-creed-aventus-for-her",
@@ -1320,13 +1357,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Pear",
+      "Litchi",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turkish Rose",
+      "Peony"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "The Delina rose washed lighter and dewier.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-xerjoff-xerjoff-alexandria-ii",

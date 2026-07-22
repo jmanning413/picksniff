@@ -164,8 +164,8 @@
     "jomashop_url": null
   },
   {
-    "id": "female-date-night-budget-paris-hilton-night",
-    "name": "Night",
+    "id": "female-date-night-budget-paris-hilton-can-can",
+    "name": "Can Can",
     "brand": "Paris Hilton",
     "concentration": "EDP",
     "tier": "budget",
@@ -175,13 +175,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Clementine",
+      "Nectarine",
+      "Cassis"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Wild Orchid"
+    ],
+    "base_notes": [
+      "Amber",
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Juicy clementine over orchid and warm amber. Cabaret-coded and built for nights out.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "FAKE-NAME REPAIR: no Paris Hilton 'Night' exists in her line (verified 2026-07-21). Can Can matches this row's Floral/Vanilla/Amber evening profile and remains widely sold. Pyramid from retailer listings; flagged for verification."
   },
   {
     "id": "female-date-night-budget-elizabeth-arden-untold-absolu",
@@ -318,13 +329,20 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Caramel"
     ],
-    "description": "",
+    "middle_notes": [
+      "White Musk"
+    ],
+    "base_notes": [
+      "Benzoin",
+      "Vanilla",
+      "Caramel"
+    ],
+    "description": "Burnt caramel and benzoin over powdery musk. Deliberately simple, unapologetically sweet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-giorgio-armani-my-way",
@@ -959,13 +977,23 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Spicy"
+      "Litchi",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Turkish Rose",
+      "Incense"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Oud"
+    ],
+    "description": "The Delina rose deepened with incense and oud.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-tom-ford-tom-ford-black-orchid",
@@ -979,13 +1007,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Truffle",
+      "Blackcurrant",
+      "Ylang-Ylang"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Rum"
+    ],
+    "base_notes": [
+      "Mexican Chocolate",
+      "Patchouli",
+      "Vanilla",
+      "Sandalwood"
+    ],
+    "description": "The Black Orchid darkness in its densest form.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-tom-ford-tom-ford-velvet-orchid",
@@ -1089,33 +1128,64 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Lemon",
+      "Bergamot",
+      "Grapefruit",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose de Mai",
+      "Gardenia",
+      "Jasmine",
+      "Ylang-Ylang",
+      "Violet",
+      "Peach"
+    ],
+    "base_notes": [
+      "Clove",
+      "Patchouli",
+      "Sandalwood",
+      "Vanilla",
+      "Tonka Bean",
+      "Orris",
+      "Musk"
+    ],
+    "description": "A grand floral chypre with clove-spiced warmth underneath. Glamorous and unapologetic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
-    "id": "female-date-night-niche-parfums-de-marly-leilani",
-    "name": "Leilani",
+    "id": "female-date-night-niche-parfums-de-marly-valaya",
+    "name": "Valaya",
     "brand": "Parfums de Marly",
     "concentration": "EDP",
     "tier": "niche",
     "accords": [
       "Floral",
-      "Vanilla",
-      "Amber"
+      "Fresh",
+      "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Mandarin",
+      "White Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "White Flowers"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Akigalawood",
+      "Vanilla",
+      "Vetiver"
+    ],
+    "description": "Creamy white flowers over clean musk and akigalawood. A veil of fresh linen with an evening glow.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "WRONG-BRAND REPAIR: Leilani is a Parfums d'Elmar fragrance, not Parfums de Marly (verified 2026-07-21). Replaced with a real, current, popular PdM feminine. Pyramid from the OFFICIAL PdM product page."
   },
   {
     "id": "female-date-night-niche-maison-margiela-replica-bubble-bath",

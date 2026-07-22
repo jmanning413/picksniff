@@ -280,13 +280,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Green Apple",
+      "Blood Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Rose Absolute"
+    ],
+    "base_notes": [
+      "Amberwood",
+      "Cedar"
+    ],
+    "description": "The 1 Million sweetness crowned with rose and amberwood.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-prada-prada-l-homme-intense",
@@ -300,13 +308,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Spicy"
+      "Neroli",
+      "Black Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Tonka Bean"
+    ],
+    "base_notes": [
+      "Amber",
+      "Patchouli",
+      "Sandalwood"
+    ],
+    "description": "The Prada iris warmed with tonka and amber.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-guess-guess-seductive-noir",
@@ -445,13 +462,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Woody"
+      "Blood Mandarin",
+      "Cinnamon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Myrrh",
+      "Rose"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Amber",
+      "Patchouli"
+    ],
+    "description": "The 1 Million DNA smoked with myrrh and tobacco.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-calvin-klein-obsession-for-men",
@@ -913,13 +939,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Amber",
-      "Vanilla",
-      "Woody"
+      "Honey",
+      "Tobacco Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Hay",
+      "Iris",
+      "Rose"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Honeyed tobacco and hay in desert heat. A modern classic of warmth.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-hugo-boss-boss-bottled",
@@ -1049,13 +1085,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Rosewood",
+      "Cardamom",
+      "Chinese Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud",
+      "Sandalwood",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Smooth oud and sandalwood over warm tonka. The approachable oud, dry and refined rather than medicinal.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-creed-creed-millesime-imperial",
@@ -1127,13 +1174,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Woody"
+      "Cinnamon",
+      "Pepper",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tobacco Leaf",
+      "Incense"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cypriol",
+      "Labdanum",
+      "Musk"
+    ],
+    "description": "Sweet vanilla and tobacco over cinnamon and incense. Warm, boozy and unmistakably wintry.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-xerjoff-naxos",
@@ -1167,13 +1225,27 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Lime",
+      "Lemon",
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Blackcurrant",
+      "Juniper",
+      "Apple",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambergris",
+      "Vetiver",
+      "Amber"
+    ],
+    "description": "Sparkling citrus and blackcurrant over clean musk and ambergris. Fresh, expensive-smelling and very smooth.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-frederic-malle-musc-ravageur",
@@ -1377,12 +1449,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Mandarin",
+      "Neroli",
+      "Saffron",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Rose",
+      "Kulfi"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Spiced mandarin and a dessert-like kulfi heart over warm amber and sandalwood.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]
