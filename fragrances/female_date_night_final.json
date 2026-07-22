@@ -280,13 +280,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Wild Berries",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honeysuckle",
+      "Gardenia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Caramel",
+      "Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "description": "The Viva La Juicy gourmand pulled darker and muskier.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-prada-candy",
@@ -1013,13 +1024,18 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Damask Rose"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud"
+    ],
+    "base_notes": [
+      "Clove"
+    ],
+    "description": "Dark rose over oud and clove. The richest, most evening-ready Jo Malone.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-roja-parfums-roja-parfums-danger-pour-femme",

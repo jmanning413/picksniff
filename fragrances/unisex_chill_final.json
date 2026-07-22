@@ -560,13 +560,23 @@
       "Green"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Green"
+      "Blackcurrant",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Violet",
+      "Hawthorn"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Vanilla",
+      "Opoponax"
+    ],
+    "description": "A powdery poppy-inspired floral over soft vanilla musk. Gentle and instantly recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-hermes-terre-d-hermes",
@@ -730,13 +740,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Amber"
+      "Ginger",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Maninka Fruit",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Leather",
+      "Woody Notes"
+    ],
+    "description": "Ginger and an exotic fruit note over soft leather. Smooth, deliberate and evening-coded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-dior-dior-fahrenheit",

@@ -115,13 +115,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Nutmeg",
+      "Ginger"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "The Issey freshness tuned for the gym: sharper citrus, more ginger.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-azzaro-azzaro-chrome-sport",
@@ -188,13 +197,23 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Melon",
+      "Lime",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Apple",
+      "Cucumber"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Amber"
+    ],
+    "description": "Melon and lime over clean musk. An easy, inoffensive early-2000s fresh scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-lacoste-lacoste-essential-sport",
@@ -243,7 +262,7 @@
       "Sandalwood",
       "Amber"
     ],
-    "description": "Cool mint and lavender over sweet vanilla. One of the best-selling men's fragrances ever made, and still everywhere.",
+    "description": "Cool mint and lavender over sweet vanilla. One of the best-selling men’s fragrances ever made, and still everywhere.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted",
@@ -447,13 +466,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Orange",
+      "Juniper Berries",
+      "Lavender",
+      "Mandarin",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Ginger",
+      "Orange Blossom",
+      "Lotus"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Benzoin",
+      "White Musk"
+    ],
+    "description": "Bright citrus and lavender over creamy sandalwood. A budget staple that consistently overdelivers.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-montblanc-mont-blanc-explorer-ultra-blue",
@@ -949,13 +981,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Yuzu",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Nutmeg",
+      "Saffron"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Musk"
+    ],
+    "description": "The Issey aquatic warmed with amber and saffron.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-narciso-rodriguez-narciso-rodriguez-for-him-bleu",

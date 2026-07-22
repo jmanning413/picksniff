@@ -149,13 +149,26 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Green Apple",
+      "Mint",
+      "Lavender",
+      "Grapefruit",
+      "Basil"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Geranium",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Fir",
+      "Cedar",
+      "Musk"
+    ],
+    "description": "Green apple and herbs over mossy woods. The backpack-bottle nineties classic, still everywhere.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-tommy-hilfiger-tommy-hilfiger-tommy",
@@ -279,13 +292,26 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Persimmon",
+      "Mandarin Orange",
+      "Red Apple",
+      "Violet Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lemon",
+      "Clary Sage",
+      "Cardamom"
+    ],
+    "base_notes": [
+      "Mahogany",
+      "Driftwood",
+      "Tobacco",
+      "Oakmoss"
+    ],
+    "description": "Orchard fruit over dry driftwood and tobacco. A likeable, low-stakes daily wear.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-lacoste-lacoste-l-12-12-blanc",
@@ -726,13 +752,21 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Ginger",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Maninka Fruit",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Leather",
+      "Woody Notes"
+    ],
+    "description": "Ginger and an exotic fruit note over soft leather. Smooth, deliberate and evening-coded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-burberry-burberry-london-for-men",
@@ -813,13 +847,20 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Geranium"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Vetiver"
+    ],
+    "description": "The Terre d Hermes mineral woods at their lightest and most citrus-forward.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-yves-saint-laurent-yves-saint-laurent-l-homme",
@@ -915,13 +956,26 @@
       "Fresh"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fresh"
+      "Lemon",
+      "Bergamot",
+      "Apple",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Honey",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Oakmoss",
+      "Tobacco",
+      "Musk"
+    ],
+    "description": "Citrus and honey over moss and tobacco. A quietly confident eighties chypre.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-montblanc-montblanc-legend-red",

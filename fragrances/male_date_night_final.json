@@ -11,13 +11,26 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Floral"
+      "Orange Blossom",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Heliotrope",
+      "Jasmine",
+      "Cinnamon"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "A pink tidal wave of heliotrope and vanilla. Loud, sweet and gloriously unsubtle since 1989.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-paco-rabanne-1-million",
@@ -156,13 +169,25 @@
       "Amber"
     ],
     "top_notes": [
+      "Mint",
+      "Lavender",
+      "Bergamot"
+    ],
+    "middle_notes": [
+      "Cinnamon",
+      "Orange Blossom",
+      "Caraway"
+    ],
+    "base_notes": [
       "Vanilla",
-      "Spicy",
+      "Tonka Bean",
+      "Sandalwood",
       "Amber"
     ],
-    "description": "",
+    "description": "Cool mint and lavender over sweet vanilla. One of the best-selling men’s fragrances ever made, and still everywhere.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-dolce-gabbana-dolce-gabbana-pour-homme",
@@ -295,13 +320,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Amber",
-      "Spicy",
-      "Vanilla"
+      "Sage",
+      "Bergamot",
+      "Peony"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine Sambac",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Suede",
+      "Haitian Vetiver"
+    ],
+    "description": "Powdery iris and jasmine over vanilla suede. Softer and dressier than the name suggests.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-lacoste-lacoste-l-12-12-noir",
@@ -315,13 +351,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Watermelon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Basil",
+      "Lavender",
+      "Verbena"
+    ],
+    "base_notes": [
+      "Dark Chocolate",
+      "Cashmeran",
+      "Patchouli",
+      "Coumarin"
+    ],
+    "description": "Watermelon and herbs over dark chocolate. Stranger and more interesting than the polo-shirt bottle admits.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-giorgio-armani-armani-code",
@@ -810,13 +856,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Oud Accord"
+    ],
+    "description": "The Le Male vanilla-lavender signature pushed richer and more resinous.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-yves-saint-laurent-y-le",
@@ -870,13 +923,19 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Fig Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Leather",
+      "Cedar"
+    ],
+    "description": "The Boss Bottled idea rebuilt darker: fig, orange blossom and leather.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-dior-fahrenheit",
@@ -1150,13 +1209,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Spicy",
-      "Amber",
-      "Woody"
+      "Bergamot",
+      "Juniper",
+      "Black Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Orris",
+      "Vetiver"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Amber",
+      "Oud"
+    ],
+    "description": "Peppered citrus over cinnamon and warm amber. Literary branding, crowd-pleasing juice.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-louis-vuitton-lv-ombre-nomade",

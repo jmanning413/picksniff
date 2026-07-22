@@ -49,13 +49,27 @@
       "Fruity"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody",
-      "Fruity"
+      "Apple",
+      "Plum",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Geranium",
+      "Cinnamon",
+      "Mahogany",
+      "Carnation"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Sandalwood",
+      "Cedar",
+      "Vetiver"
+    ],
+    "description": "Apple and cinnamon over creamy sandalwood and vanilla. The default smart-casual masculine for two decades.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-yves-saint-laurent-y",
@@ -268,13 +282,29 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Yuzu",
+      "Mandarin",
+      "Lemon",
+      "Tarragon",
+      "Cypress"
     ],
-    "description": "",
+    "middle_notes": [
+      "Nutmeg",
+      "Saffron",
+      "Blue Water Lily",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Musk",
+      "Tobacco",
+      "Amber",
+      "Cedar"
+    ],
+    "description": "Yuzu and water over spiced woods. The 1994 aquatic that defined a decade of freshness.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-kenneth-cole-kenneth-cole-black",
@@ -457,13 +487,22 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Aromatic"
+      "Cardamom",
+      "Black Pepper",
+      "Citruses"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Cashmere Wood",
+      "Moss"
+    ],
+    "description": "Peppered citrus over a marine heart and mossy woods. A cheap, cheerful blue fragrance.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-budget-lacoste-lacoste-l-12-12-blanc",

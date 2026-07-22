@@ -89,13 +89,21 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Aromatic"
+      "Lavender",
+      "Birch Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "African Violet",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Woody Notes",
+      "Musk"
+    ],
+    "description": "Lavender and birch over dark woods. The Bottled DNA dressed for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-paco-rabanne-paco-rabanne-pure-xs-black",
@@ -284,13 +292,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Ginger",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Maninka Fruit",
+      "Osmanthus"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vetiver",
+      "Woody Notes"
+    ],
+    "description": "The Scent signature concentrated and roughened with vetiver.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-davidoff-davidoff-adventure",
@@ -436,13 +453,26 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Mandarin",
+      "Ginger",
+      "Water Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cedar Leaf",
+      "Nutmeg",
+      "Lotus",
+      "Incense"
+    ],
+    "base_notes": [
+      "Suede",
+      "Violet Leaves",
+      "Musk",
+      "Ambergris"
+    ],
+    "description": "Cool mint and ginger over smoky woods and suede. Darker and denser than the original Black.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-zara-zara-night-pour-homme-iv",
@@ -524,12 +554,24 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic"
+      "Orange",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Geranium",
+      "Flint"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Cedar",
+      "Benzoin",
+      "Oakmoss"
+    ],
+    "description": "Orange over flint and vetiver. Mineral, dry and one of the great modern masculines.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-chanel-allure-homme-sport-eau-extreme",
@@ -764,12 +806,20 @@
       "Woody"
     ],
     "top_notes": [
-      "Aromatic",
-      "Woody"
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Narcissus",
+      "Rosewood"
+    ],
+    "base_notes": [
+      "Sclarene",
+      "Musk"
+    ],
+    "description": "Green sage and narcissus over a warm metallic finish. Modern and deliberately synthetic in the best way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-chanel-chanel-egoiste",
@@ -846,13 +896,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Ginger",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Maninka Fruit",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Leather",
+      "Amber",
+      "Woody Notes"
+    ],
+    "description": "The Scent signature in its deepest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-paco-rabanne-paco-rabanne-invictus",

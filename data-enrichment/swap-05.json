@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "swap": "swap-05",
+    "scope": "Fake-name cleanup round 5, found during batch-07 prep. Web-verified 2026-07-21.",
+    "provenance": "Pyramid sourced from retailer listings the same day. No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "female-sport-budget-lacoste-lacoste-eau-de-lacoste-l-12-12-pour-elle-energetic",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-budget-lacoste-l-12-12-pour-elle-sparkling",
+        "name": "Eau de Lacoste L.12.12 Pour Elle Sparkling", "brand": "Lacoste", "concentration": "EDT", "tier": "budget",
+        "accords": ["Fruity", "Fresh", "Vanilla"],
+        "top_notes": ["Red Apple", "Blackberry", "Mandarin Orange"],
+        "middle_notes": ["Cotton Candy", "Macaron", "Lily-of-the-Valley"],
+        "base_notes": ["Musk", "Vetiver", "Cashmere Wood", "Patchouli"],
+        "description": "Red apple and blackberry over a playful cotton-candy heart. Bright, sweet and made for daytime energy.",
+        "note": "NAME REPAIR: 'Pour Elle Energetic' does not exist; the real line is Sparkling/Elegant/Natural/Magnetic/French Panache (verified 2026-07-21). Sparkling chosen: currently sold on lacoste.com, and renaming to Eau Fraiche would duplicate the Fraiche row already in this pool. Pyramid sourced from retailer listings."
+      }
+    }
+  ]
+}

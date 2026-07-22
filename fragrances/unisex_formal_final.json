@@ -252,13 +252,24 @@
       "Floral"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Floral"
+      "Orange",
+      "Elemi",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pepper",
+      "Ambergris"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Cedar",
+      "Vetiver",
+      "Balsam Fir"
+    ],
+    "description": "Bitter orange over salty ambergris and woods. Sparkling and strange, like sea air at dusk.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-dior-hypnotic-poison",
@@ -1025,13 +1036,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Blackcurrant",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Violet",
+      "Hawthorn"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Vanilla",
+      "Opoponax"
+    ],
+    "description": "The Flower powdery-poppy signature in a deeper concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-tom-ford-tobacco-vanille",
@@ -1338,13 +1359,21 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Saffron",
+      "Nutmeg",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud"
+    ],
+    "base_notes": [
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "Saffron and lavender over a polished, potent oud. The modern reference oud for a reason.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-niche-penhaligon-s-penhaligon-s-the-tragedy-of-lord-george",

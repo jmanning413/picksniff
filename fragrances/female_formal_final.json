@@ -1270,13 +1270,18 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Damask Rose"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud"
+    ],
+    "base_notes": [
+      "Clove"
+    ],
+    "description": "Dark rose over oud and clove. The richest, most evening-ready Jo Malone.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-parfums-de-marly-parfums-de-marly-delina-la-rosee",
@@ -1504,11 +1509,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Amber"
+      "Saffron",
+      "Nutmeg",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Oud"
+    ],
+    "base_notes": [
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "Saffron and lavender over a polished, potent oud. The modern reference oud for a reason.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

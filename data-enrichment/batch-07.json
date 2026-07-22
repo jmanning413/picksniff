@@ -1,0 +1,1506 @@
+{
+  "_meta": {
+    "batch": "batch-07",
+    "scope": "Unique products ranked 301-350 by catalog row count.",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "counts": {
+      "medium": 37,
+      "high": 10
+    },
+    "products": 47,
+    "skipped_swapped": [
+      {
+        "product": "Gucci Gucci Bloom Acqua di Fiori",
+        "reason": "Row removed by swap-03 (flanker discontinued); replaced by core Gucci Bloom, fully enriched."
+      },
+      {
+        "product": "Guess Guess Effect Sport",
+        "reason": "Row repaired by swap-02 (fake name; real product is Guess Effect), which entered fully enriched."
+      },
+      {
+        "product": "Lacoste Lacoste Eau de Lacoste L.12.12 Pour Elle Energetic",
+        "reason": "CONFIRMED FAKE NAME (verified 2026-07-21): the L.12.12 Pour Elle line is Sparkling/Elegant/Natural/Magnetic/French Panache; no Energetic exists. Repaired via swap-05 to Sparkling (currently sold on lacoste.com), which enters fully enriched."
+      }
+    ],
+    "catalog_rows_covered": 47
+  },
+  "entries": [
+    {
+      "brand": "Guess",
+      "name": "Guess Seductive",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Bergamot",
+        "Blackcurrant"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Orange Blossom",
+        "Orris Root"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Cashmere Wood",
+        "Olibanum"
+      ],
+      "description": "Juicy pear over soft white florals and vanilla. Easy, sweet and inexpensive to like.",
+      "note": "RESEARCHED against retailer listings 2026-07-21; resolved to the original 2010 Seductive (the line has many later color flankers).",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-guess-guess-seductive"
+      ]
+    },
+    {
+      "brand": "Guess",
+      "name": "Seductive Homme Blue",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cardamom",
+        "Black Pepper",
+        "Citruses"
+      ],
+      "middle_notes": [
+        "Sea Notes",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Cashmere Wood",
+        "Moss"
+      ],
+      "description": "Peppered citrus over a marine heart and mossy woods. A cheap, cheerful blue fragrance.",
+      "note": "RESEARCHED against retailer listings (Perfume.com, FragranceX) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-budget-guess-seductive-homme-blue"
+      ]
+    },
+    {
+      "brand": "Guess",
+      "name": "Guess Seductive Noir",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Amber",
+        "Spicy",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Sage",
+        "Bergamot",
+        "Peony"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Jasmine Sambac",
+        "Lily-of-the-Valley"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Suede",
+        "Haitian Vetiver"
+      ],
+      "description": "Powdery iris and jasmine over vanilla suede. Softer and dressier than the name suggests.",
+      "note": "RESEARCHED against retailer listings 2026-07-21; resolved to the 2019 women’s Seductive Noir.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-guess-guess-seductive-noir"
+      ]
+    },
+    {
+      "brand": "Hermès",
+      "name": "Hermès Un Jardin Sur Le Toit",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Apple",
+        "Pear"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Basil",
+        "Grass"
+      ],
+      "base_notes": [
+        "Green Notes",
+        "Oakmoss"
+      ],
+      "description": "Crisp orchard fruit and grass on a Paris rooftop. Green, gentle and quietly witty.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-hermes-hermes-un-jardin-sur-le-toit"
+      ]
+    },
+    {
+      "brand": "Hermès",
+      "name": "Hermès Eau de Citron Noir",
+      "concentration": "EDC",
+      "tier": "niche",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Aquatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Citron",
+        "Lime",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Black Tea"
+      ],
+      "base_notes": [
+        "Musk",
+        "Smoky Notes"
+      ],
+      "description": "Dark citrus over smoke and black tea. A cologne with shadows in it.",
+      "note": "Hermes publishes minimal structure for this cologne; tiering approximated. Verify against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-hermes-hermes-eau-de-citron-noir"
+      ]
+    },
+    {
+      "brand": "Hermès",
+      "name": "Hermès Terre d'Hermès Eau Très Fra\\356che",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Grapefruit"
+      ],
+      "middle_notes": [
+        "Geranium"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Vetiver"
+      ],
+      "description": "The Terre d Hermes mineral woods at their lightest and most citrus-forward.",
+      "note": "Eau Tres Fraiche concentration of the Terre d Hermes line; shares the DNA.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-quality-hermes-hermes-terre-d-hermes-eau-tres-fra-356che"
+      ]
+    },
+    {
+      "brand": "Hermès",
+      "name": "Terre d'Hermès",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Orange",
+        "Grapefruit"
+      ],
+      "middle_notes": [
+        "Pepper",
+        "Geranium",
+        "Flint"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Cedar",
+        "Benzoin",
+        "Oakmoss"
+      ],
+      "description": "Orange over flint and vetiver. Mineral, dry and one of the great modern masculines.",
+      "note": "Catalog lists EDP; Terre d Hermes ships as EDT and Parfum. Notes reflect the shared line DNA.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-hermes-terre-d-hermes"
+      ]
+    },
+    {
+      "brand": "Hermès",
+      "name": "Hermès H24",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Clary Sage"
+      ],
+      "middle_notes": [
+        "Narcissus",
+        "Rosewood"
+      ],
+      "base_notes": [
+        "Sclarene",
+        "Musk"
+      ],
+      "description": "Green sage and narcissus over a warm metallic finish. Modern and deliberately synthetic in the best way.",
+      "note": "H24 ships as EDT and EDP; the catalog says Parfum, which is not a documented concentration. Notes reflect the line DNA; confirm the row.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-hermes-hermes-h24"
+      ]
+    },
+    {
+      "brand": "Hermès",
+      "name": "Hermès Eau des Merveilles",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Elemi",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Pepper",
+        "Ambergris"
+      ],
+      "base_notes": [
+        "Oakmoss",
+        "Cedar",
+        "Vetiver",
+        "Balsam Fir"
+      ],
+      "description": "Bitter orange over salty ambergris and woods. Sparkling and strange, like sea air at dusk.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-budget-hermes-hermes-eau-des-merveilles"
+      ]
+    },
+    {
+      "brand": "Histoires de Parfums",
+      "name": "1899 Hemingway",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Spicy",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Juniper",
+        "Black Pepper"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Orris",
+        "Vetiver"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Amber",
+        "Oud"
+      ],
+      "description": "Peppered citrus over cinnamon and warm amber. Literary branding, crowd-pleasing juice.",
+      "note": "Confirm the exact list against the brand page; sources vary on secondary notes.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-histoires-de-parfums-duro-edp-nasomatto-edp-woody-267-amber-267-spicy-11-1899-hemingway"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Woman",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Apple",
+        "Melon",
+        "Papaya",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Lily",
+        "Orris"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Amber",
+        "Vanilla",
+        "Cedar"
+      ],
+      "description": "Crisp green fruit over soft florals and sandalwood. Bright, clean and very nineties.",
+      "note": "RESEARCHED 2026-07-21; resolved to the 1997 EDT (the 2015 EDP relaunch is a different boysenberry-and-black-tea composition).",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-hugo-boss-hugo-woman"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Man",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Apple",
+        "Mint",
+        "Lavender",
+        "Grapefruit",
+        "Basil"
+      ],
+      "middle_notes": [
+        "Sage",
+        "Geranium",
+        "Carnation"
+      ],
+      "base_notes": [
+        "Fir",
+        "Cedar",
+        "Musk"
+      ],
+      "description": "Green apple and herbs over mossy woods. The backpack-bottle nineties classic, still everywhere.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-hugo-boss-hugo-boss-hugo-man"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Boss Boss The Scent",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Maninka Fruit",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Leather",
+        "Woody Notes"
+      ],
+      "description": "Ginger and an exotic fruit note over soft leather. Smooth, deliberate and evening-coded.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-quality-hugo-boss-hugo-boss-boss-the-scent"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Boss Number One",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Aromatic",
+        "Woody",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Bergamot",
+        "Apple",
+        "Green Notes"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Honey",
+        "Carnation"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Oakmoss",
+        "Tobacco",
+        "Musk"
+      ],
+      "description": "Citrus and honey over moss and tobacco. A quietly confident eighties chypre.",
+      "note": "Confirm secondary notes; sources vary on this 1985 release.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-quality-hugo-boss-hugo-boss-number-one"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Boss Bottled",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aromatic",
+        "Woody",
+        "Fruity"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Apple",
+        "Plum",
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Geranium",
+        "Cinnamon",
+        "Mahogany",
+        "Carnation"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Sandalwood",
+        "Cedar",
+        "Vetiver"
+      ],
+      "description": "Apple and cinnamon over creamy sandalwood and vanilla. The default smart-casual masculine for two decades.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-budget-hugo-boss-boss-bottled"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Boss Bottled",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Fig Leaf"
+      ],
+      "middle_notes": [
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Leather",
+        "Cedar"
+      ],
+      "description": "The Boss Bottled idea rebuilt darker: fig, orange blossom and leather.",
+      "note": "Parfum concentration (2022). Confirm the Parfum-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-hugo-boss-boss-bottled"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Boss Boss Bottled Night",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lavender",
+        "Birch Leaf"
+      ],
+      "middle_notes": [
+        "African Violet",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Woody Notes",
+        "Musk"
+      ],
+      "description": "Lavender and birch over dark woods. The Bottled DNA dressed for evenings.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-hugo-boss-hugo-boss-boss-bottled-night"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Boss The Scent Absolute",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Maninka Fruit",
+        "Osmanthus"
+      ],
+      "base_notes": [
+        "Leather",
+        "Vetiver",
+        "Woody Notes"
+      ],
+      "description": "The Scent signature concentrated and roughened with vetiver.",
+      "note": "Absolute flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-hugo-boss-boss-the-scent-absolute"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Boss Boss The Scent",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Maninka Fruit",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Leather",
+        "Amber",
+        "Woody Notes"
+      ],
+      "description": "The Scent signature in its deepest concentration.",
+      "note": "Parfum concentration; shares the line DNA. Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-hugo-boss-hugo-boss-boss-the-scent"
+      ]
+    },
+    {
+      "brand": "Hugo Boss",
+      "name": "Hugo Boss The Scent",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Maninka Fruit",
+        "Lavender"
+      ],
+      "base_notes": [
+        "Leather",
+        "Woody Notes"
+      ],
+      "description": "Ginger and an exotic fruit note over soft leather. Smooth, deliberate and evening-coded.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Boss The Scent\" EDT row, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-quality-hugo-boss-hugo-boss-the-scent"
+      ]
+    },
+    {
+      "brand": "Initio",
+      "name": "Oud for Greatness",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Saffron",
+        "Nutmeg",
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Oud"
+      ],
+      "base_notes": [
+        "Musk",
+        "Patchouli"
+      ],
+      "description": "Saffron and lavender over a polished, potent oud. The modern reference oud for a reason.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-initio-oud-for-greatness"
+      ]
+    },
+    {
+      "brand": "Initio",
+      "name": "Initio Oud for Greatness",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Aromatic"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Saffron",
+        "Nutmeg",
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Oud"
+      ],
+      "base_notes": [
+        "Musk",
+        "Patchouli"
+      ],
+      "description": "Saffron and lavender over a polished, potent oud. The modern reference oud for a reason.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Oud for Greatness\" row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-niche-initio-initio-oud-for-greatness"
+      ]
+    },
+    {
+      "brand": "Issey Miyake",
+      "name": "L'Eau d'Issey pour Homme",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Yuzu",
+        "Mandarin",
+        "Lemon",
+        "Tarragon",
+        "Cypress"
+      ],
+      "middle_notes": [
+        "Nutmeg",
+        "Saffron",
+        "Blue Water Lily",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Musk",
+        "Tobacco",
+        "Amber",
+        "Cedar"
+      ],
+      "description": "Yuzu and water over spiced woods. The 1994 aquatic that defined a decade of freshness.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-budget-issey-miyake-l-eau-d-issey-pour-homme"
+      ]
+    },
+    {
+      "brand": "Issey Miyake",
+      "name": "L'Eau d'Issey pour Homme Sport",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Nutmeg",
+        "Ginger"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Musk",
+        "Cedar"
+      ],
+      "description": "The Issey freshness tuned for the gym: sharper citrus, more ginger.",
+      "note": "Sport flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-issey-miyake-l-eau-d-issey-pour-homme-sport"
+      ]
+    },
+    {
+      "brand": "Issey Miyake",
+      "name": "L'Eau d'Issey Pour Homme Intense",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Yuzu",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Nutmeg",
+        "Saffron"
+      ],
+      "base_notes": [
+        "Amber",
+        "Sandalwood",
+        "Musk"
+      ],
+      "description": "The Issey aquatic warmed with amber and saffron.",
+      "note": "Intense flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-issey-miyake-l-eau-d-issey-pour-homme-intense"
+      ]
+    },
+    {
+      "brand": "Jaguar",
+      "name": "Jaguar Classic Blue",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Juniper Berries",
+        "Lavender",
+        "Mandarin",
+        "Basil"
+      ],
+      "middle_notes": [
+        "Ginger",
+        "Orange Blossom",
+        "Lotus"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Benzoin",
+        "White Musk"
+      ],
+      "description": "Bright citrus and lavender over creamy sandalwood. A budget staple that consistently overdelivers.",
+      "note": "RESEARCHED against retailer listings (HNAK, The Perfume Spot, Amazon) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-jaguar-jaguar-classic-blue"
+      ]
+    },
+    {
+      "brand": "Jean Paul Gaultier",
+      "name": "Le Male",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Mint",
+        "Lavender",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Cinnamon",
+        "Orange Blossom",
+        "Caraway"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Sandalwood",
+        "Amber"
+      ],
+      "description": "Cool mint and lavender over sweet vanilla. One of the best-selling men’s fragrances ever made, and still everywhere.",
+      "note": "Same product as the swap-02 replacement row in male_sport; pyramid kept identical across all rows.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-jean-paul-gaultier-le-male"
+      ]
+    },
+    {
+      "brand": "Jean Paul Gaultier",
+      "name": "Le Male Le Parfum",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Oud Accord"
+      ],
+      "description": "The Le Male vanilla-lavender signature pushed richer and more resinous.",
+      "note": "Le Parfum concentration (2020). Confirm the specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-jean-paul-gaultier-le-male-le"
+      ]
+    },
+    {
+      "brand": "Jennifer Lopez",
+      "name": "Glow",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange",
+        "Neroli",
+        "Grapefruit"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine",
+        "Sandalwood"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "Amber"
+      ],
+      "description": "Clean soap and soft musk with a citrus glow. The fresh-out-the-shower blueprint since 2002.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-lopez-glow-edt-jennifer"
+      ]
+    },
+    {
+      "brand": "Jessica Simpson",
+      "name": "Fancy",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Apricot",
+        "Red Fruits"
+      ],
+      "middle_notes": [
+        "Gardenia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Caramel",
+        "Vanilla",
+        "Sandalwood",
+        "Amber"
+      ],
+      "description": "Juicy pear over gardenia and caramel. Sweet, flirty and comfortable being exactly that.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-jessica-simpson-fancy"
+      ]
+    },
+    {
+      "brand": "Jo Malone",
+      "name": "Jo Malone Peony & Blush Suede",
+      "concentration": "Cologne",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Fruity"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Red Apple"
+      ],
+      "middle_notes": [
+        "Peony"
+      ],
+      "base_notes": [
+        "Suede"
+      ],
+      "description": "Crisp apple, lush peony and soft suede. One of the house’s defining trios.",
+      "note": "Jo Malone publishes colognes as note trios; tiering follows the official top/heart/base assignment.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-jo-malone-jo-malone-peony-blush-suede"
+      ]
+    },
+    {
+      "brand": "Jo Malone",
+      "name": "Jo Malone English Pear & Freesia",
+      "concentration": "Cologne",
+      "tier": "niche",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Fresh"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "King William Pear"
+      ],
+      "middle_notes": [
+        "Freesia"
+      ],
+      "base_notes": [
+        "Patchouli"
+      ],
+      "description": "Ripe pear and white freesia over quiet patchouli. The house’s autumn bestseller.",
+      "note": "Jo Malone publishes colognes as note trios; tiering follows the official assignment.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-jo-malone-jo-malone-english-pear-freesia"
+      ]
+    },
+    {
+      "brand": "Jo Malone",
+      "name": "Jo Malone Blackberry & Bay",
+      "concentration": "Cologne",
+      "tier": "niche",
+      "accords": [
+        "Fruity",
+        "Fresh",
+        "Floral"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Blackberry"
+      ],
+      "middle_notes": [
+        "Bay Leaf"
+      ],
+      "base_notes": [
+        "Cedar"
+      ],
+      "description": "Tart blackberry brightened with green bay. Instantly likeable and very English.",
+      "note": "Jo Malone publishes colognes as note trios; tiering follows the official assignment.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-jo-malone-jo-malone-blackberry-bay"
+      ]
+    },
+    {
+      "brand": "Jo Malone",
+      "name": "Jo Malone Velvet Rose & Oud",
+      "concentration": "Cologne Intense",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Damask Rose"
+      ],
+      "middle_notes": [
+        "Oud"
+      ],
+      "base_notes": [
+        "Clove"
+      ],
+      "description": "Dark rose over oud and clove. The richest, most evening-ready Jo Malone.",
+      "note": "Cologne Intense line trio.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-jo-malone-jo-malone-velvet-rose-oud"
+      ]
+    },
+    {
+      "brand": "Jo Malone",
+      "name": "Jo Malone Velvet Rose & Oud Intense",
+      "concentration": "Cologne Intense",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Damask Rose"
+      ],
+      "middle_notes": [
+        "Oud"
+      ],
+      "base_notes": [
+        "Clove"
+      ],
+      "description": "Dark rose over oud and clove. The richest, most evening-ready Jo Malone.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Velvet Rose & Oud\" Cologne Intense row; the extra \"Intense\" in the name is a data artifact, as the product line is already called Cologne Intense. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-niche-jo-malone-jo-malone-velvet-rose-oud-intense"
+      ]
+    },
+    {
+      "brand": "Joop!",
+      "name": "Joop! Homme",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Orange Blossom",
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Heliotrope",
+        "Jasmine",
+        "Cinnamon"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Sandalwood",
+        "Patchouli",
+        "Amber"
+      ],
+      "description": "A pink tidal wave of heliotrope and vanilla. Loud, sweet and gloriously unsubtle since 1989.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-joop-joop-homme"
+      ]
+    },
+    {
+      "brand": "Juicy Couture",
+      "name": "Viva La Juicy",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Wild Berries",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Honeysuckle",
+        "Gardenia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Amber",
+        "Caramel",
+        "Vanilla",
+        "Sandalwood",
+        "Praline"
+      ],
+      "description": "Juicy berries over honeysuckle and a caramel-praline base, in a lighter splash.",
+      "note": "EDT concentration; the EDP entered fully enriched via swap-02. Pyramid kept identical; confirm if the EDT differs.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-juicy-couture-viva-la-juicy"
+      ]
+    },
+    {
+      "brand": "Juicy Couture",
+      "name": "Viva La Juicy Noir",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Wild Berries",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Honeysuckle",
+        "Gardenia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Caramel",
+        "Vanilla",
+        "Amber",
+        "Sandalwood"
+      ],
+      "description": "The Viva La Juicy gourmand pulled darker and muskier.",
+      "note": "Noir flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-juicy-couture-viva-la-juicy-noir"
+      ]
+    },
+    {
+      "brand": "Kenneth Cole",
+      "name": "Kenneth Cole Connected",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Persimmon",
+        "Mandarin Orange",
+        "Red Apple",
+        "Violet Leaf"
+      ],
+      "middle_notes": [
+        "Lemon",
+        "Clary Sage",
+        "Cardamom"
+      ],
+      "base_notes": [
+        "Mahogany",
+        "Driftwood",
+        "Tobacco",
+        "Oakmoss"
+      ],
+      "description": "Orchard fruit over dry driftwood and tobacco. A likeable, low-stakes daily wear.",
+      "note": "RESEARCHED against retailer listings (FragranceNet, Basenotes) 2026-07-21. Formally Connected Kenneth Cole Reaction (2011).",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-kenneth-cole-kenneth-cole-connected"
+      ]
+    },
+    {
+      "brand": "Kenneth Cole",
+      "name": "Kenneth Cole Black Bold",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin",
+        "Ginger",
+        "Water Mint"
+      ],
+      "middle_notes": [
+        "Cedar Leaf",
+        "Nutmeg",
+        "Lotus",
+        "Incense"
+      ],
+      "base_notes": [
+        "Suede",
+        "Violet Leaves",
+        "Musk",
+        "Ambergris"
+      ],
+      "description": "Cool mint and ginger over smoky woods and suede. Darker and denser than the original Black.",
+      "note": "RESEARCHED against retailer listings (Perfumania, Kenneth Cole, Basenotes) 2026-07-21. Distinct from the 2003 Kenneth Cole Black.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-kenneth-cole-kenneth-cole-black-bold"
+      ]
+    },
+    {
+      "brand": "Kenneth Cole",
+      "name": "Kenneth Cole Reaction",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Melon",
+        "Lime",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Green Apple",
+        "Cucumber"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Amber"
+      ],
+      "description": "Melon and lime over clean musk. An easy, inoffensive early-2000s fresh scent.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-kenneth-cole-kenneth-cole-reaction"
+      ]
+    },
+    {
+      "brand": "Kenzo",
+      "name": "Flower by Kenzo",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Floral",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Violet",
+        "Hawthorn"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Vanilla",
+        "Opoponax"
+      ],
+      "description": "A powdery poppy-inspired floral over soft vanilla musk. Gentle and instantly recognisable.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-kenzo-flower-by-kenzo"
+      ]
+    },
+    {
+      "brand": "Kenzo",
+      "name": "Kenzo Flower",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Violet",
+        "Hawthorn"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Vanilla",
+        "Opoponax"
+      ],
+      "description": "A powdery poppy-inspired floral over soft vanilla musk. Gentle and instantly recognisable.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Flower by Kenzo\" EDT row, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-budget-kenzo-kenzo-flower"
+      ]
+    },
+    {
+      "brand": "Kenzo",
+      "name": "Kenzo Flower",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Violet",
+        "Hawthorn"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Vanilla",
+        "Opoponax"
+      ],
+      "description": "The Flower powdery-poppy signature in a deeper concentration.",
+      "note": "EDP concentration of the Flower EDT rows; shares the composition.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-quality-kenzo-kenzo-flower"
+      ]
+    },
+    {
+      "brand": "Lacoste",
+      "name": "Eau de Lacoste Pour Femme",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Floral",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Freesia",
+        "Apple Blossom",
+        "Pepper"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Violet"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Amber",
+        "Musk"
+      ],
+      "description": "Soft florals with a peppery edge over clean woods. Understated and office-perfect.",
+      "note": "Confirm against a retailer page; sources vary on secondary notes.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-lacoste-eau-de-lacoste-pour-femme"
+      ]
+    },
+    {
+      "brand": "Lacoste",
+      "name": "Lacoste L.12.12 Pour Elle Fra\\356che",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Yellow Mandarin",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Water Notes",
+        "Magnolia",
+        "Egyptian Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Patchouli"
+      ],
+      "description": "Watery citrus and magnolia over clean musk. Light, aquatic and made for hot days.",
+      "note": "RESEARCHED 2026-07-21; formally Eau de Lacoste L.12.12 Pour Elle Eau Fraiche (2018).",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-lacoste-lacoste-l-12-12-pour-elle-fra-356che"
+      ]
+    },
+    {
+      "brand": "Lacoste",
+      "name": "Lacoste L.12.12 Noir",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Spicy",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Watermelon"
+      ],
+      "middle_notes": [
+        "Basil",
+        "Lavender",
+        "Verbena"
+      ],
+      "base_notes": [
+        "Dark Chocolate",
+        "Cashmeran",
+        "Patchouli",
+        "Coumarin"
+      ],
+      "description": "Watermelon and herbs over dark chocolate. Stranger and more interesting than the polo-shirt bottle admits.",
+      "note": "RESEARCHED against retailer listings (Fragrance Outlet, Perfumebox) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-lacoste-lacoste-l-12-12-noir"
+      ]
+    }
+  ]
+}

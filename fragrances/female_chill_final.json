@@ -319,13 +319,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Amber"
+      "Pear",
+      "Bergamot",
+      "Blackcurrant"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Orange Blossom",
+      "Orris Root"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cashmere Wood",
+      "Olibanum"
+    ],
+    "description": "Juicy pear over soft white florals and vanilla. Easy, sweet and inexpensive to like.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-billie-eilish-eilish",

@@ -63,13 +63,24 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Fruity"
+      "Freesia",
+      "Apple Blossom",
+      "Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Violet"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Soft florals with a peppery edge over clean woods. Understated and office-perfect.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-britney-spears-curious",
@@ -115,13 +126,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Vanilla"
+      "Wild Berries",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honeysuckle",
+      "Gardenia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Amber",
+      "Caramel",
+      "Vanilla",
+      "Sandalwood",
+      "Praline"
+    ],
+    "description": "Juicy berries over honeysuckle and a caramel-praline base, in a lighter splash.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-britney-spears-fantasy",
@@ -198,13 +221,23 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Floral",
-      "Fresh"
+      "Blackcurrant",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Violet",
+      "Hawthorn"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Vanilla",
+      "Opoponax"
+    ],
+    "description": "A powdery poppy-inspired floral over soft vanilla musk. Gentle and instantly recognisable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-chanel-chance-eau-tendre",
@@ -387,13 +420,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Pear",
+      "Apricot",
+      "Red Fruits"
     ],
-    "description": "",
+    "middle_notes": [
+      "Gardenia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Caramel",
+      "Vanilla",
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "Juicy pear over gardenia and caramel. Sweet, flirty and comfortable being exactly that.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-paris-hilton-paris",
@@ -1024,13 +1068,18 @@
       "Fruity"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Fruity"
+      "Red Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony"
+    ],
+    "base_notes": [
+      "Suede"
+    ],
+    "description": "Crisp apple, lush peony and soft suede. One of the house’s defining trios.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-jo-malone-jo-malone-english-pear-freesia",
@@ -1044,13 +1093,18 @@
       "Fresh"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Fresh"
+      "King William Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Freesia"
+    ],
+    "base_notes": [
+      "Patchouli"
+    ],
+    "description": "Ripe pear and white freesia over quiet patchouli. The house’s autumn bestseller.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-jo-malone-jo-malone-blackberry-bay",
@@ -1064,13 +1118,18 @@
       "Floral"
     ],
     "top_notes": [
-      "Fruity",
-      "Fresh",
-      "Floral"
+      "Blackberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf"
+    ],
+    "base_notes": [
+      "Cedar"
+    ],
+    "description": "Tart blackberry brightened with green bay. Instantly likeable and very English.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-maison-margiela-maison-margiela-replica-springtime-in-a-park",

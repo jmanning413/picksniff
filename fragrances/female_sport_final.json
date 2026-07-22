@@ -77,13 +77,24 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "Orange",
+      "Neroli",
+      "Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Sandalwood"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "Amber"
+    ],
+    "description": "Clean soap and soft musk with a citrus glow. The fresh-out-the-shower blueprint since 2002.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-dkny-be-delicious",
@@ -149,13 +160,23 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "Grapefruit",
+      "Yellow Mandarin",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Water Notes",
+      "Magnolia",
+      "Egyptian Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "Watery citrus and magnolia over clean musk. Light, aquatic and made for hot days.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-tommy-hilfiger-tommy-girl",
@@ -323,13 +344,26 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Green Apple",
+      "Melon",
+      "Papaya",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Lily",
+      "Orris"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Amber",
+      "Vanilla",
+      "Cedar"
+    ],
+    "description": "Crisp green fruit over soft florals and sandalwood. Bright, clean and very nineties.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-versace-versace-versense",
@@ -453,24 +487,37 @@
     "jomashop_url": null
   },
   {
-    "id": "female-sport-budget-lacoste-lacoste-eau-de-lacoste-l-12-12-pour-elle-energetic",
-    "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Energetic",
+    "id": "female-sport-budget-lacoste-l-12-12-pour-elle-sparkling",
+    "name": "Eau de Lacoste L.12.12 Pour Elle Sparkling",
     "brand": "Lacoste",
     "concentration": "EDT",
     "tier": "budget",
     "accords": [
-      "Citrus",
+      "Fruity",
       "Fresh",
-      "Fruity"
+      "Vanilla"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Red Apple",
+      "Blackberry",
+      "Mandarin Orange"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cotton Candy",
+      "Macaron",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vetiver",
+      "Cashmere Wood",
+      "Patchouli"
+    ],
+    "description": "Red apple and blackberry over a playful cotton-candy heart. Bright, sweet and made for daytime energy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: 'Pour Elle Energetic' does not exist; the real line is Sparkling/Elegant/Natural/Magnetic/French Panache (verified 2026-07-21). Sparkling chosen: currently sold on lacoste.com, and renaming to Eau Fraiche would duplicate the Fraiche row already in this pool. Pyramid sourced from retailer listings."
   },
   {
     "id": "female-sport-quality-chanel-chance-eau-fra-356che",
@@ -1080,13 +1127,22 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Apple",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Basil",
+      "Grass"
+    ],
+    "base_notes": [
+      "Green Notes",
+      "Oakmoss"
+    ],
+    "description": "Crisp orchard fruit and grass on a Paris rooftop. Green, gentle and quietly witty.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-louis-vuitton-lv-spell-on-you",
@@ -1226,13 +1282,21 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
+      "Citron",
+      "Lime",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Black Tea"
+    ],
+    "base_notes": [
+      "Musk",
+      "Smoky Notes"
+    ],
+    "description": "Dark citrus over smoke and black tea. A cologne with shadows in it.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-atelier-cologne-atelier-cologne-orange-sanguine",
