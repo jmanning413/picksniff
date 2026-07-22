@@ -358,18 +358,46 @@ export default function NoseTestPage() {
                 </div>
               )}
 
-              {profile.trigeminal >= 2 && (
-                <div className="mt-4 rounded-2xl border border-sand bg-white p-6">
-                  <p className="text-sm font-bold uppercase tracking-[0.14em] text-slate">
-                    On strength
-                  </p>
-                  <p className="mt-3 text-base leading-7 text-black">
-                    You read sharp, peppery things strongly. Where a fragrance comes in more than one
-                    concentration, the lighter one (EDT rather than parfum) will usually suit you
-                    better.
-                  </p>
+              <div className="mt-4 rounded-2xl border border-sand bg-white p-6">
+                <p className="text-sm font-bold uppercase tracking-[0.14em] text-slate">
+                  How strongly you read scent
+                </p>
+
+                <div className="mt-4" aria-hidden>
+                  <div className="h-2 w-full overflow-hidden rounded-full bg-green-wash">
+                    <div
+                      className="h-full rounded-full bg-green-accent transition-all"
+                      style={{ width: `${Math.round(profile.olfactoryIntensity * 100)}%` }}
+                    />
+                  </div>
+                  <div className="mt-2 flex justify-between text-xs font-bold text-slate">
+                    <span>Selective</span>
+                    <span>Sensitive</span>
+                  </div>
                 </div>
-              )}
+
+                <p className="mt-4 text-base leading-7 text-black">
+                  {profile.intensityBand === 'sensitive' &&
+                    'You pick things up that other people walk straight past. That is a real advantage, and it means fragrance reaches your optimum sooner than it does for most people.'}
+                  {profile.intensityBand === 'typical' &&
+                    'You register most things at roughly the strength the perfumer intended, which makes standard concentrations a safe starting point.'}
+                  {profile.intensityBand === 'selective' &&
+                    'Your nose is picky about what it reports. Some materials land clearly for you and others stay quiet, which is common and worth knowing before you buy blind.'}
+                </p>
+
+                {profile.concentrationAdvice === 'lighter' && (
+                  <p className="mt-3 text-base leading-7 text-black">
+                    Where something comes in more than one strength, reach for the lighter one. An
+                    EDT will usually suit you better than an extrait, and less of it will go further.
+                  </p>
+                )}
+                {profile.concentrationAdvice === 'stronger' && (
+                  <p className="mt-3 text-base leading-7 text-black">
+                    Where something comes in more than one strength, the richer version is likely
+                    worth it. An EDP or extrait will read on you the way an EDT reads on most people.
+                  </p>
+                )}
+              </div>
 
               {profile.unfamiliarCount >= 5 && (
                 <p className="mt-4 text-sm leading-6 text-slate">
