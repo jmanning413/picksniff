@@ -1300,21 +1300,23 @@
     ],
     "top_notes": [
       "Lavender",
-      "Bergamot"
+      "Bergamot",
+      "Mandarin"
     ],
     "middle_notes": [
       "Cinnamon",
       "Clove"
     ],
     "base_notes": [
-      "Vanilla",
-      "Tonka Bean",
       "Musk",
+      "Vanilla",
       "Amber",
       "Sandalwood",
-      "Cedar"
+      "Cedar",
+      "Tonka Bean",
+      "Guaiac Wood"
     ],
-    "description": "Spiced vanilla and musk with almost no flowers. Warm, animalic and famously seductive.",
+    "description": "Warm spice and vanilla over a heavy musk. Sensual and skin-like, exactly as the name promises.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

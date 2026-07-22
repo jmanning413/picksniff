@@ -506,23 +506,24 @@
       "Green"
     ],
     "top_notes": [
-      "Lemon",
       "Bergamot",
+      "Lemon",
       "Mint",
-      "Orange Peel"
+      "Rhubarb"
     ],
     "middle_notes": [
       "Green Tea",
       "Jasmine",
-      "Carnation",
-      "Fennel"
+      "Fennel",
+      "Carnation"
     ],
     "base_notes": [
       "Musk",
       "Amber",
-      "Oakmoss"
+      "Oakmoss",
+      "Celery Seed"
     ],
-    "description": "Bitter green tea over bright citrus and clean musk. A warm-weather staple for almost thirty years.",
+    "description": "Steeped green tea with citrus and mint. Light, clean and refreshing, closer to a spa than a perfume counter.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"

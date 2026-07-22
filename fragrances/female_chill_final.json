@@ -620,16 +620,17 @@
       "Fruity"
     ],
     "top_notes": [
-      "Rangoon Creeper"
+      "Jasmine Bud"
     ],
     "middle_notes": [
       "Tuberose",
-      "Jasmine Sambac"
+      "Rangoon Creeper"
     ],
     "base_notes": [
-      "Orris Root"
+      "Orris Root",
+      "Sandalwood"
     ],
-    "description": "A dense white-floral bouquet, tuberose forward, with powdery orris underneath. Lush and unapologetically floral.",
+    "description": "A lush white-floral built on tuberose and jasmine. The core Bloom, a current pillar that sells year after year.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"
@@ -1320,23 +1321,25 @@
       "Vanilla"
     ],
     "top_notes": [
+      "Turkish Rose",
       "Raspberry",
       "Blackcurrant",
       "Cinnamon",
       "Clove"
     ],
     "middle_notes": [
-      "Turkish Rose",
-      "Patchouli",
-      "Sandalwood"
+      "Rose",
+      "Patchouli"
     ],
     "base_notes": [
-      "Frankincense",
+      "Patchouli",
+      "Sandalwood",
+      "Incense",
+      "Ambroxan",
       "Benzoin",
-      "Musk",
-      "Amber"
+      "Musk"
     ],
-    "description": "A monumental rose built on patchouli and incense. Dense, dramatic and long-lasting, with nothing shy about it.",
+    "description": "An enormous rose over dark patchouli and incense. One of the most acclaimed perfumes of the century.",
     "sephora_url": null,
     "jomashop_url": null,
     "data_status": "drafted"
