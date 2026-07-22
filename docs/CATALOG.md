@@ -198,14 +198,20 @@ Update this table as batches merge. "—" = not started.
 | Stage | Scope | Status | Date |
 |---|---|---|---|
 | A sample | 5-product proof of concept (`batch-01-sample.json`) | Approved | 2026-07-20 |
-| A batch 01 | Top 50 products by row count, 175 rows (24 high / 24 medium / 2 low) | **Awaiting review** | 2026-07-21 |
-| A batches 02–10 | Remaining ~442 unique products, descending row count | — | |
+| A batches 01–10 + gapfill | All 492 manifest products, **748/748 rows (100%)**, ~60 researched w/ inline sources, 13 fake/misattributed names repaired (swap-01…07), 20 dead products replaced (cut-audit-01 + full-db sweep) | **DONE, merged, live** | 2026-07-21 |
+| A0 | Name repairs: ~40 dup/corrupt-name rows documented in batch notes (`DUPLICATE PRODUCT` / corrupt-bytes flags); duplicate-id migration (Bleu de Chanel EDP/EDT) needs a plan | Backlog, documented | |
 | B | Affiliate applications sent | — | |
 | B | First feed imported, links merged | — | |
 | C | Images: top 100 | — | |
 | C | Images: full catalog coverage | — | |
-| D | Notes pyramid UI + real notes filter | — | |
+| D | Notes pyramid UI (fragrance page Top/Heart/Base card, gated on data presence) | **DONE, live** | 2026-07-21 |
+| D | Real notes filter in the engine (un-placebo quiz Step 6) | — | |
 | E | Validation script in prebuild | — | |
+
+Availability watch list (recheck ~quarterly): Lacoste line (license moved to
+Interparfums 2024), Tom Ford Velvet Orchid, Nautica Classic ×3, Dunhill Desire
+Blue, Replica Flower Market ×2. Verify-flagged pyramids for Phase 2 are marked
+with notes inside the batch files.
 
 ## 5. Definition of done (per fragrance)
 
