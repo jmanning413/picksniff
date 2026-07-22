@@ -418,13 +418,23 @@
       "Green"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Green"
+      "Pineapple",
+      "Bergamot",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Water Lily",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "Pineapple and water lily over clean woods. A five-dollar sea breeze that keeps its promise.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-budget-claiborne-curve-for-men-liz",
@@ -703,13 +713,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Ginger",
+      "Thyme",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vanilla",
+      "Cinnamon",
+      "Apple"
+    ],
+    "base_notes": [
+      "Sugar Cane",
+      "Cashmere Wood",
+      "Myrrh"
+    ],
+    "description": "Ginger fizz over warm vanilla and sugar. Playful, sweet and built to be noticed.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-giorgio-armani-acqua-di-gio-profumo",
@@ -1049,13 +1070,23 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Green"
+      "Bergamot",
+      "Fig"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bay Leaf",
+      "Black Tea"
+    ],
+    "base_notes": [
+      "Hay",
+      "Tobacco",
+      "Musk",
+      "Cedar"
+    ],
+    "description": "Black tea, fig and hay. Dry, smoky and quietly addictive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-le-labo-le-labo-another-13",
@@ -1161,13 +1192,20 @@
       "Woody"
     ],
     "top_notes": [
-      "Green",
-      "Fresh",
-      "Woody"
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Matcha Tea",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "White Chocolate",
+      "Musk"
+    ],
+    "description": "Green matcha sweetened with white chocolate. Calm, creamy and modern.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-niche-jo-malone-jo-malone-wood-sage-sea-salt",

@@ -11,13 +11,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
-      "Amber"
+      "Passion Flower"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Gardenia"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Vetiver"
+    ],
+    "description": "Creamy vanilla under soft white florals. Cozy and quietly seductive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-viktor-rolf-flowerbomb-midnight",
@@ -390,13 +397,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
+      "Rose",
+      "Peach"
+    ],
+    "middle_notes": [
+      "Musk"
+    ],
+    "base_notes": [
+      "Patchouli",
       "Amber"
     ],
-    "description": "",
+    "description": "An enveloping musk dressed with rose and peach. The modern musk benchmark.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-ariana-grande-thank-u-next",
@@ -586,13 +600,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Floral",
+      "Water Jasmine",
+      "Green Mandarin"
+    ],
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris",
       "Amber"
     ],
-    "description": "",
+    "description": "The salted-vanilla Olympea signature pushed deeper and warmer.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-lancome-idole-aura",
@@ -606,13 +630,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "The Idole rose warmed with vanilla and a salty glow.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-gucci-gucci-flora-gorgeous-magnolia",
@@ -753,13 +786,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mango",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Incense"
+    ],
+    "description": "Juicy mango over jasmine, vanilla and a curl of incense. A current bestseller.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-burberry-burberry-goddess",

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "swap": "swap-06",
+    "scope": "Fake-name cleanup round 6, found during batch-08 prep. Web-verified 2026-07-21.",
+    "provenance": "Pyramid sourced from retailer listings the same day. No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "female-sport-budget-nautica-nautica-voyage-pour-elle",
+      "file": "female_sport_final.json",
+      "replacement": {
+        "id": "female-sport-budget-nautica-my-voyage",
+        "name": "Nautica My Voyage", "brand": "Nautica", "concentration": "EDP", "tier": "budget",
+        "accords": ["Aquatic", "Fresh", "Citrus"],
+        "top_notes": ["Grapefruit", "Bergamot", "Key Lime"],
+        "middle_notes": ["Peony", "Lotus", "Lily-of-the-Valley", "Aquatic Notes"],
+        "base_notes": ["Musk", "Orris", "Golden Amber"],
+        "description": "Citrus and watery peony over warm amber. The women's answer to Voyage, breezy and easy.",
+        "note": "NAME REPAIR: 'Nautica Voyage Pour Elle' does not exist; the real women's product is Nautica My Voyage (2007), verified 2026-07-21. Pyramid sourced from retailer listings (FragranceX, Fragrance Shop)."
+      }
+    }
+  ]
+}

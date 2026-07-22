@@ -1066,13 +1066,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Bergamot",
+      "Grapefruit",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Cardamom",
+      "Aquatic Notes"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Cashmere Wood",
+      "Oakmoss"
+    ],
+    "description": "The Legend fougere washed brighter and cleaner. Easy to wear anywhere.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-niche-creed-creed-aventus-cologne",
@@ -1151,13 +1162,25 @@
       "Fruity"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fruity"
+      "Pink Pepper",
+      "Neroli",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rum",
+      "Clary Sage",
+      "Vanilla"
+    ],
+    "base_notes": [
+      "Tobacco Leaf",
+      "Vetiver",
+      "Styrax",
+      "Benzoin"
+    ],
+    "description": "Boozy rum and sweet tobacco in a wood-panelled room. Warm, smoky and very easy to like.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-daily-niche-louis-vuitton-lv-imagination",

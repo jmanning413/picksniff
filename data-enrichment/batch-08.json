@@ -1,0 +1,1438 @@
+{
+  "_meta": {
+    "batch": "batch-08",
+    "scope": "Unique products ranked 351-400 by catalog row count.",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "counts": {
+      "medium": 37,
+      "high": 8
+    },
+    "products": 45,
+    "skipped_swapped": [
+      {
+        "product": "Le Labo Le Labo Rose 31 Intense",
+        "reason": "Row repaired by swap-03 (fake name; real product Rose 31), which entered fully enriched."
+      },
+      {
+        "product": "Le Labo Le Labo Citron 28",
+        "reason": "Row removed by swap-03 (Seoul city exclusive, fails availability standard); replaced by Another 13, fully enriched."
+      },
+      {
+        "product": "Maison Margiela Maison Margiela Replica Flower Market Night",
+        "reason": "Row repaired by swap-03 (fake name); replaced by Replica Bubble Bath, fully enriched."
+      },
+      {
+        "product": "Montblanc Mont Blanc Individuel",
+        "reason": "Row removed by cut-audit-01 (discontinued); replaced by Montblanc Legend, fully enriched."
+      },
+      {
+        "product": "Nautica Nautica Voyage Pour Elle",
+        "reason": "CONFIRMED FAKE NAME (verified 2026-07-21): no Nautica Voyage Pour Elle exists; the real women’s product is Nautica My Voyage (2007). Repaired via swap-06, which enters fully enriched."
+      }
+    ],
+    "catalog_rows_covered": 45
+  },
+  "entries": [
+    {
+      "brand": "Lacoste",
+      "name": "Lacoste Essential Sport",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Aquatic",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Grapefruit",
+        "Bergamot",
+        "Ginger"
+      ],
+      "middle_notes": [
+        "Water Notes",
+        "Juniper",
+        "Geranium",
+        "Nutmeg"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Musk",
+        "Patchouli"
+      ],
+      "description": "Grapefruit and ginger over watery greens and vetiver. Brisk and gym-bag simple.",
+      "note": "RESEARCHED against retailer listings (Fragplace, Basenotes) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-lacoste-lacoste-essential-sport"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "La Vie Est Belle L'\\311clat",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Praline"
+      ],
+      "description": "The La Vie Est Belle sweetness lifted with orange blossom and light musk.",
+      "note": "L Eclat flanker. Shares the line DNA; confirm the flanker-specific list. NOTE: the catalog name string contains literal corrupt bytes (backslash-311 for the E-acute), same PDF-extraction disease as the fake names; a Stage A0 candidate for text repair.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-quality-lancome-la-vie-est-belle-l-311clat"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Tresor",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Peach",
+        "Apricot Blossom",
+        "Rose"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Heliotrope",
+        "Iris"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Vanilla",
+        "Musk",
+        "Amber"
+      ],
+      "description": "Peach and rose over powdery sandalwood. A soft-focus classic worn for three decades.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-quality-lancome-tresor"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Idôle",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Vanilla",
+        "Cedar"
+      ],
+      "description": "A weightless modern rose over clean musk. Minimal, radiant and hugely successful.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-quality-lancome-idole"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Hypnôse",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Passion Flower"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Gardenia"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Vetiver"
+      ],
+      "description": "Creamy vanilla under soft white florals. Cozy and quietly seductive.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-lancome-hypnose"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Idôle Aura",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Musk",
+        "Sandalwood"
+      ],
+      "description": "The Idole rose warmed with vanilla and a salty glow.",
+      "note": "Aura flanker (2021, confirmed NOT discontinued by Lancome). Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-lancome-idole-aura"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Idôle Nectar",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Rose"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Musk"
+      ],
+      "description": "The Idole rose whipped into a sweeter, creamier register.",
+      "note": "Nectar flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-lancome-idole-nectar"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Idôle",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Vanilla",
+        "Cedar"
+      ],
+      "description": "The Idole clean rose in a lighter register.",
+      "note": "Idole ships as EDP and flankers; an EDT is not a documented concentration. Notes reflect the line DNA; confirm what this row is.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-lancome-idole"
+      ]
+    },
+    {
+      "brand": "Lancôme",
+      "name": "Lancôme La Vie Est Belle",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Blackcurrant",
+        "Pear"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Jasmine",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Praline",
+        "Vanilla",
+        "Patchouli",
+        "Tonka Bean"
+      ],
+      "description": "A sweet gourmand centered on praline and iris, softened by tonka and vanilla.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"La Vie Est Belle\" row enriched in batch-01, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-quality-lancome-lancome-la-vie-est-belle"
+      ]
+    },
+    {
+      "brand": "Le Labo",
+      "name": "Le Labo Ylang 49",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ylang-Ylang"
+      ],
+      "middle_notes": [
+        "Gardenia",
+        "Oakmoss"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Vetiver",
+        "Sandalwood",
+        "Benzoin"
+      ],
+      "description": "A mossy white-floral chypre, deep green and slightly retro.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-le-labo-le-labo-ylang-49"
+      ]
+    },
+    {
+      "brand": "Le Labo",
+      "name": "Le Labo The Noir 29",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Fig"
+      ],
+      "middle_notes": [
+        "Bay Leaf",
+        "Black Tea"
+      ],
+      "base_notes": [
+        "Hay",
+        "Tobacco",
+        "Musk",
+        "Cedar"
+      ],
+      "description": "Black tea, fig and hay. Dry, smoky and quietly addictive.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-niche-le-labo-le-labo-the-noir-29"
+      ]
+    },
+    {
+      "brand": "Lolita Lempicka",
+      "name": "Lolita Lempicka",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ivy",
+        "Anise"
+      ],
+      "middle_notes": [
+        "Licorice",
+        "Violet",
+        "Amarena Cherry"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Vanilla",
+        "Musk",
+        "Praline"
+      ],
+      "description": "Anise and licorice over vanilla praline. A fairy-tale gourmand that predates the trend.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-lempicka-lolita-lempicka-edp-lolita"
+      ]
+    },
+    {
+      "brand": "Louis Vuitton",
+      "name": "LV Spell on You",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Violet",
+        "Tuscan Iris",
+        "Green Notes"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Rose",
+        "Chinese Jasmine"
+      ],
+      "base_notes": [
+        "Acacia",
+        "Peach",
+        "White Musk"
+      ],
+      "description": "Powdery iris and violet over a soft peach-musk glow. Delicate and deliberately seductive.",
+      "note": "RESEARCHED against the OFFICIAL Louis Vuitton product page (us.louisvuitton.com) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-louis-vuitton-lv-spell-on-you"
+      ]
+    },
+    {
+      "brand": "Louis Vuitton",
+      "name": "LV Au Hasard",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Floral",
+        "Green"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Lemon",
+        "Aldehydes"
+      ],
+      "middle_notes": [
+        "Pear",
+        "Cardamom",
+        "Freesia",
+        "Neroli"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Ambrette",
+        "Musk",
+        "Leather",
+        "Cashmeran"
+      ],
+      "description": "Exceptional sandalwood grafted with pear liqueur and cottony musk. Quietly luxurious.",
+      "note": "RESEARCHED against the OFFICIAL Louis Vuitton product page (eu.louisvuitton.com) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-niche-louis-vuitton-lv-au-hasard"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Flower Market",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Notes",
+        "Freesia"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Tuberose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Musk"
+      ],
+      "description": "Cut stems and fresh florals, like burying your face in a market bouquet.",
+      "note": "Flower Market is formally an EDT; this EDP row is a concentration oddity. Notes reflect the product; on the brand US site the product sits in the discontinued section but remains deeply stocked (watch list).",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-niche-maison-margiela-maison-margiela-replica-flower-market"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica On A Date",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pink Pepper",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Grape",
+        "Rose"
+      ],
+      "base_notes": [
+        "Oak",
+        "Musk"
+      ],
+      "description": "Grape and rose over oak, like an aperitivo hour. Confirm the list against the brand page.",
+      "note": "Sources are thin on this 2020 release; pyramid flagged for verification.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-niche-maison-margiela-maison-margiela-replica-on-a-date"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Flower Market",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Notes",
+        "Freesia"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Tuberose",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Musk"
+      ],
+      "description": "Cut stems and fresh florals, like burying your face in a market bouquet.",
+      "note": "The formal EDT concentration; same product as the EDP row above. Watch list per the brand-site discontinued flag.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-maison-margiela-maison-margiela-replica-flower-market"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Springtime in a Park",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Lily-of-the-Valley",
+        "Rose"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Blond Woods"
+      ],
+      "description": "Pear and dewy florals over clean musk. Gentle, green and optimistic.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-maison-margiela-maison-margiela-replica-springtime-in-a-park"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Replica Under the Lemon Trees",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Petitgrain",
+        "Neroli"
+      ],
+      "base_notes": [
+        "Musk",
+        "Woody Notes"
+      ],
+      "description": "Shaded citrus and neroli, more dappled light than beach heat.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-niche-maison-margiela-replica-under-the-lemon-trees"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Under the Lemon Trees",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Fruity"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Petitgrain",
+        "Neroli"
+      ],
+      "base_notes": [
+        "Musk",
+        "Woody Notes"
+      ],
+      "description": "Shaded citrus and neroli, more dappled light than beach heat.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Replica Under the Lemon Trees\" row, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-maison-margiela-maison-margiela-replica-under-the-lemon-trees"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Maison Margiela Replica Matcha Meditation",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Green",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Matcha Tea",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "White Chocolate",
+        "Musk"
+      ],
+      "description": "Green matcha sweetened with white chocolate. Calm, creamy and modern.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-niche-maison-margiela-maison-margiela-replica-matcha-meditation"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Replica Jazz Club",
+      "concentration": "EDT",
+      "tier": "niche",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fruity"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pink Pepper",
+        "Neroli",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Rum",
+        "Clary Sage",
+        "Vanilla"
+      ],
+      "base_notes": [
+        "Tobacco Leaf",
+        "Vetiver",
+        "Styrax",
+        "Benzoin"
+      ],
+      "description": "Boozy rum and sweet tobacco in a wood-panelled room. Warm, smoky and very easy to like.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the Jazz Club EDT enriched in batch-02, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-niche-maison-margiela-replica-jazz-club"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Replica Beach Walk",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Citrus",
+        "Aquatic"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Bergamot",
+        "Pink Pepper",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Coconut Milk",
+        "Ylang-Ylang",
+        "Heliotrope"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Benzoin"
+      ],
+      "description": "Coconut milk and warm skin over soft musk. Smells like sunscreen on a hot beach, in the best way.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the Beach Walk enriched in batch-02, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-niche-maison-margiela-replica-beach-walk"
+      ]
+    },
+    {
+      "brand": "Maison Margiela",
+      "name": "Replica Sailing Day",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Sea Salt",
+        "Coriander",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Seaweed",
+        "Juniper"
+      ],
+      "base_notes": [
+        "Musk",
+        "Ambrette"
+      ],
+      "description": "Salt spray and wet rope over clean musk. Bracing and genuinely maritime.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the Sailing Day enriched in batch-03, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-niche-maison-margiela-replica-sailing-day"
+      ]
+    },
+    {
+      "brand": "Marc Jacobs",
+      "name": "Daisy Dream",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackberry",
+        "Grapefruit",
+        "Pear"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Lychee",
+        "Blue Wisteria"
+      ],
+      "base_notes": [
+        "White Woods",
+        "Musk",
+        "Coconut Water"
+      ],
+      "description": "Airy berries and wisteria over watery coconut. The dreamiest, lightest Daisy.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-marc-jacobs-daisy-dream"
+      ]
+    },
+    {
+      "brand": "Marc Jacobs",
+      "name": "Daisy",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Strawberry",
+        "Violet Leaves",
+        "Red Grapefruit"
+      ],
+      "middle_notes": [
+        "Violet",
+        "Gardenia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "White Woods"
+      ],
+      "description": "Strawberry and violet over soft musk. The charm-bracelet classic of the 2000s.",
+      "note": "Daisy is formally an EDT; this EDP row is a concentration oddity. Notes reflect the core product.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-quality-marc-jacobs-daisy"
+      ]
+    },
+    {
+      "brand": "Marc Jacobs",
+      "name": "Daisy",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Strawberry",
+        "Violet Leaves",
+        "Red Grapefruit"
+      ],
+      "middle_notes": [
+        "Violet",
+        "Gardenia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "White Woods"
+      ],
+      "description": "Strawberry and violet over soft musk. The charm-bracelet classic of the 2000s.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-marc-jacobs-daisy"
+      ]
+    },
+    {
+      "brand": "Marc Jacobs",
+      "name": "Daisy Love",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cloudberries"
+      ],
+      "middle_notes": [
+        "Daisy Tree Petals"
+      ],
+      "base_notes": [
+        "Driftwood",
+        "Cashmere Musk"
+      ],
+      "description": "Sugared cloudberries over driftwood. Sweet and beachy, softer than the original.",
+      "note": "Daisy Love is formally an EDT; catalog lists EDP. Notes reflect the core product.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-quality-marc-jacobs-daisy-love"
+      ]
+    },
+    {
+      "brand": "Marc Jacobs",
+      "name": "Daisy Eau So Fresh",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fruity",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Raspberry",
+        "Grapefruit",
+        "Pear"
+      ],
+      "middle_notes": [
+        "Violet",
+        "Rose",
+        "Apple Blossom"
+      ],
+      "base_notes": [
+        "Musk",
+        "Cedar",
+        "Plum"
+      ],
+      "description": "A fruitier, fizzier Daisy with raspberry up top.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-marc-jacobs-daisy-eau-so-fresh"
+      ]
+    },
+    {
+      "brand": "Marc Jacobs",
+      "name": "Marc Jacobs Honey",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fruity",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Peach",
+        "Honeysuckle"
+      ],
+      "base_notes": [
+        "Honey",
+        "Vanilla",
+        "Woody Notes"
+      ],
+      "description": "Golden honeysuckle and honey over soft vanilla. Sunny and easygoing.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-marc-jacobs-marc-jacobs-honey"
+      ]
+    },
+    {
+      "brand": "Montblanc",
+      "name": "Legend Spirit",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Grapefruit",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Cardamom",
+        "Aquatic Notes"
+      ],
+      "base_notes": [
+        "White Musk",
+        "Cashmere Wood",
+        "Oakmoss"
+      ],
+      "description": "The Legend fougere washed brighter and cleaner. Easy to wear anywhere.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-daily-quality-montblanc-legend-spirit"
+      ]
+    },
+    {
+      "brand": "Montblanc",
+      "name": "Legend Night",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mint"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Clary Sage",
+        "Apple"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Vanilla",
+        "Woody Notes"
+      ],
+      "description": "The Legend DNA darkened for evenings.",
+      "note": "Night flanker. Confirm the flanker-specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-montblanc-legend-night"
+      ]
+    },
+    {
+      "brand": "Montblanc",
+      "name": "Mont Blanc Explorer Ultra Blue",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Sicilian Bergamot",
+        "Marine Accord"
+      ],
+      "middle_notes": [
+        "Sea Salt",
+        "Exotic Woods"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Leather"
+      ],
+      "description": "The Explorer format pushed aquatic: salt, bergamot and woods.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-montblanc-mont-blanc-explorer-ultra-blue"
+      ]
+    },
+    {
+      "brand": "Montblanc",
+      "name": "Mont Blanc Explorer",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Pink Pepper",
+        "Clary Sage"
+      ],
+      "middle_notes": [
+        "Vetiver",
+        "Leather"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Ambroxan",
+        "Cacao"
+      ],
+      "description": "Bergamot and vetiver over ambroxan and a touch of cacao. Clean, modern and very wearable.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Montblanc Explorer\" row enriched in batch-02, listed twice due to a spacing variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-montblanc-mont-blanc-explorer"
+      ]
+    },
+    {
+      "brand": "Moschino",
+      "name": "Moschino Toy 2",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Green Apple",
+        "Mandarin",
+        "Magnolia"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amberwood",
+        "Sandalwood"
+      ],
+      "description": "Apple and peony in a teddy-bear bottle. Clean, fruity and fun.",
+      "note": "Confirm secondary notes against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-moschino-moschino-toy-2"
+      ]
+    },
+    {
+      "brand": "Narciso Rodriguez",
+      "name": "For Her",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rose",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Musk"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Amber"
+      ],
+      "description": "An enveloping musk dressed with rose and peach. The modern musk benchmark.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-narciso-rodriguez-for-her"
+      ]
+    },
+    {
+      "brand": "Narciso Rodriguez",
+      "name": "Narciso Rodriguez For Her",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Rose",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Musk"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Amber",
+        "Vanilla"
+      ],
+      "description": "The For Her musk in a denser, warmer register.",
+      "note": "The For Her line ships as EDT/EDP plus named flankers; a plain Parfum is not standard. Notes reflect the line DNA; confirm what this row is.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-narciso-rodriguez-narciso-rodriguez-for-her"
+      ]
+    },
+    {
+      "brand": "Narciso Rodriguez",
+      "name": "Narciso Rodriguez for Him Bleu",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Aromatic",
+        "Fresh"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Nutmeg",
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Suede",
+        "Iris"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Woody Notes"
+      ],
+      "description": "Spiced suede and iris over soft vanilla. Smooth, dark and understated.",
+      "note": "Resolved to Bleu Noir EDP. Confirm the concentration-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-quality-narciso-rodriguez-narciso-rodriguez-for-him-bleu"
+      ]
+    },
+    {
+      "brand": "Narciso Rodriguez",
+      "name": "Narciso Rodriguez Musc Noir",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Plum"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Musk"
+      ],
+      "base_notes": [
+        "Suede",
+        "Vanilla"
+      ],
+      "description": "The For Her musk pulled darker with plum and suede.",
+      "note": "Confirm the list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-chill-quality-narciso-rodriguez-narciso-rodriguez-musc-noir"
+      ]
+    },
+    {
+      "brand": "Nautica",
+      "name": "Nautica Blue",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Green"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pineapple",
+        "Bergamot",
+        "Peach"
+      ],
+      "middle_notes": [
+        "Water Lily",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Musk",
+        "Cedar"
+      ],
+      "description": "Pineapple and water lily over clean woods. A five-dollar sea breeze that keeps its promise.",
+      "note": "RESEARCHED against retailer listings (Nautica.com, Fragrance Outlet, Le Parfumier) 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-nautica-nautica-blue"
+      ]
+    },
+    {
+      "brand": "Nina Ricci",
+      "name": "Nina",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lime",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Toffee Apple",
+        "Peony",
+        "Moonflower"
+      ],
+      "base_notes": [
+        "Musk",
+        "Vanilla",
+        "Apple Tree"
+      ],
+      "description": "Candy apple and citrus over soft vanilla. A modern fairy tale in a red-apple bottle.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-ricci-nina-edp-nina"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Olympéa Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Vanilla",
+        "Floral",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Water Jasmine",
+        "Green Mandarin"
+      ],
+      "middle_notes": [
+        "Salted Vanilla",
+        "Ginger Flower"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Cashmere Wood",
+        "Ambergris",
+        "Amber"
+      ],
+      "description": "The salted-vanilla Olympea signature pushed deeper and warmer.",
+      "note": "Intense flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-paco-rabanne-olympea-intense"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Fame",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mango",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Incense"
+      ],
+      "description": "Juicy mango over jasmine, vanilla and a curl of incense. A current bestseller.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-paco-rabanne-fame"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Olympéa",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Water Jasmine",
+        "Green Mandarin"
+      ],
+      "middle_notes": [
+        "Salted Vanilla",
+        "Ginger Flower"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Cashmere Wood",
+        "Ambergris"
+      ],
+      "description": "The Olympea signature in its richest concentration.",
+      "note": "Parfum concentration; the EDP and EDT are separate catalog rows. Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-paco-rabanne-olympea"
+      ]
+    },
+    {
+      "brand": "Paco Rabanne",
+      "name": "Paco Rabanne Pure XS",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Thyme",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Vanilla",
+        "Cinnamon",
+        "Apple"
+      ],
+      "base_notes": [
+        "Sugar Cane",
+        "Cashmere Wood",
+        "Myrrh"
+      ],
+      "description": "Ginger fizz over warm vanilla and sugar. Playful, sweet and built to be noticed.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-quality-paco-rabanne-paco-rabanne-pure-xs"
+      ]
+    }
+  ]
+}

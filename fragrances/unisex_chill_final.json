@@ -860,13 +860,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Blackcurrant",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Praline",
+      "Vanilla",
+      "Patchouli",
+      "Tonka Bean"
+    ],
+    "description": "A sweet gourmand centered on praline and iris, softened by tonka and vanilla.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-chanel-chanel-coco-mademoiselle",
@@ -974,13 +985,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Plum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Musk"
+    ],
+    "base_notes": [
+      "Suede",
+      "Vanilla"
+    ],
+    "description": "The For Her musk pulled darker with plum and suede.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-dolce-gabbana-dolce-gabbana-light-blue",
@@ -1509,13 +1527,27 @@
       "Green"
     ],
     "top_notes": [
-      "Woody",
-      "Floral",
-      "Green"
+      "Bergamot",
+      "Lemon",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Pear",
+      "Cardamom",
+      "Freesia",
+      "Neroli"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ambrette",
+      "Musk",
+      "Leather",
+      "Cashmeran"
+    ],
+    "description": "Exceptional sandalwood grafted with pear liqueur and cottony musk. Quietly luxurious.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-niche-maison-margiela-maison-margiela-replica-autumn-vibes",

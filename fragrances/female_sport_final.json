@@ -129,10 +129,10 @@
     "data_status": "drafted"
   },
   {
-    "id": "female-sport-budget-nautica-nautica-voyage-pour-elle",
-    "name": "Nautica Voyage Pour Elle",
+    "id": "female-sport-budget-nautica-my-voyage",
+    "name": "Nautica My Voyage",
     "brand": "Nautica",
-    "concentration": "EDT",
+    "concentration": "EDP",
     "tier": "budget",
     "accords": [
       "Aquatic",
@@ -140,13 +140,26 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Grapefruit",
+      "Bergamot",
+      "Key Lime"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Lotus",
+      "Lily-of-the-Valley",
+      "Aquatic Notes"
+    ],
+    "base_notes": [
+      "Musk",
+      "Orris",
+      "Golden Amber"
+    ],
+    "description": "Citrus and watery peony over warm amber. The women's answer to Voyage, breezy and easy.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: 'Nautica Voyage Pour Elle' does not exist; the real women's product is Nautica My Voyage (2007), verified 2026-07-21. Pyramid sourced from retailer listings (FragranceX, Fragrance Shop)."
   },
   {
     "id": "female-sport-budget-lacoste-lacoste-l-12-12-pour-elle-fra-356che",
@@ -786,13 +799,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fruity",
-      "Fresh",
-      "Citrus"
+      "Raspberry",
+      "Grapefruit",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Rose",
+      "Apple Blossom"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Plum"
+    ],
+    "description": "A fruitier, fizzier Daisy with raspberry up top.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-viktor-rolf-flowerbomb-dew",
@@ -857,13 +881,22 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Vanilla",
+      "Cedar"
+    ],
+    "description": "The Idole clean rose in a lighter register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-yves-saint-laurent-mon-paris",
@@ -929,13 +962,23 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fruity",
-      "Fresh",
-      "Citrus"
+      "Pear",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Peach",
+      "Honeysuckle"
+    ],
+    "base_notes": [
+      "Honey",
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Golden honeysuckle and honey over soft vanilla. Sunny and easygoing.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-bvlgari-bvlgari-omnia-crystalline",
@@ -1156,13 +1199,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Violet",
+      "Tuscan Iris",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Rose",
+      "Chinese Jasmine"
+    ],
+    "base_notes": [
+      "Acacia",
+      "Peach",
+      "White Musk"
+    ],
+    "description": "Powdery iris and violet over a soft peach-musk glow. Delicate and deliberately seductive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-creed-creed-love-in-white",
@@ -1262,13 +1316,21 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Lemon",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Petitgrain",
+      "Neroli"
+    ],
+    "base_notes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Shaded citrus and neroli, more dappled light than beach heat.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-hermes-hermes-eau-de-citron-noir",

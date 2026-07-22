@@ -11,13 +11,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "Strawberry",
+      "Violet Leaves",
+      "Red Grapefruit"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet",
+      "Gardenia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Vanilla",
+      "White Woods"
+    ],
+    "description": "Strawberry and violet over soft musk. The charm-bracelet classic of the 2000s.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-dolce-gabbana-light-blue",
@@ -654,13 +665,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Vanilla",
+      "Cedar"
+    ],
+    "description": "A weightless modern rose over clean musk. Minimal, radiant and hugely successful.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-lancome-la-vie-est-belle",
@@ -705,13 +725,19 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Cloudberries"
     ],
-    "description": "",
+    "middle_notes": [
+      "Daisy Tree Petals"
+    ],
+    "base_notes": [
+      "Driftwood",
+      "Cashmere Musk"
+    ],
+    "description": "Sugared cloudberries over driftwood. Sweet and beachy, softer than the original.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-viktor-rolf-flowerbomb",
@@ -1028,13 +1054,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "Ylang-Ylang"
     ],
-    "description": "",
+    "middle_notes": [
+      "Gardenia",
+      "Oakmoss"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vetiver",
+      "Sandalwood",
+      "Benzoin"
+    ],
+    "description": "A mossy white-floral chypre, deep green and slightly retro.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-maison-margiela-maison-margiela-replica-flower-market",
@@ -1048,13 +1083,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "Green Notes",
+      "Freesia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Tuberose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk"
+    ],
+    "description": "Cut stems and fresh florals, like burying your face in a market bouquet.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-jo-malone-jo-malone-peony-blush-suede",
@@ -1143,13 +1187,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lily-of-the-Valley",
+      "Rose"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Blond Woods"
+    ],
+    "description": "Pear and dewy florals over clean musk. Gentle, green and optimistic.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-parfums-de-marly-parfums-de-marly-delina",
@@ -1216,13 +1268,21 @@
       "Floral"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Floral"
+      "Lemon",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Petitgrain",
+      "Neroli"
+    ],
+    "base_notes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Shaded citrus and neroli, more dappled light than beach heat.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-creed-creed-fleurissimo",

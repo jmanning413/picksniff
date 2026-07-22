@@ -734,13 +734,23 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Mint"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Clary Sage",
+      "Apple"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "The Legend DNA darkened for evenings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-versace-eros-flame-edp-quality",

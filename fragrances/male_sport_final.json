@@ -227,13 +227,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Grapefruit",
+      "Bergamot",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Water Notes",
+      "Juniper",
+      "Geranium",
+      "Nutmeg"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Musk",
+      "Patchouli"
+    ],
+    "description": "Grapefruit and ginger over watery greens and vetiver. Brisk and gym-bag simple.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-jean-paul-gaultier-le-male",
@@ -499,13 +511,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Sicilian Bergamot",
+      "Marine Accord"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Salt",
+      "Exotic Woods"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Leather"
+    ],
+    "description": "The Explorer format pushed aquatic: salt, bergamot and woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-giorgio-armani-acqua-di-gio-profumo",
@@ -941,13 +961,23 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Citrus"
+      "Bergamot",
+      "Pink Pepper",
+      "Clary Sage"
     ],
-    "description": "",
+    "middle_notes": [
+      "Vetiver",
+      "Leather"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Ambroxan",
+      "Cacao"
+    ],
+    "description": "Bergamot and vetiver over ambroxan and a touch of cacao. Clean, modern and very wearable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-paco-rabanne-invictus-platinum",
@@ -1010,13 +1040,21 @@
       "Fresh"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Fresh"
+      "Nutmeg",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Suede",
+      "Iris"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Spiced suede and iris over soft vanilla. Smooth, dark and understated.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-creed-creed-virgin-island-water",
@@ -1153,13 +1191,24 @@
       "Aquatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aquatic"
+      "Bergamot",
+      "Pink Pepper",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coconut Milk",
+      "Ylang-Ylang",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Musk",
+      "Cedar",
+      "Benzoin"
+    ],
+    "description": "Coconut milk and warm skin over soft musk. Smells like sunscreen on a hot beach, in the best way.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-xerjoff-xerjoff-40-knots",
@@ -1203,13 +1252,22 @@
       "Green"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Green"
+      "Sea Salt",
+      "Coriander",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Seaweed",
+      "Juniper"
+    ],
+    "base_notes": [
+      "Musk",
+      "Ambrette"
+    ],
+    "description": "Salt spray and wet rope over clean musk. Bracing and genuinely maritime.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-niche-diptyque-diptyque-tempo",

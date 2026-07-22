@@ -651,13 +651,21 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
+      "Rose",
+      "Peach"
+    ],
+    "middle_notes": [
+      "Musk"
+    ],
+    "base_notes": [
+      "Patchouli",
       "Amber",
       "Vanilla"
     ],
-    "description": "",
+    "description": "The For Her musk in a denser, warmer register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-lancome-idole-nectar",
@@ -671,13 +679,21 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk"
+    ],
+    "description": "The Idole rose whipped into a sweeter, creamier register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-dior-j-adore",
@@ -817,13 +833,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Water Jasmine",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Salted Vanilla",
+      "Ginger Flower"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Cashmere Wood",
+      "Ambergris"
+    ],
+    "description": "The Olympea signature in its richest concentration.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-viktor-rolf-flowerbomb",
