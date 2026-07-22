@@ -976,13 +976,25 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Woody"
+      "Sicilian Lemon",
+      "Apple",
+      "Cedar",
+      "Bluebell"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bamboo",
+      "Jasmine",
+      "White Rose"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Musk",
+      "Amber"
+    ],
+    "description": "Crisp Sicilian lemon and green apple over a soft cedar base. A sun-on-skin summer staple.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-dolce-gabbana-dolce-gabbana-the-one",
@@ -996,13 +1008,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Bergamot",
+      "Mandarin",
+      "Lychee",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Madonna Lily",
+      "Lily-of-the-Valley",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Amber",
+      "Musk",
+      "Vetiver"
+    ],
+    "description": "Golden fruit and lily over warm vanilla amber. Polished and glamorous without shouting.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-chill-quality-diptyque-diptyque-philosykos",

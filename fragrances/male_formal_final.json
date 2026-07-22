@@ -129,13 +129,23 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Green Apple",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Nutmeg"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Vanilla",
+      "Suede"
+    ],
+    "description": "The Code sweetness wrapped in apple and suede. Smooth, dense and evening-coded.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-budget-burberry-burberry-mr-burberry",
@@ -590,13 +600,22 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Clary Sage"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Cedar",
+      "Vetiver"
+    ],
+    "description": "The modern Code pillar: citrus and orange blossom over a woody tonka base.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-dior-dior-sauvage",
@@ -697,13 +716,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Aromatic",
-      "Amber"
+      "Clary Sage",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Cypress"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Patchouli",
+      "Vanilla"
+    ],
+    "description": "The Gentleman iris grounded in dry woods. The most versatile of the line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-yves-saint-laurent-ysl-la-nuit-de-l-homme-parfum-intense",
@@ -775,10 +803,10 @@
     "data_status": "drafted"
   },
   {
-    "id": "male-formal-quality-ferragamo-ferragamo-signorina-uomo",
-    "name": "Ferragamo Signorina Uomo",
+    "id": "male-formal-quality-ferragamo-uomo-salvatore-ferragamo",
+    "name": "Uomo Salvatore Ferragamo",
     "brand": "Ferragamo",
-    "concentration": "EDT",
+    "concentration": "EDP",
     "tier": "quality",
     "accords": [
       "Woody",
@@ -786,13 +814,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Aromatic"
+      "Bergamot",
+      "Black Pepper",
+      "Cardamom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tiramisu Accord",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Cashmeran",
+      "Tonka Bean",
+      "Sandalwood",
+      "Leather"
+    ],
+    "description": "Spiced citrus over a creamy tiramisu heart and warm woods. Smooth, Italian and quietly indulgent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: 'Signorina Uomo' does not exist; Signorina is a women's line (verified 2026-07-21). This male-pool row with Woody/Amber/Aromatic accords matches Uomo Salvatore Ferragamo (2016). Pyramid flagged for verification against the brand page. Brand string kept as 'Ferragamo' to match the row's existing brand value."
   },
   {
     "id": "male-formal-quality-hugo-boss-hugo-boss-boss-the-scent",

@@ -6,10 +6,9 @@
     "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
     "counts": {
       "high": 11,
-      "medium": 31,
-      "low": 3
+      "medium": 32
     },
-    "products": 45,
+    "products": 43,
     "skipped_swapped": [
       {
         "product": "Dunhill Dunhill Icon",
@@ -28,11 +27,19 @@
         "reason": "Row removed by cut-audit-01 (dead limited edition); replaced by Ralph, which entered fully enriched."
       },
       {
+        "product": "Ferragamo Ferragamo Signorina Uomo",
+        "reason": "CONFIRMED FAKE NAME (verified 2026-07-21): no Signorina Uomo exists; Signorina is women-only. Row sits in a MALE pool with Woody/Amber/Aromatic accords, matching Uomo Salvatore Ferragamo (2016). Repaired via swap-04, which enters fully enriched."
+      },
+      {
+        "product": "Frederic Malle Portrait of a Lady Intense",
+        "reason": "CONFIRMED FAKE NAME (verified 2026-07-21): no Intense exists in the Malle line. Renamed to plain Portrait of a Lady via swap-04 (no duplicate in that pool), entering fully enriched."
+      },
+      {
         "product": "Gucci Bloom Acqua di Fiori",
         "reason": "Row removed by swap-03 (flanker discontinued); replaced by core Gucci Bloom, which entered fully enriched."
       }
     ],
-    "catalog_rows_covered": 45
+    "catalog_rows_covered": 43
   },
   "entries": [
     {
@@ -271,13 +278,26 @@
         "Citrus",
         "Aromatic"
       ],
-      "confidence": "low",
-      "top_notes": null,
-      "middle_notes": null,
-      "base_notes": null,
-      "description": null,
-      "needs_verification": true,
-      "reason": "Borderline-keep row (discontinued, deep discounter stock). Needs a source lookup for the pyramid.",
+      "confidence": "medium",
+      "top_notes": [
+        "Litchi",
+        "Mandarin Orange",
+        "Lotus",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Sea Notes",
+        "Orange",
+        "Brazilian Rosewood"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Musk",
+        "Amber",
+        "Benzoin"
+      ],
+      "description": "Watery fruit and sea air over warm tonka and amber. An easygoing early-2000s fresh scent.",
+      "note": "RESEARCHED against retailer listings (Fragrance Outlet, HNAK, PriceRiteMart) 2026-07-21. Borderline-keep row: discontinued license but deep discounter stock.",
       "row_count": 1,
       "applies_to_ids": [
         "male-sport-budget-dunhill-dunhill-desire-blue"
@@ -581,28 +601,6 @@
       ]
     },
     {
-      "brand": "Ferragamo",
-      "name": "Ferragamo Signorina Uomo",
-      "concentration": "EDT",
-      "tier": "quality",
-      "accords": [
-        "Woody",
-        "Amber",
-        "Aromatic"
-      ],
-      "confidence": "low",
-      "top_notes": null,
-      "middle_notes": null,
-      "base_notes": null,
-      "description": null,
-      "needs_verification": true,
-      "reason": "SUSPECT NAME: Signorina is a Ferragamo women’s line; no \"Signorina Uomo\" is known. Likely a corruption of Uomo Salvatore Ferragamo (2016). Needs verification before any pyramid.",
-      "row_count": 1,
-      "applies_to_ids": [
-        "male-formal-quality-ferragamo-ferragamo-signorina-uomo"
-      ]
-    },
-    {
       "brand": "Frederic Malle",
       "name": "Portrait of a Lady",
       "concentration": "EDP",
@@ -636,28 +634,6 @@
       "row_count": 1,
       "applies_to_ids": [
         "female-daily-niche-frederic-malle-portrait-of-a-lady"
-      ]
-    },
-    {
-      "brand": "Frederic Malle",
-      "name": "Portrait of a Lady Intense",
-      "concentration": "EDP",
-      "tier": "niche",
-      "accords": [
-        "Floral",
-        "Spicy",
-        "Amber"
-      ],
-      "confidence": "low",
-      "top_notes": null,
-      "middle_notes": null,
-      "base_notes": null,
-      "description": null,
-      "needs_verification": true,
-      "reason": "SUSPECT NAME: no Intense version of Portrait of a Lady is known in the Frederic Malle line. Needs verification before any pyramid.",
-      "row_count": 1,
-      "applies_to_ids": [
-        "female-date-night-niche-frederic-malle-portrait-of-a-lady-intense"
       ]
     },
     {

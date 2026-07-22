@@ -448,13 +448,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Blood Orange",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vanilla",
+      "Amberwood"
+    ],
+    "description": "The L’Interdit florals set against spiced orange and warm woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-givenchy-givenchy-amarige",
@@ -468,13 +477,27 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Violet",
+      "Mandarin",
+      "Peach",
+      "Plum"
     ],
-    "description": "",
+    "middle_notes": [
+      "Gardenia",
+      "Tuberose",
+      "Ylang-Ylang",
+      "Mimosa"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Sandalwood",
+      "Amber"
+    ],
+    "description": "An exuberant white-floral wall of tuberose and gardenia. Loud, joyful and unmistakable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-lattafa-khamrah",

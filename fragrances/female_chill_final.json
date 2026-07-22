@@ -62,13 +62,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Lily-of-the-Valley",
+      "Suede",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Musk",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "Powdery suede and soft florals over skin musk. A quiet signature scent worn by millions.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-ariana-grande-ari",
@@ -656,13 +667,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Blackcurrant",
+      "Pear",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cedar",
+      "Amberwood"
+    ],
+    "description": "The Si blackcurrant turned up and sweetened. Bold, fruity and made for nights out.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-lancome-tresor",

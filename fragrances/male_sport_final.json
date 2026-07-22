@@ -414,13 +414,26 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Aromatic"
+      "Litchi",
+      "Mandarin Orange",
+      "Lotus",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sea Notes",
+      "Orange",
+      "Brazilian Rosewood"
+    ],
+    "base_notes": [
+      "Tonka Bean",
+      "Musk",
+      "Amber",
+      "Benzoin"
+    ],
+    "description": "Watery fruit and sea air over warm tonka and amber. An easygoing early-2000s fresh scent.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-jaguar-jaguar-classic-blue",
@@ -474,13 +487,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Bergamot",
+      "Sea Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rosemary",
+      "Sage",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Incense",
+      "Patchouli"
+    ],
+    "description": "The Acqua di Giò sea breeze deepened with incense and patchouli. Darker, smokier and widely considered the best of the line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-paco-rabanne-invictus",
@@ -731,13 +753,22 @@
       "Fresh"
     ],
     "top_notes": [
-      "Citrus",
-      "Aquatic",
-      "Fresh"
+      "Grapefruit",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "White Musk",
+      "Patchouli",
+      "Amberwood"
+    ],
+    "description": "The Light Blue idea rendered cleaner and more transparent, with a musky finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-quality-dior-dior-sauvage",

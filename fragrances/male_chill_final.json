@@ -617,13 +617,21 @@
       "Woody"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Woody"
+      "Sicilian Lemon",
+      "Granny Smith Apple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Marigold",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Amberwood",
+      "Musk"
+    ],
+    "description": "The Light Blue citrus sharpened and deepened with amberwood. Brighter opening, warmer finish.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-prada-prada-l-homme",

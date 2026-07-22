@@ -326,13 +326,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Amber"
+      "Cardamom",
+      "Pink Pepper",
+      "Violet Leaves"
     ],
-    "description": "",
+    "middle_notes": [
+      "Sage",
+      "Lavender"
+    ],
+    "base_notes": [
+      "Chestnut",
+      "Vanilla",
+      "Amberwood",
+      "Cedar"
+    ],
+    "description": "Spiced sweetness over roasted chestnut and vanilla. A modern crowd-pleaser with real warmth.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-chanel-coco-mademoiselle",
@@ -463,13 +474,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Patchouli",
+      "Ambroxan"
+    ],
+    "description": "White flowers over a dark vetiver undercurrent. Elegant with a deliberate edge.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-calvin-klein-eternity",
@@ -729,13 +750,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mandarin",
+      "Pink Pepper",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lilac",
+      "Geranium",
+      "Peach"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "Lilac and warm amber with a peachy glow. Confident and a little rebellious.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-quality-prada-prada-candy",

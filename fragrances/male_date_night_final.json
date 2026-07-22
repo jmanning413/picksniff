@@ -176,13 +176,24 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Bergamot",
+      "Mandarin",
+      "Neroli"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Sage",
+      "Pepper"
+    ],
+    "base_notes": [
+      "Tobacco",
+      "Cedar",
+      "Tonka Bean"
+    ],
+    "description": "A classic barbershop citrus-lavender over tobacco and cedar. Traditional in the best sense.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-budget-valentino-valentino-uomo",
@@ -519,13 +530,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Woody"
+      "Pink Pepper",
+      "Violet Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Toffee",
+      "Sage"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Amber"
+    ],
+    "description": "The Stronger With You warmth pushed sweeter, with a toffee heart.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-dior-sauvage",
@@ -638,13 +659,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Woody",
-      "Spicy",
-      "Amber"
+      "Whisky Accord",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Oak",
+      "Patchouli",
+      "Vanilla"
+    ],
+    "description": "A whisky-and-oak reading of the Gentleman iris. Warm, boozy and refined.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-quality-montblanc-legend-night",
@@ -1088,13 +1118,25 @@
       "Spicy"
     ],
     "top_notes": [
-      "Amber",
-      "Vanilla",
-      "Spicy"
+      "Lavender",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Cinnamon",
+      "Clove"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Musk",
+      "Amber",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "Spiced vanilla and musk with almost no flowers. Warm, animalic and famously seductive.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-date-night-niche-histoires-de-parfums-duro-edp-nasomatto-edp-woody-267-amber-267-spicy-11-1899-hemingway",

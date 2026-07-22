@@ -188,13 +188,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Plum",
+      "Raspberry",
+      "Ginger",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Egyptian Jasmine",
+      "Narcissus"
+    ],
+    "base_notes": [
+      "Tahitian Vanilla",
+      "Tonka Bean",
+      "Benzoin",
+      "Cashmere Wood"
+    ],
+    "description": "Dark fruit and jasmine over a rich vanilla base. Discontinued once, relaunched by demand.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-versace-bright-crystal-absolu",
@@ -308,13 +320,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Orange Blossom",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "White Musk",
+      "Cedar"
+    ],
+    "description": "Bright orange blossom and tuberose over creamy vanilla. Modern, clean and widely loved.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-givenchy-l-interdit",
@@ -328,13 +349,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Patchouli",
+      "Ambroxan"
+    ],
+    "description": "White flowers over a dark vetiver undercurrent. Elegant with a deliberate edge.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-narciso-rodriguez-for-her",
@@ -457,13 +488,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Spicy"
+      "Blackcurrant",
+      "Pear",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Heliotrope"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Cedar",
+      "Amberwood"
+    ],
+    "description": "The Si blackcurrant turned up and sweetened. Bold, fruity and made for nights out.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-thierry-mugler-alien-goddess",
@@ -573,13 +615,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Dewberry"
     ],
-    "description": "",
+    "middle_notes": [
+      "Magnolia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Warm Musk"
+    ],
+    "description": "Juicy dewberry over creamy magnolia. Bright, modern and easy to love.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-yves-saint-laurent-libre-intense",
@@ -792,17 +841,28 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mandarin",
+      "Pink Pepper",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lilac",
+      "Geranium",
+      "Peach"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Amber",
+      "Vanilla"
+    ],
+    "description": "Lilac and warm amber with a peachy glow. Confident and a little rebellious.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
-    "id": "female-date-night-niche-frederic-malle-portrait-of-a-lady-intense",
-    "name": "Portrait of a Lady Intense",
+    "id": "female-date-night-niche-frederic-malle-portrait-of-a-lady",
+    "name": "Portrait of a Lady",
     "brand": "Frederic Malle",
     "concentration": "EDP",
     "tier": "niche",
@@ -812,13 +872,29 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Spicy",
-      "Amber"
+      "Turkish Rose",
+      "Raspberry",
+      "Blackcurrant",
+      "Cinnamon",
+      "Clove"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Sandalwood",
+      "Incense",
+      "Ambroxan",
+      "Benzoin",
+      "Musk"
+    ],
+    "description": "An enormous rose over dark patchouli and incense. One of the most acclaimed perfumes of the century.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted",
+    "note": "NAME REPAIR: no 'Intense' exists in the Malle line (verified 2026-07-21). Renamed to the real Portrait of a Lady; no duplicate in this pool. Pyramid identical to the batch-06 entry for the same product."
   },
   {
     "id": "female-date-night-niche-parfums-de-marly-delina-exclusif",

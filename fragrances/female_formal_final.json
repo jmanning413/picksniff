@@ -11,13 +11,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Rose",
+      "Plum",
+      "Aldehydes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Patchouli",
+      "Orris"
+    ],
+    "base_notes": [
+      "Oakmoss",
+      "Amber",
+      "Sandalwood",
+      "Civet"
+    ],
+    "description": "A mossy rose chypre from 1988. Deep, formal and unapologetically grown-up.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-lauder-beautiful-edp-estee",
@@ -31,13 +43,26 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Rose",
+      "Mandarin",
+      "Lily"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine",
+      "Ylang-Ylang",
+      "Marigold"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
+      "Musk",
+      "Amber"
+    ],
+    "description": "A grand floral bouquet built around rose and tuberose. A wedding-day classic for four decades.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-lauder-white-linen-edp-estee",
@@ -51,13 +76,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Aldehydes",
+      "Citrus",
+      "Peach"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Lily-of-the-Valley"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Oakmoss",
+      "Amber",
+      "Musk"
+    ],
+    "description": "Crisp aldehydes over rose and clean woods. Smells like pressed sheets and daylight.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-lanvin-arpege",
@@ -317,13 +354,23 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
+      "Pear",
+      "Blackcurrant"
+    ],
+    "middle_notes": [
+      "Orange Blossom",
+      "Jasmine",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Vetiver",
       "Vanilla"
     ],
-    "description": "",
+    "description": "The L’Interdit white-floral dna pushed creamier and deeper.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-budget-chanel-coco",
@@ -510,13 +557,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Blood Orange",
+      "Ginger"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Vanilla",
+      "Amberwood"
+    ],
+    "description": "The L’Interdit florals set against spiced orange and warm woods.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-chanel-n-2605",
@@ -669,13 +725,22 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Blackcurrant",
+      "Green Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Neroli",
+      "Rose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "The Si idea brightened with neroli and green mandarin. Fresher and more floral than its siblings.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-quality-guerlain-guerlain-mon-guerlain-intense",
@@ -1121,13 +1186,24 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
+      "Mimosa",
+      "Cassie",
+      "Bergamot"
+    ],
+    "middle_notes": [
+      "Rose",
+      "Jasmine",
+      "Violet"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Musk",
       "Vanilla"
     ],
-    "description": "",
+    "description": "Powdery mimosa and cassie over soft sandalwood. Delicate, strange and quietly beautiful.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-formal-niche-roja-parfums-roja-parfums-danger-pour-femme",

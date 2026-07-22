@@ -261,13 +261,24 @@
       "Fruity"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Fruity"
+      "White Lily",
+      "Violet Leaves",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Lilac",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "The Pleasures dewy-floral signature in a lighter splash.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-giorgio-armani-acqua-di-gioia",
@@ -281,13 +292,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Aquatic",
-      "Citrus"
+      "Mint",
+      "Lemon",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Peony",
+      "Aquatic Notes"
+    ],
+    "base_notes": [
+      "Labdanum",
+      "Cedar",
+      "Brown Sugar"
+    ],
+    "description": "The Acqua di Gioia water-and-mint idea in a lighter splash.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-hugo-boss-hugo-woman",
@@ -828,13 +850,25 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Blackcurrant",
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Freesia",
+      "May Rose"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Amberwood",
+      "Musk"
+    ],
+    "description": "The Si chypre signature in a brighter, lighter register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-marc-jacobs-marc-jacobs-honey",

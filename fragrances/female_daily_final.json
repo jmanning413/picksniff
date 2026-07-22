@@ -267,13 +267,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Woody"
+      "White Lily",
+      "Violet Leaves",
+      "Green Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Lilac",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Patchouli",
+      "Musk"
+    ],
+    "description": "Dewy florals with a clean green edge. Fresh-from-the-shower polish, endlessly reliable.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-marc-jacobs-perfect",
@@ -416,13 +427,26 @@
       "Green"
     ],
     "top_notes": [
-      "Fresh",
-      "Citrus",
-      "Green"
+      "Lemon",
+      "Bergamot",
+      "Mint",
+      "Orange Peel"
     ],
-    "description": "",
+    "middle_notes": [
+      "Green Tea",
+      "Jasmine",
+      "Carnation",
+      "Fennel"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Oakmoss"
+    ],
+    "description": "Bitter green tea over bright citrus and clean musk. A warm-weather staple for almost thirty years.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-chanel-coco-mademoiselle",
@@ -532,13 +556,20 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Pear Blossom"
     ],
-    "description": "",
+    "middle_notes": [
+      "Gardenia",
+      "Frangipani"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Brown Sugar"
+    ],
+    "description": "Creamy gardenia over brown sugar. Sweet, sunny and a current bestseller.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-gucci-bloom",
@@ -552,13 +583,20 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fresh",
-      "Fresh"
+      "Jasmine Bud"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tuberose",
+      "Rangoon Creeper"
+    ],
+    "base_notes": [
+      "Orris Root",
+      "Sandalwood"
+    ],
+    "description": "A lush white-floral built on tuberose and jasmine. The core Bloom, a current pillar that sells year after year.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-quality-lancome-idole",
@@ -1227,13 +1265,28 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Spicy"
+      "Turkish Rose",
+      "Raspberry",
+      "Blackcurrant",
+      "Cinnamon",
+      "Clove"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Patchouli"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Sandalwood",
+      "Incense",
+      "Ambroxan",
+      "Benzoin",
+      "Musk"
+    ],
+    "description": "An enormous rose over dark patchouli and incense. One of the most acclaimed perfumes of the century.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-tom-ford-black-orchid",

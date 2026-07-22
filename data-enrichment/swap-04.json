@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "swap": "swap-04",
+    "scope": "Round 4 of the fake-name cleanup: two corrupt product names discovered during batch-06 prep, web-verified 2026-07-21.",
+    "provenance": "Pyramids compiled from general knowledge; verify notes attached. No scraped content.",
+    "created": "2026-07-21"
+  },
+  "swaps": [
+    {
+      "cut_id": "male-formal-quality-ferragamo-ferragamo-signorina-uomo",
+      "file": "male_formal_final.json",
+      "replacement": {
+        "id": "male-formal-quality-ferragamo-uomo-salvatore-ferragamo",
+        "name": "Uomo Salvatore Ferragamo", "brand": "Ferragamo", "concentration": "EDP", "tier": "quality",
+        "accords": ["Woody", "Amber", "Aromatic"],
+        "top_notes": ["Bergamot", "Black Pepper", "Cardamom"],
+        "middle_notes": ["Tiramisu Accord", "Orange Blossom"],
+        "base_notes": ["Cashmeran", "Tonka Bean", "Sandalwood", "Leather"],
+        "description": "Spiced citrus over a creamy tiramisu heart and warm woods. Smooth, Italian and quietly indulgent.",
+        "note": "NAME REPAIR: 'Signorina Uomo' does not exist; Signorina is a women's line (verified 2026-07-21). This male-pool row with Woody/Amber/Aromatic accords matches Uomo Salvatore Ferragamo (2016). Pyramid flagged for verification against the brand page. Brand string kept as 'Ferragamo' to match the row's existing brand value."
+      }
+    },
+    {
+      "cut_id": "female-date-night-niche-frederic-malle-portrait-of-a-lady-intense",
+      "file": "female_date_night_final.json",
+      "replacement": {
+        "id": "female-date-night-niche-frederic-malle-portrait-of-a-lady",
+        "name": "Portrait of a Lady", "brand": "Frederic Malle", "concentration": "EDP", "tier": "niche",
+        "accords": ["Floral", "Spicy", "Amber"],
+        "top_notes": ["Turkish Rose", "Raspberry", "Blackcurrant", "Cinnamon", "Clove"],
+        "middle_notes": ["Rose", "Patchouli"],
+        "base_notes": ["Patchouli", "Sandalwood", "Incense", "Ambroxan", "Benzoin", "Musk"],
+        "description": "An enormous rose over dark patchouli and incense. One of the most acclaimed perfumes of the century.",
+        "note": "NAME REPAIR: no 'Intense' exists in the Malle line (verified 2026-07-21). Renamed to the real Portrait of a Lady; no duplicate in this pool. Pyramid identical to the batch-06 entry for the same product."
+      }
+    }
+  ]
+}
