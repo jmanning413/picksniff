@@ -387,13 +387,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Woody",
-      "Amber"
+      "Aldehydes",
+      "Blackcurrant Bud",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Rose",
+      "Narcissus",
+      "Tuberose"
+    ],
+    "base_notes": [
+      "Amber",
+      "Sandalwood",
+      "Oakmoss",
+      "Civet"
+    ],
+    "description": "A sparkling aldehydic floral from 1976, the first fragrance from a jeweller. Polished and bright.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-budget-thierry-mugler-alien",
@@ -861,13 +874,22 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Bergamot",
+      "Mandarin"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Gardenia"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Benzoin",
+      "Moss"
+    ],
+    "description": "The Voce Viva vanilla pushed deeper and more resinous.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-guerlain-guerlain-mon-guerlain-intense",
@@ -912,13 +934,23 @@
       "Woody"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Woody"
+      "Pear",
+      "Pink Pepper"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coffee",
+      "Jasmine",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Woody Notes"
+    ],
+    "description": "The Black Opium coffee-vanilla signature in its densest form.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-formal-quality-carolina-herrera-good-girl",

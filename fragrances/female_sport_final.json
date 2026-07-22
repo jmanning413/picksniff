@@ -491,13 +491,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Aquatic",
-      "Fresh",
-      "Citrus"
+      "Blackcurrant",
+      "Apple",
+      "Forget-Me-Not"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose Hip",
+      "Petalia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Patchouli",
+      "Styrax"
+    ],
+    "description": "Fruity florals over clean musk and a shadow of patchouli.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-budget-lacoste-l-12-12-pour-elle-sparkling",
@@ -719,13 +730,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Pomegranate",
+      "Yuzu",
+      "Water Notes"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Magnolia",
+      "Lotus"
+    ],
+    "base_notes": [
+      "Musk",
+      "Mahogany",
+      "Amber"
+    ],
+    "description": "Pomegranate and dewy petals over clean musk. One of the best-selling feminines of its era.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-burberry-burberry-her-london-dream",
@@ -830,13 +852,21 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Fruity",
-      "Citrus"
+      "Pear Blossom",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Rose",
+      "Iris"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood"
+    ],
+    "description": "The Flowerbomb florals washed in morning dew. The lightest of the line.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-carolina-herrera-good-girl-legere",
@@ -910,13 +940,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fruity",
-      "Fresh",
-      "Citrus"
+      "Strawberry",
+      "Raspberry",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Datura",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "White Musk"
+    ],
+    "description": "The Mon Paris berries in a lighter, brighter splash.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-quality-giorgio-armani-si",
@@ -1433,13 +1474,25 @@
       "Fruity"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Fruity"
+      "Calabrian Bergamot",
+      "Freesia",
+      "Litchi"
     ],
-    "description": "",
+    "middle_notes": [
+      "Bulgarian Rose",
+      "Egyptian Jasmine",
+      "Milky Accord",
+      "Osmanthus"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Oud",
+      "Leather"
+    ],
+    "description": "Milky rose and osmanthus over gentle oud. Calm, idyllic and quietly plush.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-sport-niche-penhaligon-s-penhaligon-s-clandestine-clara",

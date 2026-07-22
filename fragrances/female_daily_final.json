@@ -291,13 +291,24 @@
       "Citrus"
     ],
     "top_notes": [
-      "Fresh",
-      "Floral",
-      "Citrus"
+      "Apple Blossom",
+      "Mandarin",
+      "Camellia"
     ],
-    "description": "",
+    "middle_notes": [
+      "Honeysuckle",
+      "Lily",
+      "Rose"
+    ],
+    "base_notes": [
+      "Musk",
+      "Sandalwood",
+      "Cedar"
+    ],
+    "description": "Apple blossom and honeysuckle over clean musk. A bright, energetic nineties classic that never left.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-budget-lauder-pleasures-edp-estee",
@@ -1016,13 +1027,25 @@
       "Fresh"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Fresh"
+      "Strawberry",
+      "Raspberry",
+      "Pear",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Datura",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "White Musk",
+      "Ambroxan"
+    ],
+    "description": "Sweet berries falling into airy patchouli. Vertiginous, romantic and very Parisian.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-daily-niche-le-labo-le-labo-rose-31",

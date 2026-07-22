@@ -1,0 +1,1269 @@
+{
+  "_meta": {
+    "batch": "batch-10",
+    "scope": "FINAL TRANCHE: unique products ranked 451-492 by catalog row count.",
+    "created": "2026-07-21",
+    "provenance": "Compiled from general knowledge. No scraped or third-party dataset content (CATALOG.md rule 1).",
+    "counts": {
+      "medium": 30,
+      "high": 9
+    },
+    "products": 39,
+    "skipped_swapped": [
+      {
+        "product": "Tom Ford Tom Ford Noir",
+        "reason": "Row removed by swap-02 (discontinued 2020); replaced by Noir Extreme, fully enriched."
+      },
+      {
+        "product": "Tommy Hilfiger Tommy Sport",
+        "reason": "Row removed by swap-02 (product does not exist); replaced by Jean Paul Gaultier Le Male, fully enriched."
+      },
+      {
+        "product": "Victoria's Secret Victoria's Secret Bombshell Summer",
+        "reason": "Row removed by cut-audit-01 (dead limited edition); replaced by core Bombshell, fully enriched."
+      }
+    ],
+    "catalog_rows_covered": 39
+  },
+  "entries": [
+    {
+      "brand": "Tom Ford",
+      "name": "Tom Ford Ombre Leather",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Amber",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Violet Leaf"
+      ],
+      "middle_notes": [
+        "Leather",
+        "Jasmine Sambac"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Moss",
+        "Amber"
+      ],
+      "description": "Raw leather and violet leaf in the densest concentration. Desert air and saddle.",
+      "note": "Parfum concentration (2021) of the Ombre Leather line. Confirm the Parfum-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-tom-ford-tom-ford-ombre-leather"
+      ]
+    },
+    {
+      "brand": "Tom Ford",
+      "name": "Tom Ford Tuscan Leather",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Amber",
+        "Woody",
+        "Spicy"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Thyme",
+        "Raspberry",
+        "Saffron"
+      ],
+      "middle_notes": [
+        "Leather",
+        "Jasmine",
+        "Olibanum"
+      ],
+      "base_notes": [
+        "Amber",
+        "Suede",
+        "Woody Notes"
+      ],
+      "description": "Raw leather cut with jammy raspberry. Dense, animalic and one of the most distinctive things Tom Ford makes.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Tuscan Leather\" row enriched in batch-04, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-niche-tom-ford-tom-ford-tuscan-leather"
+      ]
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "name": "Tommy Girl",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Fresh",
+        "Floral",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Apple Blossom",
+        "Mandarin",
+        "Camellia"
+      ],
+      "middle_notes": [
+        "Honeysuckle",
+        "Lily",
+        "Rose"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood",
+        "Cedar"
+      ],
+      "description": "Apple blossom and honeysuckle over clean musk. A bright, energetic nineties classic that never left.",
+      "note": "Same product as the swap-01 replacement row in female_sport; pyramid kept identical across all rows.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-budget-tommy-hilfiger-tommy-girl"
+      ]
+    },
+    {
+      "brand": "Valentino",
+      "name": "Valentino Donna",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Iris",
+        "Rose"
+      ],
+      "base_notes": [
+        "Leather",
+        "Vanilla",
+        "Patchouli"
+      ],
+      "description": "Powdery iris and rose over suede-soft leather. Roman elegance, quietly done.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-quality-valentino-valentino-donna"
+      ]
+    },
+    {
+      "brand": "Valentino",
+      "name": "Valentino Donna Born in Roma",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Jasmine Grandiflorum",
+        "Jasmine Sambac"
+      ],
+      "base_notes": [
+        "Bourbon Vanilla",
+        "Woody Notes"
+      ],
+      "description": "Triple jasmine over street-smart vanilla. The modern Valentino bestseller.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-valentino-valentino-donna-born-in-roma"
+      ]
+    },
+    {
+      "brand": "Valentino",
+      "name": "Valentino Voce Viva",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Gardenia"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Moss"
+      ],
+      "description": "Golden gardenia and orange blossom over warm vanilla.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-formal-quality-valentino-valentino-voce-viva"
+      ]
+    },
+    {
+      "brand": "Valentino",
+      "name": "Valentino Uomo",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Myrtle"
+      ],
+      "middle_notes": [
+        "Coffee",
+        "Gianduia Cream",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Leather",
+        "Woody Notes"
+      ],
+      "description": "Espresso and hazelnut cream over suede. An Italian cafe rendered wearable.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-budget-valentino-valentino-uomo"
+      ]
+    },
+    {
+      "brand": "Valentino",
+      "name": "Valentino Voce Viva Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Gardenia"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Benzoin",
+        "Moss"
+      ],
+      "description": "The Voce Viva vanilla pushed deeper and more resinous.",
+      "note": "Intense flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-quality-valentino-valentino-voce-viva-intense"
+      ]
+    },
+    {
+      "brand": "Van Cleef & Arpels",
+      "name": "First",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Aldehydes",
+        "Blackcurrant Bud",
+        "Mandarin"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Rose",
+        "Narcissus",
+        "Tuberose"
+      ],
+      "base_notes": [
+        "Amber",
+        "Sandalwood",
+        "Oakmoss",
+        "Civet"
+      ],
+      "description": "A sparkling aldehydic floral from 1976, the first fragrance from a jeweller. Polished and bright.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-budget-arpels-van-cleef-arpels-first-edp-van-cleef"
+      ]
+    },
+    {
+      "brand": "Vera Wang",
+      "name": "Princess",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Water Lily",
+        "Apple",
+        "Mandarin",
+        "Apricot"
+      ],
+      "middle_notes": [
+        "Guava",
+        "Tuberose",
+        "Tiare Flower"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Amber",
+        "Chocolate"
+      ],
+      "description": "Waterlily and fruit over vanilla and a whisper of chocolate. A tiara in a bottle, on purpose.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-wang-princess-edp-vera"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Bright Crystal Absolu",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pomegranate",
+        "Yuzu"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Magnolia",
+        "Lotus"
+      ],
+      "base_notes": [
+        "Musk",
+        "Mahogany",
+        "Amber"
+      ],
+      "description": "The Bright Crystal sparkle concentrated and warmed.",
+      "note": "Absolu flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-versace-bright-crystal-absolu"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Eros Pour Femme",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Sicilian Lemon",
+        "Calabrian Bergamot",
+        "Pomegranate"
+      ],
+      "middle_notes": [
+        "Jasmine",
+        "Peony",
+        "Lemon Blossom"
+      ],
+      "base_notes": [
+        "Sandalwood",
+        "Ambroxan",
+        "Musk",
+        "Oak"
+      ],
+      "description": "Bright lemon and pomegranate over jasmine and warm woods. Confident and polished.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-versace-eros-pour-femme"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Versace Dylan Blue Pour Femme",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Aquatic",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blackcurrant",
+        "Apple",
+        "Forget-Me-Not"
+      ],
+      "middle_notes": [
+        "Rose Hip",
+        "Petalia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Patchouli",
+        "Styrax"
+      ],
+      "description": "Fruity florals over clean musk and a shadow of patchouli.",
+      "note": "Confirm secondary notes against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-budget-versace-versace-dylan-blue-pour-femme"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Versace Bright Crystal",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Pomegranate",
+        "Yuzu",
+        "Water Notes"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Magnolia",
+        "Lotus"
+      ],
+      "base_notes": [
+        "Musk",
+        "Mahogany",
+        "Amber"
+      ],
+      "description": "Pomegranate and dewy petals over clean musk. One of the best-selling feminines of its era.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-versace-versace-bright-crystal"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Versace Man Eau Fraiche",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon",
+        "Bergamot",
+        "Rosewood"
+      ],
+      "middle_notes": [
+        "Tarragon",
+        "Sage",
+        "Cedar"
+      ],
+      "base_notes": [
+        "Musk",
+        "Amber",
+        "Woody Notes"
+      ],
+      "description": "Mediterranean citrus over airy woods. Light, likeable and endlessly summery.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-sport-budget-versace-versace-man-eau-fraiche"
+      ]
+    },
+    {
+      "brand": "Versace",
+      "name": "Eros",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Vanilla",
+        "Amber",
+        "Floral"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Mint",
+        "Green Apple",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Tonka Bean",
+        "Ambroxan",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Vetiver",
+        "Oakmoss",
+        "Cedar"
+      ],
+      "description": "The Eros mint-and-vanilla clash in a deeper register.",
+      "note": "EDP concentration; the EDT was enriched in batch-02. Shares the composition; the EDP reads warmer.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-budget-versace-eros"
+      ]
+    },
+    {
+      "brand": "Victoria's Secret",
+      "name": "Love Spell",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Fruity",
+        "Floral",
+        "Vanilla"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Peach",
+        "Cherry Blossom"
+      ],
+      "middle_notes": [
+        "White Jasmine"
+      ],
+      "base_notes": [
+        "Musk"
+      ],
+      "description": "Peach and cherry blossom over soft musk. A body-mist icon in fine-fragrance form.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-budget-victoria-s-secret-love-spell"
+      ]
+    },
+    {
+      "brand": "Victoria's Secret",
+      "name": "Bombshell",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Passion Fruit",
+        "Grapefruit",
+        "Pineapple"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Vanilla Orchid",
+        "Red Berries"
+      ],
+      "base_notes": [
+        "Musk",
+        "Woody Notes"
+      ],
+      "description": "Juicy passion fruit and peony over soft musk. One of the best-selling fragrances in America, year after year.",
+      "note": "Same product as the swap-01 replacement row in female_sport; pyramid kept identical across all rows.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-victoria-s-secret-bombshell"
+      ]
+    },
+    {
+      "brand": "Viktor & Rolf",
+      "name": "Flowerbomb Midnight",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pomegranate"
+      ],
+      "middle_notes": [
+        "Jasmine Sambac",
+        "Blackcurrant"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Musk"
+      ],
+      "description": "The Flowerbomb sweetness after dark, with pomegranate up top.",
+      "note": "Midnight flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-viktor-rolf-flowerbomb-midnight"
+      ]
+    },
+    {
+      "brand": "Viktor & Rolf",
+      "name": "Flowerbomb Nectar",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Osmanthus"
+      ],
+      "middle_notes": [
+        "Orange Blossom",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Bourbon Vanilla",
+        "Tonka Bean",
+        "Benzoin"
+      ],
+      "description": "The Flowerbomb idea drenched in honeyed vanilla.",
+      "note": "Nectar flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-budget-viktor-rolf-flowerbomb-nectar"
+      ]
+    },
+    {
+      "brand": "Viktor & Rolf",
+      "name": "Flowerbomb Ruby Orchid",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Red Pear"
+      ],
+      "middle_notes": [
+        "Orchid",
+        "Peony"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Patchouli"
+      ],
+      "description": "Juicy pear over red orchid and warm vanilla.",
+      "note": "Ruby Orchid flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-viktor-rolf-flowerbomb-ruby-orchid"
+      ]
+    },
+    {
+      "brand": "Viktor & Rolf",
+      "name": "Flowerbomb Dew",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Fruity",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear Blossom",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Rose",
+        "Iris"
+      ],
+      "base_notes": [
+        "Musk",
+        "Sandalwood"
+      ],
+      "description": "The Flowerbomb florals washed in morning dew. The lightest of the line.",
+      "note": "Dew flanker. Confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-viktor-rolf-flowerbomb-dew"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff Casamorati Fiore d'Ulivo",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Vanilla"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Amalfi Lemon",
+        "Lotus",
+        "Basil",
+        "Ambrette"
+      ],
+      "middle_notes": [
+        "Olive Blossom",
+        "Magnolia",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Musk",
+        "Benzoin",
+        "Amber"
+      ],
+      "description": "Olive blossom and Amalfi lemon over soft musk. The Mediterranean in a bottle.",
+      "note": "RESEARCHED against the OFFICIAL Xerjoff product page plus Jomashop 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-chill-niche-xerjoff-xerjoff-casamorati-fiore-d-ulivo"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff Casamorati 1888",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Spicy"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Coriander",
+        "Clove",
+        "Green Pepper",
+        "Saffron"
+      ],
+      "middle_notes": [
+        "Grasse Rose",
+        "Moroccan Neroli",
+        "Ylang-Ylang"
+      ],
+      "base_notes": [
+        "Mysore Sandalwood",
+        "Patchouli",
+        "Amber",
+        "Birch"
+      ],
+      "description": "Spiced rose over grand sandalwood and amber. Old-world elegance, faithfully restored.",
+      "note": "RESEARCHED against the OFFICIAL Xerjoff product page 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-niche-xerjoff-xerjoff-casamorati-1888"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff Soprano",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Citrus",
+        "Fresh",
+        "Fruity"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Calabrian Bergamot",
+        "Freesia",
+        "Litchi"
+      ],
+      "middle_notes": [
+        "Bulgarian Rose",
+        "Egyptian Jasmine",
+        "Milky Accord",
+        "Osmanthus"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "Oud",
+        "Leather"
+      ],
+      "description": "Milky rose and osmanthus over gentle oud. Calm, idyllic and quietly plush.",
+      "note": "RESEARCHED against the OFFICIAL Xerjoff product page plus Niche Beauty 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-niche-xerjoff-xerjoff-soprano"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Xerjoff 1861 Renaissance",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Fresh",
+        "Woody",
+        "Aromatic"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Amalfi Lemon",
+        "Tangerine",
+        "Bergamot",
+        "Petitgrain"
+      ],
+      "middle_notes": [
+        "Mint",
+        "Lily-of-the-Valley",
+        "Rose"
+      ],
+      "base_notes": [
+        "Musk",
+        "Virginia Cedar",
+        "Patchouli",
+        "Amber"
+      ],
+      "description": "Radiant Italian citrus over mint and clean woods. Sunlight, rendered precisely.",
+      "note": "RESEARCHED against the OFFICIAL Xerjoff product page plus Maxaroma 2026-07-21.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-niche-xerjoff-xerjoff-1861-renaissance"
+      ]
+    },
+    {
+      "brand": "Xerjoff",
+      "name": "Naxos",
+      "concentration": "EDP",
+      "tier": "niche",
+      "accords": [
+        "Vanilla",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Lavender",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Honey",
+        "Cinnamon",
+        "Cashmeran"
+      ],
+      "base_notes": [
+        "Tobacco",
+        "Tonka Bean",
+        "Vanilla",
+        "Benzoin"
+      ],
+      "description": "Honeyed tobacco over vanilla and tonka. Rich and golden, the Xerjoff everyone recommends first.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Xerjoff Naxos\" row enriched in batch-04, listed twice due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-niche-xerjoff-naxos"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Mon Paris",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Fruity",
+        "Fresh"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Strawberry",
+        "Raspberry",
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Datura",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "White Musk",
+        "Ambroxan"
+      ],
+      "description": "Sweet berries falling into airy patchouli. Vertiginous, romantic and very Parisian.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-daily-quality-yves-saint-laurent-mon-paris"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Black Opium Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Vanilla",
+        "Spicy",
+        "Floral"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Blue Absinthe Accord",
+        "Pear"
+      ],
+      "middle_notes": [
+        "Coffee",
+        "Orange Blossom",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Patchouli",
+        "Licorice"
+      ],
+      "description": "The Black Opium coffee turned up, with an electric absinthe glow.",
+      "note": "Intense flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-yves-saint-laurent-black-opium-intense"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Libre Intense",
+      "concentration": "EDP",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin Orange",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Orange Blossom",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Tonka Bean",
+        "Ambergris"
+      ],
+      "description": "The Libre lavender-vanilla tension pushed hotter.",
+      "note": "Intense flanker. Shares the line DNA; confirm the flanker-specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-date-night-quality-yves-saint-laurent-libre-intense"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Mon Paris",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fruity",
+        "Fresh",
+        "Citrus"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Strawberry",
+        "Raspberry",
+        "Pear",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Peony",
+        "Datura",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Patchouli",
+        "White Musk"
+      ],
+      "description": "The Mon Paris berries in a lighter, brighter splash.",
+      "note": "EDT concentration; shares the EDP composition.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "female-sport-quality-yves-saint-laurent-mon-paris"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Yves Saint Laurent L'Homme",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Fresh",
+        "Aromatic",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Ginger",
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Violet Leaf",
+        "White Pepper",
+        "Basil"
+      ],
+      "base_notes": [
+        "Cedar",
+        "Vetiver",
+        "Tonka Bean"
+      ],
+      "description": "Crisp ginger and citrus over smooth cedar and tonka. Polished, office-safe and reliably complimented.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"L\\u2019Homme\" row added by cut-audit swap-01 in male_formal, listed separately due to a redundant brand prefix. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-quality-yves-saint-laurent-yves-saint-laurent-l-homme"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "La Nuit de L'Homme",
+      "concentration": "EDT",
+      "tier": "quality",
+      "accords": [
+        "Spicy",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "high",
+      "top_notes": [
+        "Cardamom"
+      ],
+      "middle_notes": [
+        "Cedar",
+        "Lavender",
+        "Bergamot"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Caraway"
+      ],
+      "description": "Cardamom and dark cedar built for late hours. A modern seduction benchmark.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-yves-saint-laurent-la-nuit-de-l-homme"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Y Le Parfum",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Apple",
+        "Ginger",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Sage",
+        "Lavender",
+        "Geranium"
+      ],
+      "base_notes": [
+        "Tonka Bean",
+        "Cedar",
+        "Vetiver"
+      ],
+      "description": "The Y freshness compressed into something darker and dressier.",
+      "note": "Le Parfum concentration (2021). Confirm the specific list against the brand page.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-date-night-quality-yves-saint-laurent-y-le"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "YSL La Nuit de L'Homme Parfum Intense",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Spicy",
+        "Woody",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Cardamom",
+        "Bergamot"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Cedar",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Vetiver",
+        "Tonka Bean",
+        "Vanilla"
+      ],
+      "description": "The La Nuit cardamom-cedar signature in a warmer, sweeter register.",
+      "note": "Parfum Intense variant. Shares the line DNA; confirm the specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-quality-yves-saint-laurent-ysl-la-nuit-de-l-homme-parfum-intense"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Libre",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Floral",
+        "Vanilla",
+        "Amber"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Mandarin Orange",
+        "Blackcurrant",
+        "Bergamot",
+        "Lavender"
+      ],
+      "middle_notes": [
+        "Lavender",
+        "Orange Blossom",
+        "Jasmine"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Musk",
+        "Cedar",
+        "Ambergris"
+      ],
+      "description": "Sharp lavender over creamy vanilla. Modern and confident.",
+      "note": "DUPLICATE PRODUCT: same fragrance as the \"Yves Saint Laurent Libre\" EDP row enriched in batch-04, listed twice due to a name variant. Pyramid intentionally identical. Stage A0 repair candidate.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-date-night-budget-yves-saint-laurent-libre"
+      ]
+    },
+    {
+      "brand": "Yves Saint Laurent",
+      "name": "Black Opium",
+      "concentration": "Parfum",
+      "tier": "quality",
+      "accords": [
+        "Floral",
+        "Amber",
+        "Woody"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Pear",
+        "Pink Pepper"
+      ],
+      "middle_notes": [
+        "Coffee",
+        "Jasmine",
+        "Orange Blossom"
+      ],
+      "base_notes": [
+        "Vanilla",
+        "Patchouli",
+        "Woody Notes"
+      ],
+      "description": "The Black Opium coffee-vanilla signature in its densest form.",
+      "note": "Parfum concentration (2022). Shares the line DNA; confirm the specific list.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "unisex-formal-quality-yves-saint-laurent-black-opium"
+      ]
+    },
+    {
+      "brand": "Zara",
+      "name": "Zara Man Gold",
+      "concentration": "EDT",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Fresh",
+        "Aromatic"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Praline",
+        "Cinnamon"
+      ],
+      "base_notes": [
+        "Ebony",
+        "Amber"
+      ],
+      "description": "Lemon over praline, cinnamon and dark woods. A lot of warmth for very little money.",
+      "note": "RESEARCHED against retailer listings (Amazon, Parfumo, The Scent Base) 2026-07-21. Sources vary on base notes; flagged for verification.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-chill-budget-zara-zara-man-gold"
+      ]
+    },
+    {
+      "brand": "Zara",
+      "name": "Zara Night Pour Homme IV",
+      "concentration": "EDP",
+      "tier": "budget",
+      "accords": [
+        "Woody",
+        "Amber",
+        "Spicy"
+      ],
+      "confidence": "medium",
+      "top_notes": [
+        "Bergamot",
+        "Lemon"
+      ],
+      "middle_notes": [
+        "Leather"
+      ],
+      "base_notes": [
+        "Bamboo",
+        "Patchouli"
+      ],
+      "description": "Citrus over a smooth leather core. The darkest of the Night Pour Homme editions.",
+      "note": "RESEARCHED 2026-07-21: Night Pour Homme IV verified as a real 2017 Zara edition, distinct from editions II and III.",
+      "row_count": 1,
+      "applies_to_ids": [
+        "male-formal-budget-zara-zara-night-pour-homme-iv"
+      ]
+    }
+  ]
+}

@@ -546,13 +546,20 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Woody",
-      "Fresh",
-      "Aromatic"
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Praline",
+      "Cinnamon"
+    ],
+    "base_notes": [
+      "Ebony",
+      "Amber"
+    ],
+    "description": "Lemon over praline, cinnamon and dark woods. A lot of warmth for very little money.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-hermes-terre-d-hermes",
@@ -895,13 +902,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Fresh",
-      "Aromatic",
-      "Woody"
+      "Ginger",
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Violet Leaf",
+      "White Pepper",
+      "Basil"
+    ],
+    "base_notes": [
+      "Cedar",
+      "Vetiver",
+      "Tonka Bean"
+    ],
+    "description": "Crisp ginger and citrus over smooth cedar and tonka. Polished, office-safe and reliably complimented.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-chill-quality-bvlgari-man-in-black",
@@ -1498,12 +1516,25 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Fresh",
-      "Woody",
-      "Aromatic"
+      "Amalfi Lemon",
+      "Tangerine",
+      "Bergamot",
+      "Petitgrain"
     ],
-    "description": "",
+    "middle_notes": [
+      "Mint",
+      "Lily-of-the-Valley",
+      "Rose"
+    ],
+    "base_notes": [
+      "Musk",
+      "Virginia Cedar",
+      "Patchouli",
+      "Amber"
+    ],
+    "description": "Radiant Italian citrus over mint and clean woods. Sunlight, rendered precisely.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   }
 ]

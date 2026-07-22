@@ -504,13 +504,20 @@
       "Spicy"
     ],
     "top_notes": [
-      "Woody",
-      "Amber",
-      "Spicy"
+      "Bergamot",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Leather"
+    ],
+    "base_notes": [
+      "Bamboo",
+      "Patchouli"
+    ],
+    "description": "Citrus over a smooth leather core. The darkest of the Night Pour Homme editions.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-dior-dior-homme",
@@ -813,13 +820,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Spicy",
-      "Woody",
-      "Amber"
+      "Cardamom",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Cedar",
+      "Orange Blossom"
+    ],
+    "base_notes": [
+      "Vetiver",
+      "Tonka Bean",
+      "Vanilla"
+    ],
+    "description": "The La Nuit cardamom-cedar signature in a warmer, sweeter register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-quality-hermes-hermes-h24",
@@ -980,13 +997,21 @@
       "Aromatic"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Aromatic"
+      "Violet Leaf"
     ],
-    "description": "",
+    "middle_notes": [
+      "Leather",
+      "Jasmine Sambac"
+    ],
+    "base_notes": [
+      "Patchouli",
+      "Moss",
+      "Amber"
+    ],
+    "description": "Raw leather and violet leaf in the densest concentration. Desert air and saddle.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-creed-creed-aventus",
@@ -1130,13 +1155,24 @@
       "Spicy"
     ],
     "top_notes": [
-      "Amber",
-      "Woody",
-      "Spicy"
+      "Thyme",
+      "Raspberry",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Leather",
+      "Jasmine",
+      "Olibanum"
+    ],
+    "base_notes": [
+      "Amber",
+      "Suede",
+      "Woody Notes"
+    ],
+    "description": "Raw leather cut with jammy raspberry. Dense, animalic and one of the most distinctive things Tom Ford makes.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-formal-niche-tom-ford-tom-ford-oud-wood",

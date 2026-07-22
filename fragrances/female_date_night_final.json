@@ -38,13 +38,20 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Pomegranate"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine Sambac",
+      "Blackcurrant"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk"
+    ],
+    "description": "The Flowerbomb sweetness after dark, with pomegranate up top.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-yves-saint-laurent-black-opium",
@@ -155,13 +162,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Passion Fruit",
+      "Grapefruit",
+      "Pineapple"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Vanilla Orchid",
+      "Red Berries"
+    ],
+    "base_notes": [
+      "Musk",
+      "Woody Notes"
+    ],
+    "description": "Juicy passion fruit and peony over soft musk. One of the best-selling fragrances in America, year after year.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-paris-hilton-can-can",
@@ -238,13 +255,23 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Amber",
-      "Vanilla"
+      "Pomegranate",
+      "Yuzu"
     ],
-    "description": "",
+    "middle_notes": [
+      "Peony",
+      "Magnolia",
+      "Lotus"
+    ],
+    "base_notes": [
+      "Musk",
+      "Mahogany",
+      "Amber"
+    ],
+    "description": "The Bright Crystal sparkle concentrated and warmed.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-versace-eros-pour-femme",
@@ -258,13 +285,25 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Sicilian Lemon",
+      "Calabrian Bergamot",
+      "Pomegranate"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine",
+      "Peony",
+      "Lemon Blossom"
+    ],
+    "base_notes": [
+      "Sandalwood",
+      "Ambroxan",
+      "Musk",
+      "Oak"
+    ],
+    "description": "Bright lemon and pomegranate over jasmine and warm woods. Confident and polished.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-viktor-rolf-flowerbomb-nectar",
@@ -278,13 +317,22 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot",
+      "Osmanthus"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Bourbon Vanilla",
+      "Tonka Bean",
+      "Benzoin"
+    ],
+    "description": "The Flowerbomb idea drenched in honeyed vanilla.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-budget-juicy-couture-viva-la-juicy-noir",
@@ -473,13 +521,23 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Spicy",
-      "Floral"
+      "Blue Absinthe Accord",
+      "Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Coffee",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli",
+      "Licorice"
+    ],
+    "description": "The Black Opium coffee turned up, with an electric absinthe glow.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-chanel-coco",
@@ -704,13 +762,23 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mandarin Orange",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Tonka Bean",
+      "Ambergris"
+    ],
+    "description": "The Libre lavender-vanilla tension pushed hotter.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-versace-crystal-noir",
@@ -756,13 +824,20 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Spicy"
+      "Red Pear"
     ],
-    "description": "",
+    "middle_notes": [
+      "Orchid",
+      "Peony"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Patchouli"
+    ],
+    "description": "Juicy pear over red orchid and warm vanilla.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-dior-miss-dior-absolutely-blooming",
@@ -859,13 +934,21 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Spicy"
+      "Blackcurrant",
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Jasmine Grandiflorum",
+      "Jasmine Sambac"
+    ],
+    "base_notes": [
+      "Bourbon Vanilla",
+      "Woody Notes"
+    ],
+    "description": "Triple jasmine over street-smart vanilla. The modern Valentino bestseller.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-quality-lancome-la-nuit-tresor",
@@ -1229,13 +1312,26 @@
       "Spicy"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Spicy"
+      "Coriander",
+      "Clove",
+      "Green Pepper",
+      "Saffron"
     ],
-    "description": "",
+    "middle_notes": [
+      "Grasse Rose",
+      "Moroccan Neroli",
+      "Ylang-Ylang"
+    ],
+    "base_notes": [
+      "Mysore Sandalwood",
+      "Patchouli",
+      "Amber",
+      "Birch"
+    ],
+    "description": "Spiced rose over grand sandalwood and amber. Old-world elegance, faithfully restored.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-date-night-niche-louis-vuitton-lv-rose-des-vents",

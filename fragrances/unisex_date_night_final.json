@@ -306,13 +306,25 @@
       "Floral"
     ],
     "top_notes": [
-      "Vanilla",
-      "Amber",
-      "Floral"
+      "Mint",
+      "Green Apple",
+      "Lemon"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tonka Bean",
+      "Ambroxan",
+      "Geranium"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Vetiver",
+      "Oakmoss",
+      "Cedar"
+    ],
+    "description": "The Eros mint-and-vanilla clash in a deeper register.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-emporio-armani-stronger-with-you",
@@ -420,13 +432,26 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Mandarin Orange",
+      "Blackcurrant",
+      "Bergamot",
+      "Lavender"
     ],
-    "description": "",
+    "middle_notes": [
+      "Lavender",
+      "Orange Blossom",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Musk",
+      "Cedar",
+      "Ambergris"
+    ],
+    "description": "Sharp lavender over creamy vanilla. Modern and confident.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "unisex-date-night-budget-dior-hypnotic-poison",

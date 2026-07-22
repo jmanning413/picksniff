@@ -411,13 +411,24 @@
       "Woody"
     ],
     "top_notes": [
-      "Citrus",
-      "Fresh",
-      "Woody"
+      "Lemon",
+      "Bergamot",
+      "Rosewood"
     ],
-    "description": "",
+    "middle_notes": [
+      "Tarragon",
+      "Sage",
+      "Cedar"
+    ],
+    "base_notes": [
+      "Musk",
+      "Amber",
+      "Woody Notes"
+    ],
+    "description": "Mediterranean citrus over airy woods. Light, likeable and endlessly summery.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "male-sport-budget-davidoff-cool-water-intense",

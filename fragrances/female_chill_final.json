@@ -42,13 +42,19 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Vanilla"
+      "Peach",
+      "Cherry Blossom"
     ],
-    "description": "",
+    "middle_notes": [
+      "White Jasmine"
+    ],
+    "base_notes": [
+      "Musk"
+    ],
+    "description": "Peach and cherry blossom over soft musk. A body-mist icon in fine-fragrance form.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-karan-cashmere-mist-edp-donna",
@@ -156,13 +162,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Fruity",
-      "Floral",
-      "Vanilla"
+      "Water Lily",
+      "Apple",
+      "Mandarin",
+      "Apricot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Guava",
+      "Tuberose",
+      "Tiare Flower"
+    ],
+    "base_notes": [
+      "Vanilla",
+      "Amber",
+      "Chocolate"
+    ],
+    "description": "Waterlily and fruit over vanilla and a whisper of chocolate. A tiara in a bottle, on purpose.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-budget-lempicka-lolita-lempicka-edp-lolita",
@@ -719,13 +737,21 @@
       "Amber"
     ],
     "top_notes": [
-      "Floral",
-      "Vanilla",
-      "Amber"
+      "Bergamot"
     ],
-    "description": "",
+    "middle_notes": [
+      "Iris",
+      "Rose"
+    ],
+    "base_notes": [
+      "Leather",
+      "Vanilla",
+      "Patchouli"
+    ],
+    "description": "Powdery iris and rose over suede-soft leather. Roman elegance, quietly done.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-quality-giorgio-armani-si-passione",
@@ -1452,13 +1478,25 @@
       "Vanilla"
     ],
     "top_notes": [
-      "Floral",
-      "Fruity",
-      "Vanilla"
+      "Amalfi Lemon",
+      "Lotus",
+      "Basil",
+      "Ambrette"
     ],
-    "description": "",
+    "middle_notes": [
+      "Olive Blossom",
+      "Magnolia",
+      "Jasmine"
+    ],
+    "base_notes": [
+      "Musk",
+      "Benzoin",
+      "Amber"
+    ],
+    "description": "Olive blossom and Amalfi lemon over soft musk. The Mediterranean in a bottle.",
     "sephora_url": null,
-    "jomashop_url": null
+    "jomashop_url": null,
+    "data_status": "drafted"
   },
   {
     "id": "female-chill-niche-initio-initio-side-effect",
