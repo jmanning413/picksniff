@@ -157,7 +157,7 @@ export default function NoseTestPage() {
             <button
               type="button"
               onClick={() => setStep((s) => s - 1)}
-              className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black"
+              className="mb-8 inline-flex h-10 items-center gap-2 rounded-xl border border-sand px-4 text-sm font-bold text-slate transition hover:border-green-accent hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep"
             >
               ← Back
             </button>
@@ -206,7 +206,7 @@ export default function NoseTestPage() {
                   type="button"
                   onClick={() => genders.length > 0 && setStep(1)}
                   disabled={genders.length === 0}
-                  className="inline-flex min-h-[52px] w-full items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-35 sm:w-auto sm:min-w-48"
+                  className="inline-flex min-h-[52px] w-full items-center justify-center rounded-xl bg-green-accent px-8 text-base font-black text-black transition hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep disabled:cursor-not-allowed disabled:opacity-35 sm:w-auto sm:min-w-48"
                 >
                   Start →
                 </button>
@@ -237,7 +237,7 @@ export default function NoseTestPage() {
                         onClick={() => select(q.id, opt.id)}
                         aria-pressed={selected}
                         className={[
-                          'flex items-center justify-between gap-4 rounded-xl border p-5 text-left transition',
+                          'flex items-center justify-between gap-4 rounded-xl border p-5 text-left transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep',
                           selected
                             ? 'border-green-accent bg-green-accent/15 shadow-sm'
                             : 'border-sand bg-white hover:border-green-accent',
@@ -282,7 +282,7 @@ export default function NoseTestPage() {
                   {profile.notes.map((n) => (
                     <span
                       key={n}
-                      className="rounded-full bg-green-accent/20 px-3 py-1 text-sm font-black text-green-deep"
+                      className="rounded-full bg-green-wash px-3 py-1 text-sm font-black text-green-deep"
                     >
                       {n}
                     </span>
@@ -417,7 +417,7 @@ export default function NoseTestPage() {
                   <button
                     type="button"
                     onClick={goToResults}
-                    className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-green-accent px-6 text-base font-bold text-black transition hover:bg-green-accent/10"
+                    className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-green-accent px-6 text-base font-bold text-black transition hover:bg-green-accent/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep"
                   >
                     Browse fragrances built on these notes
                   </button>
@@ -428,7 +428,7 @@ export default function NoseTestPage() {
                       setProfile(null)
                       setStep(0)
                     }}
-                    className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-6 text-base font-bold text-slate transition hover:border-green-accent hover:text-black"
+                    className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-sand px-6 text-base font-bold text-slate transition hover:border-green-accent hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-deep"
                   >
                     Start over
                   </button>
