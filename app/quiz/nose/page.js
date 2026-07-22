@@ -73,7 +73,10 @@ export default function NoseTestPage() {
   // Order effects are real: earlier items prime later ones. Standard mitigation
   // is randomising independent items, and our smells are independent. The first
   // three are deliberately fixed because they carry the engagement load.
-  // Shuffled after mount so server and client markup match.
+  // Shuffled after mount so server and client markup match: randomising in a
+  // lazy initializer would make the server-rendered order differ from the
+  // client's and break hydration. The one-time post-mount setState is the
+  // point, not an accident, so the cascading-render lint rule is waived here.
   useEffect(() => {
     const fixed = SMELL_ITEMS.filter((i) => i.fixed)
     const rest = SMELL_ITEMS.filter((i) => !i.fixed)
@@ -81,6 +84,7 @@ export default function NoseTestPage() {
       const j = Math.floor(Math.random() * (i + 1))
       ;[rest[i], rest[j]] = [rest[j], rest[i]]
     }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSmellOrder([...fixed, ...rest])
   }, [])
 
