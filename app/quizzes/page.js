@@ -154,7 +154,7 @@ export default function QuizzesPage() {
             Find your scent,<br className="hidden sm:block" /> your way.
           </h1>
           <p className="mt-4 max-w-xl text-base leading-7 text-slate">
-            Six different ways to discover your perfect fragrance. Each quiz takes under two minutes.
+            Seven different ways to discover your perfect fragrance. Each quiz takes under two minutes.
           </p>
 
           <div className="mt-12 grid gap-5 sm:grid-cols-2">

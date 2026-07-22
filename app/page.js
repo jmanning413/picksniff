@@ -24,6 +24,7 @@ function getFragranceOfDay(fragrances) {
 }
 
 const QUIZ_STRIP = [
+  { href: '/quiz/nose', title: 'The Nose Test', hint: 'Petrol, Play-Doh, cut grass. Find out how your nose actually works.', featured: true },
   { href: '/quiz', title: 'Signature Scent', hint: 'The classic 4-question match' },
   { href: '/quiz/personality', title: 'Personality', hint: 'What fragrance are you?' },
   { href: '/quiz/mood', title: 'Mood', hint: 'A scent for right now' },
@@ -109,7 +110,7 @@ export default async function Home() {
             </div>
             <p className="mt-4 text-center text-sm lg:text-left">
               <Link href="/quizzes" className="font-bold text-slate transition hover:text-black">
-                Or explore all 6 quizzes →
+                Or explore all 7 quizzes →
               </Link>
             </p>
           </div>
@@ -184,13 +185,13 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* ── Six ways in ── */}
+        {/* ── Seven ways in ── */}
         <section className="border-t border-sand bg-white/70 px-5 py-16 sm:px-8">
           <div className="mx-auto w-full max-w-4xl">
             <div className="mb-8 flex items-end justify-between">
               <div>
                 <p className="mb-1 text-sm font-black uppercase tracking-[0.18em] text-green-deep">Quizzes</p>
-                <h2 className="text-3xl font-black tracking-tight text-black sm:text-4xl">Six ways to find your scent</h2>
+                <h2 className="text-3xl font-black tracking-tight text-black sm:text-4xl">Seven ways to find your scent</h2>
               </div>
               <Link href="/quizzes" className="hidden text-sm font-bold text-slate transition hover:text-black sm:block">
                 See all →
@@ -201,9 +202,19 @@ export default async function Home() {
                 <Link
                   key={q.href}
                   href={q.href}
-                  className="group rounded-xl border border-sand bg-white p-4 transition hover:border-green-accent hover:shadow-sm"
+                  className={[
+                    'group rounded-xl border p-4 transition hover:shadow-sm',
+                    q.featured
+                      ? 'col-span-2 border-green-accent bg-green-wash hover:border-green-deep sm:col-span-3'
+                      : 'border-sand bg-white hover:border-green-accent',
+                  ].join(' ')}
                 >
-                  <p className="text-base font-black text-black group-hover:text-green-deep transition">{q.title}</p>
+                  <p className="flex flex-wrap items-center gap-2">
+                    <span className="text-base font-black text-black transition group-hover:text-green-deep">{q.title}</span>
+                    {q.featured && (
+                      <span className="rounded-full bg-green-accent px-2 py-0.5 text-[10px] font-black uppercase tracking-wider text-black">New</span>
+                    )}
+                  </p>
                   <p className="mt-0.5 text-xs leading-5 text-slate">{q.hint}</p>
                 </Link>
               ))}
