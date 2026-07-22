@@ -994,35 +994,6 @@
     "data_status": "drafted"
   },
   {
-    "id": "unisex-sport-quality-guerlain-guerlain-aqua-allegoria-bergamote-calabria",
-    "name": "Aqua Allegoria Bergamote Calabria",
-    "brand": "Guerlain",
-    "concentration": "EDT",
-    "tier": "quality",
-    "accords": [
-      "Citrus",
-      "Fresh",
-      "Aquatic"
-    ],
-    "top_notes": [
-      "Bergamot",
-      "Lemon",
-      "Mint"
-    ],
-    "middle_notes": [
-      "Neroli",
-      "Petitgrain"
-    ],
-    "base_notes": [
-      "White Musk",
-      "Cedar"
-    ],
-    "description": "Pure, zesty bergamot kept bright and uncomplicated. A citrus cologne in the classic Guerlain style.",
-    "sephora_url": null,
-    "jomashop_url": null,
-    "data_status": "drafted"
-  },
-  {
     "id": "unisex-sport-quality-bvlgari-bvlgari-omnia-crystalline",
     "name": "Bvlgari Omnia Crystalline",
     "brand": "Bvlgari",

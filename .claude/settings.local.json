@@ -15,7 +15,21 @@
       "Bash(curl -s \"https://www.picksniff.com/results?genders=male&tier=quality&vibe=date_night&accords=Spicy,Amber,Woody\")",
       "Bash(curl -s \"https://www.picksniff.com/results?genders=male&tier=quality&vibe=date_night\")",
       "Bash(python \"C:\\\\Users\\\\jman8\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-jman8-picksniff\\\\b6518499-fb22-49db-bb9c-2f94cad8ab2d\\\\scratchpad\\\\dupscan.py\")",
-      "Bash(node data-enrichment/build-batch-06.mjs)"
+      "Bash(node data-enrichment/build-batch-06.mjs)",
+      "Bash(node scripts/merge-enrichment.mjs --batch data-enrichment/batch-06.json)",
+      "Bash(node scripts/apply-swap.mjs --spec data-enrichment/swap-04.json)",
+      "Bash(node scripts/snapshot-matches.mjs C:/Users/jman8/AppData/Local/Temp/claude/c--Users-jman8-picksniff/78df3204-94b7-42c4-9db9-d63d48002aba/scratchpad/pre07.json)",
+      "Bash(node scripts/merge-enrichment.mjs --batch data-enrichment/batch-06.json --write --allow-accord-collision)",
+      "Bash(node scripts/apply-swap.mjs --spec data-enrichment/swap-04.json --write)",
+      "Bash(git rev-list *)",
+      "Bash(node data-enrichment/build-batch-07.mjs)",
+      "Bash(python C:/Users/jman8/AppData/Local/Temp/claude/c--Users-jman8-picksniff/78df3204-94b7-42c4-9db9-d63d48002aba/scratchpad/patch07.py)",
+      "Bash(node scripts/merge-enrichment.mjs --batch data-enrichment/batch-07.json)",
+      "Bash(node scripts/apply-swap.mjs --spec data-enrichment/swap-05.json)",
+      "Bash(node scripts/snapshot-matches.mjs C:/Users/jman8/AppData/Local/Temp/claude/c--Users-jman8-picksniff/78df3204-94b7-42c4-9db9-d63d48002aba/scratchpad/pre08.json)",
+      "Bash(node scripts/merge-enrichment.mjs --batch data-enrichment/batch-07.json --write)",
+      "Bash(node scripts/apply-swap.mjs --spec data-enrichment/swap-05.json --write)",
+      "Bash(node --input-type=module -e ' *)"
     ]
   }
 }

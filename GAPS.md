@@ -166,3 +166,62 @@ strings (so `vercel env pull` can't be used to sync down). Convention going forw
 any env change happens in BOTH places in the same sitting, and `.env.example` lists
 every name. (Also: once the Supabase project is restored, confirm the project ref in
 `.env.local` still matches the dashboard.)
+
+## 19. ✅ RESOLVED (2026-07-21) — Duplicate catalog IDs: was 748 rows, 746 unique
+
+**Resolution:** 19a fixed by renaming the unreachable EDT row; 19b fixed by deleting the
+duplicate row that carried a wrong accord (see below). Catalog is now **747 rows, 747
+unique ids**, and `tests/catalog.test.mjs` guards it permanently.
+
+Found during post-deploy verification of the Nose Test. **Pre-existing**, and unrelated
+to it: the duplicates are present at `14e859a`, which touched only `docs/`. They also
+predate the cut-audit and enrichment batches.
+
+IDs are built as `{gender}-{vibe}-{tier}-{brand}-{name}` and **omit `concentration`**,
+so two concentrations of the same product in the same gender/vibe/tier collide.
+
+**Two distinct cases, with different severities and different fixes.**
+
+**19a. 🔶 Chanel — a real rendering bug.**
+`male-daily-quality-chanel-bleu-de-chanel` appears twice in `male_daily_final.json`
+(lines ~566 and ~666), once as **EDP** and once as **EDT**. The engine's dedup key is
+`brand|name|concentration`, so these are correctly treated as different products and
+**both survive into the same result set sharing one `id`**. Reproduced with the real
+pipeline (male/daily/quality, Woody+Aromatic+Citrus): both rows returned. Consequences:
+- Duplicate React keys at `ResultsClient.js` (`key={f.id}`), so card state (wishlist
+  heart, compare checkbox) can act on the wrong one.
+- Duplicate DOM ids (`fcard-${f.id}`), so "Surprise Me" always scrolls to the first.
+- `getFragranceById` returns the first match, so `/fragrance/<id>` always shows the EDP
+  and **the EDT is permanently unreachable**.
+- `wishlist`/`owned` store `fragrance_id`, so saving the EDT saves an id resolving to
+  the EDP.
+
+**Fix (safe, no migration):** rename only the **second, currently unreachable** row to
+`...-bleu-de-chanel-edt`. The first row keeps its id, so any existing wishlist/owned
+rows stay valid. Nobody can have saved the EDT because it was never reachable.
+
+**19b. 🔓 Guerlain — wasted slot, needs a human decision.**
+`unisex-sport-quality-guerlain-guerlain-aqua-allegoria-bergamote-calabria` appears twice
+in `unisex_sport_final.json` (lines ~997 and ~1083) with **identical brand, name and
+concentration (EDT)**. The engine therefore *does* dedupe it and it never surfaces
+twice, so there is no rendering bug. But it is a genuine duplicate row consuming a
+catalog slot, and **the two copies disagree on their third accord**: one says `Aquatic`,
+the other `Aromatic`.
+
+**Resolved by deleting the `Aquatic` row and keeping `Aromatic`.** The two rows were
+byte-identical apart from that one accord, so this removed no unique information. The
+`id` is unchanged (both rows shared it), so no wishlist or owned row was affected.
+
+`Aromatic` is the correct value and `Aquatic` was wrong. The row's own note data is
+`Bergamot, Lemon, Mint / Neroli, Petitgrain / White Musk, Cedar` — petitgrain, neroli
+and mint are aromatic materials and there is no marine note anywhere in it. Confirmed
+against the product itself: Calabrian bergamot and petitgrain over ginger and cardamom,
+with white musk and woods. The `Aquatic` tag was almost certainly an artifact of the
+*Aqua Allegoria* line name, which is marketing rather than an accord.
+
+Note this was the row the site actually served: the engine keeps the first occurrence,
+so **the wrong accord was the live one** and the correct row was unreachable.
+
+**Prevention:** add a duplicate-id assertion to the test suite so this cannot regress.
+The catalog is loaded through `loadAllFragrances()`, so a single test asserting
+`ids.length === new Set(ids).size` would have caught both.
