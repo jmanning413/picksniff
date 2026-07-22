@@ -33,8 +33,8 @@ which is an engagement mechanic that happens to be true.
 
 | Tier | Name | Taps | Time | Delivers |
 |---|---|---|---|---|
-| **1** | The Nose Test | ~21 | ~90 s | A real, usable nose profile |
-| **2** | Make it sharper | ~17 | ~60 s | Association valence, skin effects, full accord coverage |
+| **1** | The Nose Test | ~22 | ~90 s | A real, usable nose profile |
+| **2** | Make it sharper | ~21 | ~75 s | Association valence, food priors, skin effects, full accord coverage |
 | **3** | What you already own | 2 fields | ~45 s | Level 4 revealed-preference data (NOSE-TEST §2.7d) |
 
 **Tier 1 alone must be a good product.** Tiers 2 and 3 are invitations, never gates.
@@ -85,16 +85,23 @@ Ordered to hook first: the openers are the ones people argue about.
 | 11 | A swimming pool | D3, D4 |
 | 12 | Ground coffee beans † | D12 |
 | 13 | Beach sunscreen | D10, D7 |
-| 14 | Sharpening a pencil | D13 |
+| 14 | **Grapefruit — refreshing, or too bitter?** *(Refreshing · Depends · Too bitter)* | **D1b** + TAS2R38 supertaster proxy |
+| 15 | Sharpening a pencil | D13 |
 
 † Kitchen Calibration item.
 
 **Dynamic swap (approved).** If the user tapped *"I've got them"* on Screen 1, promote
-**black pepper** and **lemon** from Tier 2 into slots 13 and 14, displacing **sunscreen** and
-**pencil shavings** down to Tier 2. Rationale: a live stimulus at Level 2 of the evidence
-ladder beats a remembered one at Level 1 (NOSE-TEST §2.7), and sunscreen and pencil shavings
-are the weakest two items in this set by information value. Tier 1 stays at 14 smells either
-way, so the tap count does not move.
+**black pepper** and **lemon** from Tier 2 into the slots held by **sunscreen** and **pencil
+shavings**, displacing those two to Tier 2. Rationale: a live stimulus at Level 2 of the
+evidence ladder beats a remembered one at Level 1 (NOSE-TEST §2.7), and those are the
+weakest two items in this set by information value. The item count does not move either way.
+
+**Citrus correction (added 2026-07-21, NOSE-TEST §2.7k).** Grapefruit was added to Tier 1
+after Joseph flagged that citrus — **190 of 748 catalog entries, the sixth most common
+accord** — had only one weak Tier 2 item. It is the divisive citrus question the set was
+missing: TAS2R38-grounded, universally familiar, and it splits a room. Core is now 15 smells
+and Tier 1 sits at ~22 taps. **Grapefruit and lemon are not interchangeable** — grapefruit
+probes D1b (bitter), lemon probes D1 (sweet), and the split is the whole point.
 
 ### Screens 16–18 — Intensity probes
 
@@ -103,9 +110,21 @@ instrument and the phrasing is doing real work.
 
 | # | Question | Options | Maps to |
 |---|---|---|---|
-| 15 | **Can you smell rain before it arrives?** | Always · Sometimes · Never noticed this | D3 intensity ★ |
-| 16 | **When you take laundry out of the dryer, do you smell anything?** | Strongly · Faintly · Not really | D4 intensity ★ *(Galaxolide probe)* |
-| 17 | **Have you ever been handed flowers and smelled almost nothing?** | Yes, often · Once or twice · No | D8 intensity ★ *(β-ionone probe)* |
+| 16 | **Can you smell rain before it arrives?** | Always · Sometimes · Never noticed this | D3 intensity ★ |
+| 17 | **When you take laundry out of the dryer, do you smell anything?** | Strongly · Faintly · Not really | D4 intensity ★ *(Galaxolide probe)* |
+| 18 | **Have you ever been handed flowers and smelled almost nothing?** | Yes, often · Once or twice · No | D8 intensity ★ *(β-ionone probe)* |
+| 19 | **Asparagus — does your pee smell afterwards?** | Yes, strongly · Faintly · Never noticed | Sulfur / thiol intensity ★ *(OR2M7)* |
+
+**Asparagus is the highest-information item in the set** (NOSE-TEST §11.1). Detection is
+associated with **rs4481887 near OR2M7**, and the population splits close to **40% detect /
+60% do not** — near the theoretical maximum information per tap. It is famous, instantly
+answerable, and probes sulfur/thiol sensitivity, which nothing else in the quiz reaches and
+which matters for cassis, blackcurrant, and grapefruit materials.
+
+**Its one flaw, documented:** the trait has two parts, *excreting* the compounds and
+*perceiving* them, and roughly **8% of people do not produce a detectable odour at all**. So a
+"never noticed" conflates non-excretion with anosmia. Modest contamination — keep the item,
+weight it marginally below the three cleaner ★ probes above.
 
 ### Screens 19–20 — Trigeminal pair
 
@@ -153,8 +172,23 @@ Same four-option control. Fills the accord gaps Tier 1 leaves: D1, D6, D9, D14, 
 | 26 | Banana peel | D9 |
 | 27 | Unlit pipe tobacco | D17, D12 |
 | 28 | A worn shirt of someone you love | D17 ★, D4 |
+| 29 | **Cut green bell pepper** | **D2** — IBMP, the same pyrazine family as galbanum |
+| 30 | **A jasmine or gardenia bush in bloom** | **D7** — closes the white-floral gap |
+| 31 | **Mulled wine, or a clove-studded orange** | **D19** — closes the warm-spice gap |
+| 32 | **Sticky pine or fir resin on your hands** | **D15** — closes the resinous gap |
 
 † Kitchen Calibration items.
+
+**Items 29–32 close the coverage gaps found in the §11.4 audit.** Green pepper is not an
+analogy for galbanum — **sBMP was identified in galbanum oil** and IBMP is its close
+relative, so this is the same chemical family (NOSE-TEST §11.1). White florals (D7), warm
+spice (D19), and resins (D15) were each reachable only obliquely before this; amber is
+conventionally **labdanum + benzoin + vanilla**, so pine resin plus the existing vanilla and
+incense items now triangulate it.
+
+**D14 (creamy sandalwood) remains uncovered and is accepted as a gap.** No everyday reference
+smell exists that is both globally familiar and divisive; sandalwood soap would serve in South
+Asia but not in Western markets. Recover D14 from note pyramids after enrichment instead.
 
 ### Association valence
 
@@ -175,6 +209,59 @@ far more than a bare one, and a "hate" backed by a bad memory is close to unshak
 Identifies **association-driven versus chemistry-driven** users. Herz's mechanism does not
 run equally in everyone, and knowing which kind of person this is **changes how much to
 trust the rest of the instrument.** One tap.
+
+### Food block
+
+Flavour is dominated by retronasal olfaction, so these are **not personality questions —
+they are odour-preference questions asked through the mouth**, about stimuli the user has
+sampled hundreds of times over years (NOSE-TEST §2.7i).
+
+| # | Question | Options | Maps to |
+|---|---|---|---|
+| F1 | **How sweet do you like things?** | Can't be too sweet · Middle of the road · Most desserts are too sweet for me | **D11, D12 — gates the entire gourmand category** |
+| F2 | **Something unfamiliar on the menu — do you order it?** | Usually · Sometimes · I stick to what I know | **D22** + global response-style correction |
+| F3 | **Strong blue cheese?** | Love it · Tolerate it · Absolutely not | D17 animalic / sulfur tolerance |
+| F4 | **Does celery taste strong or bitter to you?** | Very · A bit · Not really | D17 — **speculative** androstenone probe |
+| F5 | **Steak — rare or well done?** | Rare · Medium · Well done, give me the char · **I don't eat steak** | **D16, D17, D12** — guaiacol / syringol / Maillard |
+| F5b | *(if "I don't eat steak")* **Toast — barely golden or properly dark?** | Barely golden · Golden · Dark and crunchy | Same axis, no meat |
+
+**F1 is the highest-value single question in Tier 2.** Sweet-liking is a stable trait, and
+gourmand — vanilla, caramel, praline, the whole Angel and Black Opium lineage — is one of
+the largest and most polarising categories in fragrance. A sweet-disliker rejects all of it
+regardless of how well their accords otherwise match.
+
+**F2 earns its place twice.** It reaches adventurousness without asking about chilli (useful
+for anyone who does not eat spicy food for cultural rather than perceptual reasons), and
+neophobia depresses *both* pleasantness and intensity ratings, which makes it a **global
+calibration term for every other answer in the quiz.** Cheapest accuracy gain in the spec.
+
+**F5 has the most literal mapping in the food block.** Burning wood breaks lignin down into
+**guaiacol** and **syringol** — and **birch tar and cade oil, the backbone of every classic
+leather accord**, are made by pyrolysing birch bark and juniper heartwood into those same
+phenols. The leather note in perfumery is made by burning wood. Someone choosing a charred
+crust is stating a preference about guaiacol (NOSE-TEST §2.7l).
+
+Two constraints on F5. **The opt-out must be unremarkable** — a large minority does not eat
+beef for dietary, religious, or ethical reasons, and F5b covers the identical axis without
+meat, so nobody is dropped. And **weight it below the direct smoke items** (church incense,
+leather jacket): rare-versus-well-done is partly about texture, moisture, and family habit,
+not only aroma.
+
+**Never attach health framing to F5.** Charred meat and PAHs are a real toxicology topic and
+have no place in a fragrance quiz.
+
+**F4 is flagged speculative and should be treated as an experiment, not a signal.** Celery
+contains androstenone, but celery aversion may be driven by phthalides instead, and no study
+has tested celery liking against OR7D4 genotype. Include it *because* it is testable: if F4
+correlates with the other androstenone-adjacent items in live data, that is a novel finding
+worth publishing (`NOSE-DATA.md` §6). If it correlates with nothing, cut it at the first
+§9.2 review.
+
+**Scoring caution (NOSE-TEST §2.7j).** Food items are **strong priors, not verdicts.**
+Weight them *above* direct odour items on the hedonic question and *below* them on the
+wearing question — liking to eat something is not wanting to wear it, and orthonasal and
+retronasal perception run through different neural pathways. Never phrase a result as
+*"you like cinnamon, so you'll love this."*
 
 ### Skin block
 
@@ -248,8 +335,71 @@ Governed by the anti-Barnum rule (NOSE-TEST §7.3) and the asymmetric loss rule 
    so the output is *"here's your scent, and two more to rotate with so it keeps working"*
    (NOSE-TEST §2.9).
 
+6. **Citrus expectation-setting, whenever a citrus-forward match is shown.** Citrus molecules
+   are small and volatile — citrus oils typically fade in 15–30 minutes, and heat roughly
+   doubles the rate every 10 °C.
+
+   > *"You'll love this. It'll also be mostly gone in an hour. That's the material, not your
+   > skin — citrus molecules are small and they leave fast. If you want it to last, look for
+   > one anchored with amber or woods."*
+
+   **And never let a citrus lover self-diagnose a skin problem.** A user whose profile is
+   citrus-heavy and who reports "nothing lasts on me" is describing **physics, not their
+   body** — the skin block (S1–S3) would otherwise mislabel them a vanisher and route them
+   to a concentration fix that cannot help. Check the profile before interpreting S1.
+
 **Must never contain:** a score, a normative comparison, any mention of smell loss or
 disease, any personality description, or any claim about the user's genetics.
+
+---
+
+## Ordering and length — two rules from the §11 audit
+
+**1. Randomise the core block after the first three items.** Question order primes and
+anchors later answers; the standard mitigation is randomising order among independent items,
+and our smells *are* independent. But the opening items are doing engagement work. **Keep
+items 1–3 fixed (petrol, Play-Doh, leather), randomise 4–15, and log the seed** so order
+effects stay measurable.
+
+**2. Show an honest progress indicator from the first screen.** Survey completion falls
+steeply with length — roughly **83% at 1–3 questions, 65% at 4–8, 56% at 9–14, and 42% at
+15+** — and the mechanism is *regret*: people start, discover it is longer than expected, and
+leave. Tier 1 is ~18 questions.
+
+Those benchmarks come from surveys with no payoff, and entertainment quizzes with a desirable
+result sustain far more, so this is not a reason to cut Tier 1. It **is** a reason to remove
+the surprise entirely: show the length up front, show progress throughout, and front-load the
+divisive fun so the first twenty seconds earn the next seventy. Also **log drop-off per
+question** — if one item bleeds users, cut it (a free §9.2 diagnostic).
+
+---
+
+## Instrumentation — collect these silently on every session
+
+None of this is visible to the user. All of it is free, and it is what makes the dataset
+worth anything (NOSE-TEST §9.6).
+
+| Capture | Why |
+|---|---|
+| **Per-item response latency** | Dual-use: fast answers signal strong automatic preference, and sub-800 ms answers flag as unread |
+| **Straight-line flag** | Identical answers across all 14 core items = likely careless |
+| **Total session duration** | The single most reliable careless-responding detector in the literature |
+| **Kitchen Calibration compliance, per item** | Splits live-stimulus from memory answers — the §9.4 experiment, free, from day one |
+| **Congestion flag** | From Screen 0. Down-weight, never discard |
+| **One repeated item** | Ask a Tier 1 item again at the end of Tier 2. Disagreement flags the session *and* yields a per-session reliability estimate |
+
+**Flagged sessions are down-weighted in aggregate, never blocked and never accused.** The
+user still gets their result; we simply trust it less internally.
+
+**No traditional attention checks.** "If you are reading this, select option three" works and
+would wreck the tone. This quiz's reach depends on being charming enough to share, and the
+passive methods detect better anyway.
+
+**Reliability target.** Email a sample of users a few weeks out and ask them to retake it.
+Published olfactory tests reproduce pleasantness ratings at **r ≈ 0.81** and intensity at
+**r ≈ 0.63**. If our valence items land near 0.8, *"the most accurate fragrance quiz"* is a
+defensible claim with a number behind it — and **no fragrance quiz has ever published a
+reliability coefficient.** Cost: one email.
 
 ---
 

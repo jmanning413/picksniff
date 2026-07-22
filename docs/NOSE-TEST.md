@@ -387,6 +387,23 @@ liking *because* familiarity means you have accumulated associations.
 **Which means the most informative question about someone's nose is biographical, not
 chemical.**
 
+*And the biography starts earlier than anyone would guess.* Mennella et al. (2001) had one
+group of mothers drink carrot juice during the last three weeks of pregnancy and water while
+breastfeeding, a second group the reverse, and a third water throughout. Infants exposed to
+carrot **either in amniotic fluid or in breast milk** showed fewer negative facial
+expressions when fed carrot-flavoured cereal than unexposed controls.
+
+Flavours from the maternal diet cross into amniotic fluid and are swallowed by the fetus, so
+**the flavour principles of a culture are experienced before the first solid meal.** Odour
+preference formation begins before birth.
+
+Two things follow. It explains why preferences feel innate while being learned — the
+learning simply started before memory did, which is exactly why people insist "I've just
+always hated that smell." And it makes **childhood-anchored questions legitimate probes**:
+what a childhood kitchen smelled like is reaching toward the actual formative window in a
+way that adult preference questions cannot. It also sharpens §2.5's localisation point —
+culture reaches the nose through diet *in utero*, well before anyone chooses anything.
+
 *How to capture it cheaply.* Free-text ("what does this remind you of?") is unscoreable at
 scale. But we do not need the *content* of the association — only its **valence**. So the
 familiarity toggle proposed in §2.7b should be three-state rather than binary:
@@ -585,6 +602,277 @@ This is also why the anosmia warning (§3.4) is worth more than any positive rec
 it might displace: **preventing one bad purchase beats surfacing one more good option**, and
 almost no product in this market is built that way, because a retailer's loss function is
 the opposite of the customer's.
+
+### 2.7i Food preference as a second measurement of the same sense
+
+Joseph, 2026-07-21: *"research how people liking certain foods guarantees them to like
+certain scents."* Guarantee is too strong — §2.7j says exactly why — but the underlying link
+is the strongest one in this entire document, because it is not a correlation between two
+things. **It is largely the same sense, measured through a different opening.**
+
+#### Why the link is so strong
+
+**Flavour is mostly smell.** Retronasal olfaction — aroma travelling from the mouth up
+behind the palate to the nasal mucosa — is the dominant contributor to what people call
+taste. When someone says they love coffee, most of what they are reporting is an olfactory
+judgement.
+
+So food preference is not a proxy for odour preference. For the aroma component it is
+**odour preference already collected**, by a person who has sampled it hundreds of times
+under natural conditions across years. That is a far richer measurement than any single
+quiz item could produce, and it is sitting there unused.
+
+**And many food and perfume materials are literally identical:**
+
+| Food | Material | Dimension |
+|---|---|---|
+| Vanilla | vanillin | D11 |
+| Citrus peel | limonene | D1 |
+| Coffee | pyrazines, furfuryl | D12 |
+| Peach, apricot | γ-lactones | D10 |
+| Coconut | γ-nonalactone | D10 |
+| Almond, marzipan | benzaldehyde | D8, D11 |
+| Cinnamon, clove | cinnamaldehyde, eugenol | D19 |
+| Blackcurrant | cassis thiols | D9 |
+| Grapefruit | thiols | D1 |
+| Blue cheese, aged meat | sulfur, animalic volatiles | D17 |
+| **Truffle, celery** | **androstenol / androstenone** | **D17** |
+
+#### The three findings worth acting on
+
+**1. Sweet-liking is a stable trait and it gates gourmand.**
+
+Research identifies three reproducible phenotypes — **extreme sweet likers, moderate sweet
+likers, and sweet dislikers** — classified by whether liking rises, peaks, or falls as sugar
+concentration increases. The phenotype is **trait-like and stable across different
+sweeteners**, not a passing mood.
+
+And the direct bridge to odour: **odour pleasantness increased after pairing with sucrose
+only for participants who like sweet taste.** Food preference gated whether an odour
+preference could even be learned.
+
+This matters enormously in fragrance because **gourmand is one of the largest and most
+polarising categories** — vanilla, caramel, praline, sugar, Black Opium, La Vie Est Belle,
+the entire Angel lineage. A sweet-disliker will reject those regardless of how well their
+accords otherwise match. One question about dessert predicts a whole category.
+
+**2. Food neophobia predicts both adventurousness and a response-style bias.**
+
+The Food Neophobia Scale is a validated ten-item instrument. Neophobics **rated odours as
+less pleasant *and* less intense, and sniffed them less vigorously.**
+
+Two separate uses fall out:
+
+- **A second route to D22.** Food neophobia reaches adventurousness without asking about
+  chilli, which helps for anyone who simply does not eat spicy food for cultural reasons.
+- **A response-style correction, which is the more interesting one.** Neophobia depresses
+  *both* pleasantness and intensity ratings — that is a scale-use bias affecting **every
+  answer in the quiz**, not just food items. One or two neophobia items give a global
+  calibration term that makes all the other answers more comparable between people. This is
+  the cheapest accuracy gain available anywhere in this document.
+
+**3. Truffle and celery contain the androstenone family.**
+
+Androstenol is present in black truffle at 40–60 ng/g, and androstenone occurs in boar
+saliva, **celery**, and truffle. That is the same molecule behind the OR7D4 specific anosmia
+in §3.2 — roughly 31% of people cannot smell it, and genotype explains 40% of intensity
+variance.
+
+*Honesty check.* The popular story that pigs hunt truffles because of the pheromone is
+**contradicted** by experiment: pigs responded to truffle extract but **ignored purified
+androstenol**, so other volatiles must drive detection. And truffle is a poor quiz item on
+familiarity grounds — most people have never eaten it, and §2.7b says unfamiliar items
+return uninformative neutrals.
+
+**Celery is the usable version**: universally familiar, cheap, divisive, and it contains the
+molecule. Flagged as **speculative** — celery aversion may be driven by phthalides rather
+than androstenone, and I found no study testing celery liking against OR7D4 genotype. Worth
+including precisely *because* it is testable: if celery answers correlate with the other
+androstenone probes in live data, that is a novel finding worth publishing (`NOSE-DATA.md`
+§6).
+
+#### 2.7j Why it is a correlation and never a guarantee
+
+Three specific reasons, each independently sufficient:
+
+**Liking to eat is not wanting to wear.** Liking and wanting are distinct constructs in
+olfaction (§2.7). Coffee is delicious and almost nobody wants to smell like a café. Food
+preference predicts the *hedonic* response to a material; it does not predict willingness to
+wear it on skin all day.
+
+**Orthonasal and retronasal are different pathways.** This is the sharpest limit and it is
+neurological rather than psychological: **retronasal odour perception requires taste cortex
+while orthonasal perception does not.** The same molecule arriving through the mouth and
+through the nostrils is processed differently. Transfer between them is real but lossy, and
+that is a fact about brain architecture, not about our instrument.
+
+**Concentration and context differ.** Food aroma at eating concentration and perfume on skin
+at wearing concentration sit at different points on the inverted-U (§2.7b). Loving vanilla
+in a custard says little about a vanilla extrait at full strength.
+
+**So food items belong in the quiz as strong priors, weighted below direct odour items on
+the wearing question and above them on the hedonic one.** Never phrase a result as *"you
+like cinnamon, so you'll love this."*
+
+### 2.7k Citrus — a genuine gap in v3, and what fixing it changed
+
+Joseph, 2026-07-21: *"what about citruses, your research seems incomplete."* He was right, and
+the error was a repeat of the one his rain question already caught.
+
+**How it happened.** §6 cut "zesting a lemon" from the core set for having near-zero
+**valence**-split — nearly everyone likes lemon. But §6's own refinement says there are *two*
+kinds of divisiveness, and citrus was never checked for **intensity**-split. Meanwhile
+**Citrus appears in 190 of 748 catalog entries**, making it the sixth most common accord we
+carry. One weak Tier 2 item for a quarter of the catalog is indefensible.
+
+#### Finding 1 — the dimension was wrong: split D1
+
+Sweet citrus and bitter citrus are not one thing. Sweet orange and mandarin sit at one end;
+bergamot, grapefruit, petitgrain, and bitter orange at the other — and the divide is
+**genetically influenced**, which D1 as originally written could not express.
+
+- **TAS2R38** bitter-receptor haplotypes: **PAV** (taster) versus **AVI** (non-taster).
+- **PROP supertasters disliked bitter naringin solutions significantly more** than tasters
+  or non-tasters, and PROP sensitivity was associated with **reduced acceptability of
+  grapefruit juice.**
+- Response to naringin in unsweetened grapefruit juice is a **fairly good predictor of PROP
+  taster status**, and TAS2R38 plus TAS2R19 variation partly explains lower liking of
+  higher-naringin grapefruit drinks.
+
+So D1 splits into **D1 (citrus-sweet)** and **D1b (citrus-bitter)**. Bergamot alone justifies
+this: it opens an enormous share of masculine fragrance, and it is a *bitter* citrus.
+
+**Important caveat on mechanism.** TAS2R38 is a **taste** receptor, not an olfactory one. It
+predicts grapefruit *juice* acceptance through bitterness on the tongue. Whether it predicts
+grapefruit *fragrance* liking is **untested** — the orthonasal/retronasal gap in §2.7j
+applies at full force.
+
+There is a plausible indirect route worth flagging as a hypothesis: supertasters have denser
+fungiform papillae and correspondingly more trigeminal innervation, so **PROP status may
+predict D23 trigeminal sensitivity rather than D1b directly.** That is testable in live data
+against the onion and spice items, and it would be a novel result either way.
+
+#### Finding 2 — grapefruit thiol is extraordinary, but not a documented anosmia
+
+1-p-Menthene-8-thiol, the compound that makes grapefruit smell like grapefruit, has an odour
+threshold around **0.000034 ng/L in air** — among the lowest ever reported for a food
+odorant, and enantioselective (the (R)-(+) form is roughly 4× more detectable than (S)-(−)).
+
+**But I could not find documented individual variation in sensitivity to it.** Thiol
+perception generally involves OR2T11 and copper-dependent amplification (§2.7 sources), and
+sulfur-sensitivity polymorphisms exist — but nothing specific to grapefruit mercaptan.
+**Do not mark grapefruit as an anosmia probe (★).** It is a preference item.
+
+#### Finding 3 — the actionable one: citrus is where expectations, not fit, are the advice
+
+Citrus materials are small and volatile. Limonene is 136 g/mol with high vapour pressure;
+citrus oils typically fade within **15–30 minutes**, and top notes generally last 15–120.
+Roughly, **every 10 °C rise doubles the evaporation rate** — the underlying physical
+chemistry here is uncontroversial even though the specific figures circulating are
+blog-sourced and should not be quoted as precise. Perfumers anchor citrus with resins like
+benzoin and labdanum precisely because it will not stay on its own.
+
+**This makes citrus the one accord where the honest advice is about expectations rather than
+suitability:**
+
+> *"You'll love this. It will also be mostly gone in an hour. That's the material, not your
+> skin — citrus molecules are small and they leave fast. If you want it to last, look for
+> one anchored with amber or woods."*
+
+Two things follow for the engine:
+
+1. **Do not let citrus lovers self-diagnose a skin problem.** A user reporting "nothing
+   lasts on me" whose profile is citrus-heavy is describing **physics**, not their body.
+   That distinction matters because the skin block (§script S1–S3) would otherwise mislabel
+   them a "vanisher" and route them toward a concentration fix that will not help.
+2. **Down-weight citrus recommendations in hot climates**, and pair the weather-aware daily
+   pick (§2.7e) with this: citrus in summer heat is the worst-case longevity combination,
+   even though summer is exactly when people reach for it.
+
+#### The new questions
+
+| Question | Options | Maps to |
+|---|---|---|
+| **Grapefruit — refreshing, or too bitter?** | Refreshing · Depends · Too bitter | **D1b**, plus a **TAS2R38 / supertaster** proxy and a candidate D23 predictor |
+| Zesting a lemon or orange *(kitchen item)* | standard four-option | **D1** |
+
+Grapefruit is the item citrus was missing: **genuinely divisive, genetically grounded,
+universally familiar, instantly answerable, and shareable** — "are you a supertaster?" is a
+concept people already enjoy. It belongs in Tier 1. Lemon stays a Tier 2 kitchen item, where
+its near-universal liking costs us little.
+
+### 2.7l Burnt food, and why "rare or well done?" is one of the best items in the set
+
+Joseph, 2026-07-21, first as *"people who enjoy burnt food"* then sharpened to *"rare vs well
+done steak."* The sharpening matters — the second version is a far better question — and the
+chemistry underneath is as literal as pencil-shavings-are-cedar.
+
+#### The mapping is not an analogy
+
+Burning wood breaks **lignin** down into **guaiacol** and **syringol**. Guaiacol carries the
+smoky flavour; syringol carries the smoky smell. On a grill these stick to the moist surface
+of the meat, while the surface itself undergoes the **Maillard reaction**, throwing off
+pyrazines and the savoury complexity of a crust.
+
+Now the perfumery side:
+
+- **Birch tar oil** is made by **pyrolysis of birch bark and wood** at 400–600 °C in sealed
+  retorts.
+- **Cade oil** is made by **destructive distillation of juniper heartwood**.
+- Both are rich in **phenols, cresols, and guaiacol** — and both are the backbone of the
+  classic leather accords: *Cuir de Russie*, *Bandit*, the whole Russian-leather family.
+
+> **The leather note in perfumery is made by burning wood. It is the same chemistry as the
+> char on a steak.**
+
+Someone who reaches for a well-done crust is reporting a preference about **guaiacol** — the
+identical molecule that makes birch tar read as leather. This item therefore lands on three
+dimensions at once: **D16 (smoke-incense)**, **D17 (leather-animalic)**, and **D12
+(gourmand-roasted, via Maillard pyrazines)**.
+
+#### A possible receptor, flagged as unconfirmed
+
+Reporting on peated whisky attributes guaiacol perception to the olfactory receptor
+**OR10G4**, and notes that people are genetically more sensitive to guaiacol than to most
+phenols — guaiacol appearing in whisky, wine, roasted coffee, bacon, and smoked fish.
+
+**Source quality: whisky press, not primary literature.** I could not confirm OR10G4–guaiacol
+from a peer-reviewed source in this session. It is plausible and consistent with the pattern
+established for OR7D4, OR5A1, and OR4D6, but **do not mark this item ★ and do not state the
+receptor anywhere user-facing** until it is confirmed. Treated as a preference item with a
+promising hypothesis attached.
+
+#### Why "rare or well done" beats "do you like burnt food"
+
+1. **It is an identity, not an opinion.** People answer instantly and defend the answer.
+   Almost nobody is undecided.
+2. **It is a repeated real choice**, not a hypothetical — textbook §2.6 experience anchoring.
+3. **It splits a room** on valence, hard.
+4. **It is socially legible.** People already argue about this, which is exactly the property
+   that made the gasoline and cilantro items work.
+
+#### The honest caveats
+
+- **It is not purely aromatic.** Rare-versus-well-done is also about texture, moisture, food
+  safety anxiety, and family habit. Some of the signal is noise for our purposes. Weight it
+  below the direct smoke items (incense, leather jacket) rather than above them.
+- **A large minority does not eat beef**, for dietary, religious, or ethical reasons. The
+  item needs a clean, unremarkable opt-out — *"I don't eat steak"* — that is not treated as a
+  missing answer or a personality signal. Offer **toasted bread, dark or blond** as the
+  substitute: same Maillard and pyrolysis axis, no meat.
+- **Do not make health claims.** Charred meat and PAHs are a real toxicology topic (crude
+  birch tar has to be vacuum-distilled from ~1000 ppm benzo[a]pyrene to under 10 ppm before
+  perfumery use). None of that belongs anywhere near a fragrance quiz.
+
+#### Where it goes
+
+**Tier 2 food block**, not Tier 1 — D16 and D17 already have direct probes there via church
+incense and the leather jacket. But it is **not redundant with them**, and the redundancy is
+the point: if someone loves a charred crust and hates church incense, that divergence is
+itself informative. It separates *liking a smell* from *wanting to wear it* (§2.7j) and flags
+context-dependence that neither item alone would reveal.
+
+Promote to Tier 1 only if live data shows it outperforming a weaker core item.
 
 ### 2.8 Covariates: age matters a lot, sex barely matters at all
 
@@ -786,7 +1074,8 @@ See §6 for why these are deliberately kept out of the olfactory score.
 
 | # | Dimension | Anchor materials | Rolls up to |
 |---|---|---|---|
-| D1 | Citrus-bright | limonene, bergamot, neroli, petitgrain | Citrus |
+| D1 | **Citrus-sweet** | limonene, sweet orange, mandarin, lemon zest | Citrus |
+| **D1b** | **Citrus-bitter** *(split from D1 — see §2.7k)* | bergamot, grapefruit, petitgrain, bitter orange, neroli's green facet | Citrus |
 | D2 | Green-crushed | cis-3-hexenol, galbanum, violet leaf, fig leaf | Green |
 | D3 | Aquatic-ozonic | calone, helional, sea salt, melon | Aquatic |
 | D4 | Clean-musk | galaxolide, habanolide, cotton | Fresh |
@@ -1308,7 +1597,69 @@ fragrances.
 
 All three outcomes are useful, which is what a good experiment looks like.
 
-**None of the four requires new infrastructure beyond the wear log.**
+**9.5 Test–retest reliability — the number that decides whether "most accurate" is checkable**
+
+An instrument that gives you a different answer next Tuesday measures nothing. The
+literature already tells us what to expect, and it independently confirms a call made in
+§2.6 from completely different evidence.
+
+Across ten olfactory tests administered twice to 57 people aged 18–83:
+
+| Measure | Test–retest r |
+|---|---|
+| **Pleasantness** | **0.81** ← highest of all measures |
+| Intensity | 0.63 |
+| Warmness | 0.60 |
+| Coldness | 0.63 |
+
+**Valence is the stable half. Intensity is the fragile half.** §2.6 reached that conclusion
+from the mental-imagery literature — that self-reports of smell *strength* track imagination
+rather than performance. This is an entirely independent line of evidence arriving at the
+same place, and it puts a number on the gap: **0.81 versus 0.63.**
+
+Three consequences:
+
+1. **Weight valence answers above intensity answers**, roughly in proportion to their
+   reliabilities. This is now an evidence-backed weighting rather than a hunch.
+2. **We have a target.** Retest a sample of users after a few weeks. If our valence items
+   reproduce near **r ≈ 0.8**, the instrument is performing at the level of published
+   olfactory tests, and *"the most accurate fragrance quiz"* becomes a defensible claim with
+   a number attached. If it comes in far below, we know before anyone else tells us.
+3. **Retest is cheap for us and impossible for competitors.** No lab, no odorants — just
+   email a subset and ask them to take it again. **No fragrance quiz on the internet has
+   ever published a reliability coefficient.** Being the first would be a genuine and
+   durable differentiator, and it costs one email.
+
+**9.6 Careless responding — mandatory if this goes viral**
+
+The Nose Test is designed to be shareable (§2.5), which means a meaningful share of
+respondents will click through without reading. Careless responding poisons three things at
+once: the individual's profile, the §9.2 item diagnostics, and the aggregate dataset that
+`NOSE-DATA.md` §6 wants to publish.
+
+The literature's finding is convenient: **completion time is the single most reliable
+indicator of careless responding**, and it is free to collect. Straight-lining (long runs of
+identical answers) is the other main pattern.
+
+**Recommended controls, in order of value:**
+
+| Control | How | Cost |
+|---|---|---|
+| **Per-item response latency** | Flag items answered under ~800 ms as likely unread | Free — and §2.7 already wants latency as a preference-strength signal, so this is **dual-use** |
+| **Straight-line detection** | Flag sessions answering identically across all 14 core items | Free |
+| **One repeated item** | Ask a single early item again near the end; disagreement flags the session **and** yields a per-session reliability estimate | One extra tap |
+| **Total session time floor** | Flag implausibly fast completions | Free |
+
+**Deliberately not recommended: traditional attention checks.** The standard technique
+("if you are reading this, select option three") works, and it would wreck the tone. This
+quiz's value depends on being charming enough to share; a bureaucratic trap question in the
+middle of "do you like the smell of petrol" breaks the spell. **Use the passive methods —
+they are free, invisible, and the evidence says timing is the better detector anyway.**
+
+Flagged sessions should be **down-weighted in the aggregate, never blocked or accused.** A
+user who rushed still gets their result; we simply trust it less internally.
+
+**None of the six requires new infrastructure beyond the wear log.**
 
 ---
 
@@ -1332,6 +1683,110 @@ All three outcomes are useful, which is what a good experiment looks like.
 - **Question phrasing is a voice decision, not a science one.** "A worn shirt of someone
   you love" is doing careful work to ask about animalic musk without being off-putting.
   That needs Joseph's ear.
+
+---
+
+## 11. Completeness audit (2026-07-21)
+
+Joseph asked for a check that nothing was missing. This is the systematic pass. It found
+**two new items worth adding, one decision that needs revisiting, three confirmations, and
+four genuine coverage gaps.**
+
+### 11.1 New items found
+
+**Asparagus — the best intensity-split item found so far.** The ability to detect the
+sulfurous odour in urine after eating asparagus is associated with **rs4481887 near OR2M7**,
+inside a linkage block containing ten olfactory receptor genes on chromosome 1q44. Roughly
+**40% report detecting it and 60% do not**; other work puts anosmia near 58% of men and 62%
+of women.
+
+Why it is excellent: famous, socially discussed, instantly answerable, experience-anchored,
+and split almost 40/60 — close to the theoretical maximum information per tap. It probes
+**sulfur/thiol sensitivity**, which matters in perfumery (cassis, blackcurrant, grapefruit
+mercaptan) and is otherwise unprobed.
+
+**The confound, which must be documented:** the trait has two components — *excreting* the
+compounds and *perceiving* them. About **8% of people do not produce a detectable odour at
+all**, so a "no" conflates non-excretion with anosmia. Real but modest contamination. Keep
+the item, weight it slightly below the cleaner ★ probes.
+
+**Green bell pepper — a direct galbanum probe.** Green pepper's characteristic aroma is
+**3-isobutyl-2-methoxypyrazine (IBMP)**, detectable around 0.01 nM. Its close relative
+**sBMP was identified in galbanum oil** — the defining material of D2 green-crushed. So
+"green bell pepper" is not an analogy for galbanum; it is the same chemical family, and
+specific anosmias to single odorants of this kind are documented. Promotes green pepper from
+reserve into Tier 2 proper.
+
+### 11.2 A decision that needs revisiting: Tier 1 may still be too long
+
+Survey completion benchmarks by question count: **1–3 questions ≈ 83%, 4–8 ≈ 65%, 9–14 ≈
+56%, 15+ ≈ 42%.** Drop-off rises sharply past roughly 7–8 minutes, and the mechanism is
+*regret* — people start, see more questions than expected, and leave.
+
+Tier 1 is ~18 questions / 22 taps. On these benchmarks that predicts **~42% completion**,
+which is not "the best quiz on the internet."
+
+**Caveat that stops this being decisive:** these are benchmarks for *surveys* — no payoff, no
+entertainment. Entertainment quizzes with a desirable result routinely sustain 8–12 questions
+at far higher completion. The Nose Test has a genuine payoff and inherently fun items.
+
+**What it does justify, concretely:**
+1. **An honest, visible progress indicator from question one.** The mechanism is regret at
+   unexpected length; removing the surprise removes most of the effect.
+2. **Front-load the divisive fun** (petrol, Play-Doh, cilantro) so the first 20 seconds earn
+   the next 70.
+3. **Tiering was the right call** and this is the strongest evidence for it.
+4. **Instrument drop-off per question.** If a specific item bleeds users, cut it. This is a
+   §9.2 diagnostic we get for free.
+
+### 11.3 Confirmations
+
+**The two-axis architecture is validated by the odor-space literature.** Work mapping the
+semantic space of odour descriptors (Dravnieks's 146-descriptor atlas is the field's gold
+standard) consistently finds **pleasantness as the dominant dimension and trigeminal
+sensation as a second salient one.** That is exactly the split this document arrived at
+independently: valence as the primary axis, D23 trigeminal as a separate top-level axis
+rather than a sub-facet. Good sign.
+
+**Order effects are real, and our ordering is a deliberate trade.** Earlier questions prime
+and anchor later ones; the standard mitigation is randomising order where items are
+independent. Our core smells *are* independent, but §Script deliberately orders them to hook
+first. **Resolution: randomise within the core block after the first three.** Keep the
+opening hooks fixed for engagement, randomise the remainder for validity, and log the seed so
+order effects are measurable later.
+
+**Hormonal state modulates olfaction, and confirms the no-health-questions rule.** Sensitivity
+to musk and androstenone is elevated in the periovulatory phase; oral contraceptive users
+differ from non-users; discrimination drops in the luteal phase; results overall remain
+inconclusive. This is real within-person variance affecting exactly our ★ musk probes — which
+means it is a **noise source in test–retest (§9.5), not a variable to collect.** §2.7g stands:
+measure the outcome, never model the mechanism. It is also another argument for the wear log,
+which averages over cycle phase automatically.
+
+### 11.4 Genuine coverage gaps
+
+Auditing all 22 olfactory dimensions against the items that probe them:
+
+| Dimension | Probe status |
+|---|---|
+| **D14 woody-creamy** (sandalwood, cashmeran) | **No probe at all.** Searched for an everyday reference smell and found none that is both familiar and divisive in Western markets. Sandalwood soap would work in South Asia — a localisation item, not a global one. **Accept the gap**; recover D14 from note pyramids post-enrichment instead |
+| **D7 floral-white-indolic** (tuberose, jasmine, orange blossom) | **Thin** — only sunscreen, and only via its ylang facet. A major fragrance family with almost no coverage |
+| **D15 amber-resinous** | **Thin** — reached only obliquely via petrol and incense. Amber is conventionally **labdanum + benzoin + vanilla**, so it is partly inferable from D11 and D16, but not directly probed |
+| **D19 spice-warm** (cinnamon, clove, nutmeg) | **Thin** — only licorice, which is really anise and loads D12 as much as D19 |
+
+**These four are the honest remaining holes.** D14 appears unfixable by reference smell and
+should be handled downstream. D7, D15, and D19 are fixable with reserve items and should be
+addressed before launch rather than after.
+
+### 11.5 Checked and deliberately skipped
+
+- **Valence/arousal as a second emotional axis.** Odour affect is genuinely two-dimensional
+  (pleasant–unpleasant × calming–activating), with a U-shaped relation between them, and
+  arousal is *not* the same as intensity. Tempting, and skipped for v1: it is a property of
+  the *fragrance's effect*, not of the *person's nose*, so it belongs in output copy and
+  occasion matching rather than in the profile. Revisit after launch.
+- **Sandalwood-specific perception differences.** Searched; found only retailer content, no
+  primary individual-difference data. Nothing to build on.
 
 ---
 
@@ -1386,5 +1841,18 @@ All three outcomes are useful, which is what a good experiment looks like.
 - [Herz, Changing odor hedonic perception through emotional associations in humans](https://escholarship.org/uc/item/6zd9h5mv)
 - [Olfaction, Emotion and Associative Learning: Effects on Motivated Behavior, Motivation and Emotion](https://link.springer.com/article/10.1007/s11031-004-2389-x)
 - [Olfactory Dysfunction in Allergic Rhinitis, Clinical Reviews in Allergy & Immunology](https://link.springer.com/article/10.1007/s12016-024-09016-z)
+- [Retronasal odor perception requires taste cortex but orthonasal does not, PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6604050/)
+- [Quantifying Sweet Taste Liker Phenotypes, Nutrients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357166/)
+- [Stability of individual differences in sucralose taste preference, PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6516736/)
+- [Odor–Taste Interactions in Food Perception, Chemical Senses](https://pmc.ncbi.nlm.nih.gov/articles/PMC8130510/)
+- [Food neophobia, odor evaluation and exploratory sniffing behavior, Appetite](https://pubmed.ncbi.nlm.nih.gov/9792731/)
+- [Food Neophobia, Odor and Taste Sensitivity, and Overall Flavor Perception in Food, PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8702209/)
+- [Development of a scale to measure the trait of food neophobia in humans, PubMed](https://pubmed.ncbi.nlm.nih.gov/1489209/)
+- [The secret of truffles: a steroidal pheromone? Cellular and Molecular Life Sciences](https://link.springer.com/article/10.1007/BF01989905)
+- [A study of the test–retest reliability of ten olfactory tests, Chemical Senses](https://academic.oup.com/chemse/article-abstract/20/6/645/380168)
+- [Mennella et al., Prenatal and postnatal flavor learning by human infants, Pediatrics 2001](https://pubmed.ncbi.nlm.nih.gov/11389286/)
+- [Influence of maternal diet on flavor transfer to amniotic fluid and breast milk: systematic review](https://pubmed.ncbi.nlm.nih.gov/30982867/)
+- [Dealing with Careless Responding in Survey Data, Annual Review of Psychology](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-040422-045007)
+- [Too Fast, Too Straight, Too Weird: post hoc identification of meaningless data in internet surveys](https://www.researchgate.net/publication/258997762_Too_Fast_Too_Straight_Too_Weird_Post_Hoc_Identification_of_Meaningless_Data_in_Internet_Surveys)
 - [Compound Interest, What Causes the Smell of New & Old Books?](https://www.compoundchem.com/2014/06/01/newoldbooksmell/)
 - [Hasbro trademarks the Play-Doh scent (official description)](https://newsroom.hasbro.com/news-releases/news-release-details/hasbro-trademarks-favorite-smell-childhood-play-doh-scent)

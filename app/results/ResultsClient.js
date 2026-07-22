@@ -204,6 +204,7 @@ const MODE_COPY = {
   mood:     { eyebrow: 'Mood Results',   heading: 'Scents For Your Mood',      sub: 'Matched to how you\'re feeling right now.' },
   seasonal: { eyebrow: 'Seasonal Picks', heading: 'Your Seasonal Matches',     sub: 'Tuned to the season and your preferences.' },
   astrology:{ eyebrow: 'Star Scents',    heading: 'Your Zodiac Matches',       sub: 'Written in the stars, scored to your sign.' },
+  nose:     { eyebrow: 'Nose Test',      heading: 'Matched To Your Nose',      sub: 'Built from how you react to smells you already know.' },
 }
 
 export default function ResultsClient({ fragrances, alsoLiked, genders, tier, vibe, accords, isLoggedIn, wishlistMap, ownedMap, mode }) {

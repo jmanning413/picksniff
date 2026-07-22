@@ -17,6 +17,16 @@ function IconPerfume() {
   )
 }
 
+function IconNose() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#3D7A16" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M14 5 C14 11 10 14 10 18.5 C10 21 12 22.5 14 22" />
+      <path d="M14 22 C17 23.5 21 22 22 18.5" />
+      <circle cx="17.5" cy="19.5" r="1" fill="#3D7A16" stroke="none" />
+    </svg>
+  )
+}
+
 function IconStar() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#3D7A16" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
@@ -79,6 +89,14 @@ const QUIZZES = [
     description: 'Answer 4 questions (gender, budget, vibe, and accords) and get matched to your signature scent from 750 fragrances.',
     cta: 'Find My Signature Scent',
     accent: true,
+  },
+  {
+    href: '/quiz/nose',
+    icon: <IconNose />,
+    title: 'The Nose Test',
+    description: 'Twenty-one questions about smells you already know, from petrol to Play-Doh to cut grass. Builds a profile of how your nose actually works, then matches it.',
+    cta: 'Test My Nose',
+    accent: false,
   },
   {
     href: '/quiz/personality',

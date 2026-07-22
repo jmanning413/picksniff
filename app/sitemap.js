@@ -4,7 +4,7 @@ export default async function sitemap() {
   const base = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://picksniff.com'
 
   const staticRoutes = [
-    '', '/quiz', '/quizzes', '/quiz/personality', '/quiz/mood', '/quiz/seasonal',
+    '', '/quiz', '/quizzes', '/quiz/nose', '/quiz/personality', '/quiz/mood', '/quiz/seasonal',
     '/quiz/astrology', '/quiz/gift', '/encyclopedia', '/accords', '/trending',
     '/seasonal', '/notes', '/about', '/privacy', '/terms', '/contact', '/support',
   ].map((path) => ({
